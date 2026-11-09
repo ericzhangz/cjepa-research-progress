@@ -1,0 +1,84 @@
+{
+  "train_pairs": 72,
+  "held_pairs": 24,
+  "retained_width": 16,
+  "read_parameters": 3072,
+  "fit": "ridge on true paired H1 latent differences",
+  "subsets": {
+    "held": 24,
+    "no_teleport_h1": 21,
+    "teleport_h1": 3
+  },
+  "methods": {
+    "native": {
+      "held": {
+        "latent_mse": 0.007008262909948826,
+        "contrast_mse": 0.002347661880776286
+      },
+      "no_teleport_h1": {
+        "latent_mse": 0.006172708235681057,
+        "contrast_mse": 0.0026830423157662153
+      },
+      "teleport_h1": {
+        "latent_mse": 0.012857142835855484,
+        "contrast_mse": 0.0
+      }
+    },
+    "tied_refit": {
+      "held": {
+        "latent_mse": 0.0467711016535759,
+        "contrast_mse": 0.0022478767205029726
+      },
+      "no_teleport_h1": {
+        "latent_mse": 0.046492647379636765,
+        "contrast_mse": 0.0025634951889514923
+      },
+      "teleport_h1": {
+        "latent_mse": 0.04872031509876251,
+        "contrast_mse": 3.854862734442577e-05
+      }
+    },
+    "row_read": {
+      "held": {
+        "latent_mse": 0.6655996441841125,
+        "contrast_mse": 0.00041824509389698505
+      },
+      "no_teleport_h1": {
+        "latent_mse": 0.6732442378997803,
+        "contrast_mse": 0.0003590908891055733
+      },
+      "teleport_h1": {
+        "latent_mse": 0.6120875477790833,
+        "contrast_mse": 0.0008323246729560196
+      }
+    },
+    "direct_latent_read": {
+      "held": {
+        "latent_mse": 0.808575451374054,
+        "contrast_mse": 0.00047073879977688193
+      },
+      "no_teleport_h1": {
+        "latent_mse": 0.8366142511367798,
+        "contrast_mse": 0.0004151873872615397
+      },
+      "teleport_h1": {
+        "latent_mse": 0.6123039126396179,
+        "contrast_mse": 0.0008595989202149212
+      }
+    },
+    "row_read_swapped": {
+      "held": {
+        "latent_mse": 0.6675043106079102,
+        "contrast_mse": 0.008037022314965725
+      },
+      "no_teleport_h1": {
+        "latent_mse": 0.6754209995269775,
+        "contrast_mse": 0.009066266007721424
+      },
+      "teleport_h1": {
+        "latent_mse": 0.6120875477790833,
+        "contrast_mse": 0.0008323246729560196
+      }
+    }
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "pairs": 96,
+  "train_pairs": 72,
+  "held_pairs": 24,
+  "held_clean_pairs": 18,
+  "held_teleported_pairs": 6,
+  "max_current_latent_pair_delta": 0.0,
+  "max_future_agent_pair_delta": 0.0,
+  "pixel_motion_error_clean": 2.2051037279731964e-07,
+  "physical_null_mse_clean": 312.5,
+  "readability": {
+    "past_latent": {
+      "latent_held_clean_explained": 0.91819242878998,
+      "motion_held_clean_explained": 0.9944485655644114,
+      "physical_held_clean_explained": 0.8954543018644482
+    },
+    "native_activation": {
+      "latent_held_clean_explained": 0.9155937693579949,
+      "motion_held_clean_explained": 0.9927829957716964,
+      "physical_held_clean_explained": 0.8975785467673576
+    },
+    "native_null": {
+      "latent_held_clean_explained": 0.9122132719014162,
+      "motion_held_clean_explained": 0.9935121175213851,
+      "physical_held_clean_explained": 0.893706166131776
+    },
+    "low_rank_carry": {
+      "latent_held_clean_explained": 0.8369736102144245,
+      "motion_held_clean_explained": 0.9406851208871357,
+      "physical_held_clean_explained": 0.9093861396888328
+    }
+  },
+  "rollout": {
+    "native": {
+      "held_latent_mse": [
+        0.007008265238255262,
+        0.013462242670357227
+      ],
+      "held_clean_pair_contrast_mse": [
+        0.0028298592660576105,
+        0.010873756371438503
+      ],
+      "held_clean_pair_contrast_rms": [
+        0.0,
+        0.0
+      ]
+    },
+    "context3": {
+      "held_latent_mse": [
+        0.006894400808960199,
+        0.013625849038362503
+      ],
+      "held_clean_pair_contrast_mse": [
+        0.002816143911331892,
+        0.010838263668119907
+      ],
+      "held_clean_pair_contrast_rms": [
+        0.0006828740006312728,
+        0.000676736468449235
+      ]
+    },
+    "feedback": {
+      "held_latent_mse": [
+        0.007005350664258003,
+        0.013432011939585209
+      ],
+      "held_clean_pair_contrast_mse": [
+        0.0028299877885729074,
+        0.010873745195567608
+      ],
+      "held_clean_pair_contrast_rms": [
+        3.144353468087502e-05,
+        1.5084682672750205e-05
+      ]
+    },
+    "erased": {
+      "held_latent_mse": [
+        0.007008265238255262,
+        0.013455066829919815
+      ],
+      "held_clean_pair_contrast_mse": [
+        0.0028298592660576105,
+        0.010873756371438503
+      ],
+      "held_clean_pair_contrast_rms": [
+        0.0,
+        0.0
+      ]
+    },
+    "swapped": {
+      "held_latent_mse": [
+        0.0070053040981292725,
+        0.013432015664875507
+      ],
+      "held_clean_pair_contrast_mse": [
+        0.0028297333046793938,
+        0.010873764753341675
+      ],
+      "held_clean_pair_contrast_rms": [
+        3.144353468087502e-05,
+        1.5084682672750205e-05
+      ]
+    }
+  }
+}

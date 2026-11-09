@@ -1,0 +1,96 @@
+{
+  "protocol": "P1A-v1",
+  "role": "finite_branch_diagnostic_not_new_method",
+  "host": "same_P0c_FourRoom_flat_LeWM_seed42",
+  "frozen": [
+    "encoder",
+    "predictor",
+    "action_embedding",
+    "P0c_probes"
+  ],
+  "horizons": [
+    4,
+    8,
+    16,
+    23
+  ],
+  "smoke_horizon": 1,
+  "raw_steps_per_model_step": 5,
+  "real_prefix_raw_steps": 10,
+  "candidates_per_root": 32,
+  "candidate_turn_after_model_blocks": 2,
+  "candidate_families": {
+    "stop": 1,
+    "constant_eight_directions": 8,
+    "left_or_right_turns": 16,
+    "random_heading_walks": 7
+  },
+  "split": {
+    "smoke": {
+      "roots": 4,
+      "root_seed_base": 715000,
+      "seed_offset": 0
+    },
+    "development": {
+      "roots": 16,
+      "root_seed_base": 716000,
+      "seed_offset": 10000
+    },
+    "assessment": {
+      "roots": 32,
+      "root_seed_base": 717000,
+      "seed_offset": 20000
+    }
+  },
+  "candidate_seed_base": 810000,
+  "goal_variant_seed_base": 910000,
+  "root_sampling": {
+    "room_crossings": 2,
+    "min_start_goal_euclidean": 80,
+    "attempts_cap_per_root": 1000
+  },
+  "active_distractors": 1,
+  "terminate_on_goal_collection_only": false,
+  "retarget_on_goal": false,
+  "methods": [
+    "stale_1",
+    "refresh_1",
+    "refresh_3"
+  ],
+  "score_primary": [
+    "native_terminal",
+    "frozen_xy_terminal"
+  ],
+  "score_secondary": [
+    "native_last2",
+    "frozen_xy_last2",
+    "privileged_map_xy_terminal"
+  ],
+  "goal_variants": 4,
+  "primary_goal_variant": 0,
+  "primary_horizon": 23,
+  "physical_labels": [
+    "terminal_euclidean",
+    "terminal_door_center_path",
+    "hit_any",
+    "first_hit_step"
+  ],
+  "bootstrap": {
+    "unit": "root",
+    "draws": 10000,
+    "seed": 20261106
+  },
+  "ranking": {
+    "physical_tie_atol": 1e-06,
+    "secondary_min_gap": 8,
+    "score_rtol": 1e-06,
+    "score_atol": 1e-08,
+    "tie_selection": "uniform_expectation"
+  },
+  "training": false,
+  "final_closed_loop_test": false,
+  "auto_expand_sample_size": false,
+  "t2g_included": false,
+  "reason_t2g_excluded": "exact released metric-to-encoder binding not established in attachments",
+  "reference_kernel_tests": "synthetic CPU only; real host equivalence must be checked locally"
+}

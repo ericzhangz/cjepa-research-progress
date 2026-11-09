@@ -1,0 +1,9 @@
+{
+  "max_prediction_delta_at_zero_gain": 0.0,
+  "max_readout_basis_residual": 1.6763806343078613e-08,
+  "max_basis_orthogonality_residual": 3.5762786865234375e-07,
+  "carry_shape": [
+    4,
+    16
+  ]
+}
