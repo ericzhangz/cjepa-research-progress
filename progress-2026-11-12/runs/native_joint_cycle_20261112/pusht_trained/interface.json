@@ -1,0 +1,16 @@
+{
+  "synthetic": {
+    "additive_nuisance_cancelled": true,
+    "incomplete_cycle_rejected": true,
+    "later_cycle_revises": true,
+    "same_command_pair_confounded": true,
+    "joint_nuisance_is_unidentifiable": true
+  },
+  "requests": 32,
+  "anchored": 24,
+  "rectangle_max_abs": 3.948807716369629e-07,
+  "post_attention_norm_delta": 1.1558623313903809,
+  "last_latent_delta": 0.0192185640335083,
+  "midpoint_defect": 0.00258830189704895,
+  "prefix_output_max_abs": 0.0
+}

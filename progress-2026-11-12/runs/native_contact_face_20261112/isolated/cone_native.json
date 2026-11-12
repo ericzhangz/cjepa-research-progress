@@ -1,0 +1,524 @@
+{
+  "clear_h1": {
+    "admitted": 0,
+    "changed_requests": 0,
+    "changed_and_true_face": 0,
+    "all": {
+      "n": 768,
+      "error": 7.1670047953717875,
+      "error_gain": 0.0,
+      "contrast_gain": 0.0
+    },
+    "changed": {
+      "n": 0,
+      "error": null,
+      "error_gain": null,
+      "contrast_gain": null
+    },
+    "same_face": {
+      "n": 190,
+      "error": 8.364204153018534,
+      "error_gain": 0.0,
+      "contrast_gain": 0.0
+    },
+    "isolated": {
+      "n": 174,
+      "error": 8.535121986383691,
+      "error_gain": 0.0,
+      "contrast_gain": 0.0
+    },
+    "position_gain_ci95": [
+      0.0,
+      0.0
+    ],
+    "contrast_gain_ci95": [
+      0.0,
+      0.0
+    ]
+  },
+  "clear_h2": {
+    "admitted": 0,
+    "changed_requests": 0,
+    "changed_and_true_face": 0,
+    "all": {
+      "n": 768,
+      "error": 13.008041554835279,
+      "error_gain": 0.0,
+      "contrast_gain": 0.0
+    },
+    "changed": {
+      "n": 0,
+      "error": null,
+      "error_gain": null,
+      "contrast_gain": null
+    },
+    "same_face": {
+      "n": 137,
+      "error": 18.793698717190637,
+      "error_gain": 0.0,
+      "contrast_gain": 0.0
+    },
+    "isolated": {
+      "n": 118,
+      "error": 18.091709921931997,
+      "error_gain": 0.0,
+      "contrast_gain": 0.0
+    },
+    "position_gain_ci95": [
+      0.0,
+      0.0
+    ],
+    "contrast_gain_ci95": [
+      0.0,
+      0.0
+    ]
+  },
+  "visual_current_h1": {
+    "admitted": 137,
+    "changed_requests": 109,
+    "changed_and_true_face": 67,
+    "all": {
+      "n": 768,
+      "error": 7.3186205914937785,
+      "error_gain": -0.15161579612199258,
+      "contrast_gain": -0.16405626938617376
+    },
+    "changed": {
+      "n": 109,
+      "error": 9.826519756483659,
+      "error_gain": -1.0682654258870672,
+      "contrast_gain": -1.1559194026475361
+    },
+    "same_face": {
+      "n": 190,
+      "error": 8.389064703176881,
+      "error_gain": -0.02486055015834738,
+      "contrast_gain": 0.01448543082322321
+    },
+    "isolated": {
+      "n": 174,
+      "error": 8.591241728707073,
+      "error_gain": -0.05611974232338133,
+      "contrast_gain": -0.025666825216364535
+    },
+    "position_gain_ci95": [
+      -0.2996467580080438,
+      -0.015030032330277833
+    ],
+    "contrast_gain_ci95": [
+      -0.30951811503797766,
+      -0.03557569579582535
+    ]
+  },
+  "visual_current_h2": {
+    "admitted": 56,
+    "changed_requests": 30,
+    "changed_and_true_face": 22,
+    "all": {
+      "n": 768,
+      "error": 13.055250935325068,
+      "error_gain": -0.04720938048978782,
+      "contrast_gain": -0.049152749685096385
+    },
+    "changed": {
+      "n": 30,
+      "error": 19.7923066921764,
+      "error_gain": -1.1062918482694462,
+      "contrast_gain": -1.5989227475150452
+    },
+    "same_face": {
+      "n": 137,
+      "error": 18.58631007278346,
+      "error_gain": 0.2073886444071759,
+      "contrast_gain": 0.11416777737596667
+    },
+    "isolated": {
+      "n": 118,
+      "error": 17.765274580910873,
+      "error_gain": 0.32643534102112315,
+      "contrast_gain": 0.19460766399630186
+    },
+    "position_gain_ci95": [
+      -0.1816296329706429,
+      0.07648806463994226
+    ],
+    "contrast_gain_ci95": [
+      -0.18437575987056296,
+      0.08070458736124687
+    ]
+  },
+  "visual_ray_h1": {
+    "admitted": 105,
+    "changed_requests": 105,
+    "changed_and_true_face": 70,
+    "all": {
+      "n": 768,
+      "error": 7.287621117672974,
+      "error_gain": -0.12061632230118728,
+      "contrast_gain": -0.07774131680190864
+    },
+    "changed": {
+      "n": 105,
+      "error": 9.484365372089623,
+      "error_gain": -0.8822222431172556,
+      "contrast_gain": -0.5686222028939604
+    },
+    "same_face": {
+      "n": 190,
+      "error": 8.696226727336931,
+      "error_gain": -0.33202257431839827,
+      "contrast_gain": -0.2860165438484657
+    },
+    "isolated": {
+      "n": 174,
+      "error": 8.912269152412128,
+      "error_gain": -0.37714716602843534,
+      "contrast_gain": -0.33883674348152154
+    },
+    "position_gain_ci95": [
+      -0.25869036107083676,
+      0.0015404120748876821
+    ],
+    "contrast_gain_ci95": [
+      -0.18851031421946168,
+      0.026008556262477812
+    ]
+  },
+  "visual_ray_h2": {
+    "admitted": 47,
+    "changed_requests": 47,
+    "changed_and_true_face": 31,
+    "all": {
+      "n": 768,
+      "error": 13.153952610522216,
+      "error_gain": -0.1459110556869354,
+      "contrast_gain": -0.09036945656875035
+    },
+    "changed": {
+      "n": 47,
+      "error": 19.33019105371319,
+      "error_gain": -2.5726861229695577,
+      "contrast_gain": -2.1456311751454304
+    },
+    "same_face": {
+      "n": 137,
+      "error": 19.320163014633458,
+      "error_gain": -0.5264642974428246,
+      "contrast_gain": -0.5690317945543858
+    },
+    "isolated": {
+      "n": 118,
+      "error": 18.70210402855943,
+      "error_gain": -0.6103941066274313,
+      "contrast_gain": -0.6847874037055707
+    },
+    "position_gain_ci95": [
+      -0.23960624825260957,
+      -0.05883753402345284
+    ],
+    "contrast_gain_ci95": [
+      -0.1942600423338241,
+      0.011569594973358976
+    ]
+  },
+  "visual_sweep_h1": {
+    "admitted": 105,
+    "changed_requests": 82,
+    "changed_and_true_face": 57,
+    "all": {
+      "n": 768,
+      "error": 7.188520851706272,
+      "error_gain": -0.021516056334486378,
+      "contrast_gain": -0.0026879101113839315
+    },
+    "changed": {
+      "n": 82,
+      "error": 9.25090452284784,
+      "error_gain": -0.2015162349376284,
+      "contrast_gain": -0.0251745727505227
+    },
+    "same_face": {
+      "n": 190,
+      "error": 8.433475489090654,
+      "error_gain": -0.06927133607212069,
+      "contrast_gain": -0.030411625734052226
+    },
+    "isolated": {
+      "n": 174,
+      "error": 8.625356880763892,
+      "error_gain": -0.09023489438020112,
+      "contrast_gain": -0.0597279248508402
+    },
+    "position_gain_ci95": [
+      -0.1239564667108446,
+      0.06928945734085604
+    ],
+    "contrast_gain_ci95": [
+      -0.0716653462577213,
+      0.06277836339796813
+    ]
+  },
+  "visual_sweep_h2": {
+    "admitted": 49,
+    "changed_requests": 24,
+    "changed_and_true_face": 18,
+    "all": {
+      "n": 768,
+      "error": 12.949348943703084,
+      "error_gain": 0.05869261113219517,
+      "contrast_gain": 0.05760891879322531
+    },
+    "changed": {
+      "n": 24,
+      "error": 18.092968364722136,
+      "error_gain": 1.1526964094664183,
+      "contrast_gain": 0.030706645816651317
+    },
+    "same_face": {
+      "n": 137,
+      "error": 18.611401517651313,
+      "error_gain": 0.1822971995393267,
+      "contrast_gain": 0.10014444233011059
+    },
+    "isolated": {
+      "n": 118,
+      "error": 17.88079890648814,
+      "error_gain": 0.21091101544386007,
+      "contrast_gain": 0.09120706694242282
+    },
+    "position_gain_ci95": [
+      -0.0006276615188894617,
+      0.12557025509784797
+    ],
+    "contrast_gain_ci95": [
+      -0.0230262891461466,
+      0.1479879386189601
+    ]
+  },
+  "exact_current_h1": {
+    "admitted": 152,
+    "changed_requests": 125,
+    "changed_and_true_face": 98,
+    "all": {
+      "n": 768,
+      "error": 7.3191381893518335,
+      "error_gain": -0.1521333939800477,
+      "contrast_gain": -0.2491428470807986
+    },
+    "changed": {
+      "n": 125,
+      "error": 8.432034012327277,
+      "error_gain": -0.9347075726134128,
+      "contrast_gain": -1.5307336524644268
+    },
+    "same_face": {
+      "n": 190,
+      "error": 7.726294527913287,
+      "error_gain": 0.6379096251052473,
+      "contrast_gain": 0.5953473629793138
+    },
+    "isolated": {
+      "n": 174,
+      "error": 7.879586540500504,
+      "error_gain": 0.6555354458831889,
+      "contrast_gain": 0.6187759231027974
+    },
+    "position_gain_ci95": [
+      -0.3033105911701332,
+      -0.012351802840980912
+    ],
+    "contrast_gain_ci95": [
+      -0.4605199430695039,
+      -0.05519178866720812
+    ]
+  },
+  "exact_current_h2": {
+    "admitted": 71,
+    "changed_requests": 36,
+    "changed_and_true_face": 33,
+    "all": {
+      "n": 768,
+      "error": 13.00565275242976,
+      "error_gain": 0.0023888024055172077,
+      "contrast_gain": -0.02497070083884367
+    },
+    "changed": {
+      "n": 36,
+      "error": 18.244341579306802,
+      "error_gain": 1.3660903740864465,
+      "contrast_gain": 1.3077097325879878
+    },
+    "same_face": {
+      "n": 137,
+      "error": 17.920564288759703,
+      "error_gain": 0.8731344284309356,
+      "contrast_gain": 0.8149598082209661
+    },
+    "isolated": {
+      "n": 118,
+      "error": 17.02465493512323,
+      "error_gain": 1.0670549868087726,
+      "contrast_gain": 0.9904757411013138
+    },
+    "position_gain_ci95": [
+      -0.12299817045471605,
+      0.12955569751502743
+    ],
+    "contrast_gain_ci95": [
+      -0.1569834582885492,
+      0.11035475093457475
+    ]
+  },
+  "exact_ray_h1": {
+    "admitted": 98,
+    "changed_requests": 98,
+    "changed_and_true_face": 93,
+    "all": {
+      "n": 768,
+      "error": 7.082342848199434,
+      "error_gain": 0.08466194717235244,
+      "contrast_gain": 0.036513763699971905
+    },
+    "changed": {
+      "n": 98,
+      "error": 7.1821060323511245,
+      "error_gain": 0.6634732186568026,
+      "contrast_gain": 0.28614867879161654
+    },
+    "same_face": {
+      "n": 190,
+      "error": 8.156078767260025,
+      "error_gain": 0.20812538575850964,
+      "contrast_gain": 0.16942327017360864
+    },
+    "isolated": {
+      "n": 174,
+      "error": 8.324796142736043,
+      "error_gain": 0.21032584364765097,
+      "contrast_gain": 0.16936565889719676
+    },
+    "position_gain_ci95": [
+      0.010935032152228009,
+      0.16306597078406515
+    ],
+    "contrast_gain_ci95": [
+      -0.03766038100834398,
+      0.12034015362239062
+    ]
+  },
+  "exact_ray_h2": {
+    "admitted": 51,
+    "changed_requests": 51,
+    "changed_and_true_face": 46,
+    "all": {
+      "n": 768,
+      "error": 12.93087086192853,
+      "error_gain": 0.0771706929067501,
+      "contrast_gain": 0.07815516476425054
+    },
+    "changed": {
+      "n": 51,
+      "error": 18.298023117332466,
+      "error_gain": 0.0586018205726535,
+      "contrast_gain": 0.08339907279859274
+    },
+    "same_face": {
+      "n": 137,
+      "error": 18.582642414261215,
+      "error_gain": 0.21105630292941951,
+      "contrast_gain": 0.36529092815386954
+    },
+    "isolated": {
+      "n": 118,
+      "error": 17.853023280080258,
+      "error_gain": 0.2386866418517375,
+      "contrast_gain": 0.40600787337413646
+    },
+    "position_gain_ci95": [
+      -0.014387139979273133,
+      0.1743617192717585
+    ],
+    "contrast_gain_ci95": [
+      -0.017129012408834153,
+      0.18098278339045054
+    ]
+  },
+  "exact_sweep_h1": {
+    "admitted": 98,
+    "changed_requests": 77,
+    "changed_and_true_face": 72,
+    "all": {
+      "n": 768,
+      "error": 7.027445870407604,
+      "error_gain": 0.13955892496418335,
+      "contrast_gain": 0.08886509827047535
+    },
+    "changed": {
+      "n": 77,
+      "error": 6.746156988375957,
+      "error_gain": 1.3919643424999064,
+      "contrast_gain": 0.8863427983340919
+    },
+    "same_face": {
+      "n": 190,
+      "error": 7.935039645893288,
+      "error_gain": 0.42916450712524595,
+      "contrast_gain": 0.37871447374611644
+    },
+    "isolated": {
+      "n": 174,
+      "error": 8.083431584921788,
+      "error_gain": 0.4516904014619032,
+      "contrast_gain": 0.39790203061430296
+    },
+    "position_gain_ci95": [
+      0.08088741450100309,
+      0.20194084698824558
+    ],
+    "contrast_gain_ci95": [
+      0.03201527791878613,
+      0.14816514238388356
+    ]
+  },
+  "exact_sweep_h2": {
+    "admitted": 50,
+    "changed_requests": 21,
+    "changed_and_true_face": 21,
+    "all": {
+      "n": 768,
+      "error": 12.835946082212368,
+      "error_gain": 0.17209547262291147,
+      "contrast_gain": 0.15936787598804503
+    },
+    "changed": {
+      "n": 21,
+      "error": 19.00897554484031,
+      "error_gain": 3.6567070872601897,
+      "contrast_gain": 3.390363556212684
+    },
+    "same_face": {
+      "n": 137,
+      "error": 18.127948362636154,
+      "error_gain": 0.6657503545544862,
+      "contrast_gain": 0.6783566927400394
+    },
+    "isolated": {
+      "n": 118,
+      "error": 17.32555261690363,
+      "error_gain": 0.7661573050283683,
+      "contrast_gain": 0.7698366131981387
+    },
+    "position_gain_ci95": [
+      0.0976931735289568,
+      0.2597887376627679
+    ],
+    "contrast_gain_ci95": [
+      0.07621129897557062,
+      0.25742833855875535
+    ]
+  },
+  "timing": {
+    "root": 6,
+    "paired_median_ms": 2.682250000361819
+  }
+}

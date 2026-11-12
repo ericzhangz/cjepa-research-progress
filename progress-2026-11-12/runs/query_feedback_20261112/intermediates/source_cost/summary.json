@@ -1,0 +1,420 @@
+{
+  "checkpoint": "C:\\Users\\ASUS\\AppData\\Local\\Temp\\cjepa-p0a-ff1d5adbd6ae448e993c31d8bf9c4668\\fourroom_lewm_object.ckpt",
+  "normalizer": "C:\\Users\\ASUS\\AppData\\Local\\Temp\\cjepa-p0a-ff1d5adbd6ae448e993c31d8bf9c4668\\normalizer.pt",
+  "P0b_inputs": "D:\\cjepa\\research\\phase00b\\predictions.npz",
+  "source_persistence": "D:\\cjepa\\runs\\query_feedback_20261112\\intermediates\\source_persistence\\variables.npz",
+  "device": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "torch_version": "2.8.0+cu128",
+  "cuda_version": "12.8",
+  "dtype": "float32",
+  "attention_backend": "MATH",
+  "TF32": false,
+  "source_window_environment_steps": [
+    15,
+    20,
+    25
+  ],
+  "source_factual_action_blocks": [
+    3,
+    4,
+    5
+  ],
+  "actual_observation_environment_step": 30,
+  "episode_ids_by_batch": {
+    "1": [
+      0
+    ],
+    "50": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49
+    ]
+  },
+  "warmup_per_operation": 10,
+  "measured_repeats_per_operation": 30,
+  "cycle_base_order": [
+    "native_predict",
+    "source_empty_read",
+    "source_M5_read",
+    "source_M5_issue",
+    "source_observe",
+    "canonical_observe"
+  ],
+  "cycle_rule": "Left rotate by zero-based round index modulo six",
+  "timings": {
+    "cuda_ms": "Elapsed time between CUDA events on the current stream",
+    "wall_ms": "perf_counter around both event records, the call and device synchronization",
+    "paired_round_differences": "Subtractions or sum-minus-baseline within each fixed cyclic round"
+  },
+  "batches": {
+    "1": {
+      "operations": {
+        "native_predict": {
+          "cuda_ms": {
+            "median": 4.613568067550659,
+            "p10": 4.150390243530273,
+            "p90": 7.628390359878541
+          },
+          "wall_ms": {
+            "median": 4.6538499955204315,
+            "p10": 4.192499989585485,
+            "p90": 7.660020000184886
+          }
+        },
+        "source_empty_read": {
+          "cuda_ms": {
+            "median": 5.2413599491119385,
+            "p10": 4.5127678394317625,
+            "p90": 8.485830688476563
+          },
+          "wall_ms": {
+            "median": 5.294849994243123,
+            "p10": 4.561210000247229,
+            "p90": 8.53101000393508
+          }
+        },
+        "source_M5_read": {
+          "cuda_ms": {
+            "median": 5.738384008407593,
+            "p10": 4.942745590209961,
+            "p90": 9.08090572357178
+          },
+          "wall_ms": {
+            "median": 5.768750008428469,
+            "p10": 4.986899992218241,
+            "p90": 9.143159992527218
+          }
+        },
+        "source_M5_issue": {
+          "cuda_ms": {
+            "median": 5.566479921340942,
+            "p10": 5.204425430297851,
+            "p90": 8.617673301696778
+          },
+          "wall_ms": {
+            "median": 5.642199997964781,
+            "p10": 5.254410009365529,
+            "p90": 8.702509991417173
+          }
+        },
+        "source_observe": {
+          "cuda_ms": {
+            "median": 0.9980000257492065,
+            "p10": 0.9134527742862701,
+            "p90": 1.8191104054450988
+          },
+          "wall_ms": {
+            "median": 1.043150004989002,
+            "p10": 0.9567799919750541,
+            "p90": 1.8808399996487424
+          }
+        },
+        "canonical_observe": {
+          "cuda_ms": {
+            "median": 0.8062880039215088,
+            "p10": 0.7416927933692932,
+            "p90": 1.192038404941559
+          },
+          "wall_ms": {
+            "median": 0.8444999984931201,
+            "p10": 0.7781300082569942,
+            "p90": 1.2900800065835947
+          }
+        }
+      },
+      "paired_round_differences": {
+        "empty_wrapper_minus_native": {
+          "cuda_ms": {
+            "median": 0.28774404525756836,
+            "p10": -1.6566114425659177,
+            "p90": 2.243862438201906
+          },
+          "wall_ms": {
+            "median": 0.2569999996921979,
+            "p10": -1.6483400002471171,
+            "p90": 2.258340004482308
+          }
+        },
+        "M5_read_minus_empty": {
+          "cuda_ms": {
+            "median": 0.5748159885406494,
+            "p10": -0.6693761825561523,
+            "p90": 2.016255807876588
+          },
+          "wall_ms": {
+            "median": 0.5759499908890575,
+            "p10": -0.6784999990486539,
+            "p90": 2.0276899987948136
+          }
+        },
+        "source_retention": {
+          "cuda_ms": {
+            "median": 0.07526397705078125,
+            "p10": -2.768464136123657,
+            "p90": 2.033212614059449
+          },
+          "wall_ms": {
+            "median": 0.0962999984039925,
+            "p10": -2.760869993653614,
+            "p90": 2.030800000648015
+          }
+        },
+        "source_observe_minus_canonical": {
+          "cuda_ms": {
+            "median": 0.1928960084915161,
+            "p10": 0.00038391947746281053,
+            "p90": 0.5342912256717686
+          },
+          "wall_ms": {
+            "median": 0.19664999126689509,
+            "p10": 0.0008999835699797093,
+            "p90": 0.4615599944372662
+          }
+        },
+        "source_factual_issue_plus_observe_minus_native": {
+          "cuda_ms": {
+            "median": 2.3008960485458374,
+            "p10": -1.1477728605270385,
+            "p90": 4.371109968423843
+          },
+          "wall_ms": {
+            "median": 2.349949994822964,
+            "p10": -0.5360800045309586,
+            "p90": 4.440619991510175
+          }
+        }
+      },
+      "archive_replay_max_abs": {
+        "query": 9.5367431640625e-07,
+        "readout": 2.9802322387695312e-08,
+        "latent": 1.1920928955078125e-06,
+        "M6_queries": 9.5367431640625e-07,
+        "M6_values": 5.364418029785156e-07
+      },
+      "retain_on_off_query_readout_latent_exact": true,
+      "native_empty_latent_exact": true,
+      "input_state_preserved": true,
+      "M5_payload_bytes": 20480,
+      "pending_prediction_payload_bytes": {
+        "latent": 768,
+        "query": 2048,
+        "readout": 2048
+      },
+      "extra_pending_source_payload_bytes": {
+        "output": 2048,
+        "log_partition": 32,
+        "shift": 768,
+        "scale": 768
+      },
+      "extra_pending_source_total_bytes": 3616
+    },
+    "50": {
+      "operations": {
+        "native_predict": {
+          "cuda_ms": {
+            "median": 5.666815996170044,
+            "p10": 4.534124946594238,
+            "p90": 8.678594875335694
+          },
+          "wall_ms": {
+            "median": 5.748199990193825,
+            "p10": 4.577620007330552,
+            "p90": 8.755450004537124
+          }
+        },
+        "source_empty_read": {
+          "cuda_ms": {
+            "median": 5.996079921722412,
+            "p10": 4.77757453918457,
+            "p90": 8.761138916015625
+          },
+          "wall_ms": {
+            "median": 6.0546500026248395,
+            "p10": 4.8250499938149005,
+            "p90": 8.821900008479133
+          }
+        },
+        "source_M5_read": {
+          "cuda_ms": {
+            "median": 6.273936033248901,
+            "p10": 5.1765118598937985,
+            "p90": 9.541353321075439
+          },
+          "wall_ms": {
+            "median": 6.326999995508231,
+            "p10": 5.221179996442515,
+            "p90": 9.597079998638947
+          }
+        },
+        "source_M5_issue": {
+          "cuda_ms": {
+            "median": 7.016175985336304,
+            "p10": 5.707571172714234,
+            "p90": 9.256857776641846
+          },
+          "wall_ms": {
+            "median": 7.078299997374415,
+            "p10": 5.837640007666778,
+            "p90": 9.329040003649425
+          }
+        },
+        "source_observe": {
+          "cuda_ms": {
+            "median": 1.1212319731712341,
+            "p10": 0.9271295726299286,
+            "p90": 1.9689183592796327
+          },
+          "wall_ms": {
+            "median": 1.1649500011117198,
+            "p10": 1.0041299989097752,
+            "p90": 2.0491000032052398
+          }
+        },
+        "canonical_observe": {
+          "cuda_ms": {
+            "median": 0.9282559752464294,
+            "p10": 0.7832319974899292,
+            "p90": 1.5540543794631958
+          },
+          "wall_ms": {
+            "median": 0.970599998254329,
+            "p10": 0.8187800049199723,
+            "p90": 1.5854299970669672
+          }
+        }
+      },
+      "paired_round_differences": {
+        "empty_wrapper_minus_native": {
+          "cuda_ms": {
+            "median": 0.18887972831726074,
+            "p10": -2.2442622661590574,
+            "p90": 2.502140474319459
+          },
+          "wall_ms": {
+            "median": 0.19069998961640522,
+            "p10": -2.2477599821286276,
+            "p90": 2.5129600078798844
+          }
+        },
+        "M5_read_minus_empty": {
+          "cuda_ms": {
+            "median": 0.30054402351379395,
+            "p10": -1.661660623550415,
+            "p90": 2.4051357746124267
+          },
+          "wall_ms": {
+            "median": 0.30049999622860923,
+            "p10": -1.678489992627874,
+            "p90": 2.3988199958694167
+          }
+        },
+        "source_retention": {
+          "cuda_ms": {
+            "median": 0.396320104598999,
+            "p10": -1.1604092597961424,
+            "p90": 2.787053155899048
+          },
+          "wall_ms": {
+            "median": 0.39640001341467723,
+            "p10": -1.173339986416977,
+            "p90": 2.8113800100982194
+          }
+        },
+        "source_observe_minus_canonical": {
+          "cuda_ms": {
+            "median": 0.2130880057811737,
+            "p10": -0.0378496468067169,
+            "p90": 0.7225376069545746
+          },
+          "wall_ms": {
+            "median": 0.21909999486524612,
+            "p10": -0.03531000402290372,
+            "p90": 0.73086999473162
+          }
+        },
+        "source_factual_issue_plus_observe_minus_native": {
+          "cuda_ms": {
+            "median": 2.5152158439159393,
+            "p10": -0.034428954124450566,
+            "p90": 5.062569856643677
+          },
+          "wall_ms": {
+            "median": 2.5761500000953674,
+            "p10": 0.007410021498799435,
+            "p90": 5.140870007744525
+          }
+        }
+      },
+      "archive_replay_max_abs": {
+        "query": 0.0,
+        "readout": 0.0,
+        "latent": 0.0,
+        "M6_queries": 0.0,
+        "M6_values": 0.0
+      },
+      "retain_on_off_query_readout_latent_exact": true,
+      "native_empty_latent_exact": true,
+      "input_state_preserved": true,
+      "M5_payload_bytes": 1024000,
+      "pending_prediction_payload_bytes": {
+        "latent": 38400,
+        "query": 102400,
+        "readout": 102400
+      },
+      "extra_pending_source_payload_bytes": {
+        "output": 102400,
+        "log_partition": 1600,
+        "shift": 38400,
+        "scale": 38400
+      },
+      "extra_pending_source_total_bytes": 180800
+    }
+  }
+}

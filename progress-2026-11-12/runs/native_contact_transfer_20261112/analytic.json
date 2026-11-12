@@ -1,0 +1,66 @@
+{
+  "transfer": [
+    [
+      0.0,
+      -1.0
+    ],
+    [
+      1.0,
+      0.0
+    ]
+  ],
+  "first_support": [
+    [
+      true,
+      false,
+      false
+    ]
+  ],
+  "quadratic_bias": [
+    1.0,
+    1.0
+  ],
+  "old_new_mixture_sse": 18.0,
+  "release_restores_native": true,
+  "new_arrivals_form_zero_relation": true,
+  "first_burst": [
+    [
+      1.0,
+      0.0,
+      7.0,
+      -8.0
+    ],
+    [
+      -2.0,
+      -0.0,
+      12.0,
+      -3.0
+    ],
+    [
+      1.0,
+      0.0,
+      17.0,
+      8.0
+    ]
+  ],
+  "second_burst": [
+    [
+      0.0,
+      1.0,
+      6.0,
+      -9.0
+    ],
+    [
+      -0.0,
+      -2.0,
+      14.0,
+      -1.0
+    ],
+    [
+      0.0,
+      1.0,
+      16.0,
+      7.0
+    ]
+  ]
+}

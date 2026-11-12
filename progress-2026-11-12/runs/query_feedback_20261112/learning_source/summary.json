@@ -1,0 +1,922 @@
+{
+  "completed": true,
+  "feedback": "source",
+  "arms": {
+    "query_feedback": {
+      "initial": {
+        "feedback": "source",
+        "scores": {
+          "train": {
+            "full": {
+              "episodes": 30,
+              "prefix_six_term_mean": 0.021973824128508568,
+              "suffix_four_term_mean": 0.0647055059671402,
+              "ten_term_objective": 0.03906649723649025,
+              "horizon_mean_mse": [
+                0.01608368195593357,
+                0.03273645415902138,
+                0.08982206881046295,
+                0.12017982453107834
+              ],
+              "horizon_median_episode_mse": [
+                0.011324925348162651,
+                0.019571471959352493,
+                0.07166538387537003,
+                0.08331243693828583
+              ]
+            },
+            "cleared_at_query": {
+              "episodes": 30,
+              "prefix_six_term_mean": 0.021973824128508568,
+              "suffix_four_term_mean": 0.06284347921609879,
+              "ten_term_objective": 0.038321688771247864,
+              "horizon_mean_mse": [
+                0.016221703961491585,
+                0.033566851168870926,
+                0.0880507379770279,
+                0.11353461444377899
+              ],
+              "horizon_median_episode_mse": [
+                0.011248704046010971,
+                0.020039087161421776,
+                0.07664619386196136,
+                0.07962440699338913
+              ]
+            },
+            "shuffled_at_query": {
+              "episodes": 30,
+              "prefix_six_term_mean": 0.021973824128508568,
+              "suffix_four_term_mean": 0.06397047638893127,
+              "ten_term_objective": 0.03877247869968414,
+              "horizon_mean_mse": [
+                0.016520800068974495,
+                0.034206289798021317,
+                0.08994054794311523,
+                0.11521425098180771
+              ],
+              "horizon_median_episode_mse": [
+                0.01162407360970974,
+                0.020886633545160294,
+                0.07457838207483292,
+                0.08493342250585556
+              ]
+            }
+          },
+          "development": {
+            "full": {
+              "episodes": 20,
+              "prefix_six_term_mean": 0.02145218290388584,
+              "suffix_four_term_mean": 0.07952586561441422,
+              "ten_term_objective": 0.04468166083097458,
+              "horizon_mean_mse": [
+                0.057239823043346405,
+                0.06966153532266617,
+                0.08926016092300415,
+                0.10194195806980133
+              ],
+              "horizon_median_episode_mse": [
+                0.012209571897983551,
+                0.030556127429008484,
+                0.07247009873390198,
+                0.0743277296423912
+              ]
+            },
+            "cleared_at_query": {
+              "episodes": 20,
+              "prefix_six_term_mean": 0.02145218290388584,
+              "suffix_four_term_mean": 0.07674948126077652,
+              "ten_term_objective": 0.043571095913648605,
+              "horizon_mean_mse": [
+                0.05632660910487175,
+                0.06831537932157516,
+                0.08651213347911835,
+                0.09584376960992813
+              ],
+              "horizon_median_episode_mse": [
+                0.012735719792544842,
+                0.03280387073755264,
+                0.0729212537407875,
+                0.06806837022304535
+              ]
+            },
+            "shuffled_at_query": {
+              "episodes": 20,
+              "prefix_six_term_mean": 0.02145218290388584,
+              "suffix_four_term_mean": 0.07679978758096695,
+              "ten_term_objective": 0.043591223657131195,
+              "horizon_mean_mse": [
+                0.05658918619155884,
+                0.06876621395349503,
+                0.08639515191316605,
+                0.09544862806797028
+              ],
+              "horizon_median_episode_mse": [
+                0.012793061323463917,
+                0.03468078374862671,
+                0.07296229153871536,
+                0.0778093934059143
+              ]
+            }
+          }
+        },
+        "compute": {
+          "predictor_calls": 60,
+          "feedback_feature_calls": 24,
+          "source_capture_calls": 12
+        },
+        "elapsed_seconds_including_output_write": 1.2620997999911197
+      },
+      "final": {
+        "feedback": "source",
+        "scores": {
+          "train": {
+            "full": {
+              "episodes": 30,
+              "prefix_six_term_mean": 0.01971254125237465,
+              "suffix_four_term_mean": 0.036064647138118744,
+              "ten_term_objective": 0.026253383606672287,
+              "horizon_mean_mse": [
+                0.013074574060738087,
+                0.023907553404569626,
+                0.0516972541809082,
+                0.05557922273874283
+              ],
+              "horizon_median_episode_mse": [
+                0.009606682695448399,
+                0.014034959487617016,
+                0.03861384093761444,
+                0.038336992263793945
+              ]
+            },
+            "cleared_at_query": {
+              "episodes": 30,
+              "prefix_six_term_mean": 0.01971254125237465,
+              "suffix_four_term_mean": 0.03913002088665962,
+              "ten_term_objective": 0.02747953124344349,
+              "horizon_mean_mse": [
+                0.013488399796187878,
+                0.02556990273296833,
+                0.05669690668582916,
+                0.060764845460653305
+              ],
+              "horizon_median_episode_mse": [
+                0.009592656046152115,
+                0.015887858346104622,
+                0.052143704146146774,
+                0.04797489941120148
+              ]
+            },
+            "shuffled_at_query": {
+              "episodes": 30,
+              "prefix_six_term_mean": 0.01971254125237465,
+              "suffix_four_term_mean": 0.03995882347226143,
+              "ten_term_objective": 0.02781105227768421,
+              "horizon_mean_mse": [
+                0.01374333817511797,
+                0.02618589997291565,
+                0.05791060999035835,
+                0.06199543550610542
+              ],
+              "horizon_median_episode_mse": [
+                0.009918255731463432,
+                0.01712707057595253,
+                0.054683927446603775,
+                0.04836229979991913
+              ]
+            }
+          },
+          "development": {
+            "full": {
+              "episodes": 20,
+              "prefix_six_term_mean": 0.02176511473953724,
+              "suffix_four_term_mean": 0.0858171209692955,
+              "ten_term_objective": 0.04738591983914375,
+              "horizon_mean_mse": [
+                0.05674796178936958,
+                0.07097933441400528,
+                0.09809775650501251,
+                0.11744342744350433
+              ],
+              "horizon_median_episode_mse": [
+                0.011667085811495781,
+                0.0369957834482193,
+                0.07537484914064407,
+                0.07665202021598816
+              ]
+            },
+            "cleared_at_query": {
+              "episodes": 20,
+              "prefix_six_term_mean": 0.02176511473953724,
+              "suffix_four_term_mean": 0.08420493453741074,
+              "ten_term_objective": 0.046741046011447906,
+              "horizon_mean_mse": [
+                0.05614806339144707,
+                0.07015624642372131,
+                0.0966210812330246,
+                0.11389436572790146
+              ],
+              "horizon_median_episode_mse": [
+                0.0123013686388731,
+                0.04153990000486374,
+                0.07760563492774963,
+                0.06703688204288483
+              ]
+            },
+            "shuffled_at_query": {
+              "episodes": 20,
+              "prefix_six_term_mean": 0.02176511473953724,
+              "suffix_four_term_mean": 0.08392486721277237,
+              "ten_term_objective": 0.04662901908159256,
+              "horizon_mean_mse": [
+                0.0561060793697834,
+                0.07010608166456223,
+                0.09602013230323792,
+                0.11346717178821564
+              ],
+              "horizon_median_episode_mse": [
+                0.012841708026826382,
+                0.040497466921806335,
+                0.08008262515068054,
+                0.08051750808954239
+              ]
+            }
+          }
+        },
+        "compute": {
+          "predictor_calls": 60,
+          "feedback_feature_calls": 24,
+          "source_capture_calls": 12
+        },
+        "elapsed_seconds_including_output_write": 0.5378463999950327
+      },
+      "training": {
+        "feedback": "source",
+        "optimizer_steps": 240,
+        "epochs": 60,
+        "elapsed_seconds": 59.96715100000438,
+        "peak_allocated_bytes": 115032064,
+        "allocation_before_training_bytes": 69800960,
+        "compute": {
+          "predictor_calls": 3360,
+          "feedback_feature_calls": 2880,
+          "source_capture_calls": 1440
+        },
+        "sample_prediction_calls": 25200,
+        "scope": "Training only, excluding initial/final evaluation; includes Adam updates and step logging."
+      },
+      "parameter_changes": {
+        "predictor.predictor.transformer.layers.0.attn.to_qkv.weight": {
+          "coordinates": 294912,
+          "difference_l2": 3.827268362045288,
+          "max_absolute_difference": 0.024150673300027847,
+          "changed_coordinates": 294912,
+          "initial_l2": 23.542028427124023,
+          "final_l2": 24.018884658813477
+        }
+      },
+      "final_hooks_empty": true
+    },
+    "native_finetune": {
+      "initial": {
+        "feedback": "source",
+        "scores": {
+          "train": {
+            "full": {
+              "episodes": 30,
+              "prefix_six_term_mean": 0.022090928629040718,
+              "suffix_four_term_mean": 0.06284347921609879,
+              "ten_term_objective": 0.038391951471567154,
+              "horizon_mean_mse": [
+                0.016221703961491585,
+                0.033566851168870926,
+                0.0880507379770279,
+                0.11353461444377899
+              ],
+              "horizon_median_episode_mse": [
+                0.011248704046010971,
+                0.020039087161421776,
+                0.07664619386196136,
+                0.07962440699338913
+              ]
+            }
+          },
+          "development": {
+            "full": {
+              "episodes": 20,
+              "prefix_six_term_mean": 0.02152913808822632,
+              "suffix_four_term_mean": 0.07674948126077652,
+              "ten_term_objective": 0.04361727088689804,
+              "horizon_mean_mse": [
+                0.05632660910487175,
+                0.06831537932157516,
+                0.08651213347911835,
+                0.09584376960992813
+              ],
+              "horizon_median_episode_mse": [
+                0.012735719792544842,
+                0.03280387073755264,
+                0.0729212537407875,
+                0.06806837022304535
+              ]
+            }
+          }
+        },
+        "compute": {
+          "predictor_calls": 28,
+          "feedback_feature_calls": 0,
+          "source_capture_calls": 0
+        },
+        "elapsed_seconds_including_output_write": 0.21984649999649264
+      },
+      "final": {
+        "feedback": "source",
+        "scores": {
+          "train": {
+            "full": {
+              "episodes": 30,
+              "prefix_six_term_mean": 0.019656933844089508,
+              "suffix_four_term_mean": 0.03830873221158981,
+              "ten_term_objective": 0.0271176528185606,
+              "horizon_mean_mse": [
+                0.013241203501820564,
+                0.02478673681616783,
+                0.055115584284067154,
+                0.060091402381658554
+              ],
+              "horizon_median_episode_mse": [
+                0.00945751741528511,
+                0.014953670091927052,
+                0.04570506513118744,
+                0.04463936761021614
+              ]
+            }
+          },
+          "development": {
+            "full": {
+              "episodes": 20,
+              "prefix_six_term_mean": 0.021761609241366386,
+              "suffix_four_term_mean": 0.0842229351401329,
+              "ten_term_objective": 0.046746138483285904,
+              "horizon_mean_mse": [
+                0.05630809813737869,
+                0.07039792835712433,
+                0.09658082574605942,
+                0.11360488086938858
+              ],
+              "horizon_median_episode_mse": [
+                0.012261158786714077,
+                0.04193523898720741,
+                0.07608923316001892,
+                0.06851495802402496
+              ]
+            }
+          }
+        },
+        "compute": {
+          "predictor_calls": 28,
+          "feedback_feature_calls": 0,
+          "source_capture_calls": 0
+        },
+        "elapsed_seconds_including_output_write": 0.296439099998679
+      },
+      "training": {
+        "feedback": "source",
+        "optimizer_steps": 240,
+        "epochs": 60,
+        "elapsed_seconds": 47.40391199999431,
+        "peak_allocated_bytes": 113042944,
+        "allocation_before_training_bytes": 78582784,
+        "compute": {
+          "predictor_calls": 3360,
+          "feedback_feature_calls": 0,
+          "source_capture_calls": 0
+        },
+        "sample_prediction_calls": 25200,
+        "scope": "Training only, excluding initial/final evaluation; includes Adam updates and step logging."
+      },
+      "parameter_changes": {
+        "predictor.predictor.transformer.layers.0.attn.to_qkv.weight": {
+          "coordinates": 294912,
+          "difference_l2": 2.4906363487243652,
+          "max_absolute_difference": 0.021795734763145447,
+          "changed_coordinates": 294885,
+          "initial_l2": 23.542028427124023,
+          "final_l2": 23.69774055480957
+        }
+      },
+      "final_hooks_empty": true
+    }
+  },
+  "comparisons": {
+    "feedback_full_vs_native_finetune": {
+      "train": [
+        {
+          "horizon": 1,
+          "episodes": 30,
+          "method_mean_mse": 0.013074572198092937,
+          "reference_mean_mse": 0.013241204433143139,
+          "mean_improvement": 0.0001666326696674029,
+          "median_improvement": 3.54452058672905e-05,
+          "minimum_improvement": -0.001406066119670868,
+          "maximum_improvement": 0.0037906616926193237,
+          "improved_episodes": 16,
+          "worsened_episodes": 14
+        },
+        {
+          "horizon": 2,
+          "episodes": 30,
+          "method_mean_mse": 0.023907551541924477,
+          "reference_mean_mse": 0.024786734953522682,
+          "mean_improvement": 0.000879180214057366,
+          "median_improvement": 0.00012373458594083786,
+          "minimum_improvement": -0.0030591152608394623,
+          "maximum_improvement": 0.011803634464740753,
+          "improved_episodes": 20,
+          "worsened_episodes": 10
+        },
+        {
+          "horizon": 4,
+          "episodes": 30,
+          "method_mean_mse": 0.051697250455617905,
+          "reference_mean_mse": 0.055115584284067154,
+          "mean_improvement": 0.003418332027892272,
+          "median_improvement": 0.000834842212498188,
+          "minimum_improvement": -0.0009168684482574463,
+          "maximum_improvement": 0.018691517412662506,
+          "improved_episodes": 23,
+          "worsened_episodes": 7
+        },
+        {
+          "horizon": 8,
+          "episodes": 30,
+          "method_mean_mse": 0.05557921156287193,
+          "reference_mean_mse": 0.060091402381658554,
+          "mean_improvement": 0.004512189452846845,
+          "median_improvement": 0.003111060708761215,
+          "minimum_improvement": -0.010276071727275848,
+          "maximum_improvement": 0.0248192697763443,
+          "improved_episodes": 23,
+          "worsened_episodes": 7
+        }
+      ],
+      "development": [
+        {
+          "horizon": 1,
+          "episodes": 20,
+          "method_mean_mse": 0.05674796178936958,
+          "reference_mean_mse": 0.05630809813737869,
+          "mean_improvement": -0.0004398680757731199,
+          "median_improvement": -7.066456601023674e-05,
+          "minimum_improvement": -0.005037069320678711,
+          "maximum_improvement": 0.0017756596207618713,
+          "improved_episodes": 9,
+          "worsened_episodes": 11
+        },
+        {
+          "horizon": 2,
+          "episodes": 20,
+          "method_mean_mse": 0.07097933441400528,
+          "reference_mean_mse": 0.07039793580770493,
+          "mean_improvement": -0.0005813994910567998,
+          "median_improvement": -0.0002541602589190006,
+          "minimum_improvement": -0.009394809603691101,
+          "maximum_improvement": 0.0053543634712696075,
+          "improved_episodes": 7,
+          "worsened_episodes": 13
+        },
+        {
+          "horizon": 4,
+          "episodes": 20,
+          "method_mean_mse": 0.09809775650501251,
+          "reference_mean_mse": 0.09658081829547882,
+          "mean_improvement": -0.0015169286169111728,
+          "median_improvement": -0.001878298819065094,
+          "minimum_improvement": -0.019855991005897522,
+          "maximum_improvement": 0.018708474934101105,
+          "improved_episodes": 6,
+          "worsened_episodes": 14
+        },
+        {
+          "horizon": 8,
+          "episodes": 20,
+          "method_mean_mse": 0.11744342744350433,
+          "reference_mean_mse": 0.11360488086938858,
+          "mean_improvement": -0.0038385581225156783,
+          "median_improvement": -0.0038175713270902634,
+          "minimum_improvement": -0.023456163704395294,
+          "maximum_improvement": 0.03455311059951782,
+          "improved_episodes": 5,
+          "worsened_episodes": 15
+        }
+      ]
+    },
+    "feedback_full_vs_same_parameters_cleared": {
+      "train": [
+        {
+          "horizon": 1,
+          "episodes": 30,
+          "method_mean_mse": 0.013074572198092937,
+          "reference_mean_mse": 0.013488399796187878,
+          "mean_improvement": 0.00041382662020623685,
+          "median_improvement": 0.00020556896924972534,
+          "minimum_improvement": -0.001497715711593628,
+          "maximum_improvement": 0.006175730377435684,
+          "improved_episodes": 18,
+          "worsened_episodes": 12
+        },
+        {
+          "horizon": 2,
+          "episodes": 30,
+          "method_mean_mse": 0.023907551541924477,
+          "reference_mean_mse": 0.02556990459561348,
+          "mean_improvement": 0.001662349406008919,
+          "median_improvement": 0.00041392911225557327,
+          "minimum_improvement": -0.0036961399018764496,
+          "maximum_improvement": 0.01818796992301941,
+          "improved_episodes": 23,
+          "worsened_episodes": 7
+        },
+        {
+          "horizon": 4,
+          "episodes": 30,
+          "method_mean_mse": 0.051697250455617905,
+          "reference_mean_mse": 0.05669691413640976,
+          "mean_improvement": 0.004999661476661762,
+          "median_improvement": 0.0011704163625836372,
+          "minimum_improvement": -0.0030667856335639954,
+          "maximum_improvement": 0.029039546847343445,
+          "improved_episodes": 26,
+          "worsened_episodes": 4
+        },
+        {
+          "horizon": 8,
+          "episodes": 30,
+          "method_mean_mse": 0.05557921156287193,
+          "reference_mean_mse": 0.0607648529112339,
+          "mean_improvement": 0.005185635574162006,
+          "median_improvement": 0.0025704829022288322,
+          "minimum_improvement": -0.010319367051124573,
+          "maximum_improvement": 0.03398764133453369,
+          "improved_episodes": 24,
+          "worsened_episodes": 6
+        }
+      ],
+      "development": [
+        {
+          "horizon": 1,
+          "episodes": 20,
+          "method_mean_mse": 0.05674796178936958,
+          "reference_mean_mse": 0.05614805966615677,
+          "mean_improvement": -0.0005998993292450905,
+          "median_improvement": 9.26419161260128e-05,
+          "minimum_improvement": -0.009326845407485962,
+          "maximum_improvement": 0.0014673005789518356,
+          "improved_episodes": 11,
+          "worsened_episodes": 9
+        },
+        {
+          "horizon": 2,
+          "episodes": 20,
+          "method_mean_mse": 0.07097933441400528,
+          "reference_mean_mse": 0.07015623897314072,
+          "mean_improvement": -0.0008230890147387981,
+          "median_improvement": -1.5178229659795761e-05,
+          "minimum_improvement": -0.01520422101020813,
+          "maximum_improvement": 0.004707198590040207,
+          "improved_episodes": 9,
+          "worsened_episodes": 11
+        },
+        {
+          "horizon": 4,
+          "episodes": 20,
+          "method_mean_mse": 0.09809775650501251,
+          "reference_mean_mse": 0.0966210886836052,
+          "mean_improvement": -0.0014766719192266463,
+          "median_improvement": -0.001257970929145813,
+          "minimum_improvement": -0.016693785786628723,
+          "maximum_improvement": 0.01706308126449585,
+          "improved_episodes": 7,
+          "worsened_episodes": 13
+        },
+        {
+          "horizon": 8,
+          "episodes": 20,
+          "method_mean_mse": 0.11744342744350433,
+          "reference_mean_mse": 0.11389438062906265,
+          "mean_improvement": -0.003549072053283453,
+          "median_improvement": -0.003952654078602791,
+          "minimum_improvement": -0.023227766156196594,
+          "maximum_improvement": 0.03487265110015869,
+          "improved_episodes": 5,
+          "worsened_episodes": 15
+        }
+      ]
+    },
+    "feedback_full_vs_same_parameters_shuffled": {
+      "train": [
+        {
+          "horizon": 1,
+          "episodes": 30,
+          "method_mean_mse": 0.013074572198092937,
+          "reference_mean_mse": 0.013743339106440544,
+          "mean_improvement": 0.0006687672343105078,
+          "median_improvement": 0.0003384361043572426,
+          "minimum_improvement": -0.00125136598944664,
+          "maximum_improvement": 0.005966570228338242,
+          "improved_episodes": 24,
+          "worsened_episodes": 6
+        },
+        {
+          "horizon": 2,
+          "episodes": 30,
+          "method_mean_mse": 0.023907551541924477,
+          "reference_mean_mse": 0.02618589997291565,
+          "mean_improvement": 0.0022783457301557065,
+          "median_improvement": 0.0009670890867710114,
+          "minimum_improvement": -0.00221291184425354,
+          "maximum_improvement": 0.01760581135749817,
+          "improved_episodes": 24,
+          "worsened_episodes": 6
+        },
+        {
+          "horizon": 4,
+          "episodes": 30,
+          "method_mean_mse": 0.051697250455617905,
+          "reference_mean_mse": 0.057910606265068054,
+          "mean_improvement": 0.006213358820726474,
+          "median_improvement": 0.004407837055623531,
+          "minimum_improvement": -0.010984063148498535,
+          "maximum_improvement": 0.029020532965660095,
+          "improved_episodes": 26,
+          "worsened_episodes": 4
+        },
+        {
+          "horizon": 8,
+          "episodes": 30,
+          "method_mean_mse": 0.05557921156287193,
+          "reference_mean_mse": 0.06199543550610542,
+          "mean_improvement": 0.006416220590472222,
+          "median_improvement": 0.0042881108820438385,
+          "minimum_improvement": -0.011576041579246521,
+          "maximum_improvement": 0.04777786135673523,
+          "improved_episodes": 24,
+          "worsened_episodes": 6
+        }
+      ],
+      "development": [
+        {
+          "horizon": 1,
+          "episodes": 20,
+          "method_mean_mse": 0.05674796178936958,
+          "reference_mean_mse": 0.0561060793697834,
+          "mean_improvement": -0.0006418849807232618,
+          "median_improvement": 9.109266102313995e-05,
+          "minimum_improvement": -0.01298069953918457,
+          "maximum_improvement": 0.0014507286250591278,
+          "improved_episodes": 10,
+          "worsened_episodes": 10
+        },
+        {
+          "horizon": 2,
+          "episodes": 20,
+          "method_mean_mse": 0.07097933441400528,
+          "reference_mean_mse": 0.07010608166456223,
+          "mean_improvement": -0.0008732491172850132,
+          "median_improvement": 0.00028891023248434067,
+          "minimum_improvement": -0.019819706678390503,
+          "maximum_improvement": 0.0047753117978572845,
+          "improved_episodes": 11,
+          "worsened_episodes": 9
+        },
+        {
+          "horizon": 4,
+          "episodes": 20,
+          "method_mean_mse": 0.09809775650501251,
+          "reference_mean_mse": 0.09602013975381851,
+          "mean_improvement": -0.002077620383352041,
+          "median_improvement": -0.00031501147896051407,
+          "minimum_improvement": -0.02024875581264496,
+          "maximum_improvement": 0.02744653820991516,
+          "improved_episodes": 8,
+          "worsened_episodes": 12
+        },
+        {
+          "horizon": 8,
+          "episodes": 20,
+          "method_mean_mse": 0.11744342744350433,
+          "reference_mean_mse": 0.11346717923879623,
+          "mean_improvement": -0.003976252768188715,
+          "median_improvement": -0.004462720826268196,
+          "minimum_improvement": -0.027573227882385254,
+          "maximum_improvement": 0.027661491185426712,
+          "improved_episodes": 5,
+          "worsened_episodes": 15
+        }
+      ]
+    },
+    "feedback_final_vs_initial": {
+      "train": [
+        {
+          "horizon": 1,
+          "episodes": 30,
+          "method_mean_mse": 0.013074572198092937,
+          "reference_mean_mse": 0.01608368195593357,
+          "mean_improvement": 0.003009109462921818,
+          "median_improvement": 0.0017000546213239431,
+          "minimum_improvement": -0.004133895039558411,
+          "maximum_improvement": 0.02761450782418251,
+          "improved_episodes": 24,
+          "worsened_episodes": 6
+        },
+        {
+          "horizon": 2,
+          "episodes": 30,
+          "method_mean_mse": 0.023907551541924477,
+          "reference_mean_mse": 0.03273645415902138,
+          "mean_improvement": 0.008828898519277572,
+          "median_improvement": 0.0042787655256688595,
+          "minimum_improvement": -0.01936790719628334,
+          "maximum_improvement": 0.06800682842731476,
+          "improved_episodes": 23,
+          "worsened_episodes": 7
+        },
+        {
+          "horizon": 4,
+          "episodes": 30,
+          "method_mean_mse": 0.051697250455617905,
+          "reference_mean_mse": 0.08982206881046295,
+          "mean_improvement": 0.038124820993592344,
+          "median_improvement": 0.029669026844203472,
+          "minimum_improvement": -0.012872926890850067,
+          "maximum_improvement": 0.12048956751823425,
+          "improved_episodes": 25,
+          "worsened_episodes": 5
+        },
+        {
+          "horizon": 8,
+          "episodes": 30,
+          "method_mean_mse": 0.05557921156287193,
+          "reference_mean_mse": 0.12017981708049774,
+          "mean_improvement": 0.06460060725609461,
+          "median_improvement": 0.04611371923238039,
+          "minimum_improvement": -0.017686080187559128,
+          "maximum_improvement": 0.324978306889534,
+          "improved_episodes": 29,
+          "worsened_episodes": 1
+        }
+      ],
+      "development": [
+        {
+          "horizon": 1,
+          "episodes": 20,
+          "method_mean_mse": 0.05674796178936958,
+          "reference_mean_mse": 0.057239823043346405,
+          "mean_improvement": 0.0004918578313663601,
+          "median_improvement": 0.0004104352556169033,
+          "minimum_improvement": -0.004391833674162626,
+          "maximum_improvement": 0.010523870587348938,
+          "improved_episodes": 13,
+          "worsened_episodes": 7
+        },
+        {
+          "horizon": 2,
+          "episodes": 20,
+          "method_mean_mse": 0.07097933441400528,
+          "reference_mean_mse": 0.06966152042150497,
+          "mean_improvement": -0.0013178009539842606,
+          "median_improvement": 1.1682510375976562e-05,
+          "minimum_improvement": -0.01567251980304718,
+          "maximum_improvement": 0.02082076668739319,
+          "improved_episodes": 10,
+          "worsened_episodes": 10
+        },
+        {
+          "horizon": 4,
+          "episodes": 20,
+          "method_mean_mse": 0.09809775650501251,
+          "reference_mean_mse": 0.08926016092300415,
+          "mean_improvement": -0.00883759455755353,
+          "median_improvement": -0.003887547180056572,
+          "minimum_improvement": -0.0878630131483078,
+          "maximum_improvement": 0.024457454681396484,
+          "improved_episodes": 7,
+          "worsened_episodes": 13
+        },
+        {
+          "horizon": 8,
+          "episodes": 20,
+          "method_mean_mse": 0.11744342744350433,
+          "reference_mean_mse": 0.10194196552038193,
+          "mean_improvement": -0.015501470072194934,
+          "median_improvement": -0.010820313822478056,
+          "minimum_improvement": -0.07962477952241898,
+          "maximum_improvement": 0.02646445482969284,
+          "improved_episodes": 6,
+          "worsened_episodes": 14
+        }
+      ]
+    },
+    "native_finetune_final_vs_initial": {
+      "train": [
+        {
+          "horizon": 1,
+          "episodes": 30,
+          "method_mean_mse": 0.013241204433143139,
+          "reference_mean_mse": 0.016221702098846436,
+          "mean_improvement": 0.0029804976967473824,
+          "median_improvement": 0.001734504709020257,
+          "minimum_improvement": -0.002538386732339859,
+          "maximum_improvement": 0.026441488415002823,
+          "improved_episodes": 22,
+          "worsened_episodes": 8
+        },
+        {
+          "horizon": 2,
+          "episodes": 30,
+          "method_mean_mse": 0.024786734953522682,
+          "reference_mean_mse": 0.03356684744358063,
+          "mean_improvement": 0.008780113576600948,
+          "median_improvement": 0.004833237733691931,
+          "minimum_improvement": -0.013596292585134506,
+          "maximum_improvement": 0.06236114352941513,
+          "improved_episodes": 22,
+          "worsened_episodes": 8
+        },
+        {
+          "horizon": 4,
+          "episodes": 30,
+          "method_mean_mse": 0.055115584284067154,
+          "reference_mean_mse": 0.08805074542760849,
+          "mean_improvement": 0.032935171077648796,
+          "median_improvement": 0.022009409964084625,
+          "minimum_improvement": -0.021684229373931885,
+          "maximum_improvement": 0.10303166508674622,
+          "improved_episodes": 26,
+          "worsened_episodes": 4
+        },
+        {
+          "horizon": 8,
+          "episodes": 30,
+          "method_mean_mse": 0.060091402381658554,
+          "reference_mean_mse": 0.1135345995426178,
+          "mean_improvement": 0.05344320430109898,
+          "median_improvement": 0.03301455546170473,
+          "minimum_improvement": -0.025981400161981583,
+          "maximum_improvement": 0.30098654329776764,
+          "improved_episodes": 29,
+          "worsened_episodes": 1
+        }
+      ],
+      "development": [
+        {
+          "horizon": 1,
+          "episodes": 20,
+          "method_mean_mse": 0.05630809813737869,
+          "reference_mean_mse": 0.05632660537958145,
+          "mean_improvement": 1.8507265485823156e-05,
+          "median_improvement": 0.0004374813288450241,
+          "minimum_improvement": -0.010310471057891846,
+          "maximum_improvement": 0.00851045548915863,
+          "improved_episodes": 11,
+          "worsened_episodes": 9
+        },
+        {
+          "horizon": 2,
+          "episodes": 20,
+          "method_mean_mse": 0.07039793580770493,
+          "reference_mean_mse": 0.06831537932157516,
+          "mean_improvement": -0.002082544844597578,
+          "median_improvement": -0.00048434920608997345,
+          "minimum_improvement": -0.018796443939208984,
+          "maximum_improvement": 0.01641295850276947,
+          "improved_episodes": 10,
+          "worsened_episodes": 10
+        },
+        {
+          "horizon": 4,
+          "episodes": 20,
+          "method_mean_mse": 0.09658081829547882,
+          "reference_mean_mse": 0.08651214092969894,
+          "mean_improvement": -0.010068683326244355,
+          "median_improvement": -0.00438319519162178,
+          "minimum_improvement": -0.08380837738513947,
+          "maximum_improvement": 0.02071279287338257,
+          "improved_episodes": 8,
+          "worsened_episodes": 12
+        },
+        {
+          "horizon": 8,
+          "episodes": 20,
+          "method_mean_mse": 0.11360488086938858,
+          "reference_mean_mse": 0.09584376960992813,
+          "mean_improvement": -0.017761105112731455,
+          "median_improvement": -0.008772270753979683,
+          "minimum_improvement": -0.08242525905370712,
+          "maximum_improvement": 0.028632022440433502,
+          "improved_episodes": 6,
+          "worsened_episodes": 14
+        }
+      ]
+    }
+  }
+}

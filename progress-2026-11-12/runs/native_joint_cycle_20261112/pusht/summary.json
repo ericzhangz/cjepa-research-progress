@@ -1,0 +1,97 @@
+{
+  "fixed_mode": -1.0,
+  "fit_losses": [
+    3.3927330841409438,
+    3.375202852695381,
+    3.41191236321583
+  ],
+  "metrics": {
+    "native": {
+      "normal_abs": 7.844288989415321,
+      "pusher": 16.921651500469583,
+      "object": 13.209591614189884,
+      "angle": 0.15476741666637717,
+      "centered_normal": 3.3796549811620085,
+      "latent_mse": 0.04467322304844856,
+      "improved_scenes": 0,
+      "worsened_scenes": 0,
+      "gain_ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    "paired": {
+      "normal_abs": 7.837686208498586,
+      "pusher": 16.915618430105074,
+      "object": 13.204843386071294,
+      "angle": 0.15453172327809872,
+      "centered_normal": 3.3727522269189856,
+      "latent_mse": 0.04473751783370972,
+      "improved_scenes": 25,
+      "worsened_scenes": 23,
+      "gain_ci95": [
+        -0.00513491977966029,
+        0.018275731550081175
+      ]
+    },
+    "cycle": {
+      "normal_abs": 7.837011768736848,
+      "pusher": 16.91848394523581,
+      "object": 13.214059932451187,
+      "angle": 0.15468132874705665,
+      "centered_normal": 3.3709992778564835,
+      "latent_mse": 0.04474371299147606,
+      "improved_scenes": 33,
+      "worsened_scenes": 15,
+      "gain_ci95": [
+        -0.0024468975090774347,
+        0.01944544499340449
+      ]
+    },
+    "fixed": {
+      "normal_abs": 7.841489105863341,
+      "pusher": 16.945503479716162,
+      "object": 13.182794981190819,
+      "angle": 0.1545449198741282,
+      "centered_normal": 3.3794502824248815,
+      "latent_mse": 0.04474145174026489,
+      "improved_scenes": 30,
+      "worsened_scenes": 18,
+      "gain_ci95": [
+        -0.012858425901660472,
+        0.013066313216994576
+      ]
+    },
+    "oracle": {
+      "normal_abs": 7.8164993709550314,
+      "pusher": 16.9226065320951,
+      "object": 13.215972341653424,
+      "angle": 0.15482526017411355,
+      "centered_normal": 3.3198574432068226,
+      "latent_mse": 0.04467424750328064,
+      "improved_scenes": 48,
+      "worsened_scenes": 0,
+      "gain_ci95": [
+        0.049285544496347936,
+        0.07061733504747163
+      ]
+    }
+  },
+  "cycle_counts": [
+    2,
+    104,
+    86
+  ],
+  "paired_counts": [
+    6,
+    100,
+    86
+  ],
+  "oracle_counts": [
+    5,
+    103,
+    84
+  ],
+  "cycle_oracle_matches": 105,
+  "cycle_changed_queries": 380
+}

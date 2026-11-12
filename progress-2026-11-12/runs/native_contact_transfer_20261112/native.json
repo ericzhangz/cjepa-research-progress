@@ -1,0 +1,71 @@
+{
+  "clear_h1": {
+    "supported": 0,
+    "requests": 32,
+    "max_pusher_change": 2.0193949668900757e-05,
+    "max_angle_change": 1.8636123072512945e-07,
+    "max_object_change": 1.3201879919388232e-05
+  },
+  "clear_h2": {
+    "supported": 0,
+    "requests": 32,
+    "max_pusher_change": 1.5653084076916457e-05,
+    "max_angle_change": 1.813468396526241e-07,
+    "max_object_change": 1.2373612183647076e-05
+  },
+  "one_axis_h1": {
+    "supported": 0,
+    "requests": 32,
+    "max_pusher_change": 2.0193949668900757e-05,
+    "max_angle_change": 1.8636123072512945e-07,
+    "max_object_change": 1.3201879919388232e-05
+  },
+  "one_axis_h2": {
+    "supported": 0,
+    "requests": 32,
+    "max_pusher_change": 1.5653084076916457e-05,
+    "max_angle_change": 1.813468396526241e-07,
+    "max_object_change": 1.2373612183647076e-05
+  },
+  "two_axes_h1": {
+    "supported": 24,
+    "requests": 32,
+    "max_pusher_change": 1.9748355034820975e-05,
+    "max_angle_change": 2.1885458605097607e-07,
+    "max_object_change": 60.10662093141841
+  },
+  "two_axes_h2": {
+    "supported": 24,
+    "requests": 32,
+    "max_pusher_change": 1.8375519991176148e-05,
+    "max_angle_change": 2.6096888718074585e-07,
+    "max_object_change": 71.52444978195726
+  },
+  "released_h1": {
+    "supported": 0,
+    "requests": 32,
+    "max_pusher_change": 2.0193949668900757e-05,
+    "max_angle_change": 1.8636123072512945e-07,
+    "max_object_change": 1.3201879919388232e-05
+  },
+  "released_h2": {
+    "supported": 0,
+    "requests": 32,
+    "max_pusher_change": 1.5653084076916457e-05,
+    "max_angle_change": 1.813468396526241e-07,
+    "max_object_change": 1.2373612183647076e-05
+  },
+  "empty_native_max_abs": 7.152557373046875e-07,
+  "readout_singular_values": [
+    26.47246704219384,
+    24.395873846543356,
+    17.941189828245847,
+    12.453168162826225,
+    0.2498288777646204,
+    0.1754666396024049
+  ],
+  "lift_max_singular_value": 0.09402161282946282,
+  "native_ms_median": 8.541600000171456,
+  "regulated_ms_median": 10.018400003900751,
+  "paired_overhead_ms_median": 0.8719000034034252
+}

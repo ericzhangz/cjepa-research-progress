@@ -1,0 +1,13 @@
+{
+  "frames": 960,
+  "physical_faces": 464,
+  "detected_faces": 647,
+  "both_have_face": 423,
+  "correct": 357,
+  "t20_physical": 121,
+  "t20_detected": 155,
+  "t20_correct": 94,
+  "t20_slip_identified": 98,
+  "t20_correct_with_slip": 69,
+  "angle_median_radians": 0.06389205685250028
+}

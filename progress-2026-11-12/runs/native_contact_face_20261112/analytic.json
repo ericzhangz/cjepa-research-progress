@@ -1,0 +1,9 @@
+{
+  "rotation_corrected_slip": 0.0,
+  "matched_history_targets": [
+    6.25,
+    7.25
+  ],
+  "candidate_tangent_difference": 1.0,
+  "released_clears_relation": true
+}

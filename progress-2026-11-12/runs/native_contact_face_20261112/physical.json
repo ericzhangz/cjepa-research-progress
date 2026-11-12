@@ -1,0 +1,78 @@
+{
+  "stride_1_h1": {
+    "all_branches": 768,
+    "same_face": 311,
+    "eligible": 181,
+    "same_face_with_contacts": 190,
+    "paired": 181,
+    "distinct_paired_scenes": 46,
+    "persistent_only": {
+      "persistent": 5.230617694961695,
+      "rolling": 18.27983875025954,
+      "unit": 4.28877479476247
+    },
+    "paired_errors": {
+      "persistent": 5.230617694961695,
+      "latest": 4.231608661755635,
+      "rolling": 18.27983875025954,
+      "unit": 4.28877479476247
+    }
+  },
+  "stride_1_h2": {
+    "all_branches": 768,
+    "same_face": 258,
+    "eligible": 132,
+    "same_face_with_contacts": 137,
+    "paired": 132,
+    "distinct_paired_scenes": 44,
+    "persistent_only": {
+      "persistent": 12.132657790446087,
+      "rolling": 31.277831064467232,
+      "unit": 11.899747659545884
+    },
+    "paired_errors": {
+      "persistent": 12.132657790446087,
+      "latest": 11.812978535735672,
+      "rolling": 31.277831064467232,
+      "unit": 11.899747659545884
+    }
+  },
+  "stride_5_h1": {
+    "all_branches": 768,
+    "same_face": 311,
+    "eligible": 143,
+    "same_face_with_contacts": 190,
+    "paired": 143,
+    "distinct_paired_scenes": 40,
+    "persistent_only": {
+      "persistent": 3.55852275154928,
+      "rolling": 19.620969674025662,
+      "unit": 3.1487706680748544
+    },
+    "paired_errors": {
+      "persistent": 3.55852275154928,
+      "latest": 3.642838017276985,
+      "rolling": 19.620969674025662,
+      "unit": 3.1487706680748544
+    }
+  },
+  "stride_5_h2": {
+    "all_branches": 768,
+    "same_face": 258,
+    "eligible": 101,
+    "same_face_with_contacts": 137,
+    "paired": 101,
+    "distinct_paired_scenes": 38,
+    "persistent_only": {
+      "persistent": 10.039553429592917,
+      "rolling": 30.50687629923174,
+      "unit": 9.133133982996181
+    },
+    "paired_errors": {
+      "persistent": 10.039553429592917,
+      "latest": 10.321565955778379,
+      "rolling": 30.50687629923174,
+      "unit": 9.133133982996181
+    }
+  }
+}

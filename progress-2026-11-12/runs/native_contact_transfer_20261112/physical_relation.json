@@ -1,0 +1,66 @@
+{
+  "hold_all_h1": {
+    "roots": 192,
+    "object_effect": 20.086074455115284,
+    "same_horizon_error": 4.381227741990459,
+    "joint_fit_error": 5.924079044177912,
+    "one_step_fit_error": 4.381227741990459,
+    "min_singular": 51.84433776704196
+  },
+  "hold_all_h2": {
+    "roots": 192,
+    "object_effect": 40.98044788323446,
+    "same_horizon_error": 12.064330033035208,
+    "joint_fit_error": 12.149314563426284,
+    "one_step_fit_error": 14.79725385375009,
+    "min_singular": 106.66699743968769
+  },
+  "hold_all_nonzero_contact_h1": {
+    "roots": 90,
+    "object_effect": 23.060328520981784,
+    "same_horizon_error": 4.21458084816023,
+    "joint_fit_error": 6.084886590275639,
+    "one_step_fit_error": 4.21458084816023,
+    "min_singular": 51.84433776704197
+  },
+  "hold_all_nonzero_contact_h2": {
+    "roots": 90,
+    "object_effect": 47.08324596457914,
+    "same_horizon_error": 9.94786580432711,
+    "joint_fit_error": 10.069932616435795,
+    "one_step_fit_error": 13.92893052604132,
+    "min_singular": 106.66699743968772
+  },
+  "straight_all_h1": {
+    "roots": 192,
+    "object_effect": 20.726698932713877,
+    "same_horizon_error": 4.381227741990461,
+    "joint_fit_error": 6.276465081967768,
+    "one_step_fit_error": 4.381227741990461,
+    "min_singular": 51.84433776704194
+  },
+  "straight_all_h2": {
+    "roots": 192,
+    "object_effect": 46.07913327807959,
+    "same_horizon_error": 12.064330033035205,
+    "joint_fit_error": 12.229806771073834,
+    "one_step_fit_error": 16.102221626135968,
+    "min_singular": 106.66699743968768
+  },
+  "straight_all_nonzero_contact_h1": {
+    "roots": 90,
+    "object_effect": 23.184344274812485,
+    "same_horizon_error": 4.214580848160233,
+    "joint_fit_error": 6.738649890814461,
+    "one_step_fit_error": 4.214580848160233,
+    "min_singular": 51.84433776704196
+  },
+  "straight_all_nonzero_contact_h2": {
+    "roots": 90,
+    "object_effect": 54.15790475226399,
+    "same_horizon_error": 9.947865804327112,
+    "joint_fit_error": 10.224757022717816,
+    "one_step_fit_error": 15.617177662111816,
+    "min_singular": 106.66699743968768
+  }
+}
