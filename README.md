@@ -1,5 +1,7 @@
 # CJepa 研究进展与代码交接
 
+**2026-11-13 最新交接** · PushT LeWM 单单元预测调节、离线监督、H2 展开及退离与返回回放。 [源码、实验设计与关键数据](progress-2026-11-13/) · [外审报告](progress-2026-11-13/research/CJEPA_PROGRESS_REVIEW_20261113.md)
+
 资料截止 2026-11-08 的阶段梳理。先读本页，再从最新结果追到代码。研究目标是在预训练动作条件 JEPA 的原生计算上形成可随经历维持和修订、支持多个未来跨度的预测内容。当前证据最明确的是同观测配对中的历史信息及其单步读取。持续多时域运算仍待构造，实验处于暂停状态。
 
 [阶段梳理](research/STAGE_SYNTHESIS_20261108.md) · [现行计划](research/CURRENT_RESEARCH_PLAN.md) · [方法推导](research/METHOD_CONSTRUCTION.md) · [近期证据对照](research/methodology/RECENT_MECHANISM_EVIDENCE_20261108.md)

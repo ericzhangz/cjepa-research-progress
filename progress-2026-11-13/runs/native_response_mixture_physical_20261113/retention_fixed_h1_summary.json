@@ -1,0 +1,32 @@
+{
+  "skip": {
+    "centered_rmse": 9.37420228177535,
+    "absolute_rmse": 62.18353712312813,
+    "concordance": 0.8032786885245902,
+    "strict_reversals": 0,
+    "regret": 3.429384942020396,
+    "matched_midpoint_mse": 21.902912239273004,
+    "matched_contrast_mse": 60.01993085558248
+  },
+  "native_write": {
+    "centered_rmse": 9.27518037074222,
+    "absolute_rmse": 62.00831095019406,
+    "concordance": 0.8052073288331726,
+    "strict_reversals": 2,
+    "regret": 3.430967797717585,
+    "matched_midpoint_mse": 21.949831490627826,
+    "matched_contrast_mse": 58.01745044894336,
+    "improved_scenes": 46
+  },
+  "carry_t15_write": {
+    "centered_rmse": 8.884842192652629,
+    "absolute_rmse": 61.48121172765798,
+    "concordance": 0.8167791706846673,
+    "strict_reversals": 13,
+    "regret": 3.3249650229008005,
+    "matched_midpoint_mse": 22.46548968895813,
+    "matched_contrast_mse": 49.67534036607413,
+    "improved_scenes": 44,
+    "improved_over_native_write_scenes": 43
+  }
+}

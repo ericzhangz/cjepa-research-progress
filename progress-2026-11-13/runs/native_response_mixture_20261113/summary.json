@@ -1,0 +1,239 @@
+{
+  "updates": 64,
+  "batch_scenes": 4,
+  "seed": 1611,
+  "learning_rate": 0.0001,
+  "device": "cuda",
+  "observation_alignment": {
+    "train": {
+      "scenes": 96,
+      "matched_prefix_pairs": 139,
+      "true_full_latent_patch_accuracy": 1.0
+    },
+    "historical_development": {
+      "scenes": 48,
+      "matched_prefix_pairs": 69,
+      "true_full_latent_patch_accuracy": 1.0
+    }
+  },
+  "before_training": {
+    "15": {
+      "target_readout_rmse": [
+        5.177258491516113,
+        6.7025251388549805
+      ],
+      "written": {
+        "latent_mse": [
+          1.7216774225234985,
+          1.756481409072876
+        ],
+        "absolute_rmse": [
+          61.40583038330078,
+          66.05665588378906
+        ],
+        "action_difference_rmse": [
+          16.066287994384766,
+          33.603790283203125
+        ]
+      },
+      "skipped": {
+        "latent_mse": [
+          1.7216774225234985,
+          1.756481409072876
+        ],
+        "absolute_rmse": [
+          61.40583038330078,
+          66.05665588378906
+        ],
+        "action_difference_rmse": [
+          16.066287994384766,
+          33.603790283203125
+        ]
+      },
+      "mean_paired_action_squared_error_change": [
+        -1.049041748046875e-05,
+        -3.941853719879873e-05
+      ],
+      "paired_95pct_interval": [
+        [
+          -2.7338663130649365e-05,
+          7.311502940865466e-06
+        ],
+        [
+          -8.900960528990254e-05,
+          8.900959983293433e-06
+        ]
+      ],
+      "improved_scene_count": [
+        22,
+        24
+      ]
+    },
+    "30": {
+      "target_readout_rmse": [
+        5.653605937957764,
+        8.008073806762695
+      ],
+      "written": {
+        "latent_mse": [
+          1.7457612752914429,
+          1.8177528381347656
+        ],
+        "absolute_rmse": [
+          68.08053588867188,
+          70.26712799072266
+        ],
+        "action_difference_rmse": [
+          12.297820091247559,
+          27.36481285095215
+        ]
+      },
+      "skipped": {
+        "latent_mse": [
+          1.7457610368728638,
+          1.8177528381347656
+        ],
+        "absolute_rmse": [
+          68.0805435180664,
+          70.26712799072266
+        ],
+        "action_difference_rmse": [
+          12.297819137573242,
+          27.36481285095215
+        ]
+      },
+      "mean_paired_action_squared_error_change": [
+        2.384185791015625e-07,
+        -7.62939453125e-06
+      ],
+      "paired_95pct_interval": [
+        [
+          -6.278356067923596e-06,
+          7.152557373046875e-06
+        ],
+        [
+          -4.132588583161123e-05,
+          2.481142678334413e-05
+        ]
+      ],
+      "improved_scene_count": [
+        14,
+        13
+      ]
+    },
+    "patch_nll": 6.9441680908203125,
+    "patch_constant_prior_nll": 0.6931471805599453,
+    "posterior_mean_total_variation_t15": 2.1398689113993896e-06,
+    "posterior_mean_total_variation_t30": 2.114800736308098e-06
+  },
+  "metrics": {
+    "15": {
+      "target_readout_rmse": [
+        5.177258491516113,
+        6.7025251388549805
+      ],
+      "written": {
+        "latent_mse": [
+          0.8813426494598389,
+          0.879041314125061
+        ],
+        "absolute_rmse": [
+          56.665374755859375,
+          61.81466293334961
+        ],
+        "action_difference_rmse": [
+          17.672161102294922,
+          33.11635208129883
+        ]
+      },
+      "skipped": {
+        "latent_mse": [
+          0.8813425302505493,
+          0.879041314125061
+        ],
+        "absolute_rmse": [
+          56.665367126464844,
+          61.814659118652344
+        ],
+        "action_difference_rmse": [
+          17.672163009643555,
+          33.116355895996094
+        ]
+      },
+      "mean_paired_action_squared_error_change": [
+        -3.751118856598623e-05,
+        -0.000194549560546875
+      ],
+      "paired_95pct_interval": [
+        [
+          -7.2479248046875e-05,
+          -1.9073486328125e-06
+        ],
+        [
+          -0.00027974447584711015,
+          -0.00010553995525697246
+        ]
+      ],
+      "improved_scene_count": [
+        26,
+        35
+      ]
+    },
+    "30": {
+      "target_readout_rmse": [
+        5.653605937957764,
+        8.008073806762695
+      ],
+      "written": {
+        "latent_mse": [
+          0.9204262495040894,
+          0.9132202863693237
+        ],
+        "absolute_rmse": [
+          61.242000579833984,
+          65.2425765991211
+        ],
+        "action_difference_rmse": [
+          15.352867126464844,
+          31.643217086791992
+        ]
+      },
+      "skipped": {
+        "latent_mse": [
+          0.9204262495040894,
+          0.9132201671600342
+        ],
+        "absolute_rmse": [
+          61.24200439453125,
+          65.24256896972656
+        ],
+        "action_difference_rmse": [
+          15.35286808013916,
+          31.643224716186523
+        ]
+      },
+      "mean_paired_action_squared_error_change": [
+        -1.7086664229282178e-05,
+        -0.00032933554030023515
+      ],
+      "paired_95pct_interval": [
+        [
+          -5.2771964510611725e-05,
+          1.5340249319706314e-05
+        ],
+        [
+          -0.00046030679368413985,
+          -0.00020472209143918008
+        ]
+      ],
+      "improved_scene_count": [
+        23,
+        36
+      ]
+    },
+    "patch_nll": 1.0663625001907349,
+    "patch_constant_prior_nll": 0.6931471805599453,
+    "posterior_mean_total_variation_t15": 0.0004468882689252496,
+    "posterior_mean_total_variation_t30": 0.0004435827722772956
+  }
+}

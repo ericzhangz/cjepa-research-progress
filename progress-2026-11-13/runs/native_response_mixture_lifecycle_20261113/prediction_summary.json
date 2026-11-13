@@ -1,0 +1,239 @@
+{
+  "30": {
+    "complete_roots": [
+      64,
+      64
+    ],
+    "all_candidates_h1_no_contact_roots": 0,
+    "all_candidates_h1_no_contact_and_still_roots": 0,
+    "true_qualified_pair_contrast_rms": [
+      14.687131221080358,
+      32.62696282503785
+    ],
+    "true_reversals": [
+      36,
+      41
+    ],
+    "h1_centered_mode_diameter": 10.271433111390685,
+    "h1_centered_mode_diameter_at_dormant_roots": null,
+    "mean_actual_h1_object_movement_rms": 18.035477019450546,
+    "native_tv_from_prior": 0.026464387774467468,
+    "arms": {
+      "skip": {
+        "centered_xy_rmse": [
+          9.163502463498324,
+          25.10450314007727
+        ],
+        "rank_concordance": [
+          0.8418079096045198,
+          0.7627118644067796
+        ],
+        "both_correct_reversals": [
+          0,
+          0
+        ],
+        "centered_shift_rms": [
+          0.0,
+          0.0
+        ],
+        "dormant_h1_centered_shift_rms": null
+      },
+      "write": {
+        "centered_xy_rmse": [
+          9.08090347879011,
+          25.094312876437556
+        ],
+        "rank_concordance": [
+          0.8418079096045198,
+          0.7570621468926554
+        ],
+        "both_correct_reversals": [
+          0,
+          3
+        ],
+        "centered_shift_rms": [
+          0.28153907131943856,
+          0.41955615370161775
+        ],
+        "dormant_h1_centered_shift_rms": null
+      },
+      "carry": {
+        "centered_xy_rmse": [
+          8.788212867543793,
+          25.096804833014104
+        ],
+        "rank_concordance": [
+          0.847457627118644,
+          0.7796610169491526
+        ],
+        "both_correct_reversals": [
+          2,
+          12
+        ],
+        "centered_shift_rms": [
+          1.7087452951446997,
+          2.5214723705293234
+        ],
+        "dormant_h1_centered_shift_rms": null
+      }
+    }
+  },
+  "45": {
+    "complete_roots": [
+      64,
+      64
+    ],
+    "all_candidates_h1_no_contact_roots": 64,
+    "all_candidates_h1_no_contact_and_still_roots": 64,
+    "true_qualified_pair_contrast_rms": [
+      0.0,
+      2.937672745548233
+    ],
+    "true_reversals": [
+      0,
+      0
+    ],
+    "h1_centered_mode_diameter": 10.216642045667694,
+    "h1_centered_mode_diameter_at_dormant_roots": 10.216642045667694,
+    "mean_actual_h1_object_movement_rms": 0.0,
+    "native_tv_from_prior": 0.002625626977533102,
+    "arms": {
+      "skip": {
+        "centered_xy_rmse": [
+          9.790776504239343,
+          9.431465705729517
+        ],
+        "rank_concordance": [
+          null,
+          0.34615384615384615
+        ],
+        "both_correct_reversals": [
+          0,
+          0
+        ],
+        "centered_shift_rms": [
+          0.0,
+          0.0
+        ],
+        "dormant_h1_centered_shift_rms": 0.0
+      },
+      "write": {
+        "centered_xy_rmse": [
+          9.787687840719117,
+          9.435554300339168
+        ],
+        "rank_concordance": [
+          null,
+          0.34615384615384615
+        ],
+        "both_correct_reversals": [
+          0,
+          0
+        ],
+        "centered_shift_rms": [
+          0.028550053739694665,
+          0.03515046418774113
+        ],
+        "dormant_h1_centered_shift_rms": 0.02855005373969467
+      },
+      "carry": {
+        "centered_xy_rmse": [
+          9.796966271440585,
+          9.835102547384936
+        ],
+        "rank_concordance": [
+          null,
+          0.38461538461538464
+        ],
+        "both_correct_reversals": [
+          0,
+          0
+        ],
+        "centered_shift_rms": [
+          1.693655610088186,
+          2.0563194542805063
+        ],
+        "dormant_h1_centered_shift_rms": 1.693655610088186
+      }
+    }
+  },
+  "60": {
+    "complete_roots": [
+      64,
+      64
+    ],
+    "all_candidates_h1_no_contact_roots": 0,
+    "all_candidates_h1_no_contact_and_still_roots": 0,
+    "true_qualified_pair_contrast_rms": [
+      13.971724582442828,
+      31.999999713846286
+    ],
+    "true_reversals": [
+      36,
+      41
+    ],
+    "h1_centered_mode_diameter": 10.069477631602512,
+    "h1_centered_mode_diameter_at_dormant_roots": null,
+    "mean_actual_h1_object_movement_rms": 17.523828017002668,
+    "native_tv_from_prior": 0.00020079920068383217,
+    "arms": {
+      "skip": {
+        "centered_xy_rmse": [
+          13.289460712869626,
+          22.79727633214022
+        ],
+        "rank_concordance": [
+          0.7909604519774012,
+          0.807909604519774
+        ],
+        "both_correct_reversals": [
+          0,
+          0
+        ],
+        "centered_shift_rms": [
+          0.0,
+          0.0
+        ],
+        "dormant_h1_centered_shift_rms": null
+      },
+      "write": {
+        "centered_xy_rmse": [
+          13.28899095938457,
+          22.7970758079687
+        ],
+        "rank_concordance": [
+          0.7909604519774012,
+          0.807909604519774
+        ],
+        "both_correct_reversals": [
+          0,
+          0
+        ],
+        "centered_shift_rms": [
+          0.00207921206624757,
+          0.0030061973397221176
+        ],
+        "dormant_h1_centered_shift_rms": null
+      },
+      "carry": {
+        "centered_xy_rmse": [
+          13.019893909424304,
+          22.73048411084094
+        ],
+        "rank_concordance": [
+          0.788135593220339,
+          0.8022598870056498
+        ],
+        "both_correct_reversals": [
+          1,
+          2
+        ],
+        "centered_shift_rms": [
+          1.6910149364151148,
+          2.4669436016008306
+        ],
+        "dormant_h1_centered_shift_rms": null
+      }
+    }
+  }
+}

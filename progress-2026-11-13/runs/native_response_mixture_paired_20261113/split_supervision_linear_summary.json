@@ -1,0 +1,38 @@
+{
+  "fixed_checkpoint": "first 64-update baseline, same native derivatives as \u00a716.13",
+  "training_gradient_cosine": 0.4005264151261191,
+  "groups": {
+    "train": {
+      "pair_count": 139,
+      "physical_scene_count": 93,
+      "source_target_logit_gap_mean": 7.390904779914472,
+      "source_target_logit_gap_positive_count": 139,
+      "query_teacher_odd_weight_mean": 0.9067020286993556,
+      "combined_directional_derivatives": [
+        -1.3236428904622066,
+        -0.00030600869903615034
+      ],
+      "negative_scene_counts": [
+        62,
+        59
+      ],
+      "both_terms_decrease_scene_count": 47
+    },
+    "historical_development": {
+      "pair_count": 69,
+      "physical_scene_count": 47,
+      "source_target_logit_gap_mean": 7.337487390075904,
+      "source_target_logit_gap_positive_count": 69,
+      "query_teacher_odd_weight_mean": 0.9053882250543391,
+      "combined_directional_derivatives": [
+        -1.5544440445013092,
+        -0.0002955191900594383
+      ],
+      "negative_scene_counts": [
+        37,
+        29
+      ],
+      "both_terms_decrease_scene_count": 27
+    }
+  }
+}

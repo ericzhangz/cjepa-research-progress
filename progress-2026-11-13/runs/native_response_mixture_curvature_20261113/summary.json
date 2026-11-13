@@ -1,0 +1,132 @@
+{
+  "train": {
+    "pairs": 139,
+    "smooth_pairs": 139,
+    "source_derivative_rms": 0.014918671567878685,
+    "latent": {
+      "relaxed_tangent_target_energy_fraction": 0.027746968980713244,
+      "target_rms_per_coordinate": 0.5164620090790482,
+      "native_offset_derivative_rms_per_coordinate": 0.0011769782283867934,
+      "bias_seed": {
+        "mean_curvature": -9.212325172870801e-08,
+        "negative_pairs": 99,
+        "scenes": 93,
+        "negative_scenes": 62
+      },
+      "train_latent_min_eigen": {
+        "mean_curvature": -1.881077884017008e-07,
+        "negative_pairs": 100,
+        "scenes": 93,
+        "negative_scenes": 69
+      },
+      "fitted_row": {
+        "mean_curvature": -1.0798535691366252e-07,
+        "negative_pairs": 99,
+        "scenes": 93,
+        "negative_scenes": 63
+      }
+    },
+    "physical": {
+      "relaxed_tangent_target_energy_fraction": 0.8572629922084224,
+      "target_rms_per_coordinate": 10.080266531876804,
+      "native_offset_derivative_rms_per_coordinate": 0.09396721479759247,
+      "bias_seed": {
+        "mean_curvature": -5.2670077928147566e-05,
+        "negative_pairs": 88,
+        "scenes": 93,
+        "negative_scenes": 55
+      },
+      "train_latent_min_eigen": {
+        "mean_curvature": -0.0004632263697235271,
+        "negative_pairs": 87,
+        "scenes": 93,
+        "negative_scenes": 57
+      },
+      "fitted_row": {
+        "mean_curvature": -5.5339689702334076e-05,
+        "negative_pairs": 90,
+        "scenes": 93,
+        "negative_scenes": 57
+      }
+    },
+    "original_objective_directional_curvature_at_zero": {
+      "bias_seed": {
+        "event": 0.004524800567651255,
+        "future_mse": 7.291493778205371e-05,
+        "joint": 0.0045977155054333085
+      },
+      "train_latent_min_eigen": {
+        "event": 0.003733791789765443,
+        "future_mse": 3.3893902662285313e-05,
+        "joint": 0.0037676856924277282
+      }
+    }
+  },
+  "historical_development": {
+    "pairs": 69,
+    "smooth_pairs": 69,
+    "source_derivative_rms": 0.014843460927485359,
+    "latent": {
+      "relaxed_tangent_target_energy_fraction": 0.02723764197324005,
+      "target_rms_per_coordinate": 0.5112878969253243,
+      "native_offset_derivative_rms_per_coordinate": 0.0012246760642177805,
+      "bias_seed": {
+        "mean_curvature": -8.020232538979634e-08,
+        "negative_pairs": 49,
+        "scenes": 47,
+        "negative_scenes": 29
+      },
+      "train_latent_min_eigen": {
+        "mean_curvature": -1.5976981170138922e-07,
+        "negative_pairs": 49,
+        "scenes": 47,
+        "negative_scenes": 33
+      },
+      "fitted_row": {
+        "mean_curvature": -9.091677377744786e-08,
+        "negative_pairs": 48,
+        "scenes": 47,
+        "negative_scenes": 30
+      }
+    },
+    "physical": {
+      "relaxed_tangent_target_energy_fraction": 0.8796435736393794,
+      "target_rms_per_coordinate": 10.956270429443274,
+      "native_offset_derivative_rms_per_coordinate": 0.09757427548352293,
+      "bias_seed": {
+        "mean_curvature": -0.00041143461251195654,
+        "negative_pairs": 48,
+        "scenes": 47,
+        "negative_scenes": 32
+      },
+      "train_latent_min_eigen": {
+        "mean_curvature": -0.0009166947192729582,
+        "negative_pairs": 47,
+        "scenes": 47,
+        "negative_scenes": 30
+      },
+      "fitted_row": {
+        "mean_curvature": -0.0004663778259945792,
+        "negative_pairs": 48,
+        "scenes": 47,
+        "negative_scenes": 33
+      }
+    },
+    "original_objective_directional_curvature_at_zero": {
+      "bias_seed": {
+        "event": 0.004198558334185994,
+        "future_mse": 5.0728233502717046e-05,
+        "joint": 0.004249286567688711
+      },
+      "train_latent_min_eigen": {
+        "event": 0.003473041114906058,
+        "future_mse": 1.5804179594643604e-06,
+        "joint": 0.0034746215328655223
+      }
+    }
+  },
+  "train_extreme_latent_curvature_unit_parameter_norm": [
+    -4.773634586130606e-05,
+    1.7280493804028372e-05
+  ]
+}

@@ -1,0 +1,482 @@
+{
+  "updates": 64,
+  "batch_scenes": 4,
+  "seed": 1611,
+  "learning_rate": 0.0001,
+  "device": "cuda",
+  "observation_alignment": {
+    "train": {
+      "scenes": 96,
+      "matched_prefix_pairs": 139,
+      "true_full_latent_patch_accuracy": 1.0
+    },
+    "historical_development": {
+      "scenes": 48,
+      "matched_prefix_pairs": 69,
+      "true_full_latent_patch_accuracy": 1.0
+    }
+  },
+  "before_training": {
+    "15": {
+      "target_readout_rmse": [
+        5.177258491516113,
+        6.7025251388549805
+      ],
+      "written": {
+        "latent_mse": [
+          0.8813431262969971,
+          0.8790409564971924
+        ],
+        "absolute_rmse": [
+          56.66585159301758,
+          61.81437301635742
+        ],
+        "action_difference_rmse": [
+          17.672138214111328,
+          33.11639404296875
+        ]
+      },
+      "skipped": {
+        "latent_mse": [
+          0.8813431262969971,
+          0.8790409564971924
+        ],
+        "absolute_rmse": [
+          56.66585159301758,
+          61.81437683105469
+        ],
+        "action_difference_rmse": [
+          17.672136306762695,
+          33.11639404296875
+        ]
+      },
+      "mean_paired_action_squared_error_change": [
+        -5.086263172415784e-06,
+        2.7974447220913135e-05
+      ],
+      "paired_95pct_interval": [
+        [
+          -1.9709268599399365e-05,
+          8.900959983293433e-06
+        ],
+        [
+          -1.0172526344831567e-05,
+          6.612142169615254e-05
+        ]
+      ],
+      "improved_scene_count": [
+        19,
+        16
+      ]
+    },
+    "30": {
+      "target_readout_rmse": [
+        5.653605937957764,
+        8.008073806762695
+      ],
+      "written": {
+        "latent_mse": [
+          0.9204245805740356,
+          0.9132193326950073
+        ],
+        "absolute_rmse": [
+          61.24213790893555,
+          65.24256134033203
+        ],
+        "action_difference_rmse": [
+          15.353001594543457,
+          31.642459869384766
+        ]
+      },
+      "skipped": {
+        "latent_mse": [
+          0.9204245805740356,
+          0.9132193326950073
+        ],
+        "absolute_rmse": [
+          61.24213790893555,
+          65.24256134033203
+        ],
+        "action_difference_rmse": [
+          15.353001594543457,
+          31.642459869384766
+        ]
+      },
+      "mean_paired_action_squared_error_change": [
+        1.271565793103946e-06,
+        -1.2715657248918433e-05
+      ],
+      "paired_95pct_interval": [
+        [
+          -1.3987223610456567e-05,
+          1.4940897926862817e-05
+        ],
+        [
+          -5.976359170745127e-05,
+          3.306071084807627e-05
+        ]
+      ],
+      "improved_scene_count": [
+        12,
+        18
+      ]
+    },
+    "patch_nll": 1.0662461519241333,
+    "patch_constant_prior_nll": 0.6931471805599453,
+    "posterior_mean_total_variation_t15": 1.5207799151539803e-05,
+    "posterior_mean_total_variation_t30": 1.5099106349225622e-05,
+    "fixed_candidate_diagnostics": {
+      "15": {
+        "non_tied_true_comparisons": [
+          1087,
+          1092
+        ],
+        "true_reversal_count": [
+          96,
+          117
+        ],
+        "written": {
+          "forward_pairwise_concordance": [
+            0.5170193192272309,
+            0.5604395604395604
+          ],
+          "forward_regret": [
+            16.72830876864499,
+            36.07314064621801
+          ],
+          "strict_reversals_both_correct": [
+            1,
+            6
+          ]
+        },
+        "skipped": {
+          "forward_pairwise_concordance": [
+            0.5170193192272309,
+            0.5604395604395604
+          ],
+          "forward_regret": [
+            16.72830876864499,
+            36.07314064621801
+          ],
+          "strict_reversals_both_correct": [
+            1,
+            6
+          ]
+        },
+        "scene_ranking_gain": [
+          0.0,
+          0.0
+        ],
+        "scene_ranking_gain_95pct": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ]
+        ]
+      },
+      "30": {
+        "non_tied_true_comparisons": [
+          1037,
+          1039
+        ],
+        "true_reversal_count": [
+          118,
+          126
+        ],
+        "written": {
+          "forward_pairwise_concordance": [
+            0.33461909353905495,
+            0.4465832531280077
+          ],
+          "forward_regret": [
+            17.50781568965358,
+            38.132361166564635
+          ],
+          "strict_reversals_both_correct": [
+            0,
+            0
+          ]
+        },
+        "skipped": {
+          "forward_pairwise_concordance": [
+            0.33461909353905495,
+            0.4465832531280077
+          ],
+          "forward_regret": [
+            17.50781568965358,
+            38.132361166564635
+          ],
+          "strict_reversals_both_correct": [
+            0,
+            0
+          ]
+        },
+        "scene_ranking_gain": [
+          0.0,
+          0.0
+        ],
+        "scene_ranking_gain_95pct": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ]
+        ],
+        "matched_centered_squared_error_change": {
+          "midpoint": [
+            3.320637278277536e-06,
+            -1.8348861157795705e-06
+          ],
+          "contrast": [
+            5.99300842852298e-07,
+            7.908695797460393e-07
+          ]
+        },
+        "matched_h1_physical_effect_rms": 6.47371677051851e-08,
+        "matched_h1_true_physical_difference_rms": 15.494506234345973
+      }
+    }
+  },
+  "metrics": {
+    "15": {
+      "target_readout_rmse": [
+        5.177258491516113,
+        6.7025251388549805
+      ],
+      "written": {
+        "latent_mse": [
+          0.830056369304657,
+          0.833431601524353
+        ],
+        "absolute_rmse": [
+          53.07890701293945,
+          59.39431381225586
+        ],
+        "action_difference_rmse": [
+          16.43708038330078,
+          27.51743507385254
+        ]
+      },
+      "skipped": {
+        "latent_mse": [
+          0.830056369304657,
+          0.8334315419197083
+        ],
+        "absolute_rmse": [
+          53.07890701293945,
+          59.39432144165039
+        ],
+        "action_difference_rmse": [
+          16.43708038330078,
+          27.51743507385254
+        ]
+      },
+      "mean_paired_action_squared_error_change": [
+        6.67572021484375e-06,
+        -6.993611805228284e-06
+      ],
+      "paired_95pct_interval": [
+        [
+          -3.814697265625e-06,
+          1.71661376953125e-05
+        ],
+        [
+          -4.1961669921875e-05,
+          3.115336221526377e-05
+        ]
+      ],
+      "improved_scene_count": [
+        11,
+        19
+      ]
+    },
+    "30": {
+      "target_readout_rmse": [
+        5.653605937957764,
+        8.008073806762695
+      ],
+      "written": {
+        "latent_mse": [
+          0.8920356035232544,
+          0.8908811211585999
+        ],
+        "absolute_rmse": [
+          62.277069091796875,
+          64.91422271728516
+        ],
+        "action_difference_rmse": [
+          15.970516204833984,
+          26.668092727661133
+        ]
+      },
+      "skipped": {
+        "latent_mse": [
+          0.8920356035232544,
+          0.8908810019493103
+        ],
+        "absolute_rmse": [
+          62.277076721191406,
+          64.91422271728516
+        ],
+        "action_difference_rmse": [
+          15.970516204833984,
+          26.6680908203125
+        ]
+      },
+      "mean_paired_action_squared_error_change": [
+        -5.7220458984375e-06,
+        -1.1444091796875e-05
+      ],
+      "paired_95pct_interval": [
+        [
+          -1.8445651312504195e-05,
+          8.265177712019067e-06
+        ],
+        [
+          -5.658467489411123e-05,
+          3.306071084807627e-05
+        ]
+      ],
+      "improved_scene_count": [
+        17,
+        20
+      ]
+    },
+    "patch_nll": 0.801502525806427,
+    "patch_constant_prior_nll": 0.6931471805599453,
+    "posterior_mean_total_variation_t15": 1.4827664017502684e-05,
+    "posterior_mean_total_variation_t30": 1.471613813919248e-05,
+    "fixed_candidate_diagnostics": {
+      "15": {
+        "non_tied_true_comparisons": [
+          1087,
+          1092
+        ],
+        "true_reversal_count": [
+          96,
+          117
+        ],
+        "written": {
+          "forward_pairwise_concordance": [
+            0.6476540938362465,
+            0.7985347985347986
+          ],
+          "forward_regret": [
+            14.195277322841088,
+            21.191382915560823
+          ],
+          "strict_reversals_both_correct": [
+            11,
+            3
+          ]
+        },
+        "skipped": {
+          "forward_pairwise_concordance": [
+            0.6476540938362465,
+            0.7985347985347986
+          ],
+          "forward_regret": [
+            14.195277322841088,
+            21.191382915560823
+          ],
+          "strict_reversals_both_correct": [
+            11,
+            3
+          ]
+        },
+        "scene_ranking_gain": [
+          0.0,
+          0.0
+        ],
+        "scene_ranking_gain_95pct": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ]
+        ]
+      },
+      "30": {
+        "non_tied_true_comparisons": [
+          1037,
+          1039
+        ],
+        "true_reversal_count": [
+          118,
+          126
+        ],
+        "written": {
+          "forward_pairwise_concordance": [
+            0.32497589199614274,
+            0.5457170356111646
+          ],
+          "forward_regret": [
+            17.710366403431426,
+            30.878103650243542
+          ],
+          "strict_reversals_both_correct": [
+            0,
+            0
+          ]
+        },
+        "skipped": {
+          "forward_pairwise_concordance": [
+            0.32497589199614274,
+            0.5457170356111646
+          ],
+          "forward_regret": [
+            17.710366403431426,
+            30.878103650243542
+          ],
+          "strict_reversals_both_correct": [
+            0,
+            0
+          ]
+        },
+        "scene_ranking_gain": [
+          0.0,
+          0.0
+        ],
+        "scene_ranking_gain_95pct": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ]
+        ],
+        "matched_centered_squared_error_change": {
+          "midpoint": [
+            1.4749672695380262e-06,
+            -5.210133640912947e-06
+          ],
+          "contrast": [
+            -4.686148673086575e-08,
+            -1.0639830007757608e-07
+          ]
+        },
+        "matched_h1_physical_effect_rms": 6.878167543407565e-08,
+        "matched_h1_true_physical_difference_rms": 15.494506234345973
+      }
+    }
+  },
+  "loss_columns": [
+    "event_nll",
+    "future_mse",
+    "matched_loss",
+    "matched_split_gradient_norm"
+  ],
+  "initialized_from": "runs\\native_response_mixture_20261113"
+}
