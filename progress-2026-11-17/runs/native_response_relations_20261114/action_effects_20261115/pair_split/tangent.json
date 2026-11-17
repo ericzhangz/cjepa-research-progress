@@ -1,0 +1,212 @@
+{
+  "source_steps": [
+    105,
+    110
+  ],
+  "query_step": 125,
+  "hold_candidate": 3,
+  "twin_mode_ids": [
+    1,
+    2
+  ],
+  "tied_raw_strengths": [
+    -1.0398938059806824,
+    -0.9694471955299377
+  ],
+  "predictor_dtype": "float64; unchanged frozen action embeddings computed in float32",
+  "tangent_central_difference_raw_step": 0.01,
+  "xy_variance_h1_h2": [
+    [
+      1347.5643310546875,
+      2207.867431640625
+    ],
+    [
+      1600.3209228515625,
+      2345.427734375
+    ]
+  ],
+  "fit_eigenvalues": [
+    -5.479078513323692e-10,
+    4.842234140012477e-09
+  ],
+  "fit_direction": [
+    -0.3188259474552649,
+    0.9478132807833264
+  ],
+  "train": {
+    "mirror_pairs": 64,
+    "mean_symmetrized_tangent_product": [
+      [
+        0.0,
+        -1.628833356517013e-09
+      ],
+      [
+        -1.628833356517013e-09,
+        4.294326288680108e-09
+      ]
+    ],
+    "mean_assignment_tangent_quadratic_on_fit_direction": 4.842234140012477e-09,
+    "rms_source_tangent_on_fit_direction": 0.001490102095753322,
+    "rms_source_tangent_by_arrival_on_fit_direction": [
+      0.000741795158569938,
+      0.0012503487247737606
+    ],
+    "mean_assignment_coefficient_by_arrival_on_fit_direction": [
+      2.4290590177987174e-09,
+      2.4131751222137602e-09
+    ],
+    "rms_query_tangent_on_fit_direction": 1.2386029890020068e-05,
+    "finite_witness": [
+      {
+        "raw_strength_step": 0.05,
+        "mean_assignment_log_odds": 1.2103073606398855e-11,
+        "mean_assignment_log_odds_divided_by_step_squared": 4.841229442559541e-09,
+        "assignment_coefficient_rms_remainder": 7.86027906588856e-12,
+        "mean_twin_support_tv_across_histories": 2.4316496547104136e-05,
+        "true_paired_action_effect_rms_h1_h2": [
+          19.225058268969903,
+          36.695538919522825
+        ],
+        "predicted_paired_action_effect_rms_h1_h2": [
+          5.573338828439594e-09,
+          7.829515077846595e-09
+        ],
+        "paired_action_effect_mean_signed_dot_h1_h2": [
+          1.1541256988454303e-09,
+          3.417540465589088e-08
+        ],
+        "paired_action_mse_improvement_vs_mean_support_h1_h2": [
+          5.770628416571887e-10,
+          1.7087702312620113e-08
+        ],
+        "true_paired_hold_rms_h1_h2": [
+          49.36691330095936,
+          49.36691330095936
+        ],
+        "predicted_paired_hold_rms_h1_h2": [
+          4.212928492746524e-09,
+          1.2992065476093666e-09
+        ]
+      },
+      {
+        "raw_strength_step": 0.025,
+        "mean_assignment_log_odds": 3.0262636289738118e-12,
+        "mean_assignment_log_odds_divided_by_step_squared": 4.842021806358097e-09,
+        "assignment_coefficient_rms_remainder": 1.660271790258404e-12,
+        "mean_twin_support_tv_across_histories": 1.215928705414291e-05,
+        "true_paired_action_effect_rms_h1_h2": [
+          19.225058268969903,
+          36.695538919522825
+        ],
+        "predicted_paired_action_effect_rms_h1_h2": [
+          1.393563993012157e-09,
+          1.9576928082577297e-09
+        ],
+        "paired_action_effect_mean_signed_dot_h1_h2": [
+          2.88551019700658e-10,
+          8.545262083484661e-09
+        ],
+        "paired_action_mse_improvement_vs_mean_support_h1_h2": [
+          1.4427550936482385e-10,
+          4.27263104078419e-09
+        ],
+        "true_paired_hold_rms_h1_h2": [
+          49.36691330095936,
+          49.36691330095936
+        ],
+        "predicted_paired_hold_rms_h1_h2": [
+          1.0534196884907814e-09,
+          3.2486342911389314e-10
+        ]
+      }
+    ]
+  },
+  "development": {
+    "mirror_pairs": 64,
+    "mean_symmetrized_tangent_product": [
+      [
+        0.0,
+        2.309813780308163e-09
+      ],
+      [
+        2.309813780308163e-09,
+        1.7147104063593148e-09
+      ]
+    ],
+    "mean_assignment_tangent_quadratic_on_fit_direction": 1.4441656745601453e-10,
+    "rms_source_tangent_on_fit_direction": 0.002475585806418182,
+    "rms_source_tangent_by_arrival_on_fit_direction": [
+      0.0008928872134147569,
+      0.0020797930923431712
+    ],
+    "mean_assignment_coefficient_by_arrival_on_fit_direction": [
+      1.3632644311450614e-09,
+      -1.218847863689047e-09
+    ],
+    "rms_query_tangent_on_fit_direction": 9.92071043556029e-06,
+    "finite_witness": [
+      {
+        "raw_strength_step": 0.05,
+        "mean_assignment_log_odds": 3.605618300096082e-13,
+        "mean_assignment_log_odds_divided_by_step_squared": 1.4422473200384268e-10,
+        "assignment_coefficient_rms_remainder": 3.5939995641043483e-12,
+        "mean_twin_support_tv_across_histories": 4.660242051247529e-05,
+        "true_paired_action_effect_rms_h1_h2": [
+          19.98690569334007,
+          37.664725216448566
+        ],
+        "predicted_paired_action_effect_rms_h1_h2": [
+          5.722948334175821e-09,
+          5.871967139177136e-09
+        ],
+        "paired_action_effect_mean_signed_dot_h1_h2": [
+          -9.189157200498354e-09,
+          9.816707309598765e-09
+        ],
+        "paired_action_mse_improvement_vs_mean_support_h1_h2": [
+          -4.594578608437211e-09,
+          4.908353646179383e-09
+        ],
+        "true_paired_hold_rms_h1_h2": [
+          54.02845785984858,
+          54.02845785984858
+        ],
+        "predicted_paired_hold_rms_h1_h2": [
+          6.999080477667624e-09,
+          2.158416605144544e-09
+        ]
+      },
+      {
+        "raw_strength_step": 0.025,
+        "mean_assignment_log_odds": 9.02315911645414e-14,
+        "mean_assignment_log_odds_divided_by_step_squared": 1.443705458632662e-10,
+        "assignment_coefficient_rms_remainder": 7.590215371693519e-13,
+        "mean_twin_support_tv_across_histories": 2.3303283069116016e-05,
+        "true_paired_action_effect_rms_h1_h2": [
+          19.98690569334007,
+          37.664725216448566
+        ],
+        "predicted_paired_action_effect_rms_h1_h2": [
+          1.4309879614243393e-09,
+          1.4682534696318832e-09
+        ],
+        "paired_action_effect_mean_signed_dot_h1_h2": [
+          -2.297570123966524e-09,
+          2.454724173681456e-09
+        ],
+        "paired_action_mse_improvement_vs_mean_support_h1_h2": [
+          -1.1487850624951935e-09,
+          1.227362086301786e-09
+        ],
+        "true_paired_hold_rms_h1_h2": [
+          54.02845785984858,
+          54.02845785984858
+        ],
+        "predicted_paired_hold_rms_h1_h2": [
+          1.7500857635124041e-09,
+          5.397026735075234e-10
+        ]
+      }
+    ]
+  }
+}

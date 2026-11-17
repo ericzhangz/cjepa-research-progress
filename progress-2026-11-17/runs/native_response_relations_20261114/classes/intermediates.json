@@ -1,0 +1,188 @@
+{
+  "scope": "CPU synthetic activation fixture. Same two-row native solver for certified and dense evaluations. No optimizer.",
+  "tests": {
+    "new_passed": 7,
+    "regression_passed": 34
+  },
+  "coupling": {
+    "classes": [
+      [
+        0,
+        1
+      ],
+      [
+        2
+      ],
+      [
+        3
+      ]
+    ],
+    "raw_second_slack_at_10": 0.08333333333333326,
+    "dense_max_abs_error": 0.0
+  },
+  "posterior": {
+    "after_probe": [
+      0.375,
+      0.12500000000000003,
+      0.12500000000000003,
+      0.375
+    ],
+    "after_reference": [
+      0.18750000000000003,
+      0.06250000000000003,
+      0.18750000000000003,
+      0.5625
+    ],
+    "after_neutral": [
+      0.18750000000000003,
+      0.06250000000000003,
+      0.18750000000000003,
+      0.5625
+    ],
+    "dense_log_weight_max_abs_errors": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "neutral_log_weight_max_abs_change": 0.0,
+    "second_strength_marginal_after_probe": 0.5,
+    "second_strength_marginal_after_reference": 0.625
+  },
+  "trace": {
+    "R_P_classes_at_h1_h2": [
+      [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      [
+        [
+          0,
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ]
+      ]
+    ],
+    "R_R_classes_at_h1_h2": [
+      [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ]
+    ],
+    "R_P_dense_max_abs_error_h1_h2": [
+      0.0,
+      0.0
+    ],
+    "R_R_dense_max_abs_error_h2": 0.0,
+    "R_P_scalar_h2": [
+      1.0,
+      1.0,
+      1.3333333333333333,
+      1.3125
+    ],
+    "R_P_mean_merged_scalar_h2": [
+      1.0,
+      1.0,
+      1.3333333333333333,
+      1.3333333333333333
+    ],
+    "R_P_native_solver_representative_calls": 5,
+    "R_P_dense_solver_assignments": 8,
+    "R_P_vs_R_R_h2_difference_before": -0.007812499999999972,
+    "R_P_vs_R_R_h2_difference_after": -0.011718749999999958,
+    "R_h1_before": 1.1666666666666667,
+    "R_h1_after": 1.25
+  },
+  "gradient": {
+    "objective_abs_error": 0.0,
+    "source_probe_gradient_norm": 0.09459919298634785,
+    "max_abs_errors": {
+      "probe": 0.0,
+      "reference": 0.0,
+      "directions": 0.0,
+      "thresholds": 0.0,
+      "high_strengths": 0.0
+    }
+  },
+  "numerics": {
+    "boundaries": {
+      "torch.float64": {
+        "classes": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ]
+        ],
+        "second_slack_upper_at_00": 1.1101772410158718e-13,
+        "dense_max_abs_error": 0.0
+      },
+      "torch.float32": {
+        "classes": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ]
+        ],
+        "second_slack_upper_at_00": 5.948297985014506e-05,
+        "dense_max_abs_error": 0.0
+      }
+    },
+    "dependent_rows_classes": [
+      [
+        0
+      ],
+      [
+        1
+      ],
+      [
+        2
+      ],
+      [
+        3
+      ]
+    ],
+    "dependent_rows_same_output_for_01_10": 0.0
+  }
+}

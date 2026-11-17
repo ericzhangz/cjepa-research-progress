@@ -2,6 +2,8 @@
 
 本版收录 PushT 和 FourRoom 的近期核心实现、实验协议和结果数据。两条线都在检验同一件事：真实交互形成的持续支持，能不能通过 JEPA 的原生动作预测，改善后续候选动作的选择。
 
+[按轮查看方法改动、报告和 JSON／CSV 数据](METHOD_ITERATIONS.md)。
+
 | 任务 | 读哪份报告 | 目前能确认什么 |
 | --- | --- | --- |
 | PushT：全视野 H4 | [独立底座实验](runs/fullview_pusht_base_20261115/REPORT.md) · [固定候选的历史差归因](runs/native_history_rollout_attribution_20261115/REPORT.md) | 64 个留出场景中，单模式微调把 H4 自由递推的位置 RMSE 从 25.78 降到 15.83 px。在另一个固定候选实验里，隐历史的 H4 跨动作作用仍弱。 |

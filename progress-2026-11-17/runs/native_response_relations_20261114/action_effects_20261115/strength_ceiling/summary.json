@@ -1,0 +1,299 @@
+{
+  "query_step": 125,
+  "horizon_environment_steps": 5,
+  "hold_candidate": 3,
+  "optimization_steps": 0,
+  "device": "cuda",
+  "predictor_dtype": "float64",
+  "action_encoder_dtype": "float32",
+  "bound_relaxation": "Independent strengths and coordinate intervals per endpoint, arbitrary support",
+  "axes": {
+    "truth_xy": [
+      "scene",
+      "world",
+      "program",
+      "candidate",
+      "xy"
+    ],
+    "candidate_outputs": [
+      "scene",
+      "world",
+      "candidate",
+      "xy"
+    ],
+    "candidate_scalar_fields": [
+      "scene",
+      "world",
+      "candidate"
+    ],
+    "action_contrast": [
+      "scene",
+      "world",
+      "nonhold_candidate",
+      "xy"
+    ],
+    "hold_contrast": [
+      "scene",
+      "world",
+      "xy"
+    ]
+  },
+  "train": {
+    "scene_ids": [
+      101000,
+      101001,
+      101002,
+      101003,
+      101004,
+      101005,
+      101006,
+      101007,
+      101008,
+      101009,
+      101010,
+      101011,
+      101012,
+      101013,
+      101014,
+      101015
+    ],
+    "mirror_pairs": 64,
+    "official_initialization": {
+      "mirror_action": {
+        "true_contrast_rms": 19.225058268969903,
+        "reachable_contrast_upper_rms": 0.04032960030293218,
+        "contrast_rmse_lower_bound": 19.20429339054799,
+        "excluded_target_count": 123,
+        "target_count": 192,
+        "excluded_target_fraction": 0.640625,
+        "nonzero_target_count": 123,
+        "excluded_nonzero_target_fraction": 1.0,
+        "excluded_mirror_pair_count": 56
+      },
+      "mirror_hold": {
+        "true_contrast_rms": 49.36691330095936,
+        "reachable_contrast_upper_rms": 0.008243990652587699,
+        "contrast_rmse_lower_bound": 49.36198185248699,
+        "excluded_target_count": 49,
+        "target_count": 64,
+        "excluded_target_fraction": 0.765625,
+        "nonzero_target_count": 49,
+        "excluded_nonzero_target_fraction": 1.0
+      },
+      "native_capacity": {
+        "max_dual_norm": {
+          "rms": 0.05256000938116118,
+          "max": 0.0794711172832998
+        },
+        "max_activation_delta_norm": {
+          "rms": 0.05255997065045196,
+          "max": 0.07947111711744391
+        },
+        "max_gated_residual_norm": {
+          "rms": 0.009159930983817116,
+          "max": 0.015018104610466819
+        }
+      },
+      "local_activation_gain": {
+        "activation_gain_all": {
+          "min": 11.280295644955206,
+          "median": 14.619354036128739,
+          "max": 17.060485751001607
+        },
+        "activation_gain_relations": {
+          "min": 0.5342689959834401,
+          "median": 0.7474645339661592,
+          "max": 0.8865536716595681
+        },
+        "activation_gain_ratio": {
+          "min": 0.04736303132466008,
+          "median": 0.050991116023809374,
+          "max": 0.05222680642173739
+        }
+      }
+    },
+    "fitted": {
+      "mirror_action": {
+        "true_contrast_rms": 19.225058268969903,
+        "reachable_contrast_upper_rms": 0.02402398102080078,
+        "contrast_rmse_lower_bound": 19.21199615940675,
+        "excluded_target_count": 123,
+        "target_count": 192,
+        "excluded_target_fraction": 0.640625,
+        "nonzero_target_count": 123,
+        "excluded_nonzero_target_fraction": 1.0,
+        "excluded_mirror_pair_count": 56
+      },
+      "mirror_hold": {
+        "true_contrast_rms": 49.36691330095936,
+        "reachable_contrast_upper_rms": 0.007599989329272732,
+        "contrast_rmse_lower_bound": 49.36220489989786,
+        "excluded_target_count": 49,
+        "target_count": 64,
+        "excluded_target_fraction": 0.765625,
+        "nonzero_target_count": 49,
+        "excluded_nonzero_target_fraction": 1.0
+      },
+      "native_capacity": {
+        "max_dual_norm": {
+          "rms": 0.06476938973446589,
+          "max": 0.12544785249727913
+        },
+        "max_activation_delta_norm": {
+          "rms": 0.06487751090956294,
+          "max": 0.12565726575994865
+        },
+        "max_gated_residual_norm": {
+          "rms": 0.011214727702392457,
+          "max": 0.023266150058381167
+        }
+      },
+      "local_activation_gain": {
+        "activation_gain_all": {
+          "min": 5.927324955593179,
+          "median": 6.664876567268513,
+          "max": 7.898724249335036
+        },
+        "activation_gain_relations": {
+          "min": 0.2137527065625922,
+          "median": 0.26472844389446226,
+          "max": 0.29595038242596977
+        },
+        "activation_gain_ratio": {
+          "min": 0.03603673734109374,
+          "median": 0.037311835310561155,
+          "max": 0.04140404032138145
+        }
+      }
+    }
+  },
+  "development": {
+    "scene_ids": [
+      102000,
+      102001,
+      102002,
+      102003,
+      102004,
+      102005,
+      102006,
+      102007,
+      102008,
+      102009,
+      102010,
+      102011,
+      102012,
+      102013,
+      102014,
+      102015
+    ],
+    "mirror_pairs": 64,
+    "official_initialization": {
+      "mirror_action": {
+        "true_contrast_rms": 19.98690569334007,
+        "reachable_contrast_upper_rms": 0.039312016140357064,
+        "contrast_rmse_lower_bound": 19.96665262388183,
+        "excluded_target_count": 130,
+        "target_count": 192,
+        "excluded_target_fraction": 0.6770833333333334,
+        "nonzero_target_count": 130,
+        "excluded_nonzero_target_fraction": 1.0,
+        "excluded_mirror_pair_count": 56
+      },
+      "mirror_hold": {
+        "true_contrast_rms": 54.02845785984858,
+        "reachable_contrast_upper_rms": 0.008243990652587699,
+        "contrast_rmse_lower_bound": 54.02385212869416,
+        "excluded_target_count": 56,
+        "target_count": 64,
+        "excluded_target_fraction": 0.875,
+        "nonzero_target_count": 56,
+        "excluded_nonzero_target_fraction": 1.0
+      },
+      "native_capacity": {
+        "max_dual_norm": {
+          "rms": 0.05145266947115516,
+          "max": 0.0775408793261009
+        },
+        "max_activation_delta_norm": {
+          "rms": 0.051452598865622354,
+          "max": 0.07754087916427342
+        },
+        "max_gated_residual_norm": {
+          "rms": 0.008887680933181584,
+          "max": 0.014558178189658851
+        }
+      },
+      "local_activation_gain": {
+        "activation_gain_all": {
+          "min": 11.280295644955206,
+          "median": 14.586633783984288,
+          "max": 17.023236031318536
+        },
+        "activation_gain_relations": {
+          "min": 0.5342689959834401,
+          "median": 0.7458411944608968,
+          "max": 0.8883831154266579
+        },
+        "activation_gain_ratio": {
+          "min": 0.04736303132466008,
+          "median": 0.05145196904445724,
+          "max": 0.05221556929116142
+        }
+      }
+    },
+    "fitted": {
+      "mirror_action": {
+        "true_contrast_rms": 19.98690569334007,
+        "reachable_contrast_upper_rms": 0.022080064764718143,
+        "contrast_rmse_lower_bound": 19.974237298436364,
+        "excluded_target_count": 130,
+        "target_count": 192,
+        "excluded_target_fraction": 0.6770833333333334,
+        "nonzero_target_count": 130,
+        "excluded_nonzero_target_fraction": 1.0,
+        "excluded_mirror_pair_count": 56
+      },
+      "mirror_hold": {
+        "true_contrast_rms": 54.02845785984858,
+        "reachable_contrast_upper_rms": 0.007599989329272732,
+        "contrast_rmse_lower_bound": 54.02389327431593,
+        "excluded_target_count": 56,
+        "target_count": 64,
+        "excluded_target_fraction": 0.875,
+        "nonzero_target_count": 56,
+        "excluded_nonzero_target_fraction": 1.0
+      },
+      "native_capacity": {
+        "max_dual_norm": {
+          "rms": 0.05866859611335338,
+          "max": 0.1252882040854673
+        },
+        "max_activation_delta_norm": {
+          "rms": 0.05876653307985987,
+          "max": 0.1254973508430183
+        },
+        "max_gated_residual_norm": {
+          "rms": 0.009981421658822084,
+          "max": 0.023253668665912018
+        }
+      },
+      "local_activation_gain": {
+        "activation_gain_all": {
+          "min": 5.927324955593179,
+          "median": 6.682284902226563,
+          "max": 7.896713385679248
+        },
+        "activation_gain_relations": {
+          "min": 0.2137527065625922,
+          "median": 0.2681004607832559,
+          "max": 0.2958037790351461
+        },
+        "activation_gain_ratio": {
+          "min": 0.03603207042438779,
+          "median": 0.03737057178520814,
+          "max": 0.0414024626203717
+        }
+      }
+    }
+  }
+}

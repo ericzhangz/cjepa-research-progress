@@ -1,0 +1,79 @@
+{
+  "fresh_switches": {
+    "scene_ids": [
+      55900,
+      55901,
+      55902,
+      55903,
+      55904,
+      55905,
+      55906,
+      55907,
+      55908,
+      55909,
+      55910,
+      55911,
+      55912,
+      55913,
+      55914,
+      55915
+    ],
+    "paired_roots_verified": 144,
+    "phase_5_matches_coarse_rgb_and_state_under_both_modes": true,
+    "path_rgb_shape": [
+      16,
+      9,
+      2,
+      5,
+      96,
+      96,
+      3
+    ],
+    "path_state_shape": [
+      16,
+      9,
+      2,
+      5,
+      5
+    ],
+    "pairs_with_rgb_difference_by_raw_step": [
+      65,
+      79,
+      79,
+      95,
+      95
+    ],
+    "pairs_with_state_difference_by_raw_step": [
+      67,
+      82,
+      82,
+      97,
+      97
+    ],
+    "pairs_with_any_rgb_difference_but_equal_final_rgb": 0,
+    "compressed_bytes": 707485
+  },
+  "post_switch_candidates": {
+    "actual_arrivals": [
+      8,
+      9
+    ],
+    "candidate_names": [
+      "push",
+      "rising_push",
+      "falling_push",
+      "hold",
+      "retreat",
+      "return_push"
+    ],
+    "candidate_roots_verified": 384,
+    "future_endpoints": 1536,
+    "coverage_shape": [
+      16,
+      2,
+      2,
+      6,
+      4
+    ]
+  }
+}

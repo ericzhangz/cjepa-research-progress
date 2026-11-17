@@ -1,6 +1,6 @@
 # CJepa 研究进展与代码交接
 
-**2026-11-17 最新交接** · [本版索引](progress-2026-11-17/) · [PushT 全视野结果](progress-2026-11-17/runs/fullview_pusht_base_20261115/REPORT.md) · [FourRoom H5 归因](progress-2026-11-17/runs/native_topology_objective_trace_20261116/REPORT.md)
+**2026-11-17 最新交接** · [本版索引](progress-2026-11-17/) · [PushT 全视野结果](progress-2026-11-17/runs/fullview_pusht_base_20261115/REPORT.md) · [FourRoom H5 归因](progress-2026-11-17/runs/native_topology_objective_trace_20261116/REPORT.md) · [历轮方法与结果](progress-2026-11-17/METHOD_ITERATIONS.md)
 
 **2026-11-13 历史交接** · PushT LeWM 单单元预测调节、离线监督、H2 展开及退离与返回回放。 [源码、实验设计与关键数据](progress-2026-11-13/) · [外审报告](progress-2026-11-13/research/CJEPA_PROGRESS_REVIEW_20261113.md)
 

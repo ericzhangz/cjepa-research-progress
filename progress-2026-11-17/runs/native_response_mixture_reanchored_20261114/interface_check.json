@@ -1,0 +1,64 @@
+{
+  "mechanism": "reanchored",
+  "curve_anchor": "reanchored",
+  "device": "cuda",
+  "optimization_steps": 0,
+  "shared_host_initialization": "official LeWM PushT",
+  "nonzero_mode_offsets": {
+    "initialization": "fixed-seed Gaussian",
+    "std": 0.1,
+    "seed": 1714
+  },
+  "full_observation_calibration": {
+    "source": "train split only",
+    "actual_transitions": 256
+  },
+  "gradient_check_scene_ids": [
+    101000
+  ],
+  "query_steps": [
+    110,
+    125
+  ],
+  "checks": {
+    "fan_objective_finite_difference_error": 2.8127970152643194e-12,
+    "h2_to_step110_log_likelihood": 0.00010955349716823548,
+    "h2_to_step110_issued_means": 0.0003519724996294826,
+    "h2_to_native_predictions": 0.025234229862689972,
+    "total_loss_to_full_width_offsets": 0.0018292218446731567,
+    "cues": {
+      "15": {
+        "anchor_command_tracks": 8,
+        "actual_scored_tracks": 8,
+        "max_mode_prediction_difference": 0.0,
+        "max_log_likelihood_span": 0.0,
+        "max_log_support_change": 0.0,
+        "h2_source_likelihood_to_offsets_grad_norm": 0.0
+      },
+      "105": {
+        "anchor_command_tracks": 8,
+        "actual_scored_tracks": 8,
+        "max_mode_prediction_difference": 0.0,
+        "max_log_likelihood_span": 0.0,
+        "max_log_support_change": 0.0,
+        "h2_source_likelihood_to_offsets_grad_norm": 0.0
+      },
+      "110": {
+        "anchor_command_tracks": 0,
+        "actual_scored_tracks": 8,
+        "max_mode_prediction_difference": 0.0331188440322876,
+        "max_log_likelihood_span": 0.153533935546875,
+        "max_log_support_change": 0.158888578414917,
+        "h2_source_likelihood_to_offsets_grad_norm": 9.325119754066691e-05
+      }
+    },
+    "hold_only_query_fans": 16,
+    "hold_only_query_max_mode_difference": 0.0,
+    "h2_to_predictions_by_mode": [
+      0.0125855952501297,
+      0.012215306051075459,
+      0.012483230791985989,
+      0.01316526997834444
+    ]
+  }
+}

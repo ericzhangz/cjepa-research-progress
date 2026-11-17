@@ -1,0 +1,366 @@
+{
+  "frozen": {
+    "fit": {
+      "reverse_open": {
+        "query_ancestry_total_variation_mean": 0.007894512265920639,
+        "prior_ancestry_largest_weight": 0.9896978139877319,
+        "relative_y_per_edge_span_rms": [
+          2.2293336391448975,
+          3.5138299465179443,
+          6.514049530029297
+        ],
+        "relative_y_effect_of_last_write_rms": [
+          0.014327485114336014,
+          0.021101851016283035,
+          0.03117530047893524
+        ],
+        "target_relative_mode_gap_rms": [
+          1.5699599981307983,
+          3.6113064289093018,
+          7.486292839050293
+        ],
+        "prediction_relative_mode_gap_rms": [
+          1.3499735593795776,
+          3.1607728004455566,
+          6.53902006149292
+        ],
+        "relative_mode_gap_signed_gain": [
+          0.1537988930940628,
+          -0.09480135887861252,
+          -0.31432002782821655
+        ]
+      },
+      "reverse_brake": {
+        "query_ancestry_total_variation_mean": 0.011045067571103573,
+        "prior_ancestry_largest_weight": 0.9611130952835083,
+        "relative_y_per_edge_span_rms": [
+          1.3721848726272583,
+          2.3908851146698,
+          3.950871706008911
+        ],
+        "relative_y_effect_of_last_write_rms": [
+          0.034654486924409866,
+          0.03947276249527931,
+          0.07094629108905792
+        ],
+        "target_relative_mode_gap_rms": [
+          3.416797161102295,
+          1.600380778312683,
+          4.404991149902344
+        ],
+        "prediction_relative_mode_gap_rms": [
+          1.1944328546524048,
+          2.2257282733917236,
+          3.900402784347534
+        ],
+        "relative_mode_gap_signed_gain": [
+          -0.08602356165647507,
+          -0.756319522857666,
+          -0.0478728748857975
+        ]
+      }
+    },
+    "development": {
+      "reverse_open": {
+        "query_ancestry_total_variation_mean": 0.04834628850221634,
+        "prior_ancestry_largest_weight": 0.9569523334503174,
+        "relative_y_per_edge_span_rms": [
+          2.1623828411102295,
+          3.229801654815674,
+          5.993842601776123
+        ],
+        "relative_y_effect_of_last_write_rms": [
+          0.09514948725700378,
+          0.22356745600700378,
+          0.3900777995586395
+        ],
+        "target_relative_mode_gap_rms": [
+          1.9929420948028564,
+          10.42380142211914,
+          28.2733097076416
+        ],
+        "prediction_relative_mode_gap_rms": [
+          1.3297927379608154,
+          2.5007059574127197,
+          6.069334030151367
+        ],
+        "relative_mode_gap_signed_gain": [
+          0.12454927712678909,
+          -0.0058229235000908375,
+          -0.023866519331932068
+        ]
+      },
+      "reverse_brake": {
+        "query_ancestry_total_variation_mean": 5.393309402279556e-05,
+        "prior_ancestry_largest_weight": 0.897835373878479,
+        "relative_y_per_edge_span_rms": [
+          1.5857398509979248,
+          2.6239206790924072,
+          3.8267815113067627
+        ],
+        "relative_y_effect_of_last_write_rms": [
+          0.00013808993389829993,
+          0.00018562334298621863,
+          0.0002309577976120636
+        ],
+        "target_relative_mode_gap_rms": [
+          7.153367519378662,
+          18.919214248657227,
+          31.65049934387207
+        ],
+        "prediction_relative_mode_gap_rms": [
+          1.1070027351379395,
+          2.360830307006836,
+          4.673732757568359
+        ],
+        "relative_mode_gap_signed_gain": [
+          -0.02044650912284851,
+          -0.026932135224342346,
+          -0.043487921357154846
+        ]
+      }
+    },
+    "corroboration": {
+      "reverse_open": {
+        "query_ancestry_total_variation_mean": 0.04858320206403732,
+        "prior_ancestry_largest_weight": 0.9271336793899536,
+        "relative_y_per_edge_span_rms": [
+          2.173555374145508,
+          3.7900688648223877,
+          7.135197639465332
+        ],
+        "relative_y_effect_of_last_write_rms": [
+          0.14631931483745575,
+          0.3577185869216919,
+          0.6938656568527222
+        ],
+        "target_relative_mode_gap_rms": [
+          0.9984827041625977,
+          2.633624315261841,
+          6.719346046447754
+        ],
+        "prediction_relative_mode_gap_rms": [
+          1.668144941329956,
+          3.2585289478302,
+          7.1037139892578125
+        ],
+        "relative_mode_gap_signed_gain": [
+          0.177772656083107,
+          -0.15524822473526,
+          -0.10726738721132278
+        ]
+      },
+      "reverse_brake": {
+        "query_ancestry_total_variation_mean": 0.10717243701219559,
+        "prior_ancestry_largest_weight": 0.9434881210327148,
+        "relative_y_per_edge_span_rms": [
+          1.9843164682388306,
+          3.8144869804382324,
+          6.219064712524414
+        ],
+        "relative_y_effect_of_last_write_rms": [
+          0.1430744081735611,
+          0.36300644278526306,
+          0.5334539413452148
+        ],
+        "target_relative_mode_gap_rms": [
+          0.540097177028656,
+          2.2042458057403564,
+          7.023391246795654
+        ],
+        "prediction_relative_mode_gap_rms": [
+          1.1924457550048828,
+          2.2172935009002686,
+          3.876452684402466
+        ],
+        "relative_mode_gap_signed_gain": [
+          0.3073248565196991,
+          0.2283191978931427,
+          0.05081114172935486
+        ]
+      }
+    }
+  },
+  "joint": {
+    "fit": {
+      "reverse_open": {
+        "query_ancestry_total_variation_mean": 0.009742073714733124,
+        "prior_ancestry_largest_weight": 0.9107095003128052,
+        "relative_y_per_edge_span_rms": [
+          0.03535216674208641,
+          0.028195930644869804,
+          0.015223348513245583
+        ],
+        "relative_y_effect_of_last_write_rms": [
+          0.00043934318819083273,
+          0.0002777246409095824,
+          0.00018175740842707455
+        ],
+        "target_relative_mode_gap_rms": [
+          1.5699599981307983,
+          3.6113064289093018,
+          7.486292839050293
+        ],
+        "prediction_relative_mode_gap_rms": [
+          0.05533037707209587,
+          0.06540177762508392,
+          0.11911995708942413
+        ],
+        "relative_mode_gap_signed_gain": [
+          -0.0077840909361839294,
+          0.006446561310440302,
+          0.0038988138549029827
+        ]
+      },
+      "reverse_brake": {
+        "query_ancestry_total_variation_mean": 0.014999630860984325,
+        "prior_ancestry_largest_weight": 0.742186427116394,
+        "relative_y_per_edge_span_rms": [
+          0.02982029877603054,
+          0.025421956554055214,
+          0.011699291877448559
+        ],
+        "relative_y_effect_of_last_write_rms": [
+          0.00045735976891592145,
+          0.00036870583426207304,
+          0.00010838037997018546
+        ],
+        "target_relative_mode_gap_rms": [
+          3.416797161102295,
+          1.600380778312683,
+          4.404991149902344
+        ],
+        "prediction_relative_mode_gap_rms": [
+          0.05998735502362251,
+          0.08177684247493744,
+          0.14720363914966583
+        ],
+        "relative_mode_gap_signed_gain": [
+          0.0073548490181565285,
+          0.01773848943412304,
+          -0.0023582451976835728
+        ]
+      }
+    },
+    "development": {
+      "reverse_open": {
+        "query_ancestry_total_variation_mean": 0.01226058416068554,
+        "prior_ancestry_largest_weight": 0.9315918684005737,
+        "relative_y_per_edge_span_rms": [
+          0.038175202906131744,
+          0.030053354799747467,
+          0.01726953126490116
+        ],
+        "relative_y_effect_of_last_write_rms": [
+          0.0007126810378395021,
+          0.00041756214341148734,
+          0.0002939149271696806
+        ],
+        "target_relative_mode_gap_rms": [
+          1.9929420948028564,
+          10.42380142211914,
+          28.2733097076416
+        ],
+        "prediction_relative_mode_gap_rms": [
+          0.06880519539117813,
+          0.08370696008205414,
+          0.1457325518131256
+        ],
+        "relative_mode_gap_signed_gain": [
+          0.008378694765269756,
+          0.004931771196424961,
+          0.0022267296444624662
+        ]
+      },
+      "reverse_brake": {
+        "query_ancestry_total_variation_mean": 0.043890949338674545,
+        "prior_ancestry_largest_weight": 0.6195484399795532,
+        "relative_y_per_edge_span_rms": [
+          0.033150721341371536,
+          0.029840605333447456,
+          0.012993540614843369
+        ],
+        "relative_y_effect_of_last_write_rms": [
+          0.0013440873008221388,
+          0.001025193021632731,
+          0.00030464126029983163
+        ],
+        "target_relative_mode_gap_rms": [
+          7.153367519378662,
+          18.919214248657227,
+          31.65049934387207
+        ],
+        "prediction_relative_mode_gap_rms": [
+          0.08686574548482895,
+          0.12132631987333298,
+          0.2032596468925476
+        ],
+        "relative_mode_gap_signed_gain": [
+          0.003539001103490591,
+          0.0005250524263828993,
+          0.0014522451674565673
+        ]
+      }
+    },
+    "corroboration": {
+      "reverse_open": {
+        "query_ancestry_total_variation_mean": 0.010393830947577953,
+        "prior_ancestry_largest_weight": 0.9175223112106323,
+        "relative_y_per_edge_span_rms": [
+          0.03571752831339836,
+          0.02660529874265194,
+          0.014368141070008278
+        ],
+        "relative_y_effect_of_last_write_rms": [
+          0.0005826455308124423,
+          0.0003515280259307474,
+          0.00017234665574505925
+        ],
+        "target_relative_mode_gap_rms": [
+          0.9984827041625977,
+          2.633624315261841,
+          6.719346046447754
+        ],
+        "prediction_relative_mode_gap_rms": [
+          0.050512123852968216,
+          0.057294245809316635,
+          0.10422765463590622
+        ],
+        "relative_mode_gap_signed_gain": [
+          0.003878014860674739,
+          0.0065949466079473495,
+          0.0009249727590940893
+        ]
+      },
+      "reverse_brake": {
+        "query_ancestry_total_variation_mean": 0.011831983923912048,
+        "prior_ancestry_largest_weight": 0.751440167427063,
+        "relative_y_per_edge_span_rms": [
+          0.027698110789060593,
+          0.02295352704823017,
+          0.010625176131725311
+        ],
+        "relative_y_effect_of_last_write_rms": [
+          0.0005512996576726437,
+          0.0003954021667595953,
+          0.00012043815513607115
+        ],
+        "target_relative_mode_gap_rms": [
+          0.540097177028656,
+          2.2042458057403564,
+          7.023391246795654
+        ],
+        "prediction_relative_mode_gap_rms": [
+          0.0542464442551136,
+          0.0714632198214531,
+          0.1311926394701004
+        ],
+        "relative_mode_gap_signed_gain": [
+          0.03714599832892418,
+          -0.014396212995052338,
+          0.001126040588133037
+        ]
+      }
+    }
+  }
+}
