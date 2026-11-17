@@ -1,0 +1,2733 @@
+{
+  "phases": [
+    "initial_push",
+    "retreat",
+    "hold_1",
+    "hold_2",
+    "hold_3",
+    "return",
+    "recontact",
+    "reversal_probe"
+  ],
+  "goal_distance": 180.0,
+  "candidate_names": [
+    "hold",
+    "quarter_push",
+    "half_push",
+    "three_quarter_push",
+    "push",
+    "rising_push",
+    "falling_push"
+  ],
+  "raw_steps_per_candidate": 5,
+  "goals_fixed_before_prefix": true,
+  "coverage_tie": 0.01,
+  "success_threshold_strict": 0.95,
+  "verified_same_root_candidate_rollouts": 224,
+  "all_scenes": {
+    "scenes": 16,
+    "reached_before_switch": 0,
+    "reached_during_probe": 0,
+    "probe_rgb_differs": 16,
+    "disjoint_near_optimal_sets": 4,
+    "scenes_with_strict_pair_reversal": 6,
+    "uniform_mode_average_regret": {
+      "scenes": 16,
+      "mean": 0.003976710765218133,
+      "median": 0.0,
+      "min": 0.0,
+      "max": 0.02642430744112184,
+      "scene_bootstrap_95_percent_interval": [
+        0.0008926308104856912,
+        0.008000045797035938
+      ],
+      "scenes_above_one_coverage_point": 3
+    },
+    "policies": {
+      "known_mode": {
+        "actual_regret": {
+          "scenes": 16,
+          "mean": 0.0,
+          "median": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "scene_bootstrap_95_percent_interval": [
+            0.0,
+            0.0
+          ],
+          "scenes_above_one_coverage_point": 0
+        },
+        "scenes_where_every_near_tie_has_over_one_point_regret": 0,
+        "actual_terminal_successes": 0,
+        "actual_any_step_successes": 0
+      },
+      "uniform_modes": {
+        "actual_regret": {
+          "scenes": 16,
+          "mean": 0.00539325568065472,
+          "median": 0.0,
+          "min": 0.0,
+          "max": 0.05284861488224368,
+          "scene_bootstrap_95_percent_interval": [
+            0.0,
+            0.01408954979144967
+          ],
+          "scenes_above_one_coverage_point": 2
+        },
+        "scenes_where_every_near_tie_has_over_one_point_regret": 0,
+        "actual_terminal_successes": 0,
+        "actual_any_step_successes": 0
+      },
+      "stale_mode": {
+        "actual_regret": {
+          "scenes": 16,
+          "mean": 0.014311912461979805,
+          "median": 0.0,
+          "min": 0.0,
+          "max": 0.08795095778596096,
+          "scene_bootstrap_95_percent_interval": [
+            0.0038939637588826445,
+            0.02751288849796345
+          ],
+          "scenes_above_one_coverage_point": 5
+        },
+        "scenes_where_every_near_tie_has_over_one_point_regret": 4,
+        "actual_terminal_successes": 0,
+        "actual_any_step_successes": 0
+      },
+      "always_open": {
+        "actual_regret": {
+          "scenes": 16,
+          "mean": 0.006555195576398068,
+          "median": 0.0,
+          "min": 0.0,
+          "max": 0.05284861488224368,
+          "scene_bootstrap_95_percent_interval": [
+            0.00046582940333005085,
+            0.014734797695963253
+          ],
+          "scenes_above_one_coverage_point": 3
+        },
+        "scenes_where_every_near_tie_has_over_one_point_regret": 2,
+        "actual_terminal_successes": 0,
+        "actual_any_step_successes": 0
+      },
+      "always_braked": {
+        "actual_regret": {
+          "scenes": 16,
+          "mean": 0.007756716885581737,
+          "median": 0.0,
+          "min": 0.0,
+          "max": 0.08795095778596096,
+          "scene_bootstrap_95_percent_interval": [
+            0.0,
+            0.02019258481086647
+          ],
+          "scenes_above_one_coverage_point": 2
+        },
+        "scenes_where_every_near_tie_has_over_one_point_regret": 2,
+        "actual_terminal_successes": 0,
+        "actual_any_step_successes": 0
+      }
+    }
+  },
+  "braked_to_open": {
+    "scenes": 8,
+    "reached_before_switch": 0,
+    "reached_during_probe": 0,
+    "probe_rgb_differs": 8,
+    "disjoint_near_optimal_sets": 2,
+    "scenes_with_strict_pair_reversal": 4,
+    "uniform_mode_average_regret": {
+      "scenes": 8,
+      "mean": 0.002387029623319964,
+      "median": 0.0,
+      "min": 0.0,
+      "max": 0.010537591475182961,
+      "scene_bootstrap_95_percent_interval": [
+        0.0,
+        0.005121753769943588
+      ],
+      "scenes_above_one_coverage_point": 1
+    },
+    "policies": {
+      "known_mode": {
+        "actual_regret": {
+          "scenes": 8,
+          "mean": 0.0,
+          "median": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "scene_bootstrap_95_percent_interval": [
+            0.0,
+            0.0
+          ],
+          "scenes_above_one_coverage_point": 0
+        },
+        "scenes_where_every_near_tie_has_over_one_point_regret": 0,
+        "actual_terminal_successes": 0,
+        "actual_any_step_successes": 0
+      },
+      "uniform_modes": {
+        "actual_regret": {
+          "scenes": 8,
+          "mean": 0.0,
+          "median": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "scene_bootstrap_95_percent_interval": [
+            0.0,
+            0.0
+          ],
+          "scenes_above_one_coverage_point": 0
+        },
+        "scenes_where_every_near_tie_has_over_one_point_regret": 0,
+        "actual_terminal_successes": 0,
+        "actual_any_step_successes": 0
+      },
+      "stale_mode": {
+        "actual_regret": {
+          "scenes": 8,
+          "mean": 0.015513433771163473,
+          "median": 0.0,
+          "min": 0.0,
+          "max": 0.08795095778596096,
+          "scene_bootstrap_95_percent_interval": [
+            0.0,
+            0.03750117321765371
+          ],
+          "scenes_above_one_coverage_point": 2
+        },
+        "scenes_where_every_near_tie_has_over_one_point_regret": 2,
+        "actual_terminal_successes": 0,
+        "actual_any_step_successes": 0
+      },
+      "always_open": {
+        "actual_regret": {
+          "scenes": 8,
+          "mean": 0.0,
+          "median": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "scene_bootstrap_95_percent_interval": [
+            0.0,
+            0.0
+          ],
+          "scenes_above_one_coverage_point": 0
+        },
+        "scenes_where_every_near_tie_has_over_one_point_regret": 0,
+        "actual_terminal_successes": 0,
+        "actual_any_step_successes": 0
+      },
+      "always_braked": {
+        "actual_regret": {
+          "scenes": 8,
+          "mean": 0.015513433771163473,
+          "median": 0.0,
+          "min": 0.0,
+          "max": 0.08795095778596096,
+          "scene_bootstrap_95_percent_interval": [
+            0.0,
+            0.03750117321765371
+          ],
+          "scenes_above_one_coverage_point": 2
+        },
+        "scenes_where_every_near_tie_has_over_one_point_regret": 2,
+        "actual_terminal_successes": 0,
+        "actual_any_step_successes": 0
+      }
+    }
+  },
+  "open_to_braked": {
+    "scenes": 8,
+    "reached_before_switch": 0,
+    "reached_during_probe": 0,
+    "probe_rgb_differs": 8,
+    "disjoint_near_optimal_sets": 2,
+    "scenes_with_strict_pair_reversal": 2,
+    "uniform_mode_average_regret": {
+      "scenes": 8,
+      "mean": 0.005566391907116303,
+      "median": 0.0002638825599238781,
+      "min": 0.0,
+      "max": 0.02642430744112184,
+      "scene_bootstrap_95_percent_interval": [
+        0.00013194127996193905,
+        0.012983894198304542
+      ],
+      "scenes_above_one_coverage_point": 2
+    },
+    "policies": {
+      "known_mode": {
+        "actual_regret": {
+          "scenes": 8,
+          "mean": 0.0,
+          "median": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "scene_bootstrap_95_percent_interval": [
+            0.0,
+            0.0
+          ],
+          "scenes_above_one_coverage_point": 0
+        },
+        "scenes_where_every_near_tie_has_over_one_point_regret": 0,
+        "actual_terminal_successes": 0,
+        "actual_any_step_successes": 0
+      },
+      "uniform_modes": {
+        "actual_regret": {
+          "scenes": 8,
+          "mean": 0.01078651136130944,
+          "median": 0.0,
+          "min": 0.0,
+          "max": 0.05284861488224368,
+          "scene_bootstrap_95_percent_interval": [
+            0.0,
+            0.025753457223647858
+          ],
+          "scenes_above_one_coverage_point": 2
+        },
+        "scenes_where_every_near_tie_has_over_one_point_regret": 0,
+        "actual_terminal_successes": 0,
+        "actual_any_step_successes": 0
+      },
+      "stale_mode": {
+        "actual_regret": {
+          "scenes": 8,
+          "mean": 0.013110391152796136,
+          "median": 0.0018633176133202034,
+          "min": 0.0,
+          "max": 0.05284861488224368,
+          "scene_bootstrap_95_percent_interval": [
+            0.0018580503881566457,
+            0.027355966247781943
+          ],
+          "scenes_above_one_coverage_point": 3
+        },
+        "scenes_where_every_near_tie_has_over_one_point_regret": 2,
+        "actual_terminal_successes": 0,
+        "actual_any_step_successes": 0
+      },
+      "always_open": {
+        "actual_regret": {
+          "scenes": 8,
+          "mean": 0.013110391152796136,
+          "median": 0.0018633176133202034,
+          "min": 0.0,
+          "max": 0.05284861488224368,
+          "scene_bootstrap_95_percent_interval": [
+            0.0018580503881566457,
+            0.027355966247781943
+          ],
+          "scenes_above_one_coverage_point": 3
+        },
+        "scenes_where_every_near_tie_has_over_one_point_regret": 2,
+        "actual_terminal_successes": 0,
+        "actual_any_step_successes": 0
+      },
+      "always_braked": {
+        "actual_regret": {
+          "scenes": 8,
+          "mean": 0.0,
+          "median": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "scene_bootstrap_95_percent_interval": [
+            0.0,
+            0.0
+          ],
+          "scenes_above_one_coverage_point": 0
+        },
+        "scenes_where_every_near_tie_has_over_one_point_regret": 0,
+        "actual_terminal_successes": 0,
+        "actual_any_step_successes": 0
+      }
+    }
+  },
+  "per_scene": [
+    {
+      "open_and_braked_near_optimal_disjoint": false,
+      "strict_pair_reversals": [
+        [
+          "rising_push",
+          "falling_push"
+        ]
+      ],
+      "terminal_coverage_by_mode": [
+        [
+          0.3007084530185489,
+          0.36244704762905916,
+          0.5252015252718432,
+          0.6791579936584106,
+          0.6872516412951869,
+          0.5858382102407275,
+          0.6285140953566888
+        ],
+        [
+          0.29774173331263276,
+          0.3236985381853737,
+          0.39114677058292263,
+          0.4863255675988608,
+          0.5537217417038227,
+          0.45812106558656496,
+          0.4150258341375951
+        ]
+      ],
+      "policies": {
+        "known_mode": {
+          "choice": "push",
+          "near_optimal": [
+            "three_quarter_push",
+            "push"
+          ],
+          "actual_regret": 0.0,
+          "actual_regret_interval": [
+            0.0,
+            0.008093647636776335
+          ],
+          "mode_average_regret": 0.0,
+          "mode_average_regret_interval": [
+            0.0,
+            0.03774491087086912
+          ],
+          "actual_terminal_success": false,
+          "actual_any_step_success": false
+        },
+        "uniform_modes": {
+          "choice": "push",
+          "near_optimal": [
+            "push"
+          ],
+          "actual_regret": 0.0,
+          "actual_regret_interval": [
+            0.0,
+            0.0
+          ],
+          "mode_average_regret": 0.0,
+          "mode_average_regret_interval": [
+            0.0,
+            0.0
+          ],
+          "actual_terminal_success": false,
+          "actual_any_step_success": false
+        },
+        "stale_mode": {
+          "choice": "push",
+          "near_optimal": [
+            "push"
+          ],
+          "actual_regret": 0.0,
+          "actual_regret_interval": [
+            0.0,
+            0.0
+          ],
+          "mode_average_regret": 0.0,
+          "mode_average_regret_interval": [
+            0.0,
+            0.0
+          ],
+          "actual_terminal_success": false,
+          "actual_any_step_success": false
+        },
+        "always_open": {
+          "choice": "push",
+          "near_optimal": [
+            "three_quarter_push",
+            "push"
+          ],
+          "actual_regret": 0.0,
+          "actual_regret_interval": [
+            0.0,
+            0.008093647636776335
+          ],
+          "mode_average_regret": 0.0,
+          "mode_average_regret_interval": [
+            0.0,
+            0.03774491087086912
+          ],
+          "actual_terminal_success": false,
+          "actual_any_step_success": false
+        },
+        "always_braked": {
+          "choice": "push",
+          "near_optimal": [
+            "push"
+          ],
+          "actual_regret": 0.0,
+          "actual_regret_interval": [
+            0.0,
+            0.0
+          ],
+          "mode_average_regret": 0.0,
+          "mode_average_regret_interval": [
+            0.0,
+            0.0
+          ],
+          "actual_terminal_success": false,
+          "actual_any_step_success": false
+        }
+      },
+      "scene": 55810,
+      "old_mode": 1,
+      "mode": 0,
+      "coverage_at_switch": 0.04155897718345877,
+      "coverage_at_decision": 0.29055563493807246,
+      "max_coverage_before_switch": 0.04155897718345877,
+      "max_coverage_during_probe": 0.29055563493807246,
+      "reached_before_switch": false,
+      "reached_during_probe": false,
+      "probe_differs_visually_by_raw_step": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "actual_minus_stale_probe_block_x_by_raw_step": [
+        6.547095412297267,
+        9.717211760547855,
+        11.052468081115933,
+        11.364331574018195,
+        11.08250855526785
+      ]
+    },
+    {
+      "open_and_braked_near_optimal_disjoint": false,
+      "strict_pair_reversals": [],
+      "terminal_coverage_by_mode": [
+        [
+          0.09849907457870281,
+          0.1664432345702795,
+          0.22570830454668062,
+          0.25799640861710477,
+          0.26131276709343026,
+          0.20722267981046824,
+          0.20234950848608899
+        ],
+        [
+          0.09759023520641702,
+          0.1636678457431669,
+          0.2206169874019262,
+          0.2510768196119316,
+          0.2553181493629733,
+          0.1985199333971461,
+          0.1958448891936524
+        ]
+      ],
+      "policies": {
+        "known_mode": {
+          "choice": "push",
+          "near_optimal": [
+            "three_quarter_push",
+            "push"
+          ],
+          "actual_regret": 0.0,
+          "actual_regret_interval": [
+            0.0,
+            0.004241329751041634
+          ],
+          "mode_average_regret": 0.0,
+          "mode_average_regret_interval": [
+            0.0,
+            0.0037788441136836215
+          ],
+          "actual_terminal_success": false,
+          "actual_any_step_success": false
+        },
+        "uniform_modes": {
+          "choice": "push",
+          "near_optimal": [
+            "three_quarter_push",
+            "push"
+          ],
+          "actual_regret": 0.0,
+          "actual_regret_interval": [
+            0.0,
+            0.004241329751041634
+          ],
+          "mode_average_regret": 0.0,
+          "mode_average_regret_interval": [
+            0.0,
+            0.0037788441136836215
+          ],
+          "actual_terminal_success": false,
+          "actual_any_step_success": false
+        },
+        "stale_mode": {
+          "choice": "push",
+          "near_optimal": [
+            "three_quarter_push",
+            "push"
+          ],
+          "actual_regret": 0.0,
+          "actual_regret_interval": [
+            0.0,
+            0.004241329751041634
+          ],
+          "mode_average_regret": 0.0,
+          "mode_average_regret_interval": [
+            0.0,
+            0.0037788441136836215
+          ],
+          "actual_terminal_success": false,
+          "actual_any_step_success": false
+        },
+        "always_open": {
+          "choice": "push",
+          "near_optimal": [
+            "three_quarter_push",
+            "push"
+          ],
+          "actual_regret": 0.0,
+          "actual_regret_interval": [
+            0.0,
+            0.004241329751041634
+          ],
+          "mode_average_regret": 0.0,
+          "mode_average_regret_interval": [
+            0.0,
+            0.0037788441136836215
+          ],
+          "actual_terminal_success": false,
+          "actual_any_step_success": false
+        },
+        "always_braked": {
+          "choice": "push",
+          "near_optimal": [
+            "three_quarter_push",
+            "push"
+          ],
+          "actual_regret": 0.0,
+          "actual_regret_interval": [
+            0.0,
+            0.004241329751041634
+          ],
+          "mode_average_regret": 0.0,
+          "mode_average_regret_interval": [
+            0.0,
+            0.0037788441136836215
+          ],
+          "actual_terminal_success": false,
+          "actual_any_step_success": false
+        }
+      },
+      "scene": 55811,
+      "old_mode": 0,
+      "mode": 1,
+      "coverage_at_switch": 0.009783288877232408,
+      "coverage_at_decision": 0.045987433760238484,
+      "max_coverage_before_switch": 0.009783288877232408,
+      "max_coverage_during_probe": 0.045987433760238484,
+      "reached_before_switch": false,
+      "reached_during_probe": false,
+      "probe_differs_visually_by_raw_step": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "actual_minus_stale_probe_block_x_by_raw_step": [
+        -6.702781826623351,
+        -11.312482819988901,
+        -16.112353495094226,
+        -21.089481447976993,
+        -26.373426476771158
+      ]
+    },
+    {
+      "open_and_braked_near_optimal_disjoint": true,
+      "strict_pair_reversals": [
+        [
+          "half_push",
+          "push"
+        ],
+        [
+          "three_quarter_push",
+          "push"
+        ]
+      ],
+      "terminal_coverage_by_mode": [
+        [
+          0.32881267230172506,
+          0.45889447208332235,
+          0.625472445906586,
+          0.6819064000517457,
+          0.5939554422657848,
+          0.5986314699325892,
+          0.4976015974506863
+        ],
+        [
+          0.3241296795671967,
+          0.39217414936141765,
+          0.4877522160773937,
+          0.554723167241369,
+          0.575798350191735,
+          0.48472303366159497,
+          0.46658075878295235
+        ]
+      ],
+      "policies": {
+        "known_mode": {
+          "choice": "three_quarter_push",
+          "near_optimal": [
+            "three_quarter_push"
+          ],
+          "actual_regret": 0.0,
+          "actual_regret_interval": [
+            0.0,
+            0.0
+          ],
+          "mode_average_regret": 0.010537591475182961,
+          "mode_average_regret_interval": [
+            0.010537591475182961,
+            0.010537591475182961
+          ],
+          "actual_terminal_success": false,
+          "actual_any_step_success": false
+        },
+        "uniform_modes": {
+          "choice": "three_quarter_push",
+          "near_optimal": [
+            "three_quarter_push"
+          ],
+          "actual_regret": 0.0,
+          "actual_regret_interval": [
+            0.0,
+            0.0
+          ],
+          "mode_average_regret": 0.010537591475182961,
+          "mode_average_regret_interval": [
+            0.010537591475182961,
+            0.010537591475182961
+          ],
+          "actual_terminal_success": false,
+          "actual_any_step_success": false
+        },
+        "stale_mode": {
+          "choice": "push",
+          "near_optimal": [
+            "push"
+          ],
+          "actual_regret": 0.08795095778596096,
+          "actual_regret_interval": [
+            0.08795095778596096,
+            0.08795095778596096
+          ],
+          "mode_average_regret": 0.04397547889298048,
+          "mode_average_regret_interval": [
+            0.04397547889298048,
+            0.04397547889298048
+          ],
+          "actual_terminal_success": false,
+          "actual_any_step_success": false
+        },
+        "always_open": {
+          "choice": "three_quarter_push",
+          "near_optimal": [
+            "three_quarter_push"
+          ],
+          "actual_regret": 0.0,
+          "actual_regret_interval": [
+            0.0,
+            0.0
+          ],
+          "mode_average_regret": 0.010537591475182961,
+          "mode_average_regret_interval": [
+            0.010537591475182961,
+            0.010537591475182961
+          ],
+          "actual_terminal_success": false,
+          "actual_any_step_success": false
+        },
+        "always_braked": {
+          "choice": "push",
+          "near_optimal": [
+            "push"
+          ],
+          "actual_regret": 0.08795095778596096,
+          "actual_regret_interval": [
+            0.08795095778596096,
+            0.08795095778596096
+          ],
+          "mode_average_regret": 0.04397547889298048,
+          "mode_average_regret_interval": [
+            0.04397547889298048,
+            0.04397547889298048
+          ],
+          "actual_terminal_success": false,
+          "actual_any_step_success": false
+        }
+      },
+      "scene": 55812,
+      "old_mode": 1,
+      "mode": 0,
+      "coverage_at_switch": 0.0565280663664738,
+      "coverage_at_decision": 0.3108619506124702,
+      "max_coverage_before_switch": 0.0565280663664738,
+      "max_coverage_during_probe": 0.3108619506124702,
+      "reached_before_switch": false,
+      "reached_during_probe": false,
+      "probe_differs_visually_by_raw_step": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "actual_minus_stale_probe_block_x_by_raw_step": [
+        6.517814455106304,
+        9.634750621927822,
+        10.904141460864025,
+        11.14490047176588,
+        10.79409434945336
+      ]
+    },
+    {
+      "open_and_braked_near_optimal_disjoint": true,
+      "strict_pair_reversals": [
+        [
+          "half_push",
+          "rising_push"
+        ],
+        [
+          "three_quarter_push",
+          "push"
+        ]
+      ],
+      "terminal_coverage_by_mode": [
+        [
+          0.35371326687409116,
+          0.4523644403678488,
+          0.6384603146311251,
+          0.7640664862692924,
+          0.7037836043356978,
+          0.6245558503663379,
+          0.6705267567240935
+        ],
+        [
+          0.35180550995887133,
+          0.39970983406355365,
+          0.4941602305558558,
+          0.5965274118684818,
+          0.6493760267507255,
+          0.5060878283848049,
+          0.5570140121826536
+        ]
+      ],
+      "policies": {
+        "known_mode": {
+          "choice": "push",
+          "near_optimal": [
+            "push"
+          ],
+          "actual_regret": 0.0,
+          "actual_regret_interval": [
+            0.0,
+            0.0
+          ],
+          "mode_average_regret": 0.030141440966797328,
+          "mode_average_regret_interval": [
+            0.030141440966797328,
+            0.030141440966797328
+          ],
+          "actual_terminal_success": false,
+          "actual_any_step_success": false
+        },
+        "uniform_modes": {
+          "choice": "three_quarter_push",
+          "near_optimal": [
+            "three_quarter_push",
+            "push"
+          ],
+          "actual_regret": 0.05284861488224368,
+          "actual_regret_interval": [
+            0.0,
+            0.05284861488224368
+          ],
+          "mode_average_regret": 0.02642430744112184,
+          "mode_average_regret_interval": [
+            0.02642430744112184,
+            0.030141440966797328
+          ],
+          "actual_terminal_success": false,
+          "actual_any_step_success": false
+        },
+        "stale_mode": {
+          "choice": "three_quarter_push",
+          "near_optimal": [
+            "three_quarter_push"
+          ],
+          "actual_regret": 0.05284861488224368,
+          "actual_regret_interval": [
+            0.05284861488224368,
+            0.05284861488224368
+          ],
+          "mode_average_regret": 0.02642430744112184,
+          "mode_average_regret_interval": [
+            0.02642430744112184,
+            0.02642430744112184
+          ],
+          "actual_terminal_success": false,
+          "actual_any_step_success": false
+        },
+        "always_open": {
+          "choice": "three_quarter_push",
+          "near_optimal": [
+            "three_quarter_push"
+          ],
+          "actual_regret": 0.05284861488224368,
+          "actual_regret_interval": [
+            0.05284861488224368,
+            0.05284861488224368
+          ],
+          "mode_average_regret": 0.02642430744112184,
+          "mode_average_regret_interval": [
+            0.02642430744112184,
+            0.02642430744112184
+          ],
+          "actual_terminal_success": false,
+          "actual_any_step_success": false
+        },
+        "always_braked": {
+          "choice": "push",
+          "near_optimal": [
+            "push"
+          ],
+          "actual_regret": 0.0,
+          "actual_regret_interval": [
+            0.0,
+            0.0
+          ],
+          "mode_average_regret": 0.030141440966797328,
+          "mode_average_regret_interval": [
+            0.030141440966797328,
+            0.030141440966797328
+          ],
+          "actual_terminal_success": false,
+          "actual_any_step_success": false
+        }
+      },
+      "scene": 55813,
+      "old_mode": 0,
+      "mode": 1,
+      "coverage_at_switch": 0.1277337031345997,
+      "coverage_at_decision": 0.29520391764051684,
+      "max_coverage_before_switch": 0.1277337031345997,
+      "max_coverage_during_probe": 0.29520391764051684,
+      "reached_before_switch": false,
+      "reached_during_probe": false,
+      "probe_differs_visually_by_raw_step": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "actual_minus_stale_probe_block_x_by_raw_step": [
+        -6.644720036345404,
+        -9.984659188775879,
+        -11.528738161496904,
+        -11.567186295628517,
+        -11.766409441527685
+      ]
+    },
+    {
+      "open_and_braked_near_optimal_disjoint": false,
+      "strict_pair_reversals": [],
+      "terminal_coverage_by_mode": [
+        [
+          0.05917236000753776,
+          0.0759078419893638,
+          0.07699928438172503,
+          0.07717704380660988,
+          0.07723071362403067,
+          0.07889504195227096,
+          0.05991270518370782
+        ],
+        [
+          0.05840864597560087,
+          0.07180749885994324,
+          0.0723851340531079,
+          0.07231951713575675,
+          0.07220413653773486,
+          0.07573138955079958,
+          0.05913851593471351
+        ]
+      ],
+      "policies": {
+        "known_mode": {
+          "choice": "rising_push",
+          "near_optimal": [
+            "quarter_push",
+            "half_push",
+            "three_quarter_push",
+            "push",
+            "rising_push"
+          ],
+          "actual_regret": 0.0,
+          "actual_regret_interval": [
+            0.0,
+            0.0029871999629070833
+          ],
+          "mode_average_regret": 0.0,
+          "mode_average_regret_interval": [
+            0.0,
+            0.003455545326881748
+          ],
+          "actual_terminal_success": false,
+          "actual_any_step_success": false
+        },
+        "uniform_modes": {
+          "choice": "rising_push",
+          "near_optimal": [
+            "quarter_push",
+            "half_push",
+            "three_quarter_push",
+            "push",
+            "rising_push"
+          ],
+          "actual_regret": 0.0,
+          "actual_regret_interval": [
+            0.0,
+            0.0029871999629070833
+          ],
+          "mode_average_regret": 0.0,
+          "mode_average_regret_interval": [
+            0.0,
+            0.003455545326881748
+          ],
+          "actual_terminal_success": false,
+          "actual_any_step_success": false
+        },
+        "stale_mode": {
+          "choice": "rising_push",
+          "near_optimal": [
+            "quarter_push",
+            "half_push",
+            "three_quarter_push",
+            "push",
+            "rising_push"
+          ],
+          "actual_regret": 0.0,
+          "actual_regret_interval": [
+            0.0,
+            0.0029871999629070833
+          ],
+          "mode_average_regret": 0.0,
+          "mode_average_regret_interval": [
+            0.0,
+            0.003455545326881748
+          ],
+          "actual_terminal_success": false,
+          "actual_any_step_success": false
+        },
+        "always_open": {
+          "choice": "rising_push",
+          "near_optimal": [
+            "quarter_push",
+            "half_push",
+            "three_quarter_push",
+            "push",
+            "rising_push"
+          ],
+          "actual_regret": 0.0,
+          "actual_regret_interval": [
+            0.0,
+            0.0029871999629070833
+          ],
+          "mode_average_regret": 0.0,
+          "mode_average_regret_interval": [
+            0.0,
+            0.003455545326881748
+          ],
+          "actual_terminal_success": false,
+          "actual_any_step_success": false
+        },
+        "always_braked": {
+          "choice": "rising_push",
+          "near_optimal": [
+            "quarter_push",
+            "half_push",
+            "three_quarter_push",
+            "push",
+            "rising_push"
+          ],
+          "actual_regret": 0.0,
+          "actual_regret_interval": [
+            0.0,
+            0.0029871999629070833
+          ],
+          "mode_average_regret": 0.0,
+          "mode_average_regret_interval": [
+            0.0,
+            0.003455545326881748
+          ],
+          "actual_terminal_success": false,
+          "actual_any_step_success": false
+        }
+      },
+      "scene": 55814,
+      "old_mode": 1,
+      "mode": 0,
+      "coverage_at_switch": 0.0,
+      "coverage_at_decision": 0.05348991194719908,
+      "max_coverage_before_switch": 0.0,
+      "max_coverage_during_probe": 0.05348991194719908,
+      "reached_before_switch": false,
+      "reached_during_probe": false,
+      "probe_differs_visually_by_raw_step": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "actual_minus_stale_probe_block_x_by_raw_step": [
+        2.9008923589507845,
+        5.107013627673155,
+        6.7805240829256945,
+        8.030192517935404,
+        8.94873735710388
+      ]
+    },
+    {
+      "open_and_braked_near_optimal_disjoint": false,
+      "strict_pair_reversals": [],
+      "terminal_coverage_by_mode": [
+        [
+          0.10773798442010418,
+          0.18090241055859196,
+          0.23883039697751296,
+          0.2681506591498495,
+          0.27419381999253556,
+          0.21352899646098278,
+          0.20362009166743994
+        ],
+        [
+          0.10572419140139985,
+          0.16431841280308332,
+          0.2097821052856692,
+          0.23484742204646258,
+          0.24179382281913853,
+          0.17879069178404447,
+          0.1783953841219206
+        ]
+      ],
+      "policies": {
+        "known_mode": {
+          "choice": "push",
+          "near_optimal": [
+            "three_quarter_push",
+            "push"
+          ],
+          "actual_regret": 0.0,
+          "actual_regret_interval": [
+            0.0,
+            0.0069464007726759425
+          ],
+          "mode_average_regret": 0.0,
+          "mode_average_regret_interval": [
+            0.0,
+            0.006494780807681011
+          ],
+          "actual_terminal_success": false,
+          "actual_any_step_success": false
+        },
+        "uniform_modes": {
+          "choice": "push",
+          "near_optimal": [
+            "three_quarter_push",
+            "push"
+          ],
+          "actual_regret": 0.0,
+          "actual_regret_interval": [
+            0.0,
+            0.0069464007726759425
+          ],
+          "mode_average_regret": 0.0,
+          "mode_average_regret_interval": [
+            0.0,
+            0.006494780807681011
+          ],
+          "actual_terminal_success": false,
+          "actual_any_step_success": false
+        },
+        "stale_mode": {
+          "choice": "push",
+          "near_optimal": [
+            "three_quarter_push",
+            "push"
+          ],
+          "actual_regret": 0.0,
+          "actual_regret_interval": [
+            0.0,
+            0.0069464007726759425
+          ],
+          "mode_average_regret": 0.0,
+          "mode_average_regret_interval": [
+            0.0,
+            0.006494780807681011
+          ],
+          "actual_terminal_success": false,
+          "actual_any_step_success": false
+        },
+        "always_open": {
+          "choice": "push",
+          "near_optimal": [
+            "three_quarter_push",
+            "push"
+          ],
+          "actual_regret": 0.0,
+          "actual_regret_interval": [
+            0.0,
+            0.0069464007726759425
+          ],
+          "mode_average_regret": 0.0,
+          "mode_average_regret_interval": [
+            0.0,
+            0.006494780807681011
+          ],
+          "actual_terminal_success": false,
+          "actual_any_step_success": false
+        },
+        "always_braked": {
+          "choice": "push",
+          "near_optimal": [
+            "three_quarter_push",
+            "push"
+          ],
+          "actual_regret": 0.0,
+          "actual_regret_interval": [
+            0.0,
+            0.0069464007726759425
+          ],
+          "mode_average_regret": 0.0,
+          "mode_average_regret_interval": [
+            0.0,
+            0.006494780807681011
+          ],
+          "actual_terminal_success": false,
+          "actual_any_step_success": false
+        }
+      },
+      "scene": 55815,
+      "old_mode": 0,
+      "mode": 1,
+      "coverage_at_switch": 0.015264414573491107,
+      "coverage_at_decision": 0.05239674607479365,
+      "max_coverage_before_switch": 0.016101922456311337,
+      "max_coverage_during_probe": 0.05239674607479365,
+      "reached_before_switch": false,
+      "reached_during_probe": false,
+      "probe_differs_visually_by_raw_step": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "actual_minus_stale_probe_block_x_by_raw_step": [
+        -6.522707675707522,
+        -11.25207481566639,
+        -16.156199001198843,
+        -21.080826595645533,
+        -25.996944620008378
+      ]
+    },
+    {
+      "open_and_braked_near_optimal_disjoint": true,
+      "strict_pair_reversals": [
+        [
+          "three_quarter_push",
+          "push"
+        ]
+      ],
+      "terminal_coverage_by_mode": [
+        [
+          0.24338032925696806,
+          0.34836966221289734,
+          0.45655777015464805,
+          0.5131779629650464,
+          0.4835637211570561,
+          0.4673227905802542,
+          0.3617503289219822
+        ],
+        [
+          0.24101478336020452,
+          0.31238774613818465,
+          0.3786217513892794,
+          0.4243085833720305,
+          0.43564878506983645,
+          0.3909244018322409,
+          0.3708854396767068
+        ]
+      ],
+      "policies": {
+        "known_mode": {
+          "choice": "three_quarter_push",
+          "near_optimal": [
+            "three_quarter_push"
+          ],
+          "actual_regret": 0.0,
+          "actual_regret_interval": [
+            0.0,
+            0.0
+          ],
+          "mode_average_regret": 0.005670100848903015,
+          "mode_average_regret_interval": [
+            0.005670100848903015,
+            0.005670100848903015
+          ],
+          "actual_terminal_success": false,
+          "actual_any_step_success": false
+        },
+        "uniform_modes": {
+          "choice": "three_quarter_push",
+          "near_optimal": [
+            "three_quarter_push",
+            "push"
+          ],
+          "actual_regret": 0.0,
+          "actual_regret_interval": [
+            0.0,
+            0.029614241807990327
+          ],
+          "mode_average_regret": 0.005670100848903015,
+          "mode_average_regret_interval": [
+            0.005670100848903015,
+            0.014807120903995163
+          ],
+          "actual_terminal_success": false,
+          "actual_any_step_success": false
+        },
+        "stale_mode": {
+          "choice": "push",
+          "near_optimal": [
+            "push"
+          ],
+          "actual_regret": 0.029614241807990327,
+          "actual_regret_interval": [
+            0.029614241807990327,
+            0.029614241807990327
+          ],
+          "mode_average_regret": 0.014807120903995163,
+          "mode_average_regret_interval": [
+            0.014807120903995163,
+            0.014807120903995163
+          ],
+          "actual_terminal_success": false,
+          "actual_any_step_success": false
+        },
+        "always_open": {
+          "choice": "three_quarter_push",
+          "near_optimal": [
+            "three_quarter_push"
+          ],
+          "actual_regret": 0.0,
+          "actual_regret_interval": [
+            0.0,
+            0.0
+          ],
+          "mode_average_regret": 0.005670100848903015,
+          "mode_average_regret_interval": [
+            0.005670100848903015,
+            0.005670100848903015
+          ],
+          "actual_terminal_success": false,
+          "actual_any_step_success": false
+        },
+        "always_braked": {
+          "choice": "push",
+          "near_optimal": [
+            "push"
+          ],
+          "actual_regret": 0.029614241807990327,
+          "actual_regret_interval": [
+            0.029614241807990327,
+            0.029614241807990327
+          ],
+          "mode_average_regret": 0.014807120903995163,
+          "mode_average_regret_interval": [
+            0.014807120903995163,
+            0.014807120903995163
+          ],
+          "actual_terminal_success": false,
+          "actual_any_step_success": false
+        }
+      },
+      "scene": 55816,
+      "old_mode": 1,
+      "mode": 0,
+      "coverage_at_switch": 0.0,
+      "coverage_at_decision": 0.2249478419523815,
+      "max_coverage_before_switch": 0.0,
+      "max_coverage_during_probe": 0.2249478419523815,
+      "reached_before_switch": false,
+      "reached_during_probe": false,
+      "probe_differs_visually_by_raw_step": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "actual_minus_stale_probe_block_x_by_raw_step": [
+        6.326423737995583,
+        9.181681562024437,
+        10.196673140185965,
+        10.25473781604478,
+        9.861710299422327
+      ]
+    },
+    {
+      "open_and_braked_near_optimal_disjoint": false,
+      "strict_pair_reversals": [],
+      "terminal_coverage_by_mode": [
+        [
+          0.1545767463990112,
+          0.26095705980897876,
+          0.34527900987187726,
+          0.34998416029019125,
+          0.30257306141158136,
+          0.2585760687673428,
+          0.351698809673881
+        ],
+        [
+          0.15272675716567027,
+          0.23291888985923698,
+          0.3018374605559171,
+          0.321935938722111,
+          0.3058200998066149,
+          0.26445203662873906,
+          0.3070715356168578
+        ]
+      ],
+      "policies": {
+        "known_mode": {
+          "choice": "three_quarter_push",
+          "near_optimal": [
+            "three_quarter_push"
+          ],
+          "actual_regret": 0.0,
+          "actual_regret_interval": [
+            0.0,
+            0.0
+          ],
+          "mode_average_regret": 0.0008573246918449073,
+          "mode_average_regret_interval": [
+            0.0008573246918449073,
+            0.0008573246918449073
+          ],
+          "actual_terminal_success": false,
+          "actual_any_step_success": false
+        },
+        "uniform_modes": {
+          "choice": "three_quarter_push",
+          "near_optimal": [
+            "three_quarter_push",
+            "falling_push"
+          ],
+          "actual_regret": 0.0,
+          "actual_regret_interval": [
+            0.0,
+            0.014864403105253166
+          ],
+          "mode_average_regret": 0.0008573246918449073,
+          "mode_average_regret_interval": [
+            0.0008573246918449073,
+            0.007432201552626583
+          ],
+          "actual_terminal_success": false,
+          "actual_any_step_success": false
+        },
+        "stale_mode": {
+          "choice": "falling_push",
+          "near_optimal": [
+            "half_push",
+            "three_quarter_push",
+            "falling_push"
+          ],
+          "actual_regret": 0.014864403105253166,
+          "actual_regret_interval": [
+            0.0,
+            0.020098478166193923
+          ],
+          "mode_average_regret": 0.007432201552626583,
+          "mode_average_regret_interval": [
+            0.0008573246918449073,
+            0.013259138984098862
+          ],
+          "actual_terminal_success": false,
+          "actual_any_step_success": false
+        },
+        "always_open": {
+          "choice": "falling_push",
+          "near_optimal": [
+            "half_push",
+            "three_quarter_push",
+            "falling_push"
+          ],
+          "actual_regret": 0.014864403105253166,
+          "actual_regret_interval": [
+            0.0,
+            0.020098478166193923
+          ],
+          "mode_average_regret": 0.007432201552626583,
+          "mode_average_regret_interval": [
+            0.0008573246918449073,
+            0.013259138984098862
+          ],
+          "actual_terminal_success": false,
+          "actual_any_step_success": false
+        },
+        "always_braked": {
+          "choice": "three_quarter_push",
+          "near_optimal": [
+            "three_quarter_push"
+          ],
+          "actual_regret": 0.0,
+          "actual_regret_interval": [
+            0.0,
+            0.0
+          ],
+          "mode_average_regret": 0.0008573246918449073,
+          "mode_average_regret_interval": [
+            0.0008573246918449073,
+            0.0008573246918449073
+          ],
+          "actual_terminal_success": false,
+          "actual_any_step_success": false
+        }
+      },
+      "scene": 55817,
+      "old_mode": 0,
+      "mode": 1,
+      "coverage_at_switch": 0.07850671158548161,
+      "coverage_at_decision": 0.06837580085022173,
+      "max_coverage_before_switch": 0.07850671158548161,
+      "max_coverage_during_probe": 0.0748332845568586,
+      "reached_before_switch": false,
+      "reached_during_probe": false,
+      "probe_differs_visually_by_raw_step": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "actual_minus_stale_probe_block_x_by_raw_step": [
+        -6.864492291605018,
+        -11.311579398649258,
+        -14.439436449996606,
+        -18.28496123501492,
+        -22.692274892818375
+      ]
+    },
+    {
+      "open_and_braked_near_optimal_disjoint": false,
+      "strict_pair_reversals": [],
+      "terminal_coverage_by_mode": [
+        [
+          0.008182788479409295,
+          0.008182788479409295,
+          0.008182788479409295,
+          0.008182788479409295,
+          0.008182788479409295,
+          0.008119045147290399,
+          0.008182788479409295
+        ],
+        [
+          0.008182788479409295,
+          0.008182788479409295,
+          0.008182788479409295,
+          0.008182788479409295,
+          0.008182788479409295,
+          0.008119045147290399,
+          0.008182788479409295
+        ]
+      ],
+      "policies": {
+        "known_mode": {
+          "choice": "hold",
+          "near_optimal": [
+            "hold",
+            "quarter_push",
+            "half_push",
+            "three_quarter_push",
+            "push",
+            "rising_push",
+            "falling_push"
+          ],
+          "actual_regret": 0.0,
+          "actual_regret_interval": [
+            0.0,
+            6.374333211889294e-05
+          ],
+          "mode_average_regret": 0.0,
+          "mode_average_regret_interval": [
+            0.0,
+            6.374333211889294e-05
+          ],
+          "actual_terminal_success": false,
+          "actual_any_step_success": false
+        },
+        "uniform_modes": {
+          "choice": "hold",
+          "near_optimal": [
+            "hold",
+            "quarter_push",
+            "half_push",
+            "three_quarter_push",
+            "push",
+            "rising_push",
+            "falling_push"
+          ],
+          "actual_regret": 0.0,
+          "actual_regret_interval": [
+            0.0,
+            6.374333211889294e-05
+          ],
+          "mode_average_regret": 0.0,
+          "mode_average_regret_interval": [
+            0.0,
+            6.374333211889294e-05
+          ],
+          "actual_terminal_success": false,
+          "actual_any_step_success": false
+        },
+        "stale_mode": {
+          "choice": "hold",
+          "near_optimal": [
+            "hold",
+            "quarter_push",
+            "half_push",
+            "three_quarter_push",
+            "push",
+            "rising_push",
+            "falling_push"
+          ],
+          "actual_regret": 0.0,
+          "actual_regret_interval": [
+            0.0,
+            6.374333211889294e-05
+          ],
+          "mode_average_regret": 0.0,
+          "mode_average_regret_interval": [
+            0.0,
+            6.374333211889294e-05
+          ],
+          "actual_terminal_success": false,
+          "actual_any_step_success": false
+        },
+        "always_open": {
+          "choice": "hold",
+          "near_optimal": [
+            "hold",
+            "quarter_push",
+            "half_push",
+            "three_quarter_push",
+            "push",
+            "rising_push",
+            "falling_push"
+          ],
+          "actual_regret": 0.0,
+          "actual_regret_interval": [
+            0.0,
+            6.374333211889294e-05
+          ],
+          "mode_average_regret": 0.0,
+          "mode_average_regret_interval": [
+            0.0,
+            6.374333211889294e-05
+          ],
+          "actual_terminal_success": false,
+          "actual_any_step_success": false
+        },
+        "always_braked": {
+          "choice": "hold",
+          "near_optimal": [
+            "hold",
+            "quarter_push",
+            "half_push",
+            "three_quarter_push",
+            "push",
+            "rising_push",
+            "falling_push"
+          ],
+          "actual_regret": 0.0,
+          "actual_regret_interval": [
+            0.0,
+            6.374333211889294e-05
+          ],
+          "mode_average_regret": 0.0,
+          "mode_average_regret_interval": [
+            0.0,
+            6.374333211889294e-05
+          ],
+          "actual_terminal_success": false,
+          "actual_any_step_success": false
+        }
+      },
+      "scene": 55818,
+      "old_mode": 1,
+      "mode": 0,
+      "coverage_at_switch": 0.0,
+      "coverage_at_decision": 0.008182788479409295,
+      "max_coverage_before_switch": 0.0,
+      "max_coverage_during_probe": 0.008182788479409295,
+      "reached_before_switch": false,
+      "reached_during_probe": false,
+      "probe_differs_visually_by_raw_step": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "actual_minus_stale_probe_block_x_by_raw_step": [
+        1.8564710102333493,
+        3.236193979016406,
+        4.259016082271245,
+        4.977636845304858,
+        4.983251369805856
+      ]
+    },
+    {
+      "open_and_braked_near_optimal_disjoint": false,
+      "strict_pair_reversals": [],
+      "terminal_coverage_by_mode": [
+        [
+          0.11018705749420336,
+          0.20627548060019302,
+          0.28850564910368093,
+          0.3259486015910676,
+          0.3305435338768615,
+          0.28462818354183717,
+          0.26465377195965445
+        ],
+        [
+          0.10650856283873343,
+          0.17518497487685994,
+          0.24159207675664918,
+          0.27896948160566937,
+          0.2939315821766919,
+          0.2574695269238546,
+          0.21539466949076289
+        ]
+      ],
+      "policies": {
+        "known_mode": {
+          "choice": "push",
+          "near_optimal": [
+            "push"
+          ],
+          "actual_regret": 0.0,
+          "actual_regret_interval": [
+            0.0,
+            0.0
+          ],
+          "mode_average_regret": 0.0,
+          "mode_average_regret_interval": [
+            0.0,
+            0.0
+          ],
+          "actual_terminal_success": false,
+          "actual_any_step_success": false
+        },
+        "uniform_modes": {
+          "choice": "push",
+          "near_optimal": [
+            "three_quarter_push",
+            "push"
+          ],
+          "actual_regret": 0.0,
+          "actual_regret_interval": [
+            0.0,
+            0.01496210057102254
+          ],
+          "mode_average_regret": 0.0,
+          "mode_average_regret_interval": [
+            0.0,
+            0.009778516428408213
+          ],
+          "actual_terminal_success": false,
+          "actual_any_step_success": false
+        },
+        "stale_mode": {
+          "choice": "push",
+          "near_optimal": [
+            "three_quarter_push",
+            "push"
+          ],
+          "actual_regret": 0.0,
+          "actual_regret_interval": [
+            0.0,
+            0.01496210057102254
+          ],
+          "mode_average_regret": 0.0,
+          "mode_average_regret_interval": [
+            0.0,
+            0.009778516428408213
+          ],
+          "actual_terminal_success": false,
+          "actual_any_step_success": false
+        },
+        "always_open": {
+          "choice": "push",
+          "near_optimal": [
+            "three_quarter_push",
+            "push"
+          ],
+          "actual_regret": 0.0,
+          "actual_regret_interval": [
+            0.0,
+            0.01496210057102254
+          ],
+          "mode_average_regret": 0.0,
+          "mode_average_regret_interval": [
+            0.0,
+            0.009778516428408213
+          ],
+          "actual_terminal_success": false,
+          "actual_any_step_success": false
+        },
+        "always_braked": {
+          "choice": "push",
+          "near_optimal": [
+            "push"
+          ],
+          "actual_regret": 0.0,
+          "actual_regret_interval": [
+            0.0,
+            0.0
+          ],
+          "mode_average_regret": 0.0,
+          "mode_average_regret_interval": [
+            0.0,
+            0.0
+          ],
+          "actual_terminal_success": false,
+          "actual_any_step_success": false
+        }
+      },
+      "scene": 55819,
+      "old_mode": 0,
+      "mode": 1,
+      "coverage_at_switch": 0.06375768987626781,
+      "coverage_at_decision": 0.03254252742250095,
+      "max_coverage_before_switch": 0.06375768987626781,
+      "max_coverage_during_probe": 0.05384580143535517,
+      "reached_before_switch": false,
+      "reached_during_probe": false,
+      "probe_differs_visually_by_raw_step": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "actual_minus_stale_probe_block_x_by_raw_step": [
+        -6.789725615596183,
+        -11.712789861587567,
+        -15.795423408118495,
+        -20.70515575541748,
+        -26.048866829357337
+      ]
+    },
+    {
+      "open_and_braked_near_optimal_disjoint": false,
+      "strict_pair_reversals": [
+        [
+          "quarter_push",
+          "push"
+        ]
+      ],
+      "terminal_coverage_by_mode": [
+        [
+          0.21383733289466092,
+          0.34211357660317554,
+          0.4352682933413249,
+          0.40850104062109815,
+          0.33155689086725537,
+          0.31765827002646335,
+          0.42872602276596844
+        ],
+        [
+          0.20858151466645639,
+          0.29765949451872464,
+          0.3714009412013259,
+          0.3660471690549905,
+          0.3147925441934783,
+          0.2894021401498083,
+          0.3771780305262734
+        ]
+      ],
+      "policies": {
+        "known_mode": {
+          "choice": "half_push",
+          "near_optimal": [
+            "half_push",
+            "falling_push"
+          ],
+          "actual_regret": 0.0,
+          "actual_regret_interval": [
+            0.0,
+            0.006542270575356501
+          ],
+          "mode_average_regret": 0.0028885446624737354,
+          "mode_average_regret_interval": [
+            0.0028885446624737354,
+            0.0032711352876782507
+          ],
+          "actual_terminal_success": false,
+          "actual_any_step_success": false
+        },
+        "uniform_modes": {
+          "choice": "half_push",
+          "near_optimal": [
+            "half_push",
+            "falling_push"
+          ],
+          "actual_regret": 0.0,
+          "actual_regret_interval": [
+            0.0,
+            0.006542270575356501
+          ],
+          "mode_average_regret": 0.0028885446624737354,
+          "mode_average_regret_interval": [
+            0.0028885446624737354,
+            0.0032711352876782507
+          ],
+          "actual_terminal_success": false,
+          "actual_any_step_success": false
+        },
+        "stale_mode": {
+          "choice": "falling_push",
+          "near_optimal": [
+            "half_push",
+            "falling_push"
+          ],
+          "actual_regret": 0.006542270575356501,
+          "actual_regret_interval": [
+            0.0,
+            0.006542270575356501
+          ],
+          "mode_average_regret": 0.0032711352876782507,
+          "mode_average_regret_interval": [
+            0.0028885446624737354,
+            0.0032711352876782507
+          ],
+          "actual_terminal_success": false,
+          "actual_any_step_success": false
+        },
+        "always_open": {
+          "choice": "half_push",
+          "near_optimal": [
+            "half_push",
+            "falling_push"
+          ],
+          "actual_regret": 0.0,
+          "actual_regret_interval": [
+            0.0,
+            0.006542270575356501
+          ],
+          "mode_average_regret": 0.0028885446624737354,
+          "mode_average_regret_interval": [
+            0.0028885446624737354,
+            0.0032711352876782507
+          ],
+          "actual_terminal_success": false,
+          "actual_any_step_success": false
+        },
+        "always_braked": {
+          "choice": "falling_push",
+          "near_optimal": [
+            "half_push",
+            "falling_push"
+          ],
+          "actual_regret": 0.006542270575356501,
+          "actual_regret_interval": [
+            0.0,
+            0.006542270575356501
+          ],
+          "mode_average_regret": 0.0032711352876782507,
+          "mode_average_regret_interval": [
+            0.0028885446624737354,
+            0.0032711352876782507
+          ],
+          "actual_terminal_success": false,
+          "actual_any_step_success": false
+        }
+      },
+      "scene": 55820,
+      "old_mode": 1,
+      "mode": 0,
+      "coverage_at_switch": 0.04522221939129876,
+      "coverage_at_decision": 0.18733936264064538,
+      "max_coverage_before_switch": 0.04522221939129876,
+      "max_coverage_during_probe": 0.18733936264064538,
+      "reached_before_switch": false,
+      "reached_during_probe": false,
+      "probe_differs_visually_by_raw_step": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "actual_minus_stale_probe_block_x_by_raw_step": [
+        6.917991181276022,
+        11.659122736260485,
+        15.768646251437303,
+        20.143000559227232,
+        25.2313481134143
+      ]
+    },
+    {
+      "open_and_braked_near_optimal_disjoint": false,
+      "strict_pair_reversals": [],
+      "terminal_coverage_by_mode": [
+        [
+          0.1164375758759617,
+          0.1578016204464876,
+          0.17582037412699372,
+          0.17687590436668926,
+          0.1669922154605924,
+          0.08744216974046103,
+          0.152659050469056
+        ],
+        [
+          0.1164335002861664,
+          0.15366763321680377,
+          0.16651537758778295,
+          0.1627887423611426,
+          0.15506537857136657,
+          0.06386672563452955,
+          0.1472436720145729
+        ]
+      ],
+      "policies": {
+        "known_mode": {
+          "choice": "half_push",
+          "near_optimal": [
+            "half_push",
+            "three_quarter_push"
+          ],
+          "actual_regret": 0.0,
+          "actual_regret_interval": [
+            0.0,
+            0.003726635226640407
+          ],
+          "mode_average_regret": 0.0005277651198477562,
+          "mode_average_regret_interval": [
+            0.0005277651198477562,
+            0.0018633176133202034
+          ],
+          "actual_terminal_success": false,
+          "actual_any_step_success": false
+        },
+        "uniform_modes": {
+          "choice": "half_push",
+          "near_optimal": [
+            "half_push",
+            "three_quarter_push"
+          ],
+          "actual_regret": 0.0,
+          "actual_regret_interval": [
+            0.0,
+            0.003726635226640407
+          ],
+          "mode_average_regret": 0.0005277651198477562,
+          "mode_average_regret_interval": [
+            0.0005277651198477562,
+            0.0018633176133202034
+          ],
+          "actual_terminal_success": false,
+          "actual_any_step_success": false
+        },
+        "stale_mode": {
+          "choice": "three_quarter_push",
+          "near_optimal": [
+            "half_push",
+            "three_quarter_push",
+            "push"
+          ],
+          "actual_regret": 0.003726635226640407,
+          "actual_regret_interval": [
+            0.0,
+            0.011449999016416412
+          ],
+          "mode_average_regret": 0.0018633176133202034,
+          "mode_average_regret_interval": [
+            0.0005277651198477562,
+            0.010666843961256611
+          ],
+          "actual_terminal_success": false,
+          "actual_any_step_success": false
+        },
+        "always_open": {
+          "choice": "three_quarter_push",
+          "near_optimal": [
+            "half_push",
+            "three_quarter_push",
+            "push"
+          ],
+          "actual_regret": 0.003726635226640407,
+          "actual_regret_interval": [
+            0.0,
+            0.011449999016416412
+          ],
+          "mode_average_regret": 0.0018633176133202034,
+          "mode_average_regret_interval": [
+            0.0005277651198477562,
+            0.010666843961256611
+          ],
+          "actual_terminal_success": false,
+          "actual_any_step_success": false
+        },
+        "always_braked": {
+          "choice": "half_push",
+          "near_optimal": [
+            "half_push",
+            "three_quarter_push"
+          ],
+          "actual_regret": 0.0,
+          "actual_regret_interval": [
+            0.0,
+            0.003726635226640407
+          ],
+          "mode_average_regret": 0.0005277651198477562,
+          "mode_average_regret_interval": [
+            0.0005277651198477562,
+            0.0018633176133202034
+          ],
+          "actual_terminal_success": false,
+          "actual_any_step_success": false
+        }
+      },
+      "scene": 55821,
+      "old_mode": 0,
+      "mode": 1,
+      "coverage_at_switch": 0.0,
+      "coverage_at_decision": 0.07897669508940099,
+      "max_coverage_before_switch": 0.0,
+      "max_coverage_during_probe": 0.07897669508940099,
+      "reached_before_switch": false,
+      "reached_during_probe": false,
+      "probe_differs_visually_by_raw_step": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "actual_minus_stale_probe_block_x_by_raw_step": [
+        -5.926007195498755,
+        -10.470697589577242,
+        -14.993119676710194,
+        -19.17788668439499,
+        -22.919201067442827
+      ]
+    },
+    {
+      "open_and_braked_near_optimal_disjoint": false,
+      "strict_pair_reversals": [],
+      "terminal_coverage_by_mode": [
+        [
+          0.09253981440895341,
+          0.11021858450461201,
+          0.11284892772093857,
+          0.11288042212532928,
+          0.11289181951278485,
+          0.04859120207100147,
+          0.09614309048041818
+        ],
+        [
+          0.09253981440895341,
+          0.11021858450461201,
+          0.11284892772093857,
+          0.11288042212532928,
+          0.11289181951278485,
+          0.04859120207100147,
+          0.09614309048041818
+        ]
+      ],
+      "policies": {
+        "known_mode": {
+          "choice": "push",
+          "near_optimal": [
+            "quarter_push",
+            "half_push",
+            "three_quarter_push",
+            "push"
+          ],
+          "actual_regret": 0.0,
+          "actual_regret_interval": [
+            0.0,
+            0.0026732350081728473
+          ],
+          "mode_average_regret": 0.0,
+          "mode_average_regret_interval": [
+            0.0,
+            0.0026732350081728473
+          ],
+          "actual_terminal_success": false,
+          "actual_any_step_success": false
+        },
+        "uniform_modes": {
+          "choice": "push",
+          "near_optimal": [
+            "quarter_push",
+            "half_push",
+            "three_quarter_push",
+            "push"
+          ],
+          "actual_regret": 0.0,
+          "actual_regret_interval": [
+            0.0,
+            0.0026732350081728473
+          ],
+          "mode_average_regret": 0.0,
+          "mode_average_regret_interval": [
+            0.0,
+            0.0026732350081728473
+          ],
+          "actual_terminal_success": false,
+          "actual_any_step_success": false
+        },
+        "stale_mode": {
+          "choice": "push",
+          "near_optimal": [
+            "quarter_push",
+            "half_push",
+            "three_quarter_push",
+            "push"
+          ],
+          "actual_regret": 0.0,
+          "actual_regret_interval": [
+            0.0,
+            0.0026732350081728473
+          ],
+          "mode_average_regret": 0.0,
+          "mode_average_regret_interval": [
+            0.0,
+            0.0026732350081728473
+          ],
+          "actual_terminal_success": false,
+          "actual_any_step_success": false
+        },
+        "always_open": {
+          "choice": "push",
+          "near_optimal": [
+            "quarter_push",
+            "half_push",
+            "three_quarter_push",
+            "push"
+          ],
+          "actual_regret": 0.0,
+          "actual_regret_interval": [
+            0.0,
+            0.0026732350081728473
+          ],
+          "mode_average_regret": 0.0,
+          "mode_average_regret_interval": [
+            0.0,
+            0.0026732350081728473
+          ],
+          "actual_terminal_success": false,
+          "actual_any_step_success": false
+        },
+        "always_braked": {
+          "choice": "push",
+          "near_optimal": [
+            "quarter_push",
+            "half_push",
+            "three_quarter_push",
+            "push"
+          ],
+          "actual_regret": 0.0,
+          "actual_regret_interval": [
+            0.0,
+            0.0026732350081728473
+          ],
+          "mode_average_regret": 0.0,
+          "mode_average_regret_interval": [
+            0.0,
+            0.0026732350081728473
+          ],
+          "actual_terminal_success": false,
+          "actual_any_step_success": false
+        }
+      },
+      "scene": 55822,
+      "old_mode": 1,
+      "mode": 0,
+      "coverage_at_switch": 0.0,
+      "coverage_at_decision": 0.08522006041774298,
+      "max_coverage_before_switch": 0.0,
+      "max_coverage_during_probe": 0.08522006041774298,
+      "reached_before_switch": false,
+      "reached_during_probe": false,
+      "probe_differs_visually_by_raw_step": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "actual_minus_stale_probe_block_x_by_raw_step": [
+        2.199290076574698,
+        2.2472745182454616,
+        2.3145131948317896,
+        2.3730779925164143,
+        2.415648857625456
+      ]
+    },
+    {
+      "open_and_braked_near_optimal_disjoint": false,
+      "strict_pair_reversals": [],
+      "terminal_coverage_by_mode": [
+        [
+          0.10327063161749793,
+          0.15170561727344217,
+          0.18298459437372344,
+          0.19527427688561524,
+          0.19423621699281715,
+          0.12429929934137651,
+          0.14899068251748887
+        ],
+        [
+          0.10306926713168768,
+          0.1480299169018939,
+          0.17464406464101084,
+          0.18215243586391155,
+          0.178489598902704,
+          0.09687371528301726,
+          0.1422316419868938
+        ]
+      ],
+      "policies": {
+        "known_mode": {
+          "choice": "three_quarter_push",
+          "near_optimal": [
+            "half_push",
+            "three_quarter_push",
+            "push"
+          ],
+          "actual_regret": 0.0,
+          "actual_regret_interval": [
+            0.0,
+            0.007508371222900712
+          ],
+          "mode_average_regret": 0.0,
+          "mode_average_regret_interval": [
+            0.0,
+            0.009899026867396299
+          ],
+          "actual_terminal_success": false,
+          "actual_any_step_success": false
+        },
+        "uniform_modes": {
+          "choice": "three_quarter_push",
+          "near_optimal": [
+            "half_push",
+            "three_quarter_push",
+            "push"
+          ],
+          "actual_regret": 0.0,
+          "actual_regret_interval": [
+            0.0,
+            0.007508371222900712
+          ],
+          "mode_average_regret": 0.0,
+          "mode_average_regret_interval": [
+            0.0,
+            0.009899026867396299
+          ],
+          "actual_terminal_success": false,
+          "actual_any_step_success": false
+        },
+        "stale_mode": {
+          "choice": "three_quarter_push",
+          "near_optimal": [
+            "three_quarter_push",
+            "push"
+          ],
+          "actual_regret": 0.0,
+          "actual_regret_interval": [
+            0.0,
+            0.003662836961207505
+          ],
+          "mode_average_regret": 0.0,
+          "mode_average_regret_interval": [
+            0.0,
+            0.002350448427002827
+          ],
+          "actual_terminal_success": false,
+          "actual_any_step_success": false
+        },
+        "always_open": {
+          "choice": "three_quarter_push",
+          "near_optimal": [
+            "three_quarter_push",
+            "push"
+          ],
+          "actual_regret": 0.0,
+          "actual_regret_interval": [
+            0.0,
+            0.003662836961207505
+          ],
+          "mode_average_regret": 0.0,
+          "mode_average_regret_interval": [
+            0.0,
+            0.002350448427002827
+          ],
+          "actual_terminal_success": false,
+          "actual_any_step_success": false
+        },
+        "always_braked": {
+          "choice": "three_quarter_push",
+          "near_optimal": [
+            "half_push",
+            "three_quarter_push",
+            "push"
+          ],
+          "actual_regret": 0.0,
+          "actual_regret_interval": [
+            0.0,
+            0.007508371222900712
+          ],
+          "mode_average_regret": 0.0,
+          "mode_average_regret_interval": [
+            0.0,
+            0.009899026867396299
+          ],
+          "actual_terminal_success": false,
+          "actual_any_step_success": false
+        }
+      },
+      "scene": 55823,
+      "old_mode": 0,
+      "mode": 1,
+      "coverage_at_switch": 0.0,
+      "coverage_at_decision": 0.0642107591286688,
+      "max_coverage_before_switch": 0.0,
+      "max_coverage_during_probe": 0.0642107591286688,
+      "reached_before_switch": false,
+      "reached_during_probe": false,
+      "probe_differs_visually_by_raw_step": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "actual_minus_stale_probe_block_x_by_raw_step": [
+        -6.078440139887533,
+        -10.704681684462827,
+        -15.360707422368705,
+        -19.747634349311767,
+        -23.75587070110393
+      ]
+    },
+    {
+      "open_and_braked_near_optimal_disjoint": false,
+      "strict_pair_reversals": [],
+      "terminal_coverage_by_mode": [
+        [
+          0.124431066214831,
+          0.18782930161365802,
+          0.22922849246035906,
+          0.24610413999261524,
+          0.2429148619118588,
+          0.1540292532172513,
+          0.18947321024256839
+        ],
+        [
+          0.12173760271017284,
+          0.17583823465628853,
+          0.20839435849193128,
+          0.2222506532884106,
+          0.22065957111392862,
+          0.1314632205029887,
+          0.17403553165883123
+        ]
+      ],
+      "policies": {
+        "known_mode": {
+          "choice": "three_quarter_push",
+          "near_optimal": [
+            "three_quarter_push",
+            "push"
+          ],
+          "actual_regret": 0.0,
+          "actual_regret_interval": [
+            0.0,
+            0.003189278080756419
+          ],
+          "mode_average_regret": 0.0,
+          "mode_average_regret_interval": [
+            0.0,
+            0.002390180127619157
+          ],
+          "actual_terminal_success": false,
+          "actual_any_step_success": false
+        },
+        "uniform_modes": {
+          "choice": "three_quarter_push",
+          "near_optimal": [
+            "three_quarter_push",
+            "push"
+          ],
+          "actual_regret": 0.0,
+          "actual_regret_interval": [
+            0.0,
+            0.003189278080756419
+          ],
+          "mode_average_regret": 0.0,
+          "mode_average_regret_interval": [
+            0.0,
+            0.002390180127619157
+          ],
+          "actual_terminal_success": false,
+          "actual_any_step_success": false
+        },
+        "stale_mode": {
+          "choice": "three_quarter_push",
+          "near_optimal": [
+            "three_quarter_push",
+            "push"
+          ],
+          "actual_regret": 0.0,
+          "actual_regret_interval": [
+            0.0,
+            0.003189278080756419
+          ],
+          "mode_average_regret": 0.0,
+          "mode_average_regret_interval": [
+            0.0,
+            0.002390180127619157
+          ],
+          "actual_terminal_success": false,
+          "actual_any_step_success": false
+        },
+        "always_open": {
+          "choice": "three_quarter_push",
+          "near_optimal": [
+            "three_quarter_push",
+            "push"
+          ],
+          "actual_regret": 0.0,
+          "actual_regret_interval": [
+            0.0,
+            0.003189278080756419
+          ],
+          "mode_average_regret": 0.0,
+          "mode_average_regret_interval": [
+            0.0,
+            0.002390180127619157
+          ],
+          "actual_terminal_success": false,
+          "actual_any_step_success": false
+        },
+        "always_braked": {
+          "choice": "three_quarter_push",
+          "near_optimal": [
+            "three_quarter_push",
+            "push"
+          ],
+          "actual_regret": 0.0,
+          "actual_regret_interval": [
+            0.0,
+            0.003189278080756419
+          ],
+          "mode_average_regret": 0.0,
+          "mode_average_regret_interval": [
+            0.0,
+            0.002390180127619157
+          ],
+          "actual_terminal_success": false,
+          "actual_any_step_success": false
+        }
+      },
+      "scene": 55824,
+      "old_mode": 1,
+      "mode": 0,
+      "coverage_at_switch": 0.0,
+      "coverage_at_decision": 0.10479336437279946,
+      "max_coverage_before_switch": 0.0,
+      "max_coverage_during_probe": 0.10479336437279946,
+      "reached_before_switch": false,
+      "reached_during_probe": false,
+      "probe_differs_visually_by_raw_step": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "actual_minus_stale_probe_block_x_by_raw_step": [
+        5.4371124277662375,
+        9.874793014669535,
+        13.700367393510874,
+        16.946179661808685,
+        19.581674203683974
+      ]
+    },
+    {
+      "open_and_braked_near_optimal_disjoint": true,
+      "strict_pair_reversals": [
+        [
+          "half_push",
+          "rising_push"
+        ],
+        [
+          "three_quarter_push",
+          "rising_push"
+        ],
+        [
+          "push",
+          "falling_push"
+        ]
+      ],
+      "terminal_coverage_by_mode": [
+        [
+          0.33807825269914266,
+          0.4931928059917502,
+          0.6739556739234207,
+          0.7037458695767306,
+          0.5755539573873873,
+          0.6554204373433465,
+          0.6235274223545516
+        ],
+        [
+          0.3343572726181615,
+          0.42428117656760755,
+          0.5362159199044126,
+          0.5790959917772672,
+          0.52717001797562,
+          0.6125394677854991,
+          0.5037015818078385
+        ]
+      ],
+      "policies": {
+        "known_mode": {
+          "choice": "rising_push",
+          "near_optimal": [
+            "rising_push"
+          ],
+          "actual_regret": 0.0,
+          "actual_regret_interval": [
+            0.0,
+            0.0
+          ],
+          "mode_average_regret": 0.024162716116692018,
+          "mode_average_regret_interval": [
+            0.024162716116692018,
+            0.024162716116692018
+          ],
+          "actual_terminal_success": false,
+          "actual_any_step_success": false
+        },
+        "uniform_modes": {
+          "choice": "three_quarter_push",
+          "near_optimal": [
+            "three_quarter_push",
+            "rising_push"
+          ],
+          "actual_regret": 0.03344347600823183,
+          "actual_regret_interval": [
+            0.0,
+            0.03344347600823183
+          ],
+          "mode_average_regret": 0.016721738004115916,
+          "mode_average_regret_interval": [
+            0.016721738004115916,
+            0.024162716116692018
+          ],
+          "actual_terminal_success": false,
+          "actual_any_step_success": false
+        },
+        "stale_mode": {
+          "choice": "three_quarter_push",
+          "near_optimal": [
+            "three_quarter_push"
+          ],
+          "actual_regret": 0.03344347600823183,
+          "actual_regret_interval": [
+            0.03344347600823183,
+            0.03344347600823183
+          ],
+          "mode_average_regret": 0.016721738004115916,
+          "mode_average_regret_interval": [
+            0.016721738004115916,
+            0.016721738004115916
+          ],
+          "actual_terminal_success": false,
+          "actual_any_step_success": false
+        },
+        "always_open": {
+          "choice": "three_quarter_push",
+          "near_optimal": [
+            "three_quarter_push"
+          ],
+          "actual_regret": 0.03344347600823183,
+          "actual_regret_interval": [
+            0.03344347600823183,
+            0.03344347600823183
+          ],
+          "mode_average_regret": 0.016721738004115916,
+          "mode_average_regret_interval": [
+            0.016721738004115916,
+            0.016721738004115916
+          ],
+          "actual_terminal_success": false,
+          "actual_any_step_success": false
+        },
+        "always_braked": {
+          "choice": "rising_push",
+          "near_optimal": [
+            "rising_push"
+          ],
+          "actual_regret": 0.0,
+          "actual_regret_interval": [
+            0.0,
+            0.0
+          ],
+          "mode_average_regret": 0.024162716116692018,
+          "mode_average_regret_interval": [
+            0.024162716116692018,
+            0.024162716116692018
+          ],
+          "actual_terminal_success": false,
+          "actual_any_step_success": false
+        }
+      },
+      "scene": 55825,
+      "old_mode": 0,
+      "mode": 1,
+      "coverage_at_switch": 0.1108427717881511,
+      "coverage_at_decision": 0.2671604287349564,
+      "max_coverage_before_switch": 0.1108427717881511,
+      "max_coverage_during_probe": 0.2671604287349564,
+      "reached_before_switch": false,
+      "reached_during_probe": false,
+      "probe_differs_visually_by_raw_step": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "actual_minus_stale_probe_block_x_by_raw_step": [
+        -6.794610224014036,
+        -10.587912609273758,
+        -12.853504811440189,
+        -13.919615766145682,
+        -15.49574258395063
+      ]
+    }
+  ]
+}

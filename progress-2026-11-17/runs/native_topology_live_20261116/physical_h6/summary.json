@@ -1,0 +1,191 @@
+{
+  "scope": "Scripted physical probes and one fixed candidate bank per root; no learned predictions or closed loop",
+  "candidates_per_root": 384,
+  "minimum_blind_margin_map_units": 2.5,
+  "directions": {
+    "northwest": {
+      "qualifying_layouts": 58,
+      "modes": {
+        "0": {
+          "queries": 64,
+          "unique_physical_roots": 64,
+          "legal_both": 64,
+          "uniform_strict_first_regret": 64,
+          "uniform_regret_at_least_one_raw_step": 58,
+          "minimax_blind_margin_at_least_one_raw_step": 58,
+          "mode_optimal_sets_disjoint": 64,
+          "uniform_first_changed": 64,
+          "immediate_uniform_gt_true": 27,
+          "any_candidate_hit": 14,
+          "oracle_plan_hit": 14,
+          "uniform_plan_hit": 0,
+          "uniform_first_can_hit": 0,
+          "oracle_first_can_hit": 14,
+          "any_first_raw_mode_effect": 0,
+          "any_horizon_raw_mode_effect": 64,
+          "uniform_first_regret_mean_and_layout_bootstrap_95ci": [
+            16.9989046305418,
+            15.254087771102785,
+            18.69353831112385
+          ],
+          "uniform_plan_regret_mean_and_layout_bootstrap_95ci": [
+            17.001930817961693,
+            15.254198940098286,
+            18.698459558188915
+          ],
+          "stale_first_regret_mean_and_layout_bootstrap_95ci": [
+            17.201893970370293,
+            15.458447422459722,
+            18.906814699620007
+          ],
+          "immediate_uniform_minus_true_cost_mean_and_layout_bootstrap_95ci": [
+            -0.6962078809738159,
+            -2.186320686340332,
+            0.8239726185798635
+          ],
+          "minimax_blind_first_regret_mean_and_layout_bootstrap_95ci": [
+            16.486848756670952,
+            14.768352360278367,
+            18.183104540780185
+          ]
+        },
+        "1": {
+          "queries": 64,
+          "unique_physical_roots": 64,
+          "legal_both": 64,
+          "uniform_strict_first_regret": 8,
+          "uniform_regret_at_least_one_raw_step": 0,
+          "minimax_blind_margin_at_least_one_raw_step": 58,
+          "mode_optimal_sets_disjoint": 64,
+          "uniform_first_changed": 8,
+          "immediate_uniform_gt_true": 4,
+          "any_candidate_hit": 37,
+          "oracle_plan_hit": 37,
+          "uniform_plan_hit": 37,
+          "uniform_first_can_hit": 37,
+          "oracle_first_can_hit": 37,
+          "any_first_raw_mode_effect": 0,
+          "any_horizon_raw_mode_effect": 64,
+          "uniform_first_regret_mean_and_layout_bootstrap_95ci": [
+            0.07626071572303772,
+            0.024918156117200854,
+            0.14003089144825934
+          ],
+          "uniform_plan_regret_mean_and_layout_bootstrap_95ci": [
+            0.07626071572303772,
+            0.024918156117200854,
+            0.14003089144825934
+          ],
+          "stale_first_regret_mean_and_layout_bootstrap_95ci": [
+            81.39004484936595,
+            76.82122559668497,
+            85.09141139974817
+          ],
+          "immediate_uniform_minus_true_cost_mean_and_layout_bootstrap_95ci": [
+            0.18607556819915771,
+            -0.03793346881866455,
+            0.46583723425865176
+          ],
+          "minimax_blind_first_regret_mean_and_layout_bootstrap_95ci": [
+            16.486848756670952,
+            14.768352360278367,
+            18.183104540780185
+          ]
+        }
+      }
+    },
+    "southeast_mirror": {
+      "qualifying_layouts": 62,
+      "modes": {
+        "0": {
+          "queries": 64,
+          "unique_physical_roots": 64,
+          "legal_both": 64,
+          "uniform_strict_first_regret": 9,
+          "uniform_regret_at_least_one_raw_step": 1,
+          "minimax_blind_margin_at_least_one_raw_step": 62,
+          "mode_optimal_sets_disjoint": 64,
+          "uniform_first_changed": 9,
+          "immediate_uniform_gt_true": 7,
+          "any_candidate_hit": 31,
+          "oracle_plan_hit": 31,
+          "uniform_plan_hit": 30,
+          "uniform_first_can_hit": 30,
+          "oracle_first_can_hit": 31,
+          "any_first_raw_mode_effect": 0,
+          "any_horizon_raw_mode_effect": 64,
+          "uniform_first_regret_mean_and_layout_bootstrap_95ci": [
+            0.13011708855628967,
+            0.03962360396981239,
+            0.26851810514926905
+          ],
+          "uniform_plan_regret_mean_and_layout_bootstrap_95ci": [
+            0.13011708855628967,
+            0.03962360396981239,
+            0.26851810514926905
+          ],
+          "stale_first_regret_mean_and_layout_bootstrap_95ci": [
+            80.99688782542944,
+            76.29243465717882,
+            84.71616988573223
+          ],
+          "immediate_uniform_minus_true_cost_mean_and_layout_bootstrap_95ci": [
+            0.14049744606018066,
+            -0.02424690723419189,
+            0.35422009825706463
+          ],
+          "minimax_blind_first_regret_mean_and_layout_bootstrap_95ci": [
+            18.614639304578304,
+            16.54682315774262,
+            20.581903552263974
+          ]
+        },
+        "1": {
+          "queries": 64,
+          "unique_physical_roots": 64,
+          "legal_both": 64,
+          "uniform_strict_first_regret": 64,
+          "uniform_regret_at_least_one_raw_step": 62,
+          "minimax_blind_margin_at_least_one_raw_step": 62,
+          "mode_optimal_sets_disjoint": 64,
+          "uniform_first_changed": 64,
+          "immediate_uniform_gt_true": 35,
+          "any_candidate_hit": 24,
+          "oracle_plan_hit": 24,
+          "uniform_plan_hit": 0,
+          "uniform_first_can_hit": 0,
+          "oracle_first_can_hit": 24,
+          "any_first_raw_mode_effect": 0,
+          "any_horizon_raw_mode_effect": 64,
+          "uniform_first_regret_mean_and_layout_bootstrap_95ci": [
+            19.021438501775265,
+            16.92898532990366,
+            21.012828024849295
+          ],
+          "uniform_plan_regret_mean_and_layout_bootstrap_95ci": [
+            19.021438501775265,
+            16.92898532990366,
+            21.012828024849295
+          ],
+          "stale_first_regret_mean_and_layout_bootstrap_95ci": [
+            19.34830542653799,
+            17.25392866693437,
+            21.34925931561738
+          ],
+          "immediate_uniform_minus_true_cost_mean_and_layout_bootstrap_95ci": [
+            0.9341675043106079,
+            -0.7994949638843536,
+            2.6217443197965604
+          ],
+          "minimax_blind_first_regret_mean_and_layout_bootstrap_95ci": [
+            18.614639304578304,
+            16.54682315774262,
+            20.581903552263974
+          ]
+        }
+      }
+    }
+  },
+  "both_directions_qualifying_layouts": 57,
+  "all_roots_legal_matched_and_two_witnesses": true
+}

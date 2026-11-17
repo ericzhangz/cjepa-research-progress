@@ -1,0 +1,158 @@
+{
+  "arm1": {
+    "false_goal": 12,
+    "queries": 64,
+    "false_goal_gate": false,
+    "common_blocked_gate": true,
+    "h5_joint_gate": false,
+    "common_blocked_projection": {
+      "plans": 1894,
+      "historical_physical_px": 3.04,
+      "max_absolute_bias_px": 1.0,
+      "forecast_px": 5.411053881880167,
+      "physical_px": 4.713922105661276,
+      "forecast_minus_physical_px": 0.6971317762188908,
+      "gap_layout_bootstrap_95ci_px": [
+        -0.010884179699439825,
+        1.3518690569956482
+      ]
+    },
+    "mean_first_block_regret": 15.2824926674366,
+    "median_first_block_regret": 6.395565032958984,
+    "mean_suffix_regret": 0.0395280122756958,
+    "selected_actual_goal_room": 28,
+    "available_actual_goal_room": 50,
+    "by_direction_and_mode": {
+      "northwest": {
+        "0": {
+          "queries": 16,
+          "false_goal_room": 6,
+          "common_blocked_plans": 710,
+          "forecast_px": 5.9685620149991045,
+          "physical_px": 5.468483893058433,
+          "mean_first_block_regret": 22.06457006931305,
+          "median_first_block_regret": 3.710719108581543,
+          "mean_suffix_regret": 0.0,
+          "selected_actual_goal_room": 8,
+          "available_actual_goal_room": 14
+        },
+        "1": {
+          "queries": 16,
+          "false_goal_room": 0,
+          "common_blocked_plans": 710,
+          "forecast_px": 3.5572474589754997,
+          "physical_px": 5.468483893058433,
+          "mean_first_block_regret": 10.332799196243286,
+          "median_first_block_regret": 9.496464729309082,
+          "mean_suffix_regret": 0.0,
+          "selected_actual_goal_room": 1,
+          "available_actual_goal_room": 9
+        }
+      },
+      "southeast": {
+        "0": {
+          "queries": 16,
+          "false_goal_room": 0,
+          "common_blocked_plans": 1184,
+          "forecast_px": 5.5799030147986866,
+          "physical_px": 4.261439952745752,
+          "mean_first_block_regret": 8.917126059532166,
+          "median_first_block_regret": 3.3660202026367188,
+          "mean_suffix_regret": 0.0,
+          "selected_actual_goal_room": 12,
+          "available_actual_goal_room": 16
+        },
+        "1": {
+          "queries": 16,
+          "false_goal_room": 6,
+          "common_blocked_plans": 1184,
+          "forecast_px": 6.019545784221672,
+          "physical_px": 4.261439952745752,
+          "mean_first_block_regret": 19.815475344657898,
+          "median_first_block_regret": 6.325797080993652,
+          "mean_suffix_regret": 0.1581120491027832,
+          "selected_actual_goal_room": 7,
+          "available_actual_goal_room": 11
+        }
+      }
+    }
+  },
+  "arm2": {
+    "false_goal": 13,
+    "queries": 64,
+    "false_goal_gate": false,
+    "common_blocked_gate": false,
+    "h5_joint_gate": false,
+    "common_blocked_projection": {
+      "plans": 2177,
+      "historical_physical_px": 3.04,
+      "max_absolute_bias_px": 1.0,
+      "forecast_px": 8.642236989936084,
+      "physical_px": 5.4733413483651905,
+      "forecast_minus_physical_px": 3.168895641570893,
+      "gap_layout_bootstrap_95ci_px": [
+        2.3495555505837795,
+        4.066325812889834
+      ]
+    },
+    "mean_first_block_regret": 15.856975138187408,
+    "median_first_block_regret": 11.779399871826172,
+    "mean_suffix_regret": 2.031064033508301,
+    "selected_actual_goal_room": 17,
+    "available_actual_goal_room": 55,
+    "by_direction_and_mode": {
+      "northwest": {
+        "0": {
+          "queries": 16,
+          "false_goal_room": 0,
+          "common_blocked_plans": 1107,
+          "forecast_px": 6.977118482286583,
+          "physical_px": 4.3755774792279984,
+          "mean_first_block_regret": 9.914878010749817,
+          "median_first_block_regret": 9.04459285736084,
+          "mean_suffix_regret": 0.0,
+          "selected_actual_goal_room": 4,
+          "available_actual_goal_room": 14
+        },
+        "1": {
+          "queries": 16,
+          "false_goal_room": 0,
+          "common_blocked_plans": 1107,
+          "forecast_px": 6.776149907530485,
+          "physical_px": 4.3755774792279984,
+          "mean_first_block_regret": 9.758336424827576,
+          "median_first_block_regret": 11.318071365356445,
+          "mean_suffix_regret": 0.0,
+          "selected_actual_goal_room": 4,
+          "available_actual_goal_room": 13
+        }
+      },
+      "southeast": {
+        "0": {
+          "queries": 16,
+          "false_goal_room": 5,
+          "common_blocked_plans": 1070,
+          "forecast_px": 10.384106789027976,
+          "physical_px": 6.6090652765286215,
+          "mean_first_block_regret": 23.049721240997314,
+          "median_first_block_regret": 16.574140548706055,
+          "mean_suffix_regret": 4.111011743545532,
+          "selected_actual_goal_room": 2,
+          "available_actual_goal_room": 16
+        },
+        "1": {
+          "queries": 16,
+          "false_goal_room": 8,
+          "common_blocked_plans": 1070,
+          "forecast_px": 10.55367989008811,
+          "physical_px": 6.6090652765286215,
+          "mean_first_block_regret": 20.704964876174927,
+          "median_first_block_regret": 9.400315284729004,
+          "mean_suffix_regret": 4.013244390487671,
+          "selected_actual_goal_room": 7,
+          "available_actual_goal_room": 12
+        }
+      }
+    }
+  }
+}

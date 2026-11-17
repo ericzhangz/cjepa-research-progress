@@ -1,0 +1,122 @@
+{
+  "control": [],
+  "factual": [
+    {
+      "seed": 2026111805,
+      "initial": 0,
+      "time": 30,
+      "event": 0,
+      "raw_neutral": true,
+      "true_mode": 1,
+      "prior_true": 0.5064663407446113,
+      "post_true": 0.4943679893045402,
+      "prior_log_odds": 0.025866805153807015,
+      "signed_evidence": -0.0483958007805243,
+      "truthful_pair_kappa": 5.462718482483459e-12
+    },
+    {
+      "seed": 2026111808,
+      "initial": 0,
+      "time": 30,
+      "event": 0,
+      "raw_neutral": true,
+      "true_mode": 1,
+      "prior_true": 0.5226376985811325,
+      "post_true": 0.43746753754243517,
+      "prior_log_odds": 0.09061274273215081,
+      "signed_evidence": -0.3420590830394641,
+      "truthful_pair_kappa": 0.0
+    },
+    {
+      "seed": 2026111809,
+      "initial": 0,
+      "time": 28,
+      "event": 3,
+      "raw_neutral": false,
+      "true_mode": 1,
+      "prior_true": 0.11386476956719599,
+      "post_true": 0.4963238492274639,
+      "prior_log_odds": -2.051858056845719,
+      "signed_evidence": 2.0371531887879826,
+      "truthful_pair_kappa": 3.740336980913802
+    },
+    {
+      "seed": 2026111809,
+      "initial": 0,
+      "time": 30,
+      "event": 0,
+      "raw_neutral": true,
+      "true_mode": 1,
+      "prior_true": 0.5106794646585197,
+      "post_true": 0.46744294953186893,
+      "prior_log_odds": 0.04272435643011885,
+      "signed_evidence": -0.1731370771091043,
+      "truthful_pair_kappa": 0.0
+    },
+    {
+      "seed": 2026111813,
+      "initial": 0,
+      "time": 30,
+      "event": 0,
+      "raw_neutral": true,
+      "true_mode": 1,
+      "prior_true": 0.5718903610468791,
+      "post_true": 0.47614978228765203,
+      "prior_log_odds": 0.28956796796077533,
+      "signed_evidence": -0.3850412939550574,
+      "truthful_pair_kappa": 0.0
+    },
+    {
+      "seed": 2026111820,
+      "initial": 0,
+      "time": 28,
+      "event": 3,
+      "raw_neutral": false,
+      "true_mode": 1,
+      "prior_true": 0.11490299763539885,
+      "post_true": 0.39949480687665023,
+      "prior_log_odds": -2.041608972597814,
+      "signed_evidence": 1.6340384491808972,
+      "truthful_pair_kappa": 3.591414038399943
+    },
+    {
+      "seed": 2026111823,
+      "initial": 0,
+      "time": 30,
+      "event": 0,
+      "raw_neutral": true,
+      "true_mode": 1,
+      "prior_true": 0.5690050348766236,
+      "post_true": 0.4937095548160695,
+      "prior_log_odds": 0.2777928745407968,
+      "signed_evidence": -0.3029559829281121,
+      "truthful_pair_kappa": 4.5405976653046634e-12
+    },
+    {
+      "seed": 2026111823,
+      "initial": 0,
+      "time": 35,
+      "event": 0,
+      "raw_neutral": true,
+      "true_mode": 1,
+      "prior_true": 0.5041927938132288,
+      "post_true": 0.48534839110766775,
+      "prior_log_odds": 0.016771568375114954,
+      "signed_evidence": -0.07539478728900378,
+      "truthful_pair_kappa": 4.5405976653046634e-12
+    },
+    {
+      "seed": 2026111826,
+      "initial": 0,
+      "time": 28,
+      "event": 3,
+      "raw_neutral": false,
+      "true_mode": 1,
+      "prior_true": 0.12375351174711602,
+      "post_true": 0.3762024421316801,
+      "prior_log_odds": -1.9573556518401474,
+      "signed_evidence": 1.4516571710254136,
+      "truthful_pair_kappa": 3.832748678447528
+    }
+  ]
+}

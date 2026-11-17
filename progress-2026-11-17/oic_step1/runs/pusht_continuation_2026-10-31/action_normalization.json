@@ -1,0 +1,35 @@
+{
+  "official_archive": "https://huggingface.co/datasets/quentinll/lewm-pusht/resolve/655cd446b9929369d7d406001da85c15d1457850/pusht_expert_train.h5.zst",
+  "full_action_column_mirror": "https://huggingface.co/datasets/JU9999/lewm_pusht_64px/resolve/038d29b9b493319e094b16a65bda0340f8032201/tensordict",
+  "torch_training_convention": "exclude NaN rows, per-axis sample std, normalize before temporal flatten",
+  "mean": [
+    -0.007812564379916172,
+    0.006860687229453032
+  ],
+  "std": [
+    0.20846748745157725,
+    0.20674867061240074
+  ],
+  "finite_rows": 2336736,
+  "author_rows_compared": 1744,
+  "source_ranked_episodes": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "panel_sha256": "6332757b204aa5d632101f554c411b7b1bcb40d42c065d966678c3943bf6ccb0",
+  "subset_note": "First 16 episodes of one demonstration family, not independent states."
+}

@@ -1,0 +1,18 @@
+{
+  "host": "tworoom",
+  "coordinates": "native TwoRoom XY, one unit per rendered pixel",
+  "scenes": 48,
+  "primitive_actions_per_model_block": 5,
+  "exact_shared_complete_rgb_prefix": true,
+  "physical_effect_rms": [
+    43.18284606933594,
+    40.52286911010742,
+    38.17236328125,
+    35.786617279052734
+  ],
+  "model_measured": false,
+  "missing_assets": [
+    "complete published weights.pt",
+    "dataset action normalization"
+  ]
+}

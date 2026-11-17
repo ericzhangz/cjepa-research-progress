@@ -1,0 +1,1874 @@
+{
+  "archive": "runs\\native_topology_accumulated_20261116\\corrected\\round3\\data_train_live.npz",
+  "n_control_roots": 512,
+  "n_modes": 2,
+  "n_blocks": 5,
+  "n_primitive_steps": 5,
+  "planned": {
+    "all": {
+      "controls": 3840,
+      "rank_pairs": 2166,
+      "paired_mode_split_first_block": [
+        512,
+        477,
+        236,
+        218,
+        883
+      ],
+      "mode_block_motion": [
+        7680,
+        7424,
+        7672,
+        7477,
+        6779
+      ],
+      "mode_block_endpoint_motion": [
+        7680,
+        7424,
+        7672,
+        7474,
+        6779
+      ],
+      "mode_first_root_room_passage": [
+        512,
+        43,
+        3256,
+        311,
+        45
+      ],
+      "mode_any_room_change_by_H": [
+        512,
+        160,
+        3325,
+        471,
+        485
+      ],
+      "mode_any_primitive_room_change_by_H": [
+        512,
+        160,
+        3325,
+        471,
+        485
+      ],
+      "mode_axis_room_change_by_H": [
+        512,
+        160,
+        3325,
+        471,
+        485
+      ],
+      "mode_axis_room_change_with_exit_face_by_H": [
+        0,
+        0,
+        1064,
+        213,
+        145
+      ],
+      "mode_axis_room_change_with_old_wall_label_by_H": [
+        0,
+        0,
+        201,
+        108,
+        49
+      ],
+      "mode_axis_primitive_cross_with_old_wall_label_by_H": [
+        0,
+        0,
+        201,
+        108,
+        49
+      ],
+      "true_endpoint_outside_wall_strips": [
+        14848,
+        11710,
+        12526,
+        14544,
+        13585
+      ],
+      "old_wall_contact_labels": [
+        512,
+        1278,
+        2498,
+        3535,
+        5168
+      ],
+      "old_wall_label_not_retained": 0,
+      "paired_block_raw_neutral_before_split": [
+        3328,
+        2851,
+        2615,
+        2397,
+        1514
+      ],
+      "paired_block_no_raw_difference": [
+        3328,
+        2851,
+        2634,
+        2518,
+        1650
+      ],
+      "paired_block_no_end_difference": [
+        3328,
+        2862,
+        2726,
+        2533,
+        1653
+      ],
+      "paired_common_blocked": [
+        0,
+        208,
+        605,
+        646,
+        620
+      ],
+      "paired_static_common_blocked": [
+        0,
+        0,
+        4,
+        94,
+        352
+      ],
+      "paired_common_blocked_but_endpoint_moves": [
+        0,
+        208,
+        601,
+        551,
+        268
+      ],
+      "mode_axis_old_wall_label_at_H3_legal_crossing": 201,
+      "mode_H5_room_different_from_root": 3976
+    },
+    "root_0": {
+      "controls": 512,
+      "rank_pairs": 0,
+      "paired_mode_split_first_block": [
+        256,
+        0,
+        0,
+        0,
+        4
+      ],
+      "mode_block_motion": [
+        1024,
+        896,
+        1024,
+        1024,
+        1024
+      ],
+      "mode_block_endpoint_motion": [
+        1024,
+        896,
+        1024,
+        1024,
+        1024
+      ],
+      "mode_first_root_room_passage": [
+        256,
+        0,
+        0,
+        0,
+        0
+      ],
+      "mode_any_room_change_by_H": [
+        256,
+        60,
+        33,
+        25,
+        17
+      ],
+      "mode_any_primitive_room_change_by_H": [
+        256,
+        60,
+        33,
+        25,
+        17
+      ],
+      "mode_axis_room_change_by_H": [
+        256,
+        60,
+        33,
+        25,
+        17
+      ],
+      "mode_axis_room_change_with_exit_face_by_H": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "mode_axis_room_change_with_old_wall_label_by_H": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "mode_axis_primitive_cross_with_old_wall_label_by_H": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "true_endpoint_outside_wall_strips": [
+        1792,
+        1920,
+        1921,
+        1918,
+        1910
+      ],
+      "old_wall_contact_labels": [
+        256,
+        180,
+        95,
+        72,
+        108
+      ],
+      "old_wall_label_not_retained": 0,
+      "paired_block_raw_neutral_before_split": [
+        256,
+        256,
+        256,
+        256,
+        252
+      ],
+      "paired_block_no_raw_difference": [
+        256,
+        256,
+        256,
+        256,
+        252
+      ],
+      "paired_block_no_end_difference": [
+        256,
+        256,
+        256,
+        256,
+        252
+      ],
+      "paired_common_blocked": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "paired_static_common_blocked": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "paired_common_blocked_but_endpoint_moves": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "mode_axis_old_wall_label_at_H3_legal_crossing": 0,
+      "mode_H5_room_different_from_root": 203
+    },
+    "root_1": {
+      "controls": 512,
+      "rank_pairs": 0,
+      "paired_mode_split_first_block": [
+        256,
+        0,
+        0,
+        0,
+        4
+      ],
+      "mode_block_motion": [
+        1024,
+        896,
+        1024,
+        1024,
+        1024
+      ],
+      "mode_block_endpoint_motion": [
+        1024,
+        896,
+        1024,
+        1024,
+        1024
+      ],
+      "mode_first_root_room_passage": [
+        256,
+        0,
+        0,
+        0,
+        0
+      ],
+      "mode_any_room_change_by_H": [
+        256,
+        57,
+        36,
+        32,
+        17
+      ],
+      "mode_any_primitive_room_change_by_H": [
+        256,
+        57,
+        36,
+        32,
+        17
+      ],
+      "mode_axis_room_change_by_H": [
+        256,
+        57,
+        36,
+        32,
+        17
+      ],
+      "mode_axis_room_change_with_exit_face_by_H": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "mode_axis_room_change_with_old_wall_label_by_H": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "mode_axis_primitive_cross_with_old_wall_label_by_H": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "true_endpoint_outside_wall_strips": [
+        1792,
+        1920,
+        1920,
+        1915,
+        1907
+      ],
+      "old_wall_contact_labels": [
+        256,
+        186,
+        92,
+        74,
+        98
+      ],
+      "old_wall_label_not_retained": 0,
+      "paired_block_raw_neutral_before_split": [
+        256,
+        256,
+        256,
+        256,
+        252
+      ],
+      "paired_block_no_raw_difference": [
+        256,
+        256,
+        256,
+        256,
+        252
+      ],
+      "paired_block_no_end_difference": [
+        256,
+        256,
+        256,
+        256,
+        252
+      ],
+      "paired_common_blocked": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "paired_static_common_blocked": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "paired_common_blocked_but_endpoint_moves": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "mode_axis_old_wall_label_at_H3_legal_crossing": 0,
+      "mode_H5_room_different_from_root": 196
+    },
+    "root_2": {
+      "controls": 1408,
+      "rank_pairs": 951,
+      "paired_mode_split_first_block": [
+        0,
+        236,
+        136,
+        129,
+        488
+      ],
+      "mode_block_motion": [
+        2816,
+        2816,
+        2810,
+        2695,
+        2436
+      ],
+      "mode_block_endpoint_motion": [
+        2816,
+        2816,
+        2810,
+        2692,
+        2436
+      ],
+      "mode_first_root_room_passage": [
+        0,
+        43,
+        1621,
+        190,
+        12
+      ],
+      "mode_any_room_change_by_H": [
+        0,
+        43,
+        1621,
+        207,
+        232
+      ],
+      "mode_any_primitive_room_change_by_H": [
+        0,
+        43,
+        1621,
+        207,
+        232
+      ],
+      "mode_axis_room_change_by_H": [
+        0,
+        43,
+        1621,
+        207,
+        232
+      ],
+      "mode_axis_room_change_with_exit_face_by_H": [
+        0,
+        0,
+        520,
+        125,
+        68
+      ],
+      "mode_axis_room_change_with_old_wall_label_by_H": [
+        0,
+        0,
+        88,
+        64,
+        14
+      ],
+      "mode_axis_primitive_cross_with_old_wall_label_by_H": [
+        0,
+        0,
+        88,
+        64,
+        14
+      ],
+      "true_endpoint_outside_wall_strips": [
+        5632,
+        3990,
+        4303,
+        5381,
+        4805
+      ],
+      "old_wall_contact_labels": [
+        0,
+        444,
+        1110,
+        1600,
+        2424
+      ],
+      "old_wall_label_not_retained": 0,
+      "paired_block_raw_neutral_before_split": [
+        1408,
+        1172,
+        1036,
+        907,
+        419
+      ],
+      "paired_block_no_raw_difference": [
+        1408,
+        1172,
+        1040,
+        949,
+        463
+      ],
+      "paired_block_no_end_difference": [
+        1408,
+        1178,
+        1074,
+        951,
+        465
+      ],
+      "paired_common_blocked": [
+        0,
+        97,
+        264,
+        296,
+        273
+      ],
+      "paired_static_common_blocked": [
+        0,
+        0,
+        3,
+        60,
+        154
+      ],
+      "paired_common_blocked_but_endpoint_moves": [
+        0,
+        97,
+        261,
+        235,
+        119
+      ],
+      "mode_axis_old_wall_label_at_H3_legal_crossing": 88,
+      "mode_H5_room_different_from_root": 1858
+    },
+    "root_3": {
+      "controls": 1408,
+      "rank_pairs": 1215,
+      "paired_mode_split_first_block": [
+        0,
+        241,
+        100,
+        89,
+        387
+      ],
+      "mode_block_motion": [
+        2816,
+        2816,
+        2814,
+        2734,
+        2295
+      ],
+      "mode_block_endpoint_motion": [
+        2816,
+        2816,
+        2814,
+        2734,
+        2295
+      ],
+      "mode_first_root_room_passage": [
+        0,
+        0,
+        1635,
+        121,
+        33
+      ],
+      "mode_any_room_change_by_H": [
+        0,
+        0,
+        1635,
+        207,
+        219
+      ],
+      "mode_any_primitive_room_change_by_H": [
+        0,
+        0,
+        1635,
+        207,
+        219
+      ],
+      "mode_axis_room_change_by_H": [
+        0,
+        0,
+        1635,
+        207,
+        219
+      ],
+      "mode_axis_room_change_with_exit_face_by_H": [
+        0,
+        0,
+        544,
+        88,
+        77
+      ],
+      "mode_axis_room_change_with_old_wall_label_by_H": [
+        0,
+        0,
+        113,
+        44,
+        35
+      ],
+      "mode_axis_primitive_cross_with_old_wall_label_by_H": [
+        0,
+        0,
+        113,
+        44,
+        35
+      ],
+      "true_endpoint_outside_wall_strips": [
+        5632,
+        3880,
+        4382,
+        5330,
+        4963
+      ],
+      "old_wall_contact_labels": [
+        0,
+        468,
+        1201,
+        1789,
+        2538
+      ],
+      "old_wall_label_not_retained": 0,
+      "paired_block_raw_neutral_before_split": [
+        1408,
+        1167,
+        1067,
+        978,
+        591
+      ],
+      "paired_block_no_raw_difference": [
+        1408,
+        1167,
+        1082,
+        1057,
+        683
+      ],
+      "paired_block_no_end_difference": [
+        1408,
+        1172,
+        1140,
+        1070,
+        684
+      ],
+      "paired_common_blocked": [
+        0,
+        111,
+        341,
+        350,
+        347
+      ],
+      "paired_static_common_blocked": [
+        0,
+        0,
+        1,
+        34,
+        198
+      ],
+      "paired_common_blocked_but_endpoint_moves": [
+        0,
+        111,
+        340,
+        316,
+        149
+      ],
+      "mode_axis_old_wall_label_at_H3_legal_crossing": 113,
+      "mode_H5_room_different_from_root": 1719
+    },
+    "candidate_kind_0": {
+      "controls": 1792,
+      "rank_pairs": 0,
+      "paired_mode_split_first_block": [
+        512,
+        201,
+        56,
+        181,
+        82
+      ],
+      "mode_block_motion": [
+        3584,
+        3328,
+        3584,
+        3583,
+        3537
+      ],
+      "mode_block_endpoint_motion": [
+        3584,
+        3328,
+        3584,
+        3583,
+        3537
+      ],
+      "mode_first_root_room_passage": [
+        512,
+        31,
+        1215,
+        34,
+        0
+      ],
+      "mode_any_room_change_by_H": [
+        512,
+        148,
+        1284,
+        108,
+        345
+      ],
+      "mode_any_primitive_room_change_by_H": [
+        512,
+        148,
+        1284,
+        108,
+        345
+      ],
+      "mode_axis_room_change_by_H": [
+        512,
+        148,
+        1284,
+        108,
+        345
+      ],
+      "mode_axis_room_change_with_exit_face_by_H": [
+        0,
+        0,
+        492,
+        31,
+        89
+      ],
+      "mode_axis_room_change_with_old_wall_label_by_H": [
+        0,
+        0,
+        43,
+        17,
+        0
+      ],
+      "mode_axis_primitive_cross_with_old_wall_label_by_H": [
+        0,
+        0,
+        43,
+        17,
+        0
+      ],
+      "true_endpoint_outside_wall_strips": [
+        6656,
+        5723,
+        6155,
+        6678,
+        6552
+      ],
+      "old_wall_contact_labels": [
+        512,
+        567,
+        488,
+        700,
+        903
+      ],
+      "old_wall_label_not_retained": 0,
+      "paired_block_raw_neutral_before_split": [
+        1280,
+        1079,
+        1023,
+        842,
+        760
+      ],
+      "paired_block_no_raw_difference": [
+        1280,
+        1079,
+        1023,
+        842,
+        760
+      ],
+      "paired_block_no_end_difference": [
+        1280,
+        1079,
+        1023,
+        842,
+        760
+      ],
+      "paired_common_blocked": [
+        0,
+        0,
+        4,
+        15,
+        0
+      ],
+      "paired_static_common_blocked": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "paired_common_blocked_but_endpoint_moves": [
+        0,
+        0,
+        4,
+        15,
+        0
+      ],
+      "mode_axis_old_wall_label_at_H3_legal_crossing": 43,
+      "mode_H5_room_different_from_root": 1679
+    },
+    "candidate_kind_1": {
+      "controls": 404,
+      "rank_pairs": 496,
+      "paired_mode_split_first_block": [
+        0,
+        102,
+        20,
+        3,
+        113
+      ],
+      "mode_block_motion": [
+        808,
+        808,
+        808,
+        792,
+        706
+      ],
+      "mode_block_endpoint_motion": [
+        808,
+        808,
+        808,
+        792,
+        706
+      ],
+      "mode_first_root_room_passage": [
+        0,
+        0,
+        468,
+        56,
+        27
+      ],
+      "mode_any_room_change_by_H": [
+        0,
+        0,
+        468,
+        126,
+        49
+      ],
+      "mode_any_primitive_room_change_by_H": [
+        0,
+        0,
+        468,
+        126,
+        49
+      ],
+      "mode_axis_room_change_by_H": [
+        0,
+        0,
+        468,
+        126,
+        49
+      ],
+      "mode_axis_room_change_with_exit_face_by_H": [
+        0,
+        0,
+        143,
+        43,
+        32
+      ],
+      "mode_axis_room_change_with_old_wall_label_by_H": [
+        0,
+        0,
+        36,
+        18,
+        28
+      ],
+      "mode_axis_primitive_cross_with_old_wall_label_by_H": [
+        0,
+        0,
+        36,
+        18,
+        28
+      ],
+      "true_endpoint_outside_wall_strips": [
+        1616,
+        1119,
+        1240,
+        1479,
+        1414
+      ],
+      "old_wall_contact_labels": [
+        0,
+        125,
+        321,
+        384,
+        670
+      ],
+      "old_wall_label_not_retained": 0,
+      "paired_block_raw_neutral_before_split": [
+        404,
+        302,
+        282,
+        279,
+        166
+      ],
+      "paired_block_no_raw_difference": [
+        404,
+        302,
+        296,
+        335,
+        228
+      ],
+      "paired_block_no_end_difference": [
+        404,
+        307,
+        337,
+        341,
+        229
+      ],
+      "paired_common_blocked": [
+        0,
+        9,
+        54,
+        46,
+        77
+      ],
+      "paired_static_common_blocked": [
+        0,
+        0,
+        0,
+        1,
+        3
+      ],
+      "paired_common_blocked_but_endpoint_moves": [
+        0,
+        9,
+        54,
+        45,
+        74
+      ],
+      "mode_axis_old_wall_label_at_H3_legal_crossing": 36,
+      "mode_H5_room_different_from_root": 483
+    },
+    "candidate_kind_2": {
+      "controls": 1132,
+      "rank_pairs": 646,
+      "paired_mode_split_first_block": [
+        0,
+        174,
+        160,
+        34,
+        688
+      ],
+      "mode_block_motion": [
+        2264,
+        2264,
+        2264,
+        2264,
+        2196
+      ],
+      "mode_block_endpoint_motion": [
+        2264,
+        2264,
+        2264,
+        2263,
+        2196
+      ],
+      "mode_first_root_room_passage": [
+        0,
+        12,
+        1567,
+        219,
+        18
+      ],
+      "mode_any_room_change_by_H": [
+        0,
+        12,
+        1567,
+        229,
+        89
+      ],
+      "mode_any_primitive_room_change_by_H": [
+        0,
+        12,
+        1567,
+        229,
+        89
+      ],
+      "mode_axis_room_change_by_H": [
+        0,
+        12,
+        1567,
+        229,
+        89
+      ],
+      "mode_axis_room_change_with_exit_face_by_H": [
+        0,
+        0,
+        429,
+        137,
+        24
+      ],
+      "mode_axis_room_change_with_old_wall_label_by_H": [
+        0,
+        0,
+        122,
+        71,
+        21
+      ],
+      "mode_axis_primitive_cross_with_old_wall_label_by_H": [
+        0,
+        0,
+        122,
+        71,
+        21
+      ],
+      "true_endpoint_outside_wall_strips": [
+        4528,
+        3152,
+        3157,
+        4367,
+        3605
+      ],
+      "old_wall_contact_labels": [
+        0,
+        226,
+        553,
+        771,
+        1671
+      ],
+      "old_wall_label_not_retained": 0,
+      "paired_block_raw_neutral_before_split": [
+        1132,
+        958,
+        798,
+        764,
+        76
+      ],
+      "paired_block_no_raw_difference": [
+        1132,
+        958,
+        803,
+        829,
+        150
+      ],
+      "paired_block_no_end_difference": [
+        1132,
+        964,
+        854,
+        838,
+        152
+      ],
+      "paired_common_blocked": [
+        0,
+        23,
+        72,
+        83,
+        37
+      ],
+      "paired_static_common_blocked": [
+        0,
+        0,
+        0,
+        0,
+        7
+      ],
+      "paired_common_blocked_but_endpoint_moves": [
+        0,
+        23,
+        72,
+        83,
+        30
+      ],
+      "mode_axis_old_wall_label_at_H3_legal_crossing": 122,
+      "mode_H5_room_different_from_root": 1814
+    },
+    "candidate_kind_3": {
+      "controls": 512,
+      "rank_pairs": 1024,
+      "paired_mode_split_first_block": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "mode_block_motion": [
+        1024,
+        1024,
+        1016,
+        838,
+        340
+      ],
+      "mode_block_endpoint_motion": [
+        1024,
+        1024,
+        1016,
+        836,
+        340
+      ],
+      "mode_first_root_room_passage": [
+        0,
+        0,
+        6,
+        2,
+        0
+      ],
+      "mode_any_room_change_by_H": [
+        0,
+        0,
+        6,
+        8,
+        2
+      ],
+      "mode_any_primitive_room_change_by_H": [
+        0,
+        0,
+        6,
+        8,
+        2
+      ],
+      "mode_axis_room_change_by_H": [
+        0,
+        0,
+        6,
+        8,
+        2
+      ],
+      "mode_axis_room_change_with_exit_face_by_H": [
+        0,
+        0,
+        0,
+        2,
+        0
+      ],
+      "mode_axis_room_change_with_old_wall_label_by_H": [
+        0,
+        0,
+        0,
+        2,
+        0
+      ],
+      "mode_axis_primitive_cross_with_old_wall_label_by_H": [
+        0,
+        0,
+        0,
+        2,
+        0
+      ],
+      "true_endpoint_outside_wall_strips": [
+        2048,
+        1716,
+        1974,
+        2020,
+        2014
+      ],
+      "old_wall_contact_labels": [
+        0,
+        360,
+        1136,
+        1680,
+        1924
+      ],
+      "old_wall_label_not_retained": 0,
+      "paired_block_raw_neutral_before_split": [
+        512,
+        512,
+        512,
+        512,
+        512
+      ],
+      "paired_block_no_raw_difference": [
+        512,
+        512,
+        512,
+        512,
+        512
+      ],
+      "paired_block_no_end_difference": [
+        512,
+        512,
+        512,
+        512,
+        512
+      ],
+      "paired_common_blocked": [
+        0,
+        176,
+        475,
+        502,
+        506
+      ],
+      "paired_static_common_blocked": [
+        0,
+        0,
+        4,
+        93,
+        342
+      ],
+      "paired_common_blocked_but_endpoint_moves": [
+        0,
+        176,
+        471,
+        408,
+        164
+      ],
+      "mode_axis_old_wall_label_at_H3_legal_crossing": 0,
+      "mode_H5_room_different_from_root": 0
+    },
+    "fixed_common_legal": {
+      "controls": 256,
+      "rank_pairs": 0,
+      "paired_mode_split_first_block": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "mode_block_motion": [
+        512,
+        512,
+        512,
+        512,
+        512
+      ],
+      "mode_block_endpoint_motion": [
+        512,
+        512,
+        512,
+        512,
+        512
+      ],
+      "mode_first_root_room_passage": [
+        0,
+        0,
+        510,
+        2,
+        0
+      ],
+      "mode_any_room_change_by_H": [
+        0,
+        0,
+        510,
+        2,
+        0
+      ],
+      "mode_any_primitive_room_change_by_H": [
+        0,
+        0,
+        510,
+        2,
+        0
+      ],
+      "mode_axis_room_change_by_H": [
+        0,
+        0,
+        510,
+        2,
+        0
+      ],
+      "mode_axis_room_change_with_exit_face_by_H": [
+        0,
+        0,
+        132,
+        2,
+        0
+      ],
+      "mode_axis_room_change_with_old_wall_label_by_H": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "mode_axis_primitive_cross_with_old_wall_label_by_H": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "true_endpoint_outside_wall_strips": [
+        1024,
+        532,
+        644,
+        1024,
+        1024
+      ],
+      "old_wall_contact_labels": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "old_wall_label_not_retained": 0,
+      "paired_block_raw_neutral_before_split": [
+        256,
+        256,
+        256,
+        256,
+        256
+      ],
+      "paired_block_no_raw_difference": [
+        256,
+        256,
+        256,
+        256,
+        256
+      ],
+      "paired_block_no_end_difference": [
+        256,
+        256,
+        256,
+        256,
+        256
+      ],
+      "paired_common_blocked": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "paired_static_common_blocked": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "paired_common_blocked_but_endpoint_moves": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "mode_axis_old_wall_label_at_H3_legal_crossing": 0,
+      "mode_H5_room_different_from_root": 512
+    },
+    "all_rank_candidates_in_either_mode": {
+      "controls": 1233,
+      "rank_pairs": 2166,
+      "paired_mode_split_first_block": [
+        0,
+        276,
+        180,
+        14,
+        43
+      ],
+      "mode_block_motion": [
+        2466,
+        2466,
+        2458,
+        2264,
+        1612
+      ],
+      "mode_block_endpoint_motion": [
+        2466,
+        2466,
+        2458,
+        2261,
+        1612
+      ],
+      "mode_first_root_room_passage": [
+        0,
+        0,
+        483,
+        219,
+        43
+      ],
+      "mode_any_room_change_by_H": [
+        0,
+        0,
+        483,
+        305,
+        75
+      ],
+      "mode_any_primitive_room_change_by_H": [
+        0,
+        0,
+        483,
+        305,
+        75
+      ],
+      "mode_axis_room_change_by_H": [
+        0,
+        0,
+        483,
+        305,
+        75
+      ],
+      "mode_axis_room_change_with_exit_face_by_H": [
+        0,
+        0,
+        108,
+        128,
+        54
+      ],
+      "mode_axis_room_change_with_old_wall_label_by_H": [
+        0,
+        0,
+        72,
+        69,
+        47
+      ],
+      "mode_axis_primitive_cross_with_old_wall_label_by_H": [
+        0,
+        0,
+        72,
+        69,
+        47
+      ],
+      "true_endpoint_outside_wall_strips": [
+        4932,
+        4089,
+        4265,
+        4635,
+        4554
+      ],
+      "old_wall_contact_labels": [
+        0,
+        699,
+        1922,
+        2688,
+        3480
+      ],
+      "old_wall_label_not_retained": 0,
+      "paired_block_raw_neutral_before_split": [
+        1233,
+        957,
+        777,
+        763,
+        720
+      ],
+      "paired_block_no_raw_difference": [
+        1233,
+        957,
+        796,
+        884,
+        856
+      ],
+      "paired_block_no_end_difference": [
+        1233,
+        968,
+        888,
+        899,
+        859
+      ],
+      "paired_common_blocked": [
+        0,
+        202,
+        555,
+        571,
+        619
+      ],
+      "paired_static_common_blocked": [
+        0,
+        0,
+        4,
+        94,
+        352
+      ],
+      "paired_common_blocked_but_endpoint_moves": [
+        0,
+        202,
+        551,
+        476,
+        267
+      ],
+      "mode_axis_old_wall_label_at_H3_legal_crossing": 72,
+      "mode_H5_room_different_from_root": 667
+    }
+  },
+  "source_strata": {
+    "static": {
+      "rows": 1111,
+      "endpoint_changed_modes": 0,
+      "moving_in_either_mode": 0,
+      "endpoint_moving_in_either_mode": 0,
+      "crossed_in_either_mode": 0,
+      "common_blocked": 1111,
+      "num_roots_nonempty": 250,
+      "roots_rows_quantiles": [
+        0.0,
+        0.0,
+        0.0,
+        4.0,
+        12.0
+      ],
+      "expected_rows_per_minibatch": 4
+    },
+    "other_neutral": {
+      "rows": 21317,
+      "endpoint_changed_modes": 0,
+      "moving_in_either_mode": 21317,
+      "endpoint_moving_in_either_mode": 21314,
+      "crossed_in_either_mode": 3248,
+      "common_blocked": 4278,
+      "num_roots_nonempty": 512,
+      "roots_rows_quantiles": [
+        18.0,
+        23.0,
+        34.5,
+        60.0,
+        75.0
+      ],
+      "expected_rows_per_minibatch": 4
+    },
+    "raw_informative": {
+      "rows": 5808,
+      "endpoint_changed_modes": 5280,
+      "moving_in_either_mode": 5808,
+      "endpoint_moving_in_either_mode": 5808,
+      "crossed_in_either_mode": 1319,
+      "common_blocked": 0,
+      "num_roots_nonempty": 512,
+      "roots_rows_quantiles": [
+        1.0,
+        3.0,
+        10.0,
+        19.0,
+        31.0
+      ],
+      "expected_rows_per_minibatch": 8
+    }
+  },
+  "rank_minibatches": {
+    "all": {
+      "active_pairs": 17697,
+      "total_pairs": 20275,
+      "eligible_fraction": 0.8728483353884093,
+      "mean_hinge": 0.8416548077337435
+    },
+    "last32": {
+      "active_pairs": 1907,
+      "total_pairs": 2138,
+      "eligible_fraction": 0.891955098222638,
+      "mean_hinge": 0.6678542236913927
+    }
+  },
+  "main_root_reduction": {
+    "controls": {
+      "by_root_kind": [
+        [
+          4,
+          4.0,
+          4
+        ],
+        [
+          4,
+          4.0,
+          4
+        ],
+        [
+          11,
+          11.0,
+          11
+        ],
+        [
+          11,
+          11.0,
+          11
+        ]
+      ],
+      "total": 3840
+    },
+    "old_labels": {
+      "by_root_kind": [
+        [
+          3,
+          5.5546875,
+          11
+        ],
+        [
+          3,
+          5.515625,
+          11
+        ],
+        [
+          23,
+          43.578125,
+          63
+        ],
+        [
+          26,
+          46.84375,
+          65
+        ]
+      ],
+      "total": 12991
+    },
+    "new_labels": {
+      "by_root_kind": [
+        [
+          72,
+          73.9140625,
+          76
+        ],
+        [
+          72,
+          73.859375,
+          76
+        ],
+        [
+          174,
+          188.3671875,
+          203
+        ],
+        [
+          176,
+          188.9609375,
+          202
+        ]
+      ],
+      "total": 67213
+    },
+    "crossed_outside_strip": {
+      "by_root_kind": [
+        [
+          0,
+          0.0,
+          0
+        ],
+        [
+          0,
+          0.0,
+          0
+        ],
+        [
+          0,
+          5.5703125,
+          14
+        ],
+        [
+          0,
+          5.5390625,
+          14
+        ]
+      ],
+      "total": 1422
+    },
+    "first_root_room_passage": {
+      "by_root_kind": [
+        [
+          2,
+          2.0,
+          2
+        ],
+        [
+          2,
+          2.0,
+          2
+        ],
+        [
+          8,
+          14.578125,
+          19
+        ],
+        [
+          10,
+          13.9765625,
+          18
+        ]
+      ],
+      "total": 4167
+    }
+  },
+  "simulation_note": "512 x 512-root NumPy random permutations, batch size 16. Denominator distribution only, not replay of real torch sampler.",
+  "minibatch_denominator": {
+    "old_axes": {
+      "quantiles": [
+        100.0,
+        247.0,
+        405.0,
+        567.0,
+        716.0
+      ],
+      "mean": 405.96875
+    },
+    "full_new_axes": {
+      "quantiles": [
+        1285.0,
+        1644.0,
+        2100.0,
+        2555.0,
+        2920.0
+      ],
+      "mean": 2100.40625
+    },
+    "old_weight_fraction_full_reduction": {
+      "quantiles": [
+        0.07782101167315175,
+        0.1474108226576531,
+        0.1925,
+        0.22810341043551277,
+        0.2541277817659727
+      ],
+      "mean": 0.19141905285448813
+    },
+    "completed_passage_axes_including_contacts": {
+      "quantiles": [
+        2.0,
+        19.0,
+        44.0,
+        74.0,
+        114.0
+      ],
+      "mean": 44.4375
+    }
+  },
+  "completed_passage_union": {
+    "new_axes_by_horizon": [
+      0,
+      0,
+      863,
+      105,
+      96
+    ],
+    "old_coefficient_fraction_whole_panel": 0.9242974030594094,
+    "old_coefficient_fraction_batches": [
+      0.830028328611898,
+      0.8830999000999001,
+      0.9111455463728191,
+      0.9254786861751767,
+      0.9395465994962217,
+      0.9657246864484552,
+      1.0
+    ],
+    "new_axes_per_minibatch": [
+      0.0,
+      12.0,
+      25.0,
+      32.0,
+      41.0,
+      59.0,
+      91.0
+    ],
+    "batch_quantile_indices": [
+      0,
+      0.025,
+      0.25,
+      0.5,
+      0.75,
+      0.975,
+      1
+    ],
+    "valid_old_labels": 12991,
+    "valid_new_labels": 14055
+  },
+  "true_pair_evidence": {
+    "calibration_factor": [
+      [
+        2.9799456201177366,
+        0.0
+      ],
+      [
+        -0.025578130423882742,
+        3.2684582357417247
+      ]
+    ],
+    "quantile_indices": [
+      0,
+      0.025,
+      0.25,
+      0.5,
+      0.75,
+      0.975,
+      1
+    ],
+    "by_factual_type": {
+      "raw_neutral": {
+        "samples": 22428,
+        "latent_identical": 22428,
+        "readout_identical": 22428,
+        "true_pair_margin_quantiles": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "margin_below_3": 22428,
+        "margin_sum": 0.0,
+        "shortfall_mean_nat": 3.0
+      },
+      "raw_effect_converged": {
+        "samples": 528,
+        "latent_identical": 528,
+        "readout_identical": 528,
+        "true_pair_margin_quantiles": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "margin_below_3": 528,
+        "margin_sum": 0.0,
+        "shortfall_mean_nat": 3.0
+      },
+      "physical_end_effect": {
+        "samples": 5280,
+        "latent_identical": 0,
+        "readout_identical": 0,
+        "true_pair_margin_quantiles": [
+          0.00031242529979278475,
+          0.03792577483873014,
+          0.45846517060151704,
+          1.847992892983891,
+          3.621851782641527,
+          5.552157592603679,
+          7.560565546019689
+        ],
+        "margin_below_3": 3490,
+        "margin_sum": 11489.848446414024,
+        "shortfall_mean_nat": 1.2799049657436092
+      }
+    }
+  },
+  "objective_reductions": {
+    "main_latent_and_xy": "Root sampled uniformly without replacement per epoch. Each valid control in a batch gets equal latent/XY weight, so a navigation root's 11 valid controls receive 2.75 times a contact root's 4 within the same batch.",
+    "main_wall": "Average over selected mode/block/axes in each batch (not normalized within roots).",
+    "main_rank": "Average over all physical eligible pairs in each batch, with the output of wrong-room pairs detached. Room-valid counts are not counts of positive hinges.",
+    "source": "Independent sampling with replacement in each stratum. The source latent/XY average includes all 16 rows. The prior source evidence hinge averages only rows with distinct endpoints, and both signed scores.",
+    "source_expected_distinct_endpoint_samples_per_batch": 7.2727272727272725,
+    "source_expected_rows_with_crossing_per_batch": 2.4262710305966433,
+    "source_static_uniform_fraction": 0.039346932993341834,
+    "source_static_actual_sampling_fraction": 0.25,
+    "source_static_row_draw_factor_vs_moving_neutral": 19.18721872187219,
+    "initial_h1_first_effect_log_includes_padded_rows": 1792
+  },
+  "source_face_labels": {
+    "static": {
+      "source_rows": 1111,
+      "contact_labels": 4444,
+      "novel_passage_labels": 0,
+      "passage_labels_already_contact": 0,
+      "union_labels": 4444,
+      "union_labels_expected_per_batch": 16.0,
+      "contact_labels_expected_per_batch": 16.0,
+      "novel_passage_labels_expected_per_batch": 0.0,
+      "rows_with_any_factual_face": 1111
+    },
+    "other_neutral": {
+      "source_rows": 21317,
+      "contact_labels": 11484,
+      "novel_passage_labels": 1786,
+      "passage_labels_already_contact": 404,
+      "union_labels": 13270,
+      "union_labels_expected_per_batch": 2.490031430313834,
+      "contact_labels_expected_per_batch": 2.1548998451939765,
+      "novel_passage_labels_expected_per_batch": 0.3351315851198574,
+      "rows_with_any_factual_face": 4904
+    },
+    "raw_informative": {
+      "source_rows": 5808,
+      "contact_labels": 6584,
+      "novel_passage_labels": 0,
+      "passage_labels_already_contact": 67,
+      "union_labels": 6584,
+      "union_labels_expected_per_batch": 9.068870523415978,
+      "contact_labels_expected_per_batch": 9.068870523415978,
+      "novel_passage_labels_expected_per_batch": 0.0,
+      "rows_with_any_factual_face": 5808
+    },
+    "expected_labels_per_actual_sampler_batch": {
+      "union_labels_expected_per_batch": 27.558901953729812,
+      "contact_labels_expected_per_batch": 27.223770368609955,
+      "novel_passage_labels_expected_per_batch": 0.3351315851198574
+    }
+  }
+}

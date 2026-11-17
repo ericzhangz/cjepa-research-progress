@@ -1,0 +1,164 @@
+[
+  {
+    "step": 1,
+    "phase": "probe",
+    "label": 1,
+    "midpoint_bias_log_odds": 0.3008757957993594,
+    "oriented_half_difference_log_odds": 1.9839541466798805,
+    "actual_evidence_log_odds": 2.2848299424792398,
+    "prior_log_odds": 0.0,
+    "posterior_log_odds": 2.2848299424792398,
+    "measured_mode_gap_xy": [
+      -13.724228026955416,
+      1.5049939279949456
+    ],
+    "native_mode_gap_xy": [
+      -12.42926025390625,
+      -3.637725830078125
+    ]
+  },
+  {
+    "step": 2,
+    "phase": "retreat",
+    "label": 1,
+    "midpoint_bias_log_odds": -0.047408608728783844,
+    "oriented_half_difference_log_odds": -0.0010982705384812556,
+    "actual_evidence_log_odds": -0.0485068792672651,
+    "prior_log_odds": 1.8734033381177742,
+    "posterior_log_odds": 1.824896458850509,
+    "measured_mode_gap_xy": [
+      0.04748024850073307,
+      -0.01808092022014307
+    ],
+    "native_mode_gap_xy": [
+      -1.300262451171875,
+      0.9235076904296875
+    ]
+  },
+  {
+    "step": 3,
+    "phase": "dormant_1",
+    "label": 1,
+    "midpoint_bias_log_odds": -0.01073525513103279,
+    "oriented_half_difference_log_odds": 2.4199737940557737e-05,
+    "actual_evidence_log_odds": -0.010711055393092231,
+    "prior_log_odds": 1.55085604865303,
+    "posterior_log_odds": 1.5401449932599378,
+    "measured_mode_gap_xy": [
+      0.007803754503299842,
+      -0.004882507850169304
+    ],
+    "native_mode_gap_xy": [
+      0.032257080078125,
+      -0.212371826171875
+    ]
+  },
+  {
+    "step": 4,
+    "phase": "dormant_2",
+    "label": 1,
+    "midpoint_bias_log_odds": -0.005908578252230611,
+    "oriented_half_difference_log_odds": 2.1126265838215296e-05,
+    "actual_evidence_log_odds": -0.005887451986392396,
+    "prior_log_odds": 1.3317940101372425,
+    "posterior_log_odds": 1.3259065581508502,
+    "measured_mode_gap_xy": [
+      0.007803754503299842,
+      -0.004882507850169304
+    ],
+    "native_mode_gap_xy": [
+      -0.0950927734375,
+      -0.3042755126953125
+    ]
+  },
+  {
+    "step": 5,
+    "phase": "dormant_3",
+    "label": 1,
+    "midpoint_bias_log_odds": -0.0018689370417315785,
+    "oriented_half_difference_log_odds": 8.258424041810022e-06,
+    "actual_evidence_log_odds": -0.0018606786176897684,
+    "prior_log_odds": 1.1589751123686232,
+    "posterior_log_odds": 1.1571144337509334,
+    "measured_mode_gap_xy": [
+      0.007803754503299842,
+      -0.004882507850169304
+    ],
+    "native_mode_gap_xy": [
+      -0.0809783935546875,
+      -0.16119384765625
+    ]
+  },
+  {
+    "step": 6,
+    "phase": "return",
+    "label": 1,
+    "midpoint_bias_log_odds": 2.1125930521654572,
+    "oriented_half_difference_log_odds": 0.5499928903628325,
+    "actual_evidence_log_odds": 2.6625859425282896,
+    "prior_log_odds": 1.0187404507967652,
+    "posterior_log_odds": 3.6813263933250546,
+    "measured_mode_gap_xy": [
+      -6.99444995301954,
+      0.49562654763252567
+    ],
+    "native_mode_gap_xy": [
+      -6.6301116943359375,
+      -1.9483489990234375
+    ]
+  },
+  {
+    "step": 7,
+    "phase": "recontact",
+    "label": 1,
+    "midpoint_bias_log_odds": -1.844664669348382,
+    "oriented_half_difference_log_odds": 0.6575939729762297,
+    "actual_evidence_log_odds": -1.1870706963721522,
+    "prior_log_odds": 2.5546672599949214,
+    "posterior_log_odds": 1.3675965636227692,
+    "measured_mode_gap_xy": [
+      -7.391474903059304,
+      2.8730788003591385
+    ],
+    "native_mode_gap_xy": [
+      -6.980804443359375,
+      0.4063873291015625
+    ]
+  },
+  {
+    "step": 8,
+    "phase": "reverse_open",
+    "label": 0,
+    "midpoint_bias_log_odds": -1.6748195073584782,
+    "oriented_half_difference_log_odds": 1.114709188694274,
+    "actual_evidence_log_odds": -2.789528696052752,
+    "prior_log_odds": 1.1930852423430032,
+    "posterior_log_odds": -1.596443453709749,
+    "measured_mode_gap_xy": [
+      -11.789788524834819,
+      3.6021298426767316
+    ],
+    "native_mode_gap_xy": [
+      -7.06048583984375,
+      1.257171630859375
+    ]
+  },
+  {
+    "step": 9,
+    "phase": "reverse_brake",
+    "label": 1,
+    "midpoint_bias_log_odds": -0.31372299036372897,
+    "oriented_half_difference_log_odds": 1.258837094479086,
+    "actual_evidence_log_odds": 0.9451141041153571,
+    "prior_log_odds": -1.3761293212455032,
+    "posterior_log_odds": -0.4310152171301461,
+    "measured_mode_gap_xy": [
+      -11.90798192831221,
+      5.332427738570175
+    ],
+    "native_mode_gap_xy": [
+      -6.458526611328125,
+      2.8937530517578125
+    ]
+  }
+]

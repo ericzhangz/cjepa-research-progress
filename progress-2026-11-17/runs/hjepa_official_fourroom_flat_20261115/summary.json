@@ -1,0 +1,8 @@
+{
+  "completed": 50,
+  "successes": 19,
+  "median_eval_seconds_per_task": 256.63301944732666,
+  "sum_eval_seconds": 13153.831941366196,
+  "success_rate_percent": 38.0,
+  "mean_steps_to_success": 167.57894736842104
+}

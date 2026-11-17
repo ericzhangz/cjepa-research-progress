@@ -1,0 +1,3839 @@
+{
+  "seeds": [
+    55430,
+    55431,
+    55432,
+    55433
+  ],
+  "schedule": [
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1
+  ],
+  "horizon": 2,
+  "samples": 16,
+  "iterations": 3,
+  "elite_count": 4,
+  "results": {
+    "frozen": {
+      "55430": {
+        "success": false,
+        "best_coverage": 0.7650736178850978,
+        "final_coverage": 0.7650736178850978,
+        "score_calls": 21,
+        "median_score_seconds": 0.01468560000648722,
+        "mean_score_seconds": 0.022718119044189473,
+        "ticks": [
+          {
+            "tick": 1,
+            "regime": 1,
+            "coverage_before": 0.4171141530913076,
+            "coverage_after": 0.5689316416363588,
+            "planned_terminal_cost": 14.636180877685547,
+            "brake_substeps": 30,
+            "executed_relative_action": [
+              0.13112452626228333,
+              -0.007493759971112013
+            ]
+          },
+          {
+            "tick": 2,
+            "regime": 1,
+            "coverage_before": 0.5689316416363588,
+            "coverage_after": 0.7241097080066128,
+            "planned_terminal_cost": 9.083977699279785,
+            "brake_substeps": 50,
+            "executed_relative_action": [
+              0.007124369498342276,
+              0.03961262106895447
+            ]
+          },
+          {
+            "tick": 3,
+            "regime": 1,
+            "coverage_before": 0.7241097080066128,
+            "coverage_after": 0.7279150221983353,
+            "planned_terminal_cost": 10.07030963897705,
+            "brake_substeps": 1,
+            "executed_relative_action": [
+              -0.0864296555519104,
+              0.06937937438488007
+            ]
+          },
+          {
+            "tick": 4,
+            "regime": 0,
+            "coverage_before": 0.7279150221983353,
+            "coverage_after": 0.7279150221983353,
+            "planned_terminal_cost": 12.066122055053711,
+            "brake_substeps": 0,
+            "executed_relative_action": [
+              0.053921960294246674,
+              -0.07694576680660248
+            ]
+          },
+          {
+            "tick": 5,
+            "regime": 0,
+            "coverage_before": 0.7279150221983353,
+            "coverage_after": 0.7279150221983353,
+            "planned_terminal_cost": 10.358616828918457,
+            "brake_substeps": 0,
+            "executed_relative_action": [
+              -0.06568481773138046,
+              0.14006422460079193
+            ]
+          },
+          {
+            "tick": 6,
+            "regime": 1,
+            "coverage_before": 0.7279150221983353,
+            "coverage_after": 0.7348467403449234,
+            "planned_terminal_cost": 12.30809497833252,
+            "brake_substeps": 6,
+            "executed_relative_action": [
+              0.10904709249734879,
+              -0.13222582638263702
+            ]
+          },
+          {
+            "tick": 7,
+            "regime": 1,
+            "coverage_before": 0.7348467403449234,
+            "coverage_after": 0.7650736178850978,
+            "planned_terminal_cost": 6.769327640533447,
+            "brake_substeps": 9,
+            "executed_relative_action": [
+              -0.010144523344933987,
+              0.02863451838493347
+            ]
+          }
+        ],
+        "inference": []
+      },
+      "55431": {
+        "success": false,
+        "best_coverage": 0.714289114807599,
+        "final_coverage": 0.714289114807599,
+        "score_calls": 21,
+        "median_score_seconds": 0.01574339997023344,
+        "mean_score_seconds": 0.01795351904972146,
+        "ticks": [
+          {
+            "tick": 1,
+            "regime": 1,
+            "coverage_before": 0.3981511803806481,
+            "coverage_after": 0.5908167907176426,
+            "planned_terminal_cost": 14.932794570922852,
+            "brake_substeps": 29,
+            "executed_relative_action": [
+              0.17388656735420227,
+              0.11732561886310577
+            ]
+          },
+          {
+            "tick": 2,
+            "regime": 1,
+            "coverage_before": 0.5908167907176426,
+            "coverage_after": 0.6494837040947182,
+            "planned_terminal_cost": 17.320829391479492,
+            "brake_substeps": 3,
+            "executed_relative_action": [
+              -0.12958277761936188,
+              0.003295282134786248
+            ]
+          },
+          {
+            "tick": 3,
+            "regime": 1,
+            "coverage_before": 0.6494837040947182,
+            "coverage_after": 0.6494837040947182,
+            "planned_terminal_cost": 15.937277793884277,
+            "brake_substeps": 0,
+            "executed_relative_action": [
+              0.026005607098340988,
+              -0.10184966027736664
+            ]
+          },
+          {
+            "tick": 4,
+            "regime": 0,
+            "coverage_before": 0.6494837040947182,
+            "coverage_after": 0.6494837040947182,
+            "planned_terminal_cost": 16.428091049194336,
+            "brake_substeps": 0,
+            "executed_relative_action": [
+              -0.06568481773138046,
+              0.14006422460079193
+            ]
+          },
+          {
+            "tick": 5,
+            "regime": 0,
+            "coverage_before": 0.6494837040947182,
+            "coverage_after": 0.6996058411971343,
+            "planned_terminal_cost": 12.371089935302734,
+            "brake_substeps": 0,
+            "executed_relative_action": [
+              0.15519626438617706,
+              -0.14854370057582855
+            ]
+          },
+          {
+            "tick": 6,
+            "regime": 1,
+            "coverage_before": 0.6996058411971343,
+            "coverage_after": 0.714289114807599,
+            "planned_terminal_cost": 14.991844177246094,
+            "brake_substeps": 7,
+            "executed_relative_action": [
+              -0.02830730378627777,
+              0.018368860706686974
+            ]
+          },
+          {
+            "tick": 7,
+            "regime": 1,
+            "coverage_before": 0.714289114807599,
+            "coverage_after": 0.714289114807599,
+            "planned_terminal_cost": 15.819846153259277,
+            "brake_substeps": 0,
+            "executed_relative_action": [
+              -0.0021281426306813955,
+              0.07333126664161682
+            ]
+          }
+        ],
+        "inference": []
+      },
+      "55432": {
+        "success": false,
+        "best_coverage": 0.8077471411699448,
+        "final_coverage": 0.8077471411699448,
+        "score_calls": 21,
+        "median_score_seconds": 0.013738000008743256,
+        "mean_score_seconds": 0.017723595235674156,
+        "ticks": [
+          {
+            "tick": 1,
+            "regime": 1,
+            "coverage_before": 0.40975687234429986,
+            "coverage_after": 0.40975687234429986,
+            "planned_terminal_cost": 10.297773361206055,
+            "brake_substeps": 0,
+            "executed_relative_action": [
+              -0.13284353911876678,
+              -0.05953090265393257
+            ]
+          },
+          {
+            "tick": 2,
+            "regime": 1,
+            "coverage_before": 0.40975687234429986,
+            "coverage_after": 0.4311816996166976,
+            "planned_terminal_cost": 8.411176681518555,
+            "brake_substeps": 30,
+            "executed_relative_action": [
+              0.18154621124267578,
+              -0.036626432090997696
+            ]
+          },
+          {
+            "tick": 3,
+            "regime": 1,
+            "coverage_before": 0.4311816996166976,
+            "coverage_after": 0.557397161507368,
+            "planned_terminal_cost": 11.809492111206055,
+            "brake_substeps": 50,
+            "executed_relative_action": [
+              0.0043828352354466915,
+              0.16899558901786804
+            ]
+          },
+          {
+            "tick": 4,
+            "regime": 0,
+            "coverage_before": 0.557397161507368,
+            "coverage_after": 0.6499002776135772,
+            "planned_terminal_cost": 11.162763595581055,
+            "brake_substeps": 0,
+            "executed_relative_action": [
+              0.06023581326007843,
+              -0.1839027851819992
+            ]
+          },
+          {
+            "tick": 5,
+            "regime": 0,
+            "coverage_before": 0.6499002776135772,
+            "coverage_after": 0.6758820825221337,
+            "planned_terminal_cost": 5.738246440887451,
+            "brake_substeps": 0,
+            "executed_relative_action": [
+              -0.0029154547955840826,
+              0.07503427565097809
+            ]
+          },
+          {
+            "tick": 6,
+            "regime": 1,
+            "coverage_before": 0.6758820825221337,
+            "coverage_after": 0.7880754857032017,
+            "planned_terminal_cost": 12.378974914550781,
+            "brake_substeps": 50,
+            "executed_relative_action": [
+              0.030135972425341606,
+              0.07075344771146774
+            ]
+          },
+          {
+            "tick": 7,
+            "regime": 1,
+            "coverage_before": 0.7880754857032017,
+            "coverage_after": 0.8077471411699448,
+            "planned_terminal_cost": 8.233268737792969,
+            "brake_substeps": 5,
+            "executed_relative_action": [
+              -0.01805269718170166,
+              -0.00010629746975610033
+            ]
+          }
+        ],
+        "inference": []
+      },
+      "55433": {
+        "success": false,
+        "best_coverage": 0.8652555172512005,
+        "final_coverage": 0.8388163721027435,
+        "score_calls": 21,
+        "median_score_seconds": 0.012206399987917393,
+        "mean_score_seconds": 0.017555638100020587,
+        "ticks": [
+          {
+            "tick": 1,
+            "regime": 1,
+            "coverage_before": 0.4158764661907984,
+            "coverage_after": 0.5130647127999021,
+            "planned_terminal_cost": 15.428193092346191,
+            "brake_substeps": 34,
+            "executed_relative_action": [
+              0.057360079139471054,
+              0.05199526622891426
+            ]
+          },
+          {
+            "tick": 2,
+            "regime": 1,
+            "coverage_before": 0.5130647127999021,
+            "coverage_after": 0.5993575122730852,
+            "planned_terminal_cost": 12.584944725036621,
+            "brake_substeps": 50,
+            "executed_relative_action": [
+              0.011532001197338104,
+              -0.046608831733465195
+            ]
+          },
+          {
+            "tick": 3,
+            "regime": 1,
+            "coverage_before": 0.5993575122730852,
+            "coverage_after": 0.6889131059489139,
+            "planned_terminal_cost": 12.032861709594727,
+            "brake_substeps": 50,
+            "executed_relative_action": [
+              0.033314138650894165,
+              -0.08217848837375641
+            ]
+          },
+          {
+            "tick": 4,
+            "regime": 0,
+            "coverage_before": 0.6889131059489139,
+            "coverage_after": 0.6955735221267554,
+            "planned_terminal_cost": 8.3485746383667,
+            "brake_substeps": 0,
+            "executed_relative_action": [
+              -0.028307301923632622,
+              0.018368860706686974
+            ]
+          },
+          {
+            "tick": 5,
+            "regime": 0,
+            "coverage_before": 0.6955735221267554,
+            "coverage_after": 0.7495391539263082,
+            "planned_terminal_cost": 11.193410873413086,
+            "brake_substeps": 0,
+            "executed_relative_action": [
+              0.03240756690502167,
+              0.04366127401590347
+            ]
+          },
+          {
+            "tick": 6,
+            "regime": 1,
+            "coverage_before": 0.7495391539263082,
+            "coverage_after": 0.8652555172512005,
+            "planned_terminal_cost": 12.218480110168457,
+            "brake_substeps": 50,
+            "executed_relative_action": [
+              0.05070860683917999,
+              0.016539733856916428
+            ]
+          },
+          {
+            "tick": 7,
+            "regime": 1,
+            "coverage_before": 0.8652555172512005,
+            "coverage_after": 0.8388163721027435,
+            "planned_terminal_cost": 7.506253719329834,
+            "brake_substeps": 50,
+            "executed_relative_action": [
+              0.011466721072793007,
+              0.04453995078802109
+            ]
+          }
+        ],
+        "inference": []
+      }
+    },
+    "uniform": {
+      "55430": {
+        "success": false,
+        "best_coverage": 0.9114180575553491,
+        "final_coverage": 0.9114180575553491,
+        "score_calls": 21,
+        "median_score_seconds": 0.01412710000295192,
+        "mean_score_seconds": 0.019357447617775983,
+        "ticks": [
+          {
+            "tick": 1,
+            "regime": 1,
+            "coverage_before": 0.4171141530913076,
+            "coverage_after": 0.5997883452418632,
+            "planned_terminal_cost": 16.52538299560547,
+            "brake_substeps": 30,
+            "executed_relative_action": [
+              0.13536836206912994,
+              -0.04398222267627716
+            ]
+          },
+          {
+            "tick": 2,
+            "regime": 1,
+            "coverage_before": 0.5997883452418632,
+            "coverage_after": 0.7884781610438916,
+            "planned_terminal_cost": 10.481440544128418,
+            "brake_substeps": 50,
+            "executed_relative_action": [
+              0.009229365736246109,
+              0.06842569261789322
+            ]
+          },
+          {
+            "tick": 3,
+            "regime": 1,
+            "coverage_before": 0.7884781610438916,
+            "coverage_after": 0.7961224663184454,
+            "planned_terminal_cost": 8.159950256347656,
+            "brake_substeps": 1,
+            "executed_relative_action": [
+              -0.0864296555519104,
+              0.06937937438488007
+            ]
+          },
+          {
+            "tick": 4,
+            "regime": 0,
+            "coverage_before": 0.7961224663184454,
+            "coverage_after": 0.7961224663184454,
+            "planned_terminal_cost": 9.18980598449707,
+            "brake_substeps": 0,
+            "executed_relative_action": [
+              0.08655993640422821,
+              -0.10285278409719467
+            ]
+          },
+          {
+            "tick": 5,
+            "regime": 0,
+            "coverage_before": 0.7961224663184454,
+            "coverage_after": 0.7961224663184454,
+            "planned_terminal_cost": 11.457523345947266,
+            "brake_substeps": 0,
+            "executed_relative_action": [
+              -0.06568481773138046,
+              0.14006422460079193
+            ]
+          },
+          {
+            "tick": 6,
+            "regime": 1,
+            "coverage_before": 0.7961224663184454,
+            "coverage_after": 0.8630594066034568,
+            "planned_terminal_cost": 9.453866004943848,
+            "brake_substeps": 24,
+            "executed_relative_action": [
+              0.10904709249734879,
+              -0.13222582638263702
+            ]
+          },
+          {
+            "tick": 7,
+            "regime": 1,
+            "coverage_before": 0.8630594066034568,
+            "coverage_after": 0.9114180575553491,
+            "planned_terminal_cost": 9.129382133483887,
+            "brake_substeps": 6,
+            "executed_relative_action": [
+              -0.02830730378627777,
+              0.018368860706686974
+            ]
+          }
+        ],
+        "inference": []
+      },
+      "55431": {
+        "success": false,
+        "best_coverage": 0.9019583937962234,
+        "final_coverage": 0.8984575392855194,
+        "score_calls": 21,
+        "median_score_seconds": 0.014291000028606504,
+        "mean_score_seconds": 0.01803318571321489,
+        "ticks": [
+          {
+            "tick": 1,
+            "regime": 1,
+            "coverage_before": 0.3981511803806481,
+            "coverage_after": 0.5051217025229234,
+            "planned_terminal_cost": 14.446889877319336,
+            "brake_substeps": 23,
+            "executed_relative_action": [
+              0.13291975855827332,
+              0.041837163269519806
+            ]
+          },
+          {
+            "tick": 2,
+            "regime": 1,
+            "coverage_before": 0.5051217025229234,
+            "coverage_after": 0.5681958313588452,
+            "planned_terminal_cost": 11.611808776855469,
+            "brake_substeps": 4,
+            "executed_relative_action": [
+              -0.0864296555519104,
+              0.06937937438488007
+            ]
+          },
+          {
+            "tick": 3,
+            "regime": 1,
+            "coverage_before": 0.5681958313588452,
+            "coverage_after": 0.6683440321557591,
+            "planned_terminal_cost": 8.756747245788574,
+            "brake_substeps": 21,
+            "executed_relative_action": [
+              0.12643437087535858,
+              -0.11483370512723923
+            ]
+          },
+          {
+            "tick": 4,
+            "regime": 0,
+            "coverage_before": 0.6683440321557591,
+            "coverage_after": 0.9019583937962234,
+            "planned_terminal_cost": 9.031499862670898,
+            "brake_substeps": 0,
+            "executed_relative_action": [
+              0.04591365531086922,
+              0.055238086730241776
+            ]
+          },
+          {
+            "tick": 5,
+            "regime": 0,
+            "coverage_before": 0.9019583937962234,
+            "coverage_after": 0.8984575392855194,
+            "planned_terminal_cost": 10.372343063354492,
+            "brake_substeps": 0,
+            "executed_relative_action": [
+              -0.0017305020010098815,
+              0.0026261983439326286
+            ]
+          },
+          {
+            "tick": 6,
+            "regime": 1,
+            "coverage_before": 0.8984575392855194,
+            "coverage_after": 0.8984575392855194,
+            "planned_terminal_cost": 7.280639171600342,
+            "brake_substeps": 0,
+            "executed_relative_action": [
+              -0.08299093693494797,
+              0.03654956445097923
+            ]
+          },
+          {
+            "tick": 7,
+            "regime": 1,
+            "coverage_before": 0.8984575392855194,
+            "coverage_after": 0.8984575392855194,
+            "planned_terminal_cost": 9.031261444091797,
+            "brake_substeps": 0,
+            "executed_relative_action": [
+              0.014994620345532894,
+              -0.09344024211168289
+            ]
+          }
+        ],
+        "inference": []
+      },
+      "55432": {
+        "success": false,
+        "best_coverage": 0.7926173135213854,
+        "final_coverage": 0.7926173135213854,
+        "score_calls": 21,
+        "median_score_seconds": 0.015417300048284233,
+        "mean_score_seconds": 0.01874515237674738,
+        "ticks": [
+          {
+            "tick": 1,
+            "regime": 1,
+            "coverage_before": 0.40975687234429986,
+            "coverage_after": 0.40975687234429986,
+            "planned_terminal_cost": 15.71656608581543,
+            "brake_substeps": 0,
+            "executed_relative_action": [
+              -0.045899178832769394,
+              0.08175607025623322
+            ]
+          },
+          {
+            "tick": 2,
+            "regime": 1,
+            "coverage_before": 0.40975687234429986,
+            "coverage_after": 0.5069981060711345,
+            "planned_terminal_cost": 13.462970733642578,
+            "brake_substeps": 22,
+            "executed_relative_action": [
+              0.12940499186515808,
+              -0.09400811791419983
+            ]
+          },
+          {
+            "tick": 3,
+            "regime": 1,
+            "coverage_before": 0.5069981060711345,
+            "coverage_after": 0.5740150200716968,
+            "planned_terminal_cost": 15.857938766479492,
+            "brake_substeps": 6,
+            "executed_relative_action": [
+              -0.040240880101919174,
+              0.041706383228302
+            ]
+          },
+          {
+            "tick": 4,
+            "regime": 0,
+            "coverage_before": 0.5740150200716968,
+            "coverage_after": 0.5925498009454591,
+            "planned_terminal_cost": 9.916528701782227,
+            "brake_substeps": 0,
+            "executed_relative_action": [
+              -0.11389491707086563,
+              -0.11719544231891632
+            ]
+          },
+          {
+            "tick": 5,
+            "regime": 0,
+            "coverage_before": 0.5925498009454591,
+            "coverage_after": 0.5947475501427134,
+            "planned_terminal_cost": 12.932765007019043,
+            "brake_substeps": 0,
+            "executed_relative_action": [
+              0.14096082746982574,
+              0.04666219279170036
+            ]
+          },
+          {
+            "tick": 6,
+            "regime": 1,
+            "coverage_before": 0.5947475501427134,
+            "coverage_after": 0.7534059013355426,
+            "planned_terminal_cost": 11.566386222839355,
+            "brake_substeps": 46,
+            "executed_relative_action": [
+              0.05892759561538696,
+              0.07387380301952362
+            ]
+          },
+          {
+            "tick": 7,
+            "regime": 1,
+            "coverage_before": 0.7534059013355426,
+            "coverage_after": 0.7926173135213854,
+            "planned_terminal_cost": 8.018159866333008,
+            "brake_substeps": 5,
+            "executed_relative_action": [
+              -0.022591376677155495,
+              0.010288115590810776
+            ]
+          }
+        ],
+        "inference": []
+      },
+      "55433": {
+        "success": false,
+        "best_coverage": 0.8389609684235045,
+        "final_coverage": 0.8389609684235045,
+        "score_calls": 21,
+        "median_score_seconds": 0.01701170002343133,
+        "mean_score_seconds": 0.01813971904283833,
+        "ticks": [
+          {
+            "tick": 1,
+            "regime": 1,
+            "coverage_before": 0.4158764661907982,
+            "coverage_after": 0.4979549792154343,
+            "planned_terminal_cost": 13.414013862609863,
+            "brake_substeps": 33,
+            "executed_relative_action": [
+              0.0625562071800232,
+              -0.026208247989416122
+            ]
+          },
+          {
+            "tick": 2,
+            "regime": 1,
+            "coverage_before": 0.4979549792154343,
+            "coverage_after": 0.6684469941312484,
+            "planned_terminal_cost": 13.644119262695312,
+            "brake_substeps": 50,
+            "executed_relative_action": [
+              0.03489437699317932,
+              0.10389409214258194
+            ]
+          },
+          {
+            "tick": 3,
+            "regime": 1,
+            "coverage_before": 0.6684469941312484,
+            "coverage_after": 0.7126533458678729,
+            "planned_terminal_cost": 9.943001747131348,
+            "brake_substeps": 9,
+            "executed_relative_action": [
+              -0.0006745959399268031,
+              -0.020289817824959755
+            ]
+          },
+          {
+            "tick": 4,
+            "regime": 0,
+            "coverage_before": 0.7126533458678729,
+            "coverage_after": 0.7126816342104062,
+            "planned_terminal_cost": 11.995600700378418,
+            "brake_substeps": 0,
+            "executed_relative_action": [
+              -0.0641997829079628,
+              -0.023564161732792854
+            ]
+          },
+          {
+            "tick": 5,
+            "regime": 0,
+            "coverage_before": 0.7126816342104062,
+            "coverage_after": 0.7938434273709318,
+            "planned_terminal_cost": 11.615560531616211,
+            "brake_substeps": 0,
+            "executed_relative_action": [
+              0.1104489117860794,
+              -0.12757019698619843
+            ]
+          },
+          {
+            "tick": 6,
+            "regime": 1,
+            "coverage_before": 0.7938434273709318,
+            "coverage_after": 0.7858298050774861,
+            "planned_terminal_cost": 10.987920761108398,
+            "brake_substeps": 30,
+            "executed_relative_action": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "tick": 7,
+            "regime": 1,
+            "coverage_before": 0.7858298050774861,
+            "coverage_after": 0.8389609684235045,
+            "planned_terminal_cost": 9.255677223205566,
+            "brake_substeps": 50,
+            "executed_relative_action": [
+              0.011466721072793007,
+              0.04453995078802109
+            ]
+          }
+        ],
+        "inference": []
+      }
+    },
+    "most_recent": {
+      "55430": {
+        "success": false,
+        "best_coverage": 0.9167375080057932,
+        "final_coverage": 0.9167375080057932,
+        "score_calls": 21,
+        "median_score_seconds": 0.014298000023700297,
+        "mean_score_seconds": 0.021636723809587283,
+        "ticks": [
+          {
+            "tick": 1,
+            "regime": 1,
+            "coverage_before": 0.4171141530913076,
+            "coverage_after": 0.5997883452418632,
+            "planned_terminal_cost": 16.52538299560547,
+            "brake_substeps": 30,
+            "executed_relative_action": [
+              0.13536836206912994,
+              -0.04398222267627716
+            ]
+          },
+          {
+            "tick": 2,
+            "regime": 1,
+            "coverage_before": 0.5997883452418632,
+            "coverage_after": 0.7884781610438916,
+            "planned_terminal_cost": 10.90542984008789,
+            "brake_substeps": 50,
+            "executed_relative_action": [
+              0.009229365736246109,
+              0.06842569261789322
+            ]
+          },
+          {
+            "tick": 3,
+            "regime": 1,
+            "coverage_before": 0.7884781610438916,
+            "coverage_after": 0.7961224663184454,
+            "planned_terminal_cost": 8.157312393188477,
+            "brake_substeps": 1,
+            "executed_relative_action": [
+              -0.0864296555519104,
+              0.06937937438488007
+            ]
+          },
+          {
+            "tick": 4,
+            "regime": 0,
+            "coverage_before": 0.7961224663184454,
+            "coverage_after": 0.7961224663184454,
+            "planned_terminal_cost": 9.346181869506836,
+            "brake_substeps": 0,
+            "executed_relative_action": [
+              0.08655993640422821,
+              -0.10285278409719467
+            ]
+          },
+          {
+            "tick": 5,
+            "regime": 0,
+            "coverage_before": 0.7961224663184454,
+            "coverage_after": 0.7961224663184454,
+            "planned_terminal_cost": 11.44636344909668,
+            "brake_substeps": 0,
+            "executed_relative_action": [
+              -0.06568481773138046,
+              0.14006422460079193
+            ]
+          },
+          {
+            "tick": 6,
+            "regime": 1,
+            "coverage_before": 0.7961224663184454,
+            "coverage_after": 0.8630594066034568,
+            "planned_terminal_cost": 9.260553359985352,
+            "brake_substeps": 24,
+            "executed_relative_action": [
+              0.10904709249734879,
+              -0.13222582638263702
+            ]
+          },
+          {
+            "tick": 7,
+            "regime": 1,
+            "coverage_before": 0.8630594066034568,
+            "coverage_after": 0.9167375080057932,
+            "planned_terminal_cost": 9.064311981201172,
+            "brake_substeps": 30,
+            "executed_relative_action": [
+              0.0,
+              0.0
+            ]
+          }
+        ],
+        "inference": [
+          {
+            "actual_arrival": 1,
+            "observed_xy": [
+              205.17617797851562,
+              208.5806884765625
+            ],
+            "issued_xy": [
+              [
+                210.42098999023438,
+                212.68675231933594
+              ],
+              [
+                207.22549438476562,
+                212.76480102539062
+              ]
+            ],
+            "support": [
+              0.43213531374931335,
+              0.567864716053009
+            ],
+            "log_likelihood": [
+              -0.6811062097549438,
+              -0.40796172618865967
+            ]
+          },
+          {
+            "actual_arrival": 2,
+            "observed_xy": [
+              210.48934936523438,
+              211.25694274902344
+            ],
+            "issued_xy": [
+              [
+                214.6781005859375,
+                213.80288696289062
+              ],
+              [
+                214.76808166503906,
+                213.60897827148438
+              ]
+            ],
+            "support": [
+              0.49750638008117676,
+              0.5024935603141785
+            ],
+            "log_likelihood": [
+              -0.3474736213684082,
+              -0.33749920129776
+            ]
+          },
+          {
+            "actual_arrival": 3,
+            "observed_xy": [
+              211.07574462890625,
+              208.98924255371094
+            ],
+            "issued_xy": [
+              [
+                217.45150756835938,
+                213.12013244628906
+              ],
+              [
+                218.597900390625,
+                213.2431640625
+              ]
+            ],
+            "support": [
+              0.553966760635376,
+              0.446033239364624
+            ],
+            "log_likelihood": [
+              -0.8467066287994385,
+              -1.063417911529541
+            ]
+          },
+          {
+            "actual_arrival": 4,
+            "observed_xy": [
+              211.2571563720703,
+              211.43629455566406
+            ],
+            "issued_xy": [
+              [
+                216.50823974609375,
+                216.5452880859375
+              ],
+              [
+                217.60162353515625,
+                216.5211181640625
+              ]
+            ],
+            "support": [
+              0.5376096963882446,
+              0.462390273809433
+            ],
+            "log_likelihood": [
+              -0.8700487613677979,
+              -1.0207723379135132
+            ]
+          },
+          {
+            "actual_arrival": 5,
+            "observed_xy": [
+              211.2125244140625,
+              207.53021240234375
+            ],
+            "issued_xy": [
+              [
+                219.42269897460938,
+                211.80191040039062
+              ],
+              [
+                220.89195251464844,
+                211.65493774414062
+              ]
+            ],
+            "support": [
+              0.5738928914070129,
+              0.42610710859298706
+            ],
+            "log_likelihood": [
+              -1.1994647979736328,
+              -1.497216820716858
+            ]
+          },
+          {
+            "actual_arrival": 6,
+            "observed_xy": [
+              214.65740966796875,
+              213.51280212402344
+            ],
+            "issued_xy": [
+              [
+                221.3573760986328,
+                216.73016357421875
+              ],
+              [
+                222.7084503173828,
+                216.48863220214844
+              ]
+            ],
+            "support": [
+              0.5533865094184875,
+              0.44661346077919006
+            ],
+            "log_likelihood": [
+              -0.7621317505836487,
+              -0.9764949083328247
+            ]
+          },
+          {
+            "actual_arrival": 7,
+            "observed_xy": [
+              219.13427734375,
+              214.29835510253906
+            ],
+            "issued_xy": [
+              [
+                223.24258422851562,
+                217.070068359375
+              ],
+              [
+                223.64564514160156,
+                218.35073852539062
+              ]
+            ],
+            "support": [
+              0.5549222826957703,
+              0.44507771730422974
+            ],
+            "log_likelihood": [
+              -0.36371374130249023,
+              -0.5842928886413574
+            ]
+          }
+        ]
+      },
+      "55431": {
+        "success": false,
+        "best_coverage": 0.9086449939660253,
+        "final_coverage": 0.9045145441762785,
+        "score_calls": 21,
+        "median_score_seconds": 0.013076300034299493,
+        "mean_score_seconds": 0.02073168094890813,
+        "ticks": [
+          {
+            "tick": 1,
+            "regime": 1,
+            "coverage_before": 0.3981511803806481,
+            "coverage_after": 0.5051217025229235,
+            "planned_terminal_cost": 14.446889877319336,
+            "brake_substeps": 23,
+            "executed_relative_action": [
+              0.13291975855827332,
+              0.041837163269519806
+            ]
+          },
+          {
+            "tick": 2,
+            "regime": 1,
+            "coverage_before": 0.5051217025229235,
+            "coverage_after": 0.5681958313588452,
+            "planned_terminal_cost": 12.159595489501953,
+            "brake_substeps": 4,
+            "executed_relative_action": [
+              -0.0864296555519104,
+              0.06937937438488007
+            ]
+          },
+          {
+            "tick": 3,
+            "regime": 1,
+            "coverage_before": 0.5681958313588452,
+            "coverage_after": 0.668344032155759,
+            "planned_terminal_cost": 8.709198951721191,
+            "brake_substeps": 21,
+            "executed_relative_action": [
+              0.12643437087535858,
+              -0.11483370512723923
+            ]
+          },
+          {
+            "tick": 4,
+            "regime": 0,
+            "coverage_before": 0.668344032155759,
+            "coverage_after": 0.9019583937962236,
+            "planned_terminal_cost": 9.036322593688965,
+            "brake_substeps": 0,
+            "executed_relative_action": [
+              0.04591365531086922,
+              0.055238086730241776
+            ]
+          },
+          {
+            "tick": 5,
+            "regime": 0,
+            "coverage_before": 0.9019583937962236,
+            "coverage_after": 0.9086449939660253,
+            "planned_terminal_cost": 10.501534461975098,
+            "brake_substeps": 0,
+            "executed_relative_action": [
+              -0.03341146558523178,
+              -0.08303063362836838
+            ]
+          },
+          {
+            "tick": 6,
+            "regime": 1,
+            "coverage_before": 0.9086449939660253,
+            "coverage_after": 0.9045145441762785,
+            "planned_terminal_cost": 10.167040824890137,
+            "brake_substeps": 3,
+            "executed_relative_action": [
+              -0.009184770286083221,
+              0.0481443852186203
+            ]
+          },
+          {
+            "tick": 7,
+            "regime": 1,
+            "coverage_before": 0.9045145441762785,
+            "coverage_after": 0.9045145441762785,
+            "planned_terminal_cost": 11.12374496459961,
+            "brake_substeps": 0,
+            "executed_relative_action": [
+              -0.004552959930151701,
+              0.015758616849780083
+            ]
+          }
+        ],
+        "inference": [
+          {
+            "actual_arrival": 1,
+            "observed_xy": [
+              199.87503051757812,
+              185.3570098876953
+            ],
+            "issued_xy": [
+              [
+                206.5314178466797,
+                183.24298095703125
+              ],
+              [
+                203.00523376464844,
+                183.80320739746094
+              ]
+            ],
+            "support": [
+              0.3856262266635895,
+              0.6143738031387329
+            ],
+            "log_likelihood": [
+              -0.6352401971817017,
+              -0.1695052832365036
+            ]
+          },
+          {
+            "actual_arrival": 2,
+            "observed_xy": [
+              202.9759521484375,
+              179.61917114257812
+            ],
+            "issued_xy": [
+              [
+                203.43997192382812,
+                181.14007568359375
+              ],
+              [
+                203.04701232910156,
+                181.7791748046875
+              ]
+            ],
+            "support": [
+              0.5113242268562317,
+              0.4886757731437683
+            ],
+            "log_likelihood": [
+              -0.049732040613889694,
+              -0.09503661841154099
+            ]
+          },
+          {
+            "actual_arrival": 3,
+            "observed_xy": [
+              211.95619201660156,
+              184.20748901367188
+            ],
+            "issued_xy": [
+              [
+                218.58555603027344,
+                181.96322631835938
+              ],
+              [
+                218.62643432617188,
+                182.35531616210938
+              ]
+            ],
+            "support": [
+              0.49349597096443176,
+              0.5065039396286011
+            ],
+            "log_likelihood": [
+              -0.6423842310905457,
+              -0.6163668036460876
+            ]
+          },
+          {
+            "actual_arrival": 4,
+            "observed_xy": [
+              220.20091247558594,
+              181.45779418945312
+            ],
+            "issued_xy": [
+              [
+                224.73731994628906,
+                183.67776489257812
+              ],
+              [
+                221.5284423828125,
+                184.49038696289062
+              ]
+            ],
+            "support": [
+              0.4639991819858551,
+              0.5360007286071777
+            ],
+            "log_likelihood": [
+              -0.35311004519462585,
+              -0.2088572233915329
+            ]
+          },
+          {
+            "actual_arrival": 5,
+            "observed_xy": [
+              221.5430145263672,
+              177.65354919433594
+            ],
+            "issued_xy": [
+              [
+                230.16867065429688,
+                177.23545837402344
+              ],
+              [
+                230.8269500732422,
+                179.86578369140625
+              ]
+            ],
+            "support": [
+              0.5599318146705627,
+              0.44006815552711487
+            ],
+            "log_likelihood": [
+              -0.9174988269805908,
+              -1.1583843231201172
+            ]
+          },
+          {
+            "actual_arrival": 6,
+            "observed_xy": [
+              220.39854431152344,
+              176.6180877685547
+            ],
+            "issued_xy": [
+              [
+                226.7587127685547,
+                175.03057861328125
+              ],
+              [
+                226.6702423095703,
+                175.7241973876953
+              ]
+            ],
+            "support": [
+              0.48781144618988037,
+              0.5121885538101196
+            ],
+            "log_likelihood": [
+              -0.5482038259506226,
+              -0.49943995475769043
+            ]
+          },
+          {
+            "actual_arrival": 7,
+            "observed_xy": [
+              220.54251098632812,
+              175.46279907226562
+            ],
+            "issued_xy": [
+              [
+                226.33465576171875,
+                175.11929321289062
+              ],
+              [
+                226.30482482910156,
+                175.75961303710938
+              ]
+            ],
+            "support": [
+              0.49878931045532227,
+              0.5012106895446777
+            ],
+            "log_likelihood": [
+              -0.41451138257980347,
+              -0.4096687436103821
+            ]
+          }
+        ]
+      },
+      "55432": {
+        "success": false,
+        "best_coverage": 0.7742938760477961,
+        "final_coverage": 0.7742938760477961,
+        "score_calls": 21,
+        "median_score_seconds": 0.01480409997748211,
+        "mean_score_seconds": 0.02103646666676338,
+        "ticks": [
+          {
+            "tick": 1,
+            "regime": 1,
+            "coverage_before": 0.40975687234429986,
+            "coverage_after": 0.40975687234429986,
+            "planned_terminal_cost": 15.71656608581543,
+            "brake_substeps": 0,
+            "executed_relative_action": [
+              -0.045899178832769394,
+              0.08175607025623322
+            ]
+          },
+          {
+            "tick": 2,
+            "regime": 1,
+            "coverage_before": 0.40975687234429986,
+            "coverage_after": 0.5069981060711345,
+            "planned_terminal_cost": 13.247934341430664,
+            "brake_substeps": 22,
+            "executed_relative_action": [
+              0.12940499186515808,
+              -0.09400811791419983
+            ]
+          },
+          {
+            "tick": 3,
+            "regime": 1,
+            "coverage_before": 0.5069981060711345,
+            "coverage_after": 0.5740150200716968,
+            "planned_terminal_cost": 16.53749656677246,
+            "brake_substeps": 6,
+            "executed_relative_action": [
+              -0.040240880101919174,
+              0.041706383228302
+            ]
+          },
+          {
+            "tick": 4,
+            "regime": 0,
+            "coverage_before": 0.5740150200716968,
+            "coverage_after": 0.5925498009454591,
+            "planned_terminal_cost": 9.886404991149902,
+            "brake_substeps": 0,
+            "executed_relative_action": [
+              -0.11389491707086563,
+              -0.11719544231891632
+            ]
+          },
+          {
+            "tick": 5,
+            "regime": 0,
+            "coverage_before": 0.5925498009454591,
+            "coverage_after": 0.5947475501427134,
+            "planned_terminal_cost": 13.105269432067871,
+            "brake_substeps": 0,
+            "executed_relative_action": [
+              0.14096082746982574,
+              0.04666219279170036
+            ]
+          },
+          {
+            "tick": 6,
+            "regime": 1,
+            "coverage_before": 0.5947475501427134,
+            "coverage_after": 0.7534059013355426,
+            "planned_terminal_cost": 11.425542831420898,
+            "brake_substeps": 46,
+            "executed_relative_action": [
+              0.05892759561538696,
+              0.07387380301952362
+            ]
+          },
+          {
+            "tick": 7,
+            "regime": 1,
+            "coverage_before": 0.7534059013355426,
+            "coverage_after": 0.7742938760477961,
+            "planned_terminal_cost": 6.680418968200684,
+            "brake_substeps": 2,
+            "executed_relative_action": [
+              -0.10974828898906708,
+              0.08098446577787399
+            ]
+          }
+        ],
+        "inference": [
+          {
+            "actual_arrival": 1,
+            "observed_xy": [
+              188.199951171875,
+              227.82383728027344
+            ],
+            "issued_xy": [
+              [
+                193.80340576171875,
+                230.31808471679688
+              ],
+              [
+                195.11891174316406,
+                229.53990173339844
+              ]
+            ],
+            "support": [
+              0.5338630676269531,
+              0.4661368727684021
+            ],
+            "log_likelihood": [
+              -0.5123381614685059,
+              -0.6479983925819397
+            ]
+          },
+          {
+            "actual_arrival": 2,
+            "observed_xy": [
+              191.82200622558594,
+              232.4019012451172
+            ],
+            "issued_xy": [
+              [
+                193.5013427734375,
+                237.3963165283203
+              ],
+              [
+                193.20343017578125,
+                235.95855712890625
+              ]
+            ],
+            "support": [
+              0.4350026249885559,
+              0.5649973154067993
+            ],
+            "log_likelihood": [
+              -0.5424134731292725,
+              -0.2809445559978485
+            ]
+          },
+          {
+            "actual_arrival": 3,
+            "observed_xy": [
+              194.8459014892578,
+              234.04103088378906
+            ],
+            "issued_xy": [
+              [
+                194.87994384765625,
+                234.13717651367188
+              ],
+              [
+                196.42538452148438,
+                234.39883422851562
+              ]
+            ],
+            "support": [
+              0.508261501789093,
+              0.49173855781555176
+            ],
+            "log_likelihood": [
+              -0.00020240862795617431,
+              -0.033251360058784485
+            ]
+          },
+          {
+            "actual_arrival": 4,
+            "observed_xy": [
+              198.18397521972656,
+              234.00669860839844
+            ],
+            "issued_xy": [
+              [
+                205.53720092773438,
+                236.9968719482422
+              ],
+              [
+                204.39715576171875,
+                237.7453155517578
+              ]
+            ],
+            "support": [
+              0.4781467020511627,
+              0.5218532681465149
+            ],
+            "log_likelihood": [
+              -0.8461939096450806,
+              -0.7587250471115112
+            ]
+          },
+          {
+            "actual_arrival": 5,
+            "observed_xy": [
+              196.678955078125,
+              228.79595947265625
+            ],
+            "issued_xy": [
+              [
+                199.30157470703125,
+                231.4332275390625
+              ],
+              [
+                200.40269470214844,
+                232.1324005126953
+              ]
+            ],
+            "support": [
+              0.542611837387085,
+              0.4573881924152374
+            ],
+            "log_likelihood": [
+              -0.22607149183750153,
+              -0.39693328738212585
+            ]
+          },
+          {
+            "actual_arrival": 6,
+            "observed_xy": [
+              200.90386962890625,
+              233.71539306640625
+            ],
+            "issued_xy": [
+              [
+                207.190673828125,
+                234.60476684570312
+              ],
+              [
+                205.67526245117188,
+                232.90866088867188
+              ]
+            ],
+            "support": [
+              0.4480130076408386,
+              0.5519869327545166
+            ],
+            "log_likelihood": [
+              -0.5016063451766968,
+              -0.29290416836738586
+            ]
+          },
+          {
+            "actual_arrival": 7,
+            "observed_xy": [
+              201.99879455566406,
+              230.27230834960938
+            ],
+            "issued_xy": [
+              [
+                206.7889862060547,
+                235.32049560546875
+              ],
+              [
+                207.6398468017578,
+                234.98089599609375
+              ]
+            ],
+            "support": [
+              0.5103928446769714,
+              0.48960718512535095
+            ],
+            "log_likelihood": [
+              -0.8006273508071899,
+              -0.8422045111656189
+            ]
+          }
+        ]
+      },
+      "55433": {
+        "success": false,
+        "best_coverage": 0.8389609684235045,
+        "final_coverage": 0.8389609684235045,
+        "score_calls": 21,
+        "median_score_seconds": 0.017119199968874454,
+        "mean_score_seconds": 0.022385219048287365,
+        "ticks": [
+          {
+            "tick": 1,
+            "regime": 1,
+            "coverage_before": 0.4158764661907982,
+            "coverage_after": 0.4979549792154343,
+            "planned_terminal_cost": 13.414013862609863,
+            "brake_substeps": 33,
+            "executed_relative_action": [
+              0.0625562071800232,
+              -0.026208247989416122
+            ]
+          },
+          {
+            "tick": 2,
+            "regime": 1,
+            "coverage_before": 0.4979549792154343,
+            "coverage_after": 0.6684469941312484,
+            "planned_terminal_cost": 13.357667922973633,
+            "brake_substeps": 50,
+            "executed_relative_action": [
+              0.03489437699317932,
+              0.10389409214258194
+            ]
+          },
+          {
+            "tick": 3,
+            "regime": 1,
+            "coverage_before": 0.6684469941312484,
+            "coverage_after": 0.7126533458678729,
+            "planned_terminal_cost": 9.962604522705078,
+            "brake_substeps": 9,
+            "executed_relative_action": [
+              -0.0006745959399268031,
+              -0.020289817824959755
+            ]
+          },
+          {
+            "tick": 4,
+            "regime": 0,
+            "coverage_before": 0.7126533458678729,
+            "coverage_after": 0.7126816342104062,
+            "planned_terminal_cost": 11.912803649902344,
+            "brake_substeps": 0,
+            "executed_relative_action": [
+              -0.0641997829079628,
+              -0.023564161732792854
+            ]
+          },
+          {
+            "tick": 5,
+            "regime": 0,
+            "coverage_before": 0.7126816342104062,
+            "coverage_after": 0.7938434273709318,
+            "planned_terminal_cost": 11.54181957244873,
+            "brake_substeps": 0,
+            "executed_relative_action": [
+              0.1104489117860794,
+              -0.12757019698619843
+            ]
+          },
+          {
+            "tick": 6,
+            "regime": 1,
+            "coverage_before": 0.7938434273709318,
+            "coverage_after": 0.7858298050774861,
+            "planned_terminal_cost": 10.964158058166504,
+            "brake_substeps": 30,
+            "executed_relative_action": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "tick": 7,
+            "regime": 1,
+            "coverage_before": 0.7858298050774861,
+            "coverage_after": 0.8389609684235045,
+            "planned_terminal_cost": 9.262746810913086,
+            "brake_substeps": 50,
+            "executed_relative_action": [
+              0.011466721072793007,
+              0.04453995078802109
+            ]
+          }
+        ],
+        "inference": [
+          {
+            "actual_arrival": 1,
+            "observed_xy": [
+              226.56988525390625,
+              242.44747924804688
+            ],
+            "issued_xy": [
+              [
+                230.2772674560547,
+                241.77442932128906
+              ],
+              [
+                228.06922912597656,
+                242.551025390625
+              ]
+            ],
+            "support": [
+              0.4625140130519867,
+              0.5374860763549805
+            ],
+            "log_likelihood": [
+              -0.17805862426757812,
+              -0.027832692489027977
+            ]
+          },
+          {
+            "actual_arrival": 2,
+            "observed_xy": [
+              235.19448852539062,
+              244.491943359375
+            ],
+            "issued_xy": [
+              [
+                236.11767578125,
+                245.2787628173828
+              ],
+              [
+                235.1780242919922,
+                244.11679077148438
+              ]
+            ],
+            "support": [
+              0.4949494004249573,
+              0.5050506591796875
+            ],
+            "log_likelihood": [
+              -0.02307146042585373,
+              -0.0028682623524218798
+            ]
+          },
+          {
+            "actual_arrival": 3,
+            "observed_xy": [
+              238.0507354736328,
+              244.00778198242188
+            ],
+            "issued_xy": [
+              [
+                237.10702514648438,
+                244.25244140625
+              ],
+              [
+                237.6689453125,
+                245.50283813476562
+              ]
+            ],
+            "support": [
+              0.5087822079658508,
+              0.49121779203414917
+            ],
+            "log_likelihood": [
+              -0.012158334255218506,
+              -0.04729075729846954
+            ]
+          },
+          {
+            "actual_arrival": 4,
+            "observed_xy": [
+              238.25347900390625,
+              242.33514404296875
+            ],
+            "issued_xy": [
+              [
+                241.0648651123047,
+                242.24749755859375
+              ],
+              [
+                241.13626098632812,
+                243.5736541748047
+              ]
+            ],
+            "support": [
+              0.5090145468711853,
+              0.4909853935241699
+            ],
+            "log_likelihood": [
+              -0.09724641591310501,
+              -0.13330857455730438
+            ]
+          },
+          {
+            "actual_arrival": 5,
+            "observed_xy": [
+              248.49539184570312,
+              235.18017578125
+            ],
+            "issued_xy": [
+              [
+                249.8155059814453,
+                235.04888916015625
+              ],
+              [
+                249.51942443847656,
+                236.9319610595703
+              ]
+            ],
+            "support": [
+              0.5133947730064392,
+              0.4866052567958832
+            ],
+            "log_likelihood": [
+              -0.021757906302809715,
+              -0.07534972578287125
+            ]
+          },
+          {
+            "actual_arrival": 6,
+            "observed_xy": [
+              249.61460876464844,
+              234.70639038085938
+            ],
+            "issued_xy": [
+              [
+                251.3949737548828,
+                233.93505859375
+              ],
+              [
+                251.5445556640625,
+                235.7151336669922
+              ]
+            ],
+            "support": [
+              0.5038549900054932,
+              0.4961450397968292
+            ],
+            "log_likelihood": [
+              -0.05104706436395645,
+              -0.06646730750799179
+            ]
+          },
+          {
+            "actual_arrival": 7,
+            "observed_xy": [
+              252.68833923339844,
+              235.027587890625
+            ],
+            "issued_xy": [
+              [
+                253.12466430664062,
+                236.6258544921875
+              ],
+              [
+                253.86062622070312,
+                237.02293395996094
+              ]
+            ],
+            "support": [
+              0.5108957886695862,
+              0.4891042709350586
+            ],
+            "log_likelihood": [
+              -0.054337818175554276,
+              -0.0979277640581131
+            ]
+          }
+        ]
+      }
+    },
+    "persistent": {
+      "55430": {
+        "success": false,
+        "best_coverage": 0.9167375080057932,
+        "final_coverage": 0.9167375080057932,
+        "score_calls": 21,
+        "median_score_seconds": 0.014480800018645823,
+        "mean_score_seconds": 0.020167771438580184,
+        "ticks": [
+          {
+            "tick": 1,
+            "regime": 1,
+            "coverage_before": 0.4171141530913076,
+            "coverage_after": 0.5997883452418632,
+            "planned_terminal_cost": 16.52538299560547,
+            "brake_substeps": 30,
+            "executed_relative_action": [
+              0.13536836206912994,
+              -0.04398222267627716
+            ]
+          },
+          {
+            "tick": 2,
+            "regime": 1,
+            "coverage_before": 0.5997883452418632,
+            "coverage_after": 0.7884781610438916,
+            "planned_terminal_cost": 10.863030433654785,
+            "brake_substeps": 50,
+            "executed_relative_action": [
+              0.009229365736246109,
+              0.06842569261789322
+            ]
+          },
+          {
+            "tick": 3,
+            "regime": 1,
+            "coverage_before": 0.7884781610438916,
+            "coverage_after": 0.7961224663184454,
+            "planned_terminal_cost": 8.099468231201172,
+            "brake_substeps": 1,
+            "executed_relative_action": [
+              -0.0864296555519104,
+              0.06937937438488007
+            ]
+          },
+          {
+            "tick": 4,
+            "regime": 0,
+            "coverage_before": 0.7961224663184454,
+            "coverage_after": 0.7961224663184454,
+            "planned_terminal_cost": 9.18132209777832,
+            "brake_substeps": 0,
+            "executed_relative_action": [
+              0.08655993640422821,
+              -0.10285278409719467
+            ]
+          },
+          {
+            "tick": 5,
+            "regime": 0,
+            "coverage_before": 0.7961224663184454,
+            "coverage_after": 0.7961224663184454,
+            "planned_terminal_cost": 11.448257446289062,
+            "brake_substeps": 0,
+            "executed_relative_action": [
+              -0.06568481773138046,
+              0.14006422460079193
+            ]
+          },
+          {
+            "tick": 6,
+            "regime": 1,
+            "coverage_before": 0.7961224663184454,
+            "coverage_after": 0.8630594066034568,
+            "planned_terminal_cost": 9.208623886108398,
+            "brake_substeps": 24,
+            "executed_relative_action": [
+              0.10904709249734879,
+              -0.13222582638263702
+            ]
+          },
+          {
+            "tick": 7,
+            "regime": 1,
+            "coverage_before": 0.8630594066034568,
+            "coverage_after": 0.9167375080057932,
+            "planned_terminal_cost": 8.870062828063965,
+            "brake_substeps": 30,
+            "executed_relative_action": [
+              0.0,
+              0.0
+            ]
+          }
+        ],
+        "inference": [
+          {
+            "actual_arrival": 1,
+            "observed_xy": [
+              205.17617797851562,
+              208.5806884765625
+            ],
+            "issued_xy": [
+              [
+                210.42098999023438,
+                212.68675231933594
+              ],
+              [
+                207.22549438476562,
+                212.76480102539062
+              ]
+            ],
+            "support": [
+              0.43213531374931335,
+              0.567864716053009
+            ],
+            "log_likelihood": [
+              -0.6811062097549438,
+              -0.40796172618865967
+            ]
+          },
+          {
+            "actual_arrival": 2,
+            "observed_xy": [
+              210.48934936523438,
+              211.25694274902344
+            ],
+            "issued_xy": [
+              [
+                214.6781005859375,
+                213.80288696289062
+              ],
+              [
+                214.76808166503906,
+                213.60897827148438
+              ]
+            ],
+            "support": [
+              0.43646690249443054,
+              0.5635331273078918
+            ],
+            "log_likelihood": [
+              -0.3474736213684082,
+              -0.33749920129776
+            ]
+          },
+          {
+            "actual_arrival": 3,
+            "observed_xy": [
+              211.07574462890625,
+              208.98924255371094
+            ],
+            "issued_xy": [
+              [
+                217.45150756835938,
+                213.12013244628906
+              ],
+              [
+                218.597900390625,
+                213.2431640625
+              ]
+            ],
+            "support": [
+              0.49674680829048157,
+              0.5032532215118408
+            ],
+            "log_likelihood": [
+              -0.8467066287994385,
+              -1.063417911529541
+            ]
+          },
+          {
+            "actual_arrival": 4,
+            "observed_xy": [
+              211.2571563720703,
+              211.43629455566406
+            ],
+            "issued_xy": [
+              [
+                216.50823974609375,
+                216.5452880859375
+              ],
+              [
+                217.60162353515625,
+                216.5211181640625
+              ]
+            ],
+            "support": [
+              0.5346970558166504,
+              0.46530288457870483
+            ],
+            "log_likelihood": [
+              -0.8700487613677979,
+              -1.0207723379135132
+            ]
+          },
+          {
+            "actual_arrival": 5,
+            "observed_xy": [
+              211.2125244140625,
+              207.53021240234375
+            ],
+            "issued_xy": [
+              [
+                219.42269897460938,
+                211.80191040039062
+              ],
+              [
+                220.89195251464844,
+                211.65493774414062
+              ]
+            ],
+            "support": [
+              0.6041589975357056,
+              0.395841121673584
+            ],
+            "log_likelihood": [
+              -1.1994647979736328,
+              -1.497216820716858
+            ]
+          },
+          {
+            "actual_arrival": 6,
+            "observed_xy": [
+              214.65740966796875,
+              213.51280212402344
+            ],
+            "issued_xy": [
+              [
+                221.3573760986328,
+                216.73016357421875
+              ],
+              [
+                222.7084503173828,
+                216.48863220214844
+              ]
+            ],
+            "support": [
+              0.6442421078681946,
+              0.3557579517364502
+            ],
+            "log_likelihood": [
+              -0.7621317505836487,
+              -0.9764949083328247
+            ]
+          },
+          {
+            "actual_arrival": 7,
+            "observed_xy": [
+              219.13427734375,
+              214.29835510253906
+            ],
+            "issued_xy": [
+              [
+                223.24258422851562,
+                217.070068359375
+              ],
+              [
+                223.64564514160156,
+                218.35073852539062
+              ]
+            ],
+            "support": [
+              0.6796175241470337,
+              0.3203824758529663
+            ],
+            "log_likelihood": [
+              -0.36371374130249023,
+              -0.5842928886413574
+            ]
+          }
+        ]
+      },
+      "55431": {
+        "success": false,
+        "best_coverage": 0.9043983414719817,
+        "final_coverage": 0.9043983414719817,
+        "score_calls": 21,
+        "median_score_seconds": 0.015595100005157292,
+        "mean_score_seconds": 0.020462585712916086,
+        "ticks": [
+          {
+            "tick": 1,
+            "regime": 1,
+            "coverage_before": 0.3981511803806481,
+            "coverage_after": 0.5051217025229234,
+            "planned_terminal_cost": 14.446889877319336,
+            "brake_substeps": 23,
+            "executed_relative_action": [
+              0.13291975855827332,
+              0.041837163269519806
+            ]
+          },
+          {
+            "tick": 2,
+            "regime": 1,
+            "coverage_before": 0.5051217025229234,
+            "coverage_after": 0.5681958313588452,
+            "planned_terminal_cost": 12.104816436767578,
+            "brake_substeps": 4,
+            "executed_relative_action": [
+              -0.0864296555519104,
+              0.06937937438488007
+            ]
+          },
+          {
+            "tick": 3,
+            "regime": 1,
+            "coverage_before": 0.5681958313588452,
+            "coverage_after": 0.7033578267892325,
+            "planned_terminal_cost": 8.0686674118042,
+            "brake_substeps": 24,
+            "executed_relative_action": [
+              0.14169584214687347,
+              -0.11487989872694016
+            ]
+          },
+          {
+            "tick": 4,
+            "regime": 0,
+            "coverage_before": 0.7033578267892325,
+            "coverage_after": 0.7871931880675826,
+            "planned_terminal_cost": 9.23811149597168,
+            "brake_substeps": 0,
+            "executed_relative_action": [
+              -0.06568481773138046,
+              0.14006422460079193
+            ]
+          },
+          {
+            "tick": 5,
+            "regime": 0,
+            "coverage_before": 0.7871931880675826,
+            "coverage_after": 0.7905409496383698,
+            "planned_terminal_cost": 5.855377674102783,
+            "brake_substeps": 0,
+            "executed_relative_action": [
+              -0.08162456750869751,
+              -0.1545494794845581
+            ]
+          },
+          {
+            "tick": 6,
+            "regime": 1,
+            "coverage_before": 0.7905409496383698,
+            "coverage_after": 0.7908711738675821,
+            "planned_terminal_cost": 9.399105072021484,
+            "brake_substeps": 6,
+            "executed_relative_action": [
+              0.14071959257125854,
+              0.016912316903471947
+            ]
+          },
+          {
+            "tick": 7,
+            "regime": 1,
+            "coverage_before": 0.7908711738675821,
+            "coverage_after": 0.9043983414719817,
+            "planned_terminal_cost": 8.195198059082031,
+            "brake_substeps": 50,
+            "executed_relative_action": [
+              0.03246331214904785,
+              0.029853980988264084
+            ]
+          }
+        ],
+        "inference": [
+          {
+            "actual_arrival": 1,
+            "observed_xy": [
+              199.87503051757812,
+              185.3570098876953
+            ],
+            "issued_xy": [
+              [
+                206.5314178466797,
+                183.24298095703125
+              ],
+              [
+                203.00523376464844,
+                183.80320739746094
+              ]
+            ],
+            "support": [
+              0.3856262266635895,
+              0.6143738031387329
+            ],
+            "log_likelihood": [
+              -0.6352401971817017,
+              -0.1695052832365036
+            ]
+          },
+          {
+            "actual_arrival": 2,
+            "observed_xy": [
+              202.9759521484375,
+              179.61917114257812
+            ],
+            "issued_xy": [
+              [
+                203.43997192382812,
+                181.14007568359375
+              ],
+              [
+                203.04701232910156,
+                181.7791748046875
+              ]
+            ],
+            "support": [
+              0.40795865654945374,
+              0.5920413136482239
+            ],
+            "log_likelihood": [
+              -0.049732040613889694,
+              -0.09503661841154099
+            ]
+          },
+          {
+            "actual_arrival": 3,
+            "observed_xy": [
+              213.02877807617188,
+              184.353515625
+            ],
+            "issued_xy": [
+              [
+                220.82594299316406,
+                181.5767822265625
+              ],
+              [
+                220.4802703857422,
+                181.86578369140625
+              ]
+            ],
+            "support": [
+              0.39409035444259644,
+              0.6059096455574036
+            ],
+            "log_likelihood": [
+              -0.9037569165229797,
+              -0.8080374598503113
+            ]
+          },
+          {
+            "actual_arrival": 4,
+            "observed_xy": [
+              213.50733947753906,
+              180.02713012695312
+            ],
+            "issued_xy": [
+              [
+                216.74081420898438,
+                180.0145721435547
+              ],
+              [
+                216.0611572265625,
+                180.3857421875
+              ]
+            ],
+            "support": [
+              0.39372068643569946,
+              0.6062794327735901
+            ],
+            "log_likelihood": [
+              -0.12843501567840576,
+              -0.08273281157016754
+            ]
+          },
+          {
+            "actual_arrival": 5,
+            "observed_xy": [
+              217.158447265625,
+              181.45278930664062
+            ],
+            "issued_xy": [
+              [
+                226.0897979736328,
+                181.79495239257812
+              ],
+              [
+                225.7970428466797,
+                183.28790283203125
+              ]
+            ],
+            "support": [
+              0.4050677418708801,
+              0.5949322581291199
+            ],
+            "log_likelihood": [
+              -0.9822521805763245,
+              -0.9852374196052551
+            ]
+          },
+          {
+            "actual_arrival": 6,
+            "observed_xy": [
+              216.533447265625,
+              181.23988342285156
+            ],
+            "issued_xy": [
+              [
+                225.54205322265625,
+                176.44253540039062
+              ],
+              [
+                225.7432861328125,
+                177.49411010742188
+              ]
+            ],
+            "support": [
+              0.3815480172634125,
+              0.6184520721435547
+            ],
+            "log_likelihood": [
+              -1.4653844833374023,
+              -1.3275433778762817
+            ]
+          },
+          {
+            "actual_arrival": 7,
+            "observed_xy": [
+              217.55291748046875,
+              179.7298583984375
+            ],
+            "issued_xy": [
+              [
+                227.53488159179688,
+                179.77096557617188
+              ],
+              [
+                225.8871307373047,
+                180.8336181640625
+              ]
+            ],
+            "support": [
+              0.31452733278274536,
+              0.6854727268218994
+            ],
+            "log_likelihood": [
+              -1.2239902019500732,
+              -0.8780235052108765
+            ]
+          }
+        ]
+      },
+      "55432": {
+        "success": false,
+        "best_coverage": 0.878546066401619,
+        "final_coverage": 0.878546066401619,
+        "score_calls": 21,
+        "median_score_seconds": 0.016364599985536188,
+        "mean_score_seconds": 0.020231566666292826,
+        "ticks": [
+          {
+            "tick": 1,
+            "regime": 1,
+            "coverage_before": 0.40975687234429997,
+            "coverage_after": 0.40975687234429997,
+            "planned_terminal_cost": 15.71656608581543,
+            "brake_substeps": 0,
+            "executed_relative_action": [
+              -0.045899178832769394,
+              0.08175607025623322
+            ]
+          },
+          {
+            "tick": 2,
+            "regime": 1,
+            "coverage_before": 0.40975687234429997,
+            "coverage_after": 0.5069981060711342,
+            "planned_terminal_cost": 13.269438743591309,
+            "brake_substeps": 22,
+            "executed_relative_action": [
+              0.12940499186515808,
+              -0.09400811791419983
+            ]
+          },
+          {
+            "tick": 3,
+            "regime": 1,
+            "coverage_before": 0.5069981060711342,
+            "coverage_after": 0.5740150200716969,
+            "planned_terminal_cost": 16.185359954833984,
+            "brake_substeps": 6,
+            "executed_relative_action": [
+              -0.040240880101919174,
+              0.041706383228302
+            ]
+          },
+          {
+            "tick": 4,
+            "regime": 0,
+            "coverage_before": 0.5740150200716969,
+            "coverage_after": 0.5925498009454593,
+            "planned_terminal_cost": 9.992269515991211,
+            "brake_substeps": 0,
+            "executed_relative_action": [
+              -0.11389491707086563,
+              -0.11719544231891632
+            ]
+          },
+          {
+            "tick": 5,
+            "regime": 0,
+            "coverage_before": 0.5925498009454593,
+            "coverage_after": 0.5956613730313141,
+            "planned_terminal_cost": 14.52530574798584,
+            "brake_substeps": 0,
+            "executed_relative_action": [
+              0.13672031462192535,
+              0.023599915206432343
+            ]
+          },
+          {
+            "tick": 6,
+            "regime": 1,
+            "coverage_before": 0.5956613730313141,
+            "coverage_after": 0.8068305278740588,
+            "planned_terminal_cost": 15.190908432006836,
+            "brake_substeps": 43,
+            "executed_relative_action": [
+              0.09014804661273956,
+              0.06856613606214523
+            ]
+          },
+          {
+            "tick": 7,
+            "regime": 1,
+            "coverage_before": 0.8068305278740588,
+            "coverage_after": 0.878546066401619,
+            "planned_terminal_cost": 13.649145126342773,
+            "brake_substeps": 6,
+            "executed_relative_action": [
+              -0.02457045204937458,
+              -0.002827376127243042
+            ]
+          }
+        ],
+        "inference": [
+          {
+            "actual_arrival": 1,
+            "observed_xy": [
+              188.199951171875,
+              227.82383728027344
+            ],
+            "issued_xy": [
+              [
+                193.80340576171875,
+                230.31808471679688
+              ],
+              [
+                195.11891174316406,
+                229.53990173339844
+              ]
+            ],
+            "support": [
+              0.5338630676269531,
+              0.4661368727684021
+            ],
+            "log_likelihood": [
+              -0.5123381614685059,
+              -0.6479983925819397
+            ]
+          },
+          {
+            "actual_arrival": 2,
+            "observed_xy": [
+              191.82200622558594,
+              232.4019012451172
+            ],
+            "issued_xy": [
+              [
+                193.5013427734375,
+                237.3963165283203
+              ],
+              [
+                193.20343017578125,
+                235.95855712890625
+              ]
+            ],
+            "support": [
+              0.46520373225212097,
+              0.5347962379455566
+            ],
+            "log_likelihood": [
+              -0.5424134731292725,
+              -0.2809445559978485
+            ]
+          },
+          {
+            "actual_arrival": 3,
+            "observed_xy": [
+              194.8459014892578,
+              234.04103088378906
+            ],
+            "issued_xy": [
+              [
+                194.87994384765625,
+                234.13717651367188
+              ],
+              [
+                196.42538452148438,
+                234.39883422851562
+              ]
+            ],
+            "support": [
+              0.4769209623336792,
+              0.5230790376663208
+            ],
+            "log_likelihood": [
+              -0.00020240862795617431,
+              -0.033251360058784485
+            ]
+          },
+          {
+            "actual_arrival": 4,
+            "observed_xy": [
+              198.18397521972656,
+              234.00669860839844
+            ],
+            "issued_xy": [
+              [
+                205.53720092773438,
+                236.9968719482422
+              ],
+              [
+                204.39715576171875,
+                237.7453155517578
+              ]
+            ],
+            "support": [
+              0.4574528932571411,
+              0.5425471663475037
+            ],
+            "log_likelihood": [
+              -0.8461939096450806,
+              -0.7587250471115112
+            ]
+          },
+          {
+            "actual_arrival": 5,
+            "observed_xy": [
+              196.9943084716797,
+              230.0226287841797
+            ],
+            "issued_xy": [
+              [
+                200.27822875976562,
+                231.14122009277344
+              ],
+              [
+                201.04348754882812,
+                232.58157348632812
+              ]
+            ],
+            "support": [
+              0.5058220624923706,
+              0.4941778779029846
+            ],
+            "log_likelihood": [
+              -0.15794113278388977,
+              -0.3347007930278778
+            ]
+          },
+          {
+            "actual_arrival": 6,
+            "observed_xy": [
+              203.79074096679688,
+              232.29759216308594
+            ],
+            "issued_xy": [
+              [
+                212.79617309570312,
+                236.19488525390625
+              ],
+              [
+                208.26828002929688,
+                234.587646484375
+              ]
+            ],
+            "support": [
+              0.2826418876647949,
+              0.7173581719398499
+            ],
+            "log_likelihood": [
+              -1.305380940437317,
+              -0.35302597284317017
+            ]
+          },
+          {
+            "actual_arrival": 7,
+            "observed_xy": [
+              207.0845184326172,
+              233.76687622070312
+            ],
+            "issued_xy": [
+              [
+                208.64276123046875,
+                234.8384246826172
+              ],
+              [
+                209.91085815429688,
+                235.69784545898438
+              ]
+            ],
+            "support": [
+              0.33054736256599426,
+              0.6694526672363281
+            ],
+            "log_likelihood": [
+              -0.05320002883672714,
+              -0.17402690649032593
+            ]
+          }
+        ]
+      },
+      "55433": {
+        "success": false,
+        "best_coverage": 0.8389609684235044,
+        "final_coverage": 0.8389609684235044,
+        "score_calls": 21,
+        "median_score_seconds": 0.015265199996065348,
+        "mean_score_seconds": 0.01906071429229563,
+        "ticks": [
+          {
+            "tick": 1,
+            "regime": 1,
+            "coverage_before": 0.4158764661907984,
+            "coverage_after": 0.49795497921543425,
+            "planned_terminal_cost": 13.414013862609863,
+            "brake_substeps": 33,
+            "executed_relative_action": [
+              0.0625562071800232,
+              -0.026208247989416122
+            ]
+          },
+          {
+            "tick": 2,
+            "regime": 1,
+            "coverage_before": 0.49795497921543425,
+            "coverage_after": 0.6684469941312488,
+            "planned_terminal_cost": 13.386312484741211,
+            "brake_substeps": 50,
+            "executed_relative_action": [
+              0.03489437699317932,
+              0.10389409214258194
+            ]
+          },
+          {
+            "tick": 3,
+            "regime": 1,
+            "coverage_before": 0.6684469941312488,
+            "coverage_after": 0.7126533458678728,
+            "planned_terminal_cost": 10.078399658203125,
+            "brake_substeps": 9,
+            "executed_relative_action": [
+              -0.0006745959399268031,
+              -0.020289817824959755
+            ]
+          },
+          {
+            "tick": 4,
+            "regime": 0,
+            "coverage_before": 0.7126533458678728,
+            "coverage_after": 0.7126816342104062,
+            "planned_terminal_cost": 12.217358589172363,
+            "brake_substeps": 0,
+            "executed_relative_action": [
+              -0.0641997829079628,
+              -0.023564161732792854
+            ]
+          },
+          {
+            "tick": 5,
+            "regime": 0,
+            "coverage_before": 0.7126816342104062,
+            "coverage_after": 0.7938434273709318,
+            "planned_terminal_cost": 11.722455978393555,
+            "brake_substeps": 0,
+            "executed_relative_action": [
+              0.1104489117860794,
+              -0.12757019698619843
+            ]
+          },
+          {
+            "tick": 6,
+            "regime": 1,
+            "coverage_before": 0.7938434273709318,
+            "coverage_after": 0.7858298050774859,
+            "planned_terminal_cost": 10.987398147583008,
+            "brake_substeps": 30,
+            "executed_relative_action": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "tick": 7,
+            "regime": 1,
+            "coverage_before": 0.7858298050774859,
+            "coverage_after": 0.8389609684235044,
+            "planned_terminal_cost": 9.26252555847168,
+            "brake_substeps": 50,
+            "executed_relative_action": [
+              0.011466721072793007,
+              0.04453995078802109
+            ]
+          }
+        ],
+        "inference": [
+          {
+            "actual_arrival": 1,
+            "observed_xy": [
+              226.56988525390625,
+              242.44747924804688
+            ],
+            "issued_xy": [
+              [
+                230.2772674560547,
+                241.77442932128906
+              ],
+              [
+                228.06922912597656,
+                242.551025390625
+              ]
+            ],
+            "support": [
+              0.4625140130519867,
+              0.5374860763549805
+            ],
+            "log_likelihood": [
+              -0.17805862426757812,
+              -0.027832692489027977
+            ]
+          },
+          {
+            "actual_arrival": 2,
+            "observed_xy": [
+              235.19448852539062,
+              244.491943359375
+            ],
+            "issued_xy": [
+              [
+                236.11767578125,
+                245.2787628173828
+              ],
+              [
+                235.1780242919922,
+                244.11679077148438
+              ]
+            ],
+            "support": [
+              0.4612383544445038,
+              0.5387616157531738
+            ],
+            "log_likelihood": [
+              -0.02307146042585373,
+              -0.0028682623524218798
+            ]
+          },
+          {
+            "actual_arrival": 3,
+            "observed_xy": [
+              238.0507354736328,
+              244.00778198242188
+            ],
+            "issued_xy": [
+              [
+                237.10702514648438,
+                244.25244140625
+              ],
+              [
+                237.6689453125,
+                245.50283813476562
+              ]
+            ],
+            "support": [
+              0.47386470437049866,
+              0.526135265827179
+            ],
+            "log_likelihood": [
+              -0.012158334255218506,
+              -0.04729075729846954
+            ]
+          },
+          {
+            "actual_arrival": 4,
+            "observed_xy": [
+              238.25347900390625,
+              242.33514404296875
+            ],
+            "issued_xy": [
+              [
+                241.0648651123047,
+                242.24749755859375
+              ],
+              [
+                241.13626098632812,
+                243.5736541748047
+              ]
+            ],
+            "support": [
+              0.48548048734664917,
+              0.5145195126533508
+            ],
+            "log_likelihood": [
+              -0.09724641591310501,
+              -0.13330857455730438
+            ]
+          },
+          {
+            "actual_arrival": 5,
+            "observed_xy": [
+              248.49539184570312,
+              235.18017578125
+            ],
+            "issued_xy": [
+              [
+                249.8155059814453,
+                235.04888916015625
+              ],
+              [
+                249.51942443847656,
+                236.9319610595703
+              ]
+            ],
+            "support": [
+              0.5003274083137512,
+              0.4996725916862488
+            ],
+            "log_likelihood": [
+              -0.021757906302809715,
+              -0.07534972578287125
+            ]
+          },
+          {
+            "actual_arrival": 6,
+            "observed_xy": [
+              249.61460876464844,
+              234.70639038085938
+            ],
+            "issued_xy": [
+              [
+                251.3949737548828,
+                233.93505859375
+              ],
+              [
+                251.5445556640625,
+                235.7151336669922
+              ]
+            ],
+            "support": [
+              0.5041496157646179,
+              0.4958503544330597
+            ],
+            "log_likelihood": [
+              -0.05104706436395645,
+              -0.06646730750799179
+            ]
+          },
+          {
+            "actual_arrival": 7,
+            "observed_xy": [
+              252.68833923339844,
+              235.027587890625
+            ],
+            "issued_xy": [
+              [
+                253.12466430664062,
+                236.6258544921875
+              ],
+              [
+                253.86062622070312,
+                237.02293395996094
+              ]
+            ],
+            "support": [
+              0.5146280527114868,
+              0.4853719174861908
+            ],
+            "log_likelihood": [
+              -0.054337818175554276,
+              -0.0979277640581131
+            ]
+          }
+        ]
+      }
+    },
+    "oracle": {
+      "55430": {
+        "success": false,
+        "best_coverage": 0.8094847801788859,
+        "final_coverage": 0.8094847801788859,
+        "score_calls": 21,
+        "median_score_seconds": 0.014770000008866191,
+        "mean_score_seconds": 0.01888864761817136,
+        "ticks": [
+          {
+            "tick": 1,
+            "regime": 1,
+            "coverage_before": 0.4171141530913076,
+            "coverage_after": 0.5118392467514714,
+            "planned_terminal_cost": 15.834049224853516,
+            "brake_substeps": 24,
+            "executed_relative_action": [
+              0.09815134853124619,
+              -0.043607115745544434
+            ]
+          },
+          {
+            "tick": 2,
+            "regime": 1,
+            "coverage_before": 0.5118392467514714,
+            "coverage_after": 0.6740922387053837,
+            "planned_terminal_cost": 28.090347290039062,
+            "brake_substeps": 50,
+            "executed_relative_action": [
+              0.029468173161149025,
+              0.018795715644955635
+            ]
+          },
+          {
+            "tick": 3,
+            "regime": 1,
+            "coverage_before": 0.6740922387053837,
+            "coverage_after": 0.7023906447637471,
+            "planned_terminal_cost": 6.746471405029297,
+            "brake_substeps": 7,
+            "executed_relative_action": [
+              -0.01905330829322338,
+              0.06535106152296066
+            ]
+          },
+          {
+            "tick": 4,
+            "regime": 0,
+            "coverage_before": 0.7023906447637471,
+            "coverage_after": 0.7418890802764851,
+            "planned_terminal_cost": 7.82167387008667,
+            "brake_substeps": 0,
+            "executed_relative_action": [
+              0.0070276083424687386,
+              0.041899606585502625
+            ]
+          },
+          {
+            "tick": 5,
+            "regime": 0,
+            "coverage_before": 0.7418890802764851,
+            "coverage_after": 0.7973408324731815,
+            "planned_terminal_cost": 13.205233573913574,
+            "brake_substeps": 0,
+            "executed_relative_action": [
+              0.02045602910220623,
+              -0.02796950936317444
+            ]
+          },
+          {
+            "tick": 6,
+            "regime": 1,
+            "coverage_before": 0.7973408324731815,
+            "coverage_after": 0.8054160190533951,
+            "planned_terminal_cost": 9.496002197265625,
+            "brake_substeps": 5,
+            "executed_relative_action": [
+              -0.06359879672527313,
+              -0.0997341051697731
+            ]
+          },
+          {
+            "tick": 7,
+            "regime": 1,
+            "coverage_before": 0.8054160190533951,
+            "coverage_after": 0.8094847801788859,
+            "planned_terminal_cost": 10.091758728027344,
+            "brake_substeps": 6,
+            "executed_relative_action": [
+              0.06751974672079086,
+              0.027260657399892807
+            ]
+          }
+        ],
+        "inference": []
+      },
+      "55431": {
+        "success": false,
+        "best_coverage": 0.8307909834133299,
+        "final_coverage": 0.8307909834133299,
+        "score_calls": 21,
+        "median_score_seconds": 0.017273500037845224,
+        "mean_score_seconds": 0.019196776201992873,
+        "ticks": [
+          {
+            "tick": 1,
+            "regime": 1,
+            "coverage_before": 0.3981511803806481,
+            "coverage_after": 0.5051217025229234,
+            "planned_terminal_cost": 13.673810005187988,
+            "brake_substeps": 23,
+            "executed_relative_action": [
+              0.13291975855827332,
+              0.041837163269519806
+            ]
+          },
+          {
+            "tick": 2,
+            "regime": 1,
+            "coverage_before": 0.5051217025229234,
+            "coverage_after": 0.5876705897045317,
+            "planned_terminal_cost": 13.331259727478027,
+            "brake_substeps": 6,
+            "executed_relative_action": [
+              -0.04078169912099838,
+              0.04477369412779808
+            ]
+          },
+          {
+            "tick": 3,
+            "regime": 1,
+            "coverage_before": 0.5876705897045317,
+            "coverage_after": 0.7280580534610605,
+            "planned_terminal_cost": 9.021871566772461,
+            "brake_substeps": 34,
+            "executed_relative_action": [
+              0.09206485748291016,
+              -0.06888996809720993
+            ]
+          },
+          {
+            "tick": 4,
+            "regime": 0,
+            "coverage_before": 0.7280580534610605,
+            "coverage_after": 0.8305243289278752,
+            "planned_terminal_cost": 9.104390144348145,
+            "brake_substeps": 0,
+            "executed_relative_action": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "tick": 5,
+            "regime": 0,
+            "coverage_before": 0.8305243289278752,
+            "coverage_after": 0.8307909834133299,
+            "planned_terminal_cost": 5.112386703491211,
+            "brake_substeps": 0,
+            "executed_relative_action": [
+              -0.08407086879014969,
+              -0.0031634478364139795
+            ]
+          },
+          {
+            "tick": 6,
+            "regime": 1,
+            "coverage_before": 0.8307909834133299,
+            "coverage_after": 0.8307909834133299,
+            "planned_terminal_cost": 8.587115287780762,
+            "brake_substeps": 0,
+            "executed_relative_action": [
+              0.07360184192657471,
+              0.025846416130661964
+            ]
+          },
+          {
+            "tick": 7,
+            "regime": 1,
+            "coverage_before": 0.8307909834133299,
+            "coverage_after": 0.8307909834133299,
+            "planned_terminal_cost": 7.3815412521362305,
+            "brake_substeps": 0,
+            "executed_relative_action": [
+              0.004067109432071447,
+              -0.006580284796655178
+            ]
+          }
+        ],
+        "inference": []
+      },
+      "55432": {
+        "success": false,
+        "best_coverage": 0.6949019206289362,
+        "final_coverage": 0.6949019206289362,
+        "score_calls": 21,
+        "median_score_seconds": 0.017803299997467548,
+        "mean_score_seconds": 0.022042661913604076,
+        "ticks": [
+          {
+            "tick": 1,
+            "regime": 1,
+            "coverage_before": 0.40975687234429997,
+            "coverage_after": 0.40975687234429997,
+            "planned_terminal_cost": 21.093788146972656,
+            "brake_substeps": 0,
+            "executed_relative_action": [
+              -0.045899178832769394,
+              0.08175607770681381
+            ]
+          },
+          {
+            "tick": 2,
+            "regime": 1,
+            "coverage_before": 0.40975687234429997,
+            "coverage_after": 0.5069981107071461,
+            "planned_terminal_cost": 16.638044357299805,
+            "brake_substeps": 22,
+            "executed_relative_action": [
+              0.12940499186515808,
+              -0.09400811791419983
+            ]
+          },
+          {
+            "tick": 3,
+            "regime": 1,
+            "coverage_before": 0.5069981107071461,
+            "coverage_after": 0.68639779915918,
+            "planned_terminal_cost": 19.302932739257812,
+            "brake_substeps": 50,
+            "executed_relative_action": [
+              0.022515371441841125,
+              0.10608205944299698
+            ]
+          },
+          {
+            "tick": 4,
+            "regime": 0,
+            "coverage_before": 0.68639779915918,
+            "coverage_after": 0.6949019206289362,
+            "planned_terminal_cost": 12.320695877075195,
+            "brake_substeps": 0,
+            "executed_relative_action": [
+              -0.06100611761212349,
+              0.02504943683743477
+            ]
+          },
+          {
+            "tick": 5,
+            "regime": 0,
+            "coverage_before": 0.6949019206289362,
+            "coverage_after": 0.6949019206289362,
+            "planned_terminal_cost": 11.869149208068848,
+            "brake_substeps": 0,
+            "executed_relative_action": [
+              -0.045161038637161255,
+              -0.026242254301905632
+            ]
+          },
+          {
+            "tick": 6,
+            "regime": 1,
+            "coverage_before": 0.6949019206289362,
+            "coverage_after": 0.6949019206289362,
+            "planned_terminal_cost": 16.492279052734375,
+            "brake_substeps": 0,
+            "executed_relative_action": [
+              0.03916425257921219,
+              -0.09082411229610443
+            ]
+          },
+          {
+            "tick": 7,
+            "regime": 1,
+            "coverage_before": 0.6949019206289362,
+            "coverage_after": 0.6949019206289362,
+            "planned_terminal_cost": 9.759620666503906,
+            "brake_substeps": 0,
+            "executed_relative_action": [
+              0.011951545253396034,
+              0.11149195581674576
+            ]
+          }
+        ],
+        "inference": []
+      },
+      "55433": {
+        "success": false,
+        "best_coverage": 0.9450150501976157,
+        "final_coverage": 0.9405554246386071,
+        "score_calls": 21,
+        "median_score_seconds": 0.01470780000090599,
+        "mean_score_seconds": 0.018100023807381235,
+        "ticks": [
+          {
+            "tick": 1,
+            "regime": 1,
+            "coverage_before": 0.4158764661907982,
+            "coverage_after": 0.6358116303850092,
+            "planned_terminal_cost": 13.21189022064209,
+            "brake_substeps": 39,
+            "executed_relative_action": [
+              0.12125498056411743,
+              -0.08696278184652328
+            ]
+          },
+          {
+            "tick": 2,
+            "regime": 1,
+            "coverage_before": 0.6358116303850092,
+            "coverage_after": 0.9450150501976157,
+            "planned_terminal_cost": 7.658384323120117,
+            "brake_substeps": 50,
+            "executed_relative_action": [
+              0.04535133019089699,
+              0.11594273895025253
+            ]
+          },
+          {
+            "tick": 3,
+            "regime": 1,
+            "coverage_before": 0.9450150501976157,
+            "coverage_after": 0.9405554246386071,
+            "planned_terminal_cost": 6.028289794921875,
+            "brake_substeps": 8,
+            "executed_relative_action": [
+              2.663956729520578e-05,
+              -0.04245981574058533
+            ]
+          },
+          {
+            "tick": 4,
+            "regime": 0,
+            "coverage_before": 0.9405554246386071,
+            "coverage_after": 0.9405554246386071,
+            "planned_terminal_cost": 7.881228923797607,
+            "brake_substeps": 0,
+            "executed_relative_action": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "tick": 5,
+            "regime": 0,
+            "coverage_before": 0.9405554246386071,
+            "coverage_after": 0.9405554246386071,
+            "planned_terminal_cost": 7.710097312927246,
+            "brake_substeps": 0,
+            "executed_relative_action": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "tick": 6,
+            "regime": 1,
+            "coverage_before": 0.9405554246386071,
+            "coverage_after": 0.9405554246386071,
+            "planned_terminal_cost": 10.39034366607666,
+            "brake_substeps": 0,
+            "executed_relative_action": [
+              -0.02457045204937458,
+              -0.0028273798525333405
+            ]
+          },
+          {
+            "tick": 7,
+            "regime": 1,
+            "coverage_before": 0.9405554246386071,
+            "coverage_after": 0.9405554246386071,
+            "planned_terminal_cost": 11.67116928100586,
+            "brake_substeps": 0,
+            "executed_relative_action": [
+              -0.06312745064496994,
+              -0.03492601215839386
+            ]
+          }
+        ],
+        "inference": []
+      }
+    },
+    "online_native_bias": {
+      "55430": {
+        "success": false,
+        "best_coverage": 0.8269282370415253,
+        "final_coverage": 0.8269282370415253,
+        "score_calls": 21,
+        "median_score_seconds": 0.015274300007149577,
+        "mean_score_seconds": 0.023250461908035158,
+        "ticks": [
+          {
+            "tick": 1,
+            "regime": 1,
+            "coverage_before": 0.4171141530913076,
+            "coverage_after": 0.5689316416363588,
+            "planned_terminal_cost": 14.636180877685547,
+            "brake_substeps": 30,
+            "executed_relative_action": [
+              0.13112452626228333,
+              -0.007493759971112013
+            ]
+          },
+          {
+            "tick": 2,
+            "regime": 1,
+            "coverage_before": 0.5689316416363588,
+            "coverage_after": 0.7533792081361114,
+            "planned_terminal_cost": 8.960469245910645,
+            "brake_substeps": 50,
+            "executed_relative_action": [
+              0.02102159895002842,
+              0.04244229570031166
+            ]
+          },
+          {
+            "tick": 3,
+            "regime": 1,
+            "coverage_before": 0.7533792081361114,
+            "coverage_after": 0.7876910142029596,
+            "planned_terminal_cost": 9.714056015014648,
+            "brake_substeps": 30,
+            "executed_relative_action": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "tick": 4,
+            "regime": 0,
+            "coverage_before": 0.7876910142029596,
+            "coverage_after": 0.7891737925777967,
+            "planned_terminal_cost": 11.531303405761719,
+            "brake_substeps": 0,
+            "executed_relative_action": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "tick": 5,
+            "regime": 0,
+            "coverage_before": 0.7891737925777967,
+            "coverage_after": 0.7892366530389627,
+            "planned_terminal_cost": 11.236262321472168,
+            "brake_substeps": 0,
+            "executed_relative_action": [
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "tick": 6,
+            "regime": 1,
+            "coverage_before": 0.7892366530389627,
+            "coverage_after": 0.8246123785286372,
+            "planned_terminal_cost": 8.503082275390625,
+            "brake_substeps": 21,
+            "executed_relative_action": [
+              -0.04542751610279083,
+              -0.0634322389960289
+            ]
+          },
+          {
+            "tick": 7,
+            "regime": 1,
+            "coverage_before": 0.8246123785286372,
+            "coverage_after": 0.8269282370415253,
+            "planned_terminal_cost": 8.753192901611328,
+            "brake_substeps": 2,
+            "executed_relative_action": [
+              0.02823661081492901,
+              0.04405318573117256
+            ]
+          }
+        ],
+        "inference": [
+          {
+            "actual_arrival": 1,
+            "squared_latent_residual": 0.07899004220962524
+          },
+          {
+            "actual_arrival": 2,
+            "squared_latent_residual": 0.01339922659099102
+          },
+          {
+            "actual_arrival": 3,
+            "squared_latent_residual": 0.012833427637815475
+          },
+          {
+            "actual_arrival": 4,
+            "squared_latent_residual": 0.011748392134904861
+          },
+          {
+            "actual_arrival": 5,
+            "squared_latent_residual": 0.010949177667498589
+          },
+          {
+            "actual_arrival": 6,
+            "squared_latent_residual": 0.012303469702601433
+          },
+          {
+            "actual_arrival": 7,
+            "squared_latent_residual": 0.009314007125794888
+          }
+        ]
+      },
+      "55431": {
+        "success": false,
+        "best_coverage": 0.6531314136982656,
+        "final_coverage": 0.6477857325700658,
+        "score_calls": 21,
+        "median_score_seconds": 0.016179799975361675,
+        "mean_score_seconds": 0.02328350476177764,
+        "ticks": [
+          {
+            "tick": 1,
+            "regime": 1,
+            "coverage_before": 0.3981511803806481,
+            "coverage_after": 0.5908167907176426,
+            "planned_terminal_cost": 14.932794570922852,
+            "brake_substeps": 29,
+            "executed_relative_action": [
+              0.17388656735420227,
+              0.11732561886310577
+            ]
+          },
+          {
+            "tick": 2,
+            "regime": 1,
+            "coverage_before": 0.5908167907176426,
+            "coverage_after": 0.6489812297548441,
+            "planned_terminal_cost": 20.332271575927734,
+            "brake_substeps": 3,
+            "executed_relative_action": [
+              -0.12487087398767471,
+              0.05676548182964325
+            ]
+          },
+          {
+            "tick": 3,
+            "regime": 1,
+            "coverage_before": 0.6489812297548441,
+            "coverage_after": 0.6489812297548441,
+            "planned_terminal_cost": 15.982552528381348,
+            "brake_substeps": 0,
+            "executed_relative_action": [
+              0.0648031085729599,
+              -0.1458389163017273
+            ]
+          },
+          {
+            "tick": 4,
+            "regime": 0,
+            "coverage_before": 0.6489812297548441,
+            "coverage_after": 0.6489812297548441,
+            "planned_terminal_cost": 18.40082550048828,
+            "brake_substeps": 0,
+            "executed_relative_action": [
+              -0.06689711660146713,
+              0.07768480479717255
+            ]
+          },
+          {
+            "tick": 5,
+            "regime": 0,
+            "coverage_before": 0.6489812297548441,
+            "coverage_after": 0.6531314136982656,
+            "planned_terminal_cost": 12.82446575164795,
+            "brake_substeps": 0,
+            "executed_relative_action": [
+              -0.12177998572587967,
+              -0.15501537919044495
+            ]
+          },
+          {
+            "tick": 6,
+            "regime": 1,
+            "coverage_before": 0.6531314136982656,
+            "coverage_after": 0.6477857325700658,
+            "planned_terminal_cost": 10.327545166015625,
+            "brake_substeps": 15,
+            "executed_relative_action": [
+              0.1278732866048813,
+              0.07160186022520065
+            ]
+          },
+          {
+            "tick": 7,
+            "regime": 1,
+            "coverage_before": 0.6477857325700658,
+            "coverage_after": 0.6477857325700658,
+            "planned_terminal_cost": 13.6864013671875,
+            "brake_substeps": 0,
+            "executed_relative_action": [
+              0.08448900282382965,
+              0.08220946043729782
+            ]
+          }
+        ],
+        "inference": [
+          {
+            "actual_arrival": 1,
+            "squared_latent_residual": 0.05900521203875542
+          },
+          {
+            "actual_arrival": 2,
+            "squared_latent_residual": 0.012839896604418755
+          },
+          {
+            "actual_arrival": 3,
+            "squared_latent_residual": 0.0180882029235363
+          },
+          {
+            "actual_arrival": 4,
+            "squared_latent_residual": 0.013053486123681068
+          },
+          {
+            "actual_arrival": 5,
+            "squared_latent_residual": 0.01296430267393589
+          },
+          {
+            "actual_arrival": 6,
+            "squared_latent_residual": 0.009494340978562832
+          },
+          {
+            "actual_arrival": 7,
+            "squared_latent_residual": 0.018856290727853775
+          }
+        ]
+      },
+      "55432": {
+        "success": false,
+        "best_coverage": 0.8032625681302218,
+        "final_coverage": 0.8032625681302218,
+        "score_calls": 21,
+        "median_score_seconds": 0.013165100011974573,
+        "mean_score_seconds": 0.020054866667903428,
+        "ticks": [
+          {
+            "tick": 1,
+            "regime": 1,
+            "coverage_before": 0.40975687234429986,
+            "coverage_after": 0.40975687234429986,
+            "planned_terminal_cost": 10.297773361206055,
+            "brake_substeps": 0,
+            "executed_relative_action": [
+              -0.13284353911876678,
+              -0.05953090265393257
+            ]
+          },
+          {
+            "tick": 2,
+            "regime": 1,
+            "coverage_before": 0.40975687234429986,
+            "coverage_after": 0.4311816996166976,
+            "planned_terminal_cost": 8.364028930664062,
+            "brake_substeps": 30,
+            "executed_relative_action": [
+              0.18154621124267578,
+              -0.036626432090997696
+            ]
+          },
+          {
+            "tick": 3,
+            "regime": 1,
+            "coverage_before": 0.4311816996166976,
+            "coverage_after": 0.557397161507368,
+            "planned_terminal_cost": 11.917362213134766,
+            "brake_substeps": 50,
+            "executed_relative_action": [
+              0.0043828352354466915,
+              0.16899558901786804
+            ]
+          },
+          {
+            "tick": 4,
+            "regime": 0,
+            "coverage_before": 0.557397161507368,
+            "coverage_after": 0.6499002776135772,
+            "planned_terminal_cost": 10.345680236816406,
+            "brake_substeps": 0,
+            "executed_relative_action": [
+              0.06023581326007843,
+              -0.1839027851819992
+            ]
+          },
+          {
+            "tick": 5,
+            "regime": 0,
+            "coverage_before": 0.6499002776135772,
+            "coverage_after": 0.6758820825221337,
+            "planned_terminal_cost": 4.916678428649902,
+            "brake_substeps": 0,
+            "executed_relative_action": [
+              -0.0029154547955840826,
+              0.07503427565097809
+            ]
+          },
+          {
+            "tick": 6,
+            "regime": 1,
+            "coverage_before": 0.6758820825221337,
+            "coverage_after": 0.7880754857032017,
+            "planned_terminal_cost": 11.519779205322266,
+            "brake_substeps": 50,
+            "executed_relative_action": [
+              0.030135972425341606,
+              0.07075344771146774
+            ]
+          },
+          {
+            "tick": 7,
+            "regime": 1,
+            "coverage_before": 0.7880754857032017,
+            "coverage_after": 0.8032625681302218,
+            "planned_terminal_cost": 4.49943208694458,
+            "brake_substeps": 3,
+            "executed_relative_action": [
+              -0.03407236188650131,
+              -0.009638889692723751
+            ]
+          }
+        ],
+        "inference": [
+          {
+            "actual_arrival": 1,
+            "squared_latent_residual": 0.02146705612540245
+          },
+          {
+            "actual_arrival": 2,
+            "squared_latent_residual": 0.034161828458309174
+          },
+          {
+            "actual_arrival": 3,
+            "squared_latent_residual": 0.019787607714533806
+          },
+          {
+            "actual_arrival": 4,
+            "squared_latent_residual": 0.031688835471868515
+          },
+          {
+            "actual_arrival": 5,
+            "squared_latent_residual": 0.01612342707812786
+          },
+          {
+            "actual_arrival": 6,
+            "squared_latent_residual": 0.018884776160120964
+          },
+          {
+            "actual_arrival": 7,
+            "squared_latent_residual": 0.008103043772280216
+          }
+        ]
+      },
+      "55433": {
+        "success": false,
+        "best_coverage": 0.7506607976799347,
+        "final_coverage": 0.7506607976799347,
+        "score_calls": 21,
+        "median_score_seconds": 0.014105400012340397,
+        "mean_score_seconds": 0.02137015237461864,
+        "ticks": [
+          {
+            "tick": 1,
+            "regime": 1,
+            "coverage_before": 0.4158764661907982,
+            "coverage_after": 0.5130647127999021,
+            "planned_terminal_cost": 15.428193092346191,
+            "brake_substeps": 34,
+            "executed_relative_action": [
+              0.057360079139471054,
+              0.05199526622891426
+            ]
+          },
+          {
+            "tick": 2,
+            "regime": 1,
+            "coverage_before": 0.5130647127999021,
+            "coverage_after": 0.5993575122730851,
+            "planned_terminal_cost": 12.64769458770752,
+            "brake_substeps": 50,
+            "executed_relative_action": [
+              0.011532001197338104,
+              -0.046608831733465195
+            ]
+          },
+          {
+            "tick": 3,
+            "regime": 1,
+            "coverage_before": 0.5993575122730851,
+            "coverage_after": 0.6889131059489138,
+            "planned_terminal_cost": 10.486431121826172,
+            "brake_substeps": 50,
+            "executed_relative_action": [
+              0.033314138650894165,
+              -0.08217848837375641
+            ]
+          },
+          {
+            "tick": 4,
+            "regime": 0,
+            "coverage_before": 0.6889131059489138,
+            "coverage_after": 0.6955735221267553,
+            "planned_terminal_cost": 7.597095012664795,
+            "brake_substeps": 0,
+            "executed_relative_action": [
+              -0.028307301923632622,
+              0.018368860706686974
+            ]
+          },
+          {
+            "tick": 5,
+            "regime": 0,
+            "coverage_before": 0.6955735221267553,
+            "coverage_after": 0.7490281809661844,
+            "planned_terminal_cost": 13.872140884399414,
+            "brake_substeps": 0,
+            "executed_relative_action": [
+              0.030785514041781425,
+              0.05963418260216713
+            ]
+          },
+          {
+            "tick": 6,
+            "regime": 1,
+            "coverage_before": 0.7490281809661844,
+            "coverage_after": 0.7506607976799347,
+            "planned_terminal_cost": 6.914490699768066,
+            "brake_substeps": 5,
+            "executed_relative_action": [
+              -0.020571162924170494,
+              0.07388076931238174
+            ]
+          },
+          {
+            "tick": 7,
+            "regime": 1,
+            "coverage_before": 0.7506607976799347,
+            "coverage_after": 0.7506607976799347,
+            "planned_terminal_cost": 9.749521255493164,
+            "brake_substeps": 0,
+            "executed_relative_action": [
+              -0.07146065682172775,
+              -0.02103530429303646
+            ]
+          }
+        ],
+        "inference": [
+          {
+            "actual_arrival": 1,
+            "squared_latent_residual": 0.022712377831339836
+          },
+          {
+            "actual_arrival": 2,
+            "squared_latent_residual": 0.012103021144866943
+          },
+          {
+            "actual_arrival": 3,
+            "squared_latent_residual": 0.013430616818368435
+          },
+          {
+            "actual_arrival": 4,
+            "squared_latent_residual": 0.010007848963141441
+          },
+          {
+            "actual_arrival": 5,
+            "squared_latent_residual": 0.02077922783792019
+          },
+          {
+            "actual_arrival": 6,
+            "squared_latent_residual": 0.013672232627868652
+          },
+          {
+            "actual_arrival": 7,
+            "squared_latent_residual": 0.01338132657110691
+          }
+        ]
+      }
+    }
+  }
+}

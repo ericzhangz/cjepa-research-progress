@@ -1,10 +1,12 @@
 # CJepa 研究进展与代码交接
 
-**2026-11-13 最新交接** · PushT LeWM 单单元预测调节、离线监督、H2 展开及退离与返回回放。 [源码、实验设计与关键数据](progress-2026-11-13/) · [外审报告](progress-2026-11-13/research/CJEPA_PROGRESS_REVIEW_20261113.md)
+**2026-11-17 最新交接** · [本版索引](progress-2026-11-17/) · [PushT 全视野结果](progress-2026-11-17/runs/fullview_pusht_base_20261115/REPORT.md) · [FourRoom H5 归因](progress-2026-11-17/runs/native_topology_objective_trace_20261116/REPORT.md)
 
-资料截止 2026-11-08 的阶段梳理。先读本页，再从最新结果追到代码。研究目标是在预训练动作条件 JEPA 的原生计算上形成可随经历维持和修订、支持多个未来跨度的预测内容。当前证据最明确的是同观测配对中的历史信息及其单步读取。持续多时域运算仍待构造，实验处于暂停状态。
+**2026-11-13 历史交接** · PushT LeWM 单单元预测调节、离线监督、H2 展开及退离与返回回放。 [源码、实验设计与关键数据](progress-2026-11-13/) · [外审报告](progress-2026-11-13/research/CJEPA_PROGRESS_REVIEW_20261113.md)
 
-[阶段梳理](research/STAGE_SYNTHESIS_20261108.md) · [现行计划](research/CURRENT_RESEARCH_PLAN.md) · [方法推导](research/METHOD_CONSTRUCTION.md) · [近期证据对照](research/methodology/RECENT_MECHANISM_EVIDENCE_20261108.md)
+下文保留 2026-11-08 的历史阶段梳理。当前结果和状态以上方最新交接为准。研究目标是在预训练动作条件 JEPA 的原生计算上形成可随经历维持和修订、支持多个未来跨度的预测内容。当前证据最明确的是同观测配对中的历史信息及其单步读取。持续多时域运算仍待构造，实验处于暂停状态。
+
+[阶段梳理](research/STAGE_SYNTHESIS_20261108.md) · [当时计划](research/CURRENT_RESEARCH_PLAN.md) · [方法推导](research/METHOD_CONSTRUCTION.md) · [近期证据对照](research/methodology/RECENT_MECHANISM_EVIDENCE_20261108.md)
 
 ## 最近工作与代码对应关系
 

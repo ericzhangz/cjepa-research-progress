@@ -1,0 +1,370 @@
+{
+  "paired_layouts": 8,
+  "trials_per_arm": 16,
+  "total_episodes": 128,
+  "elapsed_episode_seconds_sum": 387.96206849988084,
+  "arm_summary": {
+    "stock": {
+      "successes": 0,
+      "success_trials": [],
+      "median_best_distance": 44.32059097290039,
+      "mean_best_distance": 44.168880581855774,
+      "min_best_distance": 24.157249450683594,
+      "mean_seconds": 2.1620551812593476,
+      "planning_calls": 192,
+      "candidate_proposals": 73728,
+      "mean_initial_estimated_terminal_cost": 28.640942573547363,
+      "start_decode_rmse": 0.8864973596884409,
+      "low_predicted_cost_with_executed_first_block_miss": 124,
+      "terminal_rooms_[TL,TR,BR,BL]": [
+        8,
+        4,
+        1,
+        3
+      ]
+    },
+    "native": {
+      "successes": 1,
+      "success_trials": [
+        [
+          2026111901,
+          0,
+          7,
+          10.369555473327637
+        ]
+      ],
+      "median_best_distance": 44.922990798950195,
+      "mean_best_distance": 42.296052396297455,
+      "min_best_distance": 10.369555473327637,
+      "mean_seconds": 1.54363805000321,
+      "planning_calls": 187,
+      "candidate_proposals": 71808,
+      "mean_initial_estimated_terminal_cost": 18.76648449897766,
+      "start_decode_rmse": 0.8864973596884409,
+      "low_predicted_cost_with_executed_first_block_miss": 155,
+      "terminal_rooms_[TL,TR,BR,BL]": [
+        8,
+        0,
+        1,
+        7
+      ]
+    },
+    "uniform": {
+      "successes": 1,
+      "success_trials": [
+        [
+          2026111907,
+          1,
+          6,
+          10.646224975585938
+        ]
+      ],
+      "median_best_distance": 51.251155853271484,
+      "mean_best_distance": 47.23072290420532,
+      "min_best_distance": 10.646224975585938,
+      "mean_seconds": 2.6289871437547845,
+      "planning_calls": 186,
+      "candidate_proposals": 71424,
+      "mean_initial_estimated_terminal_cost": 13.025428116321564,
+      "start_decode_rmse": 0.8864973596884409,
+      "low_predicted_cost_with_executed_first_block_miss": 181,
+      "terminal_rooms_[TL,TR,BR,BL]": [
+        14,
+        0,
+        2,
+        0
+      ]
+    },
+    "keep_old": {
+      "successes": 0,
+      "success_trials": [],
+      "median_best_distance": 51.6203670501709,
+      "mean_best_distance": 49.75321578979492,
+      "min_best_distance": 21.770553588867188,
+      "mean_seconds": 2.45669141874896,
+      "planning_calls": 192,
+      "candidate_proposals": 73728,
+      "mean_initial_estimated_terminal_cost": 12.629988551139832,
+      "start_decode_rmse": 0.8864973596884409,
+      "low_predicted_cost_with_executed_first_block_miss": 189,
+      "terminal_rooms_[TL,TR,BR,BL]": [
+        15,
+        0,
+        1,
+        0
+      ]
+    },
+    "persistent": {
+      "successes": 0,
+      "success_trials": [],
+      "median_best_distance": 51.76967811584473,
+      "mean_best_distance": 50.6514368057251,
+      "min_best_distance": 34.08250045776367,
+      "mean_seconds": 2.6990985937372898,
+      "planning_calls": 192,
+      "candidate_proposals": 73728,
+      "mean_initial_estimated_terminal_cost": 12.775841355323792,
+      "start_decode_rmse": 0.8864973596884409,
+      "low_predicted_cost_with_executed_first_block_miss": 189,
+      "terminal_rooms_[TL,TR,BR,BL]": [
+        15,
+        1,
+        0,
+        0
+      ]
+    },
+    "oracle": {
+      "successes": 0,
+      "success_trials": [],
+      "median_best_distance": 51.69444274902344,
+      "mean_best_distance": 49.49547278881073,
+      "min_best_distance": 17.166414260864258,
+      "mean_seconds": 2.3045375750007224,
+      "planning_calls": 192,
+      "candidate_proposals": 73728,
+      "mean_initial_estimated_terminal_cost": 12.629988551139832,
+      "start_decode_rmse": 0.8864973596884409,
+      "low_predicted_cost_with_executed_first_block_miss": 189,
+      "terminal_rooms_[TL,TR,BR,BL]": [
+        15,
+        0,
+        1,
+        0
+      ]
+    },
+    "adajepa": {
+      "successes": 2,
+      "success_trials": [
+        [
+          2026111902,
+          0,
+          10,
+          13.29668140411377
+        ],
+        [
+          2026111905,
+          0,
+          9,
+          13.192893981933594
+        ]
+      ],
+      "median_best_distance": 38.4488639831543,
+      "mean_best_distance": 39.05697065591812,
+      "min_best_distance": 13.192893981933594,
+      "mean_seconds": 4.869618674991216,
+      "planning_calls": 187,
+      "candidate_proposals": 71808,
+      "mean_initial_estimated_terminal_cost": 19.96712875366211,
+      "start_decode_rmse": 0.8864973596884409,
+      "low_predicted_cost_with_executed_first_block_miss": 126,
+      "terminal_rooms_[TL,TR,BR,BL]": [
+        2,
+        0,
+        2,
+        12
+      ],
+      "grounding_updates": 603,
+      "positive_optimism_updates": 0,
+      "mean_prefix_adaptation_seconds": 2.14591186252801,
+      "mean_planned_adaptation_seconds": 0.9670598749580677
+    },
+    "optta": {
+      "successes": 0,
+      "success_trials": [],
+      "median_best_distance": 53.861610412597656,
+      "mean_best_distance": 53.07323479652405,
+      "min_best_distance": 37.6425666809082,
+      "mean_seconds": 5.583002643747022,
+      "planning_calls": 192,
+      "candidate_proposals": 73728,
+      "mean_initial_estimated_terminal_cost": 19.96712875366211,
+      "start_decode_rmse": 0.8864973596884409,
+      "low_predicted_cost_with_executed_first_block_miss": 180,
+      "terminal_rooms_[TL,TR,BR,BL]": [
+        15,
+        0,
+        0,
+        1
+      ],
+      "grounding_updates": 608,
+      "positive_optimism_updates": 192,
+      "mean_prefix_adaptation_seconds": 2.0655794000012975,
+      "mean_planned_adaptation_seconds": 1.7133934937301092
+    }
+  },
+  "persistent_source_and_execution": {
+    "trial_count": 16,
+    "old_probe_correct": 16,
+    "reversed_probe_correct": 16,
+    "reversed_probe_saturated_gt_1_minus_1e7": 16,
+    "reverse_probe_true_log_odds_median": 6479.558937072754,
+    "true_mode_majority_at_first_plan": 16,
+    "true_mode_ensemble_mass_at_first_plan_range": [
+      0.9085354804992676,
+      0.9168747663497925
+    ],
+    "any_map_flip_to_wrong_after_planning": 5,
+    "per_trial": [
+      {
+        "seed": 2026111900,
+        "initial_mode": 0,
+        "old_probe_true": 1.0,
+        "reverse_probe_true": 1.0,
+        "reverse_probe_true_log_odds": 7394.894805908203,
+        "true_at_first_plan": 0.908536434173584,
+        "planned_block_min_true_support": 0.8272009491920471,
+        "had_false_map_after_planning": false
+      },
+      {
+        "seed": 2026111900,
+        "initial_mode": 1,
+        "old_probe_true": 1.0,
+        "reverse_probe_true": 1.0,
+        "reverse_probe_true_log_odds": 6539.463218688965,
+        "true_at_first_plan": 0.9168744683265686,
+        "planned_block_min_true_support": 0.0,
+        "had_false_map_after_planning": true
+      },
+      {
+        "seed": 2026111901,
+        "initial_mode": 0,
+        "old_probe_true": 1.0,
+        "reverse_probe_true": 1.0,
+        "reverse_probe_true_log_odds": 7894.062240600586,
+        "true_at_first_plan": 0.908536434173584,
+        "planned_block_min_true_support": 0.0010944524547085166,
+        "had_false_map_after_planning": true
+      },
+      {
+        "seed": 2026111901,
+        "initial_mode": 1,
+        "old_probe_true": 1.0,
+        "reverse_probe_true": 1.0,
+        "reverse_probe_true_log_odds": 7338.526748657227,
+        "true_at_first_plan": 0.9168736338615417,
+        "planned_block_min_true_support": 0.0,
+        "had_false_map_after_planning": true
+      },
+      {
+        "seed": 2026111902,
+        "initial_mode": 0,
+        "old_probe_true": 1.0,
+        "reverse_probe_true": 1.0,
+        "reverse_probe_true_log_odds": 5855.4201736450195,
+        "true_at_first_plan": 0.908536434173584,
+        "planned_block_min_true_support": 0.8204694390296936,
+        "had_false_map_after_planning": false
+      },
+      {
+        "seed": 2026111902,
+        "initial_mode": 1,
+        "old_probe_true": 1.0,
+        "reverse_probe_true": 1.0,
+        "reverse_probe_true_log_odds": 5807.970039367676,
+        "true_at_first_plan": 0.9168744683265686,
+        "planned_block_min_true_support": 0.8271310925483704,
+        "had_false_map_after_planning": false
+      },
+      {
+        "seed": 2026111903,
+        "initial_mode": 0,
+        "old_probe_true": 1.0,
+        "reverse_probe_true": 1.0,
+        "reverse_probe_true_log_odds": 7381.505882263184,
+        "true_at_first_plan": 0.9085358381271362,
+        "planned_block_min_true_support": 0.8692713379859924,
+        "had_false_map_after_planning": false
+      },
+      {
+        "seed": 2026111903,
+        "initial_mode": 1,
+        "old_probe_true": 1.0,
+        "reverse_probe_true": 1.0,
+        "reverse_probe_true_log_odds": 6419.654655456543,
+        "true_at_first_plan": 0.9168747663497925,
+        "planned_block_min_true_support": 0.0,
+        "had_false_map_after_planning": true
+      },
+      {
+        "seed": 2026111904,
+        "initial_mode": 0,
+        "old_probe_true": 1.0,
+        "reverse_probe_true": 1.0,
+        "reverse_probe_true_log_odds": 6321.102127075195,
+        "true_at_first_plan": 0.908536434173584,
+        "planned_block_min_true_support": 0.8206132054328918,
+        "had_false_map_after_planning": false
+      },
+      {
+        "seed": 2026111904,
+        "initial_mode": 1,
+        "old_probe_true": 1.0,
+        "reverse_probe_true": 1.0,
+        "reverse_probe_true_log_odds": 4977.777565002441,
+        "true_at_first_plan": 0.9168736338615417,
+        "planned_block_min_true_support": 0.8271136283874512,
+        "had_false_map_after_planning": false
+      },
+      {
+        "seed": 2026111905,
+        "initial_mode": 0,
+        "old_probe_true": 1.0,
+        "reverse_probe_true": 1.0,
+        "reverse_probe_true_log_odds": 7809.41520690918,
+        "true_at_first_plan": 0.9085358381271362,
+        "planned_block_min_true_support": 0.8206492066383362,
+        "had_false_map_after_planning": false
+      },
+      {
+        "seed": 2026111905,
+        "initial_mode": 1,
+        "old_probe_true": 1.0,
+        "reverse_probe_true": 1.0,
+        "reverse_probe_true_log_odds": 6540.373260498047,
+        "true_at_first_plan": 0.9168739318847656,
+        "planned_block_min_true_support": 2.7890844259365026e-33,
+        "had_false_map_after_planning": true
+      },
+      {
+        "seed": 2026111906,
+        "initial_mode": 0,
+        "old_probe_true": 1.0,
+        "reverse_probe_true": 1.0,
+        "reverse_probe_true_log_odds": 7142.847686767578,
+        "true_at_first_plan": 0.9085354804992676,
+        "planned_block_min_true_support": 0.8205952644348145,
+        "had_false_map_after_planning": false
+      },
+      {
+        "seed": 2026111906,
+        "initial_mode": 1,
+        "old_probe_true": 1.0,
+        "reverse_probe_true": 1.0,
+        "reverse_probe_true_log_odds": 6039.985595703125,
+        "true_at_first_plan": 0.9168744683265686,
+        "planned_block_min_true_support": 0.8270962238311768,
+        "had_false_map_after_planning": false
+      },
+      {
+        "seed": 2026111907,
+        "initial_mode": 0,
+        "old_probe_true": 1.0,
+        "reverse_probe_true": 1.0,
+        "reverse_probe_true_log_odds": 5714.73796081543,
+        "true_at_first_plan": 0.9085367321968079,
+        "planned_block_min_true_support": 0.8205054998397827,
+        "had_false_map_after_planning": false
+      },
+      {
+        "seed": 2026111907,
+        "initial_mode": 1,
+        "old_probe_true": 1.0,
+        "reverse_probe_true": 1.0,
+        "reverse_probe_true_log_odds": 5282.118255615234,
+        "true_at_first_plan": 0.9168744683265686,
+        "planned_block_min_true_support": 0.8618873953819275,
+        "had_false_map_after_planning": false
+      }
+    ]
+  }
+}
