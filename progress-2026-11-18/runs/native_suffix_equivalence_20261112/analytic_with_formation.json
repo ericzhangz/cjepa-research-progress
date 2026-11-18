@@ -1,0 +1,187 @@
+{
+  "suffix_insensitive_to_sign": {
+    "native": [
+      [
+        -1,
+        1
+      ],
+      [
+        -2,
+        2
+      ],
+      [
+        -2,
+        3
+      ],
+      [
+        -2,
+        4
+      ]
+    ],
+    "cut": [
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        4
+      ]
+    ]
+  },
+  "suffix_reveals_sign_at_h4": {
+    "native": [
+      [
+        -1,
+        1
+      ],
+      [
+        -2,
+        2
+      ],
+      [
+        -2,
+        3
+      ],
+      [
+        -2,
+        2
+      ]
+    ],
+    "cut": [
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        4
+      ]
+    ]
+  },
+  "real_refresh": {
+    "same_observation_round_one": {
+      "input": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0
+        ]
+      ],
+      "ordinary": [
+        [
+          0.4999999999999998,
+          0.4999999999999999
+        ],
+        [
+          0.0,
+          1.0
+        ]
+      ],
+      "protected": [
+        [
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "direct_observation_round_two": [
+      [
+        1.0,
+        1.0
+      ],
+      [
+        1.0,
+        1.0
+      ]
+    ],
+    "history_cannot_be_rewritten": {
+      "input": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          1.0
+        ]
+      ],
+      "after": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ]
+      ],
+      "protected_readout_before": [
+        0.0,
+        0.0
+      ],
+      "protected_readout_after": [
+        0.0,
+        1.0
+      ]
+    }
+  },
+  "evidence_for_candidate_effects": {
+    "real_arrivals": [
+      {
+        "compatible_reference": [
+          0.0,
+          2.0,
+          0.0
+        ],
+        "determined_queries": [
+          true,
+          false
+        ],
+        "identified_effects": [
+          2.0,
+          null
+        ]
+      },
+      {
+        "compatible_reference": [
+          0.0,
+          2.0,
+          -1.0
+        ],
+        "determined_queries": [
+          true,
+          true
+        ],
+        "identified_effects": [
+          2.0,
+          -1.0
+        ]
+      }
+    ],
+    "cannot_leave_both_unresolved_queries_native": 0.5773502691896257
+  }
+}

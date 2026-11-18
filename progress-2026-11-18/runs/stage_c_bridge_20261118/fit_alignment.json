@@ -1,0 +1,91 @@
+{
+  "physical_to_explanation": [
+    0,
+    1
+  ],
+  "frozen_before_heldout": true,
+  "source": "Eight predeclared fitting bridge first probes only; physical order bottom/top, evaluation naming only",
+  "mean_delta_top_minus_bottom": 1.6704197525978088,
+  "fitting_probe_pairs": [
+    {
+      "group": 48,
+      "arrival": 5,
+      "near_root": null,
+      "evidence_by_lock": {
+        "bottom": 3.3495190143585205,
+        "top": -3.4282233715057373
+      },
+      "delta_top_minus_bottom": -6.777742385864258
+    },
+    {
+      "group": 49,
+      "arrival": 5,
+      "near_root": null,
+      "evidence_by_lock": {
+        "top": -3.350956439971924,
+        "bottom": 2.389235496520996
+      },
+      "delta_top_minus_bottom": -5.74019193649292
+    },
+    {
+      "group": 50,
+      "arrival": 5,
+      "near_root": null,
+      "evidence_by_lock": {
+        "bottom": 2.389235496520996,
+        "top": -3.350956439971924
+      },
+      "delta_top_minus_bottom": -5.74019193649292
+    },
+    {
+      "group": 51,
+      "arrival": 5,
+      "near_root": null,
+      "evidence_by_lock": {
+        "top": -3.4282233715057373,
+        "bottom": 3.3495190143585205
+      },
+      "delta_top_minus_bottom": -6.777742385864258
+    },
+    {
+      "group": 52,
+      "arrival": 5,
+      "near_root": null,
+      "evidence_by_lock": {
+        "bottom": -6.0786004066467285,
+        "top": 3.4793946743011475
+      },
+      "delta_top_minus_bottom": 9.557995080947876
+    },
+    {
+      "group": 53,
+      "arrival": 5,
+      "near_root": null,
+      "evidence_by_lock": {
+        "top": 3.7332983016967773,
+        "bottom": -5.90831995010376
+      },
+      "delta_top_minus_bottom": 9.641618251800537
+    },
+    {
+      "group": 54,
+      "arrival": 5,
+      "near_root": null,
+      "evidence_by_lock": {
+        "bottom": -5.90831995010376,
+        "top": 3.7332983016967773
+      },
+      "delta_top_minus_bottom": 9.641618251800537
+    },
+    {
+      "group": 55,
+      "arrival": 5,
+      "near_root": null,
+      "evidence_by_lock": {
+        "top": 3.4793946743011475,
+        "bottom": -6.0786004066467285
+      },
+      "delta_top_minus_bottom": 9.557995080947876
+    }
+  ]
+}

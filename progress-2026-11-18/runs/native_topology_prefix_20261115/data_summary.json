@@ -1,0 +1,1014 @@
+{
+  "eval": {
+    "layout_seeds": [
+      2026112000,
+      2026112001,
+      2026112002,
+      2026112003,
+      2026112004,
+      2026112005,
+      2026112006,
+      2026112007,
+      2026112008,
+      2026112009,
+      2026112010,
+      2026112011,
+      2026112012,
+      2026112013,
+      2026112014,
+      2026112015
+    ],
+    "root_names": [
+      "top_contact",
+      "bottom_contact",
+      "northwest_navigation",
+      "southeast_navigation"
+    ],
+    "slot_roles_by_root": {
+      "original": [
+        64,
+        64,
+        64,
+        64
+      ],
+      "retained_original": [
+        32,
+        32,
+        32,
+        32
+      ],
+      "common_corner": [
+        16,
+        16,
+        16,
+        16
+      ],
+      "block_end_separated": [
+        16,
+        16,
+        16,
+        16
+      ],
+      "corner_fallback": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "separated_fallback": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "shortlist_common_corner_by_root": [
+      16,
+      16,
+      16,
+      16
+    ],
+    "shortlist_block_end_separated_by_root": [
+      51,
+      51,
+      81,
+      80
+    ],
+    "shortlist_corner_parent_goal_room_by_root": [
+      16,
+      15,
+      16,
+      15
+    ],
+    "cem_bank_common_corner_by_root": [
+      3127,
+      2398,
+      3647,
+      2298
+    ],
+    "cem_bank_block_end_separated_by_root": [
+      2384,
+      2625,
+      1222,
+      1560
+    ],
+    "cem_bank_corner_parent_goal_room_by_root": [
+      2450,
+      436,
+      2765,
+      377
+    ],
+    "valid_local_pairs_by_horizon": [
+      1024,
+      936,
+      964,
+      921,
+      916
+    ],
+    "valid_informative_local_pairs_by_horizon": [
+      176,
+      104,
+      168,
+      228,
+      180
+    ],
+    "actual_canonical_env_trajectory_checks": 1792,
+    "unique_encoded_rgb_frames": 2667,
+    "shapes": {
+      "seed": [
+        16
+      ],
+      "root_xy": [
+        16,
+        4,
+        3,
+        2
+      ],
+      "root_action": [
+        16,
+        4,
+        2,
+        5,
+        2
+      ],
+      "root_z": [
+        16,
+        4,
+        3,
+        192
+      ],
+      "action": [
+        16,
+        4,
+        8,
+        5,
+        5,
+        2
+      ],
+      "future_xy": [
+        16,
+        4,
+        8,
+        2,
+        5,
+        5,
+        2
+      ],
+      "parent_xy": [
+        16,
+        4,
+        8,
+        2,
+        2
+      ],
+      "parent_cost": [
+        16,
+        4,
+        8,
+        2
+      ],
+      "common_corner": [
+        16,
+        4,
+        8
+      ],
+      "block_end_separated": [
+        16,
+        4,
+        8
+      ],
+      "parent_goal_room": [
+        16,
+        4,
+        8
+      ],
+      "first_branch_divergence_raw": [
+        16,
+        4,
+        8
+      ],
+      "local_xy": [
+        16,
+        4,
+        8,
+        2,
+        5,
+        2,
+        5,
+        2
+      ],
+      "local_valid": [
+        16,
+        4,
+        8,
+        2,
+        5
+      ],
+      "first_local_divergence_raw": [
+        16,
+        4,
+        8,
+        2,
+        5
+      ],
+      "bank_index": [
+        16,
+        4,
+        8
+      ],
+      "selection_role": [
+        16,
+        4,
+        8
+      ],
+      "future_z": [
+        16,
+        4,
+        8,
+        2,
+        5,
+        192
+      ],
+      "local_z": [
+        16,
+        4,
+        8,
+        2,
+        5,
+        2,
+        192
+      ]
+    }
+  },
+  "train": {
+    "layout_seeds": [
+      2026111600,
+      2026111601,
+      2026111602,
+      2026111603,
+      2026111604,
+      2026111605,
+      2026111606,
+      2026111607,
+      2026111608,
+      2026111609,
+      2026111610,
+      2026111611,
+      2026111612,
+      2026111613,
+      2026111614,
+      2026111615,
+      2026111616,
+      2026111617,
+      2026111618,
+      2026111619,
+      2026111620,
+      2026111621,
+      2026111622,
+      2026111623,
+      2026111624,
+      2026111625,
+      2026111626,
+      2026111627,
+      2026111628,
+      2026111629,
+      2026111630,
+      2026111631
+    ],
+    "root_names": [
+      "top_contact",
+      "bottom_contact",
+      "northwest_navigation",
+      "southeast_navigation"
+    ],
+    "slot_roles_by_root": {
+      "original": [
+        128,
+        128,
+        128,
+        128
+      ],
+      "retained_original": [
+        64,
+        64,
+        64,
+        64
+      ],
+      "common_corner": [
+        32,
+        32,
+        32,
+        32
+      ],
+      "block_end_separated": [
+        32,
+        32,
+        32,
+        32
+      ],
+      "corner_fallback": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "separated_fallback": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "shortlist_common_corner_by_root": [
+      32,
+      32,
+      32,
+      32
+    ],
+    "shortlist_block_end_separated_by_root": [
+      108,
+      108,
+      160,
+      160
+    ],
+    "shortlist_corner_parent_goal_room_by_root": [
+      32,
+      30,
+      32,
+      32
+    ],
+    "cem_bank_common_corner_by_root": [
+      5586,
+      4770,
+      7130,
+      4766
+    ],
+    "cem_bank_block_end_separated_by_root": [
+      5669,
+      5018,
+      2375,
+      2707
+    ],
+    "cem_bank_corner_parent_goal_room_by_root": [
+      4035,
+      1218,
+      5026,
+      791
+    ],
+    "valid_local_pairs_by_horizon": [
+      2048,
+      1850,
+      1927,
+      1841,
+      1852
+    ],
+    "valid_informative_local_pairs_by_horizon": [
+      396,
+      204,
+      346,
+      407,
+      366
+    ],
+    "actual_canonical_env_trajectory_checks": 3582,
+    "unique_encoded_rgb_frames": 5299,
+    "shapes": {
+      "seed": [
+        32
+      ],
+      "root_xy": [
+        32,
+        4,
+        3,
+        2
+      ],
+      "root_action": [
+        32,
+        4,
+        2,
+        5,
+        2
+      ],
+      "root_z": [
+        32,
+        4,
+        3,
+        192
+      ],
+      "action": [
+        32,
+        4,
+        8,
+        5,
+        5,
+        2
+      ],
+      "future_xy": [
+        32,
+        4,
+        8,
+        2,
+        5,
+        5,
+        2
+      ],
+      "parent_xy": [
+        32,
+        4,
+        8,
+        2,
+        2
+      ],
+      "parent_cost": [
+        32,
+        4,
+        8,
+        2
+      ],
+      "common_corner": [
+        32,
+        4,
+        8
+      ],
+      "block_end_separated": [
+        32,
+        4,
+        8
+      ],
+      "parent_goal_room": [
+        32,
+        4,
+        8
+      ],
+      "first_branch_divergence_raw": [
+        32,
+        4,
+        8
+      ],
+      "local_xy": [
+        32,
+        4,
+        8,
+        2,
+        5,
+        2,
+        5,
+        2
+      ],
+      "local_valid": [
+        32,
+        4,
+        8,
+        2,
+        5
+      ],
+      "first_local_divergence_raw": [
+        32,
+        4,
+        8,
+        2,
+        5
+      ],
+      "bank_index": [
+        32,
+        4,
+        8
+      ],
+      "selection_role": [
+        32,
+        4,
+        8
+      ],
+      "future_z": [
+        32,
+        4,
+        8,
+        2,
+        5,
+        192
+      ],
+      "local_z": [
+        32,
+        4,
+        8,
+        2,
+        5,
+        2,
+        192
+      ]
+    }
+  },
+  "original": {
+    "layout_seeds": [
+      2026111600,
+      2026111601,
+      2026111602,
+      2026111603,
+      2026111604,
+      2026111605,
+      2026111606,
+      2026111607,
+      2026111608,
+      2026111609,
+      2026111610,
+      2026111611,
+      2026111612,
+      2026111613,
+      2026111614,
+      2026111615,
+      2026111616,
+      2026111617,
+      2026111618,
+      2026111619,
+      2026111620,
+      2026111621,
+      2026111622,
+      2026111623,
+      2026111624,
+      2026111625,
+      2026111626,
+      2026111627,
+      2026111628,
+      2026111629,
+      2026111630,
+      2026111631
+    ],
+    "root_names": [
+      "top_contact",
+      "bottom_contact",
+      "northwest_navigation",
+      "southeast_navigation"
+    ],
+    "slot_roles_by_root": {
+      "original": [
+        128,
+        128,
+        128,
+        128
+      ],
+      "retained_original": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "common_corner": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "block_end_separated": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "corner_fallback": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "separated_fallback": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "shortlist_common_corner_by_root": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "shortlist_block_end_separated_by_root": [
+      64,
+      66,
+      94,
+      95
+    ],
+    "shortlist_corner_parent_goal_room_by_root": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "cem_bank_common_corner_by_root": [
+      5586,
+      4770,
+      7130,
+      4766
+    ],
+    "cem_bank_block_end_separated_by_root": [
+      5669,
+      5018,
+      2375,
+      2707
+    ],
+    "cem_bank_corner_parent_goal_room_by_root": [
+      4035,
+      1218,
+      5026,
+      791
+    ],
+    "valid_local_pairs_by_horizon": [
+      1024,
+      896,
+      940,
+      887,
+      871
+    ],
+    "valid_informative_local_pairs_by_horizon": [
+      256,
+      139,
+      209,
+      258,
+      227
+    ],
+    "actual_canonical_env_trajectory_checks": 3582,
+    "unique_encoded_rgb_frames": 5299,
+    "shapes": {
+      "seed": [
+        32
+      ],
+      "root_xy": [
+        32,
+        4,
+        3,
+        2
+      ],
+      "root_action": [
+        32,
+        4,
+        2,
+        5,
+        2
+      ],
+      "root_z": [
+        32,
+        4,
+        3,
+        192
+      ],
+      "action": [
+        32,
+        4,
+        4,
+        5,
+        5,
+        2
+      ],
+      "future_xy": [
+        32,
+        4,
+        4,
+        2,
+        5,
+        5,
+        2
+      ],
+      "parent_xy": [
+        32,
+        4,
+        4,
+        2,
+        2
+      ],
+      "parent_cost": [
+        32,
+        4,
+        4,
+        2
+      ],
+      "common_corner": [
+        32,
+        4,
+        4
+      ],
+      "block_end_separated": [
+        32,
+        4,
+        4
+      ],
+      "parent_goal_room": [
+        32,
+        4,
+        4
+      ],
+      "first_branch_divergence_raw": [
+        32,
+        4,
+        4
+      ],
+      "local_xy": [
+        32,
+        4,
+        4,
+        2,
+        5,
+        2,
+        5,
+        2
+      ],
+      "local_valid": [
+        32,
+        4,
+        4,
+        2,
+        5
+      ],
+      "first_local_divergence_raw": [
+        32,
+        4,
+        4,
+        2,
+        5
+      ],
+      "bank_index": [
+        32,
+        4,
+        4
+      ],
+      "selection_role": [
+        32,
+        4,
+        4
+      ],
+      "future_z": [
+        32,
+        4,
+        4,
+        2,
+        5,
+        192
+      ],
+      "local_z": [
+        32,
+        4,
+        4,
+        2,
+        5,
+        2,
+        192
+      ]
+    }
+  },
+  "coverage": {
+    "layout_seeds": [
+      2026111600,
+      2026111601,
+      2026111602,
+      2026111603,
+      2026111604,
+      2026111605,
+      2026111606,
+      2026111607,
+      2026111608,
+      2026111609,
+      2026111610,
+      2026111611,
+      2026111612,
+      2026111613,
+      2026111614,
+      2026111615,
+      2026111616,
+      2026111617,
+      2026111618,
+      2026111619,
+      2026111620,
+      2026111621,
+      2026111622,
+      2026111623,
+      2026111624,
+      2026111625,
+      2026111626,
+      2026111627,
+      2026111628,
+      2026111629,
+      2026111630,
+      2026111631
+    ],
+    "root_names": [
+      "top_contact",
+      "bottom_contact",
+      "northwest_navigation",
+      "southeast_navigation"
+    ],
+    "slot_roles_by_root": {
+      "original": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "retained_original": [
+        64,
+        64,
+        64,
+        64
+      ],
+      "common_corner": [
+        32,
+        32,
+        32,
+        32
+      ],
+      "block_end_separated": [
+        32,
+        32,
+        32,
+        32
+      ],
+      "corner_fallback": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "separated_fallback": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "shortlist_common_corner_by_root": [
+      32,
+      32,
+      32,
+      32
+    ],
+    "shortlist_block_end_separated_by_root": [
+      44,
+      42,
+      66,
+      65
+    ],
+    "shortlist_corner_parent_goal_room_by_root": [
+      32,
+      30,
+      32,
+      32
+    ],
+    "cem_bank_common_corner_by_root": [
+      5586,
+      4770,
+      7130,
+      4766
+    ],
+    "cem_bank_block_end_separated_by_root": [
+      5669,
+      5018,
+      2375,
+      2707
+    ],
+    "cem_bank_corner_parent_goal_room_by_root": [
+      4035,
+      1218,
+      5026,
+      791
+    ],
+    "valid_local_pairs_by_horizon": [
+      1024,
+      954,
+      987,
+      954,
+      981
+    ],
+    "valid_informative_local_pairs_by_horizon": [
+      140,
+      65,
+      137,
+      149,
+      139
+    ],
+    "actual_canonical_env_trajectory_checks": 3582,
+    "unique_encoded_rgb_frames": 5299,
+    "shapes": {
+      "seed": [
+        32
+      ],
+      "root_xy": [
+        32,
+        4,
+        3,
+        2
+      ],
+      "root_action": [
+        32,
+        4,
+        2,
+        5,
+        2
+      ],
+      "root_z": [
+        32,
+        4,
+        3,
+        192
+      ],
+      "action": [
+        32,
+        4,
+        4,
+        5,
+        5,
+        2
+      ],
+      "future_xy": [
+        32,
+        4,
+        4,
+        2,
+        5,
+        5,
+        2
+      ],
+      "parent_xy": [
+        32,
+        4,
+        4,
+        2,
+        2
+      ],
+      "parent_cost": [
+        32,
+        4,
+        4,
+        2
+      ],
+      "common_corner": [
+        32,
+        4,
+        4
+      ],
+      "block_end_separated": [
+        32,
+        4,
+        4
+      ],
+      "parent_goal_room": [
+        32,
+        4,
+        4
+      ],
+      "first_branch_divergence_raw": [
+        32,
+        4,
+        4
+      ],
+      "local_xy": [
+        32,
+        4,
+        4,
+        2,
+        5,
+        2,
+        5,
+        2
+      ],
+      "local_valid": [
+        32,
+        4,
+        4,
+        2,
+        5
+      ],
+      "first_local_divergence_raw": [
+        32,
+        4,
+        4,
+        2,
+        5
+      ],
+      "bank_index": [
+        32,
+        4,
+        4
+      ],
+      "selection_role": [
+        32,
+        4,
+        4
+      ],
+      "future_z": [
+        32,
+        4,
+        4,
+        2,
+        5,
+        192
+      ],
+      "local_z": [
+        32,
+        4,
+        4,
+        2,
+        5,
+        2,
+        192
+      ]
+    }
+  }
+}

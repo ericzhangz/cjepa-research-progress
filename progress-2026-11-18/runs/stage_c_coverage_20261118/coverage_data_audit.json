@@ -1,0 +1,5081 @@
+{
+  "source_archive": "D:\\cjepa\\runs\\stage_c_clean_20261117\\lifecycle.npz",
+  "fitting_groups": 48,
+  "directed_groups": 24,
+  "fit_read_roots": 96,
+  "candidate_count": 8,
+  "preserved_arrays": [
+    "fit_prefix_z",
+    "fit_prefix_a",
+    "fit_read_t",
+    "fit_directed",
+    "source_target_z",
+    "source_delta"
+  ],
+  "original_candidate_slots_exact": true,
+  "reconstructed_root_latent_max_abs_error": 0.0,
+  "source_s2_obs": 19.283662796020508,
+  "source_s2_bundle": 186.1669158935547,
+  "selection_contract": "At each varied fitting root select one identical blocked trajectory, one successful non-nominal program per physical condition, then seeded fill to three candidates from each bank family. Use only exact fitting physics and the original goal radius.",
+  "actual_added_H12_programs": 1152,
+  "actual_added_raw_steps": 69120,
+  "wall_seconds": 95.99625529999321,
+  "roots": [
+    {
+      "group": 0,
+      "bridge": 0,
+      "neutral": false,
+      "candidate_bank_indices": [
+        376,
+        5,
+        235,
+        7,
+        155,
+        323
+      ],
+      "new_common_blocked_slots": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_goal_success_slots_by_physical_condition": [
+        [
+          false,
+          true,
+          false,
+          true,
+          true,
+          false
+        ],
+        [
+          false,
+          false,
+          true,
+          false,
+          false,
+          false
+        ]
+      ],
+      "new_common_target_slots": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_target_difference_rms": [
+        0.0,
+        1.1363176107406616,
+        0.6258112788200378,
+        1.133744478225708,
+        1.1110204458236694,
+        0.6124338507652283
+      ]
+    },
+    {
+      "group": 0,
+      "bridge": 1,
+      "neutral": false,
+      "candidate_bank_indices": [
+        247,
+        5,
+        323,
+        7,
+        155,
+        235
+      ],
+      "new_common_blocked_slots": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_goal_success_slots_by_physical_condition": [
+        [
+          false,
+          true,
+          false,
+          true,
+          true,
+          false
+        ],
+        [
+          false,
+          false,
+          true,
+          false,
+          false,
+          false
+        ]
+      ],
+      "new_common_target_slots": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_target_difference_rms": [
+        0.0,
+        1.2708886861801147,
+        0.4517703950405121,
+        1.2654434442520142,
+        1.2660982608795166,
+        0.43478694558143616
+      ]
+    },
+    {
+      "group": 1,
+      "bridge": 0,
+      "neutral": true,
+      "candidate_bank_indices": null,
+      "new_common_blocked_slots": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_goal_success_slots_by_physical_condition": [
+        [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      ],
+      "new_common_target_slots": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "new_target_difference_rms": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "group": 1,
+      "bridge": 1,
+      "neutral": true,
+      "candidate_bank_indices": null,
+      "new_common_blocked_slots": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_goal_success_slots_by_physical_condition": [
+        [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      ],
+      "new_common_target_slots": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "new_target_difference_rms": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "group": 2,
+      "bridge": 0,
+      "neutral": true,
+      "candidate_bank_indices": null,
+      "new_common_blocked_slots": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_goal_success_slots_by_physical_condition": [
+        [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      ],
+      "new_common_target_slots": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "new_target_difference_rms": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "group": 2,
+      "bridge": 1,
+      "neutral": true,
+      "candidate_bank_indices": null,
+      "new_common_blocked_slots": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_goal_success_slots_by_physical_condition": [
+        [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      ],
+      "new_common_target_slots": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "new_target_difference_rms": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "group": 3,
+      "bridge": 0,
+      "neutral": false,
+      "candidate_bank_indices": [
+        376,
+        5,
+        235,
+        7,
+        155,
+        323
+      ],
+      "new_common_blocked_slots": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_goal_success_slots_by_physical_condition": [
+        [
+          false,
+          true,
+          false,
+          true,
+          true,
+          false
+        ],
+        [
+          false,
+          false,
+          true,
+          false,
+          false,
+          false
+        ]
+      ],
+      "new_common_target_slots": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_target_difference_rms": [
+        0.0,
+        1.1363176107406616,
+        0.6258112788200378,
+        1.133744478225708,
+        1.1110204458236694,
+        0.6124338507652283
+      ]
+    },
+    {
+      "group": 3,
+      "bridge": 1,
+      "neutral": false,
+      "candidate_bank_indices": [
+        247,
+        5,
+        323,
+        7,
+        155,
+        235
+      ],
+      "new_common_blocked_slots": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_goal_success_slots_by_physical_condition": [
+        [
+          false,
+          true,
+          false,
+          true,
+          true,
+          false
+        ],
+        [
+          false,
+          false,
+          true,
+          false,
+          false,
+          false
+        ]
+      ],
+      "new_common_target_slots": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_target_difference_rms": [
+        0.0,
+        1.2708886861801147,
+        0.4517703950405121,
+        1.2654434442520142,
+        1.2660982608795166,
+        0.43478694558143616
+      ]
+    },
+    {
+      "group": 4,
+      "bridge": 0,
+      "neutral": false,
+      "candidate_bank_indices": [
+        376,
+        5,
+        235,
+        7,
+        155,
+        323
+      ],
+      "new_common_blocked_slots": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_goal_success_slots_by_physical_condition": [
+        [
+          false,
+          true,
+          false,
+          true,
+          true,
+          false
+        ],
+        [
+          false,
+          false,
+          true,
+          false,
+          false,
+          false
+        ]
+      ],
+      "new_common_target_slots": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_target_difference_rms": [
+        0.0,
+        1.1363176107406616,
+        0.6258112788200378,
+        1.133744478225708,
+        1.1110204458236694,
+        0.6124338507652283
+      ]
+    },
+    {
+      "group": 4,
+      "bridge": 1,
+      "neutral": false,
+      "candidate_bank_indices": [
+        247,
+        5,
+        323,
+        7,
+        155,
+        235
+      ],
+      "new_common_blocked_slots": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_goal_success_slots_by_physical_condition": [
+        [
+          false,
+          true,
+          false,
+          true,
+          true,
+          false
+        ],
+        [
+          false,
+          false,
+          true,
+          false,
+          false,
+          false
+        ]
+      ],
+      "new_common_target_slots": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_target_difference_rms": [
+        0.0,
+        1.2708886861801147,
+        0.4517703950405121,
+        1.2654434442520142,
+        1.2660982608795166,
+        0.43478694558143616
+      ]
+    },
+    {
+      "group": 5,
+      "bridge": 0,
+      "neutral": false,
+      "candidate_bank_indices": [
+        376,
+        5,
+        235,
+        7,
+        155,
+        323
+      ],
+      "new_common_blocked_slots": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_goal_success_slots_by_physical_condition": [
+        [
+          false,
+          true,
+          false,
+          true,
+          true,
+          false
+        ],
+        [
+          false,
+          false,
+          true,
+          false,
+          false,
+          false
+        ]
+      ],
+      "new_common_target_slots": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_target_difference_rms": [
+        0.0,
+        1.1363176107406616,
+        0.6258112788200378,
+        1.133744478225708,
+        1.1110204458236694,
+        0.6124338507652283
+      ]
+    },
+    {
+      "group": 5,
+      "bridge": 1,
+      "neutral": false,
+      "candidate_bank_indices": [
+        247,
+        5,
+        323,
+        7,
+        155,
+        235
+      ],
+      "new_common_blocked_slots": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_goal_success_slots_by_physical_condition": [
+        [
+          false,
+          true,
+          false,
+          true,
+          true,
+          false
+        ],
+        [
+          false,
+          false,
+          true,
+          false,
+          false,
+          false
+        ]
+      ],
+      "new_common_target_slots": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_target_difference_rms": [
+        0.0,
+        1.2708886861801147,
+        0.4517703950405121,
+        1.2654434442520142,
+        1.2660982608795166,
+        0.43478694558143616
+      ]
+    },
+    {
+      "group": 6,
+      "bridge": 0,
+      "neutral": false,
+      "candidate_bank_indices": [
+        379,
+        290,
+        24,
+        4,
+        65,
+        366
+      ],
+      "new_common_blocked_slots": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_goal_success_slots_by_physical_condition": [
+        [
+          false,
+          true,
+          false,
+          false,
+          false,
+          true
+        ],
+        [
+          false,
+          false,
+          true,
+          true,
+          true,
+          false
+        ]
+      ],
+      "new_common_target_slots": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_target_difference_rms": [
+        0.0,
+        1.1364985704421997,
+        0.6687648296356201,
+        0.6543880701065063,
+        0.658092200756073,
+        1.094037652015686
+      ]
+    },
+    {
+      "group": 6,
+      "bridge": 1,
+      "neutral": false,
+      "candidate_bank_indices": [
+        123,
+        290,
+        24,
+        4,
+        366,
+        284
+      ],
+      "new_common_blocked_slots": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_goal_success_slots_by_physical_condition": [
+        [
+          false,
+          true,
+          false,
+          false,
+          false,
+          true
+        ],
+        [
+          false,
+          false,
+          true,
+          true,
+          false,
+          false
+        ]
+      ],
+      "new_common_target_slots": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_target_difference_rms": [
+        0.0,
+        1.2857552766799927,
+        0.5179998278617859,
+        0.5333946347236633,
+        1.2201945781707764,
+        1.3111802339553833
+      ]
+    },
+    {
+      "group": 7,
+      "bridge": 0,
+      "neutral": true,
+      "candidate_bank_indices": null,
+      "new_common_blocked_slots": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_goal_success_slots_by_physical_condition": [
+        [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      ],
+      "new_common_target_slots": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "new_target_difference_rms": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "group": 7,
+      "bridge": 1,
+      "neutral": true,
+      "candidate_bank_indices": null,
+      "new_common_blocked_slots": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_goal_success_slots_by_physical_condition": [
+        [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      ],
+      "new_common_target_slots": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "new_target_difference_rms": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "group": 8,
+      "bridge": 0,
+      "neutral": true,
+      "candidate_bank_indices": null,
+      "new_common_blocked_slots": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_goal_success_slots_by_physical_condition": [
+        [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      ],
+      "new_common_target_slots": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "new_target_difference_rms": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "group": 8,
+      "bridge": 1,
+      "neutral": true,
+      "candidate_bank_indices": null,
+      "new_common_blocked_slots": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_goal_success_slots_by_physical_condition": [
+        [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      ],
+      "new_common_target_slots": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "new_target_difference_rms": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "group": 9,
+      "bridge": 0,
+      "neutral": false,
+      "candidate_bank_indices": [
+        379,
+        290,
+        24,
+        4,
+        65,
+        366
+      ],
+      "new_common_blocked_slots": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_goal_success_slots_by_physical_condition": [
+        [
+          false,
+          true,
+          false,
+          false,
+          false,
+          true
+        ],
+        [
+          false,
+          false,
+          true,
+          true,
+          true,
+          false
+        ]
+      ],
+      "new_common_target_slots": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_target_difference_rms": [
+        0.0,
+        1.1364985704421997,
+        0.6687648296356201,
+        0.6543880701065063,
+        0.658092200756073,
+        1.094037652015686
+      ]
+    },
+    {
+      "group": 9,
+      "bridge": 1,
+      "neutral": false,
+      "candidate_bank_indices": [
+        123,
+        290,
+        24,
+        4,
+        366,
+        284
+      ],
+      "new_common_blocked_slots": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_goal_success_slots_by_physical_condition": [
+        [
+          false,
+          true,
+          false,
+          false,
+          false,
+          true
+        ],
+        [
+          false,
+          false,
+          true,
+          true,
+          false,
+          false
+        ]
+      ],
+      "new_common_target_slots": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_target_difference_rms": [
+        0.0,
+        1.2857552766799927,
+        0.5179998278617859,
+        0.5333946347236633,
+        1.2201945781707764,
+        1.3111802339553833
+      ]
+    },
+    {
+      "group": 10,
+      "bridge": 0,
+      "neutral": false,
+      "candidate_bank_indices": [
+        379,
+        290,
+        24,
+        4,
+        65,
+        366
+      ],
+      "new_common_blocked_slots": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_goal_success_slots_by_physical_condition": [
+        [
+          false,
+          true,
+          false,
+          false,
+          false,
+          true
+        ],
+        [
+          false,
+          false,
+          true,
+          true,
+          true,
+          false
+        ]
+      ],
+      "new_common_target_slots": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_target_difference_rms": [
+        0.0,
+        1.1364985704421997,
+        0.6687648296356201,
+        0.6543880701065063,
+        0.658092200756073,
+        1.094037652015686
+      ]
+    },
+    {
+      "group": 10,
+      "bridge": 1,
+      "neutral": false,
+      "candidate_bank_indices": [
+        123,
+        290,
+        24,
+        4,
+        366,
+        284
+      ],
+      "new_common_blocked_slots": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_goal_success_slots_by_physical_condition": [
+        [
+          false,
+          true,
+          false,
+          false,
+          false,
+          true
+        ],
+        [
+          false,
+          false,
+          true,
+          true,
+          false,
+          false
+        ]
+      ],
+      "new_common_target_slots": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_target_difference_rms": [
+        0.0,
+        1.2857552766799927,
+        0.5179998278617859,
+        0.5333946347236633,
+        1.2201945781707764,
+        1.3111802339553833
+      ]
+    },
+    {
+      "group": 11,
+      "bridge": 0,
+      "neutral": false,
+      "candidate_bank_indices": [
+        379,
+        290,
+        24,
+        4,
+        65,
+        366
+      ],
+      "new_common_blocked_slots": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_goal_success_slots_by_physical_condition": [
+        [
+          false,
+          true,
+          false,
+          false,
+          false,
+          true
+        ],
+        [
+          false,
+          false,
+          true,
+          true,
+          true,
+          false
+        ]
+      ],
+      "new_common_target_slots": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_target_difference_rms": [
+        0.0,
+        1.1364985704421997,
+        0.6687648296356201,
+        0.6543880701065063,
+        0.658092200756073,
+        1.094037652015686
+      ]
+    },
+    {
+      "group": 11,
+      "bridge": 1,
+      "neutral": false,
+      "candidate_bank_indices": [
+        123,
+        290,
+        24,
+        4,
+        366,
+        284
+      ],
+      "new_common_blocked_slots": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_goal_success_slots_by_physical_condition": [
+        [
+          false,
+          true,
+          false,
+          false,
+          false,
+          true
+        ],
+        [
+          false,
+          false,
+          true,
+          true,
+          false,
+          false
+        ]
+      ],
+      "new_common_target_slots": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_target_difference_rms": [
+        0.0,
+        1.2857552766799927,
+        0.5179998278617859,
+        0.5333946347236633,
+        1.2201945781707764,
+        1.3111802339553833
+      ]
+    },
+    {
+      "group": 12,
+      "bridge": 0,
+      "neutral": false,
+      "candidate_bank_indices": [
+        380,
+        355,
+        35,
+        44,
+        98,
+        346
+      ],
+      "new_common_blocked_slots": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_goal_success_slots_by_physical_condition": [
+        [
+          false,
+          true,
+          false,
+          false,
+          false,
+          true
+        ],
+        [
+          false,
+          false,
+          true,
+          true,
+          true,
+          false
+        ]
+      ],
+      "new_common_target_slots": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_target_difference_rms": [
+        0.0,
+        0.6097824573516846,
+        1.1291236877441406,
+        1.1194864511489868,
+        1.1310855150222778,
+        0.6344988942146301
+      ]
+    },
+    {
+      "group": 12,
+      "bridge": 1,
+      "neutral": false,
+      "candidate_bank_indices": [
+        330,
+        346,
+        35,
+        44,
+        98,
+        355
+      ],
+      "new_common_blocked_slots": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_goal_success_slots_by_physical_condition": [
+        [
+          false,
+          true,
+          false,
+          false,
+          false,
+          false
+        ],
+        [
+          false,
+          false,
+          true,
+          true,
+          true,
+          false
+        ]
+      ],
+      "new_common_target_slots": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_target_difference_rms": [
+        0.0,
+        0.5051711201667786,
+        1.2728080749511719,
+        1.2486872673034668,
+        1.271353840827942,
+        0.4040805995464325
+      ]
+    },
+    {
+      "group": 13,
+      "bridge": 0,
+      "neutral": true,
+      "candidate_bank_indices": null,
+      "new_common_blocked_slots": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_goal_success_slots_by_physical_condition": [
+        [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      ],
+      "new_common_target_slots": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "new_target_difference_rms": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "group": 13,
+      "bridge": 1,
+      "neutral": true,
+      "candidate_bank_indices": null,
+      "new_common_blocked_slots": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_goal_success_slots_by_physical_condition": [
+        [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      ],
+      "new_common_target_slots": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "new_target_difference_rms": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "group": 14,
+      "bridge": 0,
+      "neutral": true,
+      "candidate_bank_indices": null,
+      "new_common_blocked_slots": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_goal_success_slots_by_physical_condition": [
+        [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      ],
+      "new_common_target_slots": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "new_target_difference_rms": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "group": 14,
+      "bridge": 1,
+      "neutral": true,
+      "candidate_bank_indices": null,
+      "new_common_blocked_slots": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_goal_success_slots_by_physical_condition": [
+        [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      ],
+      "new_common_target_slots": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "new_target_difference_rms": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "group": 15,
+      "bridge": 0,
+      "neutral": false,
+      "candidate_bank_indices": [
+        380,
+        355,
+        35,
+        44,
+        98,
+        346
+      ],
+      "new_common_blocked_slots": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_goal_success_slots_by_physical_condition": [
+        [
+          false,
+          true,
+          false,
+          false,
+          false,
+          true
+        ],
+        [
+          false,
+          false,
+          true,
+          true,
+          true,
+          false
+        ]
+      ],
+      "new_common_target_slots": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_target_difference_rms": [
+        0.0,
+        0.6097824573516846,
+        1.1291236877441406,
+        1.1194864511489868,
+        1.1310855150222778,
+        0.6344988942146301
+      ]
+    },
+    {
+      "group": 15,
+      "bridge": 1,
+      "neutral": false,
+      "candidate_bank_indices": [
+        330,
+        346,
+        35,
+        44,
+        98,
+        355
+      ],
+      "new_common_blocked_slots": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_goal_success_slots_by_physical_condition": [
+        [
+          false,
+          true,
+          false,
+          false,
+          false,
+          false
+        ],
+        [
+          false,
+          false,
+          true,
+          true,
+          true,
+          false
+        ]
+      ],
+      "new_common_target_slots": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_target_difference_rms": [
+        0.0,
+        0.5051711201667786,
+        1.2728080749511719,
+        1.2486872673034668,
+        1.271353840827942,
+        0.4040805995464325
+      ]
+    },
+    {
+      "group": 16,
+      "bridge": 0,
+      "neutral": false,
+      "candidate_bank_indices": [
+        380,
+        355,
+        35,
+        44,
+        98,
+        346
+      ],
+      "new_common_blocked_slots": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_goal_success_slots_by_physical_condition": [
+        [
+          false,
+          true,
+          false,
+          false,
+          false,
+          true
+        ],
+        [
+          false,
+          false,
+          true,
+          true,
+          true,
+          false
+        ]
+      ],
+      "new_common_target_slots": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_target_difference_rms": [
+        0.0,
+        0.6097824573516846,
+        1.1291236877441406,
+        1.1194864511489868,
+        1.1310855150222778,
+        0.6344988942146301
+      ]
+    },
+    {
+      "group": 16,
+      "bridge": 1,
+      "neutral": false,
+      "candidate_bank_indices": [
+        330,
+        346,
+        35,
+        44,
+        98,
+        355
+      ],
+      "new_common_blocked_slots": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_goal_success_slots_by_physical_condition": [
+        [
+          false,
+          true,
+          false,
+          false,
+          false,
+          false
+        ],
+        [
+          false,
+          false,
+          true,
+          true,
+          true,
+          false
+        ]
+      ],
+      "new_common_target_slots": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_target_difference_rms": [
+        0.0,
+        0.5051711201667786,
+        1.2728080749511719,
+        1.2486872673034668,
+        1.271353840827942,
+        0.4040805995464325
+      ]
+    },
+    {
+      "group": 17,
+      "bridge": 0,
+      "neutral": false,
+      "candidate_bank_indices": [
+        380,
+        355,
+        35,
+        44,
+        98,
+        346
+      ],
+      "new_common_blocked_slots": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_goal_success_slots_by_physical_condition": [
+        [
+          false,
+          true,
+          false,
+          false,
+          false,
+          true
+        ],
+        [
+          false,
+          false,
+          true,
+          true,
+          true,
+          false
+        ]
+      ],
+      "new_common_target_slots": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_target_difference_rms": [
+        0.0,
+        0.6097824573516846,
+        1.1291236877441406,
+        1.1194864511489868,
+        1.1310855150222778,
+        0.6344988942146301
+      ]
+    },
+    {
+      "group": 17,
+      "bridge": 1,
+      "neutral": false,
+      "candidate_bank_indices": [
+        330,
+        346,
+        35,
+        44,
+        98,
+        355
+      ],
+      "new_common_blocked_slots": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_goal_success_slots_by_physical_condition": [
+        [
+          false,
+          true,
+          false,
+          false,
+          false,
+          false
+        ],
+        [
+          false,
+          false,
+          true,
+          true,
+          true,
+          false
+        ]
+      ],
+      "new_common_target_slots": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_target_difference_rms": [
+        0.0,
+        0.5051711201667786,
+        1.2728080749511719,
+        1.2486872673034668,
+        1.271353840827942,
+        0.4040805995464325
+      ]
+    },
+    {
+      "group": 18,
+      "bridge": 0,
+      "neutral": false,
+      "candidate_bank_indices": [
+        382,
+        134,
+        286,
+        181,
+        155,
+        325
+      ],
+      "new_common_blocked_slots": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_goal_success_slots_by_physical_condition": [
+        [
+          false,
+          true,
+          false,
+          true,
+          true,
+          false
+        ],
+        [
+          false,
+          false,
+          true,
+          false,
+          false,
+          false
+        ]
+      ],
+      "new_common_target_slots": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_target_difference_rms": [
+        0.0,
+        0.6630344390869141,
+        1.0856211185455322,
+        0.658492922782898,
+        0.696057915687561,
+        1.1103925704956055
+      ]
+    },
+    {
+      "group": 18,
+      "bridge": 1,
+      "neutral": false,
+      "candidate_bank_indices": [
+        19,
+        134,
+        286,
+        181,
+        325,
+        300
+      ],
+      "new_common_blocked_slots": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_goal_success_slots_by_physical_condition": [
+        [
+          false,
+          true,
+          false,
+          false,
+          false,
+          false
+        ],
+        [
+          false,
+          false,
+          true,
+          false,
+          false,
+          true
+        ]
+      ],
+      "new_common_target_slots": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_target_difference_rms": [
+        0.0,
+        0.5094029903411865,
+        1.2138317823410034,
+        0.4337787628173828,
+        1.2543286085128784,
+        1.3054293394088745
+      ]
+    },
+    {
+      "group": 19,
+      "bridge": 0,
+      "neutral": true,
+      "candidate_bank_indices": null,
+      "new_common_blocked_slots": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_goal_success_slots_by_physical_condition": [
+        [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      ],
+      "new_common_target_slots": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "new_target_difference_rms": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "group": 19,
+      "bridge": 1,
+      "neutral": true,
+      "candidate_bank_indices": null,
+      "new_common_blocked_slots": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_goal_success_slots_by_physical_condition": [
+        [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      ],
+      "new_common_target_slots": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "new_target_difference_rms": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "group": 20,
+      "bridge": 0,
+      "neutral": true,
+      "candidate_bank_indices": null,
+      "new_common_blocked_slots": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_goal_success_slots_by_physical_condition": [
+        [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      ],
+      "new_common_target_slots": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "new_target_difference_rms": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "group": 20,
+      "bridge": 1,
+      "neutral": true,
+      "candidate_bank_indices": null,
+      "new_common_blocked_slots": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_goal_success_slots_by_physical_condition": [
+        [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      ],
+      "new_common_target_slots": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "new_target_difference_rms": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "group": 21,
+      "bridge": 0,
+      "neutral": false,
+      "candidate_bank_indices": [
+        382,
+        134,
+        286,
+        181,
+        155,
+        325
+      ],
+      "new_common_blocked_slots": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_goal_success_slots_by_physical_condition": [
+        [
+          false,
+          true,
+          false,
+          true,
+          true,
+          false
+        ],
+        [
+          false,
+          false,
+          true,
+          false,
+          false,
+          false
+        ]
+      ],
+      "new_common_target_slots": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_target_difference_rms": [
+        0.0,
+        0.6630344390869141,
+        1.0856211185455322,
+        0.658492922782898,
+        0.696057915687561,
+        1.1103925704956055
+      ]
+    },
+    {
+      "group": 21,
+      "bridge": 1,
+      "neutral": false,
+      "candidate_bank_indices": [
+        19,
+        134,
+        286,
+        181,
+        325,
+        300
+      ],
+      "new_common_blocked_slots": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_goal_success_slots_by_physical_condition": [
+        [
+          false,
+          true,
+          false,
+          false,
+          false,
+          false
+        ],
+        [
+          false,
+          false,
+          true,
+          false,
+          false,
+          true
+        ]
+      ],
+      "new_common_target_slots": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_target_difference_rms": [
+        0.0,
+        0.5094029903411865,
+        1.2138317823410034,
+        0.4337787628173828,
+        1.2543286085128784,
+        1.3054293394088745
+      ]
+    },
+    {
+      "group": 22,
+      "bridge": 0,
+      "neutral": false,
+      "candidate_bank_indices": [
+        382,
+        134,
+        286,
+        181,
+        155,
+        325
+      ],
+      "new_common_blocked_slots": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_goal_success_slots_by_physical_condition": [
+        [
+          false,
+          true,
+          false,
+          true,
+          true,
+          false
+        ],
+        [
+          false,
+          false,
+          true,
+          false,
+          false,
+          false
+        ]
+      ],
+      "new_common_target_slots": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_target_difference_rms": [
+        0.0,
+        0.6630344390869141,
+        1.0856211185455322,
+        0.658492922782898,
+        0.696057915687561,
+        1.1103925704956055
+      ]
+    },
+    {
+      "group": 22,
+      "bridge": 1,
+      "neutral": false,
+      "candidate_bank_indices": [
+        19,
+        134,
+        286,
+        181,
+        325,
+        300
+      ],
+      "new_common_blocked_slots": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_goal_success_slots_by_physical_condition": [
+        [
+          false,
+          true,
+          false,
+          false,
+          false,
+          false
+        ],
+        [
+          false,
+          false,
+          true,
+          false,
+          false,
+          true
+        ]
+      ],
+      "new_common_target_slots": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_target_difference_rms": [
+        0.0,
+        0.5094029903411865,
+        1.2138317823410034,
+        0.4337787628173828,
+        1.2543286085128784,
+        1.3054293394088745
+      ]
+    },
+    {
+      "group": 23,
+      "bridge": 0,
+      "neutral": false,
+      "candidate_bank_indices": [
+        382,
+        134,
+        286,
+        181,
+        155,
+        325
+      ],
+      "new_common_blocked_slots": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_goal_success_slots_by_physical_condition": [
+        [
+          false,
+          true,
+          false,
+          true,
+          true,
+          false
+        ],
+        [
+          false,
+          false,
+          true,
+          false,
+          false,
+          false
+        ]
+      ],
+      "new_common_target_slots": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_target_difference_rms": [
+        0.0,
+        0.6630344390869141,
+        1.0856211185455322,
+        0.658492922782898,
+        0.696057915687561,
+        1.1103925704956055
+      ]
+    },
+    {
+      "group": 23,
+      "bridge": 1,
+      "neutral": false,
+      "candidate_bank_indices": [
+        19,
+        134,
+        286,
+        181,
+        325,
+        300
+      ],
+      "new_common_blocked_slots": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_goal_success_slots_by_physical_condition": [
+        [
+          false,
+          true,
+          false,
+          false,
+          false,
+          false
+        ],
+        [
+          false,
+          false,
+          true,
+          false,
+          false,
+          true
+        ]
+      ],
+      "new_common_target_slots": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_target_difference_rms": [
+        0.0,
+        0.5094029903411865,
+        1.2138317823410034,
+        0.4337787628173828,
+        1.2543286085128784,
+        1.3054293394088745
+      ]
+    },
+    {
+      "group": 24,
+      "bridge": 0,
+      "neutral": false,
+      "candidate_bank_indices": [
+        376,
+        39,
+        244,
+        148,
+        105,
+        209
+      ],
+      "new_common_blocked_slots": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_goal_success_slots_by_physical_condition": [
+        [
+          false,
+          true,
+          false,
+          true,
+          true,
+          false
+        ],
+        [
+          false,
+          false,
+          true,
+          false,
+          false,
+          true
+        ]
+      ],
+      "new_common_target_slots": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_target_difference_rms": [
+        0.0,
+        1.1218843460083008,
+        0.6596496105194092,
+        1.10358726978302,
+        1.1369259357452393,
+        0.673725426197052
+      ]
+    },
+    {
+      "group": 24,
+      "bridge": 1,
+      "neutral": false,
+      "candidate_bank_indices": [
+        379,
+        39,
+        244,
+        148,
+        105,
+        209
+      ],
+      "new_common_blocked_slots": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_goal_success_slots_by_physical_condition": [
+        [
+          false,
+          true,
+          false,
+          false,
+          true,
+          false
+        ],
+        [
+          false,
+          false,
+          true,
+          false,
+          false,
+          true
+        ]
+      ],
+      "new_common_target_slots": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_target_difference_rms": [
+        0.0,
+        1.2618364095687866,
+        0.5516363978385925,
+        1.2517417669296265,
+        1.2825312614440918,
+        0.5765963792800903
+      ]
+    },
+    {
+      "group": 25,
+      "bridge": 0,
+      "neutral": true,
+      "candidate_bank_indices": null,
+      "new_common_blocked_slots": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_goal_success_slots_by_physical_condition": [
+        [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      ],
+      "new_common_target_slots": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "new_target_difference_rms": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "group": 25,
+      "bridge": 1,
+      "neutral": true,
+      "candidate_bank_indices": null,
+      "new_common_blocked_slots": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_goal_success_slots_by_physical_condition": [
+        [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      ],
+      "new_common_target_slots": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "new_target_difference_rms": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "group": 26,
+      "bridge": 0,
+      "neutral": true,
+      "candidate_bank_indices": null,
+      "new_common_blocked_slots": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_goal_success_slots_by_physical_condition": [
+        [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      ],
+      "new_common_target_slots": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "new_target_difference_rms": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "group": 26,
+      "bridge": 1,
+      "neutral": true,
+      "candidate_bank_indices": null,
+      "new_common_blocked_slots": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_goal_success_slots_by_physical_condition": [
+        [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      ],
+      "new_common_target_slots": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "new_target_difference_rms": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "group": 27,
+      "bridge": 0,
+      "neutral": false,
+      "candidate_bank_indices": [
+        376,
+        39,
+        244,
+        148,
+        105,
+        209
+      ],
+      "new_common_blocked_slots": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_goal_success_slots_by_physical_condition": [
+        [
+          false,
+          true,
+          false,
+          true,
+          true,
+          false
+        ],
+        [
+          false,
+          false,
+          true,
+          false,
+          false,
+          true
+        ]
+      ],
+      "new_common_target_slots": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_target_difference_rms": [
+        0.0,
+        1.1218843460083008,
+        0.6596496105194092,
+        1.10358726978302,
+        1.1369259357452393,
+        0.673725426197052
+      ]
+    },
+    {
+      "group": 27,
+      "bridge": 1,
+      "neutral": false,
+      "candidate_bank_indices": [
+        379,
+        39,
+        244,
+        148,
+        105,
+        209
+      ],
+      "new_common_blocked_slots": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_goal_success_slots_by_physical_condition": [
+        [
+          false,
+          true,
+          false,
+          false,
+          true,
+          false
+        ],
+        [
+          false,
+          false,
+          true,
+          false,
+          false,
+          true
+        ]
+      ],
+      "new_common_target_slots": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_target_difference_rms": [
+        0.0,
+        1.2618364095687866,
+        0.5516363978385925,
+        1.2517417669296265,
+        1.2825312614440918,
+        0.5765963792800903
+      ]
+    },
+    {
+      "group": 28,
+      "bridge": 0,
+      "neutral": false,
+      "candidate_bank_indices": [
+        376,
+        39,
+        244,
+        148,
+        105,
+        209
+      ],
+      "new_common_blocked_slots": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_goal_success_slots_by_physical_condition": [
+        [
+          false,
+          true,
+          false,
+          true,
+          true,
+          false
+        ],
+        [
+          false,
+          false,
+          true,
+          false,
+          false,
+          true
+        ]
+      ],
+      "new_common_target_slots": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_target_difference_rms": [
+        0.0,
+        1.1218843460083008,
+        0.6596496105194092,
+        1.10358726978302,
+        1.1369259357452393,
+        0.673725426197052
+      ]
+    },
+    {
+      "group": 28,
+      "bridge": 1,
+      "neutral": false,
+      "candidate_bank_indices": [
+        379,
+        39,
+        244,
+        148,
+        105,
+        209
+      ],
+      "new_common_blocked_slots": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_goal_success_slots_by_physical_condition": [
+        [
+          false,
+          true,
+          false,
+          false,
+          true,
+          false
+        ],
+        [
+          false,
+          false,
+          true,
+          false,
+          false,
+          true
+        ]
+      ],
+      "new_common_target_slots": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_target_difference_rms": [
+        0.0,
+        1.2618364095687866,
+        0.5516363978385925,
+        1.2517417669296265,
+        1.2825312614440918,
+        0.5765963792800903
+      ]
+    },
+    {
+      "group": 29,
+      "bridge": 0,
+      "neutral": false,
+      "candidate_bank_indices": [
+        376,
+        39,
+        244,
+        148,
+        105,
+        209
+      ],
+      "new_common_blocked_slots": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_goal_success_slots_by_physical_condition": [
+        [
+          false,
+          true,
+          false,
+          true,
+          true,
+          false
+        ],
+        [
+          false,
+          false,
+          true,
+          false,
+          false,
+          true
+        ]
+      ],
+      "new_common_target_slots": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_target_difference_rms": [
+        0.0,
+        1.1218843460083008,
+        0.6596496105194092,
+        1.10358726978302,
+        1.1369259357452393,
+        0.673725426197052
+      ]
+    },
+    {
+      "group": 29,
+      "bridge": 1,
+      "neutral": false,
+      "candidate_bank_indices": [
+        379,
+        39,
+        244,
+        148,
+        105,
+        209
+      ],
+      "new_common_blocked_slots": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_goal_success_slots_by_physical_condition": [
+        [
+          false,
+          true,
+          false,
+          false,
+          true,
+          false
+        ],
+        [
+          false,
+          false,
+          true,
+          false,
+          false,
+          true
+        ]
+      ],
+      "new_common_target_slots": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_target_difference_rms": [
+        0.0,
+        1.2618364095687866,
+        0.5516363978385925,
+        1.2517417669296265,
+        1.2825312614440918,
+        0.5765963792800903
+      ]
+    },
+    {
+      "group": 30,
+      "bridge": 0,
+      "neutral": false,
+      "candidate_bank_indices": [
+        377,
+        344,
+        185,
+        13,
+        89,
+        226
+      ],
+      "new_common_blocked_slots": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_goal_success_slots_by_physical_condition": [
+        [
+          false,
+          true,
+          false,
+          false,
+          false,
+          true
+        ],
+        [
+          false,
+          false,
+          true,
+          true,
+          true,
+          false
+        ]
+      ],
+      "new_common_target_slots": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_target_difference_rms": [
+        0.0,
+        1.130494236946106,
+        0.6650373935699463,
+        0.6289939880371094,
+        0.576666533946991,
+        1.0916748046875
+      ]
+    },
+    {
+      "group": 30,
+      "bridge": 1,
+      "neutral": false,
+      "candidate_bank_indices": [
+        93,
+        344,
+        13,
+        185,
+        226,
+        293
+      ],
+      "new_common_blocked_slots": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_goal_success_slots_by_physical_condition": [
+        [
+          false,
+          true,
+          false,
+          false,
+          true,
+          true
+        ],
+        [
+          false,
+          false,
+          true,
+          false,
+          false,
+          false
+        ]
+      ],
+      "new_common_target_slots": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_target_difference_rms": [
+        0.0,
+        1.266890525817871,
+        0.4510350823402405,
+        0.48055270314216614,
+        1.1939408779144287,
+        1.2708557844161987
+      ]
+    },
+    {
+      "group": 31,
+      "bridge": 0,
+      "neutral": true,
+      "candidate_bank_indices": null,
+      "new_common_blocked_slots": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_goal_success_slots_by_physical_condition": [
+        [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      ],
+      "new_common_target_slots": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "new_target_difference_rms": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "group": 31,
+      "bridge": 1,
+      "neutral": true,
+      "candidate_bank_indices": null,
+      "new_common_blocked_slots": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_goal_success_slots_by_physical_condition": [
+        [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      ],
+      "new_common_target_slots": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "new_target_difference_rms": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "group": 32,
+      "bridge": 0,
+      "neutral": true,
+      "candidate_bank_indices": null,
+      "new_common_blocked_slots": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_goal_success_slots_by_physical_condition": [
+        [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      ],
+      "new_common_target_slots": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "new_target_difference_rms": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "group": 32,
+      "bridge": 1,
+      "neutral": true,
+      "candidate_bank_indices": null,
+      "new_common_blocked_slots": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_goal_success_slots_by_physical_condition": [
+        [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      ],
+      "new_common_target_slots": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "new_target_difference_rms": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "group": 33,
+      "bridge": 0,
+      "neutral": false,
+      "candidate_bank_indices": [
+        377,
+        344,
+        185,
+        13,
+        89,
+        226
+      ],
+      "new_common_blocked_slots": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_goal_success_slots_by_physical_condition": [
+        [
+          false,
+          true,
+          false,
+          false,
+          false,
+          true
+        ],
+        [
+          false,
+          false,
+          true,
+          true,
+          true,
+          false
+        ]
+      ],
+      "new_common_target_slots": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_target_difference_rms": [
+        0.0,
+        1.130494236946106,
+        0.6650373935699463,
+        0.6289939880371094,
+        0.576666533946991,
+        1.0916748046875
+      ]
+    },
+    {
+      "group": 33,
+      "bridge": 1,
+      "neutral": false,
+      "candidate_bank_indices": [
+        93,
+        344,
+        13,
+        185,
+        226,
+        293
+      ],
+      "new_common_blocked_slots": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_goal_success_slots_by_physical_condition": [
+        [
+          false,
+          true,
+          false,
+          false,
+          true,
+          true
+        ],
+        [
+          false,
+          false,
+          true,
+          false,
+          false,
+          false
+        ]
+      ],
+      "new_common_target_slots": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_target_difference_rms": [
+        0.0,
+        1.266890525817871,
+        0.4510350823402405,
+        0.48055270314216614,
+        1.1939408779144287,
+        1.2708557844161987
+      ]
+    },
+    {
+      "group": 34,
+      "bridge": 0,
+      "neutral": false,
+      "candidate_bank_indices": [
+        377,
+        344,
+        185,
+        13,
+        89,
+        226
+      ],
+      "new_common_blocked_slots": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_goal_success_slots_by_physical_condition": [
+        [
+          false,
+          true,
+          false,
+          false,
+          false,
+          true
+        ],
+        [
+          false,
+          false,
+          true,
+          true,
+          true,
+          false
+        ]
+      ],
+      "new_common_target_slots": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_target_difference_rms": [
+        0.0,
+        1.130494236946106,
+        0.6650373935699463,
+        0.6289939880371094,
+        0.576666533946991,
+        1.0916748046875
+      ]
+    },
+    {
+      "group": 34,
+      "bridge": 1,
+      "neutral": false,
+      "candidate_bank_indices": [
+        93,
+        344,
+        13,
+        185,
+        226,
+        293
+      ],
+      "new_common_blocked_slots": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_goal_success_slots_by_physical_condition": [
+        [
+          false,
+          true,
+          false,
+          false,
+          true,
+          true
+        ],
+        [
+          false,
+          false,
+          true,
+          false,
+          false,
+          false
+        ]
+      ],
+      "new_common_target_slots": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_target_difference_rms": [
+        0.0,
+        1.266890525817871,
+        0.4510350823402405,
+        0.48055270314216614,
+        1.1939408779144287,
+        1.2708557844161987
+      ]
+    },
+    {
+      "group": 35,
+      "bridge": 0,
+      "neutral": false,
+      "candidate_bank_indices": [
+        377,
+        344,
+        185,
+        13,
+        89,
+        226
+      ],
+      "new_common_blocked_slots": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_goal_success_slots_by_physical_condition": [
+        [
+          false,
+          true,
+          false,
+          false,
+          false,
+          true
+        ],
+        [
+          false,
+          false,
+          true,
+          true,
+          true,
+          false
+        ]
+      ],
+      "new_common_target_slots": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_target_difference_rms": [
+        0.0,
+        1.130494236946106,
+        0.6650373935699463,
+        0.6289939880371094,
+        0.576666533946991,
+        1.0916748046875
+      ]
+    },
+    {
+      "group": 35,
+      "bridge": 1,
+      "neutral": false,
+      "candidate_bank_indices": [
+        93,
+        344,
+        13,
+        185,
+        226,
+        293
+      ],
+      "new_common_blocked_slots": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_goal_success_slots_by_physical_condition": [
+        [
+          false,
+          true,
+          false,
+          false,
+          true,
+          true
+        ],
+        [
+          false,
+          false,
+          true,
+          false,
+          false,
+          false
+        ]
+      ],
+      "new_common_target_slots": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_target_difference_rms": [
+        0.0,
+        1.266890525817871,
+        0.4510350823402405,
+        0.48055270314216614,
+        1.1939408779144287,
+        1.2708557844161987
+      ]
+    },
+    {
+      "group": 36,
+      "bridge": 0,
+      "neutral": false,
+      "candidate_bank_indices": [
+        380,
+        206,
+        60,
+        57,
+        42,
+        353
+      ],
+      "new_common_blocked_slots": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_goal_success_slots_by_physical_condition": [
+        [
+          false,
+          true,
+          false,
+          false,
+          false,
+          true
+        ],
+        [
+          false,
+          false,
+          true,
+          true,
+          true,
+          false
+        ]
+      ],
+      "new_common_target_slots": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_target_difference_rms": [
+        0.0,
+        0.6727367639541626,
+        1.0827350616455078,
+        1.1047935485839844,
+        1.126017689704895,
+        0.653245210647583
+      ]
+    },
+    {
+      "group": 36,
+      "bridge": 1,
+      "neutral": false,
+      "candidate_bank_indices": [
+        195,
+        206,
+        60,
+        57,
+        42,
+        353
+      ],
+      "new_common_blocked_slots": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_goal_success_slots_by_physical_condition": [
+        [
+          false,
+          true,
+          false,
+          false,
+          false,
+          true
+        ],
+        [
+          false,
+          false,
+          true,
+          true,
+          true,
+          false
+        ]
+      ],
+      "new_common_target_slots": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_target_difference_rms": [
+        0.0,
+        0.4818718135356903,
+        1.2594211101531982,
+        1.277173638343811,
+        1.2794768810272217,
+        0.47764357924461365
+      ]
+    },
+    {
+      "group": 37,
+      "bridge": 0,
+      "neutral": true,
+      "candidate_bank_indices": null,
+      "new_common_blocked_slots": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_goal_success_slots_by_physical_condition": [
+        [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      ],
+      "new_common_target_slots": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "new_target_difference_rms": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "group": 37,
+      "bridge": 1,
+      "neutral": true,
+      "candidate_bank_indices": null,
+      "new_common_blocked_slots": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_goal_success_slots_by_physical_condition": [
+        [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      ],
+      "new_common_target_slots": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "new_target_difference_rms": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "group": 38,
+      "bridge": 0,
+      "neutral": true,
+      "candidate_bank_indices": null,
+      "new_common_blocked_slots": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_goal_success_slots_by_physical_condition": [
+        [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      ],
+      "new_common_target_slots": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "new_target_difference_rms": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "group": 38,
+      "bridge": 1,
+      "neutral": true,
+      "candidate_bank_indices": null,
+      "new_common_blocked_slots": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_goal_success_slots_by_physical_condition": [
+        [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      ],
+      "new_common_target_slots": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "new_target_difference_rms": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "group": 39,
+      "bridge": 0,
+      "neutral": false,
+      "candidate_bank_indices": [
+        380,
+        206,
+        60,
+        57,
+        42,
+        353
+      ],
+      "new_common_blocked_slots": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_goal_success_slots_by_physical_condition": [
+        [
+          false,
+          true,
+          false,
+          false,
+          false,
+          true
+        ],
+        [
+          false,
+          false,
+          true,
+          true,
+          true,
+          false
+        ]
+      ],
+      "new_common_target_slots": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_target_difference_rms": [
+        0.0,
+        0.6727367639541626,
+        1.0827350616455078,
+        1.1047935485839844,
+        1.126017689704895,
+        0.653245210647583
+      ]
+    },
+    {
+      "group": 39,
+      "bridge": 1,
+      "neutral": false,
+      "candidate_bank_indices": [
+        195,
+        206,
+        60,
+        57,
+        42,
+        353
+      ],
+      "new_common_blocked_slots": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_goal_success_slots_by_physical_condition": [
+        [
+          false,
+          true,
+          false,
+          false,
+          false,
+          true
+        ],
+        [
+          false,
+          false,
+          true,
+          true,
+          true,
+          false
+        ]
+      ],
+      "new_common_target_slots": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_target_difference_rms": [
+        0.0,
+        0.4818718135356903,
+        1.2594211101531982,
+        1.277173638343811,
+        1.2794768810272217,
+        0.47764357924461365
+      ]
+    },
+    {
+      "group": 40,
+      "bridge": 0,
+      "neutral": false,
+      "candidate_bank_indices": [
+        380,
+        206,
+        60,
+        57,
+        42,
+        353
+      ],
+      "new_common_blocked_slots": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_goal_success_slots_by_physical_condition": [
+        [
+          false,
+          true,
+          false,
+          false,
+          false,
+          true
+        ],
+        [
+          false,
+          false,
+          true,
+          true,
+          true,
+          false
+        ]
+      ],
+      "new_common_target_slots": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_target_difference_rms": [
+        0.0,
+        0.6727367639541626,
+        1.0827350616455078,
+        1.1047935485839844,
+        1.126017689704895,
+        0.653245210647583
+      ]
+    },
+    {
+      "group": 40,
+      "bridge": 1,
+      "neutral": false,
+      "candidate_bank_indices": [
+        195,
+        206,
+        60,
+        57,
+        42,
+        353
+      ],
+      "new_common_blocked_slots": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_goal_success_slots_by_physical_condition": [
+        [
+          false,
+          true,
+          false,
+          false,
+          false,
+          true
+        ],
+        [
+          false,
+          false,
+          true,
+          true,
+          true,
+          false
+        ]
+      ],
+      "new_common_target_slots": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_target_difference_rms": [
+        0.0,
+        0.4818718135356903,
+        1.2594211101531982,
+        1.277173638343811,
+        1.2794768810272217,
+        0.47764357924461365
+      ]
+    },
+    {
+      "group": 41,
+      "bridge": 0,
+      "neutral": false,
+      "candidate_bank_indices": [
+        380,
+        206,
+        60,
+        57,
+        42,
+        353
+      ],
+      "new_common_blocked_slots": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_goal_success_slots_by_physical_condition": [
+        [
+          false,
+          true,
+          false,
+          false,
+          false,
+          true
+        ],
+        [
+          false,
+          false,
+          true,
+          true,
+          true,
+          false
+        ]
+      ],
+      "new_common_target_slots": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_target_difference_rms": [
+        0.0,
+        0.6727367639541626,
+        1.0827350616455078,
+        1.1047935485839844,
+        1.126017689704895,
+        0.653245210647583
+      ]
+    },
+    {
+      "group": 41,
+      "bridge": 1,
+      "neutral": false,
+      "candidate_bank_indices": [
+        195,
+        206,
+        60,
+        57,
+        42,
+        353
+      ],
+      "new_common_blocked_slots": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_goal_success_slots_by_physical_condition": [
+        [
+          false,
+          true,
+          false,
+          false,
+          false,
+          true
+        ],
+        [
+          false,
+          false,
+          true,
+          true,
+          true,
+          false
+        ]
+      ],
+      "new_common_target_slots": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_target_difference_rms": [
+        0.0,
+        0.4818718135356903,
+        1.2594211101531982,
+        1.277173638343811,
+        1.2794768810272217,
+        0.47764357924461365
+      ]
+    },
+    {
+      "group": 42,
+      "bridge": 0,
+      "neutral": false,
+      "candidate_bank_indices": [
+        382,
+        52,
+        233,
+        135,
+        87,
+        334
+      ],
+      "new_common_blocked_slots": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_goal_success_slots_by_physical_condition": [
+        [
+          false,
+          true,
+          false,
+          true,
+          true,
+          false
+        ],
+        [
+          false,
+          false,
+          true,
+          false,
+          false,
+          true
+        ]
+      ],
+      "new_common_target_slots": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_target_difference_rms": [
+        0.0,
+        0.6647332310676575,
+        1.1180576086044312,
+        0.6650927662849426,
+        0.6649643182754517,
+        1.1732308864593506
+      ]
+    },
+    {
+      "group": 42,
+      "bridge": 1,
+      "neutral": false,
+      "candidate_bank_indices": [
+        382,
+        52,
+        233,
+        135,
+        87,
+        334
+      ],
+      "new_common_blocked_slots": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_goal_success_slots_by_physical_condition": [
+        [
+          false,
+          true,
+          false,
+          true,
+          true,
+          false
+        ],
+        [
+          false,
+          false,
+          true,
+          false,
+          false,
+          true
+        ]
+      ],
+      "new_common_target_slots": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_target_difference_rms": [
+        0.0,
+        0.540174126625061,
+        1.2735496759414673,
+        0.5099104642868042,
+        0.5536729097366333,
+        1.2831083536148071
+      ]
+    },
+    {
+      "group": 43,
+      "bridge": 0,
+      "neutral": true,
+      "candidate_bank_indices": null,
+      "new_common_blocked_slots": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_goal_success_slots_by_physical_condition": [
+        [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      ],
+      "new_common_target_slots": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "new_target_difference_rms": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "group": 43,
+      "bridge": 1,
+      "neutral": true,
+      "candidate_bank_indices": null,
+      "new_common_blocked_slots": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_goal_success_slots_by_physical_condition": [
+        [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      ],
+      "new_common_target_slots": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "new_target_difference_rms": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "group": 44,
+      "bridge": 0,
+      "neutral": true,
+      "candidate_bank_indices": null,
+      "new_common_blocked_slots": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_goal_success_slots_by_physical_condition": [
+        [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      ],
+      "new_common_target_slots": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "new_target_difference_rms": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "group": 44,
+      "bridge": 1,
+      "neutral": true,
+      "candidate_bank_indices": null,
+      "new_common_blocked_slots": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_goal_success_slots_by_physical_condition": [
+        [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      ],
+      "new_common_target_slots": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "new_target_difference_rms": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "group": 45,
+      "bridge": 0,
+      "neutral": false,
+      "candidate_bank_indices": [
+        382,
+        52,
+        233,
+        135,
+        87,
+        334
+      ],
+      "new_common_blocked_slots": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_goal_success_slots_by_physical_condition": [
+        [
+          false,
+          true,
+          false,
+          true,
+          true,
+          false
+        ],
+        [
+          false,
+          false,
+          true,
+          false,
+          false,
+          true
+        ]
+      ],
+      "new_common_target_slots": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_target_difference_rms": [
+        0.0,
+        0.6647332310676575,
+        1.1180576086044312,
+        0.6650927662849426,
+        0.6649643182754517,
+        1.1732308864593506
+      ]
+    },
+    {
+      "group": 45,
+      "bridge": 1,
+      "neutral": false,
+      "candidate_bank_indices": [
+        382,
+        52,
+        233,
+        135,
+        87,
+        334
+      ],
+      "new_common_blocked_slots": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_goal_success_slots_by_physical_condition": [
+        [
+          false,
+          true,
+          false,
+          true,
+          true,
+          false
+        ],
+        [
+          false,
+          false,
+          true,
+          false,
+          false,
+          true
+        ]
+      ],
+      "new_common_target_slots": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_target_difference_rms": [
+        0.0,
+        0.540174126625061,
+        1.2735496759414673,
+        0.5099104642868042,
+        0.5536729097366333,
+        1.2831083536148071
+      ]
+    },
+    {
+      "group": 46,
+      "bridge": 0,
+      "neutral": false,
+      "candidate_bank_indices": [
+        382,
+        52,
+        233,
+        135,
+        87,
+        334
+      ],
+      "new_common_blocked_slots": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_goal_success_slots_by_physical_condition": [
+        [
+          false,
+          true,
+          false,
+          true,
+          true,
+          false
+        ],
+        [
+          false,
+          false,
+          true,
+          false,
+          false,
+          true
+        ]
+      ],
+      "new_common_target_slots": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_target_difference_rms": [
+        0.0,
+        0.6647332310676575,
+        1.1180576086044312,
+        0.6650927662849426,
+        0.6649643182754517,
+        1.1732308864593506
+      ]
+    },
+    {
+      "group": 46,
+      "bridge": 1,
+      "neutral": false,
+      "candidate_bank_indices": [
+        382,
+        52,
+        233,
+        135,
+        87,
+        334
+      ],
+      "new_common_blocked_slots": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_goal_success_slots_by_physical_condition": [
+        [
+          false,
+          true,
+          false,
+          true,
+          true,
+          false
+        ],
+        [
+          false,
+          false,
+          true,
+          false,
+          false,
+          true
+        ]
+      ],
+      "new_common_target_slots": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_target_difference_rms": [
+        0.0,
+        0.540174126625061,
+        1.2735496759414673,
+        0.5099104642868042,
+        0.5536729097366333,
+        1.2831083536148071
+      ]
+    },
+    {
+      "group": 47,
+      "bridge": 0,
+      "neutral": false,
+      "candidate_bank_indices": [
+        382,
+        52,
+        233,
+        135,
+        87,
+        334
+      ],
+      "new_common_blocked_slots": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_goal_success_slots_by_physical_condition": [
+        [
+          false,
+          true,
+          false,
+          true,
+          true,
+          false
+        ],
+        [
+          false,
+          false,
+          true,
+          false,
+          false,
+          true
+        ]
+      ],
+      "new_common_target_slots": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_target_difference_rms": [
+        0.0,
+        0.6647332310676575,
+        1.1180576086044312,
+        0.6650927662849426,
+        0.6649643182754517,
+        1.1732308864593506
+      ]
+    },
+    {
+      "group": 47,
+      "bridge": 1,
+      "neutral": false,
+      "candidate_bank_indices": [
+        382,
+        52,
+        233,
+        135,
+        87,
+        334
+      ],
+      "new_common_blocked_slots": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_goal_success_slots_by_physical_condition": [
+        [
+          false,
+          true,
+          false,
+          true,
+          true,
+          false
+        ],
+        [
+          false,
+          false,
+          true,
+          false,
+          false,
+          true
+        ]
+      ],
+      "new_common_target_slots": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_target_difference_rms": [
+        0.0,
+        0.540174126625061,
+        1.2735496759414673,
+        0.5099104642868042,
+        0.5536729097366333,
+        1.2831083536148071
+      ]
+    }
+  ]
+}

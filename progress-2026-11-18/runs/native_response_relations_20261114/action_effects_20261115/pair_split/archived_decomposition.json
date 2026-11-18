@@ -1,0 +1,212 @@
+{
+  "train": {
+    "scenes": [
+      101000,
+      101001,
+      101002,
+      101003,
+      101004,
+      101005,
+      101006,
+      101007,
+      101008,
+      101009,
+      101010,
+      101011,
+      101012,
+      101013,
+      101014,
+      101015
+    ],
+    "mirror_pairs": 64,
+    "true_mirror_held_action_rms": [
+      19.225058268969907,
+      36.695538919522825
+    ],
+    "true_mirror_absolute_hold_rms": [
+      49.36691330095936,
+      49.36691330095936
+    ],
+    "true_mirror_held_action_nonzero": [
+      123,
+      149
+    ],
+    "crossover_write_minus_none_rms": {
+      "initial_support__initial_table": [
+        4.430882552806148e-06,
+        7.419750233138549e-06
+      ],
+      "initial_support__fitted_table": [
+        1.9796691042659984e-06,
+        1.7995838610528965e-06
+      ],
+      "fitted_support__initial_table": [
+        2.2173702511614423e-06,
+        3.6097032801772226e-06
+      ],
+      "fitted_support__fitted_table": [
+        8.126262790198756e-07,
+        7.521424368116439e-07
+      ]
+    },
+    "initial": {
+      "pred_mirror_held_action_rms": [
+        6.172858616877039e-06,
+        1.0243608996750827e-05
+      ],
+      "pred_mirror_absolute_hold_rms": [
+        1.9968498969776978e-06,
+        1.9883480005802075e-06
+      ],
+      "action_midpoint_error_rms": [
+        9.802901428401668,
+        18.289096062673323
+      ],
+      "hold_midpoint_error_rms": [
+        58.64715938483427,
+        58.04714270028477
+      ],
+      "pure_mode_diameter_rms": [
+        0.006040439786246603,
+        0.010213255947209413
+      ],
+      "fixed_table_pair_action_contrast_rmse_lower_bound": [
+        19.22146361727463,
+        36.68898252667559
+      ],
+      "mean_mirror_support_tv": 0.0005957230397271331
+    },
+    "fitted": {
+      "pred_mirror_held_action_rms": [
+        1.058036034377137e-06,
+        9.785019266438607e-07
+      ],
+      "pred_mirror_absolute_hold_rms": [
+        9.154649768607646e-07,
+        2.846011747184181e-07
+      ],
+      "action_midpoint_error_rms": [
+        16.347992554598825,
+        22.608559667766187
+      ],
+      "hold_midpoint_error_rms": [
+        52.75746083300379,
+        53.09161384054648
+      ],
+      "pure_mode_diameter_rms": [
+        0.002759219124373113,
+        0.002426988404227471
+      ],
+      "fixed_table_pair_action_contrast_rmse_lower_bound": [
+        19.223548743714783,
+        36.69456160771577
+      ],
+      "mean_mirror_support_tv": 0.0003208338727471252
+    }
+  },
+  "development": {
+    "scenes": [
+      102000,
+      102001,
+      102002,
+      102003,
+      102004,
+      102005,
+      102006,
+      102007,
+      102008,
+      102009,
+      102010,
+      102011,
+      102012,
+      102013,
+      102014,
+      102015
+    ],
+    "mirror_pairs": 64,
+    "true_mirror_held_action_rms": [
+      19.986905693340073,
+      37.664725216448566
+    ],
+    "true_mirror_absolute_hold_rms": [
+      54.02845785984858,
+      54.02845785984858
+    ],
+    "true_mirror_held_action_nonzero": [
+      130,
+      148
+    ],
+    "crossover_write_minus_none_rms": {
+      "initial_support__initial_table": [
+        5.024030496544393e-06,
+        8.082602054783553e-06
+      ],
+      "initial_support__fitted_table": [
+        1.5543892748144412e-06,
+        1.2010842278355439e-06
+      ],
+      "fitted_support__initial_table": [
+        3.4254970030240548e-06,
+        5.476942474010331e-06
+      ],
+      "fitted_support__fitted_table": [
+        1.0231413316387845e-06,
+        9.975629303088316e-07
+      ]
+    },
+    "initial": {
+      "pred_mirror_held_action_rms": [
+        6.741386889883926e-06,
+        1.0865453153610908e-05
+      ],
+      "pred_mirror_absolute_hold_rms": [
+        2.30284106672533e-06,
+        2.2936529479207636e-06
+      ],
+      "action_midpoint_error_rms": [
+        10.087738793690596,
+        18.62236410322791
+      ],
+      "hold_midpoint_error_rms": [
+        60.75555595567985,
+        60.13354357514009
+      ],
+      "pure_mode_diameter_rms": [
+        0.005761468156185778,
+        0.009643816559268485
+      ],
+      "fixed_table_pair_action_contrast_rmse_lower_bound": [
+        19.983413064507427,
+        37.65840352355635
+      ],
+      "mean_mirror_support_tv": 0.0007924008830266361
+    },
+    "fitted": {
+      "pred_mirror_held_action_rms": [
+        1.7430738558382245e-06,
+        1.6419387007351849e-06
+      ],
+      "pred_mirror_absolute_hold_rms": [
+        1.6298251503944376e-06,
+        5.067109475280646e-07
+      ],
+      "action_midpoint_error_rms": [
+        16.55413834866513,
+        22.714609464498334
+      ],
+      "hold_midpoint_error_rms": [
+        56.569944191649235,
+        57.02639825399825
+      ],
+      "pure_mode_diameter_rms": [
+        0.002390522216581977,
+        0.0016940927967893807
+      ],
+      "fixed_table_pair_action_contrast_rmse_lower_bound": [
+        19.985492621697944,
+        37.66390534926245
+      ],
+      "mean_mirror_support_tv": 0.0006297899119583265
+    }
+  }
+}

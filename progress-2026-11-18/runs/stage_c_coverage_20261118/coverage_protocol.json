@@ -1,0 +1,10 @@
+{
+  "source_archive": "D:\\cjepa\\runs\\stage_c_clean_20261117\\lifecycle.npz",
+  "preserved_candidates": 2,
+  "appended_candidates": 6,
+  "selection_contract": "At each varied fitting root select one identical blocked trajectory, one successful non-nominal program per physical condition, then seeded fill to three candidates from each bank family. Use only exact fitting physics and the original goal radius.",
+  "goal_radius": 16.0,
+  "shared_blocked_definition": "Identical full physical paths in both conditions, at least one wall collision, and neither endpoint within the goal radius.",
+  "neutral_definition": "Six conservative out-and-back programs with all actual RGB arrivals equal in both conditions.",
+  "candidate_source": "Full original candidate_bank at each fitting root, excluding the two retained nominal indices."
+}

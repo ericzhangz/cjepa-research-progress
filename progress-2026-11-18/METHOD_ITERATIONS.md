@@ -1,0 +1,64 @@
+# PushT 与 FourRoom 方法迭代与结果
+
+## 11 月 17–18 日：Stage A 与 Stage C
+
+以下条目补在旧实验历史之前，阶段报告保留各自当时的裁定。旧移动门洞 H5 的结果不与原门位 H12 混为同一次实验。
+
+| 阶段 | 计算选择与实测 | 代码和关键数据 |
+| --- | --- | --- |
+| Stage A：原门位宿主与基线 | 原门位全开物理／冻结 LeWM 均 24/24。匹配 ABA/BAB 真实履历下，Frozen、AdaJEPA、OpTTA、GRU 的 24 个岔路首块遗憾为 75.10／59.34／80.52／73.18；双历史两路线均对为 0／3／0／0（/12）。 | [报告](runs/stage_a_20261117/REPORT.md) · [协议](runs/stage_a_20261117/PROTOCOL.md) · [基线汇总](runs/stage_a_fourroom_20261117/baseline_replay/summary.json) · [GRU 训练](runs/stage_a_20261117/gru_training.json) |
+| Stage C：固定背景 | 保留官方 RGB／动作和 last-2 目标代价。Oracle-k 首块遗憾 2.81；无标签两方案双历史 12/12，但 384 候选写入遗憾 75.52。 | [报告](runs/stage_c_clean_20261117/REPORT.md) · [容量](runs/stage_c_clean_20261117/oracle_capacity.json) · [复播汇总](runs/stage_c_clean_20261117/paired_unlabeled_summary.json) · [逐候选溯源](runs/stage_c_clean_20261117/fixed_regret_trace.json) |
+| Step 1：八方案覆盖 | 同 1280 步、真实履历、无标签目标，只扩大训练菜单。Cand 115 自由窗差 73.04→4.28 px，真实写入遗憾 75.52→5.02；局部编号仍随方位互换。 | [报告](runs/stage_c_coverage_20261118/REPORT.md) · [覆盖对照](runs/stage_c_coverage_20261118/coverage_comparison.json) · [固定候选](runs/stage_c_coverage_20261118/fixed_regret_trace.json) |
+| Step 2：跨方位同排列 | 同八组贯通桥，对比共用一次排列和两端分别配对，各续训 256 步。共用排列未通过首到达与长程判断的一致性验收。 | [报告](runs/stage_c_bridge_20261118/REPORT.md) · [共用结果](runs/stage_c_bridge_20261118/paired_unlabeled_summary.json) · [分端结果](runs/stage_c_bridge_split_20261118/paired_unlabeled_summary.json) |
+| §49.11–49.12：H1 到达绑定 H12 菜单 | 官方宿主重训 1280 步，首探每阶段 8/8，真解释遗憾 2.89；回撤证据仍将正确支持约 0.985→0.339，写入遗憾 19.63、双历史 6/12，无关改选 0/48。整段能力未过线。 | [最新报告](runs/stage_c_bridge_source_20261118/REPORT.md) · [逐到达](runs/stage_c_bridge_source_20261118/arrival_trace.json) · [训练汇总](runs/stage_c_bridge_source_20261118/paired_unlabeled_fit.json) · [H12 诊断](runs/stage_c_bridge_source_20261118/fixed_regret_trace.json) · [实现](research/p1a/stage_c_paired.py) |
+
+
+更新至 2026-11-17，最新技术实验为 11 月 16 日完成的 §48。节号对应[原方法稿](research/CORE_REGULATION_MECHANISM.md)。每行给出这一轮改动、直接可比的发现和数据入口。表里的位置误差使用各报告的环境坐标。候选库、场景和评价口径改变时，保留各自的分母和对照。
+
+## 早期档案
+
+- 11 月 8 日及以前的有序有限差分、零空间回边、低秩回边和同观察历史配对，报告与结果见仓库首页的历史记录（原工程资料，未随包同步）。
+- 11 月 12 日的 FourRoom 源请求反馈、PushT 四事实联合差分、接触位移传递和接触锥，逐方法的推导、源码、报告及 CSV 已收录。11 月 12 日交接（原工程资料，未随包同步）
+- §16 的 PushT 原生末块响应混合先做直接分化和物理后果训练，再检查 H2 展开、退离与返回。物理监督在开发档案改善 46/48 个场景的 H1 中心化误差，但正确改变动作排序只有 H1 的 2/118、H2 的 14/126。物理监督报告（原工程资料，未随包同步） · 逐场景误差（原工程资料，未随包同步） · 退离与返回的信念时序（原工程资料，未随包同步）
+
+## PushT
+
+| 方法轮次 | 改动与结果 | 报告与数据 |
+| --- | --- | --- |
+| §16 后续完整观察 | 用早先已公开的完整画面作历史写入；步 125 的候选中心化误差改善，同时 H1 绝对位置 RMSE 从 64.877 增至 66.254。 | [报告](runs/native_response_mixture_regulation_20261113/REPORT.md) · [逐场景](runs/native_response_mixture_regulation_20261113/development_scene_effects.csv) |
+| §17–18 参考后果与非线性关系 | 检验保持动作的公共参考。64 组中有 56 组的两段历史各自静止、停在不同位置，共用一个保持端点的误差下界为 27.0142。随后将参考后果与响应一起纳入同一末块关系。 | [保持锚反例](runs/native_response_mixture_reanchored_20261114/scope/REPORT.md) · [配对坐标](runs/native_response_mixture_reanchored_20261114/scope/paired_hold.csv) · [关系模型](runs/native_response_relations_20261114/REPORT.md) |
+| §19–20 原生计算共享与响应传递 | 按原生响应的等价类共享计算，通过接口和受控实例验证；物理训练后，已冻结的末块关系仍未形成足够大的历史相关保持差和相对动作差。 | [共享报告](runs/native_response_relations_20261114/classes/REPORT.md) · [共享中间量](runs/native_response_relations_20261114/classes/intermediates.json) · [物理动作对照](runs/native_response_relations_20261114/action_effects_20261115/comparison.json) |
+| §21–24 共同后果、历史作用与表达上界 | 拆开两项梯度后，固定末块关系上任何非负组合的 H1 相对动作与保持差上界仅为 0.02208／0.00760，实测真差为 19.98691／54.02846。§23–24 对照旧路线并给出下一项证据条件。 | [动作作用报告](runs/native_response_relations_20261114/action_effects_20261115/REPORT.md) · [上界数据](runs/native_response_relations_20261114/action_effects_20261115/strength_ceiling/summary.json) · [机制推导](research/CORE_REGULATION_MECHANISM.md) |
+| §25 完整观察接续 | 用步 110 已到达的完整观察继续原生推演至共同窗口。历史绝对保持差误差 H1／H2 从 54.03／54.03 降至 17.45／19.00；相对动作后果差误差从 19.99／37.66 降至 11.21／19.50。 | [报告](runs/native_response_observation_carry_20261115/REPORT.md) · [结果](runs/native_response_observation_carry_20261115/summary.json) |
+| §26 全深度条件 | 让相同解释进入六层原生条件计算。全视野可逆制动的真模式 H1／H4 端点误差为 6.28／23.99，冻结 LeWM 为 11.35／40.27。持续支持第一次反转改对，第二次未改对，闭环 0/4。 | [报告](runs/native_full_depth_reversible_20261115/REPORT.md) · [反转过程](runs/native_full_depth_reversible_20261115/reversal_diagnostics.json) |
+| §27 配对来源证据 | 固定预测，联合评估推手和物体的真实到达。配对 NLL 从 0.642 降至 0.621，两次反转均正确从 0/10 升至 2/10。其中一例的第二次改判受共同偏差影响。 | [报告](runs/native_full_depth_source_evidence_20261115/REPORT.md) · [逐场景分解](runs/native_full_depth_source_evidence_20261115/switch_attribution.json) |
+| §28 首次分歧 | 相同作用下复用原生前段。原生块请求行 3,384→2,712，H4 方向覆盖 81.7%→71.3%，两次反转均正确仍只有 2/10。 | [报告](runs/native_full_depth_first_effect_20261115/REPORT.md) · [新场景结果](runs/native_full_depth_first_effect_20261115/fresh_summary.json) |
+| §29 块内子步 | 用块内随时间到达的物理后果评分。两次反转均正确 3/13→7/13，NLL 0.562→0.724，H2／H4 的首选没有改变。 | [报告](runs/native_full_depth_substep_20261115/REPORT.md) · [候选数据](runs/native_full_depth_substep_20261115/candidate_attribution.json) |
+| §30 刚体后果与规划 | 同一刚体读出供论据评分和 CEM 规划。最近的完整 PushT 小试中持续与均匀支持覆盖率为 67.96%／67.57%，均 0/4 成功。 | [报告](runs/native_full_depth_task_geometry_20261115/REPORT.md) · [逐场景闭环](runs/native_full_depth_task_geometry_20261115/closed_loop.json) |
+| §31 匹配有限证据训练 | 匹配续训后的配对 NLL 从 1.258 降至 1.166，两次反转均正确从 4/9 降至 2/9。另一个未完成目标的 16 根面板中，真实写入和均匀支持的首选 16/16 相同。 | [报告](runs/native_full_depth_paired_effect_20261115/REPORT.md) · [各根决策](runs/native_full_depth_paired_effect_20261115/delivery_decisions.json) |
+| §32 相机可见后果 | 固定预测改用实际相机轮廓似然，两次反转均正确从 4/12 增至 8/12，H1／H2／H4 的动作选择遗憾未改善。 | [方法稿](research/CORE_REGULATION_MECHANISM.md) · [固定预测结果](runs/native_visible_source_20261115/summary.json) · [配对验证](runs/native_visible_source_pairs_20261115/summary.json) |
+| §33–34 诊断与推导 | 区分探测信息价值、模式后果差与首选变化。既有固定七候选面板中的 H1 物理收益为 0.539 个覆盖百分点；这两节整理现有证据和后续计算关系。 | [技术推导及证据](research/CORE_REGULATION_MECHANISM.md) · [物理候选结果](runs/native_reversible_delivery_20261115/summary.json) |
+| §35–36 继承原生历史与顺序写入 | 把原生 attention 对每种解释的祖先汇总留到模式内。另一轮用九次局部观测做写入，第二次反转正确 6/16，仍缺足够的跨动作影响。 | [§35 报告](runs/native_history_inheritance_20261115/REPORT.md) · [其数据](runs/native_history_inheritance_20261115/intermediate.json) · [§36 报告](runs/native_history_partial_arrivals_20261115/REPORT.md) · [其数据](runs/native_history_partial_arrivals_20261115/fixed_root_attribution.json) |
+| §37 实际时序联合训练 | 让监督沿真实观测进入同一组历史解释。一个已有布局组上首次反转 10→14/16，第二次仅 2/16，H4 历史相对动作效应衰减。 | [报告](runs/native_history_recurrent_fit_20261115/REPORT.md) · [归因数据](runs/native_history_recurrent_fit_20261115/attribution.json) |
+| §38 固定当前模式的物理历史配对 | 将相同当前模式下的过去动作差与当前路线分开。16 个场景中，完整三帧的 H1 真方向投影 1.202／0.829 到 H4 只剩 0.270／0.149。 | [物理配对](runs/native_history_crossed_physics_20261115/summary.json) · [配对训练报告](runs/native_history_matched_fit_20261115/REPORT.md) · [全视野对照](runs/native_history_matched_fit_20261115/full_view.json) |
+| §39 相对动作 attention | 用相对保持命令的注意力响应分配历史权。通过恒等对照，开放／制动 H4 增益只达 0.03745／0.03356。该局部路线随后暂停。 | [报告](runs/native_history_relative_attention_20261115/REPORT.md) · [结果](runs/native_history_relative_attention_20261115/stage.json) |
+| §40 C／L／F 分解 | 固定只有首块动作不同的分支，H4 历史动作差的真方向增益，自由递推为 0.011／0.011，换真实窗口的一步预测为 0.315／0.108。 | [报告](runs/native_history_rollout_attribution_20261115/REPORT.md) · [逐例](runs/native_history_rollout_attribution_20261115/summary.json) |
+| §41 全视野底座 | 另一组 64 个独立场景、单模式首块作用对照。微调后 H4 自由增益 0.686→0.901、位置 RMSE 25.78→15.83。 | [报告](runs/fullview_pusht_base_20261115/REPORT.md) · [留出结果](runs/fullview_pusht_base_20261115/summary.json) · [训练日志](runs/fullview_pusht_base_20261115/world_model_training.csv) |
+
+## FourRoom
+
+| 方法轮次 | 改动与结果 | 报告与数据 |
+| --- | --- | --- |
+| §41.5–41.7 全视野条件预测与首次闭环 | 先做纯物理 Gate 0，再做既有条件预测和真实写入。固定四房布局上原生持续和原生真模式均 0/16，精确物理真模式为 10/16。 | [底座与任务报告](research/FULLVIEW_RESTART_REPORT_20261115.md) · [纯物理数据](runs/physical_topology_gate_20261115/summary.json) · [闭环结果](runs/native_topology_condition_20261115/mpc_summary.json) |
+| §41.8 固定已选序列回放 | 逐步分解真实编码、真实窗口一步和自由预测。在首布局四条已选计划中，模型 H2 进入墙碰撞区、H3 进入错误房间。强开门控仍未纠正这批计划。 | [报告](runs/native_topology_condition_20261115/MPC_PREFIX_REPLAY.md) · [逐块数据](runs/native_topology_condition_20261115/cem_archive_attribution.json) |
+| §41.9 H5 覆盖与真实前缀 | 三组各 160 步。共同角点 H5 RMSE 从原候选 40.68 降至 CEM 覆盖 9.06 px；加入真实前缀后为 9.99 px，合法绕行位移恢复 3.65 px，首选仍有 39/64 假进房。 | [报告](runs/native_topology_prefix_20261115/REPORT.md) · [逐布局评估](runs/native_topology_prefix_20261115/evaluation_summary.json) · [训练汇总](runs/native_topology_prefix_20261115/training_summary.json) |
+| §42 前置：受阻与绕行配对 | 同起点配对受阻捷径和合法绕行。固定池首动作遗憾 43.18→36.24；配对模型重新提议后的池中仍有 32/64 首选假进房。同期官方静态 FourRoom 单种子平铺复现 19/50。 | [配对报告](runs/native_topology_paired_20261115/REPORT.md) · [同池数据](runs/native_topology_paired_20261115/fixed_evaluation.json) · [重采数据](runs/native_topology_paired_20261115/renewed_evaluation.json) · [官方 50 任务 CSV](runs/hjepa_official_fourroom_flat_20261115/tasks.csv) |
+| §42 固定候选归因 | 每次用相同的根和候选比较写入前后、省略写入、均匀和真模式。最后根写入遗憾 59.816，给真模式仍为 58.117，离线仅替换共同代价后为 2.654。正确反转 64/64，动作收益仍不稳定。 | [报告](runs/native_topology_paired_20261115/writein_attribution_20261116/REPORT.md) · [归因结果](runs/native_topology_paired_20261115/writein_attribution_20261116/attributed_summary.json) · [H1–H5 排序](runs/native_topology_paired_20261115/writein_attribution_20261116/horizon_rankings.csv) |
+| §43 固定权重强开门控和梯度归因 | 同权重强开使西北动作间模式差幅度中位比 0.191→0.595，真实写入的首块遗憾 59.816→63.242；几何检查定位共同墙体误差。另完成四例梯度验证，HWM 宿主只完成接口检查。 | [总报告](research/GATE_AND_UPGRADE_REVIEW_20261116.md) · [门控数据](runs/native_topology_paired_20261115/writein_attribution_20261116/gate_followup/gate_summary.json) · [梯度数据](runs/native_topology_paired_20261115/writein_attribution_20261116/decision_gradient/summary.json) |
+| §44 分层与物理任务根 | 重采池按假进房分层，无假进房／假进房组给真模式相对均匀的收益 +10.80／+0.57。另一套生命周期西北组的真实写入收益 +36.61／−3.21。反转门前 13 个有害固定对中有 8 个模式差反向。 | [报告](runs/native_topology_paired_20261115/writein_attribution_20261116/decision_root_followup/REPORT.md) · [重采分层](runs/native_topology_paired_20261115/writein_attribution_20261116/decision_root_followup/newcem_summary.json) · [反转逐对](runs/native_topology_paired_20261115/writein_attribution_20261116/decision_root_followup/reversal_pair_horizons.csv) · [物理根](runs/native_topology_paired_20261115/writein_attribution_20261116/decision_root_followup/task_physics_summary.json) |
+| §45 对称门锁与二维似然 | 同数据对比门控臂和全开＋坐标监督臂。受控双门换序均 16/16；导航首选假进房旧组／Arm 1／Arm 2 为 32／40／35（各 64）。归档中性事实仍能误翻。 | [报告](runs/native_topology_symmetric_20261116/REPORT.md) · [固定候选数值](runs/native_topology_symmetric_20261116/fixed_bank_eval/summary.json) · [Arm 2 真实证据](runs/native_topology_symmetric_20261116/evidence_arm2/summary.json) |
+| §46 两轮实时 CEM 与 Student-t | 128 布局，两臂各 800 步。独立重采 H5 首选假进房 12／13（各 64），有差源双向正确 467／469（各 640）。纯物理 H6 双向面板冻结后有 57/64 个布局通过相同决策条件。 | [报告](runs/native_topology_live_20261116/REPORT.md) · [H5 准入](runs/native_topology_live_20261116/h5_gate_summary.json) · [纯物理 H6](runs/native_topology_live_20261116/physical_h6/summary.json) |
+| §47 Arm 2 三轮累加难例 | 保留旧难例，补真墙侧、同事实房间排序及有差源间隔。独立自采池首选假进房 13/64→0/64，有差双向 469/640→531/640；共同受阻少报推进 2.65 px，中性事故为 −1.297 nat。Cand 380 修复，Cand 231 仍未预测出合法穿门。 | [报告](runs/native_topology_accumulated_20261116/REPORT.md) · [H5 自采结果](runs/native_topology_accumulated_20261116/corrected/live_eval/summary.json) · [真实写入](runs/native_topology_accumulated_20261116/corrected/evidence/summary.json) |
+| **§48 Arm 2 真实窗口与有限证据** | 均从同一 §47 权重续训 64 步。给真实窗口补事实侧监督，按真实可分程度约束源间隔。Cand 380 的墙界修复保留；Cand 231 的 H3 真实 y 为 98.48，原目标续训预测 116.59／117.10，修订目标 120.91／121.36。归档中性绝对证据 0.482→0.187 nat，但正确反转 64/64→61/64，中性错翻 0→6/2,080。H5 未通过，模型 H6 和闭环均待验证。 | [最新报告](runs/native_topology_objective_trace_20261116/REPORT.md) · [候选轨迹](runs/native_topology_objective_trace_20261116/pilot_candidate_trace.json) · [两池复算](runs/native_topology_objective_trace_20261116/fixed_eval.json) · [失败写入](runs/native_topology_objective_trace_20261116/failed_writes.json) · [对照训练](runs/native_topology_objective_trace_20261116/pilot/control/round1/training.csv) · [修订训练](runs/native_topology_objective_trace_20261116/pilot/factual/round1/training.csv) |
+
+各轮结果保留当时的实验角色。§47 的模型自采池与 §48 的两个固定池可以分别回答新候选表现和同候选的训练影响。§46 的纯物理 H6 面板记录真实条件对动作选择的价值。完整训练和复跑需要原工程的模型权重和场景资产。

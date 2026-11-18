@@ -1,0 +1,20 @@
+{
+  "projection": "identity",
+  "fit_seed": 2026112900,
+  "offset_lr": 0.008,
+  "final_blocks_lr": 0.0001,
+  "updates_per_arm": 144,
+  "matched_H12_pairs_per_update": 4,
+  "matched_H1_pairs_per_update": 8,
+  "optimizer": "AdamW",
+  "mode_mapping": {
+    "bottom": -1,
+    "top": 1
+  },
+  "strict_mean_first_regret_threshold": 10.0,
+  "fixed_holdout_root_count": 12,
+  "fit_sources": 32,
+  "check_sources": 16,
+  "fit_bundles": 24,
+  "training_data": "frozen encodings of actual executed RGB; true mode provided for these oracle arms"
+}

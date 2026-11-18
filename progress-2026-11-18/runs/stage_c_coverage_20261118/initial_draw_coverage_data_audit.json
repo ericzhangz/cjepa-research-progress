@@ -1,0 +1,2584 @@
+{
+  "source_archive": "D:\\cjepa\\runs\\stage_c_clean_20261117\\lifecycle.npz",
+  "fitting_groups": 48,
+  "directed_groups": 24,
+  "fit_read_roots": 96,
+  "candidate_count": 8,
+  "preserved_arrays": [
+    "fit_prefix_z",
+    "fit_prefix_a",
+    "fit_read_t",
+    "fit_directed",
+    "source_target_z",
+    "source_delta"
+  ],
+  "original_candidate_slots_exact": true,
+  "reconstructed_root_latent_max_abs_error": 0.0,
+  "source_s2_obs": 19.283662796020508,
+  "source_s2_bundle": 186.1669158935547,
+  "actual_added_H12_programs": 1152,
+  "actual_added_raw_steps": 69120,
+  "wall_seconds": 97.72400119999656,
+  "roots": [
+    {
+      "group": 0,
+      "bridge": 0,
+      "neutral": false,
+      "candidate_bank_indices": [
+        73,
+        149,
+        49,
+        247,
+        234,
+        347
+      ],
+      "new_common_target_slots": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_target_difference_rms": [
+        1.1309919357299805,
+        1.1150108575820923,
+        1.1106356382369995,
+        0.6043817400932312,
+        0.6392307877540588,
+        0.6712316274642944
+      ]
+    },
+    {
+      "group": 0,
+      "bridge": 1,
+      "neutral": false,
+      "candidate_bank_indices": [
+        73,
+        149,
+        49,
+        247,
+        234,
+        347
+      ],
+      "new_common_target_slots": [
+        false,
+        false,
+        false,
+        true,
+        true,
+        false
+      ],
+      "new_target_difference_rms": [
+        1.2694672346115112,
+        1.257686734199524,
+        1.25387442111969,
+        0.0,
+        0.0,
+        0.5054687261581421
+      ]
+    },
+    {
+      "group": 1,
+      "bridge": 0,
+      "neutral": true,
+      "candidate_bank_indices": null,
+      "new_common_target_slots": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "new_target_difference_rms": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "group": 1,
+      "bridge": 1,
+      "neutral": true,
+      "candidate_bank_indices": null,
+      "new_common_target_slots": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "new_target_difference_rms": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "group": 2,
+      "bridge": 0,
+      "neutral": true,
+      "candidate_bank_indices": null,
+      "new_common_target_slots": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "new_target_difference_rms": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "group": 2,
+      "bridge": 1,
+      "neutral": true,
+      "candidate_bank_indices": null,
+      "new_common_target_slots": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "new_target_difference_rms": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "group": 3,
+      "bridge": 0,
+      "neutral": false,
+      "candidate_bank_indices": [
+        73,
+        149,
+        49,
+        247,
+        234,
+        347
+      ],
+      "new_common_target_slots": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_target_difference_rms": [
+        1.1309919357299805,
+        1.1150108575820923,
+        1.1106356382369995,
+        0.6043817400932312,
+        0.6392307877540588,
+        0.6712316274642944
+      ]
+    },
+    {
+      "group": 3,
+      "bridge": 1,
+      "neutral": false,
+      "candidate_bank_indices": [
+        73,
+        149,
+        49,
+        247,
+        234,
+        347
+      ],
+      "new_common_target_slots": [
+        false,
+        false,
+        false,
+        true,
+        true,
+        false
+      ],
+      "new_target_difference_rms": [
+        1.2694672346115112,
+        1.257686734199524,
+        1.25387442111969,
+        0.0,
+        0.0,
+        0.5054687261581421
+      ]
+    },
+    {
+      "group": 4,
+      "bridge": 0,
+      "neutral": false,
+      "candidate_bank_indices": [
+        73,
+        149,
+        49,
+        247,
+        234,
+        347
+      ],
+      "new_common_target_slots": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_target_difference_rms": [
+        1.1309919357299805,
+        1.1150108575820923,
+        1.1106356382369995,
+        0.6043817400932312,
+        0.6392307877540588,
+        0.6712316274642944
+      ]
+    },
+    {
+      "group": 4,
+      "bridge": 1,
+      "neutral": false,
+      "candidate_bank_indices": [
+        73,
+        149,
+        49,
+        247,
+        234,
+        347
+      ],
+      "new_common_target_slots": [
+        false,
+        false,
+        false,
+        true,
+        true,
+        false
+      ],
+      "new_target_difference_rms": [
+        1.2694672346115112,
+        1.257686734199524,
+        1.25387442111969,
+        0.0,
+        0.0,
+        0.5054687261581421
+      ]
+    },
+    {
+      "group": 5,
+      "bridge": 0,
+      "neutral": false,
+      "candidate_bank_indices": [
+        73,
+        149,
+        49,
+        247,
+        234,
+        347
+      ],
+      "new_common_target_slots": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_target_difference_rms": [
+        1.1309919357299805,
+        1.1150108575820923,
+        1.1106356382369995,
+        0.6043817400932312,
+        0.6392307877540588,
+        0.6712316274642944
+      ]
+    },
+    {
+      "group": 5,
+      "bridge": 1,
+      "neutral": false,
+      "candidate_bank_indices": [
+        73,
+        149,
+        49,
+        247,
+        234,
+        347
+      ],
+      "new_common_target_slots": [
+        false,
+        false,
+        false,
+        true,
+        true,
+        false
+      ],
+      "new_target_difference_rms": [
+        1.2694672346115112,
+        1.257686734199524,
+        1.25387442111969,
+        0.0,
+        0.0,
+        0.5054687261581421
+      ]
+    },
+    {
+      "group": 6,
+      "bridge": 0,
+      "neutral": false,
+      "candidate_bank_indices": [
+        152,
+        71,
+        114,
+        212,
+        242,
+        193
+      ],
+      "new_common_target_slots": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_target_difference_rms": [
+        0.6353181004524231,
+        0.6705961227416992,
+        0.6698809266090393,
+        1.0562002658843994,
+        1.095750093460083,
+        1.0932762622833252
+      ]
+    },
+    {
+      "group": 6,
+      "bridge": 1,
+      "neutral": false,
+      "candidate_bank_indices": [
+        152,
+        71,
+        114,
+        212,
+        242,
+        193
+      ],
+      "new_common_target_slots": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_target_difference_rms": [
+        0.5004291534423828,
+        0.5220516324043274,
+        0.5101215839385986,
+        1.1953601837158203,
+        1.234764575958252,
+        1.250186562538147
+      ]
+    },
+    {
+      "group": 7,
+      "bridge": 0,
+      "neutral": true,
+      "candidate_bank_indices": null,
+      "new_common_target_slots": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "new_target_difference_rms": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "group": 7,
+      "bridge": 1,
+      "neutral": true,
+      "candidate_bank_indices": null,
+      "new_common_target_slots": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "new_target_difference_rms": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "group": 8,
+      "bridge": 0,
+      "neutral": true,
+      "candidate_bank_indices": null,
+      "new_common_target_slots": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "new_target_difference_rms": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "group": 8,
+      "bridge": 1,
+      "neutral": true,
+      "candidate_bank_indices": null,
+      "new_common_target_slots": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "new_target_difference_rms": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "group": 9,
+      "bridge": 0,
+      "neutral": false,
+      "candidate_bank_indices": [
+        152,
+        71,
+        114,
+        212,
+        242,
+        193
+      ],
+      "new_common_target_slots": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_target_difference_rms": [
+        0.6353181004524231,
+        0.6705961227416992,
+        0.6698809266090393,
+        1.0562002658843994,
+        1.095750093460083,
+        1.0932762622833252
+      ]
+    },
+    {
+      "group": 9,
+      "bridge": 1,
+      "neutral": false,
+      "candidate_bank_indices": [
+        152,
+        71,
+        114,
+        212,
+        242,
+        193
+      ],
+      "new_common_target_slots": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_target_difference_rms": [
+        0.5004291534423828,
+        0.5220516324043274,
+        0.5101215839385986,
+        1.1953601837158203,
+        1.234764575958252,
+        1.250186562538147
+      ]
+    },
+    {
+      "group": 10,
+      "bridge": 0,
+      "neutral": false,
+      "candidate_bank_indices": [
+        152,
+        71,
+        114,
+        212,
+        242,
+        193
+      ],
+      "new_common_target_slots": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_target_difference_rms": [
+        0.6353181004524231,
+        0.6705961227416992,
+        0.6698809266090393,
+        1.0562002658843994,
+        1.095750093460083,
+        1.0932762622833252
+      ]
+    },
+    {
+      "group": 10,
+      "bridge": 1,
+      "neutral": false,
+      "candidate_bank_indices": [
+        152,
+        71,
+        114,
+        212,
+        242,
+        193
+      ],
+      "new_common_target_slots": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_target_difference_rms": [
+        0.5004291534423828,
+        0.5220516324043274,
+        0.5101215839385986,
+        1.1953601837158203,
+        1.234764575958252,
+        1.250186562538147
+      ]
+    },
+    {
+      "group": 11,
+      "bridge": 0,
+      "neutral": false,
+      "candidate_bank_indices": [
+        152,
+        71,
+        114,
+        212,
+        242,
+        193
+      ],
+      "new_common_target_slots": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_target_difference_rms": [
+        0.6353181004524231,
+        0.6705961227416992,
+        0.6698809266090393,
+        1.0562002658843994,
+        1.095750093460083,
+        1.0932762622833252
+      ]
+    },
+    {
+      "group": 11,
+      "bridge": 1,
+      "neutral": false,
+      "candidate_bank_indices": [
+        152,
+        71,
+        114,
+        212,
+        242,
+        193
+      ],
+      "new_common_target_slots": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_target_difference_rms": [
+        0.5004291534423828,
+        0.5220516324043274,
+        0.5101215839385986,
+        1.1953601837158203,
+        1.234764575958252,
+        1.250186562538147
+      ]
+    },
+    {
+      "group": 12,
+      "bridge": 0,
+      "neutral": false,
+      "candidate_bank_indices": [
+        50,
+        133,
+        59,
+        354,
+        316,
+        318
+      ],
+      "new_common_target_slots": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_target_difference_rms": [
+        1.0927140712738037,
+        1.1141282320022583,
+        1.1112592220306396,
+        0.5495856404304504,
+        0.6342225670814514,
+        0.6576176881790161
+      ]
+    },
+    {
+      "group": 12,
+      "bridge": 1,
+      "neutral": false,
+      "candidate_bank_indices": [
+        50,
+        133,
+        59,
+        354,
+        316,
+        318
+      ],
+      "new_common_target_slots": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_target_difference_rms": [
+        1.2392818927764893,
+        1.281715989112854,
+        1.2572633028030396,
+        0.40516045689582825,
+        0.4995608925819397,
+        0.49454575777053833
+      ]
+    },
+    {
+      "group": 13,
+      "bridge": 0,
+      "neutral": true,
+      "candidate_bank_indices": null,
+      "new_common_target_slots": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "new_target_difference_rms": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "group": 13,
+      "bridge": 1,
+      "neutral": true,
+      "candidate_bank_indices": null,
+      "new_common_target_slots": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "new_target_difference_rms": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "group": 14,
+      "bridge": 0,
+      "neutral": true,
+      "candidate_bank_indices": null,
+      "new_common_target_slots": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "new_target_difference_rms": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "group": 14,
+      "bridge": 1,
+      "neutral": true,
+      "candidate_bank_indices": null,
+      "new_common_target_slots": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "new_target_difference_rms": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "group": 15,
+      "bridge": 0,
+      "neutral": false,
+      "candidate_bank_indices": [
+        50,
+        133,
+        59,
+        354,
+        316,
+        318
+      ],
+      "new_common_target_slots": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_target_difference_rms": [
+        1.0927140712738037,
+        1.1141282320022583,
+        1.1112592220306396,
+        0.5495856404304504,
+        0.6342225670814514,
+        0.6576176881790161
+      ]
+    },
+    {
+      "group": 15,
+      "bridge": 1,
+      "neutral": false,
+      "candidate_bank_indices": [
+        50,
+        133,
+        59,
+        354,
+        316,
+        318
+      ],
+      "new_common_target_slots": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_target_difference_rms": [
+        1.2392818927764893,
+        1.281715989112854,
+        1.2572633028030396,
+        0.40516045689582825,
+        0.4995608925819397,
+        0.49454575777053833
+      ]
+    },
+    {
+      "group": 16,
+      "bridge": 0,
+      "neutral": false,
+      "candidate_bank_indices": [
+        50,
+        133,
+        59,
+        354,
+        316,
+        318
+      ],
+      "new_common_target_slots": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_target_difference_rms": [
+        1.0927140712738037,
+        1.1141282320022583,
+        1.1112592220306396,
+        0.5495856404304504,
+        0.6342225670814514,
+        0.6576176881790161
+      ]
+    },
+    {
+      "group": 16,
+      "bridge": 1,
+      "neutral": false,
+      "candidate_bank_indices": [
+        50,
+        133,
+        59,
+        354,
+        316,
+        318
+      ],
+      "new_common_target_slots": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_target_difference_rms": [
+        1.2392818927764893,
+        1.281715989112854,
+        1.2572633028030396,
+        0.40516045689582825,
+        0.4995608925819397,
+        0.49454575777053833
+      ]
+    },
+    {
+      "group": 17,
+      "bridge": 0,
+      "neutral": false,
+      "candidate_bank_indices": [
+        50,
+        133,
+        59,
+        354,
+        316,
+        318
+      ],
+      "new_common_target_slots": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_target_difference_rms": [
+        1.0927140712738037,
+        1.1141282320022583,
+        1.1112592220306396,
+        0.5495856404304504,
+        0.6342225670814514,
+        0.6576176881790161
+      ]
+    },
+    {
+      "group": 17,
+      "bridge": 1,
+      "neutral": false,
+      "candidate_bank_indices": [
+        50,
+        133,
+        59,
+        354,
+        316,
+        318
+      ],
+      "new_common_target_slots": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_target_difference_rms": [
+        1.2392818927764893,
+        1.281715989112854,
+        1.2572633028030396,
+        0.40516045689582825,
+        0.4995608925819397,
+        0.49454575777053833
+      ]
+    },
+    {
+      "group": 18,
+      "bridge": 0,
+      "neutral": false,
+      "candidate_bank_indices": [
+        144,
+        135,
+        36,
+        353,
+        303,
+        228
+      ],
+      "new_common_target_slots": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_target_difference_rms": [
+        0.692594587802887,
+        0.7009808421134949,
+        0.6471860408782959,
+        1.097302794456482,
+        1.0875035524368286,
+        1.1085858345031738
+      ]
+    },
+    {
+      "group": 18,
+      "bridge": 1,
+      "neutral": false,
+      "candidate_bank_indices": [
+        144,
+        135,
+        36,
+        353,
+        303,
+        228
+      ],
+      "new_common_target_slots": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_target_difference_rms": [
+        0.4665611684322357,
+        0.47572198510169983,
+        0.454324871301651,
+        1.267308235168457,
+        1.2009525299072266,
+        1.2366348505020142
+      ]
+    },
+    {
+      "group": 19,
+      "bridge": 0,
+      "neutral": true,
+      "candidate_bank_indices": null,
+      "new_common_target_slots": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "new_target_difference_rms": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "group": 19,
+      "bridge": 1,
+      "neutral": true,
+      "candidate_bank_indices": null,
+      "new_common_target_slots": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "new_target_difference_rms": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "group": 20,
+      "bridge": 0,
+      "neutral": true,
+      "candidate_bank_indices": null,
+      "new_common_target_slots": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "new_target_difference_rms": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "group": 20,
+      "bridge": 1,
+      "neutral": true,
+      "candidate_bank_indices": null,
+      "new_common_target_slots": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "new_target_difference_rms": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "group": 21,
+      "bridge": 0,
+      "neutral": false,
+      "candidate_bank_indices": [
+        144,
+        135,
+        36,
+        353,
+        303,
+        228
+      ],
+      "new_common_target_slots": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_target_difference_rms": [
+        0.692594587802887,
+        0.7009808421134949,
+        0.6471860408782959,
+        1.097302794456482,
+        1.0875035524368286,
+        1.1085858345031738
+      ]
+    },
+    {
+      "group": 21,
+      "bridge": 1,
+      "neutral": false,
+      "candidate_bank_indices": [
+        144,
+        135,
+        36,
+        353,
+        303,
+        228
+      ],
+      "new_common_target_slots": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_target_difference_rms": [
+        0.4665611684322357,
+        0.47572198510169983,
+        0.454324871301651,
+        1.267308235168457,
+        1.2009525299072266,
+        1.2366348505020142
+      ]
+    },
+    {
+      "group": 22,
+      "bridge": 0,
+      "neutral": false,
+      "candidate_bank_indices": [
+        144,
+        135,
+        36,
+        353,
+        303,
+        228
+      ],
+      "new_common_target_slots": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_target_difference_rms": [
+        0.692594587802887,
+        0.7009808421134949,
+        0.6471860408782959,
+        1.097302794456482,
+        1.0875035524368286,
+        1.1085858345031738
+      ]
+    },
+    {
+      "group": 22,
+      "bridge": 1,
+      "neutral": false,
+      "candidate_bank_indices": [
+        144,
+        135,
+        36,
+        353,
+        303,
+        228
+      ],
+      "new_common_target_slots": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_target_difference_rms": [
+        0.4665611684322357,
+        0.47572198510169983,
+        0.454324871301651,
+        1.267308235168457,
+        1.2009525299072266,
+        1.2366348505020142
+      ]
+    },
+    {
+      "group": 23,
+      "bridge": 0,
+      "neutral": false,
+      "candidate_bank_indices": [
+        144,
+        135,
+        36,
+        353,
+        303,
+        228
+      ],
+      "new_common_target_slots": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_target_difference_rms": [
+        0.692594587802887,
+        0.7009808421134949,
+        0.6471860408782959,
+        1.097302794456482,
+        1.0875035524368286,
+        1.1085858345031738
+      ]
+    },
+    {
+      "group": 23,
+      "bridge": 1,
+      "neutral": false,
+      "candidate_bank_indices": [
+        144,
+        135,
+        36,
+        353,
+        303,
+        228
+      ],
+      "new_common_target_slots": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_target_difference_rms": [
+        0.4665611684322357,
+        0.47572198510169983,
+        0.454324871301651,
+        1.267308235168457,
+        1.2009525299072266,
+        1.2366348505020142
+      ]
+    },
+    {
+      "group": 24,
+      "bridge": 0,
+      "neutral": false,
+      "candidate_bank_indices": [
+        16,
+        112,
+        47,
+        335,
+        371,
+        230
+      ],
+      "new_common_target_slots": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_target_difference_rms": [
+        1.1129966974258423,
+        1.1302801370620728,
+        1.1602827310562134,
+        0.6244473457336426,
+        0.582179844379425,
+        0.6432516574859619
+      ]
+    },
+    {
+      "group": 24,
+      "bridge": 1,
+      "neutral": false,
+      "candidate_bank_indices": [
+        16,
+        112,
+        47,
+        335,
+        371,
+        230
+      ],
+      "new_common_target_slots": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_target_difference_rms": [
+        1.2582752704620361,
+        1.2515382766723633,
+        1.276517629623413,
+        0.4989739954471588,
+        0.45723122358322144,
+        0.5358248949050903
+      ]
+    },
+    {
+      "group": 25,
+      "bridge": 0,
+      "neutral": true,
+      "candidate_bank_indices": null,
+      "new_common_target_slots": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "new_target_difference_rms": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "group": 25,
+      "bridge": 1,
+      "neutral": true,
+      "candidate_bank_indices": null,
+      "new_common_target_slots": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "new_target_difference_rms": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "group": 26,
+      "bridge": 0,
+      "neutral": true,
+      "candidate_bank_indices": null,
+      "new_common_target_slots": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "new_target_difference_rms": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "group": 26,
+      "bridge": 1,
+      "neutral": true,
+      "candidate_bank_indices": null,
+      "new_common_target_slots": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "new_target_difference_rms": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "group": 27,
+      "bridge": 0,
+      "neutral": false,
+      "candidate_bank_indices": [
+        16,
+        112,
+        47,
+        335,
+        371,
+        230
+      ],
+      "new_common_target_slots": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_target_difference_rms": [
+        1.1129966974258423,
+        1.1302801370620728,
+        1.1602827310562134,
+        0.6244473457336426,
+        0.582179844379425,
+        0.6432516574859619
+      ]
+    },
+    {
+      "group": 27,
+      "bridge": 1,
+      "neutral": false,
+      "candidate_bank_indices": [
+        16,
+        112,
+        47,
+        335,
+        371,
+        230
+      ],
+      "new_common_target_slots": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_target_difference_rms": [
+        1.2582752704620361,
+        1.2515382766723633,
+        1.276517629623413,
+        0.4989739954471588,
+        0.45723122358322144,
+        0.5358248949050903
+      ]
+    },
+    {
+      "group": 28,
+      "bridge": 0,
+      "neutral": false,
+      "candidate_bank_indices": [
+        16,
+        112,
+        47,
+        335,
+        371,
+        230
+      ],
+      "new_common_target_slots": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_target_difference_rms": [
+        1.1129966974258423,
+        1.1302801370620728,
+        1.1602827310562134,
+        0.6244473457336426,
+        0.582179844379425,
+        0.6432516574859619
+      ]
+    },
+    {
+      "group": 28,
+      "bridge": 1,
+      "neutral": false,
+      "candidate_bank_indices": [
+        16,
+        112,
+        47,
+        335,
+        371,
+        230
+      ],
+      "new_common_target_slots": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_target_difference_rms": [
+        1.2582752704620361,
+        1.2515382766723633,
+        1.276517629623413,
+        0.4989739954471588,
+        0.45723122358322144,
+        0.5358248949050903
+      ]
+    },
+    {
+      "group": 29,
+      "bridge": 0,
+      "neutral": false,
+      "candidate_bank_indices": [
+        16,
+        112,
+        47,
+        335,
+        371,
+        230
+      ],
+      "new_common_target_slots": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_target_difference_rms": [
+        1.1129966974258423,
+        1.1302801370620728,
+        1.1602827310562134,
+        0.6244473457336426,
+        0.582179844379425,
+        0.6432516574859619
+      ]
+    },
+    {
+      "group": 29,
+      "bridge": 1,
+      "neutral": false,
+      "candidate_bank_indices": [
+        16,
+        112,
+        47,
+        335,
+        371,
+        230
+      ],
+      "new_common_target_slots": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_target_difference_rms": [
+        1.2582752704620361,
+        1.2515382766723633,
+        1.276517629623413,
+        0.4989739954471588,
+        0.45723122358322144,
+        0.5358248949050903
+      ]
+    },
+    {
+      "group": 30,
+      "bridge": 0,
+      "neutral": false,
+      "candidate_bank_indices": [
+        33,
+        62,
+        154,
+        270,
+        360,
+        226
+      ],
+      "new_common_target_slots": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_target_difference_rms": [
+        0.6628027558326721,
+        0.6875742077827454,
+        0.6299950480461121,
+        1.0700454711914062,
+        1.0961461067199707,
+        1.0916748046875
+      ]
+    },
+    {
+      "group": 30,
+      "bridge": 1,
+      "neutral": false,
+      "candidate_bank_indices": [
+        33,
+        62,
+        154,
+        270,
+        360,
+        226
+      ],
+      "new_common_target_slots": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_target_difference_rms": [
+        0.4141197204589844,
+        0.5160940885543823,
+        0.39317256212234497,
+        1.1913787126541138,
+        1.2220765352249146,
+        1.1939408779144287
+      ]
+    },
+    {
+      "group": 31,
+      "bridge": 0,
+      "neutral": true,
+      "candidate_bank_indices": null,
+      "new_common_target_slots": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "new_target_difference_rms": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "group": 31,
+      "bridge": 1,
+      "neutral": true,
+      "candidate_bank_indices": null,
+      "new_common_target_slots": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "new_target_difference_rms": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "group": 32,
+      "bridge": 0,
+      "neutral": true,
+      "candidate_bank_indices": null,
+      "new_common_target_slots": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "new_target_difference_rms": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "group": 32,
+      "bridge": 1,
+      "neutral": true,
+      "candidate_bank_indices": null,
+      "new_common_target_slots": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "new_target_difference_rms": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "group": 33,
+      "bridge": 0,
+      "neutral": false,
+      "candidate_bank_indices": [
+        33,
+        62,
+        154,
+        270,
+        360,
+        226
+      ],
+      "new_common_target_slots": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_target_difference_rms": [
+        0.6628027558326721,
+        0.6875742077827454,
+        0.6299950480461121,
+        1.0700454711914062,
+        1.0961461067199707,
+        1.0916748046875
+      ]
+    },
+    {
+      "group": 33,
+      "bridge": 1,
+      "neutral": false,
+      "candidate_bank_indices": [
+        33,
+        62,
+        154,
+        270,
+        360,
+        226
+      ],
+      "new_common_target_slots": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_target_difference_rms": [
+        0.4141197204589844,
+        0.5160940885543823,
+        0.39317256212234497,
+        1.1913787126541138,
+        1.2220765352249146,
+        1.1939408779144287
+      ]
+    },
+    {
+      "group": 34,
+      "bridge": 0,
+      "neutral": false,
+      "candidate_bank_indices": [
+        33,
+        62,
+        154,
+        270,
+        360,
+        226
+      ],
+      "new_common_target_slots": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_target_difference_rms": [
+        0.6628027558326721,
+        0.6875742077827454,
+        0.6299950480461121,
+        1.0700454711914062,
+        1.0961461067199707,
+        1.0916748046875
+      ]
+    },
+    {
+      "group": 34,
+      "bridge": 1,
+      "neutral": false,
+      "candidate_bank_indices": [
+        33,
+        62,
+        154,
+        270,
+        360,
+        226
+      ],
+      "new_common_target_slots": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_target_difference_rms": [
+        0.4141197204589844,
+        0.5160940885543823,
+        0.39317256212234497,
+        1.1913787126541138,
+        1.2220765352249146,
+        1.1939408779144287
+      ]
+    },
+    {
+      "group": 35,
+      "bridge": 0,
+      "neutral": false,
+      "candidate_bank_indices": [
+        33,
+        62,
+        154,
+        270,
+        360,
+        226
+      ],
+      "new_common_target_slots": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_target_difference_rms": [
+        0.6628027558326721,
+        0.6875742077827454,
+        0.6299950480461121,
+        1.0700454711914062,
+        1.0961461067199707,
+        1.0916748046875
+      ]
+    },
+    {
+      "group": 35,
+      "bridge": 1,
+      "neutral": false,
+      "candidate_bank_indices": [
+        33,
+        62,
+        154,
+        270,
+        360,
+        226
+      ],
+      "new_common_target_slots": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_target_difference_rms": [
+        0.4141197204589844,
+        0.5160940885543823,
+        0.39317256212234497,
+        1.1913787126541138,
+        1.2220765352249146,
+        1.1939408779144287
+      ]
+    },
+    {
+      "group": 36,
+      "bridge": 0,
+      "neutral": false,
+      "candidate_bank_indices": [
+        6,
+        118,
+        5,
+        279,
+        308,
+        269
+      ],
+      "new_common_target_slots": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_target_difference_rms": [
+        1.1321403980255127,
+        1.1310185194015503,
+        1.1312651634216309,
+        0.6392202973365784,
+        0.6876913905143738,
+        0.6617530584335327
+      ]
+    },
+    {
+      "group": 36,
+      "bridge": 1,
+      "neutral": false,
+      "candidate_bank_indices": [
+        6,
+        118,
+        5,
+        279,
+        308,
+        269
+      ],
+      "new_common_target_slots": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_target_difference_rms": [
+        1.2725753784179688,
+        1.312077522277832,
+        1.2790405750274658,
+        0.42919933795928955,
+        0.5143482685089111,
+        0.5014987587928772
+      ]
+    },
+    {
+      "group": 37,
+      "bridge": 0,
+      "neutral": true,
+      "candidate_bank_indices": null,
+      "new_common_target_slots": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "new_target_difference_rms": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "group": 37,
+      "bridge": 1,
+      "neutral": true,
+      "candidate_bank_indices": null,
+      "new_common_target_slots": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "new_target_difference_rms": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "group": 38,
+      "bridge": 0,
+      "neutral": true,
+      "candidate_bank_indices": null,
+      "new_common_target_slots": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "new_target_difference_rms": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "group": 38,
+      "bridge": 1,
+      "neutral": true,
+      "candidate_bank_indices": null,
+      "new_common_target_slots": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "new_target_difference_rms": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "group": 39,
+      "bridge": 0,
+      "neutral": false,
+      "candidate_bank_indices": [
+        6,
+        118,
+        5,
+        279,
+        308,
+        269
+      ],
+      "new_common_target_slots": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_target_difference_rms": [
+        1.1321403980255127,
+        1.1310185194015503,
+        1.1312651634216309,
+        0.6392202973365784,
+        0.6876913905143738,
+        0.6617530584335327
+      ]
+    },
+    {
+      "group": 39,
+      "bridge": 1,
+      "neutral": false,
+      "candidate_bank_indices": [
+        6,
+        118,
+        5,
+        279,
+        308,
+        269
+      ],
+      "new_common_target_slots": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_target_difference_rms": [
+        1.2725753784179688,
+        1.312077522277832,
+        1.2790405750274658,
+        0.42919933795928955,
+        0.5143482685089111,
+        0.5014987587928772
+      ]
+    },
+    {
+      "group": 40,
+      "bridge": 0,
+      "neutral": false,
+      "candidate_bank_indices": [
+        6,
+        118,
+        5,
+        279,
+        308,
+        269
+      ],
+      "new_common_target_slots": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_target_difference_rms": [
+        1.1321403980255127,
+        1.1310185194015503,
+        1.1312651634216309,
+        0.6392202973365784,
+        0.6876913905143738,
+        0.6617530584335327
+      ]
+    },
+    {
+      "group": 40,
+      "bridge": 1,
+      "neutral": false,
+      "candidate_bank_indices": [
+        6,
+        118,
+        5,
+        279,
+        308,
+        269
+      ],
+      "new_common_target_slots": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_target_difference_rms": [
+        1.2725753784179688,
+        1.312077522277832,
+        1.2790405750274658,
+        0.42919933795928955,
+        0.5143482685089111,
+        0.5014987587928772
+      ]
+    },
+    {
+      "group": 41,
+      "bridge": 0,
+      "neutral": false,
+      "candidate_bank_indices": [
+        6,
+        118,
+        5,
+        279,
+        308,
+        269
+      ],
+      "new_common_target_slots": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_target_difference_rms": [
+        1.1321403980255127,
+        1.1310185194015503,
+        1.1312651634216309,
+        0.6392202973365784,
+        0.6876913905143738,
+        0.6617530584335327
+      ]
+    },
+    {
+      "group": 41,
+      "bridge": 1,
+      "neutral": false,
+      "candidate_bank_indices": [
+        6,
+        118,
+        5,
+        279,
+        308,
+        269
+      ],
+      "new_common_target_slots": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_target_difference_rms": [
+        1.2725753784179688,
+        1.312077522277832,
+        1.2790405750274658,
+        0.42919933795928955,
+        0.5143482685089111,
+        0.5014987587928772
+      ]
+    },
+    {
+      "group": 42,
+      "bridge": 0,
+      "neutral": false,
+      "candidate_bank_indices": [
+        103,
+        17,
+        118,
+        365,
+        280,
+        251
+      ],
+      "new_common_target_slots": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_target_difference_rms": [
+        0.5303213596343994,
+        0.6362508535385132,
+        0.6250962615013123,
+        1.1500812768936157,
+        1.1058217287063599,
+        1.0907025337219238
+      ]
+    },
+    {
+      "group": 42,
+      "bridge": 1,
+      "neutral": false,
+      "candidate_bank_indices": [
+        103,
+        17,
+        118,
+        365,
+        280,
+        251
+      ],
+      "new_common_target_slots": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_target_difference_rms": [
+        0.36987146735191345,
+        0.5156940221786499,
+        0.49480780959129333,
+        1.275601863861084,
+        1.238929033279419,
+        1.2702152729034424
+      ]
+    },
+    {
+      "group": 43,
+      "bridge": 0,
+      "neutral": true,
+      "candidate_bank_indices": null,
+      "new_common_target_slots": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "new_target_difference_rms": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "group": 43,
+      "bridge": 1,
+      "neutral": true,
+      "candidate_bank_indices": null,
+      "new_common_target_slots": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "new_target_difference_rms": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "group": 44,
+      "bridge": 0,
+      "neutral": true,
+      "candidate_bank_indices": null,
+      "new_common_target_slots": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "new_target_difference_rms": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "group": 44,
+      "bridge": 1,
+      "neutral": true,
+      "candidate_bank_indices": null,
+      "new_common_target_slots": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "new_target_difference_rms": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "group": 45,
+      "bridge": 0,
+      "neutral": false,
+      "candidate_bank_indices": [
+        103,
+        17,
+        118,
+        365,
+        280,
+        251
+      ],
+      "new_common_target_slots": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_target_difference_rms": [
+        0.5303213596343994,
+        0.6362508535385132,
+        0.6250962615013123,
+        1.1500812768936157,
+        1.1058217287063599,
+        1.0907025337219238
+      ]
+    },
+    {
+      "group": 45,
+      "bridge": 1,
+      "neutral": false,
+      "candidate_bank_indices": [
+        103,
+        17,
+        118,
+        365,
+        280,
+        251
+      ],
+      "new_common_target_slots": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_target_difference_rms": [
+        0.36987146735191345,
+        0.5156940221786499,
+        0.49480780959129333,
+        1.275601863861084,
+        1.238929033279419,
+        1.2702152729034424
+      ]
+    },
+    {
+      "group": 46,
+      "bridge": 0,
+      "neutral": false,
+      "candidate_bank_indices": [
+        103,
+        17,
+        118,
+        365,
+        280,
+        251
+      ],
+      "new_common_target_slots": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_target_difference_rms": [
+        0.5303213596343994,
+        0.6362508535385132,
+        0.6250962615013123,
+        1.1500812768936157,
+        1.1058217287063599,
+        1.0907025337219238
+      ]
+    },
+    {
+      "group": 46,
+      "bridge": 1,
+      "neutral": false,
+      "candidate_bank_indices": [
+        103,
+        17,
+        118,
+        365,
+        280,
+        251
+      ],
+      "new_common_target_slots": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_target_difference_rms": [
+        0.36987146735191345,
+        0.5156940221786499,
+        0.49480780959129333,
+        1.275601863861084,
+        1.238929033279419,
+        1.2702152729034424
+      ]
+    },
+    {
+      "group": 47,
+      "bridge": 0,
+      "neutral": false,
+      "candidate_bank_indices": [
+        103,
+        17,
+        118,
+        365,
+        280,
+        251
+      ],
+      "new_common_target_slots": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_target_difference_rms": [
+        0.5303213596343994,
+        0.6362508535385132,
+        0.6250962615013123,
+        1.1500812768936157,
+        1.1058217287063599,
+        1.0907025337219238
+      ]
+    },
+    {
+      "group": 47,
+      "bridge": 1,
+      "neutral": false,
+      "candidate_bank_indices": [
+        103,
+        17,
+        118,
+        365,
+        280,
+        251
+      ],
+      "new_common_target_slots": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "new_target_difference_rms": [
+        0.36987146735191345,
+        0.5156940221786499,
+        0.49480780959129333,
+        1.275601863861084,
+        1.238929033279419,
+        1.2702152729034424
+      ]
+    }
+  ]
+}

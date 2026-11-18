@@ -1,0 +1,140 @@
+{
+  "scope": "Untrained official PushT zero-update computation and gradient check on train data.",
+  "optimization_steps": 0,
+  "device": "cuda",
+  "inputs": {
+    "archive": "D:/cjepa/runs/native_response_mixture_counterevidence_20261113",
+    "split": "train",
+    "checked_scene": 101000,
+    "histories": 8,
+    "actual_source_steps": [
+      105,
+      110
+    ],
+    "other_arrivals": "Public frames still enter causal windows; no likelihood writes at other steps.",
+    "observation_model": "Shared fixed diagonal Gaussian, identity observation map on scheduled FULL.",
+    "offline_h2_target": "Independent candidate executions, full-encoding and object XY objectives.",
+    "offline_xy_readout": "D:/cjepa/runs/native_response_mixture_physical_20261113/pilot.pt",
+    "detail": "Only the offline readout is extracted from pilot.pt; no trained response weights are loaded.",
+    "official_host": "D:/cjepa/research_sources_2026-10-22/lewm_assets/model/weights.pt"
+  },
+  "initialization": {
+    "modes": 4,
+    "relations": 2,
+    "seed": 1714,
+    "directions": "CPU Gaussian normalized rowwise at initialization",
+    "direction_row_norms": [
+      1.0,
+      1.0
+    ],
+    "direction_cosine": -0.0059950524009764194,
+    "threshold_initial_value": 0,
+    "raw_non_native_strength_distribution": "-1 + 0.1 * standard normal",
+    "native_mode_strength": 0,
+    "non_native_strength_range": [
+      0.27050983905792236,
+      0.3380999267101288
+    ]
+  },
+  "full_scale_calibration": {
+    "actual_transitions": 256,
+    "train_scene_count": 16,
+    "min_sigma": 0.4342101514339447,
+    "max_sigma": 2.5624606609344482
+  },
+  "source_checks": {
+    "105": {
+      "issued_from_step": 100,
+      "executed_tracks": 8,
+      "max_native_mode_0_error": 0.0,
+      "max_mode_prediction_span": 6.887316703796387e-05,
+      "max_mode_log_likelihood_span": 0.002777099609375,
+      "max_support_tv": 0.0005096122622489929,
+      "non_native_relation_slots": 48,
+      "non_native_positive_duals": 24,
+      "non_native_newly_loaded_at_solution": 0,
+      "non_native_unloaded_at_solution": 0,
+      "max_dual_load_consistency_residual": 4.656612873077393e-10,
+      "non_native_modes_with_two_positive_duals": 0
+    },
+    "110": {
+      "issued_from_step": 105,
+      "executed_tracks": 8,
+      "max_native_mode_0_error": 0.0,
+      "max_mode_prediction_span": 0.001250147819519043,
+      "max_mode_log_likelihood_span": 0.0048828125,
+      "max_support_tv": 0.0008312463760375977,
+      "non_native_relation_slots": 48,
+      "non_native_positive_duals": 18,
+      "non_native_newly_loaded_at_solution": 0,
+      "non_native_unloaded_at_solution": 0,
+      "max_dual_load_consistency_residual": 1.1175870895385742e-08,
+      "non_native_modes_with_two_positive_duals": 3
+    }
+  },
+  "query_checks": {
+    "root_step": 125,
+    "candidate_count_per_history": 4,
+    "horizon_in_environment_steps": [
+      5,
+      10
+    ],
+    "hold_candidate_index": 3,
+    "candidate_h2_commands": "Repeats of the first command only.",
+    "public_root_equal_within_all_mirrored_pairs": true,
+    "root_history_actions_equal_within_all_mirrored_pairs": true,
+    "mean_prediction_kept_minus_initial_rms_by_horizon": [
+      3.833234706444507e-08,
+      6.555974558433914e-08
+    ],
+    "hold_mean_kept_minus_initial_rms_by_horizon": [
+      1.288505360024001e-08,
+      1.617934661168481e-08
+    ],
+    "hold_absolute_prediction_mode_span_by_horizon": [
+      7.408857345581055e-05,
+      9.238719940185547e-05
+    ],
+    "non_native_relation_slots": 384,
+    "non_native_positive_duals": 192,
+    "non_native_newly_loaded_at_solution": 0,
+    "non_native_unloaded_at_solution": 0,
+    "max_dual_load_consistency_residual": 1.862645149230957e-09,
+    "support_readout_accumulation_dtype": "float64, diagnostic only",
+    "hold_kept_mean_mirror_difference_rms_by_horizon": [
+      8.290073617437327e-09,
+      1.0407420776821599e-08
+    ],
+    "non_native_modes_with_two_positive_duals": 0
+  },
+  "h2_gradient_checks": {
+    "valid_endpoints": 32,
+    "active_fans": 8,
+    "total_parameter_gradient_norm": {
+      "directions": 0.0033602563198655844,
+      "raw_strengths": 1.0108232345373835e-05
+    },
+    "future_path_only_gradient_norm": {
+      "directions": 0.0033627909142524004,
+      "raw_strengths": 1.011561653285753e-05
+    },
+    "source_gradient_norms": {
+      "105": {
+        "to_log_likelihood": 7.124680450942833e-06,
+        "to_issued_means": 0.00016599161608610302,
+        "via_this_likelihood": {
+          "directions": 2.8516585643956205e-06,
+          "raw_strengths": 4.904338712918843e-09
+        }
+      },
+      "110": {
+        "to_log_likelihood": 7.124690910131903e-06,
+        "to_issued_means": 1.9552333469619043e-05,
+        "via_this_likelihood": {
+          "directions": 7.034591931187606e-07,
+          "raw_strengths": 4.5636143752858516e-09
+        }
+      }
+    }
+  }
+}

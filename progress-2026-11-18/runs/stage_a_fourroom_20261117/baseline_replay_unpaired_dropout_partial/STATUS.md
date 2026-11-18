@@ -1,0 +1,1 @@
+Partial engineering run. The predictor uses dropout during factual adaptation. This run was stopped because AdaJEPA and OpTTA consumed different grounding masks. The final run uses seed 20261117 plus pinned fork index before each arm and polarity, with the same methods, factual histories and banks.

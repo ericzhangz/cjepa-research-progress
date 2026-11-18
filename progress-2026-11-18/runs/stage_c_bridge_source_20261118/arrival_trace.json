@@ -1,0 +1,3924 @@
+{
+  "rows": [
+    {
+      "episode": "opposite_0_0_ABA",
+      "arrival": 3,
+      "action_event": "approach_mouth",
+      "phase_labels": [],
+      "physical_mode_eval_only": 0,
+      "physically_neutral": true,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": 0.00034758762922137976,
+      "support_before": 0.5,
+      "support_after": 0.5001737475395203,
+      "issued_difference_l2": 0.2958856523036957
+    },
+    {
+      "episode": "opposite_0_0_ABA",
+      "arrival": 4,
+      "action_event": "approach_mouth",
+      "phase_labels": [],
+      "physical_mode_eval_only": 0,
+      "physically_neutral": true,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": 0.0038328312803059816,
+      "support_before": 0.5001737475395203,
+      "support_after": 0.5020821690559387,
+      "issued_difference_l2": 0.44828081130981445
+    },
+    {
+      "episode": "opposite_0_0_ABA",
+      "arrival": 5,
+      "action_event": "probe",
+      "phase_labels": [
+        [
+          "initial_probe_probe_arrival_1",
+          0
+        ]
+      ],
+      "physical_mode_eval_only": 0,
+      "physically_neutral": false,
+      "first_mode_difference_raw_step": 22,
+      "oriented_evidence": 3.0134012699127197,
+      "support_before": 0.5020821690559387,
+      "support_after": 0.8759362101554871,
+      "issued_difference_l2": 12.7195463180542
+    },
+    {
+      "episode": "opposite_0_0_ABA",
+      "arrival": 6,
+      "action_event": "probe",
+      "phase_labels": [
+        [
+          "initial_probe_probe_arrival_2",
+          0
+        ]
+      ],
+      "physical_mode_eval_only": 0,
+      "physically_neutral": null,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": 4.447547435760498,
+      "support_before": 0.8759362101554871,
+      "support_after": 0.9772257208824158,
+      "issued_difference_l2": 14.288712501525879
+    },
+    {
+      "episode": "opposite_0_0_ABA",
+      "arrival": 7,
+      "action_event": "recover",
+      "phase_labels": [],
+      "physical_mode_eval_only": 0,
+      "physically_neutral": false,
+      "first_mode_difference_raw_step": 32,
+      "oriented_evidence": 0.4945647418498993,
+      "support_before": 0.9772257208824158,
+      "support_after": 0.9847618937492371,
+      "issued_difference_l2": 19.10601806640625
+    },
+    {
+      "episode": "opposite_0_0_ABA",
+      "arrival": 8,
+      "action_event": "recover",
+      "phase_labels": [],
+      "physical_mode_eval_only": 0,
+      "physically_neutral": null,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": -1.9060195684432983,
+      "support_before": 0.9847618937492371,
+      "support_after": 0.3388696610927582,
+      "issued_difference_l2": 12.446229934692383
+    },
+    {
+      "episode": "opposite_0_0_ABA",
+      "arrival": 9,
+      "action_event": "return_to_fork",
+      "phase_labels": [],
+      "physical_mode_eval_only": 0,
+      "physically_neutral": true,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": 0.056660015136003494,
+      "support_before": 0.3388696610927582,
+      "support_after": 0.3743206560611725,
+      "issued_difference_l2": 1.2302262783050537
+    },
+    {
+      "episode": "opposite_0_0_ABA",
+      "arrival": 10,
+      "action_event": "return_to_fork",
+      "phase_labels": [],
+      "physical_mode_eval_only": 0,
+      "physically_neutral": true,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": 0.022086521610617638,
+      "support_before": 0.3743206560611725,
+      "support_after": 0.387841135263443,
+      "issued_difference_l2": 0.7321463823318481
+    },
+    {
+      "episode": "opposite_0_0_ABA",
+      "arrival": 11,
+      "action_event": "neutral_away",
+      "phase_labels": [
+        [
+          "neutral_control",
+          0
+        ]
+      ],
+      "physical_mode_eval_only": 0,
+      "physically_neutral": true,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": -0.0003368422912899405,
+      "support_before": 0.387841135263443,
+      "support_after": 0.3877105116844177,
+      "issued_difference_l2": 0.27712586522102356
+    },
+    {
+      "episode": "opposite_0_0_ABA",
+      "arrival": 12,
+      "action_event": "neutral_return",
+      "phase_labels": [
+        [
+          "initial_probe_retained_fork",
+          0
+        ],
+        [
+          "reversal_1_unobserved",
+          1
+        ],
+        [
+          "neutral_control",
+          0
+        ]
+      ],
+      "physical_mode_eval_only": 0,
+      "physically_neutral": true,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": 0.0008641511667519808,
+      "support_before": 0.3877105116844177,
+      "support_after": 0.38823917508125305,
+      "issued_difference_l2": 0.4859657883644104
+    },
+    {
+      "episode": "opposite_0_0_ABA",
+      "arrival": 13,
+      "action_event": "approach_mouth",
+      "phase_labels": [
+        [
+          "reversal_1_arrival_1",
+          1
+        ]
+      ],
+      "physical_mode_eval_only": 1,
+      "physically_neutral": true,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": -0.00034758762922137976,
+      "support_before": 0.6117607951164246,
+      "support_after": 0.6115481853485107,
+      "issued_difference_l2": 0.2958856523036957
+    },
+    {
+      "episode": "opposite_0_0_ABA",
+      "arrival": 14,
+      "action_event": "approach_mouth",
+      "phase_labels": [
+        [
+          "reversal_1_arrival_2",
+          1
+        ]
+      ],
+      "physical_mode_eval_only": 1,
+      "physically_neutral": true,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": -0.0038328312803059816,
+      "support_before": 0.6115481853485107,
+      "support_after": 0.6092131733894348,
+      "issued_difference_l2": 0.44828081130981445
+    },
+    {
+      "episode": "opposite_0_0_ABA",
+      "arrival": 15,
+      "action_event": "probe",
+      "phase_labels": [
+        [
+          "reversal_1_probe_arrival_1",
+          1
+        ]
+      ],
+      "physical_mode_eval_only": 1,
+      "physically_neutral": false,
+      "first_mode_difference_raw_step": 72,
+      "oriented_evidence": 4.405872344970703,
+      "support_before": 0.6092131733894348,
+      "support_after": 0.9277107119560242,
+      "issued_difference_l2": 12.7195463180542
+    },
+    {
+      "episode": "opposite_0_0_ABA",
+      "arrival": 16,
+      "action_event": "probe",
+      "phase_labels": [
+        [
+          "reversal_1_probe_arrival_2",
+          1
+        ]
+      ],
+      "physical_mode_eval_only": 1,
+      "physically_neutral": false,
+      "first_mode_difference_raw_step": 76,
+      "oriented_evidence": 5.2569732666015625,
+      "support_before": 0.9277107119560242,
+      "support_after": 0.9884465932846069,
+      "issued_difference_l2": 13.317124366760254
+    },
+    {
+      "episode": "opposite_0_0_ABA",
+      "arrival": 17,
+      "action_event": "recover",
+      "phase_labels": [],
+      "physical_mode_eval_only": 1,
+      "physically_neutral": true,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": 0.25587740540504456,
+      "support_before": 0.9884465932846069,
+      "support_after": 0.9908004999160767,
+      "issued_difference_l2": 2.7538366317749023
+    },
+    {
+      "episode": "opposite_0_0_ABA",
+      "arrival": 18,
+      "action_event": "recover",
+      "phase_labels": [],
+      "physical_mode_eval_only": 1,
+      "physically_neutral": true,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": -0.008794315159320831,
+      "support_before": 0.9908004999160767,
+      "support_after": 0.9821630716323853,
+      "issued_difference_l2": 1.4186434745788574
+    },
+    {
+      "episode": "opposite_0_0_ABA",
+      "arrival": 19,
+      "action_event": "return_to_fork",
+      "phase_labels": [],
+      "physical_mode_eval_only": 1,
+      "physically_neutral": true,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": 0.057162780314683914,
+      "support_before": 0.9821630716323853,
+      "support_after": 0.9831275343894958,
+      "issued_difference_l2": 0.9861530065536499
+    },
+    {
+      "episode": "opposite_0_0_ABA",
+      "arrival": 20,
+      "action_event": "return_to_fork",
+      "phase_labels": [],
+      "physical_mode_eval_only": 1,
+      "physically_neutral": true,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": -0.002568332012742758,
+      "support_before": 0.9831275343894958,
+      "support_after": 0.9806089997291565,
+      "issued_difference_l2": 0.6233276724815369
+    },
+    {
+      "episode": "opposite_0_0_ABA",
+      "arrival": 21,
+      "action_event": "neutral_away",
+      "phase_labels": [
+        [
+          "neutral_control",
+          1
+        ]
+      ],
+      "physical_mode_eval_only": 1,
+      "physically_neutral": true,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": 0.0003368422912899405,
+      "support_before": 0.9806089997291565,
+      "support_after": 0.980615496635437,
+      "issued_difference_l2": 0.27712586522102356
+    },
+    {
+      "episode": "opposite_0_0_ABA",
+      "arrival": 22,
+      "action_event": "neutral_return",
+      "phase_labels": [
+        [
+          "reversal_1_retained_fork",
+          1
+        ],
+        [
+          "reversal_2_unobserved",
+          0
+        ],
+        [
+          "neutral_control",
+          1
+        ]
+      ],
+      "physical_mode_eval_only": 1,
+      "physically_neutral": true,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": -0.0008641511667519808,
+      "support_before": 0.980615496635437,
+      "support_after": 0.9797688126564026,
+      "issued_difference_l2": 0.4859657883644104
+    },
+    {
+      "episode": "opposite_0_0_ABA",
+      "arrival": 23,
+      "action_event": "approach_mouth",
+      "phase_labels": [
+        [
+          "reversal_2_arrival_1",
+          0
+        ]
+      ],
+      "physical_mode_eval_only": 0,
+      "physically_neutral": true,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": 0.00034758762922137976,
+      "support_before": 0.020231107249855995,
+      "support_after": 0.020571544766426086,
+      "issued_difference_l2": 0.2958856523036957
+    },
+    {
+      "episode": "opposite_0_0_ABA",
+      "arrival": 24,
+      "action_event": "approach_mouth",
+      "phase_labels": [
+        [
+          "reversal_2_arrival_2",
+          0
+        ]
+      ],
+      "physical_mode_eval_only": 0,
+      "physically_neutral": true,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": 0.0038328312803059816,
+      "support_before": 0.020571544766426086,
+      "support_after": 0.02431119605898857,
+      "issued_difference_l2": 0.44828081130981445
+    },
+    {
+      "episode": "opposite_0_0_ABA",
+      "arrival": 25,
+      "action_event": "probe",
+      "phase_labels": [
+        [
+          "reversal_2_probe_arrival_1",
+          0
+        ]
+      ],
+      "physical_mode_eval_only": 0,
+      "physically_neutral": false,
+      "first_mode_difference_raw_step": 122,
+      "oriented_evidence": 3.0134012699127197,
+      "support_before": 0.02431119605898857,
+      "support_after": 0.7568923830986023,
+      "issued_difference_l2": 12.7195463180542
+    },
+    {
+      "episode": "opposite_0_0_ABA",
+      "arrival": 26,
+      "action_event": "probe",
+      "phase_labels": [
+        [
+          "reversal_2_probe_arrival_2",
+          0
+        ]
+      ],
+      "physical_mode_eval_only": 0,
+      "physically_neutral": null,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": 4.447547435760498,
+      "support_before": 0.7568923830986023,
+      "support_after": 0.9553729891777039,
+      "issued_difference_l2": 14.288712501525879
+    },
+    {
+      "episode": "opposite_0_0_ABA",
+      "arrival": 27,
+      "action_event": "recover",
+      "phase_labels": [],
+      "physical_mode_eval_only": 0,
+      "physically_neutral": false,
+      "first_mode_difference_raw_step": 132,
+      "oriented_evidence": 0.4945647418498993,
+      "support_before": 0.9553729891777039,
+      "support_after": 0.9701403975486755,
+      "issued_difference_l2": 19.10601806640625
+    },
+    {
+      "episode": "opposite_0_0_ABA",
+      "arrival": 28,
+      "action_event": "recover",
+      "phase_labels": [],
+      "physical_mode_eval_only": 0,
+      "physically_neutral": null,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": -1.9060195684432983,
+      "support_before": 0.9701403975486755,
+      "support_after": 0.33383819460868835,
+      "issued_difference_l2": 12.446229934692383
+    },
+    {
+      "episode": "opposite_0_0_ABA",
+      "arrival": 29,
+      "action_event": "return_to_fork",
+      "phase_labels": [],
+      "physical_mode_eval_only": 0,
+      "physically_neutral": true,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": 0.056660015136003494,
+      "support_before": 0.33383819460868835,
+      "support_after": 0.36955899000167847,
+      "issued_difference_l2": 1.2302262783050537
+    },
+    {
+      "episode": "opposite_0_0_ABA",
+      "arrival": 30,
+      "action_event": "return_to_fork",
+      "phase_labels": [],
+      "physical_mode_eval_only": 0,
+      "physically_neutral": true,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": 0.022086521610617638,
+      "support_before": 0.36955899000167847,
+      "support_after": 0.3831823766231537,
+      "issued_difference_l2": 0.7321463823318481
+    },
+    {
+      "episode": "opposite_0_0_ABA",
+      "arrival": 31,
+      "action_event": "neutral_away",
+      "phase_labels": [
+        [
+          "neutral_control",
+          0
+        ]
+      ],
+      "physical_mode_eval_only": 0,
+      "physically_neutral": true,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": -0.0003368422912899405,
+      "support_before": 0.3831823766231537,
+      "support_after": 0.38305333256721497,
+      "issued_difference_l2": 0.27712586522102356
+    },
+    {
+      "episode": "opposite_0_0_ABA",
+      "arrival": 32,
+      "action_event": "neutral_return",
+      "phase_labels": [
+        [
+          "reversal_2_retained_fork",
+          0
+        ],
+        [
+          "neutral_control",
+          0
+        ]
+      ],
+      "physical_mode_eval_only": 0,
+      "physically_neutral": true,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": 0.0008641511667519808,
+      "support_before": 0.38305333256721497,
+      "support_after": 0.38358601927757263,
+      "issued_difference_l2": 0.4859657883644104
+    },
+    {
+      "episode": "opposite_0_0_BAB",
+      "arrival": 3,
+      "action_event": "approach_mouth",
+      "phase_labels": [],
+      "physical_mode_eval_only": 1,
+      "physically_neutral": true,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": -0.00034758762922137976,
+      "support_before": 0.5,
+      "support_after": 0.49982625246047974,
+      "issued_difference_l2": 0.2958856523036957
+    },
+    {
+      "episode": "opposite_0_0_BAB",
+      "arrival": 4,
+      "action_event": "approach_mouth",
+      "phase_labels": [],
+      "physical_mode_eval_only": 1,
+      "physically_neutral": true,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": -0.0038328312803059816,
+      "support_before": 0.49982625246047974,
+      "support_after": 0.4979178309440613,
+      "issued_difference_l2": 0.44828081130981445
+    },
+    {
+      "episode": "opposite_0_0_BAB",
+      "arrival": 5,
+      "action_event": "probe",
+      "phase_labels": [
+        [
+          "initial_probe_probe_arrival_1",
+          1
+        ]
+      ],
+      "physical_mode_eval_only": 1,
+      "physically_neutral": false,
+      "first_mode_difference_raw_step": 22,
+      "oriented_evidence": 4.405872344970703,
+      "support_before": 0.4979178309440613,
+      "support_after": 0.907122790813446,
+      "issued_difference_l2": 12.7195463180542
+    },
+    {
+      "episode": "opposite_0_0_BAB",
+      "arrival": 6,
+      "action_event": "probe",
+      "phase_labels": [
+        [
+          "initial_probe_probe_arrival_2",
+          1
+        ]
+      ],
+      "physical_mode_eval_only": 1,
+      "physically_neutral": false,
+      "first_mode_difference_raw_step": 26,
+      "oriented_evidence": 5.2569732666015625,
+      "support_before": 0.907122790813446,
+      "support_after": 0.9851561784744263,
+      "issued_difference_l2": 13.317124366760254
+    },
+    {
+      "episode": "opposite_0_0_BAB",
+      "arrival": 7,
+      "action_event": "recover",
+      "phase_labels": [],
+      "physical_mode_eval_only": 1,
+      "physically_neutral": true,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": 0.25587740540504456,
+      "support_before": 0.9851561784744263,
+      "support_after": 0.9881805181503296,
+      "issued_difference_l2": 2.7538366317749023
+    },
+    {
+      "episode": "opposite_0_0_BAB",
+      "arrival": 8,
+      "action_event": "recover",
+      "phase_labels": [],
+      "physical_mode_eval_only": 1,
+      "physically_neutral": true,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": -0.008794315159320831,
+      "support_before": 0.9881805181503296,
+      "support_after": 0.9795659184455872,
+      "issued_difference_l2": 1.4186434745788574
+    },
+    {
+      "episode": "opposite_0_0_BAB",
+      "arrival": 9,
+      "action_event": "return_to_fork",
+      "phase_labels": [],
+      "physical_mode_eval_only": 1,
+      "physically_neutral": true,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": 0.057162780314683914,
+      "support_before": 0.9795659184455872,
+      "support_after": 0.9806708693504333,
+      "issued_difference_l2": 0.9861530065536499
+    },
+    {
+      "episode": "opposite_0_0_BAB",
+      "arrival": 10,
+      "action_event": "return_to_fork",
+      "phase_labels": [],
+      "physical_mode_eval_only": 1,
+      "physically_neutral": true,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": -0.002568332012742758,
+      "support_before": 0.9806708693504333,
+      "support_after": 0.9781585931777954,
+      "issued_difference_l2": 0.6233276724815369
+    },
+    {
+      "episode": "opposite_0_0_BAB",
+      "arrival": 11,
+      "action_event": "neutral_away",
+      "phase_labels": [
+        [
+          "neutral_control",
+          1
+        ]
+      ],
+      "physical_mode_eval_only": 1,
+      "physically_neutral": true,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": 0.0003368422912899405,
+      "support_before": 0.9781585931777954,
+      "support_after": 0.978165864944458,
+      "issued_difference_l2": 0.27712586522102356
+    },
+    {
+      "episode": "opposite_0_0_BAB",
+      "arrival": 12,
+      "action_event": "neutral_return",
+      "phase_labels": [
+        [
+          "initial_probe_retained_fork",
+          1
+        ],
+        [
+          "reversal_1_unobserved",
+          0
+        ],
+        [
+          "neutral_control",
+          1
+        ]
+      ],
+      "physical_mode_eval_only": 1,
+      "physically_neutral": true,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": -0.0008641511667519808,
+      "support_before": 0.978165864944458,
+      "support_after": 0.9773213267326355,
+      "issued_difference_l2": 0.4859657883644104
+    },
+    {
+      "episode": "opposite_0_0_BAB",
+      "arrival": 13,
+      "action_event": "approach_mouth",
+      "phase_labels": [
+        [
+          "reversal_1_arrival_1",
+          0
+        ]
+      ],
+      "physical_mode_eval_only": 0,
+      "physically_neutral": true,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": 0.00034758762922137976,
+      "support_before": 0.022678593173623085,
+      "support_after": 0.023018179461359978,
+      "issued_difference_l2": 0.2958856523036957
+    },
+    {
+      "episode": "opposite_0_0_BAB",
+      "arrival": 14,
+      "action_event": "approach_mouth",
+      "phase_labels": [
+        [
+          "reversal_1_arrival_2",
+          0
+        ]
+      ],
+      "physical_mode_eval_only": 0,
+      "physically_neutral": true,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": 0.0038328312803059816,
+      "support_before": 0.023018179461359978,
+      "support_after": 0.02674848958849907,
+      "issued_difference_l2": 0.44828081130981445
+    },
+    {
+      "episode": "opposite_0_0_BAB",
+      "arrival": 15,
+      "action_event": "probe",
+      "phase_labels": [
+        [
+          "reversal_1_probe_arrival_1",
+          0
+        ]
+      ],
+      "physical_mode_eval_only": 0,
+      "physically_neutral": false,
+      "first_mode_difference_raw_step": 72,
+      "oriented_evidence": 3.0134012699127197,
+      "support_before": 0.02674848958849907,
+      "support_after": 0.7574995756149292,
+      "issued_difference_l2": 12.7195463180542
+    },
+    {
+      "episode": "opposite_0_0_BAB",
+      "arrival": 16,
+      "action_event": "probe",
+      "phase_labels": [
+        [
+          "reversal_1_probe_arrival_2",
+          0
+        ]
+      ],
+      "physical_mode_eval_only": 0,
+      "physically_neutral": null,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": 4.447547435760498,
+      "support_before": 0.7574995756149292,
+      "support_after": 0.9554845094680786,
+      "issued_difference_l2": 14.288712501525879
+    },
+    {
+      "episode": "opposite_0_0_BAB",
+      "arrival": 17,
+      "action_event": "recover",
+      "phase_labels": [],
+      "physical_mode_eval_only": 0,
+      "physically_neutral": false,
+      "first_mode_difference_raw_step": 82,
+      "oriented_evidence": 0.4945647418498993,
+      "support_before": 0.9554845094680786,
+      "support_after": 0.9702150821685791,
+      "issued_difference_l2": 19.10601806640625
+    },
+    {
+      "episode": "opposite_0_0_BAB",
+      "arrival": 18,
+      "action_event": "recover",
+      "phase_labels": [],
+      "physical_mode_eval_only": 0,
+      "physically_neutral": null,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": -1.9060195684432983,
+      "support_before": 0.9702150821685791,
+      "support_after": 0.33386391401290894,
+      "issued_difference_l2": 12.446229934692383
+    },
+    {
+      "episode": "opposite_0_0_BAB",
+      "arrival": 19,
+      "action_event": "return_to_fork",
+      "phase_labels": [],
+      "physical_mode_eval_only": 0,
+      "physically_neutral": true,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": 0.056660015136003494,
+      "support_before": 0.33386391401290894,
+      "support_after": 0.3695833384990692,
+      "issued_difference_l2": 1.2302262783050537
+    },
+    {
+      "episode": "opposite_0_0_BAB",
+      "arrival": 20,
+      "action_event": "return_to_fork",
+      "phase_labels": [],
+      "physical_mode_eval_only": 0,
+      "physically_neutral": true,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": 0.022086521610617638,
+      "support_before": 0.3695833384990692,
+      "support_after": 0.38320618867874146,
+      "issued_difference_l2": 0.7321463823318481
+    },
+    {
+      "episode": "opposite_0_0_BAB",
+      "arrival": 21,
+      "action_event": "neutral_away",
+      "phase_labels": [
+        [
+          "neutral_control",
+          0
+        ]
+      ],
+      "physical_mode_eval_only": 0,
+      "physically_neutral": true,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": -0.0003368422912899405,
+      "support_before": 0.38320618867874146,
+      "support_after": 0.38307714462280273,
+      "issued_difference_l2": 0.27712586522102356
+    },
+    {
+      "episode": "opposite_0_0_BAB",
+      "arrival": 22,
+      "action_event": "neutral_return",
+      "phase_labels": [
+        [
+          "reversal_1_retained_fork",
+          0
+        ],
+        [
+          "reversal_2_unobserved",
+          1
+        ],
+        [
+          "neutral_control",
+          0
+        ]
+      ],
+      "physical_mode_eval_only": 0,
+      "physically_neutral": true,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": 0.0008641511667519808,
+      "support_before": 0.38307714462280273,
+      "support_after": 0.383609801530838,
+      "issued_difference_l2": 0.4859657883644104
+    },
+    {
+      "episode": "opposite_0_0_BAB",
+      "arrival": 23,
+      "action_event": "approach_mouth",
+      "phase_labels": [
+        [
+          "reversal_2_arrival_1",
+          1
+        ]
+      ],
+      "physical_mode_eval_only": 1,
+      "physically_neutral": true,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": -0.00034758762922137976,
+      "support_before": 0.6163901090621948,
+      "support_after": 0.6161758899688721,
+      "issued_difference_l2": 0.2958856523036957
+    },
+    {
+      "episode": "opposite_0_0_BAB",
+      "arrival": 24,
+      "action_event": "approach_mouth",
+      "phase_labels": [
+        [
+          "reversal_2_arrival_2",
+          1
+        ]
+      ],
+      "physical_mode_eval_only": 1,
+      "physically_neutral": true,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": -0.0038328312803059816,
+      "support_before": 0.6161758899688721,
+      "support_after": 0.6138232350349426,
+      "issued_difference_l2": 0.44828081130981445
+    },
+    {
+      "episode": "opposite_0_0_BAB",
+      "arrival": 25,
+      "action_event": "probe",
+      "phase_labels": [
+        [
+          "reversal_2_probe_arrival_1",
+          1
+        ]
+      ],
+      "physical_mode_eval_only": 1,
+      "physically_neutral": false,
+      "first_mode_difference_raw_step": 122,
+      "oriented_evidence": 4.405872344970703,
+      "support_before": 0.6138232350349426,
+      "support_after": 0.9285634756088257,
+      "issued_difference_l2": 12.7195463180542
+    },
+    {
+      "episode": "opposite_0_0_BAB",
+      "arrival": 26,
+      "action_event": "probe",
+      "phase_labels": [
+        [
+          "reversal_2_probe_arrival_2",
+          1
+        ]
+      ],
+      "physical_mode_eval_only": 1,
+      "physically_neutral": false,
+      "first_mode_difference_raw_step": 126,
+      "oriented_evidence": 5.2569732666015625,
+      "support_before": 0.9285634756088257,
+      "support_after": 0.9885829091072083,
+      "issued_difference_l2": 13.317124366760254
+    },
+    {
+      "episode": "opposite_0_0_BAB",
+      "arrival": 27,
+      "action_event": "recover",
+      "phase_labels": [],
+      "physical_mode_eval_only": 1,
+      "physically_neutral": true,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": 0.25587740540504456,
+      "support_before": 0.9885829091072083,
+      "support_after": 0.9909090995788574,
+      "issued_difference_l2": 2.7538366317749023
+    },
+    {
+      "episode": "opposite_0_0_BAB",
+      "arrival": 28,
+      "action_event": "recover",
+      "phase_labels": [],
+      "physical_mode_eval_only": 1,
+      "physically_neutral": true,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": -0.008794315159320831,
+      "support_before": 0.9909090995788574,
+      "support_after": 0.9822707176208496,
+      "issued_difference_l2": 1.4186434745788574
+    },
+    {
+      "episode": "opposite_0_0_BAB",
+      "arrival": 29,
+      "action_event": "return_to_fork",
+      "phase_labels": [],
+      "physical_mode_eval_only": 1,
+      "physically_neutral": true,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": 0.057162780314683914,
+      "support_before": 0.9822707176208496,
+      "support_after": 0.983229398727417,
+      "issued_difference_l2": 0.9861530065536499
+    },
+    {
+      "episode": "opposite_0_0_BAB",
+      "arrival": 30,
+      "action_event": "return_to_fork",
+      "phase_labels": [],
+      "physical_mode_eval_only": 1,
+      "physically_neutral": true,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": -0.002568332012742758,
+      "support_before": 0.983229398727417,
+      "support_after": 0.9807105660438538,
+      "issued_difference_l2": 0.6233276724815369
+    },
+    {
+      "episode": "opposite_0_0_BAB",
+      "arrival": 31,
+      "action_event": "neutral_away",
+      "phase_labels": [
+        [
+          "neutral_control",
+          1
+        ]
+      ],
+      "physical_mode_eval_only": 1,
+      "physically_neutral": true,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": 0.0003368422912899405,
+      "support_before": 0.9807105660438538,
+      "support_after": 0.9807170033454895,
+      "issued_difference_l2": 0.27712586522102356
+    },
+    {
+      "episode": "opposite_0_0_BAB",
+      "arrival": 32,
+      "action_event": "neutral_return",
+      "phase_labels": [
+        [
+          "reversal_2_retained_fork",
+          1
+        ],
+        [
+          "neutral_control",
+          1
+        ]
+      ],
+      "physical_mode_eval_only": 1,
+      "physically_neutral": true,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": -0.0008641511667519808,
+      "support_before": 0.9807170033454895,
+      "support_after": 0.9798702597618103,
+      "issued_difference_l2": 0.4859657883644104
+    },
+    {
+      "episode": "opposite_0_1_ABA",
+      "arrival": 3,
+      "action_event": "approach_mouth",
+      "phase_labels": [],
+      "physical_mode_eval_only": 0,
+      "physically_neutral": true,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": 0.00034758762922137976,
+      "support_before": 0.5,
+      "support_after": 0.5001737475395203,
+      "issued_difference_l2": 0.2958856523036957
+    },
+    {
+      "episode": "opposite_0_1_ABA",
+      "arrival": 4,
+      "action_event": "approach_mouth",
+      "phase_labels": [],
+      "physical_mode_eval_only": 0,
+      "physically_neutral": true,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": 0.0038328312803059816,
+      "support_before": 0.5001737475395203,
+      "support_after": 0.5020821690559387,
+      "issued_difference_l2": 0.44828081130981445
+    },
+    {
+      "episode": "opposite_0_1_ABA",
+      "arrival": 5,
+      "action_event": "probe",
+      "phase_labels": [
+        [
+          "initial_probe_probe_arrival_1",
+          0
+        ]
+      ],
+      "physical_mode_eval_only": 0,
+      "physically_neutral": false,
+      "first_mode_difference_raw_step": 22,
+      "oriented_evidence": 3.0134012699127197,
+      "support_before": 0.5020821690559387,
+      "support_after": 0.8759362101554871,
+      "issued_difference_l2": 12.7195463180542
+    },
+    {
+      "episode": "opposite_0_1_ABA",
+      "arrival": 6,
+      "action_event": "probe",
+      "phase_labels": [
+        [
+          "initial_probe_probe_arrival_2",
+          0
+        ]
+      ],
+      "physical_mode_eval_only": 0,
+      "physically_neutral": null,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": 4.447547435760498,
+      "support_before": 0.8759362101554871,
+      "support_after": 0.9772257208824158,
+      "issued_difference_l2": 14.288712501525879
+    },
+    {
+      "episode": "opposite_0_1_ABA",
+      "arrival": 7,
+      "action_event": "recover",
+      "phase_labels": [],
+      "physical_mode_eval_only": 0,
+      "physically_neutral": false,
+      "first_mode_difference_raw_step": 32,
+      "oriented_evidence": 0.4945647418498993,
+      "support_before": 0.9772257208824158,
+      "support_after": 0.9847618937492371,
+      "issued_difference_l2": 19.10601806640625
+    },
+    {
+      "episode": "opposite_0_1_ABA",
+      "arrival": 8,
+      "action_event": "recover",
+      "phase_labels": [],
+      "physical_mode_eval_only": 0,
+      "physically_neutral": null,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": -1.9060195684432983,
+      "support_before": 0.9847618937492371,
+      "support_after": 0.3388696610927582,
+      "issued_difference_l2": 12.446229934692383
+    },
+    {
+      "episode": "opposite_0_1_ABA",
+      "arrival": 9,
+      "action_event": "return_to_fork",
+      "phase_labels": [],
+      "physical_mode_eval_only": 0,
+      "physically_neutral": true,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": 0.056660015136003494,
+      "support_before": 0.3388696610927582,
+      "support_after": 0.3743206560611725,
+      "issued_difference_l2": 1.2302262783050537
+    },
+    {
+      "episode": "opposite_0_1_ABA",
+      "arrival": 10,
+      "action_event": "return_to_fork",
+      "phase_labels": [],
+      "physical_mode_eval_only": 0,
+      "physically_neutral": true,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": 0.022086521610617638,
+      "support_before": 0.3743206560611725,
+      "support_after": 0.387841135263443,
+      "issued_difference_l2": 0.7321463823318481
+    },
+    {
+      "episode": "opposite_0_1_ABA",
+      "arrival": 11,
+      "action_event": "neutral_away",
+      "phase_labels": [
+        [
+          "neutral_control",
+          0
+        ]
+      ],
+      "physical_mode_eval_only": 0,
+      "physically_neutral": true,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": -0.0003368422912899405,
+      "support_before": 0.387841135263443,
+      "support_after": 0.3877105116844177,
+      "issued_difference_l2": 0.27712586522102356
+    },
+    {
+      "episode": "opposite_0_1_ABA",
+      "arrival": 12,
+      "action_event": "neutral_return",
+      "phase_labels": [
+        [
+          "initial_probe_retained_fork",
+          0
+        ],
+        [
+          "reversal_1_unobserved",
+          1
+        ],
+        [
+          "neutral_control",
+          0
+        ]
+      ],
+      "physical_mode_eval_only": 0,
+      "physically_neutral": true,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": 0.0008641511667519808,
+      "support_before": 0.3877105116844177,
+      "support_after": 0.38823917508125305,
+      "issued_difference_l2": 0.4859657883644104
+    },
+    {
+      "episode": "opposite_0_1_ABA",
+      "arrival": 13,
+      "action_event": "approach_mouth",
+      "phase_labels": [
+        [
+          "reversal_1_arrival_1",
+          1
+        ]
+      ],
+      "physical_mode_eval_only": 1,
+      "physically_neutral": true,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": -0.00034758762922137976,
+      "support_before": 0.6117607951164246,
+      "support_after": 0.6115481853485107,
+      "issued_difference_l2": 0.2958856523036957
+    },
+    {
+      "episode": "opposite_0_1_ABA",
+      "arrival": 14,
+      "action_event": "approach_mouth",
+      "phase_labels": [
+        [
+          "reversal_1_arrival_2",
+          1
+        ]
+      ],
+      "physical_mode_eval_only": 1,
+      "physically_neutral": true,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": -0.0038328312803059816,
+      "support_before": 0.6115481853485107,
+      "support_after": 0.6092131733894348,
+      "issued_difference_l2": 0.44828081130981445
+    },
+    {
+      "episode": "opposite_0_1_ABA",
+      "arrival": 15,
+      "action_event": "probe",
+      "phase_labels": [
+        [
+          "reversal_1_probe_arrival_1",
+          1
+        ]
+      ],
+      "physical_mode_eval_only": 1,
+      "physically_neutral": false,
+      "first_mode_difference_raw_step": 72,
+      "oriented_evidence": 4.405872344970703,
+      "support_before": 0.6092131733894348,
+      "support_after": 0.9277107119560242,
+      "issued_difference_l2": 12.7195463180542
+    },
+    {
+      "episode": "opposite_0_1_ABA",
+      "arrival": 16,
+      "action_event": "probe",
+      "phase_labels": [
+        [
+          "reversal_1_probe_arrival_2",
+          1
+        ]
+      ],
+      "physical_mode_eval_only": 1,
+      "physically_neutral": false,
+      "first_mode_difference_raw_step": 76,
+      "oriented_evidence": 5.2569732666015625,
+      "support_before": 0.9277107119560242,
+      "support_after": 0.9884465932846069,
+      "issued_difference_l2": 13.317124366760254
+    },
+    {
+      "episode": "opposite_0_1_ABA",
+      "arrival": 17,
+      "action_event": "recover",
+      "phase_labels": [],
+      "physical_mode_eval_only": 1,
+      "physically_neutral": true,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": 0.25587740540504456,
+      "support_before": 0.9884465932846069,
+      "support_after": 0.9908004999160767,
+      "issued_difference_l2": 2.7538366317749023
+    },
+    {
+      "episode": "opposite_0_1_ABA",
+      "arrival": 18,
+      "action_event": "recover",
+      "phase_labels": [],
+      "physical_mode_eval_only": 1,
+      "physically_neutral": true,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": -0.008794315159320831,
+      "support_before": 0.9908004999160767,
+      "support_after": 0.9821630716323853,
+      "issued_difference_l2": 1.4186434745788574
+    },
+    {
+      "episode": "opposite_0_1_ABA",
+      "arrival": 19,
+      "action_event": "return_to_fork",
+      "phase_labels": [],
+      "physical_mode_eval_only": 1,
+      "physically_neutral": true,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": 0.057162780314683914,
+      "support_before": 0.9821630716323853,
+      "support_after": 0.9831275343894958,
+      "issued_difference_l2": 0.9861530065536499
+    },
+    {
+      "episode": "opposite_0_1_ABA",
+      "arrival": 20,
+      "action_event": "return_to_fork",
+      "phase_labels": [],
+      "physical_mode_eval_only": 1,
+      "physically_neutral": true,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": -0.002568332012742758,
+      "support_before": 0.9831275343894958,
+      "support_after": 0.9806089997291565,
+      "issued_difference_l2": 0.6233276724815369
+    },
+    {
+      "episode": "opposite_0_1_ABA",
+      "arrival": 21,
+      "action_event": "neutral_away",
+      "phase_labels": [
+        [
+          "neutral_control",
+          1
+        ]
+      ],
+      "physical_mode_eval_only": 1,
+      "physically_neutral": true,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": 0.0003368422912899405,
+      "support_before": 0.9806089997291565,
+      "support_after": 0.980615496635437,
+      "issued_difference_l2": 0.27712586522102356
+    },
+    {
+      "episode": "opposite_0_1_ABA",
+      "arrival": 22,
+      "action_event": "neutral_return",
+      "phase_labels": [
+        [
+          "reversal_1_retained_fork",
+          1
+        ],
+        [
+          "reversal_2_unobserved",
+          0
+        ],
+        [
+          "neutral_control",
+          1
+        ]
+      ],
+      "physical_mode_eval_only": 1,
+      "physically_neutral": true,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": -0.0008641511667519808,
+      "support_before": 0.980615496635437,
+      "support_after": 0.9797688126564026,
+      "issued_difference_l2": 0.4859657883644104
+    },
+    {
+      "episode": "opposite_0_1_ABA",
+      "arrival": 23,
+      "action_event": "approach_mouth",
+      "phase_labels": [
+        [
+          "reversal_2_arrival_1",
+          0
+        ]
+      ],
+      "physical_mode_eval_only": 0,
+      "physically_neutral": true,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": 0.00034758762922137976,
+      "support_before": 0.020231107249855995,
+      "support_after": 0.020571544766426086,
+      "issued_difference_l2": 0.2958856523036957
+    },
+    {
+      "episode": "opposite_0_1_ABA",
+      "arrival": 24,
+      "action_event": "approach_mouth",
+      "phase_labels": [
+        [
+          "reversal_2_arrival_2",
+          0
+        ]
+      ],
+      "physical_mode_eval_only": 0,
+      "physically_neutral": true,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": 0.0038328312803059816,
+      "support_before": 0.020571544766426086,
+      "support_after": 0.02431119605898857,
+      "issued_difference_l2": 0.44828081130981445
+    },
+    {
+      "episode": "opposite_0_1_ABA",
+      "arrival": 25,
+      "action_event": "probe",
+      "phase_labels": [
+        [
+          "reversal_2_probe_arrival_1",
+          0
+        ]
+      ],
+      "physical_mode_eval_only": 0,
+      "physically_neutral": false,
+      "first_mode_difference_raw_step": 122,
+      "oriented_evidence": 3.0134012699127197,
+      "support_before": 0.02431119605898857,
+      "support_after": 0.7568923830986023,
+      "issued_difference_l2": 12.7195463180542
+    },
+    {
+      "episode": "opposite_0_1_ABA",
+      "arrival": 26,
+      "action_event": "probe",
+      "phase_labels": [
+        [
+          "reversal_2_probe_arrival_2",
+          0
+        ]
+      ],
+      "physical_mode_eval_only": 0,
+      "physically_neutral": null,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": 4.447547435760498,
+      "support_before": 0.7568923830986023,
+      "support_after": 0.9553729891777039,
+      "issued_difference_l2": 14.288712501525879
+    },
+    {
+      "episode": "opposite_0_1_ABA",
+      "arrival": 27,
+      "action_event": "recover",
+      "phase_labels": [],
+      "physical_mode_eval_only": 0,
+      "physically_neutral": false,
+      "first_mode_difference_raw_step": 132,
+      "oriented_evidence": 0.4945647418498993,
+      "support_before": 0.9553729891777039,
+      "support_after": 0.9701403975486755,
+      "issued_difference_l2": 19.10601806640625
+    },
+    {
+      "episode": "opposite_0_1_ABA",
+      "arrival": 28,
+      "action_event": "recover",
+      "phase_labels": [],
+      "physical_mode_eval_only": 0,
+      "physically_neutral": null,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": -1.9060195684432983,
+      "support_before": 0.9701403975486755,
+      "support_after": 0.33383819460868835,
+      "issued_difference_l2": 12.446229934692383
+    },
+    {
+      "episode": "opposite_0_1_ABA",
+      "arrival": 29,
+      "action_event": "return_to_fork",
+      "phase_labels": [],
+      "physical_mode_eval_only": 0,
+      "physically_neutral": true,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": 0.056660015136003494,
+      "support_before": 0.33383819460868835,
+      "support_after": 0.36955899000167847,
+      "issued_difference_l2": 1.2302262783050537
+    },
+    {
+      "episode": "opposite_0_1_ABA",
+      "arrival": 30,
+      "action_event": "return_to_fork",
+      "phase_labels": [],
+      "physical_mode_eval_only": 0,
+      "physically_neutral": true,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": 0.022086521610617638,
+      "support_before": 0.36955899000167847,
+      "support_after": 0.3831823766231537,
+      "issued_difference_l2": 0.7321463823318481
+    },
+    {
+      "episode": "opposite_0_1_ABA",
+      "arrival": 31,
+      "action_event": "neutral_away",
+      "phase_labels": [
+        [
+          "neutral_control",
+          0
+        ]
+      ],
+      "physical_mode_eval_only": 0,
+      "physically_neutral": true,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": -0.0003368422912899405,
+      "support_before": 0.3831823766231537,
+      "support_after": 0.38305333256721497,
+      "issued_difference_l2": 0.27712586522102356
+    },
+    {
+      "episode": "opposite_0_1_ABA",
+      "arrival": 32,
+      "action_event": "neutral_return",
+      "phase_labels": [
+        [
+          "reversal_2_retained_fork",
+          0
+        ],
+        [
+          "neutral_control",
+          0
+        ]
+      ],
+      "physical_mode_eval_only": 0,
+      "physically_neutral": true,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": 0.0008641511667519808,
+      "support_before": 0.38305333256721497,
+      "support_after": 0.38358601927757263,
+      "issued_difference_l2": 0.4859657883644104
+    },
+    {
+      "episode": "opposite_0_1_BAB",
+      "arrival": 3,
+      "action_event": "approach_mouth",
+      "phase_labels": [],
+      "physical_mode_eval_only": 1,
+      "physically_neutral": true,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": -0.00034758762922137976,
+      "support_before": 0.5,
+      "support_after": 0.49982625246047974,
+      "issued_difference_l2": 0.2958856523036957
+    },
+    {
+      "episode": "opposite_0_1_BAB",
+      "arrival": 4,
+      "action_event": "approach_mouth",
+      "phase_labels": [],
+      "physical_mode_eval_only": 1,
+      "physically_neutral": true,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": -0.0038328312803059816,
+      "support_before": 0.49982625246047974,
+      "support_after": 0.4979178309440613,
+      "issued_difference_l2": 0.44828081130981445
+    },
+    {
+      "episode": "opposite_0_1_BAB",
+      "arrival": 5,
+      "action_event": "probe",
+      "phase_labels": [
+        [
+          "initial_probe_probe_arrival_1",
+          1
+        ]
+      ],
+      "physical_mode_eval_only": 1,
+      "physically_neutral": false,
+      "first_mode_difference_raw_step": 22,
+      "oriented_evidence": 4.405872344970703,
+      "support_before": 0.4979178309440613,
+      "support_after": 0.907122790813446,
+      "issued_difference_l2": 12.7195463180542
+    },
+    {
+      "episode": "opposite_0_1_BAB",
+      "arrival": 6,
+      "action_event": "probe",
+      "phase_labels": [
+        [
+          "initial_probe_probe_arrival_2",
+          1
+        ]
+      ],
+      "physical_mode_eval_only": 1,
+      "physically_neutral": false,
+      "first_mode_difference_raw_step": 26,
+      "oriented_evidence": 5.2569732666015625,
+      "support_before": 0.907122790813446,
+      "support_after": 0.9851561784744263,
+      "issued_difference_l2": 13.317124366760254
+    },
+    {
+      "episode": "opposite_0_1_BAB",
+      "arrival": 7,
+      "action_event": "recover",
+      "phase_labels": [],
+      "physical_mode_eval_only": 1,
+      "physically_neutral": true,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": 0.25587740540504456,
+      "support_before": 0.9851561784744263,
+      "support_after": 0.9881805181503296,
+      "issued_difference_l2": 2.7538366317749023
+    },
+    {
+      "episode": "opposite_0_1_BAB",
+      "arrival": 8,
+      "action_event": "recover",
+      "phase_labels": [],
+      "physical_mode_eval_only": 1,
+      "physically_neutral": true,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": -0.008794315159320831,
+      "support_before": 0.9881805181503296,
+      "support_after": 0.9795659184455872,
+      "issued_difference_l2": 1.4186434745788574
+    },
+    {
+      "episode": "opposite_0_1_BAB",
+      "arrival": 9,
+      "action_event": "return_to_fork",
+      "phase_labels": [],
+      "physical_mode_eval_only": 1,
+      "physically_neutral": true,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": 0.057162780314683914,
+      "support_before": 0.9795659184455872,
+      "support_after": 0.9806708693504333,
+      "issued_difference_l2": 0.9861530065536499
+    },
+    {
+      "episode": "opposite_0_1_BAB",
+      "arrival": 10,
+      "action_event": "return_to_fork",
+      "phase_labels": [],
+      "physical_mode_eval_only": 1,
+      "physically_neutral": true,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": -0.002568332012742758,
+      "support_before": 0.9806708693504333,
+      "support_after": 0.9781585931777954,
+      "issued_difference_l2": 0.6233276724815369
+    },
+    {
+      "episode": "opposite_0_1_BAB",
+      "arrival": 11,
+      "action_event": "neutral_away",
+      "phase_labels": [
+        [
+          "neutral_control",
+          1
+        ]
+      ],
+      "physical_mode_eval_only": 1,
+      "physically_neutral": true,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": 0.0003368422912899405,
+      "support_before": 0.9781585931777954,
+      "support_after": 0.978165864944458,
+      "issued_difference_l2": 0.27712586522102356
+    },
+    {
+      "episode": "opposite_0_1_BAB",
+      "arrival": 12,
+      "action_event": "neutral_return",
+      "phase_labels": [
+        [
+          "initial_probe_retained_fork",
+          1
+        ],
+        [
+          "reversal_1_unobserved",
+          0
+        ],
+        [
+          "neutral_control",
+          1
+        ]
+      ],
+      "physical_mode_eval_only": 1,
+      "physically_neutral": true,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": -0.0008641511667519808,
+      "support_before": 0.978165864944458,
+      "support_after": 0.9773213267326355,
+      "issued_difference_l2": 0.4859657883644104
+    },
+    {
+      "episode": "opposite_0_1_BAB",
+      "arrival": 13,
+      "action_event": "approach_mouth",
+      "phase_labels": [
+        [
+          "reversal_1_arrival_1",
+          0
+        ]
+      ],
+      "physical_mode_eval_only": 0,
+      "physically_neutral": true,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": 0.00034758762922137976,
+      "support_before": 0.022678593173623085,
+      "support_after": 0.023018179461359978,
+      "issued_difference_l2": 0.2958856523036957
+    },
+    {
+      "episode": "opposite_0_1_BAB",
+      "arrival": 14,
+      "action_event": "approach_mouth",
+      "phase_labels": [
+        [
+          "reversal_1_arrival_2",
+          0
+        ]
+      ],
+      "physical_mode_eval_only": 0,
+      "physically_neutral": true,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": 0.0038328312803059816,
+      "support_before": 0.023018179461359978,
+      "support_after": 0.02674848958849907,
+      "issued_difference_l2": 0.44828081130981445
+    },
+    {
+      "episode": "opposite_0_1_BAB",
+      "arrival": 15,
+      "action_event": "probe",
+      "phase_labels": [
+        [
+          "reversal_1_probe_arrival_1",
+          0
+        ]
+      ],
+      "physical_mode_eval_only": 0,
+      "physically_neutral": false,
+      "first_mode_difference_raw_step": 72,
+      "oriented_evidence": 3.0134012699127197,
+      "support_before": 0.02674848958849907,
+      "support_after": 0.7574995756149292,
+      "issued_difference_l2": 12.7195463180542
+    },
+    {
+      "episode": "opposite_0_1_BAB",
+      "arrival": 16,
+      "action_event": "probe",
+      "phase_labels": [
+        [
+          "reversal_1_probe_arrival_2",
+          0
+        ]
+      ],
+      "physical_mode_eval_only": 0,
+      "physically_neutral": null,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": 4.447547435760498,
+      "support_before": 0.7574995756149292,
+      "support_after": 0.9554845094680786,
+      "issued_difference_l2": 14.288712501525879
+    },
+    {
+      "episode": "opposite_0_1_BAB",
+      "arrival": 17,
+      "action_event": "recover",
+      "phase_labels": [],
+      "physical_mode_eval_only": 0,
+      "physically_neutral": false,
+      "first_mode_difference_raw_step": 82,
+      "oriented_evidence": 0.4945647418498993,
+      "support_before": 0.9554845094680786,
+      "support_after": 0.9702150821685791,
+      "issued_difference_l2": 19.10601806640625
+    },
+    {
+      "episode": "opposite_0_1_BAB",
+      "arrival": 18,
+      "action_event": "recover",
+      "phase_labels": [],
+      "physical_mode_eval_only": 0,
+      "physically_neutral": null,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": -1.9060195684432983,
+      "support_before": 0.9702150821685791,
+      "support_after": 0.33386391401290894,
+      "issued_difference_l2": 12.446229934692383
+    },
+    {
+      "episode": "opposite_0_1_BAB",
+      "arrival": 19,
+      "action_event": "return_to_fork",
+      "phase_labels": [],
+      "physical_mode_eval_only": 0,
+      "physically_neutral": true,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": 0.056660015136003494,
+      "support_before": 0.33386391401290894,
+      "support_after": 0.3695833384990692,
+      "issued_difference_l2": 1.2302262783050537
+    },
+    {
+      "episode": "opposite_0_1_BAB",
+      "arrival": 20,
+      "action_event": "return_to_fork",
+      "phase_labels": [],
+      "physical_mode_eval_only": 0,
+      "physically_neutral": true,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": 0.022086521610617638,
+      "support_before": 0.3695833384990692,
+      "support_after": 0.38320618867874146,
+      "issued_difference_l2": 0.7321463823318481
+    },
+    {
+      "episode": "opposite_0_1_BAB",
+      "arrival": 21,
+      "action_event": "neutral_away",
+      "phase_labels": [
+        [
+          "neutral_control",
+          0
+        ]
+      ],
+      "physical_mode_eval_only": 0,
+      "physically_neutral": true,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": -0.0003368422912899405,
+      "support_before": 0.38320618867874146,
+      "support_after": 0.38307714462280273,
+      "issued_difference_l2": 0.27712586522102356
+    },
+    {
+      "episode": "opposite_0_1_BAB",
+      "arrival": 22,
+      "action_event": "neutral_return",
+      "phase_labels": [
+        [
+          "reversal_1_retained_fork",
+          0
+        ],
+        [
+          "reversal_2_unobserved",
+          1
+        ],
+        [
+          "neutral_control",
+          0
+        ]
+      ],
+      "physical_mode_eval_only": 0,
+      "physically_neutral": true,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": 0.0008641511667519808,
+      "support_before": 0.38307714462280273,
+      "support_after": 0.383609801530838,
+      "issued_difference_l2": 0.4859657883644104
+    },
+    {
+      "episode": "opposite_0_1_BAB",
+      "arrival": 23,
+      "action_event": "approach_mouth",
+      "phase_labels": [
+        [
+          "reversal_2_arrival_1",
+          1
+        ]
+      ],
+      "physical_mode_eval_only": 1,
+      "physically_neutral": true,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": -0.00034758762922137976,
+      "support_before": 0.6163901090621948,
+      "support_after": 0.6161758899688721,
+      "issued_difference_l2": 0.2958856523036957
+    },
+    {
+      "episode": "opposite_0_1_BAB",
+      "arrival": 24,
+      "action_event": "approach_mouth",
+      "phase_labels": [
+        [
+          "reversal_2_arrival_2",
+          1
+        ]
+      ],
+      "physical_mode_eval_only": 1,
+      "physically_neutral": true,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": -0.0038328312803059816,
+      "support_before": 0.6161758899688721,
+      "support_after": 0.6138232350349426,
+      "issued_difference_l2": 0.44828081130981445
+    },
+    {
+      "episode": "opposite_0_1_BAB",
+      "arrival": 25,
+      "action_event": "probe",
+      "phase_labels": [
+        [
+          "reversal_2_probe_arrival_1",
+          1
+        ]
+      ],
+      "physical_mode_eval_only": 1,
+      "physically_neutral": false,
+      "first_mode_difference_raw_step": 122,
+      "oriented_evidence": 4.405872344970703,
+      "support_before": 0.6138232350349426,
+      "support_after": 0.9285634756088257,
+      "issued_difference_l2": 12.7195463180542
+    },
+    {
+      "episode": "opposite_0_1_BAB",
+      "arrival": 26,
+      "action_event": "probe",
+      "phase_labels": [
+        [
+          "reversal_2_probe_arrival_2",
+          1
+        ]
+      ],
+      "physical_mode_eval_only": 1,
+      "physically_neutral": false,
+      "first_mode_difference_raw_step": 126,
+      "oriented_evidence": 5.2569732666015625,
+      "support_before": 0.9285634756088257,
+      "support_after": 0.9885829091072083,
+      "issued_difference_l2": 13.317124366760254
+    },
+    {
+      "episode": "opposite_0_1_BAB",
+      "arrival": 27,
+      "action_event": "recover",
+      "phase_labels": [],
+      "physical_mode_eval_only": 1,
+      "physically_neutral": true,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": 0.25587740540504456,
+      "support_before": 0.9885829091072083,
+      "support_after": 0.9909090995788574,
+      "issued_difference_l2": 2.7538366317749023
+    },
+    {
+      "episode": "opposite_0_1_BAB",
+      "arrival": 28,
+      "action_event": "recover",
+      "phase_labels": [],
+      "physical_mode_eval_only": 1,
+      "physically_neutral": true,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": -0.008794315159320831,
+      "support_before": 0.9909090995788574,
+      "support_after": 0.9822707176208496,
+      "issued_difference_l2": 1.4186434745788574
+    },
+    {
+      "episode": "opposite_0_1_BAB",
+      "arrival": 29,
+      "action_event": "return_to_fork",
+      "phase_labels": [],
+      "physical_mode_eval_only": 1,
+      "physically_neutral": true,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": 0.057162780314683914,
+      "support_before": 0.9822707176208496,
+      "support_after": 0.983229398727417,
+      "issued_difference_l2": 0.9861530065536499
+    },
+    {
+      "episode": "opposite_0_1_BAB",
+      "arrival": 30,
+      "action_event": "return_to_fork",
+      "phase_labels": [],
+      "physical_mode_eval_only": 1,
+      "physically_neutral": true,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": -0.002568332012742758,
+      "support_before": 0.983229398727417,
+      "support_after": 0.9807105660438538,
+      "issued_difference_l2": 0.6233276724815369
+    },
+    {
+      "episode": "opposite_0_1_BAB",
+      "arrival": 31,
+      "action_event": "neutral_away",
+      "phase_labels": [
+        [
+          "neutral_control",
+          1
+        ]
+      ],
+      "physical_mode_eval_only": 1,
+      "physically_neutral": true,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": 0.0003368422912899405,
+      "support_before": 0.9807105660438538,
+      "support_after": 0.9807170033454895,
+      "issued_difference_l2": 0.27712586522102356
+    },
+    {
+      "episode": "opposite_0_1_BAB",
+      "arrival": 32,
+      "action_event": "neutral_return",
+      "phase_labels": [
+        [
+          "reversal_2_retained_fork",
+          1
+        ],
+        [
+          "neutral_control",
+          1
+        ]
+      ],
+      "physical_mode_eval_only": 1,
+      "physically_neutral": true,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": -0.0008641511667519808,
+      "support_before": 0.9807170033454895,
+      "support_after": 0.9798702597618103,
+      "issued_difference_l2": 0.4859657883644104
+    },
+    {
+      "episode": "opposite_2_0_ABA",
+      "arrival": 3,
+      "action_event": "approach_mouth",
+      "phase_labels": [],
+      "physical_mode_eval_only": 0,
+      "physically_neutral": true,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": 0.002060451777651906,
+      "support_before": 0.5,
+      "support_after": 0.5010281205177307,
+      "issued_difference_l2": 0.4153366684913635
+    },
+    {
+      "episode": "opposite_2_0_ABA",
+      "arrival": 4,
+      "action_event": "approach_mouth",
+      "phase_labels": [],
+      "physical_mode_eval_only": 0,
+      "physically_neutral": true,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": -0.009563558734953403,
+      "support_before": 0.5010281205177307,
+      "support_after": 0.4962818920612335,
+      "issued_difference_l2": 0.468452125787735
+    },
+    {
+      "episode": "opposite_2_0_ABA",
+      "arrival": 5,
+      "action_event": "probe",
+      "phase_labels": [
+        [
+          "initial_probe_probe_arrival_1",
+          0
+        ]
+      ],
+      "physical_mode_eval_only": 0,
+      "physically_neutral": false,
+      "first_mode_difference_raw_step": 22,
+      "oriented_evidence": 4.569327354431152,
+      "support_before": 0.4962818920612335,
+      "support_after": 0.9095549583435059,
+      "issued_difference_l2": 14.204256057739258
+    },
+    {
+      "episode": "opposite_2_0_ABA",
+      "arrival": 6,
+      "action_event": "probe",
+      "phase_labels": [
+        [
+          "initial_probe_probe_arrival_2",
+          0
+        ]
+      ],
+      "physical_mode_eval_only": 0,
+      "physically_neutral": false,
+      "first_mode_difference_raw_step": 26,
+      "oriented_evidence": 5.283639430999756,
+      "support_before": 0.9095549583435059,
+      "support_after": 0.9856062531471252,
+      "issued_difference_l2": 12.79312515258789
+    },
+    {
+      "episode": "opposite_2_0_ABA",
+      "arrival": 7,
+      "action_event": "recover",
+      "phase_labels": [],
+      "physical_mode_eval_only": 0,
+      "physically_neutral": true,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": 0.9488572478294373,
+      "support_before": 0.9856062531471252,
+      "support_after": 0.992614209651947,
+      "issued_difference_l2": 4.270717144012451
+    },
+    {
+      "episode": "opposite_2_0_ABA",
+      "arrival": 8,
+      "action_event": "recover",
+      "phase_labels": [],
+      "physical_mode_eval_only": 0,
+      "physically_neutral": true,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": 0.36846038699150085,
+      "support_before": 0.992614209651947,
+      "support_after": 0.9946027994155884,
+      "issued_difference_l2": 3.348694324493408
+    },
+    {
+      "episode": "opposite_2_0_ABA",
+      "arrival": 9,
+      "action_event": "return_to_fork",
+      "phase_labels": [],
+      "physical_mode_eval_only": 0,
+      "physically_neutral": true,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": 0.014467079192399979,
+      "support_before": 0.9946027994155884,
+      "support_after": 0.9946797490119934,
+      "issued_difference_l2": 0.6894078254699707
+    },
+    {
+      "episode": "opposite_2_0_ABA",
+      "arrival": 10,
+      "action_event": "return_to_fork",
+      "phase_labels": [],
+      "physical_mode_eval_only": 0,
+      "physically_neutral": true,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": 0.0039492277428507805,
+      "support_before": 0.9946797490119934,
+      "support_after": 0.9947006106376648,
+      "issued_difference_l2": 0.5951365828514099
+    },
+    {
+      "episode": "opposite_2_0_ABA",
+      "arrival": 11,
+      "action_event": "neutral_away",
+      "phase_labels": [
+        [
+          "neutral_control",
+          0
+        ]
+      ],
+      "physical_mode_eval_only": 0,
+      "physically_neutral": true,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": 0.004540121182799339,
+      "support_before": 0.9947006106376648,
+      "support_after": 0.9947246313095093,
+      "issued_difference_l2": 0.558724582195282
+    },
+    {
+      "episode": "opposite_2_0_ABA",
+      "arrival": 12,
+      "action_event": "neutral_return",
+      "phase_labels": [
+        [
+          "initial_probe_retained_fork",
+          0
+        ],
+        [
+          "reversal_1_unobserved",
+          1
+        ],
+        [
+          "neutral_control",
+          0
+        ]
+      ],
+      "physical_mode_eval_only": 0,
+      "physically_neutral": true,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": 0.0018024344462901354,
+      "support_before": 0.9947246313095093,
+      "support_after": 0.9947341084480286,
+      "issued_difference_l2": 0.4242202341556549
+    },
+    {
+      "episode": "opposite_2_0_ABA",
+      "arrival": 13,
+      "action_event": "approach_mouth",
+      "phase_labels": [
+        [
+          "reversal_1_arrival_1",
+          1
+        ]
+      ],
+      "physical_mode_eval_only": 1,
+      "physically_neutral": true,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": -0.002060451777651906,
+      "support_before": 0.005265772808343172,
+      "support_after": 0.0052549452520906925,
+      "issued_difference_l2": 0.4153366684913635
+    },
+    {
+      "episode": "opposite_2_0_ABA",
+      "arrival": 14,
+      "action_event": "approach_mouth",
+      "phase_labels": [
+        [
+          "reversal_1_arrival_2",
+          1
+        ]
+      ],
+      "physical_mode_eval_only": 1,
+      "physically_neutral": true,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": 0.009563558734953403,
+      "support_before": 0.0052549452520906925,
+      "support_after": 0.014678128995001316,
+      "issued_difference_l2": 0.468452125787735
+    },
+    {
+      "episode": "opposite_2_0_ABA",
+      "arrival": 15,
+      "action_event": "probe",
+      "phase_labels": [
+        [
+          "reversal_1_probe_arrival_1",
+          1
+        ]
+      ],
+      "physical_mode_eval_only": 1,
+      "physically_neutral": false,
+      "first_mode_difference_raw_step": 72,
+      "oriented_evidence": 4.73213529586792,
+      "support_before": 0.014678128995001316,
+      "support_after": 0.8281055688858032,
+      "issued_difference_l2": 14.204256057739258
+    },
+    {
+      "episode": "opposite_2_0_ABA",
+      "arrival": 16,
+      "action_event": "probe",
+      "phase_labels": [
+        [
+          "reversal_1_probe_arrival_2",
+          1
+        ]
+      ],
+      "physical_mode_eval_only": 1,
+      "physically_neutral": null,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": 6.459364414215088,
+      "support_before": 0.8281055688858032,
+      "support_after": 0.9769558906555176,
+      "issued_difference_l2": 15.81362533569336
+    },
+    {
+      "episode": "opposite_2_0_ABA",
+      "arrival": 17,
+      "action_event": "recover",
+      "phase_labels": [],
+      "physical_mode_eval_only": 1,
+      "physically_neutral": false,
+      "first_mode_difference_raw_step": 82,
+      "oriented_evidence": 4.066168785095215,
+      "support_before": 0.9769558906555176,
+      "support_after": 0.9954513907432556,
+      "issued_difference_l2": 13.708491325378418
+    },
+    {
+      "episode": "opposite_2_0_ABA",
+      "arrival": 18,
+      "action_event": "recover",
+      "phase_labels": [],
+      "physical_mode_eval_only": 1,
+      "physically_neutral": null,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": 3.006091594696045,
+      "support_before": 0.9954513907432556,
+      "support_after": 0.9988645911216736,
+      "issued_difference_l2": 11.15259838104248
+    },
+    {
+      "episode": "opposite_2_0_ABA",
+      "arrival": 19,
+      "action_event": "return_to_fork",
+      "phase_labels": [],
+      "physical_mode_eval_only": 1,
+      "physically_neutral": true,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": 0.05824024975299835,
+      "support_before": 0.9988645911216736,
+      "support_after": 0.9989269971847534,
+      "issued_difference_l2": 1.5660436153411865
+    },
+    {
+      "episode": "opposite_2_0_ABA",
+      "arrival": 20,
+      "action_event": "return_to_fork",
+      "phase_labels": [],
+      "physical_mode_eval_only": 1,
+      "physically_neutral": true,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": 0.004922719672322273,
+      "support_before": 0.9989269971847534,
+      "support_after": 0.9989322423934937,
+      "issued_difference_l2": 0.41372641921043396
+    },
+    {
+      "episode": "opposite_2_0_ABA",
+      "arrival": 21,
+      "action_event": "neutral_away",
+      "phase_labels": [
+        [
+          "neutral_control",
+          1
+        ]
+      ],
+      "physical_mode_eval_only": 1,
+      "physically_neutral": true,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": -0.004540121182799339,
+      "support_before": 0.9989322423934937,
+      "support_after": 0.9944174885749817,
+      "issued_difference_l2": 0.558724582195282
+    },
+    {
+      "episode": "opposite_2_0_ABA",
+      "arrival": 22,
+      "action_event": "neutral_return",
+      "phase_labels": [
+        [
+          "reversal_1_retained_fork",
+          1
+        ],
+        [
+          "reversal_2_unobserved",
+          0
+        ],
+        [
+          "neutral_control",
+          1
+        ]
+      ],
+      "physical_mode_eval_only": 1,
+      "physically_neutral": true,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": -0.0018024344462901354,
+      "support_before": 0.9944174885749817,
+      "support_after": 0.9926283359527588,
+      "issued_difference_l2": 0.4242202341556549
+    },
+    {
+      "episode": "opposite_2_0_ABA",
+      "arrival": 23,
+      "action_event": "approach_mouth",
+      "phase_labels": [
+        [
+          "reversal_2_arrival_1",
+          0
+        ]
+      ],
+      "physical_mode_eval_only": 0,
+      "physically_neutral": true,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": 0.002060451777651906,
+      "support_before": 0.007371606770902872,
+      "support_after": 0.009412664920091629,
+      "issued_difference_l2": 0.4153366684913635
+    },
+    {
+      "episode": "opposite_2_0_ABA",
+      "arrival": 24,
+      "action_event": "approach_mouth",
+      "phase_labels": [
+        [
+          "reversal_2_arrival_2",
+          0
+        ]
+      ],
+      "physical_mode_eval_only": 0,
+      "physically_neutral": true,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": -0.009563558734953403,
+      "support_before": 0.009412664920091629,
+      "support_after": 0.009323499165475368,
+      "issued_difference_l2": 0.468452125787735
+    },
+    {
+      "episode": "opposite_2_0_ABA",
+      "arrival": 25,
+      "action_event": "probe",
+      "phase_labels": [
+        [
+          "reversal_2_probe_arrival_1",
+          0
+        ]
+      ],
+      "physical_mode_eval_only": 0,
+      "physically_neutral": false,
+      "first_mode_difference_raw_step": 122,
+      "oriented_evidence": 4.569327354431152,
+      "support_before": 0.009323499165475368,
+      "support_after": 0.8221191763877869,
+      "issued_difference_l2": 14.204256057739258
+    },
+    {
+      "episode": "opposite_2_0_ABA",
+      "arrival": 26,
+      "action_event": "probe",
+      "phase_labels": [
+        [
+          "reversal_2_probe_arrival_2",
+          0
+        ]
+      ],
+      "physical_mode_eval_only": 0,
+      "physically_neutral": false,
+      "first_mode_difference_raw_step": 126,
+      "oriented_evidence": 5.283639430999756,
+      "support_before": 0.8221191763877869,
+      "support_after": 0.9716914296150208,
+      "issued_difference_l2": 12.79312515258789
+    },
+    {
+      "episode": "opposite_2_0_ABA",
+      "arrival": 27,
+      "action_event": "recover",
+      "phase_labels": [],
+      "physical_mode_eval_only": 0,
+      "physically_neutral": true,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": 0.9488572478294373,
+      "support_before": 0.9716914296150208,
+      "support_after": 0.9854742288589478,
+      "issued_difference_l2": 4.270717144012451
+    },
+    {
+      "episode": "opposite_2_0_ABA",
+      "arrival": 28,
+      "action_event": "recover",
+      "phase_labels": [],
+      "physical_mode_eval_only": 0,
+      "physically_neutral": true,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": 0.36846038699150085,
+      "support_before": 0.9854742288589478,
+      "support_after": 0.9893853068351746,
+      "issued_difference_l2": 3.348694324493408
+    },
+    {
+      "episode": "opposite_2_0_ABA",
+      "arrival": 29,
+      "action_event": "return_to_fork",
+      "phase_labels": [],
+      "physical_mode_eval_only": 0,
+      "physically_neutral": true,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": 0.014467079192399979,
+      "support_before": 0.9893853068351746,
+      "support_after": 0.9895366430282593,
+      "issued_difference_l2": 0.6894078254699707
+    },
+    {
+      "episode": "opposite_2_0_ABA",
+      "arrival": 30,
+      "action_event": "return_to_fork",
+      "phase_labels": [],
+      "physical_mode_eval_only": 0,
+      "physically_neutral": true,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": 0.0039492277428507805,
+      "support_before": 0.9895366430282593,
+      "support_after": 0.9895777702331543,
+      "issued_difference_l2": 0.5951365828514099
+    },
+    {
+      "episode": "opposite_2_0_ABA",
+      "arrival": 31,
+      "action_event": "neutral_away",
+      "phase_labels": [
+        [
+          "neutral_control",
+          0
+        ]
+      ],
+      "physical_mode_eval_only": 0,
+      "physically_neutral": true,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": 0.004540121182799339,
+      "support_before": 0.9895777702331543,
+      "support_after": 0.9896249175071716,
+      "issued_difference_l2": 0.558724582195282
+    },
+    {
+      "episode": "opposite_2_0_ABA",
+      "arrival": 32,
+      "action_event": "neutral_return",
+      "phase_labels": [
+        [
+          "reversal_2_retained_fork",
+          0
+        ],
+        [
+          "neutral_control",
+          0
+        ]
+      ],
+      "physical_mode_eval_only": 0,
+      "physically_neutral": true,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": 0.0018024344462901354,
+      "support_before": 0.9896249175071716,
+      "support_after": 0.9896435737609863,
+      "issued_difference_l2": 0.4242202341556549
+    },
+    {
+      "episode": "opposite_2_0_BAB",
+      "arrival": 3,
+      "action_event": "approach_mouth",
+      "phase_labels": [],
+      "physical_mode_eval_only": 1,
+      "physically_neutral": true,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": -0.002060451777651906,
+      "support_before": 0.5,
+      "support_after": 0.4989719092845917,
+      "issued_difference_l2": 0.4153366684913635
+    },
+    {
+      "episode": "opposite_2_0_BAB",
+      "arrival": 4,
+      "action_event": "approach_mouth",
+      "phase_labels": [],
+      "physical_mode_eval_only": 1,
+      "physically_neutral": true,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": 0.009563558734953403,
+      "support_before": 0.4989719092845917,
+      "support_after": 0.5037180781364441,
+      "issued_difference_l2": 0.468452125787735
+    },
+    {
+      "episode": "opposite_2_0_BAB",
+      "arrival": 5,
+      "action_event": "probe",
+      "phase_labels": [
+        [
+          "initial_probe_probe_arrival_1",
+          1
+        ]
+      ],
+      "physical_mode_eval_only": 1,
+      "physically_neutral": false,
+      "first_mode_difference_raw_step": 22,
+      "oriented_evidence": 4.73213529586792,
+      "support_before": 0.5037180781364441,
+      "support_after": 0.913421094417572,
+      "issued_difference_l2": 14.204256057739258
+    },
+    {
+      "episode": "opposite_2_0_BAB",
+      "arrival": 6,
+      "action_event": "probe",
+      "phase_labels": [
+        [
+          "initial_probe_probe_arrival_2",
+          1
+        ]
+      ],
+      "physical_mode_eval_only": 1,
+      "physically_neutral": null,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": 6.459364414215088,
+      "support_before": 0.913421094417572,
+      "support_after": 0.988393247127533,
+      "issued_difference_l2": 15.81362533569336
+    },
+    {
+      "episode": "opposite_2_0_BAB",
+      "arrival": 7,
+      "action_event": "recover",
+      "phase_labels": [],
+      "physical_mode_eval_only": 1,
+      "physically_neutral": false,
+      "first_mode_difference_raw_step": 32,
+      "oriented_evidence": 4.066168785095215,
+      "support_before": 0.988393247127533,
+      "support_after": 0.9977089762687683,
+      "issued_difference_l2": 13.708491325378418
+    },
+    {
+      "episode": "opposite_2_0_BAB",
+      "arrival": 8,
+      "action_event": "recover",
+      "phase_labels": [],
+      "physical_mode_eval_only": 1,
+      "physically_neutral": null,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": 3.006091594696045,
+      "support_before": 0.9977089762687683,
+      "support_after": 0.9994280934333801,
+      "issued_difference_l2": 11.15259838104248
+    },
+    {
+      "episode": "opposite_2_0_BAB",
+      "arrival": 9,
+      "action_event": "return_to_fork",
+      "phase_labels": [],
+      "physical_mode_eval_only": 1,
+      "physically_neutral": true,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": 0.05824024975299835,
+      "support_before": 0.9994280934333801,
+      "support_after": 0.9994595050811768,
+      "issued_difference_l2": 1.5660436153411865
+    },
+    {
+      "episode": "opposite_2_0_BAB",
+      "arrival": 10,
+      "action_event": "return_to_fork",
+      "phase_labels": [],
+      "physical_mode_eval_only": 1,
+      "physically_neutral": true,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": 0.004922719672322273,
+      "support_before": 0.9994595050811768,
+      "support_after": 0.9994621276855469,
+      "issued_difference_l2": 0.41372641921043396
+    },
+    {
+      "episode": "opposite_2_0_BAB",
+      "arrival": 11,
+      "action_event": "neutral_away",
+      "phase_labels": [
+        [
+          "neutral_control",
+          1
+        ]
+      ],
+      "physical_mode_eval_only": 1,
+      "physically_neutral": true,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": -0.004540121182799339,
+      "support_before": 0.9994621276855469,
+      "support_after": 0.9949449896812439,
+      "issued_difference_l2": 0.558724582195282
+    },
+    {
+      "episode": "opposite_2_0_BAB",
+      "arrival": 12,
+      "action_event": "neutral_return",
+      "phase_labels": [
+        [
+          "initial_probe_retained_fork",
+          1
+        ],
+        [
+          "reversal_1_unobserved",
+          0
+        ],
+        [
+          "neutral_control",
+          1
+        ]
+      ],
+      "physical_mode_eval_only": 1,
+      "physically_neutral": true,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": -0.0018024344462901354,
+      "support_before": 0.9949449896812439,
+      "support_after": 0.9931548833847046,
+      "issued_difference_l2": 0.4242202341556549
+    },
+    {
+      "episode": "opposite_2_0_BAB",
+      "arrival": 13,
+      "action_event": "approach_mouth",
+      "phase_labels": [
+        [
+          "reversal_1_arrival_1",
+          0
+        ]
+      ],
+      "physical_mode_eval_only": 0,
+      "physically_neutral": true,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": 0.002060451777651906,
+      "support_before": 0.006845033261924982,
+      "support_after": 0.008887173607945442,
+      "issued_difference_l2": 0.4153366684913635
+    },
+    {
+      "episode": "opposite_2_0_BAB",
+      "arrival": 14,
+      "action_event": "approach_mouth",
+      "phase_labels": [
+        [
+          "reversal_1_arrival_2",
+          0
+        ]
+      ],
+      "physical_mode_eval_only": 0,
+      "physically_neutral": true,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": -0.009563558734953403,
+      "support_before": 0.008887173607945442,
+      "support_after": 0.008802985772490501,
+      "issued_difference_l2": 0.468452125787735
+    },
+    {
+      "episode": "opposite_2_0_BAB",
+      "arrival": 15,
+      "action_event": "probe",
+      "phase_labels": [
+        [
+          "reversal_1_probe_arrival_1",
+          0
+        ]
+      ],
+      "physical_mode_eval_only": 0,
+      "physically_neutral": false,
+      "first_mode_difference_raw_step": 72,
+      "oriented_evidence": 4.569327354431152,
+      "support_before": 0.008802985772490501,
+      "support_after": 0.822025716304779,
+      "issued_difference_l2": 14.204256057739258
+    },
+    {
+      "episode": "opposite_2_0_BAB",
+      "arrival": 16,
+      "action_event": "probe",
+      "phase_labels": [
+        [
+          "reversal_1_probe_arrival_2",
+          0
+        ]
+      ],
+      "physical_mode_eval_only": 0,
+      "physically_neutral": false,
+      "first_mode_difference_raw_step": 76,
+      "oriented_evidence": 5.283639430999756,
+      "support_before": 0.822025716304779,
+      "support_after": 0.9716765880584717,
+      "issued_difference_l2": 12.79312515258789
+    },
+    {
+      "episode": "opposite_2_0_BAB",
+      "arrival": 17,
+      "action_event": "recover",
+      "phase_labels": [],
+      "physical_mode_eval_only": 0,
+      "physically_neutral": true,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": 0.9488572478294373,
+      "support_before": 0.9716765880584717,
+      "support_after": 0.9854666590690613,
+      "issued_difference_l2": 4.270717144012451
+    },
+    {
+      "episode": "opposite_2_0_BAB",
+      "arrival": 18,
+      "action_event": "recover",
+      "phase_labels": [],
+      "physical_mode_eval_only": 0,
+      "physically_neutral": true,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": 0.36846038699150085,
+      "support_before": 0.9854666590690613,
+      "support_after": 0.9893797636032104,
+      "issued_difference_l2": 3.348694324493408
+    },
+    {
+      "episode": "opposite_2_0_BAB",
+      "arrival": 19,
+      "action_event": "return_to_fork",
+      "phase_labels": [],
+      "physical_mode_eval_only": 0,
+      "physically_neutral": true,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": 0.014467079192399979,
+      "support_before": 0.9893797636032104,
+      "support_after": 0.9895312190055847,
+      "issued_difference_l2": 0.6894078254699707
+    },
+    {
+      "episode": "opposite_2_0_BAB",
+      "arrival": 20,
+      "action_event": "return_to_fork",
+      "phase_labels": [],
+      "physical_mode_eval_only": 0,
+      "physically_neutral": true,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": 0.0039492277428507805,
+      "support_before": 0.9895312190055847,
+      "support_after": 0.9895723462104797,
+      "issued_difference_l2": 0.5951365828514099
+    },
+    {
+      "episode": "opposite_2_0_BAB",
+      "arrival": 21,
+      "action_event": "neutral_away",
+      "phase_labels": [
+        [
+          "neutral_control",
+          0
+        ]
+      ],
+      "physical_mode_eval_only": 0,
+      "physically_neutral": true,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": 0.004540121182799339,
+      "support_before": 0.9895723462104797,
+      "support_after": 0.9896195530891418,
+      "issued_difference_l2": 0.558724582195282
+    },
+    {
+      "episode": "opposite_2_0_BAB",
+      "arrival": 22,
+      "action_event": "neutral_return",
+      "phase_labels": [
+        [
+          "reversal_1_retained_fork",
+          0
+        ],
+        [
+          "reversal_2_unobserved",
+          1
+        ],
+        [
+          "neutral_control",
+          0
+        ]
+      ],
+      "physical_mode_eval_only": 0,
+      "physically_neutral": true,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": 0.0018024344462901354,
+      "support_before": 0.9896195530891418,
+      "support_after": 0.9896382093429565,
+      "issued_difference_l2": 0.4242202341556549
+    },
+    {
+      "episode": "opposite_2_0_BAB",
+      "arrival": 23,
+      "action_event": "approach_mouth",
+      "phase_labels": [
+        [
+          "reversal_2_arrival_1",
+          1
+        ]
+      ],
+      "physical_mode_eval_only": 1,
+      "physically_neutral": true,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": -0.002060451777651906,
+      "support_before": 0.010361784137785435,
+      "support_after": 0.010340478271245956,
+      "issued_difference_l2": 0.4153366684913635
+    },
+    {
+      "episode": "opposite_2_0_BAB",
+      "arrival": 24,
+      "action_event": "approach_mouth",
+      "phase_labels": [
+        [
+          "reversal_2_arrival_2",
+          1
+        ]
+      ],
+      "physical_mode_eval_only": 1,
+      "physically_neutral": true,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": 0.009563558734953403,
+      "support_before": 0.010340478271245956,
+      "support_after": 0.019715486094355583,
+      "issued_difference_l2": 0.468452125787735
+    },
+    {
+      "episode": "opposite_2_0_BAB",
+      "arrival": 25,
+      "action_event": "probe",
+      "phase_labels": [
+        [
+          "reversal_2_probe_arrival_1",
+          1
+        ]
+      ],
+      "physical_mode_eval_only": 1,
+      "physically_neutral": false,
+      "first_mode_difference_raw_step": 122,
+      "oriented_evidence": 4.73213529586792,
+      "support_before": 0.019715486094355583,
+      "support_after": 0.8289843797683716,
+      "issued_difference_l2": 14.204256057739258
+    },
+    {
+      "episode": "opposite_2_0_BAB",
+      "arrival": 26,
+      "action_event": "probe",
+      "phase_labels": [
+        [
+          "reversal_2_probe_arrival_2",
+          1
+        ]
+      ],
+      "physical_mode_eval_only": 1,
+      "physically_neutral": null,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": 6.459364414215088,
+      "support_before": 0.8289843797683716,
+      "support_after": 0.9770736694335938,
+      "issued_difference_l2": 15.81362533569336
+    },
+    {
+      "episode": "opposite_2_0_BAB",
+      "arrival": 27,
+      "action_event": "recover",
+      "phase_labels": [],
+      "physical_mode_eval_only": 1,
+      "physically_neutral": false,
+      "first_mode_difference_raw_step": 132,
+      "oriented_evidence": 4.066168785095215,
+      "support_before": 0.9770736694335938,
+      "support_after": 0.995474636554718,
+      "issued_difference_l2": 13.708491325378418
+    },
+    {
+      "episode": "opposite_2_0_BAB",
+      "arrival": 28,
+      "action_event": "recover",
+      "phase_labels": [],
+      "physical_mode_eval_only": 1,
+      "physically_neutral": null,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": 3.006091594696045,
+      "support_before": 0.995474636554718,
+      "support_after": 0.9988704323768616,
+      "issued_difference_l2": 11.15259838104248
+    },
+    {
+      "episode": "opposite_2_0_BAB",
+      "arrival": 29,
+      "action_event": "return_to_fork",
+      "phase_labels": [],
+      "physical_mode_eval_only": 1,
+      "physically_neutral": true,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": 0.05824024975299835,
+      "support_before": 0.9988704323768616,
+      "support_after": 0.9989325404167175,
+      "issued_difference_l2": 1.5660436153411865
+    },
+    {
+      "episode": "opposite_2_0_BAB",
+      "arrival": 30,
+      "action_event": "return_to_fork",
+      "phase_labels": [],
+      "physical_mode_eval_only": 1,
+      "physically_neutral": true,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": 0.004922719672322273,
+      "support_before": 0.9989325404167175,
+      "support_after": 0.998937726020813,
+      "issued_difference_l2": 0.41372641921043396
+    },
+    {
+      "episode": "opposite_2_0_BAB",
+      "arrival": 31,
+      "action_event": "neutral_away",
+      "phase_labels": [
+        [
+          "neutral_control",
+          1
+        ]
+      ],
+      "physical_mode_eval_only": 1,
+      "physically_neutral": true,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": -0.004540121182799339,
+      "support_before": 0.998937726020813,
+      "support_after": 0.994422972202301,
+      "issued_difference_l2": 0.558724582195282
+    },
+    {
+      "episode": "opposite_2_0_BAB",
+      "arrival": 32,
+      "action_event": "neutral_return",
+      "phase_labels": [
+        [
+          "reversal_2_retained_fork",
+          1
+        ],
+        [
+          "neutral_control",
+          1
+        ]
+      ],
+      "physical_mode_eval_only": 1,
+      "physically_neutral": true,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": -0.0018024344462901354,
+      "support_before": 0.994422972202301,
+      "support_after": 0.9926338195800781,
+      "issued_difference_l2": 0.4242202341556549
+    },
+    {
+      "episode": "opposite_2_1_ABA",
+      "arrival": 3,
+      "action_event": "approach_mouth",
+      "phase_labels": [],
+      "physical_mode_eval_only": 0,
+      "physically_neutral": true,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": 0.002060451777651906,
+      "support_before": 0.5,
+      "support_after": 0.5010281205177307,
+      "issued_difference_l2": 0.4153366684913635
+    },
+    {
+      "episode": "opposite_2_1_ABA",
+      "arrival": 4,
+      "action_event": "approach_mouth",
+      "phase_labels": [],
+      "physical_mode_eval_only": 0,
+      "physically_neutral": true,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": -0.009563558734953403,
+      "support_before": 0.5010281205177307,
+      "support_after": 0.4962818920612335,
+      "issued_difference_l2": 0.468452125787735
+    },
+    {
+      "episode": "opposite_2_1_ABA",
+      "arrival": 5,
+      "action_event": "probe",
+      "phase_labels": [
+        [
+          "initial_probe_probe_arrival_1",
+          0
+        ]
+      ],
+      "physical_mode_eval_only": 0,
+      "physically_neutral": false,
+      "first_mode_difference_raw_step": 22,
+      "oriented_evidence": 4.569327354431152,
+      "support_before": 0.4962818920612335,
+      "support_after": 0.9095549583435059,
+      "issued_difference_l2": 14.204256057739258
+    },
+    {
+      "episode": "opposite_2_1_ABA",
+      "arrival": 6,
+      "action_event": "probe",
+      "phase_labels": [
+        [
+          "initial_probe_probe_arrival_2",
+          0
+        ]
+      ],
+      "physical_mode_eval_only": 0,
+      "physically_neutral": false,
+      "first_mode_difference_raw_step": 26,
+      "oriented_evidence": 5.283639430999756,
+      "support_before": 0.9095549583435059,
+      "support_after": 0.9856062531471252,
+      "issued_difference_l2": 12.79312515258789
+    },
+    {
+      "episode": "opposite_2_1_ABA",
+      "arrival": 7,
+      "action_event": "recover",
+      "phase_labels": [],
+      "physical_mode_eval_only": 0,
+      "physically_neutral": true,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": 0.9488572478294373,
+      "support_before": 0.9856062531471252,
+      "support_after": 0.992614209651947,
+      "issued_difference_l2": 4.270717144012451
+    },
+    {
+      "episode": "opposite_2_1_ABA",
+      "arrival": 8,
+      "action_event": "recover",
+      "phase_labels": [],
+      "physical_mode_eval_only": 0,
+      "physically_neutral": true,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": 0.36846038699150085,
+      "support_before": 0.992614209651947,
+      "support_after": 0.9946027994155884,
+      "issued_difference_l2": 3.348694324493408
+    },
+    {
+      "episode": "opposite_2_1_ABA",
+      "arrival": 9,
+      "action_event": "return_to_fork",
+      "phase_labels": [],
+      "physical_mode_eval_only": 0,
+      "physically_neutral": true,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": 0.014467079192399979,
+      "support_before": 0.9946027994155884,
+      "support_after": 0.9946797490119934,
+      "issued_difference_l2": 0.6894078254699707
+    },
+    {
+      "episode": "opposite_2_1_ABA",
+      "arrival": 10,
+      "action_event": "return_to_fork",
+      "phase_labels": [],
+      "physical_mode_eval_only": 0,
+      "physically_neutral": true,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": 0.0039492277428507805,
+      "support_before": 0.9946797490119934,
+      "support_after": 0.9947006106376648,
+      "issued_difference_l2": 0.5951365828514099
+    },
+    {
+      "episode": "opposite_2_1_ABA",
+      "arrival": 11,
+      "action_event": "neutral_away",
+      "phase_labels": [
+        [
+          "neutral_control",
+          0
+        ]
+      ],
+      "physical_mode_eval_only": 0,
+      "physically_neutral": true,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": 0.004540121182799339,
+      "support_before": 0.9947006106376648,
+      "support_after": 0.9947246313095093,
+      "issued_difference_l2": 0.558724582195282
+    },
+    {
+      "episode": "opposite_2_1_ABA",
+      "arrival": 12,
+      "action_event": "neutral_return",
+      "phase_labels": [
+        [
+          "initial_probe_retained_fork",
+          0
+        ],
+        [
+          "reversal_1_unobserved",
+          1
+        ],
+        [
+          "neutral_control",
+          0
+        ]
+      ],
+      "physical_mode_eval_only": 0,
+      "physically_neutral": true,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": 0.0018024344462901354,
+      "support_before": 0.9947246313095093,
+      "support_after": 0.9947341084480286,
+      "issued_difference_l2": 0.4242202341556549
+    },
+    {
+      "episode": "opposite_2_1_ABA",
+      "arrival": 13,
+      "action_event": "approach_mouth",
+      "phase_labels": [
+        [
+          "reversal_1_arrival_1",
+          1
+        ]
+      ],
+      "physical_mode_eval_only": 1,
+      "physically_neutral": true,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": -0.002060451777651906,
+      "support_before": 0.005265772808343172,
+      "support_after": 0.0052549452520906925,
+      "issued_difference_l2": 0.4153366684913635
+    },
+    {
+      "episode": "opposite_2_1_ABA",
+      "arrival": 14,
+      "action_event": "approach_mouth",
+      "phase_labels": [
+        [
+          "reversal_1_arrival_2",
+          1
+        ]
+      ],
+      "physical_mode_eval_only": 1,
+      "physically_neutral": true,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": 0.009563558734953403,
+      "support_before": 0.0052549452520906925,
+      "support_after": 0.014678128995001316,
+      "issued_difference_l2": 0.468452125787735
+    },
+    {
+      "episode": "opposite_2_1_ABA",
+      "arrival": 15,
+      "action_event": "probe",
+      "phase_labels": [
+        [
+          "reversal_1_probe_arrival_1",
+          1
+        ]
+      ],
+      "physical_mode_eval_only": 1,
+      "physically_neutral": false,
+      "first_mode_difference_raw_step": 72,
+      "oriented_evidence": 4.73213529586792,
+      "support_before": 0.014678128995001316,
+      "support_after": 0.8281055688858032,
+      "issued_difference_l2": 14.204256057739258
+    },
+    {
+      "episode": "opposite_2_1_ABA",
+      "arrival": 16,
+      "action_event": "probe",
+      "phase_labels": [
+        [
+          "reversal_1_probe_arrival_2",
+          1
+        ]
+      ],
+      "physical_mode_eval_only": 1,
+      "physically_neutral": null,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": 6.459364414215088,
+      "support_before": 0.8281055688858032,
+      "support_after": 0.9769558906555176,
+      "issued_difference_l2": 15.81362533569336
+    },
+    {
+      "episode": "opposite_2_1_ABA",
+      "arrival": 17,
+      "action_event": "recover",
+      "phase_labels": [],
+      "physical_mode_eval_only": 1,
+      "physically_neutral": false,
+      "first_mode_difference_raw_step": 82,
+      "oriented_evidence": 4.066168785095215,
+      "support_before": 0.9769558906555176,
+      "support_after": 0.9954513907432556,
+      "issued_difference_l2": 13.708491325378418
+    },
+    {
+      "episode": "opposite_2_1_ABA",
+      "arrival": 18,
+      "action_event": "recover",
+      "phase_labels": [],
+      "physical_mode_eval_only": 1,
+      "physically_neutral": null,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": 3.006091594696045,
+      "support_before": 0.9954513907432556,
+      "support_after": 0.9988645911216736,
+      "issued_difference_l2": 11.15259838104248
+    },
+    {
+      "episode": "opposite_2_1_ABA",
+      "arrival": 19,
+      "action_event": "return_to_fork",
+      "phase_labels": [],
+      "physical_mode_eval_only": 1,
+      "physically_neutral": true,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": 0.05824024975299835,
+      "support_before": 0.9988645911216736,
+      "support_after": 0.9989269971847534,
+      "issued_difference_l2": 1.5660436153411865
+    },
+    {
+      "episode": "opposite_2_1_ABA",
+      "arrival": 20,
+      "action_event": "return_to_fork",
+      "phase_labels": [],
+      "physical_mode_eval_only": 1,
+      "physically_neutral": true,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": 0.004922719672322273,
+      "support_before": 0.9989269971847534,
+      "support_after": 0.9989322423934937,
+      "issued_difference_l2": 0.41372641921043396
+    },
+    {
+      "episode": "opposite_2_1_ABA",
+      "arrival": 21,
+      "action_event": "neutral_away",
+      "phase_labels": [
+        [
+          "neutral_control",
+          1
+        ]
+      ],
+      "physical_mode_eval_only": 1,
+      "physically_neutral": true,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": -0.004540121182799339,
+      "support_before": 0.9989322423934937,
+      "support_after": 0.9944174885749817,
+      "issued_difference_l2": 0.558724582195282
+    },
+    {
+      "episode": "opposite_2_1_ABA",
+      "arrival": 22,
+      "action_event": "neutral_return",
+      "phase_labels": [
+        [
+          "reversal_1_retained_fork",
+          1
+        ],
+        [
+          "reversal_2_unobserved",
+          0
+        ],
+        [
+          "neutral_control",
+          1
+        ]
+      ],
+      "physical_mode_eval_only": 1,
+      "physically_neutral": true,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": -0.0018024344462901354,
+      "support_before": 0.9944174885749817,
+      "support_after": 0.9926283359527588,
+      "issued_difference_l2": 0.4242202341556549
+    },
+    {
+      "episode": "opposite_2_1_ABA",
+      "arrival": 23,
+      "action_event": "approach_mouth",
+      "phase_labels": [
+        [
+          "reversal_2_arrival_1",
+          0
+        ]
+      ],
+      "physical_mode_eval_only": 0,
+      "physically_neutral": true,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": 0.002060451777651906,
+      "support_before": 0.007371606770902872,
+      "support_after": 0.009412664920091629,
+      "issued_difference_l2": 0.4153366684913635
+    },
+    {
+      "episode": "opposite_2_1_ABA",
+      "arrival": 24,
+      "action_event": "approach_mouth",
+      "phase_labels": [
+        [
+          "reversal_2_arrival_2",
+          0
+        ]
+      ],
+      "physical_mode_eval_only": 0,
+      "physically_neutral": true,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": -0.009563558734953403,
+      "support_before": 0.009412664920091629,
+      "support_after": 0.009323499165475368,
+      "issued_difference_l2": 0.468452125787735
+    },
+    {
+      "episode": "opposite_2_1_ABA",
+      "arrival": 25,
+      "action_event": "probe",
+      "phase_labels": [
+        [
+          "reversal_2_probe_arrival_1",
+          0
+        ]
+      ],
+      "physical_mode_eval_only": 0,
+      "physically_neutral": false,
+      "first_mode_difference_raw_step": 122,
+      "oriented_evidence": 4.569327354431152,
+      "support_before": 0.009323499165475368,
+      "support_after": 0.8221191763877869,
+      "issued_difference_l2": 14.204256057739258
+    },
+    {
+      "episode": "opposite_2_1_ABA",
+      "arrival": 26,
+      "action_event": "probe",
+      "phase_labels": [
+        [
+          "reversal_2_probe_arrival_2",
+          0
+        ]
+      ],
+      "physical_mode_eval_only": 0,
+      "physically_neutral": false,
+      "first_mode_difference_raw_step": 126,
+      "oriented_evidence": 5.283639430999756,
+      "support_before": 0.8221191763877869,
+      "support_after": 0.9716914296150208,
+      "issued_difference_l2": 12.79312515258789
+    },
+    {
+      "episode": "opposite_2_1_ABA",
+      "arrival": 27,
+      "action_event": "recover",
+      "phase_labels": [],
+      "physical_mode_eval_only": 0,
+      "physically_neutral": true,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": 0.9488572478294373,
+      "support_before": 0.9716914296150208,
+      "support_after": 0.9854742288589478,
+      "issued_difference_l2": 4.270717144012451
+    },
+    {
+      "episode": "opposite_2_1_ABA",
+      "arrival": 28,
+      "action_event": "recover",
+      "phase_labels": [],
+      "physical_mode_eval_only": 0,
+      "physically_neutral": true,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": 0.36846038699150085,
+      "support_before": 0.9854742288589478,
+      "support_after": 0.9893853068351746,
+      "issued_difference_l2": 3.348694324493408
+    },
+    {
+      "episode": "opposite_2_1_ABA",
+      "arrival": 29,
+      "action_event": "return_to_fork",
+      "phase_labels": [],
+      "physical_mode_eval_only": 0,
+      "physically_neutral": true,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": 0.014467079192399979,
+      "support_before": 0.9893853068351746,
+      "support_after": 0.9895366430282593,
+      "issued_difference_l2": 0.6894078254699707
+    },
+    {
+      "episode": "opposite_2_1_ABA",
+      "arrival": 30,
+      "action_event": "return_to_fork",
+      "phase_labels": [],
+      "physical_mode_eval_only": 0,
+      "physically_neutral": true,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": 0.0039492277428507805,
+      "support_before": 0.9895366430282593,
+      "support_after": 0.9895777702331543,
+      "issued_difference_l2": 0.5951365828514099
+    },
+    {
+      "episode": "opposite_2_1_ABA",
+      "arrival": 31,
+      "action_event": "neutral_away",
+      "phase_labels": [
+        [
+          "neutral_control",
+          0
+        ]
+      ],
+      "physical_mode_eval_only": 0,
+      "physically_neutral": true,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": 0.004540121182799339,
+      "support_before": 0.9895777702331543,
+      "support_after": 0.9896249175071716,
+      "issued_difference_l2": 0.558724582195282
+    },
+    {
+      "episode": "opposite_2_1_ABA",
+      "arrival": 32,
+      "action_event": "neutral_return",
+      "phase_labels": [
+        [
+          "reversal_2_retained_fork",
+          0
+        ],
+        [
+          "neutral_control",
+          0
+        ]
+      ],
+      "physical_mode_eval_only": 0,
+      "physically_neutral": true,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": 0.0018024344462901354,
+      "support_before": 0.9896249175071716,
+      "support_after": 0.9896435737609863,
+      "issued_difference_l2": 0.4242202341556549
+    },
+    {
+      "episode": "opposite_2_1_BAB",
+      "arrival": 3,
+      "action_event": "approach_mouth",
+      "phase_labels": [],
+      "physical_mode_eval_only": 1,
+      "physically_neutral": true,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": -0.002060451777651906,
+      "support_before": 0.5,
+      "support_after": 0.4989719092845917,
+      "issued_difference_l2": 0.4153366684913635
+    },
+    {
+      "episode": "opposite_2_1_BAB",
+      "arrival": 4,
+      "action_event": "approach_mouth",
+      "phase_labels": [],
+      "physical_mode_eval_only": 1,
+      "physically_neutral": true,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": 0.009563558734953403,
+      "support_before": 0.4989719092845917,
+      "support_after": 0.5037180781364441,
+      "issued_difference_l2": 0.468452125787735
+    },
+    {
+      "episode": "opposite_2_1_BAB",
+      "arrival": 5,
+      "action_event": "probe",
+      "phase_labels": [
+        [
+          "initial_probe_probe_arrival_1",
+          1
+        ]
+      ],
+      "physical_mode_eval_only": 1,
+      "physically_neutral": false,
+      "first_mode_difference_raw_step": 22,
+      "oriented_evidence": 4.73213529586792,
+      "support_before": 0.5037180781364441,
+      "support_after": 0.913421094417572,
+      "issued_difference_l2": 14.204256057739258
+    },
+    {
+      "episode": "opposite_2_1_BAB",
+      "arrival": 6,
+      "action_event": "probe",
+      "phase_labels": [
+        [
+          "initial_probe_probe_arrival_2",
+          1
+        ]
+      ],
+      "physical_mode_eval_only": 1,
+      "physically_neutral": null,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": 6.459364414215088,
+      "support_before": 0.913421094417572,
+      "support_after": 0.988393247127533,
+      "issued_difference_l2": 15.81362533569336
+    },
+    {
+      "episode": "opposite_2_1_BAB",
+      "arrival": 7,
+      "action_event": "recover",
+      "phase_labels": [],
+      "physical_mode_eval_only": 1,
+      "physically_neutral": false,
+      "first_mode_difference_raw_step": 32,
+      "oriented_evidence": 4.066168785095215,
+      "support_before": 0.988393247127533,
+      "support_after": 0.9977089762687683,
+      "issued_difference_l2": 13.708491325378418
+    },
+    {
+      "episode": "opposite_2_1_BAB",
+      "arrival": 8,
+      "action_event": "recover",
+      "phase_labels": [],
+      "physical_mode_eval_only": 1,
+      "physically_neutral": null,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": 3.006091594696045,
+      "support_before": 0.9977089762687683,
+      "support_after": 0.9994280934333801,
+      "issued_difference_l2": 11.15259838104248
+    },
+    {
+      "episode": "opposite_2_1_BAB",
+      "arrival": 9,
+      "action_event": "return_to_fork",
+      "phase_labels": [],
+      "physical_mode_eval_only": 1,
+      "physically_neutral": true,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": 0.05824024975299835,
+      "support_before": 0.9994280934333801,
+      "support_after": 0.9994595050811768,
+      "issued_difference_l2": 1.5660436153411865
+    },
+    {
+      "episode": "opposite_2_1_BAB",
+      "arrival": 10,
+      "action_event": "return_to_fork",
+      "phase_labels": [],
+      "physical_mode_eval_only": 1,
+      "physically_neutral": true,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": 0.004922719672322273,
+      "support_before": 0.9994595050811768,
+      "support_after": 0.9994621276855469,
+      "issued_difference_l2": 0.41372641921043396
+    },
+    {
+      "episode": "opposite_2_1_BAB",
+      "arrival": 11,
+      "action_event": "neutral_away",
+      "phase_labels": [
+        [
+          "neutral_control",
+          1
+        ]
+      ],
+      "physical_mode_eval_only": 1,
+      "physically_neutral": true,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": -0.004540121182799339,
+      "support_before": 0.9994621276855469,
+      "support_after": 0.9949449896812439,
+      "issued_difference_l2": 0.558724582195282
+    },
+    {
+      "episode": "opposite_2_1_BAB",
+      "arrival": 12,
+      "action_event": "neutral_return",
+      "phase_labels": [
+        [
+          "initial_probe_retained_fork",
+          1
+        ],
+        [
+          "reversal_1_unobserved",
+          0
+        ],
+        [
+          "neutral_control",
+          1
+        ]
+      ],
+      "physical_mode_eval_only": 1,
+      "physically_neutral": true,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": -0.0018024344462901354,
+      "support_before": 0.9949449896812439,
+      "support_after": 0.9931548833847046,
+      "issued_difference_l2": 0.4242202341556549
+    },
+    {
+      "episode": "opposite_2_1_BAB",
+      "arrival": 13,
+      "action_event": "approach_mouth",
+      "phase_labels": [
+        [
+          "reversal_1_arrival_1",
+          0
+        ]
+      ],
+      "physical_mode_eval_only": 0,
+      "physically_neutral": true,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": 0.002060451777651906,
+      "support_before": 0.006845033261924982,
+      "support_after": 0.008887173607945442,
+      "issued_difference_l2": 0.4153366684913635
+    },
+    {
+      "episode": "opposite_2_1_BAB",
+      "arrival": 14,
+      "action_event": "approach_mouth",
+      "phase_labels": [
+        [
+          "reversal_1_arrival_2",
+          0
+        ]
+      ],
+      "physical_mode_eval_only": 0,
+      "physically_neutral": true,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": -0.009563558734953403,
+      "support_before": 0.008887173607945442,
+      "support_after": 0.008802985772490501,
+      "issued_difference_l2": 0.468452125787735
+    },
+    {
+      "episode": "opposite_2_1_BAB",
+      "arrival": 15,
+      "action_event": "probe",
+      "phase_labels": [
+        [
+          "reversal_1_probe_arrival_1",
+          0
+        ]
+      ],
+      "physical_mode_eval_only": 0,
+      "physically_neutral": false,
+      "first_mode_difference_raw_step": 72,
+      "oriented_evidence": 4.569327354431152,
+      "support_before": 0.008802985772490501,
+      "support_after": 0.822025716304779,
+      "issued_difference_l2": 14.204256057739258
+    },
+    {
+      "episode": "opposite_2_1_BAB",
+      "arrival": 16,
+      "action_event": "probe",
+      "phase_labels": [
+        [
+          "reversal_1_probe_arrival_2",
+          0
+        ]
+      ],
+      "physical_mode_eval_only": 0,
+      "physically_neutral": false,
+      "first_mode_difference_raw_step": 76,
+      "oriented_evidence": 5.283639430999756,
+      "support_before": 0.822025716304779,
+      "support_after": 0.9716765880584717,
+      "issued_difference_l2": 12.79312515258789
+    },
+    {
+      "episode": "opposite_2_1_BAB",
+      "arrival": 17,
+      "action_event": "recover",
+      "phase_labels": [],
+      "physical_mode_eval_only": 0,
+      "physically_neutral": true,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": 0.9488572478294373,
+      "support_before": 0.9716765880584717,
+      "support_after": 0.9854666590690613,
+      "issued_difference_l2": 4.270717144012451
+    },
+    {
+      "episode": "opposite_2_1_BAB",
+      "arrival": 18,
+      "action_event": "recover",
+      "phase_labels": [],
+      "physical_mode_eval_only": 0,
+      "physically_neutral": true,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": 0.36846038699150085,
+      "support_before": 0.9854666590690613,
+      "support_after": 0.9893797636032104,
+      "issued_difference_l2": 3.348694324493408
+    },
+    {
+      "episode": "opposite_2_1_BAB",
+      "arrival": 19,
+      "action_event": "return_to_fork",
+      "phase_labels": [],
+      "physical_mode_eval_only": 0,
+      "physically_neutral": true,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": 0.014467079192399979,
+      "support_before": 0.9893797636032104,
+      "support_after": 0.9895312190055847,
+      "issued_difference_l2": 0.6894078254699707
+    },
+    {
+      "episode": "opposite_2_1_BAB",
+      "arrival": 20,
+      "action_event": "return_to_fork",
+      "phase_labels": [],
+      "physical_mode_eval_only": 0,
+      "physically_neutral": true,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": 0.0039492277428507805,
+      "support_before": 0.9895312190055847,
+      "support_after": 0.9895723462104797,
+      "issued_difference_l2": 0.5951365828514099
+    },
+    {
+      "episode": "opposite_2_1_BAB",
+      "arrival": 21,
+      "action_event": "neutral_away",
+      "phase_labels": [
+        [
+          "neutral_control",
+          0
+        ]
+      ],
+      "physical_mode_eval_only": 0,
+      "physically_neutral": true,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": 0.004540121182799339,
+      "support_before": 0.9895723462104797,
+      "support_after": 0.9896195530891418,
+      "issued_difference_l2": 0.558724582195282
+    },
+    {
+      "episode": "opposite_2_1_BAB",
+      "arrival": 22,
+      "action_event": "neutral_return",
+      "phase_labels": [
+        [
+          "reversal_1_retained_fork",
+          0
+        ],
+        [
+          "reversal_2_unobserved",
+          1
+        ],
+        [
+          "neutral_control",
+          0
+        ]
+      ],
+      "physical_mode_eval_only": 0,
+      "physically_neutral": true,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": 0.0018024344462901354,
+      "support_before": 0.9896195530891418,
+      "support_after": 0.9896382093429565,
+      "issued_difference_l2": 0.4242202341556549
+    },
+    {
+      "episode": "opposite_2_1_BAB",
+      "arrival": 23,
+      "action_event": "approach_mouth",
+      "phase_labels": [
+        [
+          "reversal_2_arrival_1",
+          1
+        ]
+      ],
+      "physical_mode_eval_only": 1,
+      "physically_neutral": true,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": -0.002060451777651906,
+      "support_before": 0.010361784137785435,
+      "support_after": 0.010340478271245956,
+      "issued_difference_l2": 0.4153366684913635
+    },
+    {
+      "episode": "opposite_2_1_BAB",
+      "arrival": 24,
+      "action_event": "approach_mouth",
+      "phase_labels": [
+        [
+          "reversal_2_arrival_2",
+          1
+        ]
+      ],
+      "physical_mode_eval_only": 1,
+      "physically_neutral": true,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": 0.009563558734953403,
+      "support_before": 0.010340478271245956,
+      "support_after": 0.019715486094355583,
+      "issued_difference_l2": 0.468452125787735
+    },
+    {
+      "episode": "opposite_2_1_BAB",
+      "arrival": 25,
+      "action_event": "probe",
+      "phase_labels": [
+        [
+          "reversal_2_probe_arrival_1",
+          1
+        ]
+      ],
+      "physical_mode_eval_only": 1,
+      "physically_neutral": false,
+      "first_mode_difference_raw_step": 122,
+      "oriented_evidence": 4.73213529586792,
+      "support_before": 0.019715486094355583,
+      "support_after": 0.8289843797683716,
+      "issued_difference_l2": 14.204256057739258
+    },
+    {
+      "episode": "opposite_2_1_BAB",
+      "arrival": 26,
+      "action_event": "probe",
+      "phase_labels": [
+        [
+          "reversal_2_probe_arrival_2",
+          1
+        ]
+      ],
+      "physical_mode_eval_only": 1,
+      "physically_neutral": null,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": 6.459364414215088,
+      "support_before": 0.8289843797683716,
+      "support_after": 0.9770736694335938,
+      "issued_difference_l2": 15.81362533569336
+    },
+    {
+      "episode": "opposite_2_1_BAB",
+      "arrival": 27,
+      "action_event": "recover",
+      "phase_labels": [],
+      "physical_mode_eval_only": 1,
+      "physically_neutral": false,
+      "first_mode_difference_raw_step": 132,
+      "oriented_evidence": 4.066168785095215,
+      "support_before": 0.9770736694335938,
+      "support_after": 0.995474636554718,
+      "issued_difference_l2": 13.708491325378418
+    },
+    {
+      "episode": "opposite_2_1_BAB",
+      "arrival": 28,
+      "action_event": "recover",
+      "phase_labels": [],
+      "physical_mode_eval_only": 1,
+      "physically_neutral": null,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": 3.006091594696045,
+      "support_before": 0.995474636554718,
+      "support_after": 0.9988704323768616,
+      "issued_difference_l2": 11.15259838104248
+    },
+    {
+      "episode": "opposite_2_1_BAB",
+      "arrival": 29,
+      "action_event": "return_to_fork",
+      "phase_labels": [],
+      "physical_mode_eval_only": 1,
+      "physically_neutral": true,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": 0.05824024975299835,
+      "support_before": 0.9988704323768616,
+      "support_after": 0.9989325404167175,
+      "issued_difference_l2": 1.5660436153411865
+    },
+    {
+      "episode": "opposite_2_1_BAB",
+      "arrival": 30,
+      "action_event": "return_to_fork",
+      "phase_labels": [],
+      "physical_mode_eval_only": 1,
+      "physically_neutral": true,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": 0.004922719672322273,
+      "support_before": 0.9989325404167175,
+      "support_after": 0.998937726020813,
+      "issued_difference_l2": 0.41372641921043396
+    },
+    {
+      "episode": "opposite_2_1_BAB",
+      "arrival": 31,
+      "action_event": "neutral_away",
+      "phase_labels": [
+        [
+          "neutral_control",
+          1
+        ]
+      ],
+      "physical_mode_eval_only": 1,
+      "physically_neutral": true,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": -0.004540121182799339,
+      "support_before": 0.998937726020813,
+      "support_after": 0.994422972202301,
+      "issued_difference_l2": 0.558724582195282
+    },
+    {
+      "episode": "opposite_2_1_BAB",
+      "arrival": 32,
+      "action_event": "neutral_return",
+      "phase_labels": [
+        [
+          "reversal_2_retained_fork",
+          1
+        ],
+        [
+          "neutral_control",
+          1
+        ]
+      ],
+      "physical_mode_eval_only": 1,
+      "physically_neutral": true,
+      "first_mode_difference_raw_step": null,
+      "oriented_evidence": -0.0018024344462901354,
+      "support_before": 0.994422972202301,
+      "support_after": 0.9926338195800781,
+      "issued_difference_l2": 0.4242202341556549
+    }
+  ]
+}

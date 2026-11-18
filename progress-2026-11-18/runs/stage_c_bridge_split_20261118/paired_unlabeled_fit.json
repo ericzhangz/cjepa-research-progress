@@ -1,0 +1,52 @@
+{
+  "arm": "offsets_final_two",
+  "fit_seed": 2026113700,
+  "s2_obs": 19.283662796020508,
+  "s2_bundle": 186.1669158935547,
+  "initial_vjp": 291.58538818359375,
+  "fitting_groups": 56,
+  "updates": 256,
+  "training_candidates_per_root": 8,
+  "calibration_candidates_per_root": 2,
+  "bridge_groups": 8,
+  "bridge_assignment": "split",
+  "continuation": "D:\\cjepa\\runs\\stage_c_coverage_20261118",
+  "checkpoints": [
+    {
+      "update": 1,
+      "loss": 0.2962273955345154,
+      "grad_b": 0.11727643758058548,
+      "grad_v": 0.09657125174999237,
+      "max_abs_factual_evidence": 7.21022367477417
+    },
+    {
+      "update": 64,
+      "loss": 0.021412912756204605,
+      "grad_b": 0.010267914272844791,
+      "grad_v": 0.01957198977470398,
+      "max_abs_factual_evidence": 6.860196590423584
+    },
+    {
+      "update": 128,
+      "loss": 0.019668690860271454,
+      "grad_b": 0.008250767365098,
+      "grad_v": 0.02892964519560337,
+      "max_abs_factual_evidence": 7.149021148681641
+    },
+    {
+      "update": 192,
+      "loss": 0.027887605130672455,
+      "grad_b": 0.030956996604800224,
+      "grad_v": 0.02469894103705883,
+      "max_abs_factual_evidence": 7.625640869140625
+    },
+    {
+      "update": 256,
+      "loss": 0.012711264193058014,
+      "grad_b": 0.005413099192082882,
+      "grad_v": 0.010755522176623344,
+      "max_abs_factual_evidence": 7.5963921546936035
+    }
+  ],
+  "wall_seconds": 41.12624750001123
+}

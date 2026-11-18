@@ -1,0 +1,1635 @@
+{
+  "source": "Executed FourRoom RGB with one fixed visible distractor. Frozen LeWM encodes each arrival.",
+  "fit_cases": [
+    {
+      "scenario": 0,
+      "seed": 2026113400,
+      "template": "opposite_0_0",
+      "relative_order": [
+        0,
+        0,
+        1
+      ],
+      "fixed_read_roots": [
+        [
+          77.5,
+          80.0
+        ],
+        [
+          100.5,
+          56.0
+        ]
+      ]
+    },
+    {
+      "scenario": 1,
+      "seed": 2026113401,
+      "template": "opposite_1_0",
+      "relative_order": [
+        0,
+        0,
+        1
+      ],
+      "fixed_read_roots": [
+        [
+          141.5,
+          80.0
+        ],
+        [
+          123.5,
+          56.0
+        ]
+      ]
+    },
+    {
+      "scenario": 2,
+      "seed": 2026113402,
+      "template": "opposite_2_0",
+      "relative_order": [
+        0,
+        0,
+        1
+      ],
+      "fixed_read_roots": [
+        [
+          141.5,
+          144.0
+        ],
+        [
+          123.5,
+          168.0
+        ]
+      ]
+    },
+    {
+      "scenario": 3,
+      "seed": 2026113403,
+      "template": "opposite_3_0",
+      "relative_order": [
+        0,
+        0,
+        1
+      ],
+      "fixed_read_roots": [
+        [
+          77.5,
+          144.0
+        ],
+        [
+          100.5,
+          168.0
+        ]
+      ]
+    },
+    {
+      "scenario": 4,
+      "seed": 2026113404,
+      "template": "opposite_0_0",
+      "relative_order": [
+        0,
+        1,
+        1
+      ],
+      "fixed_read_roots": [
+        [
+          82.5,
+          80.0
+        ],
+        [
+          100.5,
+          56.0
+        ]
+      ]
+    },
+    {
+      "scenario": 5,
+      "seed": 2026113405,
+      "template": "opposite_1_0",
+      "relative_order": [
+        0,
+        1,
+        1
+      ],
+      "fixed_read_roots": [
+        [
+          146.5,
+          80.0
+        ],
+        [
+          123.5,
+          56.0
+        ]
+      ]
+    },
+    {
+      "scenario": 6,
+      "seed": 2026113406,
+      "template": "opposite_2_0",
+      "relative_order": [
+        0,
+        1,
+        1
+      ],
+      "fixed_read_roots": [
+        [
+          146.5,
+          144.0
+        ],
+        [
+          123.5,
+          168.0
+        ]
+      ]
+    },
+    {
+      "scenario": 7,
+      "seed": 2026113407,
+      "template": "opposite_3_0",
+      "relative_order": [
+        0,
+        1,
+        1
+      ],
+      "fixed_read_roots": [
+        [
+          82.5,
+          144.0
+        ],
+        [
+          100.5,
+          168.0
+        ]
+      ]
+    }
+  ],
+  "shapes": {
+    "fit_prefix_z": [
+      56,
+      2,
+      99,
+      192
+    ],
+    "fit_prefix_a": [
+      56,
+      2,
+      98,
+      5,
+      2
+    ],
+    "fit_read_t": [
+      56,
+      2
+    ],
+    "fit_menu_a": [
+      56,
+      2,
+      8,
+      12,
+      5,
+      2
+    ],
+    "fit_target_z": [
+      56,
+      2,
+      2,
+      8,
+      12,
+      192
+    ],
+    "fit_directed": [
+      56
+    ],
+    "source_target_z": [
+      24,
+      2,
+      192
+    ],
+    "source_delta": [
+      24,
+      192
+    ]
+  },
+  "group_order_per_case": [
+    "initial_cover",
+    "quiet_outward_cover",
+    "quiet_lateral_cover",
+    "first_probe",
+    "second_probe",
+    "third_probe"
+  ],
+  "physical_coordinates": "Private recorder audit. No coordinates or lock labels in the numeric archive.",
+  "independent_test": "The fixed Stage A clean ABA/BAB lifecycle is held separately.",
+  "coverage_source": "D:\\cjepa\\runs\\stage_c_clean_20261117",
+  "coverage_extension": "Original slots 0 and 1 retained. Slots 2 through 7 are executed fit-only targets.",
+  "bridge_source": "D:\\cjepa\\runs\\stage_c_coverage_20261118",
+  "bridge_cases": [
+    {
+      "connector": 0,
+      "group": 48,
+      "seed": 2026114000,
+      "direction": "NW_to_SE",
+      "read_roots": [
+        [
+          77.5,
+          80.0
+        ],
+        [
+          144.0,
+          146.5
+        ]
+      ],
+      "read_blocks": [
+        24,
+        98
+      ],
+      "probe_pre_blocks": [
+        4,
+        78
+      ],
+      "factual_blocks": 98,
+      "first_probe_arrival": 5,
+      "second_probe_arrival": 79,
+      "transfer_blocks": 50,
+      "factual_resets_per_history": 1,
+      "physical_row_order": [
+        "bottom",
+        "top"
+      ],
+      "identical_controls_both_histories": true,
+      "matched_read_rgb_and_raw_controls": true,
+      "solid_wall_endpoints": 0,
+      "actual_crossings_by_history": [
+        [
+          {
+            "raw_step": 28,
+            "door": "top",
+            "direction": 1
+          },
+          {
+            "raw_step": 39,
+            "door": "top",
+            "direction": -1
+          },
+          {
+            "raw_step": 148,
+            "door": "top",
+            "direction": 1
+          },
+          {
+            "raw_step": 224,
+            "door": "right",
+            "direction": 1
+          }
+        ],
+        [
+          {
+            "raw_step": 224,
+            "door": "left",
+            "direction": 1
+          },
+          {
+            "raw_step": 298,
+            "door": "bottom",
+            "direction": 1
+          },
+          {
+            "raw_step": 398,
+            "door": "bottom",
+            "direction": -1
+          },
+          {
+            "raw_step": 409,
+            "door": "bottom",
+            "direction": 1
+          }
+        ]
+      ],
+      "menus": [
+        {
+          "goal": [
+            144.0,
+            146.5
+          ],
+          "extra_candidate_indices": [
+            379,
+            83,
+            325,
+            45,
+            163,
+            337
+          ],
+          "common_blocked_slots": [
+            false,
+            false,
+            true,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "success_slots_by_physical_condition": [
+            [
+              true,
+              false,
+              false,
+              true,
+              false,
+              false,
+              true,
+              false
+            ],
+            [
+              false,
+              true,
+              false,
+              false,
+              true,
+              false,
+              false,
+              false
+            ]
+          ]
+        },
+        {
+          "goal": [
+            77.5,
+            80.0
+          ],
+          "extra_candidate_indices": [
+            381,
+            325,
+            45,
+            83,
+            163,
+            337
+          ],
+          "common_blocked_slots": [
+            false,
+            false,
+            true,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "success_slots_by_physical_condition": [
+            [
+              false,
+              true,
+              false,
+              true,
+              false,
+              false,
+              false,
+              true
+            ],
+            [
+              true,
+              false,
+              false,
+              false,
+              true,
+              false,
+              true,
+              false
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "connector": 1,
+      "group": 49,
+      "seed": 2026114001,
+      "direction": "NW_to_SE",
+      "read_roots": [
+        [
+          82.5,
+          80.0
+        ],
+        [
+          144.0,
+          141.5
+        ]
+      ],
+      "read_blocks": [
+        24,
+        98
+      ],
+      "probe_pre_blocks": [
+        4,
+        78
+      ],
+      "factual_blocks": 98,
+      "first_probe_arrival": 5,
+      "second_probe_arrival": 79,
+      "transfer_blocks": 50,
+      "factual_resets_per_history": 1,
+      "physical_row_order": [
+        "top",
+        "bottom"
+      ],
+      "identical_controls_both_histories": true,
+      "matched_read_rgb_and_raw_controls": true,
+      "solid_wall_endpoints": 0,
+      "actual_crossings_by_history": [
+        [
+          {
+            "raw_step": 222,
+            "door": "left",
+            "direction": 1
+          },
+          {
+            "raw_step": 296,
+            "door": "bottom",
+            "direction": 1
+          },
+          {
+            "raw_step": 398,
+            "door": "bottom",
+            "direction": -1
+          },
+          {
+            "raw_step": 409,
+            "door": "bottom",
+            "direction": 1
+          }
+        ],
+        [
+          {
+            "raw_step": 28,
+            "door": "top",
+            "direction": 1
+          },
+          {
+            "raw_step": 39,
+            "door": "top",
+            "direction": -1
+          },
+          {
+            "raw_step": 146,
+            "door": "top",
+            "direction": 1
+          },
+          {
+            "raw_step": 222,
+            "door": "right",
+            "direction": 1
+          }
+        ]
+      ],
+      "menus": [
+        {
+          "goal": [
+            144.0,
+            141.5
+          ],
+          "extra_candidate_indices": [
+            377,
+            29,
+            246,
+            88,
+            138,
+            337
+          ],
+          "common_blocked_slots": [
+            false,
+            false,
+            true,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "success_slots_by_physical_condition": [
+            [
+              true,
+              false,
+              false,
+              true,
+              false,
+              true,
+              true,
+              false
+            ],
+            [
+              false,
+              true,
+              false,
+              false,
+              true,
+              false,
+              false,
+              true
+            ]
+          ]
+        },
+        {
+          "goal": [
+            82.5,
+            80.0
+          ],
+          "extra_candidate_indices": [
+            382,
+            246,
+            29,
+            88,
+            138,
+            337
+          ],
+          "common_blocked_slots": [
+            false,
+            false,
+            true,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "success_slots_by_physical_condition": [
+            [
+              false,
+              true,
+              false,
+              true,
+              false,
+              false,
+              false,
+              true
+            ],
+            [
+              true,
+              false,
+              false,
+              false,
+              true,
+              true,
+              true,
+              false
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "connector": 2,
+      "group": 50,
+      "seed": 2026114002,
+      "direction": "NW_to_SE",
+      "read_roots": [
+        [
+          80.0,
+          77.5
+        ],
+        [
+          146.5,
+          144.0
+        ]
+      ],
+      "read_blocks": [
+        24,
+        97
+      ],
+      "probe_pre_blocks": [
+        4,
+        77
+      ],
+      "factual_blocks": 97,
+      "first_probe_arrival": 5,
+      "second_probe_arrival": 78,
+      "transfer_blocks": 49,
+      "factual_resets_per_history": 1,
+      "physical_row_order": [
+        "bottom",
+        "top"
+      ],
+      "identical_controls_both_histories": true,
+      "matched_read_rgb_and_raw_controls": true,
+      "solid_wall_endpoints": 0,
+      "actual_crossings_by_history": [
+        [
+          {
+            "raw_step": 28,
+            "door": "top",
+            "direction": 1
+          },
+          {
+            "raw_step": 39,
+            "door": "top",
+            "direction": -1
+          },
+          {
+            "raw_step": 146,
+            "door": "top",
+            "direction": 1
+          },
+          {
+            "raw_step": 222,
+            "door": "right",
+            "direction": 1
+          }
+        ],
+        [
+          {
+            "raw_step": 222,
+            "door": "left",
+            "direction": 1
+          },
+          {
+            "raw_step": 296,
+            "door": "bottom",
+            "direction": 1
+          },
+          {
+            "raw_step": 393,
+            "door": "bottom",
+            "direction": -1
+          },
+          {
+            "raw_step": 404,
+            "door": "bottom",
+            "direction": 1
+          }
+        ]
+      ],
+      "menus": [
+        {
+          "goal": [
+            146.5,
+            144.0
+          ],
+          "extra_candidate_indices": [
+            379,
+            148,
+            283,
+            190,
+            107,
+            329
+          ],
+          "common_blocked_slots": [
+            false,
+            false,
+            true,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "success_slots_by_physical_condition": [
+            [
+              true,
+              false,
+              false,
+              true,
+              false,
+              true,
+              false,
+              false
+            ],
+            [
+              false,
+              true,
+              false,
+              false,
+              true,
+              false,
+              false,
+              true
+            ]
+          ]
+        },
+        {
+          "goal": [
+            80.0,
+            77.5
+          ],
+          "extra_candidate_indices": [
+            381,
+            283,
+            148,
+            190,
+            107,
+            329
+          ],
+          "common_blocked_slots": [
+            false,
+            false,
+            true,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "success_slots_by_physical_condition": [
+            [
+              false,
+              true,
+              false,
+              true,
+              false,
+              false,
+              false,
+              true
+            ],
+            [
+              true,
+              false,
+              false,
+              false,
+              true,
+              true,
+              true,
+              false
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "connector": 3,
+      "group": 51,
+      "seed": 2026114003,
+      "direction": "NW_to_SE",
+      "read_roots": [
+        [
+          80.0,
+          82.5
+        ],
+        [
+          141.5,
+          144.0
+        ]
+      ],
+      "read_blocks": [
+        24,
+        98
+      ],
+      "probe_pre_blocks": [
+        4,
+        78
+      ],
+      "factual_blocks": 98,
+      "first_probe_arrival": 5,
+      "second_probe_arrival": 79,
+      "transfer_blocks": 50,
+      "factual_resets_per_history": 1,
+      "physical_row_order": [
+        "top",
+        "bottom"
+      ],
+      "identical_controls_both_histories": true,
+      "matched_read_rgb_and_raw_controls": true,
+      "solid_wall_endpoints": 0,
+      "actual_crossings_by_history": [
+        [
+          {
+            "raw_step": 224,
+            "door": "left",
+            "direction": 1
+          },
+          {
+            "raw_step": 298,
+            "door": "bottom",
+            "direction": 1
+          },
+          {
+            "raw_step": 398,
+            "door": "bottom",
+            "direction": -1
+          },
+          {
+            "raw_step": 409,
+            "door": "bottom",
+            "direction": 1
+          }
+        ],
+        [
+          {
+            "raw_step": 28,
+            "door": "top",
+            "direction": 1
+          },
+          {
+            "raw_step": 39,
+            "door": "top",
+            "direction": -1
+          },
+          {
+            "raw_step": 148,
+            "door": "top",
+            "direction": 1
+          },
+          {
+            "raw_step": 224,
+            "door": "right",
+            "direction": 1
+          }
+        ]
+      ],
+      "menus": [
+        {
+          "goal": [
+            141.5,
+            144.0
+          ],
+          "extra_candidate_indices": [
+            377,
+            84,
+            352,
+            67,
+            64,
+            380
+          ],
+          "common_blocked_slots": [
+            false,
+            false,
+            true,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "success_slots_by_physical_condition": [
+            [
+              true,
+              false,
+              false,
+              true,
+              false,
+              false,
+              true,
+              false
+            ],
+            [
+              false,
+              true,
+              false,
+              false,
+              true,
+              false,
+              false,
+              false
+            ]
+          ]
+        },
+        {
+          "goal": [
+            80.0,
+            82.5
+          ],
+          "extra_candidate_indices": [
+            380,
+            352,
+            67,
+            84,
+            64,
+            302
+          ],
+          "common_blocked_slots": [
+            false,
+            false,
+            true,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "success_slots_by_physical_condition": [
+            [
+              false,
+              true,
+              false,
+              true,
+              false,
+              false,
+              false,
+              true
+            ],
+            [
+              true,
+              false,
+              false,
+              false,
+              true,
+              true,
+              true,
+              false
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "connector": 4,
+      "group": 52,
+      "seed": 2026114004,
+      "direction": "SE_to_NW",
+      "read_roots": [
+        [
+          144.0,
+          146.5
+        ],
+        [
+          77.5,
+          80.0
+        ]
+      ],
+      "read_blocks": [
+        24,
+        97
+      ],
+      "probe_pre_blocks": [
+        4,
+        77
+      ],
+      "factual_blocks": 97,
+      "first_probe_arrival": 5,
+      "second_probe_arrival": 78,
+      "transfer_blocks": 49,
+      "factual_resets_per_history": 1,
+      "physical_row_order": [
+        "bottom",
+        "top"
+      ],
+      "identical_controls_both_histories": true,
+      "matched_read_rgb_and_raw_controls": true,
+      "solid_wall_endpoints": 0,
+      "actual_crossings_by_history": [
+        [
+          {
+            "raw_step": 222,
+            "door": "right",
+            "direction": -1
+          },
+          {
+            "raw_step": 296,
+            "door": "top",
+            "direction": -1
+          },
+          {
+            "raw_step": 393,
+            "door": "top",
+            "direction": 1
+          },
+          {
+            "raw_step": 404,
+            "door": "top",
+            "direction": -1
+          }
+        ],
+        [
+          {
+            "raw_step": 28,
+            "door": "bottom",
+            "direction": -1
+          },
+          {
+            "raw_step": 39,
+            "door": "bottom",
+            "direction": 1
+          },
+          {
+            "raw_step": 146,
+            "door": "bottom",
+            "direction": -1
+          },
+          {
+            "raw_step": 222,
+            "door": "left",
+            "direction": -1
+          }
+        ]
+      ],
+      "menus": [
+        {
+          "goal": [
+            77.5,
+            80.0
+          ],
+          "extra_candidate_indices": [
+            380,
+            232,
+            39,
+            65,
+            9,
+            250
+          ],
+          "common_blocked_slots": [
+            false,
+            false,
+            true,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "success_slots_by_physical_condition": [
+            [
+              false,
+              true,
+              false,
+              true,
+              false,
+              false,
+              false,
+              true
+            ],
+            [
+              true,
+              false,
+              false,
+              false,
+              true,
+              true,
+              true,
+              false
+            ]
+          ]
+        },
+        {
+          "goal": [
+            144.0,
+            146.5
+          ],
+          "extra_candidate_indices": [
+            379,
+            39,
+            232,
+            65,
+            9,
+            250
+          ],
+          "common_blocked_slots": [
+            false,
+            false,
+            true,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "success_slots_by_physical_condition": [
+            [
+              true,
+              false,
+              false,
+              true,
+              false,
+              true,
+              true,
+              false
+            ],
+            [
+              false,
+              true,
+              false,
+              false,
+              true,
+              false,
+              false,
+              true
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "connector": 5,
+      "group": 53,
+      "seed": 2026114005,
+      "direction": "SE_to_NW",
+      "read_roots": [
+        [
+          144.0,
+          141.5
+        ],
+        [
+          82.5,
+          80.0
+        ]
+      ],
+      "read_blocks": [
+        24,
+        98
+      ],
+      "probe_pre_blocks": [
+        4,
+        78
+      ],
+      "factual_blocks": 98,
+      "first_probe_arrival": 5,
+      "second_probe_arrival": 79,
+      "transfer_blocks": 50,
+      "factual_resets_per_history": 1,
+      "physical_row_order": [
+        "top",
+        "bottom"
+      ],
+      "identical_controls_both_histories": true,
+      "matched_read_rgb_and_raw_controls": true,
+      "solid_wall_endpoints": 0,
+      "actual_crossings_by_history": [
+        [
+          {
+            "raw_step": 28,
+            "door": "bottom",
+            "direction": -1
+          },
+          {
+            "raw_step": 39,
+            "door": "bottom",
+            "direction": 1
+          },
+          {
+            "raw_step": 148,
+            "door": "bottom",
+            "direction": -1
+          },
+          {
+            "raw_step": 224,
+            "door": "left",
+            "direction": -1
+          }
+        ],
+        [
+          {
+            "raw_step": 224,
+            "door": "right",
+            "direction": -1
+          },
+          {
+            "raw_step": 298,
+            "door": "top",
+            "direction": -1
+          },
+          {
+            "raw_step": 398,
+            "door": "top",
+            "direction": 1
+          },
+          {
+            "raw_step": 409,
+            "door": "top",
+            "direction": -1
+          }
+        ]
+      ],
+      "menus": [
+        {
+          "goal": [
+            82.5,
+            80.0
+          ],
+          "extra_candidate_indices": [
+            381,
+            327,
+            120,
+            105,
+            70,
+            361
+          ],
+          "common_blocked_slots": [
+            false,
+            false,
+            true,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "success_slots_by_physical_condition": [
+            [
+              false,
+              true,
+              false,
+              true,
+              false,
+              false,
+              false,
+              true
+            ],
+            [
+              true,
+              false,
+              false,
+              false,
+              true,
+              true,
+              true,
+              false
+            ]
+          ]
+        },
+        {
+          "goal": [
+            144.0,
+            141.5
+          ],
+          "extra_candidate_indices": [
+            210,
+            120,
+            327,
+            105,
+            70,
+            361
+          ],
+          "common_blocked_slots": [
+            false,
+            false,
+            true,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "success_slots_by_physical_condition": [
+            [
+              true,
+              false,
+              false,
+              true,
+              false,
+              true,
+              true,
+              false
+            ],
+            [
+              false,
+              true,
+              false,
+              false,
+              true,
+              false,
+              false,
+              true
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "connector": 6,
+      "group": 54,
+      "seed": 2026114006,
+      "direction": "SE_to_NW",
+      "read_roots": [
+        [
+          146.5,
+          144.0
+        ],
+        [
+          80.0,
+          77.5
+        ]
+      ],
+      "read_blocks": [
+        24,
+        98
+      ],
+      "probe_pre_blocks": [
+        4,
+        78
+      ],
+      "factual_blocks": 98,
+      "first_probe_arrival": 5,
+      "second_probe_arrival": 79,
+      "transfer_blocks": 50,
+      "factual_resets_per_history": 1,
+      "physical_row_order": [
+        "bottom",
+        "top"
+      ],
+      "identical_controls_both_histories": true,
+      "matched_read_rgb_and_raw_controls": true,
+      "solid_wall_endpoints": 0,
+      "actual_crossings_by_history": [
+        [
+          {
+            "raw_step": 224,
+            "door": "right",
+            "direction": -1
+          },
+          {
+            "raw_step": 298,
+            "door": "top",
+            "direction": -1
+          },
+          {
+            "raw_step": 398,
+            "door": "top",
+            "direction": 1
+          },
+          {
+            "raw_step": 409,
+            "door": "top",
+            "direction": -1
+          }
+        ],
+        [
+          {
+            "raw_step": 28,
+            "door": "bottom",
+            "direction": -1
+          },
+          {
+            "raw_step": 39,
+            "door": "bottom",
+            "direction": 1
+          },
+          {
+            "raw_step": 148,
+            "door": "bottom",
+            "direction": -1
+          },
+          {
+            "raw_step": 224,
+            "door": "left",
+            "direction": -1
+          }
+        ]
+      ],
+      "menus": [
+        {
+          "goal": [
+            80.0,
+            77.5
+          ],
+          "extra_candidate_indices": [
+            383,
+            314,
+            55,
+            186,
+            177,
+            308
+          ],
+          "common_blocked_slots": [
+            false,
+            false,
+            true,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "success_slots_by_physical_condition": [
+            [
+              false,
+              true,
+              false,
+              true,
+              false,
+              false,
+              false,
+              false
+            ],
+            [
+              true,
+              false,
+              false,
+              false,
+              true,
+              true,
+              true,
+              false
+            ]
+          ]
+        },
+        {
+          "goal": [
+            146.5,
+            144.0
+          ],
+          "extra_candidate_indices": [
+            376,
+            55,
+            314,
+            186,
+            177,
+            308
+          ],
+          "common_blocked_slots": [
+            false,
+            false,
+            true,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "success_slots_by_physical_condition": [
+            [
+              true,
+              false,
+              false,
+              true,
+              false,
+              true,
+              true,
+              false
+            ],
+            [
+              false,
+              true,
+              false,
+              false,
+              true,
+              false,
+              false,
+              false
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "connector": 7,
+      "group": 55,
+      "seed": 2026114007,
+      "direction": "SE_to_NW",
+      "read_roots": [
+        [
+          141.5,
+          144.0
+        ],
+        [
+          80.0,
+          82.5
+        ]
+      ],
+      "read_blocks": [
+        24,
+        98
+      ],
+      "probe_pre_blocks": [
+        4,
+        78
+      ],
+      "factual_blocks": 98,
+      "first_probe_arrival": 5,
+      "second_probe_arrival": 79,
+      "transfer_blocks": 50,
+      "factual_resets_per_history": 1,
+      "physical_row_order": [
+        "top",
+        "bottom"
+      ],
+      "identical_controls_both_histories": true,
+      "matched_read_rgb_and_raw_controls": true,
+      "solid_wall_endpoints": 0,
+      "actual_crossings_by_history": [
+        [
+          {
+            "raw_step": 28,
+            "door": "bottom",
+            "direction": -1
+          },
+          {
+            "raw_step": 39,
+            "door": "bottom",
+            "direction": 1
+          },
+          {
+            "raw_step": 146,
+            "door": "bottom",
+            "direction": -1
+          },
+          {
+            "raw_step": 222,
+            "door": "left",
+            "direction": -1
+          }
+        ],
+        [
+          {
+            "raw_step": 222,
+            "door": "right",
+            "direction": -1
+          },
+          {
+            "raw_step": 296,
+            "door": "top",
+            "direction": -1
+          },
+          {
+            "raw_step": 398,
+            "door": "top",
+            "direction": 1
+          },
+          {
+            "raw_step": 409,
+            "door": "top",
+            "direction": -1
+          }
+        ]
+      ],
+      "menus": [
+        {
+          "goal": [
+            80.0,
+            82.5
+          ],
+          "extra_candidate_indices": [
+            381,
+            282,
+            90,
+            65,
+            79,
+            362
+          ],
+          "common_blocked_slots": [
+            false,
+            false,
+            true,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "success_slots_by_physical_condition": [
+            [
+              false,
+              true,
+              false,
+              true,
+              false,
+              false,
+              false,
+              true
+            ],
+            [
+              true,
+              false,
+              false,
+              false,
+              true,
+              true,
+              true,
+              false
+            ]
+          ]
+        },
+        {
+          "goal": [
+            141.5,
+            144.0
+          ],
+          "extra_candidate_indices": [
+            327,
+            90,
+            282,
+            65,
+            79,
+            362
+          ],
+          "common_blocked_slots": [
+            false,
+            false,
+            true,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "success_slots_by_physical_condition": [
+            [
+              true,
+              false,
+              false,
+              true,
+              false,
+              true,
+              true,
+              false
+            ],
+            [
+              false,
+              true,
+              false,
+              false,
+              true,
+              false,
+              false,
+              true
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

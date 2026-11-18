@@ -1,0 +1,1786 @@
+{
+  "frozen": {
+    "neutral": {
+      "count": 56,
+      "exact_best_first_block": 0,
+      "mean_first_regret": 67.85645276520934,
+      "mean_plan_regret": 68.69693898303169,
+      "mean_factual_arrival_latent_mse": 0.010862796334549785,
+      "fixed_latest_window_comparison": {
+        "count": 48,
+        "better": 0,
+        "worse": 0,
+        "mean_after_minus_before_regret": 0.0
+      }
+    },
+    "retained": {
+      "count": 24,
+      "exact_best_first_block": 0,
+      "mean_first_regret": 75.09633938968182,
+      "mean_plan_regret": 75.09633938968182,
+      "mean_factual_arrival_latent_mse": 0.011261754669249058,
+      "fixed_latest_window_comparison": {
+        "count": 24,
+        "better": 0,
+        "worse": 0,
+        "mean_after_minus_before_regret": 0.0
+      }
+    },
+    "retained_by_unseen_order": {
+      "ABA": {
+        "count": 12,
+        "exact_best_first_block": 0,
+        "mean_first_regret": 74.70067890485127,
+        "mean_plan_regret": 74.70067890485127,
+        "mean_factual_arrival_latent_mse": 0.011261754669249058,
+        "fixed_latest_window_comparison": {
+          "count": 12,
+          "better": 0,
+          "worse": 0,
+          "mean_after_minus_before_regret": 0.0
+        }
+      },
+      "BAB": {
+        "count": 12,
+        "exact_best_first_block": 0,
+        "mean_first_regret": 75.49199987451236,
+        "mean_plan_regret": 75.49199987451236,
+        "mean_factual_arrival_latent_mse": 0.011261754669249058,
+        "fixed_latest_window_comparison": {
+          "count": 12,
+          "better": 0,
+          "worse": 0,
+          "mean_after_minus_before_regret": 0.0
+        }
+      }
+    },
+    "reversal_probe_arrivals": {
+      "reversal_1_probe_arrival_1": {
+        "count": 8,
+        "exact_best_first_block": 1,
+        "mean_first_regret": 77.69619679450989,
+        "mean_plan_regret": 77.69619643688202,
+        "mean_factual_arrival_latent_mse": 0.3908019399968907,
+        "fixed_latest_window_comparison": {
+          "count": 8,
+          "better": 0,
+          "worse": 0,
+          "mean_after_minus_before_regret": 0.0
+        }
+      },
+      "reversal_1_probe_arrival_2": {
+        "count": 8,
+        "exact_best_first_block": 1,
+        "mean_first_regret": 53.77878749370575,
+        "mean_plan_regret": 59.612173199653625,
+        "mean_factual_arrival_latent_mse": 0.2075607932638377,
+        "fixed_latest_window_comparison": {
+          "count": 8,
+          "better": 0,
+          "worse": 0,
+          "mean_after_minus_before_regret": 0.0
+        }
+      },
+      "reversal_2_probe_arrival_1": {
+        "count": 8,
+        "exact_best_first_block": 4,
+        "mean_first_regret": 42.618080139160156,
+        "mean_plan_regret": 48.34686470031738,
+        "mean_factual_arrival_latent_mse": 0.3908019399968907,
+        "fixed_latest_window_comparison": {
+          "count": 8,
+          "better": 0,
+          "worse": 0,
+          "mean_after_minus_before_regret": 0.0
+        }
+      },
+      "reversal_2_probe_arrival_2": {
+        "count": 8,
+        "exact_best_first_block": 1,
+        "mean_first_regret": 14.919090747833252,
+        "mean_plan_regret": 21.069441318511963,
+        "mean_factual_arrival_latent_mse": 0.2075607932638377,
+        "fixed_latest_window_comparison": {
+          "count": 8,
+          "better": 0,
+          "worse": 0,
+          "mean_after_minus_before_regret": 0.0
+        }
+      }
+    },
+    "retained_complementary_pairs": [
+      {
+        "own_history_regret": [
+          1.8495334386825562,
+          148.8033905029297
+        ],
+        "swapped_history_regret": [
+          1.8495334386825562,
+          148.8033905029297
+        ],
+        "own_history_regret_gain": [
+          0.0,
+          0.0
+        ],
+        "fork": "opposite_0_0",
+        "phase": 0,
+        "models_selected_distinct_first_blocks": false,
+        "oracle_two_route_predicted_gaps": [
+          24.236587524414062,
+          24.236587524414062
+        ],
+        "correct_direction": [
+          true,
+          false
+        ],
+        "both_route_directions_correct": false
+      },
+      {
+        "own_history_regret": [
+          148.8033905029297,
+          1.8495334386825562
+        ],
+        "swapped_history_regret": [
+          148.8033905029297,
+          1.8495334386825562
+        ],
+        "own_history_regret_gain": [
+          0.0,
+          0.0
+        ],
+        "fork": "opposite_0_0",
+        "phase": 1,
+        "models_selected_distinct_first_blocks": false,
+        "oracle_two_route_predicted_gaps": [
+          24.236587524414062,
+          24.236587524414062
+        ],
+        "correct_direction": [
+          false,
+          true
+        ],
+        "both_route_directions_correct": false
+      },
+      {
+        "own_history_regret": [
+          1.8495334386825562,
+          148.8033905029297
+        ],
+        "swapped_history_regret": [
+          1.8495334386825562,
+          148.8033905029297
+        ],
+        "own_history_regret_gain": [
+          0.0,
+          0.0
+        ],
+        "fork": "opposite_0_0",
+        "phase": 2,
+        "models_selected_distinct_first_blocks": false,
+        "oracle_two_route_predicted_gaps": [
+          24.236587524414062,
+          24.236587524414062
+        ],
+        "correct_direction": [
+          true,
+          false
+        ],
+        "both_route_directions_correct": false
+      },
+      {
+        "own_history_regret": [
+          1.2950546741485596,
+          148.74810791015625
+        ],
+        "swapped_history_regret": [
+          1.2950546741485596,
+          148.74810791015625
+        ],
+        "own_history_regret_gain": [
+          0.0,
+          0.0
+        ],
+        "fork": "opposite_0_1",
+        "phase": 0,
+        "models_selected_distinct_first_blocks": false,
+        "oracle_two_route_predicted_gaps": [
+          24.236587524414062,
+          24.236587524414062
+        ],
+        "correct_direction": [
+          true,
+          false
+        ],
+        "both_route_directions_correct": false
+      },
+      {
+        "own_history_regret": [
+          148.74810791015625,
+          1.2950546741485596
+        ],
+        "swapped_history_regret": [
+          148.74810791015625,
+          1.2950546741485596
+        ],
+        "own_history_regret_gain": [
+          0.0,
+          0.0
+        ],
+        "fork": "opposite_0_1",
+        "phase": 1,
+        "models_selected_distinct_first_blocks": false,
+        "oracle_two_route_predicted_gaps": [
+          24.236587524414062,
+          24.236587524414062
+        ],
+        "correct_direction": [
+          false,
+          true
+        ],
+        "both_route_directions_correct": false
+      },
+      {
+        "own_history_regret": [
+          1.2950546741485596,
+          148.74810791015625
+        ],
+        "swapped_history_regret": [
+          1.2950546741485596,
+          148.74810791015625
+        ],
+        "own_history_regret_gain": [
+          0.0,
+          0.0
+        ],
+        "fork": "opposite_0_1",
+        "phase": 2,
+        "models_selected_distinct_first_blocks": false,
+        "oracle_two_route_predicted_gaps": [
+          24.236587524414062,
+          24.236587524414062
+        ],
+        "correct_direction": [
+          true,
+          false
+        ],
+        "both_route_directions_correct": false
+      },
+      {
+        "own_history_regret": [
+          146.66708374023438,
+          3.9042398929595947
+        ],
+        "swapped_history_regret": [
+          146.66708374023438,
+          3.9042398929595947
+        ],
+        "own_history_regret_gain": [
+          0.0,
+          0.0
+        ],
+        "fork": "opposite_2_0",
+        "phase": 0,
+        "models_selected_distinct_first_blocks": false,
+        "oracle_two_route_predicted_gaps": [
+          -79.74552917480469,
+          -79.74552917480469
+        ],
+        "correct_direction": [
+          false,
+          true
+        ],
+        "both_route_directions_correct": false
+      },
+      {
+        "own_history_regret": [
+          3.9042398929595947,
+          146.66708374023438
+        ],
+        "swapped_history_regret": [
+          3.9042398929595947,
+          146.66708374023438
+        ],
+        "own_history_regret_gain": [
+          0.0,
+          0.0
+        ],
+        "fork": "opposite_2_0",
+        "phase": 1,
+        "models_selected_distinct_first_blocks": false,
+        "oracle_two_route_predicted_gaps": [
+          -79.74552917480469,
+          -79.74552917480469
+        ],
+        "correct_direction": [
+          true,
+          false
+        ],
+        "both_route_directions_correct": false
+      },
+      {
+        "own_history_regret": [
+          146.66708374023438,
+          3.9042398929595947
+        ],
+        "swapped_history_regret": [
+          146.66708374023438,
+          3.9042398929595947
+        ],
+        "own_history_regret_gain": [
+          0.0,
+          0.0
+        ],
+        "fork": "opposite_2_0",
+        "phase": 2,
+        "models_selected_distinct_first_blocks": false,
+        "oracle_two_route_predicted_gaps": [
+          -79.74552917480469,
+          -79.74552917480469
+        ],
+        "correct_direction": [
+          false,
+          true
+        ],
+        "both_route_directions_correct": false
+      },
+      {
+        "own_history_regret": [
+          145.8257598876953,
+          3.6775450706481934
+        ],
+        "swapped_history_regret": [
+          145.8257598876953,
+          3.6775450706481934
+        ],
+        "own_history_regret_gain": [
+          0.0,
+          0.0
+        ],
+        "fork": "opposite_2_1",
+        "phase": 0,
+        "models_selected_distinct_first_blocks": false,
+        "oracle_two_route_predicted_gaps": [
+          -79.74552917480469,
+          -79.74552917480469
+        ],
+        "correct_direction": [
+          false,
+          true
+        ],
+        "both_route_directions_correct": false
+      },
+      {
+        "own_history_regret": [
+          3.6775450706481934,
+          145.8257598876953
+        ],
+        "swapped_history_regret": [
+          3.6775450706481934,
+          145.8257598876953
+        ],
+        "own_history_regret_gain": [
+          0.0,
+          0.0
+        ],
+        "fork": "opposite_2_1",
+        "phase": 1,
+        "models_selected_distinct_first_blocks": false,
+        "oracle_two_route_predicted_gaps": [
+          -79.74552917480469,
+          -79.74552917480469
+        ],
+        "correct_direction": [
+          true,
+          false
+        ],
+        "both_route_directions_correct": false
+      },
+      {
+        "own_history_regret": [
+          145.8257598876953,
+          3.6775450706481934
+        ],
+        "swapped_history_regret": [
+          145.8257598876953,
+          3.6775450706481934
+        ],
+        "own_history_regret_gain": [
+          0.0,
+          0.0
+        ],
+        "fork": "opposite_2_1",
+        "phase": 2,
+        "models_selected_distinct_first_blocks": false,
+        "oracle_two_route_predicted_gaps": [
+          -79.74552917480469,
+          -79.74552917480469
+        ],
+        "correct_direction": [
+          false,
+          true
+        ],
+        "both_route_directions_correct": false
+      }
+    ],
+    "own_history_by_fork_phase": {
+      "0": {
+        "mean_gain": 0.0,
+        "better": 0,
+        "worse": 0,
+        "count": 8
+      },
+      "1": {
+        "mean_gain": 0.0,
+        "better": 0,
+        "worse": 0,
+        "count": 8
+      },
+      "2": {
+        "mean_gain": 0.0,
+        "better": 0,
+        "worse": 0,
+        "count": 8
+      }
+    },
+    "retained_pairs_both_route_directions_correct": 0,
+    "retained_pairs_different_first_block": 0
+  },
+  "adajepa": {
+    "neutral": {
+      "count": 56,
+      "exact_best_first_block": 0,
+      "mean_first_regret": 55.14975545448916,
+      "mean_plan_regret": 55.990241842610494,
+      "mean_factual_arrival_latent_mse": 0.005098396082757972,
+      "fixed_latest_window_comparison": {
+        "count": 48,
+        "better": 2,
+        "worse": 1,
+        "mean_after_minus_before_regret": -0.18910439809163412
+      }
+    },
+    "retained": {
+      "count": 24,
+      "exact_best_first_block": 0,
+      "mean_first_regret": 63.18281313280264,
+      "mean_plan_regret": 63.18281313280264,
+      "mean_factual_arrival_latent_mse": 0.005509414128027856,
+      "fixed_latest_window_comparison": {
+        "count": 24,
+        "better": 0,
+        "worse": 1,
+        "mean_after_minus_before_regret": 0.010112762451171875
+      }
+    },
+    "retained_by_unseen_order": {
+      "ABA": {
+        "count": 12,
+        "exact_best_first_block": 0,
+        "mean_first_regret": 62.81179368495941,
+        "mean_plan_regret": 62.81179368495941,
+        "mean_factual_arrival_latent_mse": 0.005357194730701546,
+        "fixed_latest_window_comparison": {
+          "count": 12,
+          "better": 0,
+          "worse": 1,
+          "mean_after_minus_before_regret": 0.02022552490234375
+        }
+      },
+      "BAB": {
+        "count": 12,
+        "exact_best_first_block": 0,
+        "mean_first_regret": 63.55383258064588,
+        "mean_plan_regret": 63.55383258064588,
+        "mean_factual_arrival_latent_mse": 0.0056616335253541665,
+        "fixed_latest_window_comparison": {
+          "count": 12,
+          "better": 0,
+          "worse": 0,
+          "mean_after_minus_before_regret": 0.0
+        }
+      }
+    },
+    "reversal_probe_arrivals": {
+      "reversal_1_probe_arrival_1": {
+        "count": 8,
+        "exact_best_first_block": 1,
+        "mean_first_regret": 78.90715551376343,
+        "mean_plan_regret": 78.90715515613556,
+        "mean_factual_arrival_latent_mse": 0.4279814283363521,
+        "fixed_latest_window_comparison": {
+          "count": 8,
+          "better": 1,
+          "worse": 0,
+          "mean_after_minus_before_regret": -0.5780208110809326
+        }
+      },
+      "reversal_1_probe_arrival_2": {
+        "count": 8,
+        "exact_best_first_block": 1,
+        "mean_first_regret": 54.18957698345184,
+        "mean_plan_regret": 60.02296268939972,
+        "mean_factual_arrival_latent_mse": 0.2082364393863827,
+        "fixed_latest_window_comparison": {
+          "count": 8,
+          "better": 0,
+          "worse": 0,
+          "mean_after_minus_before_regret": 0.0
+        }
+      },
+      "reversal_2_probe_arrival_1": {
+        "count": 8,
+        "exact_best_first_block": 4,
+        "mean_first_regret": 42.37976837158203,
+        "mean_plan_regret": 48.10855293273926,
+        "mean_factual_arrival_latent_mse": 0.3893402339890599,
+        "fixed_latest_window_comparison": {
+          "count": 8,
+          "better": 0,
+          "worse": 1,
+          "mean_after_minus_before_regret": 0.016252517700195312
+        }
+      },
+      "reversal_2_probe_arrival_2": {
+        "count": 8,
+        "exact_best_first_block": 1,
+        "mean_first_regret": 15.287693619728088,
+        "mean_plan_regret": 21.4380441904068,
+        "mean_factual_arrival_latent_mse": 0.14795362669974566,
+        "fixed_latest_window_comparison": {
+          "count": 8,
+          "better": 1,
+          "worse": 0,
+          "mean_after_minus_before_regret": -0.2222200632095337
+        }
+      }
+    },
+    "retained_complementary_pairs": [
+      {
+        "own_history_regret": [
+          1.8495334386825562,
+          148.8033905029297
+        ],
+        "swapped_history_regret": [
+          1.8495334386825562,
+          148.8033905029297
+        ],
+        "own_history_regret_gain": [
+          0.0,
+          0.0
+        ],
+        "fork": "opposite_0_0",
+        "phase": 0,
+        "models_selected_distinct_first_blocks": false,
+        "oracle_two_route_predicted_gaps": [
+          41.93109130859375,
+          12.181289672851562
+        ],
+        "correct_direction": [
+          true,
+          false
+        ],
+        "both_route_directions_correct": false
+      },
+      {
+        "own_history_regret": [
+          148.8033905029297,
+          1.8495334386825562
+        ],
+        "swapped_history_regret": [
+          148.8033905029297,
+          1.8495334386825562
+        ],
+        "own_history_regret_gain": [
+          0.0,
+          0.0
+        ],
+        "fork": "opposite_0_0",
+        "phase": 1,
+        "models_selected_distinct_first_blocks": false,
+        "oracle_two_route_predicted_gaps": [
+          -10.162017822265625,
+          40.731109619140625
+        ],
+        "correct_direction": [
+          true,
+          true
+        ],
+        "both_route_directions_correct": true
+      },
+      {
+        "own_history_regret": [
+          1.8495334386825562,
+          148.8033905029297
+        ],
+        "swapped_history_regret": [
+          1.8495334386825562,
+          148.8033905029297
+        ],
+        "own_history_regret_gain": [
+          0.0,
+          0.0
+        ],
+        "fork": "opposite_0_0",
+        "phase": 2,
+        "models_selected_distinct_first_blocks": false,
+        "oracle_two_route_predicted_gaps": [
+          32.812042236328125,
+          3.341278076171875
+        ],
+        "correct_direction": [
+          true,
+          false
+        ],
+        "both_route_directions_correct": false
+      },
+      {
+        "own_history_regret": [
+          1.2950546741485596,
+          148.74810791015625
+        ],
+        "swapped_history_regret": [
+          1.2950546741485596,
+          148.74810791015625
+        ],
+        "own_history_regret_gain": [
+          0.0,
+          0.0
+        ],
+        "fork": "opposite_0_1",
+        "phase": 0,
+        "models_selected_distinct_first_blocks": false,
+        "oracle_two_route_predicted_gaps": [
+          40.766937255859375,
+          4.9789276123046875
+        ],
+        "correct_direction": [
+          true,
+          false
+        ],
+        "both_route_directions_correct": false
+      },
+      {
+        "own_history_regret": [
+          148.74810791015625,
+          1.2950546741485596
+        ],
+        "swapped_history_regret": [
+          148.74810791015625,
+          1.2950546741485596
+        ],
+        "own_history_regret_gain": [
+          0.0,
+          0.0
+        ],
+        "fork": "opposite_0_1",
+        "phase": 1,
+        "models_selected_distinct_first_blocks": false,
+        "oracle_two_route_predicted_gaps": [
+          -8.279312133789062,
+          45.06208801269531
+        ],
+        "correct_direction": [
+          true,
+          true
+        ],
+        "both_route_directions_correct": true
+      },
+      {
+        "own_history_regret": [
+          1.2950546741485596,
+          148.74810791015625
+        ],
+        "swapped_history_regret": [
+          1.2950546741485596,
+          148.74810791015625
+        ],
+        "own_history_regret_gain": [
+          0.0,
+          0.0
+        ],
+        "fork": "opposite_0_1",
+        "phase": 2,
+        "models_selected_distinct_first_blocks": false,
+        "oracle_two_route_predicted_gaps": [
+          49.04618835449219,
+          17.574874877929688
+        ],
+        "correct_direction": [
+          true,
+          false
+        ],
+        "both_route_directions_correct": false
+      },
+      {
+        "own_history_regret": [
+          146.66708374023438,
+          3.9042398929595947
+        ],
+        "swapped_history_regret": [
+          146.66708374023438,
+          3.9042398929595947
+        ],
+        "own_history_regret_gain": [
+          0.0,
+          0.0
+        ],
+        "fork": "opposite_2_0",
+        "phase": 0,
+        "models_selected_distinct_first_blocks": false,
+        "oracle_two_route_predicted_gaps": [
+          -43.83869934082031,
+          -72.0888671875
+        ],
+        "correct_direction": [
+          false,
+          true
+        ],
+        "both_route_directions_correct": false
+      },
+      {
+        "own_history_regret": [
+          3.9042398929595947,
+          146.66708374023438
+        ],
+        "swapped_history_regret": [
+          3.9042398929595947,
+          146.66708374023438
+        ],
+        "own_history_regret_gain": [
+          0.0,
+          0.0
+        ],
+        "fork": "opposite_2_0",
+        "phase": 1,
+        "models_selected_distinct_first_blocks": false,
+        "oracle_two_route_predicted_gaps": [
+          -36.39991760253906,
+          -22.9947509765625
+        ],
+        "correct_direction": [
+          true,
+          false
+        ],
+        "both_route_directions_correct": false
+      },
+      {
+        "own_history_regret": [
+          146.66708374023438,
+          3.9042398929595947
+        ],
+        "swapped_history_regret": [
+          146.66708374023438,
+          3.9042398929595947
+        ],
+        "own_history_regret_gain": [
+          0.0,
+          0.0
+        ],
+        "fork": "opposite_2_0",
+        "phase": 2,
+        "models_selected_distinct_first_blocks": false,
+        "oracle_two_route_predicted_gaps": [
+          -14.928024291992188,
+          -33.04998779296875
+        ],
+        "correct_direction": [
+          false,
+          true
+        ],
+        "both_route_directions_correct": false
+      },
+      {
+        "own_history_regret": [
+          146.41714477539062,
+          3.6775450706481934
+        ],
+        "swapped_history_regret": [
+          145.8257598876953,
+          2.567831516265869
+        ],
+        "own_history_regret_gain": [
+          -0.5913848876953125,
+          -1.1097135543823242
+        ],
+        "fork": "opposite_2_1",
+        "phase": 0,
+        "models_selected_distinct_first_blocks": true,
+        "oracle_two_route_predicted_gaps": [
+          -52.14958190917969,
+          -66.99224853515625
+        ],
+        "correct_direction": [
+          false,
+          true
+        ],
+        "both_route_directions_correct": false
+      },
+      {
+        "own_history_regret": [
+          2.567831516265869,
+          3.6774659156799316
+        ],
+        "swapped_history_regret": [
+          69.38336181640625,
+          146.41714477539062
+        ],
+        "own_history_regret_gain": [
+          66.81553030014038,
+          142.7396788597107
+        ],
+        "fork": "opposite_2_1",
+        "phase": 1,
+        "models_selected_distinct_first_blocks": true,
+        "oracle_two_route_predicted_gaps": [
+          -31.021347045898438,
+          -29.63592529296875
+        ],
+        "correct_direction": [
+          true,
+          false
+        ],
+        "both_route_directions_correct": false
+      },
+      {
+        "own_history_regret": [
+          3.6774659156799316,
+          2.567831516265869
+        ],
+        "swapped_history_regret": [
+          146.41714477539062,
+          69.38336181640625
+        ],
+        "own_history_regret_gain": [
+          142.7396788597107,
+          66.81553030014038
+        ],
+        "fork": "opposite_2_1",
+        "phase": 2,
+        "models_selected_distinct_first_blocks": true,
+        "oracle_two_route_predicted_gaps": [
+          -13.576934814453125,
+          -31.761810302734375
+        ],
+        "correct_direction": [
+          false,
+          true
+        ],
+        "both_route_directions_correct": false
+      }
+    ],
+    "own_history_by_fork_phase": {
+      "0": {
+        "mean_gain": -0.2126373052597046,
+        "better": 0,
+        "worse": 2,
+        "count": 8
+      },
+      "1": {
+        "mean_gain": 26.194401144981384,
+        "better": 2,
+        "worse": 0,
+        "count": 8
+      },
+      "2": {
+        "mean_gain": 26.194401144981384,
+        "better": 2,
+        "worse": 0,
+        "count": 8
+      }
+    },
+    "retained_pairs_both_route_directions_correct": 2,
+    "retained_pairs_different_first_block": 3
+  },
+  "optta": {
+    "neutral": {
+      "count": 56,
+      "exact_best_first_block": 0,
+      "mean_first_regret": 85.68617194890976,
+      "mean_plan_regret": 85.68617170836244,
+      "mean_factual_arrival_latent_mse": 0.007288185045278321,
+      "fixed_latest_window_comparison": {
+        "count": 48,
+        "better": 8,
+        "worse": 13,
+        "mean_after_minus_before_regret": 5.188776969909668
+      }
+    },
+    "retained": {
+      "count": 24,
+      "exact_best_first_block": 0,
+      "mean_first_regret": 82.3865407705307,
+      "mean_plan_regret": 82.3865407705307,
+      "mean_factual_arrival_latent_mse": 0.006166171301932384,
+      "fixed_latest_window_comparison": {
+        "count": 24,
+        "better": 1,
+        "worse": 3,
+        "mean_after_minus_before_regret": 2.515718142191569
+      }
+    },
+    "retained_by_unseen_order": {
+      "ABA": {
+        "count": 12,
+        "exact_best_first_block": 0,
+        "mean_first_regret": 84.56413555145264,
+        "mean_plan_regret": 84.56413555145264,
+        "mean_factual_arrival_latent_mse": 0.00586689030751586,
+        "fixed_latest_window_comparison": {
+          "count": 12,
+          "better": 1,
+          "worse": 1,
+          "mean_after_minus_before_regret": 4.634103933970134
+        }
+      },
+      "BAB": {
+        "count": 12,
+        "exact_best_first_block": 0,
+        "mean_first_regret": 80.20894598960876,
+        "mean_plan_regret": 80.20894598960876,
+        "mean_factual_arrival_latent_mse": 0.00646545229634891,
+        "fixed_latest_window_comparison": {
+          "count": 12,
+          "better": 0,
+          "worse": 2,
+          "mean_after_minus_before_regret": 0.3973323504130046
+        }
+      }
+    },
+    "reversal_probe_arrivals": {
+      "reversal_1_probe_arrival_1": {
+        "count": 8,
+        "exact_best_first_block": 1,
+        "mean_first_regret": 86.03828525543213,
+        "mean_plan_regret": 86.03828525543213,
+        "mean_factual_arrival_latent_mse": 0.41807546420022845,
+        "fixed_latest_window_comparison": {
+          "count": 8,
+          "better": 5,
+          "worse": 2,
+          "mean_after_minus_before_regret": -2.9881019592285156
+        }
+      },
+      "reversal_1_probe_arrival_2": {
+        "count": 8,
+        "exact_best_first_block": 0,
+        "mean_first_regret": 65.61456668376923,
+        "mean_plan_regret": 65.61456608772278,
+        "mean_factual_arrival_latent_mse": 0.21591430017724633,
+        "fixed_latest_window_comparison": {
+          "count": 8,
+          "better": 5,
+          "worse": 1,
+          "mean_after_minus_before_regret": -9.446963906288147
+        }
+      },
+      "reversal_2_probe_arrival_1": {
+        "count": 8,
+        "exact_best_first_block": 0,
+        "mean_first_regret": 77.11608850955963,
+        "mean_plan_regret": 77.1160888671875,
+        "mean_factual_arrival_latent_mse": 0.3728631855919957,
+        "fixed_latest_window_comparison": {
+          "count": 8,
+          "better": 4,
+          "worse": 1,
+          "mean_after_minus_before_regret": -2.3265485763549805
+        }
+      },
+      "reversal_2_probe_arrival_2": {
+        "count": 8,
+        "exact_best_first_block": 0,
+        "mean_first_regret": 54.89430332183838,
+        "mean_plan_regret": 54.8943030834198,
+        "mean_factual_arrival_latent_mse": 0.1568278798367828,
+        "fixed_latest_window_comparison": {
+          "count": 8,
+          "better": 2,
+          "worse": 4,
+          "mean_after_minus_before_regret": -6.001299738883972
+        }
+      }
+    },
+    "retained_complementary_pairs": [
+      {
+        "own_history_regret": [
+          13.556724548339844,
+          147.9469451904297
+        ],
+        "swapped_history_regret": [
+          13.731744766235352,
+          150.22317504882812
+        ],
+        "own_history_regret_gain": [
+          0.1750202178955078,
+          2.2762298583984375
+        ],
+        "fork": "opposite_0_0",
+        "phase": 0,
+        "models_selected_distinct_first_blocks": true,
+        "oracle_two_route_predicted_gaps": [
+          -42.36683654785156,
+          171.63827514648438
+        ],
+        "correct_direction": [
+          false,
+          false
+        ],
+        "both_route_directions_correct": false
+      },
+      {
+        "own_history_regret": [
+          147.9469451904297,
+          13.731744766235352
+        ],
+        "swapped_history_regret": [
+          147.9469451904297,
+          13.731744766235352
+        ],
+        "own_history_regret_gain": [
+          0.0,
+          0.0
+        ],
+        "fork": "opposite_0_0",
+        "phase": 1,
+        "models_selected_distinct_first_blocks": false,
+        "oracle_two_route_predicted_gaps": [
+          159.00985717773438,
+          70.81771850585938
+        ],
+        "correct_direction": [
+          false,
+          true
+        ],
+        "both_route_directions_correct": false
+      },
+      {
+        "own_history_regret": [
+          13.731744766235352,
+          150.22317504882812
+        ],
+        "swapped_history_regret": [
+          13.556724548339844,
+          147.9469451904297
+        ],
+        "own_history_regret_gain": [
+          -0.1750202178955078,
+          -2.2762298583984375
+        ],
+        "fork": "opposite_0_0",
+        "phase": 2,
+        "models_selected_distinct_first_blocks": true,
+        "oracle_two_route_predicted_gaps": [
+          42.2474365234375,
+          224.40876007080078
+        ],
+        "correct_direction": [
+          true,
+          false
+        ],
+        "both_route_directions_correct": false
+      },
+      {
+        "own_history_regret": [
+          12.475764274597168,
+          141.30528259277344
+        ],
+        "swapped_history_regret": [
+          18.211135864257812,
+          148.141845703125
+        ],
+        "own_history_regret_gain": [
+          5.7353715896606445,
+          6.8365631103515625
+        ],
+        "fork": "opposite_0_1",
+        "phase": 0,
+        "models_selected_distinct_first_blocks": true,
+        "oracle_two_route_predicted_gaps": [
+          -36.64567565917969,
+          164.5849609375
+        ],
+        "correct_direction": [
+          false,
+          false
+        ],
+        "both_route_directions_correct": false
+      },
+      {
+        "own_history_regret": [
+          140.29458618164062,
+          13.900928497314453
+        ],
+        "swapped_history_regret": [
+          147.10943603515625,
+          18.00237464904785
+        ],
+        "own_history_regret_gain": [
+          6.814849853515625,
+          4.101446151733398
+        ],
+        "fork": "opposite_0_1",
+        "phase": 1,
+        "models_selected_distinct_first_blocks": true,
+        "oracle_two_route_predicted_gaps": [
+          145.64649963378906,
+          74.32281494140625
+        ],
+        "correct_direction": [
+          false,
+          true
+        ],
+        "both_route_directions_correct": false
+      },
+      {
+        "own_history_regret": [
+          13.01073169708252,
+          148.141845703125
+        ],
+        "swapped_history_regret": [
+          12.475764274597168,
+          143.926025390625
+        ],
+        "own_history_regret_gain": [
+          -0.5349674224853516,
+          -4.2158203125
+        ],
+        "fork": "opposite_0_1",
+        "phase": 2,
+        "models_selected_distinct_first_blocks": true,
+        "oracle_two_route_predicted_gaps": [
+          58.76884460449219,
+          221.61740112304688
+        ],
+        "correct_direction": [
+          true,
+          false
+        ],
+        "both_route_directions_correct": false
+      },
+      {
+        "own_history_regret": [
+          145.92587280273438,
+          13.001046180725098
+        ],
+        "swapped_history_regret": [
+          148.08787536621094,
+          14.529723167419434
+        ],
+        "own_history_regret_gain": [
+          2.1620025634765625,
+          1.528676986694336
+        ],
+        "fork": "opposite_2_0",
+        "phase": 0,
+        "models_selected_distinct_first_blocks": true,
+        "oracle_two_route_predicted_gaps": [
+          -90.90167236328125,
+          -38.44207763671875
+        ],
+        "correct_direction": [
+          false,
+          true
+        ],
+        "both_route_directions_correct": false
+      },
+      {
+        "own_history_regret": [
+          17.18277931213379,
+          147.5555877685547
+        ],
+        "swapped_history_regret": [
+          13.628173828125,
+          144.06060791015625
+        ],
+        "own_history_regret_gain": [
+          -3.554605484008789,
+          -3.4949798583984375
+        ],
+        "fork": "opposite_2_0",
+        "phase": 1,
+        "models_selected_distinct_first_blocks": true,
+        "oracle_two_route_predicted_gaps": [
+          -104.77549743652344,
+          -158.16766357421875
+        ],
+        "correct_direction": [
+          true,
+          false
+        ],
+        "both_route_directions_correct": false
+      },
+      {
+        "own_history_regret": [
+          147.5555877685547,
+          17.18277931213379
+        ],
+        "swapped_history_regret": [
+          144.06060791015625,
+          13.628173828125
+        ],
+        "own_history_regret_gain": [
+          -3.4949798583984375,
+          -3.554605484008789
+        ],
+        "fork": "opposite_2_0",
+        "phase": 2,
+        "models_selected_distinct_first_blocks": true,
+        "oracle_two_route_predicted_gaps": [
+          -218.0987548828125,
+          -65.96519470214844
+        ],
+        "correct_direction": [
+          false,
+          true
+        ],
+        "both_route_directions_correct": false
+      },
+      {
+        "own_history_regret": [
+          144.5723114013672,
+          8.14405632019043
+        ],
+        "swapped_history_regret": [
+          150.81008911132812,
+          17.577804565429688
+        ],
+        "own_history_regret_gain": [
+          6.2377777099609375,
+          9.433748245239258
+        ],
+        "fork": "opposite_2_1",
+        "phase": 0,
+        "models_selected_distinct_first_blocks": true,
+        "oracle_two_route_predicted_gaps": [
+          -78.48480224609375,
+          15.17138671875
+        ],
+        "correct_direction": [
+          false,
+          false
+        ],
+        "both_route_directions_correct": false
+      },
+      {
+        "own_history_regret": [
+          70.7499008178711,
+          143.72039794921875
+        ],
+        "swapped_history_regret": [
+          17.653562545776367,
+          13.967840194702148
+        ],
+        "own_history_regret_gain": [
+          -53.09633827209473,
+          -129.7525577545166
+        ],
+        "fork": "opposite_2_1",
+        "phase": 1,
+        "models_selected_distinct_first_blocks": true,
+        "oracle_two_route_predicted_gaps": [
+          -87.76509094238281,
+          -171.36087036132812
+        ],
+        "correct_direction": [
+          true,
+          false
+        ],
+        "both_route_directions_correct": false
+      },
+      {
+        "own_history_regret": [
+          147.7666778564453,
+          17.653562545776367
+        ],
+        "swapped_history_regret": [
+          143.72039794921875,
+          14.084909439086914
+        ],
+        "own_history_regret_gain": [
+          -4.0462799072265625,
+          -3.568653106689453
+        ],
+        "fork": "opposite_2_1",
+        "phase": 2,
+        "models_selected_distinct_first_blocks": true,
+        "oracle_two_route_predicted_gaps": [
+          -221.14064025878906,
+          -63.731536865234375
+        ],
+        "correct_direction": [
+          false,
+          true
+        ],
+        "both_route_directions_correct": false
+      }
+    ],
+    "own_history_by_fork_phase": {
+      "0": {
+        "mean_gain": 4.298173785209656,
+        "better": 8,
+        "worse": 0,
+        "count": 8
+      },
+      "1": {
+        "mean_gain": -22.37277317047119,
+        "better": 2,
+        "worse": 4,
+        "count": 8
+      },
+      "2": {
+        "mean_gain": -2.7333195209503174,
+        "better": 0,
+        "worse": 8,
+        "count": 8
+      }
+    },
+    "retained_pairs_both_route_directions_correct": 0,
+    "retained_pairs_different_first_block": 11
+  },
+  "gru": {
+    "neutral": {
+      "count": 56,
+      "exact_best_first_block": 0,
+      "mean_first_regret": 66.991331204772,
+      "mean_plan_regret": 66.99133093016488,
+      "mean_factual_arrival_latent_mse": 0.02439327083993703,
+      "fixed_latest_window_comparison": {
+        "count": 48,
+        "better": 16,
+        "worse": 11,
+        "mean_after_minus_before_regret": -5.722656846046448
+      }
+    },
+    "retained": {
+      "count": 24,
+      "exact_best_first_block": 0,
+      "mean_first_regret": 63.725032687187195,
+      "mean_plan_regret": 63.725032687187195,
+      "mean_factual_arrival_latent_mse": 0.015661024410898488,
+      "fixed_latest_window_comparison": {
+        "count": 24,
+        "better": 9,
+        "worse": 9,
+        "mean_after_minus_before_regret": -7.6508948802948
+      }
+    },
+    "retained_by_unseen_order": {
+      "ABA": {
+        "count": 12,
+        "exact_best_first_block": 0,
+        "mean_first_regret": 47.79106378555298,
+        "mean_plan_regret": 47.79106378555298,
+        "mean_factual_arrival_latent_mse": 0.015603823742518822,
+        "fixed_latest_window_comparison": {
+          "count": 12,
+          "better": 4,
+          "worse": 5,
+          "mean_after_minus_before_regret": -10.26147747039795
+        }
+      },
+      "BAB": {
+        "count": 12,
+        "exact_best_first_block": 0,
+        "mean_first_regret": 79.65900158882141,
+        "mean_plan_regret": 79.65900158882141,
+        "mean_factual_arrival_latent_mse": 0.015718225079278152,
+        "fixed_latest_window_comparison": {
+          "count": 12,
+          "better": 5,
+          "worse": 4,
+          "mean_after_minus_before_regret": -5.04031229019165
+        }
+      }
+    },
+    "reversal_probe_arrivals": {
+      "reversal_1_probe_arrival_1": {
+        "count": 8,
+        "exact_best_first_block": 0,
+        "mean_first_regret": 98.26303887367249,
+        "mean_plan_regret": 98.2630386352539,
+        "mean_factual_arrival_latent_mse": 0.21116597950458527,
+        "fixed_latest_window_comparison": {
+          "count": 8,
+          "better": 1,
+          "worse": 0,
+          "mean_after_minus_before_regret": -0.2440032958984375
+        }
+      },
+      "reversal_1_probe_arrival_2": {
+        "count": 8,
+        "exact_best_first_block": 0,
+        "mean_first_regret": 83.88207292556763,
+        "mean_plan_regret": 83.88207244873047,
+        "mean_factual_arrival_latent_mse": 0.13303827680647373,
+        "fixed_latest_window_comparison": {
+          "count": 8,
+          "better": 1,
+          "worse": 0,
+          "mean_after_minus_before_regret": -0.34723854064941406
+        }
+      },
+      "reversal_2_probe_arrival_1": {
+        "count": 8,
+        "exact_best_first_block": 0,
+        "mean_first_regret": 78.36540758609772,
+        "mean_plan_regret": 78.36540794372559,
+        "mean_factual_arrival_latent_mse": 0.21112442016601562,
+        "fixed_latest_window_comparison": {
+          "count": 8,
+          "better": 0,
+          "worse": 0,
+          "mean_after_minus_before_regret": 0.0
+        }
+      },
+      "reversal_2_probe_arrival_2": {
+        "count": 8,
+        "exact_best_first_block": 0,
+        "mean_first_regret": 54.07778763771057,
+        "mean_plan_regret": 54.07778739929199,
+        "mean_factual_arrival_latent_mse": 0.13302450068295002,
+        "fixed_latest_window_comparison": {
+          "count": 8,
+          "better": 0,
+          "worse": 1,
+          "mean_after_minus_before_regret": 1.1075916290283203
+        }
+      }
+    },
+    "retained_complementary_pairs": [
+      {
+        "own_history_regret": [
+          16.11017417907715,
+          143.4159698486328
+        ],
+        "swapped_history_regret": [
+          16.11017417907715,
+          143.4159698486328
+        ],
+        "own_history_regret_gain": [
+          0.0,
+          0.0
+        ],
+        "fork": "opposite_0_0",
+        "phase": 0,
+        "models_selected_distinct_first_blocks": false,
+        "oracle_two_route_predicted_gaps": [
+          334.50640869140625,
+          321.56768798828125
+        ],
+        "correct_direction": [
+          true,
+          false
+        ],
+        "both_route_directions_correct": false
+      },
+      {
+        "own_history_regret": [
+          143.4159698486328,
+          16.11017417907715
+        ],
+        "swapped_history_regret": [
+          143.4159698486328,
+          16.11017417907715
+        ],
+        "own_history_regret_gain": [
+          0.0,
+          0.0
+        ],
+        "fork": "opposite_0_0",
+        "phase": 1,
+        "models_selected_distinct_first_blocks": false,
+        "oracle_two_route_predicted_gaps": [
+          321.9791259765625,
+          335.2325134277344
+        ],
+        "correct_direction": [
+          false,
+          true
+        ],
+        "both_route_directions_correct": false
+      },
+      {
+        "own_history_regret": [
+          16.11017417907715,
+          143.4159698486328
+        ],
+        "swapped_history_regret": [
+          16.11017417907715,
+          143.4159698486328
+        ],
+        "own_history_regret_gain": [
+          0.0,
+          0.0
+        ],
+        "fork": "opposite_0_0",
+        "phase": 2,
+        "models_selected_distinct_first_blocks": false,
+        "oracle_two_route_predicted_gaps": [
+          335.6116943359375,
+          322.28594970703125
+        ],
+        "correct_direction": [
+          true,
+          false
+        ],
+        "both_route_directions_correct": false
+      },
+      {
+        "own_history_regret": [
+          16.267982482910156,
+          143.37777709960938
+        ],
+        "swapped_history_regret": [
+          16.267982482910156,
+          143.37777709960938
+        ],
+        "own_history_regret_gain": [
+          0.0,
+          0.0
+        ],
+        "fork": "opposite_0_1",
+        "phase": 0,
+        "models_selected_distinct_first_blocks": false,
+        "oracle_two_route_predicted_gaps": [
+          334.50640869140625,
+          321.56768798828125
+        ],
+        "correct_direction": [
+          true,
+          false
+        ],
+        "both_route_directions_correct": false
+      },
+      {
+        "own_history_regret": [
+          143.37777709960938,
+          16.267982482910156
+        ],
+        "swapped_history_regret": [
+          143.37777709960938,
+          16.267982482910156
+        ],
+        "own_history_regret_gain": [
+          0.0,
+          0.0
+        ],
+        "fork": "opposite_0_1",
+        "phase": 1,
+        "models_selected_distinct_first_blocks": false,
+        "oracle_two_route_predicted_gaps": [
+          321.9791259765625,
+          335.2325134277344
+        ],
+        "correct_direction": [
+          false,
+          true
+        ],
+        "both_route_directions_correct": false
+      },
+      {
+        "own_history_regret": [
+          16.267982482910156,
+          143.37777709960938
+        ],
+        "swapped_history_regret": [
+          16.267982482910156,
+          143.37777709960938
+        ],
+        "own_history_regret_gain": [
+          0.0,
+          0.0
+        ],
+        "fork": "opposite_0_1",
+        "phase": 2,
+        "models_selected_distinct_first_blocks": false,
+        "oracle_two_route_predicted_gaps": [
+          335.6116943359375,
+          322.28594970703125
+        ],
+        "correct_direction": [
+          true,
+          false
+        ],
+        "both_route_directions_correct": false
+      },
+      {
+        "own_history_regret": [
+          18.643009185791016,
+          83.64518737792969
+        ],
+        "swapped_history_regret": [
+          18.643009185791016,
+          83.64518737792969
+        ],
+        "own_history_regret_gain": [
+          0.0,
+          0.0
+        ],
+        "fork": "opposite_2_0",
+        "phase": 0,
+        "models_selected_distinct_first_blocks": false,
+        "oracle_two_route_predicted_gaps": [
+          735.3767700195312,
+          725.4918518066406
+        ],
+        "correct_direction": [
+          true,
+          false
+        ],
+        "both_route_directions_correct": false
+      },
+      {
+        "own_history_regret": [
+          83.64518737792969,
+          18.643009185791016
+        ],
+        "swapped_history_regret": [
+          83.64518737792969,
+          18.643009185791016
+        ],
+        "own_history_regret_gain": [
+          0.0,
+          0.0
+        ],
+        "fork": "opposite_2_0",
+        "phase": 1,
+        "models_selected_distinct_first_blocks": false,
+        "oracle_two_route_predicted_gaps": [
+          725.3959655761719,
+          735.4511108398438
+        ],
+        "correct_direction": [
+          false,
+          true
+        ],
+        "both_route_directions_correct": false
+      },
+      {
+        "own_history_regret": [
+          18.643009185791016,
+          83.64518737792969
+        ],
+        "swapped_history_regret": [
+          18.643009185791016,
+          83.64518737792969
+        ],
+        "own_history_regret_gain": [
+          0.0,
+          0.0
+        ],
+        "fork": "opposite_2_0",
+        "phase": 2,
+        "models_selected_distinct_first_blocks": false,
+        "oracle_two_route_predicted_gaps": [
+          735.4677734375,
+          725.4151916503906
+        ],
+        "correct_direction": [
+          true,
+          false
+        ],
+        "both_route_directions_correct": false
+      },
+      {
+        "own_history_regret": [
+          12.671338081359863,
+          75.6688232421875
+        ],
+        "swapped_history_regret": [
+          12.671338081359863,
+          75.6688232421875
+        ],
+        "own_history_regret_gain": [
+          0.0,
+          0.0
+        ],
+        "fork": "opposite_2_1",
+        "phase": 0,
+        "models_selected_distinct_first_blocks": false,
+        "oracle_two_route_predicted_gaps": [
+          735.3767700195312,
+          725.4918518066406
+        ],
+        "correct_direction": [
+          true,
+          false
+        ],
+        "both_route_directions_correct": false
+      },
+      {
+        "own_history_regret": [
+          75.6688232421875,
+          12.671338081359863
+        ],
+        "swapped_history_regret": [
+          75.6688232421875,
+          12.671338081359863
+        ],
+        "own_history_regret_gain": [
+          0.0,
+          0.0
+        ],
+        "fork": "opposite_2_1",
+        "phase": 1,
+        "models_selected_distinct_first_blocks": false,
+        "oracle_two_route_predicted_gaps": [
+          725.3959655761719,
+          735.4511108398438
+        ],
+        "correct_direction": [
+          false,
+          true
+        ],
+        "both_route_directions_correct": false
+      },
+      {
+        "own_history_regret": [
+          12.671338081359863,
+          75.6688232421875
+        ],
+        "swapped_history_regret": [
+          12.671338081359863,
+          75.6688232421875
+        ],
+        "own_history_regret_gain": [
+          0.0,
+          0.0
+        ],
+        "fork": "opposite_2_1",
+        "phase": 2,
+        "models_selected_distinct_first_blocks": false,
+        "oracle_two_route_predicted_gaps": [
+          735.4677734375,
+          725.4151916503906
+        ],
+        "correct_direction": [
+          true,
+          false
+        ],
+        "both_route_directions_correct": false
+      }
+    ],
+    "own_history_by_fork_phase": {
+      "0": {
+        "mean_gain": 0.0,
+        "better": 0,
+        "worse": 0,
+        "count": 8
+      },
+      "1": {
+        "mean_gain": 0.0,
+        "better": 0,
+        "worse": 0,
+        "count": 8
+      },
+      "2": {
+        "mean_gain": 0.0,
+        "better": 0,
+        "worse": 0,
+        "count": 8
+      }
+    },
+    "retained_pairs_both_route_directions_correct": 0,
+    "retained_pairs_different_first_block": 0
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "physical_to_explanation": [
+    0,
+    1
+  ],
+  "frozen_before_heldout": true,
+  "source": "Eight predeclared fitting bridge first probes only; physical order bottom/top, evaluation naming only",
+  "mean_delta_top_minus_bottom": 6.537026762962341,
+  "fitting_probe_pairs": [
+    {
+      "group": 48,
+      "arrival": 5,
+      "direction": "NW_to_SE",
+      "near_root": [
+        77.5,
+        80.0
+      ],
+      "evidence_by_lock": {
+        "bottom": -2.98291277885437,
+        "top": 2.952770471572876
+      },
+      "delta_top_minus_bottom": 5.935683250427246
+    },
+    {
+      "group": 49,
+      "arrival": 5,
+      "direction": "NW_to_SE",
+      "near_root": [
+        82.5,
+        80.0
+      ],
+      "evidence_by_lock": {
+        "top": 2.948882579803467,
+        "bottom": -2.9752349853515625
+      },
+      "delta_top_minus_bottom": 5.924117565155029
+    },
+    {
+      "group": 50,
+      "arrival": 5,
+      "direction": "NW_to_SE",
+      "near_root": [
+        80.0,
+        77.5
+      ],
+      "evidence_by_lock": {
+        "bottom": -2.9752349853515625,
+        "top": 2.948882579803467
+      },
+      "delta_top_minus_bottom": 5.924117565155029
+    },
+    {
+      "group": 51,
+      "arrival": 5,
+      "direction": "NW_to_SE",
+      "near_root": [
+        80.0,
+        82.5
+      ],
+      "evidence_by_lock": {
+        "top": 2.952770471572876,
+        "bottom": -2.98291277885437
+      },
+      "delta_top_minus_bottom": 5.935683250427246
+    },
+    {
+      "group": 52,
+      "arrival": 5,
+      "direction": "SE_to_NW",
+      "near_root": [
+        144.0,
+        146.5
+      ],
+      "evidence_by_lock": {
+        "bottom": -3.626405954360962,
+        "top": 3.5103352069854736
+      },
+      "delta_top_minus_bottom": 7.1367411613464355
+    },
+    {
+      "group": 53,
+      "arrival": 5,
+      "direction": "SE_to_NW",
+      "near_root": [
+        144.0,
+        141.5
+      ],
+      "evidence_by_lock": {
+        "top": 3.5116045475006104,
+        "bottom": -3.639960527420044
+      },
+      "delta_top_minus_bottom": 7.151565074920654
+    },
+    {
+      "group": 54,
+      "arrival": 5,
+      "direction": "SE_to_NW",
+      "near_root": [
+        146.5,
+        144.0
+      ],
+      "evidence_by_lock": {
+        "bottom": -3.639960527420044,
+        "top": 3.5116045475006104
+      },
+      "delta_top_minus_bottom": 7.151565074920654
+    },
+    {
+      "group": 55,
+      "arrival": 5,
+      "direction": "SE_to_NW",
+      "near_root": [
+        141.5,
+        144.0
+      ],
+      "evidence_by_lock": {
+        "top": 3.5103352069854736,
+        "bottom": -3.626405954360962
+      },
+      "delta_top_minus_bottom": 7.1367411613464355
+    }
+  ]
+}

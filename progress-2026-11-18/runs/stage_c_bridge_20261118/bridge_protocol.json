@@ -1,0 +1,10 @@
+{
+  "source_archive": "D:\\cjepa\\runs\\stage_c_coverage_20261118\\lifecycle.npz",
+  "added_directed_groups": 8,
+  "read_roots_per_group": 2,
+  "candidates_per_root": 8,
+  "factual_sequence": "Near probe, blind recovery, neutral round trip, continuous connector, far probe, blind recovery, neutral round trip.",
+  "factual_lock_contract": "Both histories use identical controls and one constant physical condition throughout. Reset only once at each history start.",
+  "candidate_contract": "Reuse the coverage menu construction independently at each fitting root. Menu consequences restore their actual source positions.",
+  "fit_seed_start": 2026114000
+}

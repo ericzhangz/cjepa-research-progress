@@ -1,0 +1,26 @@
+{
+  "relation_plane_principal_angles_deg": [
+    2.9410102366861786,
+    4.205103053061247
+  ],
+  "relation_row_norms_initial": [
+    1.0000000290820574,
+    0.9999999979130036
+  ],
+  "relation_row_norms_fitted": [
+    1.003251938768405,
+    1.0016693252096442
+  ],
+  "train": {
+    "decoded_mirror_action_rms": 20.636085888990213,
+    "decoded_mirror_action_error_rms": 7.705255469480654,
+    "decoded_mirror_hold_rms": 46.782166097644065,
+    "decoded_mirror_hold_error_rms": 11.146702565110548
+  },
+  "development": {
+    "decoded_mirror_action_rms": 19.945086833085586,
+    "decoded_mirror_action_error_rms": 7.7749357134119075,
+    "decoded_mirror_hold_rms": 52.10210345921759,
+    "decoded_mirror_hold_error_rms": 11.423434553109871
+  }
+}

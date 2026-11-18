@@ -1,0 +1,224 @@
+{
+  "source": "Executed FourRoom RGB with one fixed visible distractor. Frozen LeWM encodes each arrival.",
+  "fit_cases": [
+    {
+      "scenario": 0,
+      "seed": 2026113400,
+      "template": "opposite_0_0",
+      "relative_order": [
+        0,
+        0,
+        1
+      ],
+      "fixed_read_roots": [
+        [
+          77.5,
+          80.0
+        ],
+        [
+          100.5,
+          56.0
+        ]
+      ]
+    },
+    {
+      "scenario": 1,
+      "seed": 2026113401,
+      "template": "opposite_1_0",
+      "relative_order": [
+        0,
+        0,
+        1
+      ],
+      "fixed_read_roots": [
+        [
+          141.5,
+          80.0
+        ],
+        [
+          123.5,
+          56.0
+        ]
+      ]
+    },
+    {
+      "scenario": 2,
+      "seed": 2026113402,
+      "template": "opposite_2_0",
+      "relative_order": [
+        0,
+        0,
+        1
+      ],
+      "fixed_read_roots": [
+        [
+          141.5,
+          144.0
+        ],
+        [
+          123.5,
+          168.0
+        ]
+      ]
+    },
+    {
+      "scenario": 3,
+      "seed": 2026113403,
+      "template": "opposite_3_0",
+      "relative_order": [
+        0,
+        0,
+        1
+      ],
+      "fixed_read_roots": [
+        [
+          77.5,
+          144.0
+        ],
+        [
+          100.5,
+          168.0
+        ]
+      ]
+    },
+    {
+      "scenario": 4,
+      "seed": 2026113404,
+      "template": "opposite_0_0",
+      "relative_order": [
+        0,
+        1,
+        1
+      ],
+      "fixed_read_roots": [
+        [
+          82.5,
+          80.0
+        ],
+        [
+          100.5,
+          56.0
+        ]
+      ]
+    },
+    {
+      "scenario": 5,
+      "seed": 2026113405,
+      "template": "opposite_1_0",
+      "relative_order": [
+        0,
+        1,
+        1
+      ],
+      "fixed_read_roots": [
+        [
+          146.5,
+          80.0
+        ],
+        [
+          123.5,
+          56.0
+        ]
+      ]
+    },
+    {
+      "scenario": 6,
+      "seed": 2026113406,
+      "template": "opposite_2_0",
+      "relative_order": [
+        0,
+        1,
+        1
+      ],
+      "fixed_read_roots": [
+        [
+          146.5,
+          144.0
+        ],
+        [
+          123.5,
+          168.0
+        ]
+      ]
+    },
+    {
+      "scenario": 7,
+      "seed": 2026113407,
+      "template": "opposite_3_0",
+      "relative_order": [
+        0,
+        1,
+        1
+      ],
+      "fixed_read_roots": [
+        [
+          82.5,
+          144.0
+        ],
+        [
+          100.5,
+          168.0
+        ]
+      ]
+    }
+  ],
+  "shapes": {
+    "fit_prefix_z": [
+      48,
+      2,
+      35,
+      192
+    ],
+    "fit_prefix_a": [
+      48,
+      2,
+      34,
+      5,
+      2
+    ],
+    "fit_read_t": [
+      48,
+      2
+    ],
+    "fit_menu_a": [
+      48,
+      2,
+      8,
+      12,
+      5,
+      2
+    ],
+    "fit_target_z": [
+      48,
+      2,
+      2,
+      8,
+      12,
+      192
+    ],
+    "fit_directed": [
+      48
+    ],
+    "source_target_z": [
+      24,
+      2,
+      192
+    ],
+    "source_delta": [
+      24,
+      192
+    ]
+  },
+  "group_order_per_case": [
+    "initial_cover",
+    "quiet_outward_cover",
+    "quiet_lateral_cover",
+    "first_probe",
+    "second_probe",
+    "third_probe"
+  ],
+  "physical_coordinates": "Private recorder audit. No coordinates or lock labels in the numeric archive.",
+  "independent_test": "The fixed Stage A clean ABA/BAB lifecycle is held separately.",
+  "coverage_source": "D:\\cjepa\\runs\\stage_c_clean_20261117",
+  "coverage_extension": "Original slots 0 and 1 retained. Slots 2 through 7 are executed fit-only targets."
+}

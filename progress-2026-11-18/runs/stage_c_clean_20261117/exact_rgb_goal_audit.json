@@ -1,0 +1,96 @@
+{
+  "unique_root_condition_pairs": 8,
+  "retained_fork_queries": 24,
+  "mean_first_regret": 2.667424961924553,
+  "correct_oracle_route_directions": 8,
+  "rows": [
+    {
+      "task": "opposite_0_0",
+      "physical_condition": 0,
+      "regret": {
+        "candidate": 115,
+        "first_block_group": 304,
+        "first_block_regret": 1.8495334386825562,
+        "full_plan_regret": 1.8495334386825562
+      },
+      "wrong_route_minus_right": 532.5360107421875
+    },
+    {
+      "task": "opposite_0_0",
+      "physical_condition": 1,
+      "regret": {
+        "candidate": 192,
+        "first_block_group": 74,
+        "first_block_regret": 0.0,
+        "full_plan_regret": 0.0
+      },
+      "wrong_route_minus_right": 600.7462158203125
+    },
+    {
+      "task": "opposite_0_1",
+      "physical_condition": 0,
+      "regret": {
+        "candidate": 186,
+        "first_block_group": 279,
+        "first_block_regret": 1.2950546741485596,
+        "full_plan_regret": 1.2950546741485596
+      },
+      "wrong_route_minus_right": 532.5360107421875
+    },
+    {
+      "task": "opposite_0_1",
+      "physical_condition": 1,
+      "regret": {
+        "candidate": 256,
+        "first_block_group": 180,
+        "first_block_regret": 5.081879138946533,
+        "full_plan_regret": 5.081879138946533
+      },
+      "wrong_route_minus_right": 600.7462158203125
+    },
+    {
+      "task": "opposite_2_0",
+      "physical_condition": 0,
+      "regret": {
+        "candidate": 243,
+        "first_block_group": 354,
+        "first_block_regret": 2.963395118713379,
+        "full_plan_regret": 2.963395118713379
+      },
+      "wrong_route_minus_right": 585.7940063476562
+    },
+    {
+      "task": "opposite_2_0",
+      "physical_condition": 1,
+      "regret": {
+        "candidate": 9,
+        "first_block_group": 25,
+        "first_block_regret": 3.9042398929595947,
+        "full_plan_regret": 3.9042398929595947
+      },
+      "wrong_route_minus_right": 486.71270751953125
+    },
+    {
+      "task": "opposite_2_1",
+      "physical_condition": 0,
+      "regret": {
+        "candidate": 277,
+        "first_block_group": 202,
+        "first_block_regret": 3.6774659156799316,
+        "full_plan_regret": 3.6774659156799316
+      },
+      "wrong_route_minus_right": 585.7940063476562
+    },
+    {
+      "task": "opposite_2_1",
+      "physical_condition": 1,
+      "regret": {
+        "candidate": 189,
+        "first_block_group": 82,
+        "first_block_regret": 2.567831516265869,
+        "full_plan_regret": 2.567831516265869
+      },
+      "wrong_route_minus_right": 486.71270751953125
+    }
+  ]
+}
