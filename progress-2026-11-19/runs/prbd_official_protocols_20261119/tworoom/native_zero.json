@@ -1,0 +1,128 @@
+{
+  "model_url": "https://huggingface.co/quentinll/lewm-tworooms",
+  "dataset_url": "https://huggingface.co/datasets/quentinll/lewm-tworooms",
+  "source_module": "research_sources_2026-11-03/lewm_representation/code/module.py",
+  "torch": "2.1.1+cu121",
+  "device": "cuda",
+  "dtype": "torch.float32",
+  "strict_complete_state_dict_load": true,
+  "weights_only": true,
+  "parameter_count": 18034478,
+  "native_conditional_blocks": 6,
+  "episode": 0,
+  "selection": "first released episode and first complete three-frame stride-five source",
+  "source_primitive_state_indices": [
+    0,
+    5,
+    10
+  ],
+  "actual_arrival_primitive_state_index": 15,
+  "primitive_action_interval": [
+    0,
+    15
+  ],
+  "actions_per_model_block": 5,
+  "action_normalization": "full released dataset finite-row float32 torch mean/sample std before block flattening",
+  "action_mean": [
+    [
+      0.003093416104093194,
+      -0.05298253893852234
+    ]
+  ],
+  "action_std": [
+    [
+      0.8675478100776672,
+      0.868638813495636
+    ]
+  ],
+  "image_normalization": "released ImageNet mean/std; native 224x224 image size",
+  "raw_native_zero_bitwise_equal_to_F0": true,
+  "raw_native_zero_max_absolute_error": 0.0,
+  "nominal_prototype_bitwise_equal_to_F0": true,
+  "nominal_prototype_max_absolute_error": 0.0,
+  "nominal_H1_latent_squared_error": 11.928827285766602,
+  "nonzero_untrained_response_l2_from_nominal": [
+    0.0,
+    0.15127591788768768,
+    0.04268161207437515,
+    0.03255286067724228
+  ],
+  "training_updates": 0,
+  "environment_steps": 0,
+  "closed_loop_runs": 0,
+  "actual_write_and_distinct_next_block": {
+    "convention": "untrained K=4; uniform source belief; identity T; unit R; fixed default quadrature; no calibration",
+    "source_window_primitive_indices": [
+      0,
+      5,
+      10
+    ],
+    "source_actual_arrival": 15,
+    "readout_refreshed_primitive_indices": [
+      5,
+      10,
+      15
+    ],
+    "readout_actual_arrival": 20,
+    "next_actual_action_block_differs_from_source": true,
+    "prior": [
+      0.25,
+      0.25,
+      0.25,
+      0.25
+    ],
+    "posterior": [
+      0.2707630153185261,
+      0.20274192118962395,
+      0.26075055003684133,
+      0.2657445134550085
+    ],
+    "support_total_variation": 0.047258078810375984,
+    "omitted_write_latent_squared_error": 6.576096115243271,
+    "actual_write_latent_squared_error": 6.587416626446753,
+    "write_minus_omitted_squared_error": 0.011320511203482653,
+    "prediction_change_l2": 0.005368188793736586,
+    "scope": "One fixed actual next-block paired readout under uncalibrated initialization; no learned or general transfer claim"
+  },
+  "fresh_window_free_zero_H1_H5": {
+    "fresh_root_primitive_indices": [
+      5,
+      10,
+      15
+    ],
+    "future_primitive_endpoint_indices": [
+      20,
+      25,
+      30,
+      35,
+      40
+    ],
+    "reference": "frozen original JEPA.predict recurrence with identical encoded source and controls; actual program actions and predicted-token feedback",
+    "nominal_max_absolute_error_by_H1_H5": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "raw_zero_max_absolute_error_by_H1_H5": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "nominal_bitwise_equal_at_all_horizons": true,
+    "raw_zero_bitwise_equal_at_all_horizons": true,
+    "full_JEPA_rollout_reencodes_source_images": true,
+    "full_JEPA_rollout_max_difference_from_same_input_reference_by_horizon": [
+      7.152557373046875e-07,
+      9.5367431640625e-07,
+      7.748603820800781e-07,
+      9.5367431640625e-07,
+      7.748603820800781e-07
+    ]
+  },
+  "scope": "Factual H1 and free H1-H5 zero anchors plus one initialized actual-write readout; no speed adaptation, calibrated evidence, general accuracy, or task success claim",
+  "elapsed_seconds": 0.8808066000055987
+}

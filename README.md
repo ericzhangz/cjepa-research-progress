@@ -1,8 +1,10 @@
 # CJepa 研究进展与代码交接
 
-**2026-11-18 最新交接** · [本版索引](progress-2026-11-18/) · [PushT 全视野结果](progress-2026-11-18/runs/fullview_pusht_base_20261115/REPORT.md) · [FourRoom H5 归因](progress-2026-11-18/runs/native_topology_objective_trace_20261116/REPORT.md) · [历轮方法与结果](progress-2026-11-18/METHOD_ITERATIONS.md)
+**2026-11-19 · PRBD**　[技术报告及数据入口](progress-2026-11-19/) · [核心实现](progress-2026-11-19/research/p1a/prbd.py) · [TwoRoom 分组结果 CSV](progress-2026-11-19/runs/prbd_tworoom_speed_20261119/interaction_summary.csv)。在 11 个跨速度同窗起点上，一次真实探测对随后动作差的有向恢复率为 H1 −0.0824%、H4 −0.3281%。报告同时给出未训练对照、绝对端点误差及 PushT、PushObj 的已测范围。
 
-**本次更新：** 原目录整体改名为 11-18。最新机制包含 §49.12，Stage C 已对齐首探测与长程分支，但回撤错写导致真实写入遗憾仍为 19.63；详见 [最新技术报告](progress-2026-11-18/runs/stage_c_bridge_source_20261118/REPORT.md)。
+**2026-11-18 交接** · [本版索引](progress-2026-11-18/) · [PushT 全视野结果](progress-2026-11-18/runs/fullview_pusht_base_20261115/REPORT.md) · [FourRoom H5 归因](progress-2026-11-18/runs/native_topology_objective_trace_20261116/REPORT.md) · [历轮方法与结果](progress-2026-11-18/METHOD_ITERATIONS.md)
+
+11 月 18 日的 §49.12 记录了 Stage C 首探测与长程分支对齐，以及回撤写入后 19.63 的真实写入遗憾。[当日技术报告](progress-2026-11-18/runs/stage_c_bridge_source_20261118/REPORT.md)
 
 **2026-11-13 历史交接** · PushT LeWM 单单元预测调节、离线监督、H2 展开及退离与返回回放。 [源码、实验设计与关键数据](progress-2026-11-13/) · [外审报告](progress-2026-11-13/research/CJEPA_PROGRESS_REVIEW_20261113.md)
 

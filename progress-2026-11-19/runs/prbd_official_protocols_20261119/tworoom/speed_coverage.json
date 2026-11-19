@@ -1,0 +1,92 @@
+{
+  "scope": "Offline audit of published numeric trajectories only; XY never enters PRBD supervision or targets",
+  "selection_declared_before_outcomes": "Both source coordinates strictly in (38.5,67.5) or (156.5,185.5); largest clamped action component magnitude >=.5",
+  "geometry_certificate": {
+    "image_size": 224,
+    "border": 14,
+    "max_radius": 14,
+    "max_wall_thickness": 41,
+    "max_wall_half_thickness": 20,
+    "either_wall_axis": true,
+    "wall_center": 112,
+    "max_per_axis_displacement": 10.5,
+    "derivation": "border free [28,196]; wall-free axes below78 or above146; expand each obstacle by max10.5 motion to certify start region",
+    "door_positions_irrelevant": true
+  },
+  "coverage": {
+    "full_archive": true,
+    "records": 920809,
+    "episodes": 10000,
+    "legal_within_episode_transitions": 910809,
+    "guaranteed_free_transitions": 44393,
+    "precision_eligible_free_transitions": 42875,
+    "covered_episodes": 5304,
+    "uncovered_episodes": 4696,
+    "covered_episode_fraction": 0.5304,
+    "eligible_transitions_per_episode_min_median_max": [
+      0,
+      1.0,
+      50
+    ],
+    "first_uncovered_episode_ids": [
+      1,
+      2,
+      4,
+      5,
+      9,
+      11,
+      14,
+      16,
+      17,
+      21,
+      24,
+      26,
+      29,
+      31,
+      33,
+      38,
+      39,
+      43,
+      45,
+      49
+    ]
+  },
+  "precision": {
+    "position_action_dtype": "float32",
+    "comparison_dtype": "float64",
+    "displacement_roundoff_bound_px": 1.3977289199829102e-05,
+    "maximum_speed_interval_half_width": 2.7917490897350303e-05,
+    "derivation": "FP32 unit roundoff 2^-24 times product bound10.5 plus position-sum bound224",
+    "interpretation": "Intervals constrain each individual transition; no speed parameter is fitted"
+  },
+  "results": {
+    "default_speed": 5.0,
+    "default5_excluded_transition_count": 0,
+    "default5_excluded_episode_count": 0,
+    "all_coordinates_within_analytic_roundoff_bound": true,
+    "coordinate_bound_exceedances": 0,
+    "FP32_default5_next_positions_bitwise_equal_transitions": 42875,
+    "maximum_FP32_default5_next_position_abs_error_px": 0.0,
+    "maximum_real_arithmetic_displacement_residual_px": 7.867813110351562e-06,
+    "speed_read_min_median_max": [
+      4.999985328375411,
+      5.0,
+      5.000014665552085
+    ],
+    "all_transition_speed_interval_intersection": [
+      4.999993753767913,
+      5.000006486090969
+    ],
+    "covered_episodes_incompatible_with_any_constant_speed": 0,
+    "reliable_evidence_of_nondefault_or_changing_speed_in_certified_set": false
+  },
+  "limits": "Only certified free transitions identify speed here. Uncovered episodes and motion outside this conservative set are not ruled out; zero actions carry no speed information. No alternating-speed protocol is inferred from static default consistency.",
+  "validation": {
+    "all_episode_offsets_lengths_indices_and_steps_exact": true,
+    "first_episode_proprio_matches_independent_h5py_read": true
+  },
+  "timing_seconds": {
+    "local_stream_extraction": 23.09892740001669,
+    "total": 23.396081799990498
+  }
+}

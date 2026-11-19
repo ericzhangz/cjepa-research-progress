@@ -1,0 +1,514 @@
+{
+  "scope": "Actual unmodified official swm/TwoRoom-v1 environment reset/step/render; no model, planner, tuning, or closed-loop evaluation",
+  "runtime": {
+    "python": "python",
+    "python_version": "3.11.15",
+    "torch": "2.8.0+cu128",
+    "gymnasium": "1.4.0",
+    "torch_threads": 1
+  },
+  "official_source": {
+    "package": "stable-worldmodel",
+    "version": "0.1.1",
+    "native_source": "stable_worldmodel/envs/two_room/env.py",
+    "public_repository": "https://github.com/galilai-group/stable-worldmodel",
+    "matches_saved_official_env_text": true,
+    "source_not_modified": true
+  },
+  "speed_variation": {
+    "interface": "reset options variation_values agent.speed",
+    "official_default": 5.0,
+    "calibration": "all32 default5.0; nominal-only host residual covariance, fixed before model scores",
+    "fit": "balanced16 at2.5 and16 at7.5, permutation RNG2026111980 independent of reset seeds and command selection",
+    "validation": "each of16 reset seeds independently replayed at both2.5 and7.5"
+  },
+  "data_boundary": {
+    "calibration_seeds": [
+      2026111900,
+      2026111931
+    ],
+    "fit_seeds": [
+      2026111932,
+      2026111963
+    ],
+    "validation_seeds": [
+      2026111964,
+      2026111979
+    ],
+    "learning_files": "Only RGB, raw actions, validity masks, and final actual RGB; no speed/state labels",
+    "physical_diagnostics": "data_diagnostics.npz only; forbidden model/fitter input"
+  },
+  "ordinary_commands": {
+    "source_archive": "runs/prbd_official_protocols_20261119/tworoom/tworoom.tar.zst",
+    "archive_bytes": 3425937909,
+    "source_actions": "runs/prbd_official_protocols_20261119/tworoom/full_dataset_actions.npy",
+    "rows": 920809,
+    "episode_metadata": "ep_len/ep_offset first1024 native HDF5 entries read from acquired32MiB metadata prefix",
+    "selection": "First64 chronological released episodes having at least80 finite primitive actions; first80 controls each, first32 calibration,next32 fit; disjoint rows"
+  },
+  "schema": {
+    "training": "rgb[N,17,224,224,3], actions[N,16,5,2], frame_valid[N,17], block_valid[N,16], primitive_valid[N,16,5], final_rgb[N,224,224,3]",
+    "validation": "Same keys prefixed shape[16seeds,2speeds,2candidates,...];11 frames and10 action blocks; speed axis2.5,7.5; candidate axis transverse,zero",
+    "frame_time": "RGB frame t is after5*t primitive steps; action block t drives frame t to t+1",
+    "termination": "Stop on first terminated/truncated; masks preserve only executed steps; incomplete last block retained by primitive_valid and final_rgb"
+  },
+  "fixed_validation": {
+    "probe_directions": [
+      "left",
+      "right",
+      "up",
+      "down"
+    ],
+    "prefix": "blocks0,1 zero; block2 cardinal5x0.25; block3 inverse5x0.25;blocks4,5 zero; root t6 window[4,5,6]",
+    "suffix": "candidate0 block6 perpendicular5x0.25; candidate1 zero; both blocks7,8,9 zero; H1 frame7, H4 frame10",
+    "all_cases_retained": true,
+    "selection_by_model_performance": false
+  },
+  "summary": {
+    "calibration": {
+      "sequences": 32,
+      "executed_primitives": 2385,
+      "primitive_lengths": [
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        47,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        5,
+        80,
+        80,
+        36,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        57,
+        80,
+        80,
+        80
+      ],
+      "collision_primitives": 596,
+      "terminated_sequences": 4,
+      "truncated_sequences": 0,
+      "source_episodes": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        12,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        32,
+        34,
+        36,
+        37,
+        38,
+        39,
+        40
+      ],
+      "raw_action_axis_min": [
+        -1.0,
+        -1.0
+      ],
+      "raw_action_axis_max": [
+        1.0,
+        1.0
+      ]
+    },
+    "fit": {
+      "sequences": 32,
+      "executed_primitives": 2395,
+      "primitive_lengths": [
+        80,
+        80,
+        80,
+        80,
+        80,
+        1,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        73,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        1,
+        80,
+        80
+      ],
+      "collision_primitives": 456,
+      "terminated_sequences": 3,
+      "truncated_sequences": 0,
+      "source_episodes": [
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        73,
+        74,
+        75
+      ],
+      "raw_action_axis_min": [
+        -1.0,
+        -1.0
+      ],
+      "raw_action_axis_max": [
+        1.0,
+        1.0
+      ]
+    },
+    "validation": {
+      "unique_native_reset_seeds": 16,
+      "independent_actual_rollouts": 64,
+      "executed_primitives": 3004,
+      "primitive_lengths": [
+        [
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        [
+          [
+            50,
+            50
+          ],
+          [
+            50,
+            50
+          ]
+        ],
+        [
+          [
+            50,
+            50
+          ],
+          [
+            50,
+            50
+          ]
+        ],
+        [
+          [
+            50,
+            50
+          ],
+          [
+            50,
+            50
+          ]
+        ],
+        [
+          [
+            50,
+            50
+          ],
+          [
+            50,
+            50
+          ]
+        ],
+        [
+          [
+            50,
+            50
+          ],
+          [
+            50,
+            50
+          ]
+        ],
+        [
+          [
+            50,
+            50
+          ],
+          [
+            50,
+            50
+          ]
+        ],
+        [
+          [
+            50,
+            50
+          ],
+          [
+            50,
+            50
+          ]
+        ],
+        [
+          [
+            50,
+            50
+          ],
+          [
+            50,
+            50
+          ]
+        ],
+        [
+          [
+            50,
+            50
+          ],
+          [
+            50,
+            50
+          ]
+        ],
+        [
+          [
+            50,
+            50
+          ],
+          [
+            50,
+            50
+          ]
+        ],
+        [
+          [
+            50,
+            50
+          ],
+          [
+            50,
+            50
+          ]
+        ],
+        [
+          [
+            50,
+            50
+          ],
+          [
+            50,
+            50
+          ]
+        ],
+        [
+          [
+            50,
+            50
+          ],
+          [
+            50,
+            50
+          ]
+        ],
+        [
+          [
+            50,
+            50
+          ],
+          [
+            50,
+            50
+          ]
+        ],
+        [
+          [
+            50,
+            50
+          ],
+          [
+            50,
+            50
+          ]
+        ]
+      ],
+      "collision_primitives": 73,
+      "terminated_rollouts": 4,
+      "matched_window_seeds": 10,
+      "matched_windows_by_seed": [
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        false,
+        false,
+        true,
+        true,
+        false,
+        false,
+        true,
+        true
+      ],
+      "rgb_prefix_candidate_replay_equal_by_seed": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "rgb_root_cross_speed_equal_by_seed": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        false,
+        true,
+        true,
+        false,
+        false,
+        true,
+        true
+      ],
+      "logical_root_cross_speed_equal_by_seed": [
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        false,
+        true,
+        true,
+        false,
+        false,
+        true,
+        true
+      ],
+      "returned_to_start_by_seed": [
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        false,
+        false,
+        true,
+        true,
+        false,
+        false,
+        true,
+        true
+      ],
+      "stationary_root_by_seed": [
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    }
+  },
+  "wall_seconds": 7.674669999978505
+}

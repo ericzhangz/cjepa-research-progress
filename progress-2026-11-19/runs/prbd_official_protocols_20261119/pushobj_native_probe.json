@@ -1,0 +1,230 @@
+{
+  "scope": "Stage-1 compatibility only; no learned PRBD conditions, training, environment steps, planning, or task-value claim",
+  "passed": true,
+  "checkpoint": "research_sources_2026-11-03/adajepa/official_assets/checkpoints/pushobj_shape_shift/checkpoints/model_latest.pth",
+  "checkpoint_epoch": 3,
+  "training_config": "research_sources_2026-11-03/adajepa/official_assets/checkpoints/pushobj_shape_shift/hydra.yaml",
+  "native_source": "research_sources_2026-11-03/adajepa/code",
+  "archived_input": "research_sources_2026-11-03/adajepa/repro_20261104/pilot_8/frozen/plan_targets.pkl",
+  "inventory": {
+    "goals": [
+      {
+        "shape": "T",
+        "path": "research_sources_2026-11-03/adajepa/official_assets/data/pushobj_eval/val_T/plan_targets.pkl",
+        "bytes": 808238,
+        "segments": 1000,
+        "trajectory_environment_actions": 25,
+        "first_state_shape": [
+          26,
+          5
+        ],
+        "first_action_shape": [
+          25,
+          2
+        ],
+        "stored_RGB": false
+      },
+      {
+        "shape": "L",
+        "path": "research_sources_2026-11-03/adajepa/official_assets/data/pushobj_eval/val_L/plan_targets.pkl",
+        "bytes": 808235,
+        "segments": 1000,
+        "trajectory_environment_actions": 25,
+        "first_state_shape": [
+          26,
+          5
+        ],
+        "first_action_shape": [
+          25,
+          2
+        ],
+        "stored_RGB": false
+      },
+      {
+        "shape": "Z",
+        "path": "research_sources_2026-11-03/adajepa/official_assets/data/pushobj_eval/val_Z/plan_targets.pkl",
+        "bytes": 808239,
+        "segments": 1000,
+        "trajectory_environment_actions": 25,
+        "first_state_shape": [
+          26,
+          5
+        ],
+        "first_action_shape": [
+          25,
+          2
+        ],
+        "stored_RGB": false
+      },
+      {
+        "shape": "+",
+        "path": "research_sources_2026-11-03/adajepa/official_assets/data/pushobj_eval/val_+/plan_targets.pkl",
+        "bytes": 808227,
+        "segments": 1000,
+        "trajectory_environment_actions": 25,
+        "first_state_shape": [
+          26,
+          5
+        ],
+        "first_action_shape": [
+          25,
+          2
+        ],
+        "stored_RGB": false
+      },
+      {
+        "shape": "I",
+        "path": "research_sources_2026-11-03/adajepa/official_assets/data/pushobj_eval/val_I/plan_targets.pkl",
+        "bytes": 808241,
+        "segments": 1000,
+        "trajectory_environment_actions": 25,
+        "first_state_shape": [
+          26,
+          5
+        ],
+        "first_action_shape": [
+          25,
+          2
+        ],
+        "stored_RGB": false
+      },
+      {
+        "shape": "small_tee",
+        "path": "research_sources_2026-11-03/adajepa/official_assets/data/pushobj_eval/val_small_tee/plan_targets.pkl",
+        "bytes": 808235,
+        "segments": 1000,
+        "trajectory_environment_actions": 25,
+        "first_state_shape": [
+          26,
+          5
+        ],
+        "first_action_shape": [
+          25,
+          2
+        ],
+        "stored_RGB": false
+      },
+      {
+        "shape": "square",
+        "path": "research_sources_2026-11-03/adajepa/official_assets/data/pushobj_eval/val_square/plan_targets.pkl",
+        "bytes": 808241,
+        "segments": 1000,
+        "trajectory_environment_actions": 25,
+        "first_state_shape": [
+          26,
+          5
+        ],
+        "first_action_shape": [
+          25,
+          2
+        ],
+        "stored_RGB": false
+      }
+    ],
+    "checkpoint_bytes": 418103400,
+    "staged_training_trajectory_directory_exists": false
+  },
+  "published_host": {
+    "encoder": "SmallResNetGeM",
+    "visual_width": 384,
+    "predictor": "ViTPredictor",
+    "predictor_positions_shape": [
+      1,
+      3,
+      404
+    ],
+    "predictor_layers": 6,
+    "attention_heads": 16,
+    "proprio_embedding_width": 10,
+    "action_embedding_width": 10,
+    "input_tokens_shape": [
+      8,
+      1,
+      1,
+      404
+    ],
+    "free_output_shape": [
+      8,
+      6,
+      1,
+      404
+    ],
+    "native_AdaLN": false,
+    "attention_mask": "causal by frame; unregistered CUDA tensor in published source"
+  },
+  "input_convention": {
+    "RGB": "archived uint8 -> /255 -> official resize/crop -> normalize mean/std .5",
+    "proprio": "archived x,y,vx,vy with official training mean/std",
+    "actions": "archived already normalized commands; 5 model blocks each concatenate 5 environment 2D actions",
+    "start_observations": 1,
+    "num_hist_cap": 3,
+    "frameskip": 5,
+    "future_environment_actions": 25,
+    "official_val_I_target_indices": [
+      149,
+      470,
+      465,
+      974,
+      789,
+      178,
+      722,
+      402
+    ],
+    "official_start_states_and_normalized_actions_exact_match": true,
+    "selection": "all eight existing frozen-run starts in archived order; none selected by this probe"
+  },
+  "conditional_port": {
+    "module": "predictor.transformer.layers[-1][1].net[4]",
+    "native_weight_shape": [
+      404,
+      2048
+    ],
+    "formula": "W(u)=W0+u A B^T",
+    "rank": 1,
+    "A_B_parameters": 2452,
+    "scope": "same native final FFN map for current issuance and every future prediction; all token positions",
+    "initialization": "independent fixed seed 20261119, A/B std .01, tested u=0 and u=1; no selection",
+    "nominal_dispatch": "full conditioned path is evaluated at u=0; no bypass",
+    "learned_conditions_available": false
+  },
+  "checks": {
+    "zero_one_step_exact": true,
+    "zero_free_five_steps_exact": true,
+    "zero_one_step_max_abs_error": 0.0,
+    "zero_free_max_abs_error_per_prediction_horizon": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "zero_gate_fixed_probe_gradient": -0.0009179147309623659,
+    "nonzero_gate_output_change_l2_by_archived_input": [
+      0.001584070734679699,
+      0.0015726996352896094,
+      6.373196811182424e-05,
+      0.0015626269159838557,
+      0.0006422675796784461,
+      9.512394171906635e-05,
+      0.0005556829273700714,
+      0.000541328452527523
+    ],
+    "nonzero_gate_A_gradient_l2": 0.04413602873682976,
+    "nonzero_gate_B_gradient_l2": 0.30375874042510986
+  },
+  "timing_seconds": {
+    "checkpoint_loading": 0.2067901000000001,
+    "native_one_step_cold": 0.06970540000000014,
+    "native_free_H5": 0.025725200000000115,
+    "conditioned_zero_one_step": 0.0030578000000001104,
+    "conditioned_zero_free_H5": 0.02007480000000017
+  },
+  "runtime": {
+    "python": "3.9.19 (main, May  6 2024, 20:12:36) [MSC v.1916 64 bit (AMD64)]",
+    "torch": "2.3.0+cu121",
+    "device": "cuda:0",
+    "TF32": false,
+    "inference_mode": "eval; all released weights frozen",
+    "dtype": "float32"
+  }
+}

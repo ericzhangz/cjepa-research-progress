@@ -1,0 +1,28 @@
+{
+  "source_url": "https://huggingface.co/datasets/quentinll/lewm-tworooms/resolve/main/tworoom.tar.zst",
+  "compressed_archive_bytes": 3425937909,
+  "hdf5_member_bytes": 12775849984,
+  "action_shape": [
+    920809,
+    2
+  ],
+  "finite_action_rows": 910809,
+  "nan_rows": 10000,
+  "mean": [
+    [
+      0.003093416104093194,
+      -0.05298253893852234
+    ]
+  ],
+  "std_sample_correction_1": [
+    [
+      0.8675478100776672,
+      0.868638813495636
+    ]
+  ],
+  "normalization": "(primitive_action - dataset_float32_mean) / dataset_float32_sample_std, then flatten five primitives",
+  "author_code": "research_sources_2026-11-03/lewm_representation/code/utils.py:get_column_normalizer",
+  "first_episode_action_equality": true,
+  "author_normalizer_numeric_body_bitwise_equal": true,
+  "elapsed_seconds": 0.11725169999408536
+}
