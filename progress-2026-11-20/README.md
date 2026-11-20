@@ -1,5 +1,7 @@
 # PRBD 单轨学习与跨动作预测 · 2026-11-20
 
+[PRBD 单文件技术交接报告](PRBD_TECHNICAL_HANDOFF.md)收录 P0–P3、G 系列前置核验及 G1–G3 的完整信息流、发布版核心代码片段、实验中间量和逐动作结果分解。
+
 本版发布 TwoRoom 两个连续阶段的实现、检查点和逐起点数据。P3b 完成 G1 数值检验、G2 零动作检验和 G3 单轨训练。G3 预先指定的多时域训练方案未通过完整写入的验收条件。G4 独立历史与 P4 闭环均未运行。[P0–P3 报告](runs/prbd_evidence_trajectory_20261119/REPORT.md) · [P3b 技术报告](runs/prbd_consistency_20261120/REPORT.md)
 
 ## G3 开环实测
