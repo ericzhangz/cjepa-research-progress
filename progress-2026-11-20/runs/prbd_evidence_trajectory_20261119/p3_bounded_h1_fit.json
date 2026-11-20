@@ -1,0 +1,364 @@
+{
+  "control": "bounded_h1",
+  "geometry": "bounded",
+  "objective": "causal",
+  "horizon": 1,
+  "seed": 20261119,
+  "learning_rate": 0.001,
+  "optimizer": "Adam; only native prototype offsets; one update per episode",
+  "horizon_policy": "All original t>=2 roots; min(H, remaining actual blocks)",
+  "criterion": "Mean causal one-step predictive NLL",
+  "joint_mixture": null,
+  "training_episode_ids": [
+    2026111932,
+    2026111933,
+    2026111934,
+    2026111935,
+    2026111936,
+    2026111938,
+    2026111939,
+    2026111940,
+    2026111941,
+    2026111942,
+    2026111943,
+    2026111944,
+    2026111945,
+    2026111946,
+    2026111947,
+    2026111948,
+    2026111949,
+    2026111950,
+    2026111951,
+    2026111952,
+    2026111953,
+    2026111954,
+    2026111955,
+    2026111956,
+    2026111957,
+    2026111958,
+    2026111959,
+    2026111960,
+    2026111962,
+    2026111963
+  ],
+  "updates": 30,
+  "factual_roots": 418,
+  "scored_target_steps": 418,
+  "fit_seconds": 2.499345299991546,
+  "fixed_noise_source": "../../../progress-2026-11-19/runs/prbd_tworoom_speed_20261119/fitted.pt",
+  "nominal_anchor_exact_after_fit": true,
+  "offset_change_l2": [
+    0.33918190002441406,
+    0.3651958107948303,
+    0.31444886326789856
+  ],
+  "training": [
+    {
+      "episode": 2026111932,
+      "transitions": 14,
+      "nll": 121.48486404283491,
+      "gradient_norm_by_prototype": [
+        2505.79931640625,
+        2421.165771484375,
+        1453.1702880859375
+      ]
+    },
+    {
+      "episode": 2026111933,
+      "transitions": 14,
+      "nll": 2521.8597586676324,
+      "gradient_norm_by_prototype": [
+        2097.373046875,
+        1903.158447265625,
+        2358.440185546875
+      ]
+    },
+    {
+      "episode": 2026111934,
+      "transitions": 14,
+      "nll": 236.63301872722187,
+      "gradient_norm_by_prototype": [
+        4923.52490234375,
+        2058.45751953125,
+        6871.97216796875
+      ]
+    },
+    {
+      "episode": 2026111935,
+      "transitions": 14,
+      "nll": -36.64696422653872,
+      "gradient_norm_by_prototype": [
+        198.2777557373047,
+        195.32896423339844,
+        85.84315490722656
+      ]
+    },
+    {
+      "episode": 2026111936,
+      "transitions": 14,
+      "nll": 96.3004838088194,
+      "gradient_norm_by_prototype": [
+        962.9154052734375,
+        403.4682922363281,
+        599.0086059570312
+      ]
+    },
+    {
+      "episode": 2026111938,
+      "transitions": 14,
+      "nll": 2668.3651543852507,
+      "gradient_norm_by_prototype": [
+        5789.685546875,
+        5852.6171875,
+        1458.66943359375
+      ]
+    },
+    {
+      "episode": 2026111939,
+      "transitions": 14,
+      "nll": -68.10950024824125,
+      "gradient_norm_by_prototype": [
+        100.52925109863281,
+        142.9698944091797,
+        117.76775360107422
+      ]
+    },
+    {
+      "episode": 2026111940,
+      "transitions": 14,
+      "nll": 104.80843312657858,
+      "gradient_norm_by_prototype": [
+        601.1146850585938,
+        1212.724609375,
+        711.8816528320312
+      ]
+    },
+    {
+      "episode": 2026111941,
+      "transitions": 14,
+      "nll": 1392.2439781588812,
+      "gradient_norm_by_prototype": [
+        3795.963623046875,
+        4113.052734375,
+        1856.775146484375
+      ]
+    },
+    {
+      "episode": 2026111942,
+      "transitions": 14,
+      "nll": 643.6357357505614,
+      "gradient_norm_by_prototype": [
+        694.9880981445312,
+        1003.1124877929688,
+        134.4789276123047
+      ]
+    },
+    {
+      "episode": 2026111943,
+      "transitions": 14,
+      "nll": 359.430720861614,
+      "gradient_norm_by_prototype": [
+        494.1935729980469,
+        558.1358642578125,
+        455.79193115234375
+      ]
+    },
+    {
+      "episode": 2026111944,
+      "transitions": 14,
+      "nll": 271.84871001118665,
+      "gradient_norm_by_prototype": [
+        575.5985717773438,
+        242.22328186035156,
+        379.71038818359375
+      ]
+    },
+    {
+      "episode": 2026111945,
+      "transitions": 14,
+      "nll": 2195.545783086184,
+      "gradient_norm_by_prototype": [
+        2557.251708984375,
+        2444.244140625,
+        348.75433349609375
+      ]
+    },
+    {
+      "episode": 2026111946,
+      "transitions": 14,
+      "nll": 304.43174380319203,
+      "gradient_norm_by_prototype": [
+        1153.2015380859375,
+        165.9222412109375,
+        378.29278564453125
+      ]
+    },
+    {
+      "episode": 2026111947,
+      "transitions": 14,
+      "nll": 83.60380062051775,
+      "gradient_norm_by_prototype": [
+        178.2353515625,
+        134.96609497070312,
+        105.92125701904297
+      ]
+    },
+    {
+      "episode": 2026111948,
+      "transitions": 14,
+      "nll": 988.3159754994701,
+      "gradient_norm_by_prototype": [
+        1418.126220703125,
+        1392.18408203125,
+        308.9459228515625
+      ]
+    },
+    {
+      "episode": 2026111949,
+      "transitions": 12,
+      "nll": 2147.03068281691,
+      "gradient_norm_by_prototype": [
+        2556.669921875,
+        3175.641357421875,
+        562.7579956054688
+      ]
+    },
+    {
+      "episode": 2026111950,
+      "transitions": 14,
+      "nll": 170.64136126958357,
+      "gradient_norm_by_prototype": [
+        424.4382019042969,
+        369.4906005859375,
+        55.18812561035156
+      ]
+    },
+    {
+      "episode": 2026111951,
+      "transitions": 14,
+      "nll": 69.39413084206784,
+      "gradient_norm_by_prototype": [
+        93.8198471069336,
+        32.97474670410156,
+        102.52758026123047
+      ]
+    },
+    {
+      "episode": 2026111952,
+      "transitions": 14,
+      "nll": 585.4820799790866,
+      "gradient_norm_by_prototype": [
+        780.7349243164062,
+        827.9916381835938,
+        226.490234375
+      ]
+    },
+    {
+      "episode": 2026111953,
+      "transitions": 14,
+      "nll": 231.1383176438857,
+      "gradient_norm_by_prototype": [
+        349.52203369140625,
+        308.13275146484375,
+        213.19273376464844
+      ]
+    },
+    {
+      "episode": 2026111954,
+      "transitions": 14,
+      "nll": 779.1010055175482,
+      "gradient_norm_by_prototype": [
+        1080.745849609375,
+        834.8928833007812,
+        635.6552734375
+      ]
+    },
+    {
+      "episode": 2026111955,
+      "transitions": 14,
+      "nll": 531.2374223129317,
+      "gradient_norm_by_prototype": [
+        926.0101928710938,
+        519.082763671875,
+        199.74049377441406
+      ]
+    },
+    {
+      "episode": 2026111956,
+      "transitions": 14,
+      "nll": 900.4349019853614,
+      "gradient_norm_by_prototype": [
+        1627.28466796875,
+        1139.48388671875,
+        715.2742919921875
+      ]
+    },
+    {
+      "episode": 2026111957,
+      "transitions": 14,
+      "nll": 4328.7710369905735,
+      "gradient_norm_by_prototype": [
+        6000.03857421875,
+        5448.9345703125,
+        1251.5294189453125
+      ]
+    },
+    {
+      "episode": 2026111958,
+      "transitions": 14,
+      "nll": 67.05913448014326,
+      "gradient_norm_by_prototype": [
+        133.18370056152344,
+        143.11941528320312,
+        77.69564819335938
+      ]
+    },
+    {
+      "episode": 2026111959,
+      "transitions": 14,
+      "nll": 1880.5321970840575,
+      "gradient_norm_by_prototype": [
+        2147.358154296875,
+        1835.777099609375,
+        784.15625
+      ]
+    },
+    {
+      "episode": 2026111960,
+      "transitions": 14,
+      "nll": -29.220206733418788,
+      "gradient_norm_by_prototype": [
+        63.37410354614258,
+        52.89759826660156,
+        124.41191864013672
+      ]
+    },
+    {
+      "episode": 2026111962,
+      "transitions": 14,
+      "nll": 288.54961258529005,
+      "gradient_norm_by_prototype": [
+        545.2904052734375,
+        526.0407104492188,
+        127.26180267333984
+      ]
+    },
+    {
+      "episode": 2026111963,
+      "transitions": 14,
+      "nll": 710.7678539434206,
+      "gradient_norm_by_prototype": [
+        1268.475830078125,
+        839.7525024414062,
+        683.8590087890625
+      ]
+    }
+  ],
+  "checkpoint": "p3_bounded_h1.pt",
+  "runtime": {
+    "python": "3.10.15",
+    "torch": "2.1.1+cu121",
+    "device": "cpu",
+    "torch_threads": 2
+  }
+}

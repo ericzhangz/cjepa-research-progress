@@ -1,0 +1,12 @@
+{
+  "reset_count": 48,
+  "seed_range": [
+    2026112100,
+    2026112147
+  ],
+  "actual_rollouts": 192,
+  "actual_primitives": 9450,
+  "complete_blocks": 1888,
+  "complete_zero_blocks": 1418,
+  "matched_rgb_count": 42
+}

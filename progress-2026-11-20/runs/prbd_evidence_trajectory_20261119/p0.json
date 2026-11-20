@@ -1,0 +1,2623 @@
+{
+  "scope": "P0 fixed mathematical checks only; application goal remains paused",
+  "versions": {
+    "python": "3.11.15",
+    "torch": "2.8.0+cu128",
+    "numpy": "2.4.4",
+    "scipy": "1.17.1"
+  },
+  "scalar_curve": {
+    "grid": [
+      0.0,
+      1e-12,
+      1e-08,
+      0.1,
+      0.5,
+      1.0,
+      2.0,
+      5.0,
+      10.0,
+      100.0,
+      10000.0
+    ],
+    "means": "[-v,+v]",
+    "observations": "-v and +v",
+    "prior": [
+      0.5,
+      0.5
+    ],
+    "nu": 3.0,
+    "quadrature_order": 32,
+    "bounded_rho": 1.0,
+    "bounded_lambda": 1.0,
+    "original_continuous_correct_posterior_limit": 0.7352941176470589,
+    "original_finite32_correct_posterior_limit": 0.7352735222546684,
+    "bounded_continuous_correct_posterior_limit": 1.0,
+    "rows": [
+      {
+        "v": 0.0,
+        "observation_sign": -1,
+        "geometry": "original",
+        "api_correct_posterior": 0.5,
+        "api_log_bayes_factor": 0.0,
+        "api_log_predictive": -0.9189385332046727,
+        "direct32_log_likelihood": [
+          -0.9189385332046727,
+          -0.9189385332046727
+        ],
+        "direct32_log_predictive": -0.9189385332046727,
+        "direct32_correct_posterior": 0.5,
+        "direct32_log_bayes_factor": 0.0,
+        "continuous_log_likelihood": [
+          -0.9189385332046727,
+          -0.9189385332046727
+        ],
+        "continuous_log_predictive": -0.9189385332046727,
+        "continuous_correct_posterior": 0.5,
+        "continuous_log_bayes_factor": 0.0,
+        "continuous_relative_integration_error_max": 0.0,
+        "noise_response_variance": 0.0,
+        "api_direct32_posterior_absolute_error": 0.0,
+        "api_direct32_log_bayes_factor_absolute_error": 0.0,
+        "api_direct32_log_predictive_absolute_error": 0.0,
+        "finite32_continuous_posterior_absolute_error": 0.0,
+        "finite32_continuous_log_predictive_error": 0.0,
+        "finite32_continuous_log_bayes_factor_error": 0.0,
+        "finite32_continuous_branch_log_density_error_max": 0.0,
+        "gaussian_correct_posterior": 0.5,
+        "gaussian_log_bayes_factor": 0.0
+      },
+      {
+        "v": 0.0,
+        "observation_sign": -1,
+        "geometry": "bounded",
+        "api_correct_posterior": 0.5,
+        "api_log_bayes_factor": 0.0,
+        "api_log_predictive": -0.9189385332046728,
+        "direct32_log_likelihood": [
+          -0.9189385332046727,
+          -0.9189385332046727
+        ],
+        "direct32_log_predictive": -0.9189385332046727,
+        "direct32_correct_posterior": 0.5,
+        "direct32_log_bayes_factor": 0.0,
+        "continuous_log_likelihood": [
+          -0.9189385332046727,
+          -0.9189385332046727
+        ],
+        "continuous_log_predictive": -0.9189385332046727,
+        "continuous_correct_posterior": 0.5,
+        "continuous_log_bayes_factor": 0.0,
+        "continuous_relative_integration_error_max": 0.0,
+        "noise_response_variance": 0.0,
+        "api_direct32_posterior_absolute_error": 0.0,
+        "api_direct32_log_bayes_factor_absolute_error": 0.0,
+        "api_direct32_log_predictive_absolute_error": 1.1102230246251565e-16,
+        "finite32_continuous_posterior_absolute_error": 0.0,
+        "finite32_continuous_log_predictive_error": 0.0,
+        "finite32_continuous_log_bayes_factor_error": 0.0,
+        "finite32_continuous_branch_log_density_error_max": 0.0,
+        "gaussian_correct_posterior": 0.5,
+        "gaussian_log_bayes_factor": 0.0
+      },
+      {
+        "v": 0.0,
+        "observation_sign": 1,
+        "geometry": "original",
+        "api_correct_posterior": 0.5,
+        "api_log_bayes_factor": 0.0,
+        "api_log_predictive": -0.9189385332046727,
+        "direct32_log_likelihood": [
+          -0.9189385332046727,
+          -0.9189385332046727
+        ],
+        "direct32_log_predictive": -0.9189385332046727,
+        "direct32_correct_posterior": 0.5,
+        "direct32_log_bayes_factor": 0.0,
+        "continuous_log_likelihood": [
+          -0.9189385332046727,
+          -0.9189385332046727
+        ],
+        "continuous_log_predictive": -0.9189385332046727,
+        "continuous_correct_posterior": 0.5,
+        "continuous_log_bayes_factor": 0.0,
+        "continuous_relative_integration_error_max": 0.0,
+        "noise_response_variance": 0.0,
+        "api_direct32_posterior_absolute_error": 0.0,
+        "api_direct32_log_bayes_factor_absolute_error": 0.0,
+        "api_direct32_log_predictive_absolute_error": 0.0,
+        "finite32_continuous_posterior_absolute_error": 0.0,
+        "finite32_continuous_log_predictive_error": 0.0,
+        "finite32_continuous_log_bayes_factor_error": 0.0,
+        "finite32_continuous_branch_log_density_error_max": 0.0,
+        "gaussian_correct_posterior": 0.5,
+        "gaussian_log_bayes_factor": 0.0
+      },
+      {
+        "v": 0.0,
+        "observation_sign": 1,
+        "geometry": "bounded",
+        "api_correct_posterior": 0.5,
+        "api_log_bayes_factor": 0.0,
+        "api_log_predictive": -0.9189385332046728,
+        "direct32_log_likelihood": [
+          -0.9189385332046727,
+          -0.9189385332046727
+        ],
+        "direct32_log_predictive": -0.9189385332046727,
+        "direct32_correct_posterior": 0.5,
+        "direct32_log_bayes_factor": 0.0,
+        "continuous_log_likelihood": [
+          -0.9189385332046727,
+          -0.9189385332046727
+        ],
+        "continuous_log_predictive": -0.9189385332046727,
+        "continuous_correct_posterior": 0.5,
+        "continuous_log_bayes_factor": 0.0,
+        "continuous_relative_integration_error_max": 0.0,
+        "noise_response_variance": 0.0,
+        "api_direct32_posterior_absolute_error": 0.0,
+        "api_direct32_log_bayes_factor_absolute_error": 0.0,
+        "api_direct32_log_predictive_absolute_error": 1.1102230246251565e-16,
+        "finite32_continuous_posterior_absolute_error": 0.0,
+        "finite32_continuous_log_predictive_error": 0.0,
+        "finite32_continuous_log_bayes_factor_error": 0.0,
+        "finite32_continuous_branch_log_density_error_max": 0.0,
+        "gaussian_correct_posterior": 0.5,
+        "gaussian_log_bayes_factor": 0.0
+      },
+      {
+        "v": 1e-12,
+        "observation_sign": -1,
+        "geometry": "original",
+        "api_correct_posterior": 0.5,
+        "api_log_bayes_factor": 0.0,
+        "api_log_predictive": -0.9189385332046727,
+        "direct32_log_likelihood": [
+          -0.9189385332046727,
+          -0.9189385332046727
+        ],
+        "direct32_log_predictive": -0.9189385332046727,
+        "direct32_correct_posterior": 0.5,
+        "direct32_log_bayes_factor": 0.0,
+        "continuous_log_likelihood": [
+          -0.9189385332046726,
+          -0.9189385332046726
+        ],
+        "continuous_log_predictive": -0.9189385332046726,
+        "continuous_correct_posterior": 0.5,
+        "continuous_log_bayes_factor": 0.0,
+        "continuous_relative_integration_error_max": 2.4195193453228593e-12,
+        "noise_response_variance": 2e-24,
+        "api_direct32_posterior_absolute_error": 0.0,
+        "api_direct32_log_bayes_factor_absolute_error": 0.0,
+        "api_direct32_log_predictive_absolute_error": 0.0,
+        "finite32_continuous_posterior_absolute_error": 0.0,
+        "finite32_continuous_log_predictive_error": -1.1102230246251565e-16,
+        "finite32_continuous_log_bayes_factor_error": 0.0,
+        "finite32_continuous_branch_log_density_error_max": 1.1102230246251565e-16,
+        "gaussian_correct_posterior": 0.5,
+        "gaussian_log_bayes_factor": 2e-24
+      },
+      {
+        "v": 1e-12,
+        "observation_sign": -1,
+        "geometry": "bounded",
+        "api_correct_posterior": 0.5,
+        "api_log_bayes_factor": 0.0,
+        "api_log_predictive": -0.9189385332046728,
+        "direct32_log_likelihood": [
+          -0.9189385332046727,
+          -0.9189385332046727
+        ],
+        "direct32_log_predictive": -0.9189385332046727,
+        "direct32_correct_posterior": 0.5,
+        "direct32_log_bayes_factor": 0.0,
+        "continuous_log_likelihood": [
+          -0.9189385332046726,
+          -0.9189385332046726
+        ],
+        "continuous_log_predictive": -0.9189385332046726,
+        "continuous_correct_posterior": 0.5,
+        "continuous_log_bayes_factor": 0.0,
+        "continuous_relative_integration_error_max": 2.4195193453228593e-12,
+        "noise_response_variance": 2e-24,
+        "api_direct32_posterior_absolute_error": 0.0,
+        "api_direct32_log_bayes_factor_absolute_error": 0.0,
+        "api_direct32_log_predictive_absolute_error": 1.1102230246251565e-16,
+        "finite32_continuous_posterior_absolute_error": 0.0,
+        "finite32_continuous_log_predictive_error": -1.1102230246251565e-16,
+        "finite32_continuous_log_bayes_factor_error": 0.0,
+        "finite32_continuous_branch_log_density_error_max": 1.1102230246251565e-16,
+        "gaussian_correct_posterior": 0.5,
+        "gaussian_log_bayes_factor": 2e-24
+      },
+      {
+        "v": 1e-12,
+        "observation_sign": 1,
+        "geometry": "original",
+        "api_correct_posterior": 0.5,
+        "api_log_bayes_factor": 0.0,
+        "api_log_predictive": -0.9189385332046727,
+        "direct32_log_likelihood": [
+          -0.9189385332046727,
+          -0.9189385332046727
+        ],
+        "direct32_log_predictive": -0.9189385332046727,
+        "direct32_correct_posterior": 0.5,
+        "direct32_log_bayes_factor": 0.0,
+        "continuous_log_likelihood": [
+          -0.9189385332046726,
+          -0.9189385332046726
+        ],
+        "continuous_log_predictive": -0.9189385332046726,
+        "continuous_correct_posterior": 0.5,
+        "continuous_log_bayes_factor": 0.0,
+        "continuous_relative_integration_error_max": 2.4195193453228593e-12,
+        "noise_response_variance": 2e-24,
+        "api_direct32_posterior_absolute_error": 0.0,
+        "api_direct32_log_bayes_factor_absolute_error": 0.0,
+        "api_direct32_log_predictive_absolute_error": 0.0,
+        "finite32_continuous_posterior_absolute_error": 0.0,
+        "finite32_continuous_log_predictive_error": -1.1102230246251565e-16,
+        "finite32_continuous_log_bayes_factor_error": 0.0,
+        "finite32_continuous_branch_log_density_error_max": 1.1102230246251565e-16,
+        "gaussian_correct_posterior": 0.5,
+        "gaussian_log_bayes_factor": 2e-24
+      },
+      {
+        "v": 1e-12,
+        "observation_sign": 1,
+        "geometry": "bounded",
+        "api_correct_posterior": 0.5,
+        "api_log_bayes_factor": 0.0,
+        "api_log_predictive": -0.9189385332046728,
+        "direct32_log_likelihood": [
+          -0.9189385332046727,
+          -0.9189385332046727
+        ],
+        "direct32_log_predictive": -0.9189385332046727,
+        "direct32_correct_posterior": 0.5,
+        "direct32_log_bayes_factor": 0.0,
+        "continuous_log_likelihood": [
+          -0.9189385332046726,
+          -0.9189385332046726
+        ],
+        "continuous_log_predictive": -0.9189385332046726,
+        "continuous_correct_posterior": 0.5,
+        "continuous_log_bayes_factor": 0.0,
+        "continuous_relative_integration_error_max": 2.4195193453228593e-12,
+        "noise_response_variance": 2e-24,
+        "api_direct32_posterior_absolute_error": 0.0,
+        "api_direct32_log_bayes_factor_absolute_error": 0.0,
+        "api_direct32_log_predictive_absolute_error": 1.1102230246251565e-16,
+        "finite32_continuous_posterior_absolute_error": 0.0,
+        "finite32_continuous_log_predictive_error": -1.1102230246251565e-16,
+        "finite32_continuous_log_bayes_factor_error": 0.0,
+        "finite32_continuous_branch_log_density_error_max": 1.1102230246251565e-16,
+        "gaussian_correct_posterior": 0.5,
+        "gaussian_log_bayes_factor": 2e-24
+      },
+      {
+        "v": 1e-08,
+        "observation_sign": -1,
+        "geometry": "original",
+        "api_correct_posterior": 0.5,
+        "api_log_bayes_factor": 0.0,
+        "api_log_predictive": -0.9189385332046731,
+        "direct32_log_likelihood": [
+          -0.9189385332046731,
+          -0.9189385332046736
+        ],
+        "direct32_log_predictive": -0.9189385332046733,
+        "direct32_correct_posterior": 0.5000000000000001,
+        "direct32_log_bayes_factor": 4.440892098500626e-16,
+        "continuous_log_likelihood": [
+          -0.918938533204673,
+          -0.9189385332046728
+        ],
+        "continuous_log_predictive": -0.9189385332046729,
+        "continuous_correct_posterior": 0.5,
+        "continuous_log_bayes_factor": -2.220446049250313e-16,
+        "continuous_relative_integration_error_max": 2.419543113342356e-12,
+        "noise_response_variance": 2.0000000000000002e-16,
+        "api_direct32_posterior_absolute_error": 1.1102230246251565e-16,
+        "api_direct32_log_bayes_factor_absolute_error": 4.440892098500626e-16,
+        "api_direct32_log_predictive_absolute_error": 2.220446049250313e-16,
+        "finite32_continuous_posterior_absolute_error": 1.1102230246251565e-16,
+        "finite32_continuous_log_predictive_error": -4.440892098500626e-16,
+        "finite32_continuous_log_bayes_factor_error": 6.661338147750939e-16,
+        "finite32_continuous_branch_log_density_error_max": 7.771561172376096e-16,
+        "gaussian_correct_posterior": 0.5000000000000001,
+        "gaussian_log_bayes_factor": 2.0000000000000002e-16
+      },
+      {
+        "v": 1e-08,
+        "observation_sign": -1,
+        "geometry": "bounded",
+        "api_correct_posterior": 0.5,
+        "api_log_bayes_factor": 0.0,
+        "api_log_predictive": -0.9189385332046732,
+        "direct32_log_likelihood": [
+          -0.9189385332046731,
+          -0.9189385332046736
+        ],
+        "direct32_log_predictive": -0.9189385332046733,
+        "direct32_correct_posterior": 0.5000000000000001,
+        "direct32_log_bayes_factor": 4.440892098500626e-16,
+        "continuous_log_likelihood": [
+          -0.918938533204673,
+          -0.9189385332046728
+        ],
+        "continuous_log_predictive": -0.9189385332046729,
+        "continuous_correct_posterior": 0.5,
+        "continuous_log_bayes_factor": -2.220446049250313e-16,
+        "continuous_relative_integration_error_max": 2.419543113342356e-12,
+        "noise_response_variance": 1.9999999999999997e-16,
+        "api_direct32_posterior_absolute_error": 1.1102230246251565e-16,
+        "api_direct32_log_bayes_factor_absolute_error": 4.440892098500626e-16,
+        "api_direct32_log_predictive_absolute_error": 1.1102230246251565e-16,
+        "finite32_continuous_posterior_absolute_error": 1.1102230246251565e-16,
+        "finite32_continuous_log_predictive_error": -4.440892098500626e-16,
+        "finite32_continuous_log_bayes_factor_error": 6.661338147750939e-16,
+        "finite32_continuous_branch_log_density_error_max": 7.771561172376096e-16,
+        "gaussian_correct_posterior": 0.5000000000000001,
+        "gaussian_log_bayes_factor": 2.0000000000000002e-16
+      },
+      {
+        "v": 1e-08,
+        "observation_sign": 1,
+        "geometry": "original",
+        "api_correct_posterior": 0.5,
+        "api_log_bayes_factor": 0.0,
+        "api_log_predictive": -0.9189385332046731,
+        "direct32_log_likelihood": [
+          -0.9189385332046736,
+          -0.9189385332046731
+        ],
+        "direct32_log_predictive": -0.9189385332046733,
+        "direct32_correct_posterior": 0.5000000000000001,
+        "direct32_log_bayes_factor": 4.440892098500626e-16,
+        "continuous_log_likelihood": [
+          -0.9189385332046728,
+          -0.918938533204673
+        ],
+        "continuous_log_predictive": -0.9189385332046729,
+        "continuous_correct_posterior": 0.5,
+        "continuous_log_bayes_factor": -2.220446049250313e-16,
+        "continuous_relative_integration_error_max": 2.419543113342356e-12,
+        "noise_response_variance": 2.0000000000000002e-16,
+        "api_direct32_posterior_absolute_error": 1.1102230246251565e-16,
+        "api_direct32_log_bayes_factor_absolute_error": 4.440892098500626e-16,
+        "api_direct32_log_predictive_absolute_error": 2.220446049250313e-16,
+        "finite32_continuous_posterior_absolute_error": 1.1102230246251565e-16,
+        "finite32_continuous_log_predictive_error": -4.440892098500626e-16,
+        "finite32_continuous_log_bayes_factor_error": 6.661338147750939e-16,
+        "finite32_continuous_branch_log_density_error_max": 7.771561172376096e-16,
+        "gaussian_correct_posterior": 0.5000000000000001,
+        "gaussian_log_bayes_factor": 2.0000000000000002e-16
+      },
+      {
+        "v": 1e-08,
+        "observation_sign": 1,
+        "geometry": "bounded",
+        "api_correct_posterior": 0.5,
+        "api_log_bayes_factor": 0.0,
+        "api_log_predictive": -0.9189385332046732,
+        "direct32_log_likelihood": [
+          -0.9189385332046736,
+          -0.9189385332046731
+        ],
+        "direct32_log_predictive": -0.9189385332046733,
+        "direct32_correct_posterior": 0.5000000000000001,
+        "direct32_log_bayes_factor": 4.440892098500626e-16,
+        "continuous_log_likelihood": [
+          -0.9189385332046728,
+          -0.918938533204673
+        ],
+        "continuous_log_predictive": -0.9189385332046729,
+        "continuous_correct_posterior": 0.5,
+        "continuous_log_bayes_factor": -2.220446049250313e-16,
+        "continuous_relative_integration_error_max": 2.419543113342356e-12,
+        "noise_response_variance": 1.9999999999999997e-16,
+        "api_direct32_posterior_absolute_error": 1.1102230246251565e-16,
+        "api_direct32_log_bayes_factor_absolute_error": 4.440892098500626e-16,
+        "api_direct32_log_predictive_absolute_error": 1.1102230246251565e-16,
+        "finite32_continuous_posterior_absolute_error": 1.1102230246251565e-16,
+        "finite32_continuous_log_predictive_error": -4.440892098500626e-16,
+        "finite32_continuous_log_bayes_factor_error": 6.661338147750939e-16,
+        "finite32_continuous_branch_log_density_error_max": 7.771561172376096e-16,
+        "gaussian_correct_posterior": 0.5000000000000001,
+        "gaussian_log_bayes_factor": 2.0000000000000002e-16
+      },
+      {
+        "v": 0.1,
+        "observation_sign": -1,
+        "geometry": "original",
+        "api_correct_posterior": 0.504788888532761,
+        "api_log_bayes_factor": 0.019156139900628588,
+        "api_log_predictive": -0.9520525667680863,
+        "direct32_log_likelihood": [
+          -0.942520365828432,
+          -0.9616765057290606
+        ],
+        "direct32_log_predictive": -0.952052566768086,
+        "direct32_correct_posterior": 0.504788888532761,
+        "direct32_log_bayes_factor": 0.019156139900628588,
+        "continuous_log_likelihood": [
+          -0.9425808641884704,
+          -0.9617379384261437
+        ],
+        "continuous_log_predictive": -0.9521135278221018,
+        "continuous_correct_posterior": 0.5047891220955935,
+        "continuous_log_bayes_factor": 0.01915707423767332,
+        "continuous_relative_integration_error_max": 4.025455947876679e-13,
+        "noise_response_variance": 0.020000000000000004,
+        "api_direct32_posterior_absolute_error": 0.0,
+        "api_direct32_log_bayes_factor_absolute_error": 0.0,
+        "api_direct32_log_predictive_absolute_error": 2.220446049250313e-16,
+        "finite32_continuous_posterior_absolute_error": 2.3356283240794085e-07,
+        "finite32_continuous_log_predictive_error": 6.096105401576235e-05,
+        "finite32_continuous_log_bayes_factor_error": -9.343370447334465e-07,
+        "finite32_continuous_branch_log_density_error_max": 6.143269708314136e-05,
+        "gaussian_correct_posterior": 0.5049998333399998,
+        "gaussian_log_bayes_factor": 0.020000000000000004
+      },
+      {
+        "v": 0.1,
+        "observation_sign": -1,
+        "geometry": "bounded",
+        "api_correct_posterior": 0.5047923629203899,
+        "api_log_bayes_factor": 0.01917003872706191,
+        "api_log_predictive": -0.9516454635723676,
+        "direct32_log_likelihood": [
+          -0.942106379803572,
+          -0.9612764185306344
+        ],
+        "direct32_log_predictive": -0.9516454635723675,
+        "direct32_correct_posterior": 0.50479236292039,
+        "direct32_log_bayes_factor": 0.019170038727062355,
+        "continuous_log_likelihood": [
+          -0.9421673378544893,
+          -0.9613383103143374
+        ],
+        "continuous_log_predictive": -0.9517068840147823,
+        "continuous_correct_posterior": 0.5047925963321406,
+        "continuous_log_bayes_factor": 0.019170972459848112,
+        "continuous_relative_integration_error_max": 4.048618501453607e-13,
+        "noise_response_variance": 0.019607843137254905,
+        "api_direct32_posterior_absolute_error": 1.1102230246251565e-16,
+        "api_direct32_log_bayes_factor_absolute_error": 4.440892098500626e-16,
+        "api_direct32_log_predictive_absolute_error": 1.1102230246251565e-16,
+        "finite32_continuous_posterior_absolute_error": 2.334117505942146e-07,
+        "finite32_continuous_log_predictive_error": 6.142044241486122e-05,
+        "finite32_continuous_log_bayes_factor_error": -9.337327857572575e-07,
+        "finite32_continuous_branch_log_density_error_max": 6.189178370297199e-05,
+        "gaussian_correct_posterior": 0.5049998333399998,
+        "gaussian_log_bayes_factor": 0.020000000000000004
+      },
+      {
+        "v": 0.1,
+        "observation_sign": 1,
+        "geometry": "original",
+        "api_correct_posterior": 0.504788888532761,
+        "api_log_bayes_factor": 0.019156139900628588,
+        "api_log_predictive": -0.9520525667680863,
+        "direct32_log_likelihood": [
+          -0.9616765057290606,
+          -0.942520365828432
+        ],
+        "direct32_log_predictive": -0.952052566768086,
+        "direct32_correct_posterior": 0.504788888532761,
+        "direct32_log_bayes_factor": 0.019156139900628588,
+        "continuous_log_likelihood": [
+          -0.9617379384261437,
+          -0.9425808641884704
+        ],
+        "continuous_log_predictive": -0.9521135278221018,
+        "continuous_correct_posterior": 0.5047891220955935,
+        "continuous_log_bayes_factor": 0.01915707423767332,
+        "continuous_relative_integration_error_max": 4.025455947876679e-13,
+        "noise_response_variance": 0.020000000000000004,
+        "api_direct32_posterior_absolute_error": 0.0,
+        "api_direct32_log_bayes_factor_absolute_error": 0.0,
+        "api_direct32_log_predictive_absolute_error": 2.220446049250313e-16,
+        "finite32_continuous_posterior_absolute_error": 2.3356283240794085e-07,
+        "finite32_continuous_log_predictive_error": 6.096105401576235e-05,
+        "finite32_continuous_log_bayes_factor_error": -9.343370447334465e-07,
+        "finite32_continuous_branch_log_density_error_max": 6.143269708314136e-05,
+        "gaussian_correct_posterior": 0.5049998333399998,
+        "gaussian_log_bayes_factor": 0.020000000000000004
+      },
+      {
+        "v": 0.1,
+        "observation_sign": 1,
+        "geometry": "bounded",
+        "api_correct_posterior": 0.5047923629203899,
+        "api_log_bayes_factor": 0.01917003872706191,
+        "api_log_predictive": -0.9516454635723676,
+        "direct32_log_likelihood": [
+          -0.9612764185306344,
+          -0.942106379803572
+        ],
+        "direct32_log_predictive": -0.9516454635723675,
+        "direct32_correct_posterior": 0.50479236292039,
+        "direct32_log_bayes_factor": 0.019170038727062355,
+        "continuous_log_likelihood": [
+          -0.9613383103143374,
+          -0.9421673378544893
+        ],
+        "continuous_log_predictive": -0.9517068840147823,
+        "continuous_correct_posterior": 0.5047925963321406,
+        "continuous_log_bayes_factor": 0.019170972459848112,
+        "continuous_relative_integration_error_max": 4.048618501453607e-13,
+        "noise_response_variance": 0.019607843137254905,
+        "api_direct32_posterior_absolute_error": 1.1102230246251565e-16,
+        "api_direct32_log_bayes_factor_absolute_error": 4.440892098500626e-16,
+        "api_direct32_log_predictive_absolute_error": 1.1102230246251565e-16,
+        "finite32_continuous_posterior_absolute_error": 2.334117505942146e-07,
+        "finite32_continuous_log_predictive_error": 6.142044241486122e-05,
+        "finite32_continuous_log_bayes_factor_error": -9.337327857572575e-07,
+        "finite32_continuous_branch_log_density_error_max": 6.189178370297199e-05,
+        "gaussian_correct_posterior": 0.5049998333399998,
+        "gaussian_log_bayes_factor": 0.020000000000000004
+      },
+      {
+        "v": 0.5,
+        "observation_sign": -1,
+        "geometry": "original",
+        "api_correct_posterior": 0.5753311436093679,
+        "api_log_bayes_factor": 0.3036360731722372,
+        "api_log_predictive": -1.3554813561382484,
+        "direct32_log_likelihood": [
+          -1.2151436776016293,
+          -1.518779750773866
+        ],
+        "direct32_log_predictive": -1.3554813561382482,
+        "direct32_correct_posterior": 0.5753311436093678,
+        "direct32_log_bayes_factor": 0.30363607317223673,
+        "continuous_log_likelihood": [
+          -1.2151577631968677,
+          -1.5188022562618375
+        ],
+        "continuous_log_predictive": -1.3554990173910437,
+        "continuous_correct_posterior": 0.5753332008001972,
+        "continuous_log_bayes_factor": 0.30364449306496977,
+        "continuous_relative_integration_error_max": 2.7470575493444125e-13,
+        "noise_response_variance": 0.5,
+        "api_direct32_posterior_absolute_error": 1.1102230246251565e-16,
+        "api_direct32_log_bayes_factor_absolute_error": 4.440892098500626e-16,
+        "api_direct32_log_predictive_absolute_error": 2.220446049250313e-16,
+        "finite32_continuous_posterior_absolute_error": 2.057190829463096e-06,
+        "finite32_continuous_log_predictive_error": 1.7661252795564408e-05,
+        "finite32_continuous_log_bayes_factor_error": -8.419892733035894e-06,
+        "finite32_continuous_branch_log_density_error_max": 2.2505487971447025e-05,
+        "gaussian_correct_posterior": 0.6224593312018546,
+        "gaussian_log_bayes_factor": 0.5
+      },
+      {
+        "v": 0.5,
+        "observation_sign": -1,
+        "geometry": "bounded",
+        "api_correct_posterior": 0.5843361851814945,
+        "api_log_bayes_factor": 0.3405996806705387,
+        "api_log_predictive": -1.3005808712011113,
+        "direct32_log_likelihood": [
+          -1.144712492866124,
+          -1.4853121735366628
+        ],
+        "direct32_log_predictive": -1.3005808712011107,
+        "direct32_correct_posterior": 0.5843361851814944,
+        "direct32_log_bayes_factor": 0.3405996806705387,
+        "continuous_log_likelihood": [
+          -1.1447298858494,
+          -1.4853389314626257
+        ],
+        "continuous_log_predictive": -1.3006021568415385,
+        "continuous_correct_posterior": 0.5843384598063521,
+        "continuous_log_bayes_factor": 0.3406090456132258,
+        "continuous_relative_integration_error_max": 2.793652832631543e-13,
+        "noise_response_variance": 0.3333333333333333,
+        "api_direct32_posterior_absolute_error": 1.1102230246251565e-16,
+        "api_direct32_log_bayes_factor_absolute_error": 0.0,
+        "api_direct32_log_predictive_absolute_error": 6.661338147750939e-16,
+        "finite32_continuous_posterior_absolute_error": 2.274624857689922e-06,
+        "finite32_continuous_log_predictive_error": 2.1285640427803898e-05,
+        "finite32_continuous_log_bayes_factor_error": -9.364942687106748e-06,
+        "finite32_continuous_branch_log_density_error_max": 2.6757925962961338e-05,
+        "gaussian_correct_posterior": 0.6224593312018546,
+        "gaussian_log_bayes_factor": 0.5
+      },
+      {
+        "v": 0.5,
+        "observation_sign": 1,
+        "geometry": "original",
+        "api_correct_posterior": 0.5753311436093679,
+        "api_log_bayes_factor": 0.3036360731722372,
+        "api_log_predictive": -1.3554813561382484,
+        "direct32_log_likelihood": [
+          -1.518779750773866,
+          -1.2151436776016293
+        ],
+        "direct32_log_predictive": -1.3554813561382482,
+        "direct32_correct_posterior": 0.5753311436093678,
+        "direct32_log_bayes_factor": 0.30363607317223673,
+        "continuous_log_likelihood": [
+          -1.5188022562618375,
+          -1.2151577631968677
+        ],
+        "continuous_log_predictive": -1.3554990173910437,
+        "continuous_correct_posterior": 0.5753332008001972,
+        "continuous_log_bayes_factor": 0.30364449306496977,
+        "continuous_relative_integration_error_max": 2.7470575493444125e-13,
+        "noise_response_variance": 0.5,
+        "api_direct32_posterior_absolute_error": 1.1102230246251565e-16,
+        "api_direct32_log_bayes_factor_absolute_error": 4.440892098500626e-16,
+        "api_direct32_log_predictive_absolute_error": 2.220446049250313e-16,
+        "finite32_continuous_posterior_absolute_error": 2.057190829463096e-06,
+        "finite32_continuous_log_predictive_error": 1.7661252795564408e-05,
+        "finite32_continuous_log_bayes_factor_error": -8.419892733035894e-06,
+        "finite32_continuous_branch_log_density_error_max": 2.2505487971447025e-05,
+        "gaussian_correct_posterior": 0.6224593312018546,
+        "gaussian_log_bayes_factor": 0.5
+      },
+      {
+        "v": 0.5,
+        "observation_sign": 1,
+        "geometry": "bounded",
+        "api_correct_posterior": 0.5843361851814945,
+        "api_log_bayes_factor": 0.3405996806705387,
+        "api_log_predictive": -1.3005808712011113,
+        "direct32_log_likelihood": [
+          -1.4853121735366628,
+          -1.144712492866124
+        ],
+        "direct32_log_predictive": -1.3005808712011107,
+        "direct32_correct_posterior": 0.5843361851814944,
+        "direct32_log_bayes_factor": 0.3405996806705387,
+        "continuous_log_likelihood": [
+          -1.4853389314626257,
+          -1.1447298858494
+        ],
+        "continuous_log_predictive": -1.3006021568415385,
+        "continuous_correct_posterior": 0.5843384598063521,
+        "continuous_log_bayes_factor": 0.3406090456132258,
+        "continuous_relative_integration_error_max": 2.793652832631543e-13,
+        "noise_response_variance": 0.3333333333333333,
+        "api_direct32_posterior_absolute_error": 1.1102230246251565e-16,
+        "api_direct32_log_bayes_factor_absolute_error": 0.0,
+        "api_direct32_log_predictive_absolute_error": 6.661338147750939e-16,
+        "finite32_continuous_posterior_absolute_error": 2.274624857689922e-06,
+        "finite32_continuous_log_predictive_error": 2.1285640427803898e-05,
+        "finite32_continuous_log_bayes_factor_error": -9.364942687106748e-06,
+        "finite32_continuous_branch_log_density_error_max": 2.6757925962961338e-05,
+        "gaussian_correct_posterior": 0.6224593312018546,
+        "gaussian_log_bayes_factor": 0.5
+      },
+      {
+        "v": 1.0,
+        "observation_sign": -1,
+        "geometry": "original",
+        "api_correct_posterior": 0.653362496020527,
+        "api_log_bayes_factor": 0.6338525225337515,
+        "api_log_predictive": -1.8448140902770351,
+        "direct32_log_likelihood": [
+          -1.5772900893728519,
+          -2.2111426119066033
+        ],
+        "direct32_log_predictive": -1.8448140902770351,
+        "direct32_correct_posterior": 0.653362496020527,
+        "direct32_log_bayes_factor": 0.6338525225337515,
+        "continuous_log_likelihood": [
+          -1.5772905482549002,
+          -2.2111749640803096
+        ],
+        "continuous_log_predictive": -1.8448256044549125,
+        "continuous_correct_posterior": 0.6533697191761308,
+        "continuous_log_bayes_factor": 0.6338844158254093,
+        "continuous_relative_integration_error_max": 1.4227597290085838e-12,
+        "noise_response_variance": 2.0,
+        "api_direct32_posterior_absolute_error": 0.0,
+        "api_direct32_log_bayes_factor_absolute_error": 0.0,
+        "api_direct32_log_predictive_absolute_error": 0.0,
+        "finite32_continuous_posterior_absolute_error": 7.223155603863773e-06,
+        "finite32_continuous_log_predictive_error": 1.1514177877369747e-05,
+        "finite32_continuous_log_bayes_factor_error": -3.189329165786958e-05,
+        "finite32_continuous_branch_log_density_error_max": 3.235217370622934e-05,
+        "gaussian_correct_posterior": 0.8807970779778823,
+        "gaussian_log_bayes_factor": 2.0
+      },
+      {
+        "v": 1.0,
+        "observation_sign": -1,
+        "geometry": "bounded",
+        "api_correct_posterior": 0.7409446583026708,
+        "api_log_bayes_factor": 1.0508842239739664,
+        "api_log_predictive": -1.667783646770226,
+        "direct32_log_likelihood": [
+          -1.2744658078369966,
+          -2.325350031810963
+        ],
+        "direct32_log_predictive": -1.6677836467702254,
+        "direct32_correct_posterior": 0.7409446583026708,
+        "direct32_log_bayes_factor": 1.0508842239739664,
+        "continuous_log_likelihood": [
+          -1.2744775640517343,
+          -2.325398379299357
+        ],
+        "continuous_log_predictive": -1.6678048820213642,
+        "continuous_correct_posterior": 0.7409516817773457,
+        "continuous_log_bayes_factor": 1.0509208152476228,
+        "continuous_relative_integration_error_max": 5.555931914765138e-13,
+        "noise_response_variance": 0.6666666666666666,
+        "api_direct32_posterior_absolute_error": 0.0,
+        "api_direct32_log_bayes_factor_absolute_error": 0.0,
+        "api_direct32_log_predictive_absolute_error": 6.661338147750939e-16,
+        "finite32_continuous_posterior_absolute_error": 7.0234746749608945e-06,
+        "finite32_continuous_log_predictive_error": 2.1235251138840283e-05,
+        "finite32_continuous_log_bayes_factor_error": -3.6591273656405576e-05,
+        "finite32_continuous_branch_log_density_error_max": 4.8347488394107074e-05,
+        "gaussian_correct_posterior": 0.8807970779778823,
+        "gaussian_log_bayes_factor": 2.0
+      },
+      {
+        "v": 1.0,
+        "observation_sign": 1,
+        "geometry": "original",
+        "api_correct_posterior": 0.653362496020527,
+        "api_log_bayes_factor": 0.6338525225337515,
+        "api_log_predictive": -1.8448140902770351,
+        "direct32_log_likelihood": [
+          -2.2111426119066033,
+          -1.5772900893728519
+        ],
+        "direct32_log_predictive": -1.8448140902770351,
+        "direct32_correct_posterior": 0.653362496020527,
+        "direct32_log_bayes_factor": 0.6338525225337515,
+        "continuous_log_likelihood": [
+          -2.2111749640803096,
+          -1.5772905482549002
+        ],
+        "continuous_log_predictive": -1.8448256044549125,
+        "continuous_correct_posterior": 0.6533697191761308,
+        "continuous_log_bayes_factor": 0.6338844158254093,
+        "continuous_relative_integration_error_max": 1.4227597290085838e-12,
+        "noise_response_variance": 2.0,
+        "api_direct32_posterior_absolute_error": 0.0,
+        "api_direct32_log_bayes_factor_absolute_error": 0.0,
+        "api_direct32_log_predictive_absolute_error": 0.0,
+        "finite32_continuous_posterior_absolute_error": 7.223155603863773e-06,
+        "finite32_continuous_log_predictive_error": 1.1514177877369747e-05,
+        "finite32_continuous_log_bayes_factor_error": -3.189329165786958e-05,
+        "finite32_continuous_branch_log_density_error_max": 3.235217370622934e-05,
+        "gaussian_correct_posterior": 0.8807970779778823,
+        "gaussian_log_bayes_factor": 2.0
+      },
+      {
+        "v": 1.0,
+        "observation_sign": 1,
+        "geometry": "bounded",
+        "api_correct_posterior": 0.7409446583026708,
+        "api_log_bayes_factor": 1.0508842239739664,
+        "api_log_predictive": -1.667783646770226,
+        "direct32_log_likelihood": [
+          -2.325350031810963,
+          -1.2744658078369966
+        ],
+        "direct32_log_predictive": -1.6677836467702254,
+        "direct32_correct_posterior": 0.7409446583026708,
+        "direct32_log_bayes_factor": 1.0508842239739664,
+        "continuous_log_likelihood": [
+          -2.325398379299357,
+          -1.2744775640517343
+        ],
+        "continuous_log_predictive": -1.6678048820213642,
+        "continuous_correct_posterior": 0.7409516817773457,
+        "continuous_log_bayes_factor": 1.0509208152476228,
+        "continuous_relative_integration_error_max": 5.555931914765138e-13,
+        "noise_response_variance": 0.6666666666666666,
+        "api_direct32_posterior_absolute_error": 0.0,
+        "api_direct32_log_bayes_factor_absolute_error": 0.0,
+        "api_direct32_log_predictive_absolute_error": 6.661338147750939e-16,
+        "finite32_continuous_posterior_absolute_error": 7.0234746749608945e-06,
+        "finite32_continuous_log_predictive_error": 2.1235251138840283e-05,
+        "finite32_continuous_log_bayes_factor_error": -3.6591273656405576e-05,
+        "finite32_continuous_branch_log_density_error_max": 4.8347488394107074e-05,
+        "gaussian_correct_posterior": 0.8807970779778823,
+        "gaussian_log_bayes_factor": 2.0
+      },
+      {
+        "v": 2.0,
+        "observation_sign": -1,
+        "geometry": "original",
+        "api_correct_posterior": 0.708259450273741,
+        "api_log_bayes_factor": 0.8869456027960467,
+        "api_log_predictive": -2.4624189131675323,
+        "direct32_log_likelihood": [
+          -2.114216529835408,
+          -3.0011621326314537
+        ],
+        "direct32_log_predictive": -2.462418913167532,
+        "direct32_correct_posterior": 0.7082594502737409,
+        "direct32_log_bayes_factor": 0.8869456027960458,
+        "continuous_log_likelihood": [
+          -2.114190117707587,
+          -3.0012008667156045
+        ],
+        "continuous_log_predictive": -2.462411506392941,
+        "continuous_correct_posterior": 0.7082729111226852,
+        "continuous_log_bayes_factor": 0.8870107490080175,
+        "continuous_relative_integration_error_max": 1.014176080577368e-11,
+        "noise_response_variance": 8.0,
+        "api_direct32_posterior_absolute_error": 1.1102230246251565e-16,
+        "api_direct32_log_bayes_factor_absolute_error": 8.881784197001252e-16,
+        "api_direct32_log_predictive_absolute_error": 4.440892098500626e-16,
+        "finite32_continuous_posterior_absolute_error": 1.346084894426891e-05,
+        "finite32_continuous_log_predictive_error": -7.4067745909900395e-06,
+        "finite32_continuous_log_bayes_factor_error": -6.514621197162285e-05,
+        "finite32_continuous_branch_log_density_error_max": 3.8734084150782166e-05,
+        "gaussian_correct_posterior": 0.9996646498695336,
+        "gaussian_log_bayes_factor": 8.0
+      },
+      {
+        "v": 2.0,
+        "observation_sign": -1,
+        "geometry": "bounded",
+        "api_correct_posterior": 0.9511515983880857,
+        "api_log_bayes_factor": 2.968951801668066,
+        "api_log_predictive": -1.9850504652857226,
+        "direct32_log_likelihood": [
+          -1.341985104415666,
+          -4.310936906083732
+        ],
+        "direct32_log_predictive": -1.9850504652857226,
+        "direct32_correct_posterior": 0.9511515983880857,
+        "direct32_log_bayes_factor": 2.9689518016680663,
+        "continuous_log_likelihood": [
+          -1.3419944051677946,
+          -4.311214616492688
+        ],
+        "continuous_log_predictive": -1.9850728757470426,
+        "continuous_correct_posterior": 0.9511640677906726,
+        "continuous_log_bayes_factor": 2.969220211324893,
+        "continuous_relative_integration_error_max": 1.1316877631532939e-11,
+        "noise_response_variance": 0.8888888888888888,
+        "api_direct32_posterior_absolute_error": 0.0,
+        "api_direct32_log_bayes_factor_absolute_error": 4.440892098500626e-16,
+        "api_direct32_log_predictive_absolute_error": 0.0,
+        "finite32_continuous_posterior_absolute_error": 1.2469402586923195e-05,
+        "finite32_continuous_log_predictive_error": 2.2410461320010455e-05,
+        "finite32_continuous_log_bayes_factor_error": -0.00026840965682684015,
+        "finite32_continuous_branch_log_density_error_max": 0.00027771040895530064,
+        "gaussian_correct_posterior": 0.9996646498695336,
+        "gaussian_log_bayes_factor": 8.0
+      },
+      {
+        "v": 2.0,
+        "observation_sign": 1,
+        "geometry": "original",
+        "api_correct_posterior": 0.708259450273741,
+        "api_log_bayes_factor": 0.8869456027960467,
+        "api_log_predictive": -2.4624189131675323,
+        "direct32_log_likelihood": [
+          -3.0011621326314537,
+          -2.114216529835408
+        ],
+        "direct32_log_predictive": -2.462418913167532,
+        "direct32_correct_posterior": 0.7082594502737409,
+        "direct32_log_bayes_factor": 0.8869456027960458,
+        "continuous_log_likelihood": [
+          -3.0012008667156045,
+          -2.114190117707587
+        ],
+        "continuous_log_predictive": -2.462411506392941,
+        "continuous_correct_posterior": 0.7082729111226852,
+        "continuous_log_bayes_factor": 0.8870107490080175,
+        "continuous_relative_integration_error_max": 1.014176080577368e-11,
+        "noise_response_variance": 8.0,
+        "api_direct32_posterior_absolute_error": 1.1102230246251565e-16,
+        "api_direct32_log_bayes_factor_absolute_error": 8.881784197001252e-16,
+        "api_direct32_log_predictive_absolute_error": 4.440892098500626e-16,
+        "finite32_continuous_posterior_absolute_error": 1.346084894426891e-05,
+        "finite32_continuous_log_predictive_error": -7.4067745909900395e-06,
+        "finite32_continuous_log_bayes_factor_error": -6.514621197162285e-05,
+        "finite32_continuous_branch_log_density_error_max": 3.8734084150782166e-05,
+        "gaussian_correct_posterior": 0.9996646498695336,
+        "gaussian_log_bayes_factor": 8.0
+      },
+      {
+        "v": 2.0,
+        "observation_sign": 1,
+        "geometry": "bounded",
+        "api_correct_posterior": 0.9511515983880857,
+        "api_log_bayes_factor": 2.968951801668066,
+        "api_log_predictive": -1.9850504652857226,
+        "direct32_log_likelihood": [
+          -4.310936906083732,
+          -1.341985104415666
+        ],
+        "direct32_log_predictive": -1.9850504652857226,
+        "direct32_correct_posterior": 0.9511515983880857,
+        "direct32_log_bayes_factor": 2.9689518016680663,
+        "continuous_log_likelihood": [
+          -4.311214616492688,
+          -1.3419944051677946
+        ],
+        "continuous_log_predictive": -1.9850728757470426,
+        "continuous_correct_posterior": 0.9511640677906726,
+        "continuous_log_bayes_factor": 2.969220211324893,
+        "continuous_relative_integration_error_max": 1.1316877631532939e-11,
+        "noise_response_variance": 0.8888888888888888,
+        "api_direct32_posterior_absolute_error": 0.0,
+        "api_direct32_log_bayes_factor_absolute_error": 4.440892098500626e-16,
+        "api_direct32_log_predictive_absolute_error": 0.0,
+        "finite32_continuous_posterior_absolute_error": 1.2469402586923195e-05,
+        "finite32_continuous_log_predictive_error": 2.2410461320010455e-05,
+        "finite32_continuous_log_bayes_factor_error": -0.00026840965682684015,
+        "finite32_continuous_branch_log_density_error_max": 0.00027771040895530064,
+        "gaussian_correct_posterior": 0.9996646498695336,
+        "gaussian_log_bayes_factor": 8.0
+      },
+      {
+        "v": 5.0,
+        "observation_sign": -1,
+        "geometry": "original",
+        "api_correct_posterior": 0.7305767343966991,
+        "api_log_bayes_factor": 0.9975506482768388,
+        "api_log_predictive": -3.3492238251126647,
+        "direct32_log_likelihood": [
+          -2.9699976541966,
+          -3.9675483024734395
+        ],
+        "direct32_log_predictive": -3.3492238251126647,
+        "direct32_correct_posterior": 0.7305767343966993,
+        "direct32_log_bayes_factor": 0.9975506482768397,
+        "continuous_log_likelihood": [
+          -2.9699350794051957,
+          -3.9675789813039803
+        ],
+        "continuous_log_predictive": -3.3491863741607673,
+        "continuous_correct_posterior": 0.7305950895198963,
+        "continuous_log_bayes_factor": 0.9976439018987846,
+        "continuous_relative_integration_error_max": 4.5734871275126654e-12,
+        "noise_response_variance": 50.0,
+        "api_direct32_posterior_absolute_error": 2.220446049250313e-16,
+        "api_direct32_log_bayes_factor_absolute_error": 8.881784197001252e-16,
+        "api_direct32_log_predictive_absolute_error": 0.0,
+        "finite32_continuous_posterior_absolute_error": 1.8355123196922563e-05,
+        "finite32_continuous_log_predictive_error": -3.7450951897444185e-05,
+        "finite32_continuous_log_bayes_factor_error": -9.325362194489983e-05,
+        "finite32_continuous_branch_log_density_error_max": 6.257479140403532e-05,
+        "gaussian_correct_posterior": 1.0,
+        "gaussian_log_bayes_factor": 50.0
+      },
+      {
+        "v": 5.0,
+        "observation_sign": -1,
+        "geometry": "bounded",
+        "api_correct_posterior": 0.9986764428988977,
+        "api_log_bayes_factor": 6.62610795943813,
+        "api_log_predictive": -2.0587150840972535,
+        "direct32_log_likelihood": [
+          -1.366892337313748,
+          -7.993000296751884
+        ],
+        "direct32_log_predictive": -2.0587150840972535,
+        "direct32_correct_posterior": 0.9986764428988985,
+        "direct32_log_bayes_factor": 6.626107959438135,
+        "continuous_log_likelihood": [
+          -1.366900748448264,
+          -8.002804234820202
+        ],
+        "continuous_log_predictive": -2.058736396961852,
+        "continuous_correct_posterior": 0.9986893276359223,
+        "continuous_log_bayes_factor": 6.635903486371937,
+        "continuous_relative_integration_error_max": 2.5027470180272684e-13,
+        "noise_response_variance": 0.9803921568627451,
+        "api_direct32_posterior_absolute_error": 7.771561172376096e-16,
+        "api_direct32_log_bayes_factor_absolute_error": 5.329070518200751e-15,
+        "api_direct32_log_predictive_absolute_error": 0.0,
+        "finite32_continuous_posterior_absolute_error": 1.2884737023877157e-05,
+        "finite32_continuous_log_predictive_error": 2.131286459849946e-05,
+        "finite32_continuous_log_bayes_factor_error": -0.009795526933801924,
+        "finite32_continuous_branch_log_density_error_max": 0.009803938068317919,
+        "gaussian_correct_posterior": 1.0,
+        "gaussian_log_bayes_factor": 50.0
+      },
+      {
+        "v": 5.0,
+        "observation_sign": 1,
+        "geometry": "original",
+        "api_correct_posterior": 0.7305767343966991,
+        "api_log_bayes_factor": 0.9975506482768388,
+        "api_log_predictive": -3.3492238251126647,
+        "direct32_log_likelihood": [
+          -3.9675483024734395,
+          -2.9699976541966
+        ],
+        "direct32_log_predictive": -3.3492238251126647,
+        "direct32_correct_posterior": 0.7305767343966993,
+        "direct32_log_bayes_factor": 0.9975506482768397,
+        "continuous_log_likelihood": [
+          -3.9675789813039803,
+          -2.9699350794051957
+        ],
+        "continuous_log_predictive": -3.3491863741607673,
+        "continuous_correct_posterior": 0.7305950895198963,
+        "continuous_log_bayes_factor": 0.9976439018987846,
+        "continuous_relative_integration_error_max": 4.5734871275126654e-12,
+        "noise_response_variance": 50.0,
+        "api_direct32_posterior_absolute_error": 2.220446049250313e-16,
+        "api_direct32_log_bayes_factor_absolute_error": 8.881784197001252e-16,
+        "api_direct32_log_predictive_absolute_error": 0.0,
+        "finite32_continuous_posterior_absolute_error": 1.8355123196922563e-05,
+        "finite32_continuous_log_predictive_error": -3.7450951897444185e-05,
+        "finite32_continuous_log_bayes_factor_error": -9.325362194489983e-05,
+        "finite32_continuous_branch_log_density_error_max": 6.257479140403532e-05,
+        "gaussian_correct_posterior": 1.0,
+        "gaussian_log_bayes_factor": 50.0
+      },
+      {
+        "v": 5.0,
+        "observation_sign": 1,
+        "geometry": "bounded",
+        "api_correct_posterior": 0.9986764428988977,
+        "api_log_bayes_factor": 6.62610795943813,
+        "api_log_predictive": -2.0587150840972535,
+        "direct32_log_likelihood": [
+          -7.993000296751884,
+          -1.366892337313748
+        ],
+        "direct32_log_predictive": -2.0587150840972535,
+        "direct32_correct_posterior": 0.9986764428988985,
+        "direct32_log_bayes_factor": 6.626107959438135,
+        "continuous_log_likelihood": [
+          -8.002804234820202,
+          -1.366900748448264
+        ],
+        "continuous_log_predictive": -2.058736396961852,
+        "continuous_correct_posterior": 0.9986893276359223,
+        "continuous_log_bayes_factor": 6.635903486371937,
+        "continuous_relative_integration_error_max": 2.5027470180272684e-13,
+        "noise_response_variance": 0.9803921568627451,
+        "api_direct32_posterior_absolute_error": 7.771561172376096e-16,
+        "api_direct32_log_bayes_factor_absolute_error": 5.329070518200751e-15,
+        "api_direct32_log_predictive_absolute_error": 0.0,
+        "finite32_continuous_posterior_absolute_error": 1.2884737023877157e-05,
+        "finite32_continuous_log_predictive_error": 2.131286459849946e-05,
+        "finite32_continuous_log_bayes_factor_error": -0.009795526933801924,
+        "finite32_continuous_branch_log_density_error_max": 0.009803938068317919,
+        "gaussian_correct_posterior": 1.0,
+        "gaussian_log_bayes_factor": 50.0
+      },
+      {
+        "v": 10.0,
+        "observation_sign": -1,
+        "geometry": "original",
+        "api_correct_posterior": 0.7340851896052699,
+        "api_log_bayes_factor": 1.0154490881993254,
+        "api_log_predictive": -4.03745150336011,
+        "direct32_log_likelihood": [
+          -3.6534345177699503,
+          -4.668883605969277
+        ],
+        "direct32_log_predictive": -4.037451503360108,
+        "direct32_correct_posterior": 0.7340851896052716,
+        "direct32_log_bayes_factor": 1.0154490881993263,
+        "continuous_log_likelihood": [
+          -3.6533616255726975,
+          -4.6689129256685895
+        ],
+        "continuous_log_predictive": -4.037405789800292,
+        "continuous_correct_posterior": 0.7341051413116162,
+        "continuous_log_bayes_factor": 1.015551300095892,
+        "continuous_relative_integration_error_max": 6.487661514099282e-12,
+        "noise_response_variance": 200.0,
+        "api_direct32_posterior_absolute_error": 1.6653345369377348e-15,
+        "api_direct32_log_bayes_factor_absolute_error": 8.881784197001252e-16,
+        "api_direct32_log_predictive_absolute_error": 1.7763568394002505e-15,
+        "finite32_continuous_posterior_absolute_error": 1.9951706344611964e-05,
+        "finite32_continuous_log_predictive_error": -4.571355981575209e-05,
+        "finite32_continuous_log_bayes_factor_error": -0.00010221189656567375,
+        "finite32_continuous_branch_log_density_error_max": 7.289219725281626e-05,
+        "gaussian_correct_posterior": 1.0,
+        "gaussian_log_bayes_factor": 200.0
+      },
+      {
+        "v": 10.0,
+        "observation_sign": -1,
+        "geometry": "bounded",
+        "api_correct_posterior": 0.9999189767980057,
+        "api_log_bayes_factor": 9.420693973426282,
+        "api_log_predictive": -2.0638096004802056,
+        "direct32_log_likelihood": [
+          -1.3707434464048136,
+          -10.791437419831142
+        ],
+        "direct32_log_predictive": -2.0638096004802056,
+        "direct32_correct_posterior": 0.9999189767980037,
+        "direct32_log_bayes_factor": 9.420693973426328,
+        "continuous_log_likelihood": [
+          -1.370751719982843,
+          -10.784013416419574
+        ],
+        "continuous_log_predictive": -2.063817269628174,
+        "continuous_correct_posterior": 0.999918372417098,
+        "continuous_log_bayes_factor": 9.41326169643673,
+        "continuous_relative_integration_error_max": 7.397264934768263e-12,
+        "noise_response_variance": 0.9950248756218906,
+        "api_direct32_posterior_absolute_error": 1.9984014443252818e-15,
+        "api_direct32_log_bayes_factor_absolute_error": 4.618527782440651e-14,
+        "api_direct32_log_predictive_absolute_error": 0.0,
+        "finite32_continuous_posterior_absolute_error": 6.043809056555105e-07,
+        "finite32_continuous_log_predictive_error": 7.6691479682367e-06,
+        "finite32_continuous_log_bayes_factor_error": 0.007432276989597142,
+        "finite32_continuous_branch_log_density_error_max": 0.007424003411568236,
+        "gaussian_correct_posterior": 1.0,
+        "gaussian_log_bayes_factor": 200.0
+      },
+      {
+        "v": 10.0,
+        "observation_sign": 1,
+        "geometry": "original",
+        "api_correct_posterior": 0.7340851896052699,
+        "api_log_bayes_factor": 1.0154490881993254,
+        "api_log_predictive": -4.03745150336011,
+        "direct32_log_likelihood": [
+          -4.668883605969277,
+          -3.6534345177699503
+        ],
+        "direct32_log_predictive": -4.037451503360108,
+        "direct32_correct_posterior": 0.7340851896052716,
+        "direct32_log_bayes_factor": 1.0154490881993263,
+        "continuous_log_likelihood": [
+          -4.6689129256685895,
+          -3.6533616255726975
+        ],
+        "continuous_log_predictive": -4.037405789800292,
+        "continuous_correct_posterior": 0.7341051413116162,
+        "continuous_log_bayes_factor": 1.015551300095892,
+        "continuous_relative_integration_error_max": 6.487661514099282e-12,
+        "noise_response_variance": 200.0,
+        "api_direct32_posterior_absolute_error": 1.6653345369377348e-15,
+        "api_direct32_log_bayes_factor_absolute_error": 8.881784197001252e-16,
+        "api_direct32_log_predictive_absolute_error": 1.7763568394002505e-15,
+        "finite32_continuous_posterior_absolute_error": 1.9951706344611964e-05,
+        "finite32_continuous_log_predictive_error": -4.571355981575209e-05,
+        "finite32_continuous_log_bayes_factor_error": -0.00010221189656567375,
+        "finite32_continuous_branch_log_density_error_max": 7.289219725281626e-05,
+        "gaussian_correct_posterior": 1.0,
+        "gaussian_log_bayes_factor": 200.0
+      },
+      {
+        "v": 10.0,
+        "observation_sign": 1,
+        "geometry": "bounded",
+        "api_correct_posterior": 0.9999189767980057,
+        "api_log_bayes_factor": 9.420693973426282,
+        "api_log_predictive": -2.0638096004802056,
+        "direct32_log_likelihood": [
+          -10.791437419831142,
+          -1.3707434464048136
+        ],
+        "direct32_log_predictive": -2.0638096004802056,
+        "direct32_correct_posterior": 0.9999189767980037,
+        "direct32_log_bayes_factor": 9.420693973426328,
+        "continuous_log_likelihood": [
+          -10.784013416419574,
+          -1.370751719982843
+        ],
+        "continuous_log_predictive": -2.063817269628174,
+        "continuous_correct_posterior": 0.999918372417098,
+        "continuous_log_bayes_factor": 9.41326169643673,
+        "continuous_relative_integration_error_max": 7.397264934768263e-12,
+        "noise_response_variance": 0.9950248756218906,
+        "api_direct32_posterior_absolute_error": 1.9984014443252818e-15,
+        "api_direct32_log_bayes_factor_absolute_error": 4.618527782440651e-14,
+        "api_direct32_log_predictive_absolute_error": 0.0,
+        "finite32_continuous_posterior_absolute_error": 6.043809056555105e-07,
+        "finite32_continuous_log_predictive_error": 7.6691479682367e-06,
+        "finite32_continuous_log_bayes_factor_error": 0.007432276989597142,
+        "finite32_continuous_branch_log_density_error_max": 0.007424003411568236,
+        "gaussian_correct_posterior": 1.0,
+        "gaussian_log_bayes_factor": 200.0
+      },
+      {
+        "v": 100.0,
+        "observation_sign": -1,
+        "geometry": "original",
+        "api_correct_posterior": 0.735261591777826,
+        "api_log_bayes_factor": 1.0214841434126356,
+        "api_log_predictive": -6.338361064876153,
+        "direct32_log_likelihood": [
+          -5.952742820224655,
+          -6.9742269636374425
+        ],
+        "direct32_log_predictive": -6.338361064875756,
+        "direct32_correct_posterior": 0.7352615917775888,
+        "direct32_log_bayes_factor": 1.0214841434127875,
+        "continuous_log_likelihood": [
+          -5.952665957280669,
+          -6.974255874835581
+        ],
+        "continuous_log_predictive": -6.338312203320905,
+        "continuous_correct_posterior": 0.7352821804117905,
+        "continuous_log_bayes_factor": 1.0215899175549126,
+        "continuous_relative_integration_error_max": 8.87666162653011e-12,
+        "noise_response_variance": 20000.0,
+        "api_direct32_posterior_absolute_error": 2.3725466036239595e-13,
+        "api_direct32_log_bayes_factor_absolute_error": 1.5187850976872141e-13,
+        "api_direct32_log_predictive_absolute_error": 3.97015753605956e-13,
+        "finite32_continuous_posterior_absolute_error": 2.0588634201734735e-05,
+        "finite32_continuous_log_predictive_error": -4.8861554851065137e-05,
+        "finite32_continuous_log_bayes_factor_error": -0.0001057741421250924,
+        "finite32_continuous_branch_log_density_error_max": 7.686294398645543e-05,
+        "gaussian_correct_posterior": 1.0,
+        "gaussian_log_bayes_factor": 20000.0
+      },
+      {
+        "v": 100.0,
+        "observation_sign": -1,
+        "geometry": "bounded",
+        "api_correct_posterior": 1.0,
+        "api_log_bayes_factor": 205.38924245260296,
+        "api_log_predictive": -2.0651790821187,
+        "direct32_log_likelihood": [
+          -1.3720319015587545,
+          -206.76127435416157
+        ],
+        "direct32_log_predictive": -2.0651790821187,
+        "direct32_correct_posterior": 1.0,
+        "direct32_log_bayes_factor": 205.38924245260282,
+        "continuous_log_likelihood": [
+          -1.3720401291026172,
+          -19.996908730355667
+        ],
+        "continuous_log_predictive": -2.0651873015094706,
+        "continuous_correct_posterior": 0.9999999918469081,
+        "continuous_log_bayes_factor": 18.62486860125305,
+        "continuous_relative_integration_error_max": 1.4581026142167909e-12,
+        "noise_response_variance": 0.999950002499875,
+        "api_direct32_posterior_absolute_error": 0.0,
+        "api_direct32_log_bayes_factor_absolute_error": 1.4210854715202004e-13,
+        "api_direct32_log_predictive_absolute_error": 0.0,
+        "finite32_continuous_posterior_absolute_error": 8.153091868301487e-09,
+        "finite32_continuous_log_predictive_error": 8.219390770669577e-06,
+        "finite32_continuous_log_bayes_factor_error": 186.76437385134977,
+        "finite32_continuous_branch_log_density_error_max": 186.7643656238059,
+        "gaussian_correct_posterior": 1.0,
+        "gaussian_log_bayes_factor": 20000.0
+      },
+      {
+        "v": 100.0,
+        "observation_sign": 1,
+        "geometry": "original",
+        "api_correct_posterior": 0.735261591777826,
+        "api_log_bayes_factor": 1.0214841434126356,
+        "api_log_predictive": -6.338361064876153,
+        "direct32_log_likelihood": [
+          -6.9742269636374425,
+          -5.952742820224655
+        ],
+        "direct32_log_predictive": -6.338361064875756,
+        "direct32_correct_posterior": 0.7352615917775888,
+        "direct32_log_bayes_factor": 1.0214841434127875,
+        "continuous_log_likelihood": [
+          -6.974255874835581,
+          -5.952665957280669
+        ],
+        "continuous_log_predictive": -6.338312203320905,
+        "continuous_correct_posterior": 0.7352821804117905,
+        "continuous_log_bayes_factor": 1.0215899175549126,
+        "continuous_relative_integration_error_max": 8.87666162653011e-12,
+        "noise_response_variance": 20000.0,
+        "api_direct32_posterior_absolute_error": 2.3725466036239595e-13,
+        "api_direct32_log_bayes_factor_absolute_error": 1.5187850976872141e-13,
+        "api_direct32_log_predictive_absolute_error": 3.97015753605956e-13,
+        "finite32_continuous_posterior_absolute_error": 2.0588634201734735e-05,
+        "finite32_continuous_log_predictive_error": -4.8861554851065137e-05,
+        "finite32_continuous_log_bayes_factor_error": -0.0001057741421250924,
+        "finite32_continuous_branch_log_density_error_max": 7.686294398645543e-05,
+        "gaussian_correct_posterior": 1.0,
+        "gaussian_log_bayes_factor": 20000.0
+      },
+      {
+        "v": 100.0,
+        "observation_sign": 1,
+        "geometry": "bounded",
+        "api_correct_posterior": 1.0,
+        "api_log_bayes_factor": 205.38924245260296,
+        "api_log_predictive": -2.0651790821187,
+        "direct32_log_likelihood": [
+          -206.76127435416157,
+          -1.3720319015587545
+        ],
+        "direct32_log_predictive": -2.0651790821187,
+        "direct32_correct_posterior": 1.0,
+        "direct32_log_bayes_factor": 205.38924245260282,
+        "continuous_log_likelihood": [
+          -19.996908730355667,
+          -1.3720401291026172
+        ],
+        "continuous_log_predictive": -2.0651873015094706,
+        "continuous_correct_posterior": 0.9999999918469081,
+        "continuous_log_bayes_factor": 18.62486860125305,
+        "continuous_relative_integration_error_max": 1.4581026142167909e-12,
+        "noise_response_variance": 0.999950002499875,
+        "api_direct32_posterior_absolute_error": 0.0,
+        "api_direct32_log_bayes_factor_absolute_error": 1.4210854715202004e-13,
+        "api_direct32_log_predictive_absolute_error": 0.0,
+        "finite32_continuous_posterior_absolute_error": 8.153091868301487e-09,
+        "finite32_continuous_log_predictive_error": 8.219390770669577e-06,
+        "finite32_continuous_log_bayes_factor_error": 186.76437385134977,
+        "finite32_continuous_branch_log_density_error_max": 186.7643656238059,
+        "gaussian_correct_posterior": 1.0,
+        "gaussian_log_bayes_factor": 20000.0
+      },
+      {
+        "v": 10000.0,
+        "observation_sign": -1,
+        "geometry": "original",
+        "api_correct_posterior": 0.7352735181481816,
+        "api_log_bayes_factor": 1.0215454250574112,
+        "api_log_predictive": -10.943514190614223,
+        "direct32_log_likelihood": [
+          -10.557879719919494,
+          -11.57942514940693
+        ],
+        "direct32_log_predictive": -10.943514188982892,
+        "direct32_correct_posterior": 0.7352735210615727,
+        "direct32_log_bayes_factor": 1.0215454294874355,
+        "continuous_log_likelihood": [
+          -10.557802815212998,
+          -11.579454056611645
+        ],
+        "continuous_log_predictive": -10.943465294401454,
+        "continuous_correct_posterior": 0.735294116453287,
+        "continuous_log_bayes_factor": 1.0216512413986472,
+        "continuous_relative_integration_error_max": 8.90250211632137e-12,
+        "noise_response_variance": 200000000.0,
+        "api_direct32_posterior_absolute_error": 2.9133910839362898e-09,
+        "api_direct32_log_bayes_factor_absolute_error": 4.4300243473571754e-09,
+        "api_direct32_log_predictive_absolute_error": 1.6313315143179352e-09,
+        "finite32_continuous_posterior_absolute_error": 2.059539171428426e-05,
+        "finite32_continuous_log_predictive_error": -4.889458143786385e-05,
+        "finite32_continuous_log_bayes_factor_error": -0.00010581191121161737,
+        "finite32_continuous_branch_log_density_error_max": 7.690470649635017e-05,
+        "gaussian_correct_posterior": 1.0,
+        "gaussian_log_bayes_factor": 200000000.0
+      },
+      {
+        "v": 10000.0,
+        "observation_sign": -1,
+        "geometry": "bounded",
+        "api_correct_posterior": 1.0,
+        "api_log_bayes_factor": 1978730.4642417654,
+        "api_log_predictive": -2.065192140716195,
+        "direct32_log_likelihood": [
+          -1.3720449601562494,
+          -1978731.8362866926
+        ],
+        "direct32_log_predictive": -2.065192140716195,
+        "direct32_correct_posterior": 1.0,
+        "direct32_log_bayes_factor": 1978730.4642417324,
+        "continuous_log_likelihood": [
+          -1.372053187233516,
+          -38.4176144799318
+        ],
+        "continuous_log_predictive": -2.0652003677934614,
+        "continuous_correct_posterior": 1.0,
+        "continuous_log_bayes_factor": 37.04556129269828,
+        "continuous_relative_integration_error_max": 3.2521699907487425e-13,
+        "noise_response_variance": 0.999999995,
+        "api_direct32_posterior_absolute_error": 0.0,
+        "api_direct32_log_bayes_factor_absolute_error": 3.306195139884949e-08,
+        "api_direct32_log_predictive_absolute_error": 0.0,
+        "finite32_continuous_posterior_absolute_error": 0.0,
+        "finite32_continuous_log_predictive_error": 8.227077266553806e-06,
+        "finite32_continuous_log_bayes_factor_error": 1978693.4186804397,
+        "finite32_continuous_branch_log_density_error_max": 1978693.4186722126,
+        "gaussian_correct_posterior": 1.0,
+        "gaussian_log_bayes_factor": 200000000.0
+      },
+      {
+        "v": 10000.0,
+        "observation_sign": 1,
+        "geometry": "original",
+        "api_correct_posterior": 0.7352735181481816,
+        "api_log_bayes_factor": 1.0215454250574112,
+        "api_log_predictive": -10.943514190614223,
+        "direct32_log_likelihood": [
+          -11.57942514940693,
+          -10.557879719919494
+        ],
+        "direct32_log_predictive": -10.943514188982892,
+        "direct32_correct_posterior": 0.7352735210615727,
+        "direct32_log_bayes_factor": 1.0215454294874355,
+        "continuous_log_likelihood": [
+          -11.579454056611645,
+          -10.557802815212998
+        ],
+        "continuous_log_predictive": -10.943465294401454,
+        "continuous_correct_posterior": 0.735294116453287,
+        "continuous_log_bayes_factor": 1.0216512413986472,
+        "continuous_relative_integration_error_max": 8.90250211632137e-12,
+        "noise_response_variance": 200000000.0,
+        "api_direct32_posterior_absolute_error": 2.9133910839362898e-09,
+        "api_direct32_log_bayes_factor_absolute_error": 4.4300243473571754e-09,
+        "api_direct32_log_predictive_absolute_error": 1.6313315143179352e-09,
+        "finite32_continuous_posterior_absolute_error": 2.059539171428426e-05,
+        "finite32_continuous_log_predictive_error": -4.889458143786385e-05,
+        "finite32_continuous_log_bayes_factor_error": -0.00010581191121161737,
+        "finite32_continuous_branch_log_density_error_max": 7.690470649635017e-05,
+        "gaussian_correct_posterior": 1.0,
+        "gaussian_log_bayes_factor": 200000000.0
+      },
+      {
+        "v": 10000.0,
+        "observation_sign": 1,
+        "geometry": "bounded",
+        "api_correct_posterior": 1.0,
+        "api_log_bayes_factor": 1978730.4642417654,
+        "api_log_predictive": -2.065192140716195,
+        "direct32_log_likelihood": [
+          -1978731.8362866926,
+          -1.3720449601562494
+        ],
+        "direct32_log_predictive": -2.065192140716195,
+        "direct32_correct_posterior": 1.0,
+        "direct32_log_bayes_factor": 1978730.4642417324,
+        "continuous_log_likelihood": [
+          -38.4176144799318,
+          -1.372053187233516
+        ],
+        "continuous_log_predictive": -2.0652003677934614,
+        "continuous_correct_posterior": 1.0,
+        "continuous_log_bayes_factor": 37.04556129269828,
+        "continuous_relative_integration_error_max": 3.2521699907487425e-13,
+        "noise_response_variance": 0.999999995,
+        "api_direct32_posterior_absolute_error": 0.0,
+        "api_direct32_log_bayes_factor_absolute_error": 3.306195139884949e-08,
+        "api_direct32_log_predictive_absolute_error": 0.0,
+        "finite32_continuous_posterior_absolute_error": 0.0,
+        "finite32_continuous_log_predictive_error": 8.227077266553806e-06,
+        "finite32_continuous_log_bayes_factor_error": 1978693.4186804397,
+        "finite32_continuous_branch_log_density_error_max": 1978693.4186722126,
+        "gaussian_correct_posterior": 1.0,
+        "gaussian_log_bayes_factor": 200000000.0
+      }
+    ]
+  },
+  "fixed_xi": {
+    "original_formula": "2v^2/(1+2xi*v^2)",
+    "bounded_formula": "2v^2/(1+xi*2v^2/(1+2v^2))",
+    "rows": [
+      {
+        "v": 0.0,
+        "observation_sign": -1,
+        "geometry": "original",
+        "xi": 1.0,
+        "analytic_log_bayes_factor": 0.0,
+        "api_log_bayes_factor": 0.0,
+        "absolute_error": 0.0
+      },
+      {
+        "v": 0.0,
+        "observation_sign": -1,
+        "geometry": "bounded",
+        "xi": 1.0,
+        "analytic_log_bayes_factor": 0.0,
+        "api_log_bayes_factor": 0.0,
+        "absolute_error": 0.0
+      },
+      {
+        "v": 0.0,
+        "observation_sign": 1,
+        "geometry": "original",
+        "xi": 1.0,
+        "analytic_log_bayes_factor": 0.0,
+        "api_log_bayes_factor": 0.0,
+        "absolute_error": 0.0
+      },
+      {
+        "v": 0.0,
+        "observation_sign": 1,
+        "geometry": "bounded",
+        "xi": 1.0,
+        "analytic_log_bayes_factor": 0.0,
+        "api_log_bayes_factor": 0.0,
+        "absolute_error": 0.0
+      },
+      {
+        "v": 1e-12,
+        "observation_sign": -1,
+        "geometry": "original",
+        "xi": 1.0,
+        "analytic_log_bayes_factor": 2e-24,
+        "api_log_bayes_factor": 2e-24,
+        "absolute_error": 0.0
+      },
+      {
+        "v": 1e-12,
+        "observation_sign": -1,
+        "geometry": "bounded",
+        "xi": 1.0,
+        "analytic_log_bayes_factor": 2e-24,
+        "api_log_bayes_factor": 2e-24,
+        "absolute_error": 0.0
+      },
+      {
+        "v": 1e-12,
+        "observation_sign": 1,
+        "geometry": "original",
+        "xi": 1.0,
+        "analytic_log_bayes_factor": 2e-24,
+        "api_log_bayes_factor": 2e-24,
+        "absolute_error": 0.0
+      },
+      {
+        "v": 1e-12,
+        "observation_sign": 1,
+        "geometry": "bounded",
+        "xi": 1.0,
+        "analytic_log_bayes_factor": 2e-24,
+        "api_log_bayes_factor": 2e-24,
+        "absolute_error": 0.0
+      },
+      {
+        "v": 1e-08,
+        "observation_sign": -1,
+        "geometry": "original",
+        "xi": 1.0,
+        "analytic_log_bayes_factor": 1.9999999999999997e-16,
+        "api_log_bayes_factor": 1.9999999999999997e-16,
+        "absolute_error": 0.0
+      },
+      {
+        "v": 1e-08,
+        "observation_sign": -1,
+        "geometry": "bounded",
+        "xi": 1.0,
+        "analytic_log_bayes_factor": 1.9999999999999997e-16,
+        "api_log_bayes_factor": 1.9999999999999997e-16,
+        "absolute_error": 0.0
+      },
+      {
+        "v": 1e-08,
+        "observation_sign": 1,
+        "geometry": "original",
+        "xi": 1.0,
+        "analytic_log_bayes_factor": 1.9999999999999997e-16,
+        "api_log_bayes_factor": 1.9999999999999997e-16,
+        "absolute_error": 0.0
+      },
+      {
+        "v": 1e-08,
+        "observation_sign": 1,
+        "geometry": "bounded",
+        "xi": 1.0,
+        "analytic_log_bayes_factor": 1.9999999999999997e-16,
+        "api_log_bayes_factor": 1.9999999999999997e-16,
+        "absolute_error": 0.0
+      },
+      {
+        "v": 0.1,
+        "observation_sign": -1,
+        "geometry": "original",
+        "xi": 1.0,
+        "analytic_log_bayes_factor": 0.019607843137254905,
+        "api_log_bayes_factor": 0.019607843137254905,
+        "absolute_error": 0.0
+      },
+      {
+        "v": 0.1,
+        "observation_sign": -1,
+        "geometry": "bounded",
+        "xi": 1.0,
+        "analytic_log_bayes_factor": 0.01961538461538462,
+        "api_log_bayes_factor": 0.019615384615384618,
+        "absolute_error": 3.469446951953614e-18
+      },
+      {
+        "v": 0.1,
+        "observation_sign": 1,
+        "geometry": "original",
+        "xi": 1.0,
+        "analytic_log_bayes_factor": 0.019607843137254905,
+        "api_log_bayes_factor": 0.019607843137254905,
+        "absolute_error": 0.0
+      },
+      {
+        "v": 0.1,
+        "observation_sign": 1,
+        "geometry": "bounded",
+        "xi": 1.0,
+        "analytic_log_bayes_factor": 0.01961538461538462,
+        "api_log_bayes_factor": 0.019615384615384618,
+        "absolute_error": 3.469446951953614e-18
+      },
+      {
+        "v": 0.5,
+        "observation_sign": -1,
+        "geometry": "original",
+        "xi": 1.0,
+        "analytic_log_bayes_factor": 0.3333333333333333,
+        "api_log_bayes_factor": 0.33333333333333337,
+        "absolute_error": 5.551115123125783e-17
+      },
+      {
+        "v": 0.5,
+        "observation_sign": -1,
+        "geometry": "bounded",
+        "xi": 1.0,
+        "analytic_log_bayes_factor": 0.375,
+        "api_log_bayes_factor": 0.37499999999999994,
+        "absolute_error": 5.551115123125783e-17
+      },
+      {
+        "v": 0.5,
+        "observation_sign": 1,
+        "geometry": "original",
+        "xi": 1.0,
+        "analytic_log_bayes_factor": 0.3333333333333333,
+        "api_log_bayes_factor": 0.33333333333333337,
+        "absolute_error": 5.551115123125783e-17
+      },
+      {
+        "v": 0.5,
+        "observation_sign": 1,
+        "geometry": "bounded",
+        "xi": 1.0,
+        "analytic_log_bayes_factor": 0.375,
+        "api_log_bayes_factor": 0.37499999999999994,
+        "absolute_error": 5.551115123125783e-17
+      },
+      {
+        "v": 1.0,
+        "observation_sign": -1,
+        "geometry": "original",
+        "xi": 1.0,
+        "analytic_log_bayes_factor": 0.6666666666666666,
+        "api_log_bayes_factor": 0.6666666666666663,
+        "absolute_error": 3.3306690738754696e-16
+      },
+      {
+        "v": 1.0,
+        "observation_sign": -1,
+        "geometry": "bounded",
+        "xi": 1.0,
+        "analytic_log_bayes_factor": 1.2000000000000002,
+        "api_log_bayes_factor": 1.2,
+        "absolute_error": 2.220446049250313e-16
+      },
+      {
+        "v": 1.0,
+        "observation_sign": 1,
+        "geometry": "original",
+        "xi": 1.0,
+        "analytic_log_bayes_factor": 0.6666666666666666,
+        "api_log_bayes_factor": 0.6666666666666663,
+        "absolute_error": 3.3306690738754696e-16
+      },
+      {
+        "v": 1.0,
+        "observation_sign": 1,
+        "geometry": "bounded",
+        "xi": 1.0,
+        "analytic_log_bayes_factor": 1.2000000000000002,
+        "api_log_bayes_factor": 1.2,
+        "absolute_error": 2.220446049250313e-16
+      },
+      {
+        "v": 2.0,
+        "observation_sign": -1,
+        "geometry": "original",
+        "xi": 1.0,
+        "analytic_log_bayes_factor": 0.8888888888888888,
+        "api_log_bayes_factor": 0.8888888888888895,
+        "absolute_error": 6.661338147750939e-16
+      },
+      {
+        "v": 2.0,
+        "observation_sign": -1,
+        "geometry": "bounded",
+        "xi": 1.0,
+        "analytic_log_bayes_factor": 4.235294117647059,
+        "api_log_bayes_factor": 4.23529411764706,
+        "absolute_error": 8.881784197001252e-16
+      },
+      {
+        "v": 2.0,
+        "observation_sign": 1,
+        "geometry": "original",
+        "xi": 1.0,
+        "analytic_log_bayes_factor": 0.8888888888888888,
+        "api_log_bayes_factor": 0.8888888888888895,
+        "absolute_error": 6.661338147750939e-16
+      },
+      {
+        "v": 2.0,
+        "observation_sign": 1,
+        "geometry": "bounded",
+        "xi": 1.0,
+        "analytic_log_bayes_factor": 4.235294117647059,
+        "api_log_bayes_factor": 4.23529411764706,
+        "absolute_error": 8.881784197001252e-16
+      },
+      {
+        "v": 5.0,
+        "observation_sign": -1,
+        "geometry": "original",
+        "xi": 1.0,
+        "analytic_log_bayes_factor": 0.9803921568627451,
+        "api_log_bayes_factor": 0.9803921568627434,
+        "absolute_error": 1.6653345369377348e-15
+      },
+      {
+        "v": 5.0,
+        "observation_sign": -1,
+        "geometry": "bounded",
+        "xi": 1.0,
+        "analytic_log_bayes_factor": 25.247524752475247,
+        "api_log_bayes_factor": 25.247524752475247,
+        "absolute_error": 0.0
+      },
+      {
+        "v": 5.0,
+        "observation_sign": 1,
+        "geometry": "original",
+        "xi": 1.0,
+        "analytic_log_bayes_factor": 0.9803921568627451,
+        "api_log_bayes_factor": 0.9803921568627434,
+        "absolute_error": 1.6653345369377348e-15
+      },
+      {
+        "v": 5.0,
+        "observation_sign": 1,
+        "geometry": "bounded",
+        "xi": 1.0,
+        "analytic_log_bayes_factor": 25.247524752475247,
+        "api_log_bayes_factor": 25.247524752475247,
+        "absolute_error": 0.0
+      },
+      {
+        "v": 10.0,
+        "observation_sign": -1,
+        "geometry": "original",
+        "xi": 1.0,
+        "analytic_log_bayes_factor": 0.9950248756218906,
+        "api_log_bayes_factor": 0.995024875621894,
+        "absolute_error": 3.4416913763379853e-15
+      },
+      {
+        "v": 10.0,
+        "observation_sign": -1,
+        "geometry": "bounded",
+        "xi": 1.0,
+        "analytic_log_bayes_factor": 100.2493765586035,
+        "api_log_bayes_factor": 100.24937655860347,
+        "absolute_error": 2.842170943040401e-14
+      },
+      {
+        "v": 10.0,
+        "observation_sign": 1,
+        "geometry": "original",
+        "xi": 1.0,
+        "analytic_log_bayes_factor": 0.9950248756218906,
+        "api_log_bayes_factor": 0.995024875621894,
+        "absolute_error": 3.4416913763379853e-15
+      },
+      {
+        "v": 10.0,
+        "observation_sign": 1,
+        "geometry": "bounded",
+        "xi": 1.0,
+        "analytic_log_bayes_factor": 100.2493765586035,
+        "api_log_bayes_factor": 100.24937655860347,
+        "absolute_error": 2.842170943040401e-14
+      },
+      {
+        "v": 100.0,
+        "observation_sign": -1,
+        "geometry": "original",
+        "xi": 1.0,
+        "analytic_log_bayes_factor": 0.999950002499875,
+        "api_log_bayes_factor": 0.9999500025005545,
+        "absolute_error": 6.795675133730583e-13
+      },
+      {
+        "v": 100.0,
+        "observation_sign": -1,
+        "geometry": "bounded",
+        "xi": 1.0,
+        "analytic_log_bayes_factor": 10000.249993750156,
+        "api_log_bayes_factor": 10000.249993750156,
+        "absolute_error": 0.0
+      },
+      {
+        "v": 100.0,
+        "observation_sign": 1,
+        "geometry": "original",
+        "xi": 1.0,
+        "analytic_log_bayes_factor": 0.999950002499875,
+        "api_log_bayes_factor": 0.9999500025005545,
+        "absolute_error": 6.795675133730583e-13
+      },
+      {
+        "v": 100.0,
+        "observation_sign": 1,
+        "geometry": "bounded",
+        "xi": 1.0,
+        "analytic_log_bayes_factor": 10000.249993750156,
+        "api_log_bayes_factor": 10000.249993750156,
+        "absolute_error": 0.0
+      },
+      {
+        "v": 10000.0,
+        "observation_sign": -1,
+        "geometry": "original",
+        "xi": 1.0,
+        "analytic_log_bayes_factor": 0.999999995,
+        "api_log_bayes_factor": 1.0,
+        "absolute_error": 4.999999969612645e-09
+      },
+      {
+        "v": 10000.0,
+        "observation_sign": -1,
+        "geometry": "bounded",
+        "xi": 1.0,
+        "analytic_log_bayes_factor": 100000000.25,
+        "api_log_bayes_factor": 100000000.25,
+        "absolute_error": 0.0
+      },
+      {
+        "v": 10000.0,
+        "observation_sign": 1,
+        "geometry": "original",
+        "xi": 1.0,
+        "analytic_log_bayes_factor": 0.999999995,
+        "api_log_bayes_factor": 1.0,
+        "absolute_error": 4.999999969612645e-09
+      },
+      {
+        "v": 10000.0,
+        "observation_sign": 1,
+        "geometry": "bounded",
+        "xi": 1.0,
+        "analytic_log_bayes_factor": 100000000.25,
+        "api_log_bayes_factor": 100000000.25,
+        "absolute_error": 0.0
+      }
+    ]
+  },
+  "invariants": {
+    "original": {
+      "equal_response_odds_error": 5.551115123125783e-17,
+      "orthogonal_log_bayes_factor_error_max": 0.0,
+      "orthogonal_posterior_error_max": 0.0,
+      "orthogonal_expected_log_predictive_change": -7000001400000.0,
+      "orthogonal_measured_log_predictive_change": -7000001400000.0,
+      "zero_response_exact_prior": true,
+      "zero_prior_support_preserved": true,
+      "zero_response_posterior_gradient_norm": 0.23894769302087854
+    },
+    "bounded": {
+      "equal_response_odds_error": 1.1102230246251565e-16,
+      "orthogonal_log_bayes_factor_error_max": 0.0,
+      "orthogonal_posterior_error_max": 0.0,
+      "orthogonal_expected_log_predictive_change": -7000001400000.0,
+      "orthogonal_measured_log_predictive_change": -7000001400000.0,
+      "zero_response_exact_prior": true,
+      "zero_prior_support_preserved": true,
+      "zero_response_posterior_gradient_norm": 0.23894769302087854
+    }
+  },
+  "ambient_and_gradients": [
+    {
+      "ambient_dimension": 3,
+      "prototypes": 4,
+      "geometry": "original",
+      "direct_covariance_condition_max": 99.34335307894113,
+      "log_likelihood_absolute_error_max": 8.881784197001252e-16,
+      "H1_absolute_log_predictive": -4.325096833013662,
+      "H1_absolute_log_predictive_error": 0.0,
+      "posterior_absolute_error_max": 5.551115123125783e-17,
+      "response_gradient_absolute_error_max": 4.440892098500626e-16,
+      "prior_logit_gradient_absolute_error_max": 7.806255641895632e-17,
+      "observation_gradient_absolute_error_max": 1.1102230246251565e-16
+    },
+    {
+      "ambient_dimension": 3,
+      "prototypes": 4,
+      "geometry": "bounded",
+      "direct_covariance_condition_max": 47.52998182978576,
+      "log_likelihood_absolute_error_max": 1.7763568394002505e-15,
+      "H1_absolute_log_predictive": -4.199115344646007,
+      "H1_absolute_log_predictive_error": 0.0,
+      "posterior_absolute_error_max": 1.1102230246251565e-16,
+      "response_gradient_absolute_error_max": 3.3306690738754696e-16,
+      "prior_logit_gradient_absolute_error_max": 1.5265566588595902e-16,
+      "observation_gradient_absolute_error_max": 6.661338147750939e-16
+    },
+    {
+      "ambient_dimension": 7,
+      "prototypes": 4,
+      "geometry": "original",
+      "direct_covariance_condition_max": 168.32303980318122,
+      "log_likelihood_absolute_error_max": 1.7763568394002505e-15,
+      "H1_absolute_log_predictive": -8.3688803019522,
+      "H1_absolute_log_predictive_error": 0.0,
+      "posterior_absolute_error_max": 2.7755575615628914e-16,
+      "response_gradient_absolute_error_max": 4.440892098500626e-16,
+      "prior_logit_gradient_absolute_error_max": 2.7755575615628914e-16,
+      "observation_gradient_absolute_error_max": 4.440892098500626e-16
+    },
+    {
+      "ambient_dimension": 7,
+      "prototypes": 4,
+      "geometry": "bounded",
+      "direct_covariance_condition_max": 63.621565252302254,
+      "log_likelihood_absolute_error_max": 1.7763568394002505e-15,
+      "H1_absolute_log_predictive": -8.168161428928023,
+      "H1_absolute_log_predictive_error": 1.7763568394002505e-15,
+      "posterior_absolute_error_max": 2.220446049250313e-16,
+      "response_gradient_absolute_error_max": 9.43689570931383e-16,
+      "prior_logit_gradient_absolute_error_max": 6.661338147750939e-16,
+      "observation_gradient_absolute_error_max": 1.5543122344752192e-15
+    },
+    {
+      "ambient_dimension": 192,
+      "prototypes": 4,
+      "geometry": "original",
+      "direct_covariance_condition_max": 67.87676558365783,
+      "log_likelihood_absolute_error_max": 2.842170943040401e-14,
+      "H1_absolute_log_predictive": -198.18135820710214,
+      "H1_absolute_log_predictive_error": 0.0,
+      "posterior_absolute_error_max": 2.55351295663786e-15,
+      "response_gradient_absolute_error_max": 6.5503158452884236e-15,
+      "prior_logit_gradient_absolute_error_max": 2.4364191220094256e-15,
+      "observation_gradient_absolute_error_max": 6.8833827526759706e-15
+    },
+    {
+      "ambient_dimension": 192,
+      "prototypes": 4,
+      "geometry": "bounded",
+      "direct_covariance_condition_max": 41.08762722034332,
+      "log_likelihood_absolute_error_max": 2.842170943040401e-14,
+      "H1_absolute_log_predictive": -198.00203352200197,
+      "H1_absolute_log_predictive_error": 2.842170943040401e-14,
+      "posterior_absolute_error_max": 1.6375789613221059e-15,
+      "response_gradient_absolute_error_max": 2.1316282072803006e-14,
+      "prior_logit_gradient_absolute_error_max": 5.474787290182803e-15,
+      "observation_gradient_absolute_error_max": 4.1744385725905886e-14
+    }
+  ],
+  "bounded_absolute_density_normalization": {
+    "branch_density_integrals": [
+      0.9999999999999999,
+      0.9999999999999999,
+      1.0000000000000002
+    ],
+    "predictive_density_integral": 1.0,
+    "integration_error_estimate": 9.586591709980303e-11,
+    "absolute_integral_error_max": 2.220446049250313e-16
+  },
+  "bounded_numerical_stability": [
+    {
+      "v": 0.0,
+      "observation_sign": -1,
+      "absolute_log_predictive": -0.9189385332046728,
+      "response_nll_gradient": [
+        [
+          0.0
+        ],
+        [
+          0.0
+        ]
+      ],
+      "observation_nll_gradient": [
+        0.0
+      ]
+    },
+    {
+      "v": 0.0,
+      "observation_sign": 1,
+      "absolute_log_predictive": -0.9189385332046728,
+      "response_nll_gradient": [
+        [
+          0.0
+        ],
+        [
+          0.0
+        ]
+      ],
+      "observation_nll_gradient": [
+        0.0
+      ]
+    },
+    {
+      "v": 1e-12,
+      "observation_sign": -1,
+      "absolute_log_predictive": -0.9189385332046728,
+      "response_nll_gradient": [
+        [
+          -2.7744225212370448e-12
+        ],
+        [
+          3.7744225212370446e-12
+        ]
+      ],
+      "observation_nll_gradient": [
+        -9.999999999999998e-13
+      ]
+    },
+    {
+      "v": 1e-12,
+      "observation_sign": 1,
+      "absolute_log_predictive": -0.9189385332046728,
+      "response_nll_gradient": [
+        [
+          -3.7744225212370446e-12
+        ],
+        [
+          2.7744225212370448e-12
+        ]
+      ],
+      "observation_nll_gradient": [
+        9.999999999999998e-13
+      ]
+    },
+    {
+      "v": 1e-08,
+      "observation_sign": -1,
+      "absolute_log_predictive": -0.9189385332046732,
+      "response_nll_gradient": [
+        [
+          -2.774422521237029e-08
+        ],
+        [
+          3.7744225212370284e-08
+        ]
+      ],
+      "observation_nll_gradient": [
+        -9.999999999999994e-09
+      ]
+    },
+    {
+      "v": 1e-08,
+      "observation_sign": 1,
+      "absolute_log_predictive": -0.9189385332046732,
+      "response_nll_gradient": [
+        [
+          -3.774422521237028e-08
+        ],
+        [
+          2.7744225212370287e-08
+        ]
+      ],
+      "observation_nll_gradient": [
+        9.999999999999994e-09
+      ]
+    },
+    {
+      "v": 1.0,
+      "observation_sign": -1,
+      "absolute_log_predictive": -1.667783646770226,
+      "response_nll_gradient": [
+        [
+          -0.03971648991087495
+        ],
+        [
+          0.29343389040327517
+        ]
+      ],
+      "observation_nll_gradient": [
+        -0.2537174004924002
+      ]
+    },
+    {
+      "v": 1.0,
+      "observation_sign": 1,
+      "absolute_log_predictive": -1.667783646770226,
+      "response_nll_gradient": [
+        [
+          -0.2934338904032752
+        ],
+        [
+          0.039716489910874994
+        ]
+      ],
+      "observation_nll_gradient": [
+        0.2537174004924002
+      ]
+    },
+    {
+      "v": 100.0,
+      "observation_sign": -1,
+      "absolute_log_predictive": -2.0651790821187,
+      "response_nll_gradient": [
+        [
+          -1.3059449779277785e-07
+        ],
+        [
+          1.3059449779277785e-07
+        ]
+      ],
+      "observation_nll_gradient": [
+        -1.250235568597066e-89
+      ]
+    },
+    {
+      "v": 100.0,
+      "observation_sign": 1,
+      "absolute_log_predictive": -2.0651790821187,
+      "response_nll_gradient": [
+        [
+          -1.3059449779277785e-07
+        ],
+        [
+          1.3059449779277785e-07
+        ]
+      ],
+      "observation_nll_gradient": [
+        1.250235568597066e-89
+      ]
+    },
+    {
+      "v": 10000.0,
+      "observation_sign": -1,
+      "absolute_log_predictive": -2.065192140716195,
+      "response_nll_gradient": [
+        [
+          -1.3060357052704094e-13
+        ],
+        [
+          1.3060357052704094e-13
+        ]
+      ],
+      "observation_nll_gradient": [
+        0.0
+      ]
+    },
+    {
+      "v": 10000.0,
+      "observation_sign": 1,
+      "absolute_log_predictive": -2.065192140716195,
+      "response_nll_gradient": [
+        [
+          -1.3060357052704094e-13
+        ],
+        [
+          1.3060357052704094e-13
+        ]
+      ],
+      "observation_nll_gradient": [
+        0.0
+      ]
+    }
+  ],
+  "original_regression": {
+    "quadrature": {
+      "nu": 3.0,
+      "order": 32,
+      "scale_min": 0.19228055251151221,
+      "scale_max": 100.07529215987063,
+      "mass_sum": 1.0000000000000002
+    },
+    "probability_normalization": {
+      "branch_integrals": [
+        0.9999999999999998,
+        0.9999999999999998,
+        0.9999999999999999
+      ],
+      "predictive_integral": 1.0,
+      "integration_error_estimate": 1.7299291668858965e-10,
+      "absolute_error_max": 2.220446049250313e-16
+    },
+    "low_rank_full_covariance": {
+      "noise_covariance": [
+        [
+          1.44,
+          0.36,
+          -0.24
+        ],
+        [
+          0.36,
+          0.7300000000000001,
+          0.06
+        ],
+        [
+          -0.24,
+          0.06,
+          1.2725000000000002
+        ]
+      ],
+      "prior": [
+        0.1835,
+        0.228,
+        0.3935,
+        0.195
+      ],
+      "log_likelihood_low_rank": [
+        -4.181778557354299,
+        -4.3427355594067745,
+        -4.168170482941509,
+        -4.3427355594067745
+      ],
+      "log_likelihood_full_covariance": [
+        -4.181778557354298,
+        -4.3427355594067745,
+        -4.168170482941509,
+        -4.3427355594067745
+      ],
+      "log_likelihood_absolute_error_max": 8.881784197001252e-16,
+      "log_predictive": -4.240994302125676,
+      "posterior": [
+        0.19469425641288285,
+        0.2059440174023538,
+        0.4232253955116973,
+        0.17613633067306586
+      ],
+      "posterior_absolute_error_max": 8.326672684688674e-17,
+      "equal_response_prior_odds": 1.1692307692307693,
+      "equal_response_posterior_odds": 1.1692307692307684
+    },
+    "continuous_inverse_gamma_reference": {
+      "nu": 3.0,
+      "order": 32,
+      "branch_means_whitened": [
+        -1.046153846153846,
+        0.030769230769230795,
+        0.6461538461538461
+      ],
+      "response_variance": 1.512899408284023,
+      "rows": [
+        {
+          "whitened_residual_from_center": 0.0,
+          "continuous_density_in_z": [
+            0.14046015857294497,
+            0.17352363290994924,
+            0.15994706153633498
+          ],
+          "finite_density_in_z": [
+            0.14046225777003463,
+            0.1735243201204523,
+            0.15994842196164294
+          ],
+          "density_absolute_error_max": 2.099197089655558e-06,
+          "density_relative_error_max": 1.494514252995009e-05,
+          "log_density_error_max": 1.494503085242016e-05,
+          "pairwise_log_ratio_error_max": 1.0984710688832777e-05,
+          "continuous_integral_error_estimate_max": 4.4523409482771755e-14
+        },
+        {
+          "whitened_residual_from_center": 1.0,
+          "continuous_density_in_z": [
+            0.08065469652585264,
+            0.14466314178432677,
+            0.16933689720676845
+          ],
+          "finite_density_in_z": [
+            0.08065754946331703,
+            0.144665103866407,
+            0.16933780615098934
+          ],
+          "density_absolute_error_max": 2.852937464395411e-06,
+          "density_relative_error_max": 3.537224225334105e-05,
+          "log_density_error_max": 3.537161667033217e-05,
+          "pairwise_log_ratio_error_max": 3.000396321484189e-05,
+          "continuous_integral_error_estimate_max": 8.723979092589868e-14
+        },
+        {
+          "whitened_residual_from_center": 3.0,
+          "continuous_density_in_z": [
+            0.015803293484594232,
+            0.039416801996497844,
+            0.06452092222068653
+          ],
+          "finite_density_in_z": [
+            0.015805507869517912,
+            0.03941924542684492,
+            0.06452366511892726
+          ],
+          "density_absolute_error_max": 2.742898240731817e-06,
+          "density_relative_error_max": 0.0001401217363861957,
+          "log_density_error_max": 0.00014011192025265018,
+          "pairwise_log_ratio_error_max": 9.760105950773479e-05,
+          "continuous_integral_error_estimate_max": 7.332693125438458e-13
+        },
+        {
+          "whitened_residual_from_center": 8.0,
+          "continuous_density_in_z": [
+            0.0007120910220367528,
+            0.001182436910686004,
+            0.0016296997332212763
+          ],
+          "finite_density_in_z": [
+            0.0007142458959339008,
+            0.0011846077623067625,
+            0.0016318770852193094
+          ],
+          "density_absolute_error_max": 2.17735199803306e-06,
+          "density_relative_error_max": 0.003026121423332452,
+          "log_density_error_max": 0.0030215519341298958,
+          "pairwise_log_ratio_error_max": 0.0016863987596442698,
+          "continuous_integral_error_estimate_max": 6.287468160471521e-13
+        },
+        {
+          "whitened_residual_from_center": 20.0,
+          "continuous_density_in_z": [
+            2.41819967359827e-05,
+            2.9841789071520802e-05,
+            3.3826472026809835e-05
+          ],
+          "finite_density_in_z": [
+            2.5023666140206873e-05,
+            3.092922408838446e-05,
+            3.504268397815869e-05
+          ],
+          "density_absolute_error_max": 1.2162119513488566e-06,
+          "density_relative_error_max": 0.03644000747600737,
+          "log_density_error_max": 0.035791771311217246,
+          "pairwise_log_ratio_error_max": 0.001578168396022761,
+          "continuous_integral_error_estimate_max": 2.133541318356813e-14
+        }
+      ],
+      "interpretation": "Measured approximation errors at fixed residuals; a finite Gaussian mixture has no continuous heavy-tail asymptotic guarantee."
+    },
+    "zero_response_with_transport": {
+      "old_weights": [
+        0.6,
+        0.3,
+        0.1
+      ],
+      "transported_prior": [
+        0.5000000000000001,
+        0.34,
+        0.16000000000000003
+      ],
+      "posterior": [
+        0.5000000000000001,
+        0.34,
+        0.16000000000000003
+      ],
+      "transport_l1_increment": 0.19999999999999996,
+      "write_l1_increment": 0.0,
+      "equal_response_posterior_gradient": [
+        [
+          0.09168388429752064,
+          0.1420454545454545
+        ],
+        [
+          -0.06234504132231404,
+          -0.09659090909090906
+        ],
+        [
+          -0.029338842975206596,
+          -0.045454545454545435
+        ]
+      ],
+      "gradient_00_finite_difference": 0.09168388428459905,
+      "zero_prior_posterior": [
+        0.6484384058555442,
+        0.3515615941444557,
+        0.0
+      ]
+    },
+    "orthogonal_perturbation": {
+      "orthogonal_whitened_norm": 3741657.3867739416,
+      "log_ratios": [
+        0.0,
+        0.4086645365700492,
+        0.23291769507953575
+      ],
+      "perturbed_log_ratios": [
+        0.0,
+        0.4086645365700492,
+        0.23291769507953575
+      ],
+      "log_ratio_absolute_error_max": 0.0,
+      "posterior_absolute_error_max": 0.0,
+      "expected_common_log_density_change": -7000001400000.0,
+      "actual_log_predictive_change": -7000001399999.999
+    },
+    "weak_response_limit": {
+      "rows": [
+        {
+          "response_amplitude": 1.0,
+          "log_likelihood_spread": 0.5247685969786748,
+          "write_l1_increment": 0.15764361849673517,
+          "posterior": [
+            0.13699375561075802,
+            0.5788218092483677,
+            0.2841844351408745
+          ]
+        },
+        {
+          "response_amplitude": 0.1,
+          "log_likelihood_spread": 0.1504894705752493,
+          "write_l1_increment": 0.04202331872075046,
+          "posterior": [
+            0.17898834063962485,
+            0.5089267655603106,
+            0.3120848938000647
+          ]
+        },
+        {
+          "response_amplitude": 0.01,
+          "log_likelihood_spread": 0.01629355928301779,
+          "write_l1_increment": 0.00457941750051738,
+          "posterior": [
+            0.19771029124974132,
+            0.5008525845631343,
+            0.3014371241871244
+          ]
+        },
+        {
+          "response_amplitude": 0.001,
+          "log_likelihood_spread": 0.0016345429521269494,
+          "write_l1_increment": 0.00046000077287777774,
+          "posterior": [
+            0.19976999961356112,
+            0.5000848014818091,
+            0.30014519890462976
+          ]
+        },
+        {
+          "response_amplitude": 0.0001,
+          "log_likelihood_spread": 0.00016349553794903215,
+          "write_l1_increment": 4.601803473125443e-05,
+          "posterior": [
+            0.19997699098263444,
+            0.500008475515461,
+            0.30001453350190466
+          ]
+        },
+        {
+          "response_amplitude": 1e-06,
+          "log_likelihood_spread": 1.6349995548559093e-06,
+          "write_l1_increment": 4.6019980370903824e-07,
+          "posterior": [
+            0.19999976990009816,
+            0.5000000847500515,
+            0.3000001453498503
+          ]
+        },
+        {
+          "response_amplitude": 0.0,
+          "log_likelihood_spread": 0.0,
+          "write_l1_increment": 0.0,
+          "posterior": [
+            0.2,
+            0.5,
+            0.3
+          ]
+        }
+      ]
+    },
+    "squared_response_preserves_two_explanations": {
+      "coordinates": [
+        0.0,
+        -0.8,
+        0.8
+      ],
+      "responses": [
+        0.0,
+        0.6400000000000001,
+        0.6400000000000001
+      ],
+      "prior": [
+        0.5,
+        0.25,
+        0.25
+      ],
+      "posterior": [
+        0.4642459555411356,
+        0.26787702222943227,
+        0.26787702222943227
+      ]
+    },
+    "causal_gradients": {
+      "causal_two_arrival_nll": 6.763641325959126,
+      "first_posterior": [
+        0.3719132230986408,
+        0.17494884813765169,
+        0.26414057397124,
+        0.18899735479246746
+      ],
+      "second_posterior": [
+        0.381905792922409,
+        0.21880209732097225,
+        0.25839733636836876,
+        0.1408947733882501
+      ],
+      "prototype_gradients": [
+        -1.041944327756188,
+        0.0366874527795899,
+        1.1791700932588345
+      ],
+      "response_map_gradient_norm": 1.6108634674544418,
+      "transport_gradient_norm": 0.043962139087578275,
+      "finite_difference_checks": [
+        {
+          "parameter": "prototype",
+          "index": [
+            1
+          ],
+          "autograd": 0.0366874527795899,
+          "finite_difference": 0.03668745280904773
+        },
+        {
+          "parameter": "transport_logit",
+          "index": [
+            0,
+            0
+          ],
+          "autograd": -0.02374448267034101,
+          "finite_difference": -0.023744482646748107
+        }
+      ],
+      "optimizer_steps": 0
+    },
+    "full_cost_and_certified_pruning": {
+      "full_trajectories": [
+        [
+          [
+            -2.0,
+            -1.0
+          ],
+          [
+            2.0,
+            1.0
+          ]
+        ],
+        [
+          [
+            0.8,
+            0.8
+          ],
+          [
+            0.8,
+            0.8
+          ]
+        ]
+      ],
+      "expected_full_trajectory_cost": [
+        5.0,
+        1.2800000000000002
+      ],
+      "cost_of_mean_trajectory": [
+        0.0,
+        1.2800000000000002
+      ],
+      "full_expectation_choice": 1,
+      "mean_trajectory_choice": 0,
+      "pruning": {
+        "branch_cost_interval": [
+          0.0,
+          1.0
+        ],
+        "discarded_mass": 0.03,
+        "per_candidate_error_bound": 0.03,
+        "exact_costs": [
+          0.22200000000000003,
+          0.604,
+          0.737
+        ],
+        "pruned_costs": [
+          0.19793814432989693,
+          0.6226804123711341,
+          0.7536082474226805
+        ],
+        "measured_absolute_errors": [
+          0.024061855670103105,
+          0.01868041237113416,
+          0.016608247422680522
+        ],
+        "approximate_best_runner_up_gap": 0.4247422680412372,
+        "required_gap_strictly_above": 0.06,
+        "certified_choice": 0
+      }
+    }
+  }
+}

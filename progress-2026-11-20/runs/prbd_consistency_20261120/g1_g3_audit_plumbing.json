@@ -1,0 +1,29 @@
+{
+  "scope": "One old G2 source used only to verify audit code paths; not G3 evidence",
+  "summaries": {
+    "factual_H1": {
+      "selected_factors": 4,
+      "max_pair_logBF_error": 3.552713678800501e-15,
+      "max_posterior_TV": 6.800116025829084e-16,
+      "max_absolute_log_density_error": 1.1368683772161603e-13,
+      "max_response_gradient_error_over_1_plus_norm": 5.688669478446814e-13,
+      "native_gradient_factors": 3,
+      "max_native_gradient_error_over_1_plus_norm": 0.0,
+      "max_reference_integral_error_bound": 2.2013370545736914e-11,
+      "nonuniform_prefix_factors": 3,
+      "native_null_factors": 0
+    },
+    "free_H4_partition": {
+      "selected_factors": 3,
+      "max_pair_logBF_error": 6.661338147750939e-15,
+      "max_posterior_TV": 1.2490009027033011e-15,
+      "max_absolute_log_density_error": 1.5631940186722204e-13,
+      "max_response_gradient_error_over_1_plus_norm": 1.5070117991001457e-13,
+      "native_gradient_factors": 2,
+      "max_native_gradient_error_over_1_plus_norm": 0.0,
+      "max_reference_integral_error_bound": 4.113848975275449e-11,
+      "nonuniform_prefix_factors": 0,
+      "native_null_factors": 0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "synthetic_windows": 3,
+  "different_historical_controls_retained": true,
+  "latest_raw_zero_all_prototypes_exact": true,
+  "latest_raw_zero_offset_gradient_exact_zero": true,
+  "H4_nominal_exact_native": true,
+  "H4_noop_all_branches_exact": true,
+  "branch_own_window_manual_exact": true,
+  "active_per_prototype_gradient_l2": [
+    2.169325828552246,
+    2.1578054428100586,
+    2.1579134464263916
+  ],
+  "nominal_offset_gradient_exact_zero": true,
+  "legacy_native_offset_path_bitwise_preserved": true,
+  "scientific_measurement": false
+}

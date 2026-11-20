@@ -1,0 +1,21 @@
+{
+  "action_encoder": "released frozen pointwise native encoder, each block [1,1,10]",
+  "normalization": "../../../progress-2026-11-19/runs/prbd_official_protocols_20261119/tworoom/action_statistics.json",
+  "existing_latents_reused": true,
+  "no_predictions_or_training": true,
+  "null_embedding_bitwise_equal_across_all_raw_zero_blocks": true,
+  "splits": {
+    "calibration": {
+      "valid_blocks": 476,
+      "zero_blocks": 0
+    },
+    "fit": {
+      "valid_blocks": 478,
+      "zero_blocks": 0
+    },
+    "validation": {
+      "valid_blocks": 600,
+      "zero_blocks": 450
+    }
+  }
+}

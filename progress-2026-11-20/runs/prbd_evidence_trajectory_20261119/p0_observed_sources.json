@@ -1,0 +1,3068 @@
+{
+  "scope": "Initial factual source only, 11 matched roots x 2 speeds, program duplicates removed; no subsequent write/H4/tail/learning/P4 test",
+  "protocol": {
+    "nu": 3.0,
+    "finite_order": 32,
+    "prior": "uniform over four prototypes",
+    "bounded_rho": 1.0,
+    "bounded_lambda": 1.0,
+    "noise": "../../../progress-2026-11-19/runs/prbd_tworoom_speed_20261119/fitted.pt",
+    "reference": "all K thin-SVD directions; direct reduced Gaussian variance; adaptive log-xi integral with independent fixed split check",
+    "rank_threshold": null,
+    "fitting_or_node_selection": false
+  },
+  "checkpoints": {
+    "p12_frozen": {
+      "archive": "p12_tensors.pt",
+      "matched_roots": 11,
+      "summary": {
+        "bounded": {
+          "unique_initial_sources": 22,
+          "posterior_total_variation_median": 0.21303394782219118,
+          "posterior_total_variation_max": 0.6931911571218438,
+          "max_pair_log_bayes_factor_discrepancy": 27.383647958406726,
+          "max_branch_log_density_discrepancy": 194.39863238212456,
+          "winning_prototype_changes": 0,
+          "continuous_relative_integral_error_bound_max": 1.9773147361835186e-11,
+          "continuous_split_log_integral_discrepancy_max": 1.3322676295501878e-15,
+          "finite32_reference_api_or_archive_error_max": 4.604316927725449e-12
+        },
+        "original": {
+          "unique_initial_sources": 22,
+          "posterior_total_variation_median": 0.032098007469149,
+          "posterior_total_variation_max": 0.18853280738996958,
+          "max_pair_log_bayes_factor_discrepancy": 1.8224457578860154,
+          "max_branch_log_density_discrepancy": 148.73199028109073,
+          "winning_prototype_changes": 0,
+          "continuous_relative_integral_error_bound_max": 1.9896701172068436e-11,
+          "continuous_split_log_integral_discrepancy_max": 1.7763568394002505e-15,
+          "finite32_reference_api_or_archive_error_max": 5.843503458891064e-11
+        }
+      },
+      "rows": [
+        {
+          "seed": 2026111965,
+          "speed": 2.5,
+          "geometry": "bounded",
+          "finite32_posterior": [
+            0.06554110336230697,
+            0.083546231214796,
+            0.12765696582072444,
+            0.7232556996021701
+          ],
+          "continuous_posterior": [
+            0.2357192516089124,
+            0.24283372282474658,
+            0.24825492188675516,
+            0.2731921036795855
+          ],
+          "posterior_total_variation": 0.4500635959225856,
+          "max_pair_log_bayes_factor_discrepancy": 2.2535516071396913,
+          "max_branch_log_density_discrepancy": 32.38276003920154,
+          "log_predictive_finite32_minus_continuous": -31.102796032226532,
+          "finite32_winning_prototypes": [
+            3
+          ],
+          "continuous_winning_prototypes": [
+            3
+          ],
+          "winning_prototype_changed": false,
+          "continuous_relative_integral_error_bound_max": 1.899824998230867e-11,
+          "continuous_split_log_integral_discrepancy_max": 8.881784197001252e-16,
+          "finite32_reduced_api_log_bayes_factor_error_max": 8.242295734817162e-13,
+          "finite32_reduced_api_absolute_log_density_error_max": 4.263256414560601e-14,
+          "finite32_reduced_archived_posterior_error_max": 4.107825191113079e-14,
+          "response_noise_eigenvalue_max": 0.957354293406481
+        },
+        {
+          "seed": 2026111965,
+          "speed": 2.5,
+          "geometry": "original",
+          "finite32_posterior": [
+            0.12643729891942887,
+            0.30607003739801264,
+            0.2804810412910516,
+            0.28701162239150696
+          ],
+          "continuous_posterior": [
+            0.23692283689509477,
+            0.25559342394812873,
+            0.25378952705229507,
+            0.25369421210448123
+          ],
+          "posterior_total_variation": 0.11048553797566604,
+          "max_pair_log_bayes_factor_discrepancy": 0.808213942708214,
+          "max_branch_log_density_discrepancy": 25.254202008803517,
+          "log_predictive_finite32_minus_continuous": -24.626214027974285,
+          "finite32_winning_prototypes": [
+            1
+          ],
+          "continuous_winning_prototypes": [
+            1
+          ],
+          "winning_prototype_changed": false,
+          "continuous_relative_integral_error_bound_max": 1.5008927039099703e-11,
+          "continuous_split_log_integral_discrepancy_max": 8.881784197001252e-16,
+          "finite32_reduced_api_log_bayes_factor_error_max": 2.6290081223123707e-13,
+          "finite32_reduced_api_absolute_log_density_error_max": 4.291678123991005e-12,
+          "finite32_reduced_archived_posterior_error_max": 4.08006961549745e-14,
+          "response_noise_eigenvalue_max": 22.449019370966983
+        },
+        {
+          "seed": 2026111965,
+          "speed": 7.5,
+          "geometry": "bounded",
+          "finite32_posterior": [
+            0.11962079615643625,
+            0.582781155195163,
+            0.2637288189735247,
+            0.033869229674875156
+          ],
+          "continuous_posterior": [
+            0.2417567632684499,
+            0.27334340092325626,
+            0.2588106834845355,
+            0.22608915232375862
+          ],
+          "posterior_total_variation": 0.3143558897608965,
+          "max_pair_log_bayes_factor_discrepancy": 2.6555053331027025,
+          "max_branch_log_density_discrepancy": 27.517339267717446,
+          "log_predictive_finite32_minus_continuous": -25.618916789911967,
+          "finite32_winning_prototypes": [
+            1
+          ],
+          "continuous_winning_prototypes": [
+            1
+          ],
+          "winning_prototype_changed": false,
+          "continuous_relative_integral_error_bound_max": 1.5363886592411145e-11,
+          "continuous_split_log_integral_discrepancy_max": 8.881784197001252e-16,
+          "finite32_reduced_api_log_bayes_factor_error_max": 6.679101716144942e-13,
+          "finite32_reduced_api_absolute_log_density_error_max": 4.263256414560601e-14,
+          "finite32_reduced_archived_posterior_error_max": 5.795364188543317e-14,
+          "response_noise_eigenvalue_max": 0.957354293406481
+        },
+        {
+          "seed": 2026111965,
+          "speed": 7.5,
+          "geometry": "original",
+          "finite32_posterior": [
+            0.13923967699365422,
+            0.32448300418399023,
+            0.2864735489325278,
+            0.2498037698898291
+          ],
+          "continuous_posterior": [
+            0.23569657031825275,
+            0.257929035357424,
+            0.25488187847558463,
+            0.2514925158487389
+          ],
+          "posterior_total_variation": 0.09814563928350885,
+          "max_pair_log_bayes_factor_discrepancy": 0.7558971846741649,
+          "max_branch_log_density_discrepancy": 18.628622701434963,
+          "log_predictive_finite32_minus_continuous": -18.10227418580488,
+          "finite32_winning_prototypes": [
+            1
+          ],
+          "continuous_winning_prototypes": [
+            1
+          ],
+          "winning_prototype_changed": false,
+          "continuous_relative_integral_error_bound_max": 1.1076806958783056e-11,
+          "continuous_split_log_integral_discrepancy_max": 8.881784197001252e-16,
+          "finite32_reduced_api_log_bayes_factor_error_max": 3.268496584496461e-13,
+          "finite32_reduced_api_absolute_log_density_error_max": 4.156675004196586e-12,
+          "finite32_reduced_archived_posterior_error_max": 8.754108549169359e-14,
+          "response_noise_eigenvalue_max": 22.449019370966983
+        },
+        {
+          "seed": 2026111966,
+          "speed": 2.5,
+          "geometry": "bounded",
+          "finite32_posterior": [
+            3.3762899981171406e-07,
+            0.9999987136321837,
+            8.445443747208537e-13,
+            9.487379817488211e-07
+          ],
+          "continuous_posterior": [
+            0.24343055315215995,
+            0.30680755651033687,
+            0.20232813893092252,
+            0.2474337514065843
+          ],
+          "posterior_total_variation": 0.6931911571218438,
+          "max_pair_log_bayes_factor_discrepancy": 27.383647958406726,
+          "max_branch_log_density_discrepancy": 194.39863238212456,
+          "log_predictive_finite32_minus_continuous": -168.1965177170557,
+          "finite32_winning_prototypes": [
+            1
+          ],
+          "continuous_winning_prototypes": [
+            1
+          ],
+          "winning_prototype_changed": false,
+          "continuous_relative_integral_error_bound_max": 1.3202707341247506e-11,
+          "continuous_split_log_integral_discrepancy_max": 8.881784197001252e-16,
+          "finite32_reduced_api_log_bayes_factor_error_max": 4.604316927725449e-12,
+          "finite32_reduced_api_absolute_log_density_error_max": 1.1937117960769683e-12,
+          "finite32_reduced_archived_posterior_error_max": 6.536993168992922e-13,
+          "response_noise_eigenvalue_max": 0.9966146141318132
+        },
+        {
+          "seed": 2026111966,
+          "speed": 2.5,
+          "geometry": "original",
+          "finite32_posterior": [
+            0.06260040987902796,
+            0.36074824209103146,
+            0.31564097037768235,
+            0.2610103776522546
+          ],
+          "continuous_posterior": [
+            0.24130682662950997,
+            0.25402703741052973,
+            0.25304777926137445,
+            0.2516183566985874
+          ],
+          "posterior_total_variation": 0.17870641675047944,
+          "max_pair_log_bayes_factor_discrepancy": 1.7000370544662502,
+          "max_branch_log_density_discrepancy": 89.3623627490838,
+          "log_predictive_finite32_minus_continuous": -88.01306531147947,
+          "finite32_winning_prototypes": [
+            1
+          ],
+          "continuous_winning_prototypes": [
+            1
+          ],
+          "winning_prototype_changed": false,
+          "continuous_relative_integral_error_bound_max": 6.8792923623952886e-12,
+          "continuous_split_log_integral_discrepancy_max": 8.881784197001252e-16,
+          "finite32_reduced_api_log_bayes_factor_error_max": 2.1316282072803006e-11,
+          "finite32_reduced_api_absolute_log_density_error_max": 5.843503458891064e-11,
+          "finite32_reduced_archived_posterior_error_max": 8.305023335708484e-13,
+          "response_noise_eigenvalue_max": 294.38730264021405
+        },
+        {
+          "seed": 2026111966,
+          "speed": 7.5,
+          "geometry": "bounded",
+          "finite32_posterior": [
+            4.686754024866118e-06,
+            5.832944042094942e-10,
+            0.9999826782574663,
+            1.2634405207743471e-05
+          ],
+          "continuous_posterior": [
+            0.24001486772777375,
+            0.20019185940516848,
+            0.31445350496072666,
+            0.2453397679063308
+          ],
+          "posterior_total_variation": 0.6855291732967429,
+          "max_pair_log_bayes_factor_discrepancy": 20.810751730148198,
+          "max_branch_log_density_discrepancy": 134.10749899549143,
+          "log_predictive_finite32_minus_continuous": -114.45364899518414,
+          "finite32_winning_prototypes": [
+            2
+          ],
+          "continuous_winning_prototypes": [
+            2
+          ],
+          "winning_prototype_changed": false,
+          "continuous_relative_integral_error_bound_max": 1.532707122503957e-12,
+          "continuous_split_log_integral_discrepancy_max": 4.440892098500626e-16,
+          "finite32_reduced_api_log_bayes_factor_error_max": 3.069544618483633e-12,
+          "finite32_reduced_api_absolute_log_density_error_max": 4.547473508864641e-13,
+          "finite32_reduced_archived_posterior_error_max": 2.5579538487363607e-13,
+          "response_noise_eigenvalue_max": 0.9966146141318132
+        },
+        {
+          "seed": 2026111966,
+          "speed": 7.5,
+          "geometry": "original",
+          "finite32_posterior": [
+            0.07628072813110637,
+            0.3263427907351489,
+            0.33976787185155227,
+            0.25760860928218865
+          ],
+          "continuous_posterior": [
+            0.24003824650294533,
+            0.25397477752706327,
+            0.25435316675484454,
+            0.2516338092151465
+          ],
+          "posterior_total_variation": 0.16375751837183725,
+          "max_pair_log_bayes_factor_discrepancy": 1.4359168779046314,
+          "max_branch_log_density_discrepancy": 65.16636849638259,
+          "log_predictive_finite32_minus_continuous": -64.01999055149965,
+          "finite32_winning_prototypes": [
+            2
+          ],
+          "continuous_winning_prototypes": [
+            2
+          ],
+          "winning_prototype_changed": false,
+          "continuous_relative_integral_error_bound_max": 1.963039578085449e-11,
+          "continuous_split_log_integral_discrepancy_max": 1.7763568394002505e-15,
+          "finite32_reduced_api_log_bayes_factor_error_max": 1.1198153515579179e-11,
+          "finite32_reduced_api_absolute_log_density_error_max": 4.021671884402167e-11,
+          "finite32_reduced_archived_posterior_error_max": 2.9866109585441336e-12,
+          "response_noise_eigenvalue_max": 294.38730264021405
+        },
+        {
+          "seed": 2026111967,
+          "speed": 2.5,
+          "geometry": "bounded",
+          "finite32_posterior": [
+            0.21839378126068187,
+            0.2195206772476209,
+            0.3883408339527893,
+            0.1737447075389072
+          ],
+          "continuous_posterior": [
+            0.21777770242872868,
+            0.21753333751444046,
+            0.39412852108983293,
+            0.17056043896699769
+          ],
+          "posterior_total_variation": 0.00578768713704339,
+          "max_pair_log_bayes_factor_discrepancy": 0.03329096884040439,
+          "max_branch_log_density_discrepancy": 0.07550880915862734,
+          "log_predictive_finite32_minus_continuous": 0.057011500040346164,
+          "finite32_winning_prototypes": [
+            2
+          ],
+          "continuous_winning_prototypes": [
+            2
+          ],
+          "winning_prototype_changed": false,
+          "continuous_relative_integral_error_bound_max": 1.7133438968769238e-11,
+          "continuous_split_log_integral_discrepancy_max": 1.1102230246251565e-15,
+          "finite32_reduced_api_log_bayes_factor_error_max": 4.973799150320701e-14,
+          "finite32_reduced_api_absolute_log_density_error_max": 5.684341886080802e-14,
+          "finite32_reduced_archived_posterior_error_max": 8.18789480661053e-15,
+          "response_noise_eigenvalue_max": 0.922352145335343
+        },
+        {
+          "seed": 2026111967,
+          "speed": 2.5,
+          "geometry": "original",
+          "finite32_posterior": [
+            0.20222619897438746,
+            0.19798293571315373,
+            0.38249884870477885,
+            0.21729201660768077
+          ],
+          "continuous_posterior": [
+            0.20194574672236326,
+            0.1974752306807039,
+            0.3836001894233753,
+            0.21697883317355798
+          ],
+          "posterior_total_variation": 0.0011013407185966329,
+          "max_pair_log_bayes_factor_discrepancy": 0.00544287498607865,
+          "max_branch_log_density_discrepancy": 0.01126602594271553,
+          "log_predictive_finite32_minus_continuous": 0.008698344430303706,
+          "finite32_winning_prototypes": [
+            2
+          ],
+          "continuous_winning_prototypes": [
+            2
+          ],
+          "winning_prototype_changed": false,
+          "continuous_relative_integral_error_bound_max": 1.865494801923825e-11,
+          "continuous_split_log_integral_discrepancy_max": 5.551115123125783e-16,
+          "finite32_reduced_api_log_bayes_factor_error_max": 1.2434497875801753e-14,
+          "finite32_reduced_api_absolute_log_density_error_max": 5.684341886080802e-14,
+          "finite32_reduced_archived_posterior_error_max": 1.942890293094024e-15,
+          "response_noise_eigenvalue_max": 11.878655879402825
+        },
+        {
+          "seed": 2026111967,
+          "speed": 7.5,
+          "geometry": "bounded",
+          "finite32_posterior": [
+            0.21753977395388532,
+            0.4552232892555155,
+            0.15423192755672363,
+            0.1730050092338753
+          ],
+          "continuous_posterior": [
+            0.2173401097630689,
+            0.45736885723467074,
+            0.1531533813654336,
+            0.1721376516368273
+          ],
+          "posterior_total_variation": 0.0021455679791548693,
+          "max_pair_log_bayes_factor_discrepancy": 0.01171972935588883,
+          "max_branch_log_density_discrepancy": 0.01789172024453478,
+          "log_predictive_finite32_minus_continuous": 0.010874139467615507,
+          "finite32_winning_prototypes": [
+            1
+          ],
+          "continuous_winning_prototypes": [
+            1
+          ],
+          "winning_prototype_changed": false,
+          "continuous_relative_integral_error_bound_max": 1.934969699512776e-11,
+          "continuous_split_log_integral_discrepancy_max": 5.551115123125783e-16,
+          "finite32_reduced_api_log_bayes_factor_error_max": 1.2434497875801753e-14,
+          "finite32_reduced_api_absolute_log_density_error_max": 2.842170943040401e-14,
+          "finite32_reduced_archived_posterior_error_max": 3.219646771412954e-15,
+          "response_noise_eigenvalue_max": 0.922352145335343
+        },
+        {
+          "seed": 2026111967,
+          "speed": 7.5,
+          "geometry": "original",
+          "finite32_posterior": [
+            0.20110952392030787,
+            0.417206428364332,
+            0.1432740837866506,
+            0.23840996392870936
+          ],
+          "continuous_posterior": [
+            0.20105896685416225,
+            0.41742347681581393,
+            0.14312619415684558,
+            0.23839136217317816
+          ],
+          "posterior_total_variation": 0.00021704845148187712,
+          "max_pair_log_bayes_factor_discrepancy": 0.0015528549689065585,
+          "max_branch_log_density_discrepancy": 0.0023583510014706377,
+          "log_predictive_finite32_minus_continuous": 0.0013256031004456048,
+          "finite32_winning_prototypes": [
+            1
+          ],
+          "continuous_winning_prototypes": [
+            1
+          ],
+          "winning_prototype_changed": false,
+          "continuous_relative_integral_error_bound_max": 1.957923209653025e-11,
+          "continuous_split_log_integral_discrepancy_max": 4.440892098500626e-16,
+          "finite32_reduced_api_log_bayes_factor_error_max": 3.552713678800501e-15,
+          "finite32_reduced_api_absolute_log_density_error_max": 0.0,
+          "finite32_reduced_archived_posterior_error_max": 8.326672684688674e-16,
+          "response_noise_eigenvalue_max": 11.878655879402825
+        },
+        {
+          "seed": 2026111968,
+          "speed": 2.5,
+          "geometry": "bounded",
+          "finite32_posterior": [
+            0.15324660898241668,
+            0.41153441522883566,
+            0.37261407852250833,
+            0.06260489726624195
+          ],
+          "continuous_posterior": [
+            0.24147117965723489,
+            0.2620901482724451,
+            0.26031837447002654,
+            0.2361202976002937
+          ],
+          "posterior_total_variation": 0.26173997100887114,
+          "max_pair_log_bayes_factor_discrepancy": 1.778702032882883,
+          "max_branch_log_density_discrepancy": 24.880057103287136,
+          "log_predictive_finite32_minus_continuous": -23.552559198674405,
+          "finite32_winning_prototypes": [
+            1
+          ],
+          "continuous_winning_prototypes": [
+            1
+          ],
+          "winning_prototype_changed": false,
+          "continuous_relative_integral_error_bound_max": 5.909604437045501e-12,
+          "continuous_split_log_integral_discrepancy_max": 8.881784197001252e-16,
+          "finite32_reduced_api_log_bayes_factor_error_max": 1.5631940186722204e-13,
+          "finite32_reduced_api_absolute_log_density_error_max": 1.4921397450962104e-13,
+          "finite32_reduced_archived_posterior_error_max": 1.0857981180834031e-13,
+          "response_noise_eigenvalue_max": 0.9419644042859547
+        },
+        {
+          "seed": 2026111968,
+          "speed": 2.5,
+          "geometry": "original",
+          "finite32_posterior": [
+            0.154456412704752,
+            0.3104279353447377,
+            0.29180382801150373,
+            0.24331182393900938
+          ],
+          "continuous_posterior": [
+            0.2377107266130854,
+            0.25629723867677157,
+            0.25492001905894834,
+            0.2510720156511943
+          ],
+          "posterior_total_variation": 0.09101450562051994,
+          "max_pair_log_bayes_factor_discrepancy": 0.622756484543963,
+          "max_branch_log_density_discrepancy": 18.12370151102022,
+          "log_predictive_finite32_minus_continuous": -17.69255894910606,
+          "finite32_winning_prototypes": [
+            1
+          ],
+          "continuous_winning_prototypes": [
+            1
+          ],
+          "winning_prototype_changed": false,
+          "continuous_relative_integral_error_bound_max": 1.4798830024436718e-11,
+          "continuous_split_log_integral_discrepancy_max": 8.881784197001252e-16,
+          "finite32_reduced_api_log_bayes_factor_error_max": 1.7763568394002505e-13,
+          "finite32_reduced_api_absolute_log_density_error_max": 3.623767952376511e-13,
+          "finite32_reduced_archived_posterior_error_max": 3.4555691641458e-14,
+          "response_noise_eigenvalue_max": 16.230804434699536
+        },
+        {
+          "seed": 2026111968,
+          "speed": 7.5,
+          "geometry": "bounded",
+          "finite32_posterior": [
+            0.05160209224884756,
+            0.11287099458588384,
+            0.0933709829125245,
+            0.7421559302527375
+          ],
+          "continuous_posterior": [
+            0.24265801407186616,
+            0.2503522643996807,
+            0.24933782682534114,
+            0.25765189470311023
+          ],
+          "posterior_total_variation": 0.48450403554962973,
+          "max_pair_log_bayes_factor_discrepancy": 2.6060408246159312,
+          "max_branch_log_density_discrepancy": 85.28473032486683,
+          "log_predictive_finite32_minus_continuous": -83.73663944139498,
+          "finite32_winning_prototypes": [
+            3
+          ],
+          "continuous_winning_prototypes": [
+            3
+          ],
+          "winning_prototype_changed": false,
+          "continuous_relative_integral_error_bound_max": 5.371462388808657e-12,
+          "continuous_split_log_integral_discrepancy_max": 1.3322676295501878e-15,
+          "finite32_reduced_api_log_bayes_factor_error_max": 2.2737367544323206e-13,
+          "finite32_reduced_api_absolute_log_density_error_max": 5.684341886080802e-14,
+          "finite32_reduced_archived_posterior_error_max": 3.71508379615193e-14,
+          "response_noise_eigenvalue_max": 0.9419644042859547
+        },
+        {
+          "seed": 2026111968,
+          "speed": 7.5,
+          "geometry": "original",
+          "finite32_posterior": [
+            0.09987965203451832,
+            0.3083908247511051,
+            0.2981809503123083,
+            0.29354857290207226
+          ],
+          "continuous_posterior": [
+            0.24304497590833773,
+            0.2528028691313333,
+            0.2524152329066665,
+            0.2517369220536608
+          ],
+          "posterior_total_variation": 0.1431653238738222,
+          "max_pair_log_bayes_factor_discrepancy": 1.0880384091817774,
+          "max_branch_log_density_discrepancy": 75.10351407660512,
+          "log_predictive_finite32_minus_continuous": -74.21423354591842,
+          "finite32_winning_prototypes": [
+            1
+          ],
+          "continuous_winning_prototypes": [
+            1
+          ],
+          "winning_prototype_changed": false,
+          "continuous_relative_integral_error_bound_max": 6.0044288029189485e-12,
+          "continuous_split_log_integral_discrepancy_max": 8.881784197001252e-16,
+          "finite32_reduced_api_log_bayes_factor_error_max": 8.242295734817162e-13,
+          "finite32_reduced_api_absolute_log_density_error_max": 1.1084466677857563e-12,
+          "finite32_reduced_archived_posterior_error_max": 1.0080825063596421e-13,
+          "response_noise_eigenvalue_max": 16.230804434699536
+        },
+        {
+          "seed": 2026111969,
+          "speed": 2.5,
+          "geometry": "bounded",
+          "finite32_posterior": [
+            0.010772536083380062,
+            0.004804867227700677,
+            0.037439704328182895,
+            0.9469828923607312
+          ],
+          "continuous_posterior": [
+            0.24022305092746618,
+            0.23861194215502818,
+            0.2504464721338098,
+            0.27071853478369684
+          ],
+          "posterior_total_variation": 0.6762643575770375,
+          "max_pair_log_bayes_factor_discrepancy": 5.1574105132511505,
+          "max_branch_log_density_discrepancy": 81.82918960232753,
+          "log_predictive_finite32_minus_continuous": -77.92398045290135,
+          "finite32_winning_prototypes": [
+            3
+          ],
+          "continuous_winning_prototypes": [
+            3
+          ],
+          "winning_prototype_changed": false,
+          "continuous_relative_integral_error_bound_max": 1.0278940085324033e-11,
+          "continuous_split_log_integral_discrepancy_max": 8.881784197001252e-16,
+          "finite32_reduced_api_log_bayes_factor_error_max": 1.0658141036401503e-12,
+          "finite32_reduced_api_absolute_log_density_error_max": 7.105427357601002e-14,
+          "finite32_reduced_archived_posterior_error_max": 8.071321389024888e-14,
+          "response_noise_eigenvalue_max": 0.9819275177854665
+        },
+        {
+          "seed": 2026111969,
+          "speed": 2.5,
+          "geometry": "original",
+          "finite32_posterior": [
+            0.09037278317229319,
+            0.3117866881616428,
+            0.305460724924735,
+            0.2923798037413308
+          ],
+          "continuous_posterior": [
+            0.2413530256980083,
+            0.2532979212875449,
+            0.2529704985727839,
+            0.25237855444165935
+          ],
+          "posterior_total_variation": 0.15098024252571776,
+          "max_pair_log_bayes_factor_discrepancy": 1.190070459366467,
+          "max_branch_log_density_discrepancy": 65.61530515161377,
+          "log_predictive_finite32_minus_continuous": -64.63298760399312,
+          "finite32_winning_prototypes": [
+            1
+          ],
+          "continuous_winning_prototypes": [
+            1
+          ],
+          "winning_prototype_changed": false,
+          "continuous_relative_integral_error_bound_max": 1.245905508454685e-12,
+          "continuous_split_log_integral_discrepancy_max": 1.3322676295501878e-15,
+          "finite32_reduced_api_log_bayes_factor_error_max": 1.8332002582610585e-12,
+          "finite32_reduced_api_absolute_log_density_error_max": 8.810729923425242e-12,
+          "finite32_reduced_archived_posterior_error_max": 2.1188606424971113e-13,
+          "response_noise_eigenvalue_max": 54.332742239238286
+        },
+        {
+          "seed": 2026111969,
+          "speed": 7.5,
+          "geometry": "bounded",
+          "finite32_posterior": [
+            0.025944246617334438,
+            0.7602698492280581,
+            0.2099299952211618,
+            0.003855908933432054
+          ],
+          "continuous_posterior": [
+            0.24555756400814352,
+            0.2583531232564024,
+            0.2541714890106869,
+            0.2419178237247666
+          ],
+          "posterior_total_variation": 0.5019167259716623,
+          "max_pair_log_bayes_factor_discrepancy": 5.218337428611733,
+          "max_branch_log_density_discrepancy": 165.51975143812794,
+          "log_predictive_finite32_minus_continuous": -161.38076010064484,
+          "finite32_winning_prototypes": [
+            1
+          ],
+          "continuous_winning_prototypes": [
+            1
+          ],
+          "winning_prototype_changed": false,
+          "continuous_relative_integral_error_bound_max": 3.933495903709725e-12,
+          "continuous_split_log_integral_discrepancy_max": 1.3322676295501878e-15,
+          "finite32_reduced_api_log_bayes_factor_error_max": 7.673861546209082e-13,
+          "finite32_reduced_api_absolute_log_density_error_max": 1.1368683772161603e-13,
+          "finite32_reduced_archived_posterior_error_max": 6.561418075534675e-14,
+          "response_noise_eigenvalue_max": 0.9819275177854665
+        },
+        {
+          "seed": 2026111969,
+          "speed": 7.5,
+          "geometry": "original",
+          "finite32_posterior": [
+            0.05553821515573084,
+            0.35556556961511504,
+            0.3313915172000706,
+            0.25750469802908504
+          ],
+          "continuous_posterior": [
+            0.24407102254570012,
+            0.2525607544585178,
+            0.2521995643308485,
+            0.25116865866493454
+          ],
+          "posterior_total_variation": 0.18853280738996958,
+          "max_pair_log_bayes_factor_discrepancy": 1.8224457578860154,
+          "max_branch_log_density_discrepancy": 148.73199028109073,
+          "log_predictive_finite32_minus_continuous": -147.25160236731227,
+          "finite32_winning_prototypes": [
+            1
+          ],
+          "continuous_winning_prototypes": [
+            1
+          ],
+          "winning_prototype_changed": false,
+          "continuous_relative_integral_error_bound_max": 7.495148750393283e-12,
+          "continuous_split_log_integral_discrepancy_max": 1.3322676295501878e-15,
+          "finite32_reduced_api_log_bayes_factor_error_max": 1.5063505998114124e-12,
+          "finite32_reduced_api_absolute_log_density_error_max": 4.433786671143025e-12,
+          "finite32_reduced_archived_posterior_error_max": 4.244937734654286e-13,
+          "response_noise_eigenvalue_max": 54.332742239238286
+        },
+        {
+          "seed": 2026111970,
+          "speed": 2.5,
+          "geometry": "bounded",
+          "finite32_posterior": [
+            0.27035141565785425,
+            0.3532554682107656,
+            0.18494022476419078,
+            0.1914528913671892
+          ],
+          "continuous_posterior": [
+            0.27058849539899843,
+            0.3566714941128766,
+            0.18299092911078046,
+            0.18974908137734461
+          ],
+          "posterior_total_variation": 0.0036531056432550363,
+          "max_pair_log_bayes_factor_discrepancy": 0.020219752000492974,
+          "max_branch_log_density_discrepancy": 0.04340111578282446,
+          "log_predictive_finite32_minus_continuous": 0.032805036210584504,
+          "finite32_winning_prototypes": [
+            1
+          ],
+          "continuous_winning_prototypes": [
+            1
+          ],
+          "winning_prototype_changed": false,
+          "continuous_relative_integral_error_bound_max": 1.199148701626676e-11,
+          "continuous_split_log_integral_discrepancy_max": 4.440892098500626e-16,
+          "finite32_reduced_api_log_bayes_factor_error_max": 1.7763568394002505e-14,
+          "finite32_reduced_api_absolute_log_density_error_max": 6.394884621840902e-14,
+          "finite32_reduced_archived_posterior_error_max": 2.3869795029440866e-15,
+          "response_noise_eigenvalue_max": 0.6768771377187827
+        },
+        {
+          "seed": 2026111970,
+          "speed": 2.5,
+          "geometry": "original",
+          "finite32_posterior": [
+            0.276211674702626,
+            0.336336536372232,
+            0.21428581293676513,
+            0.17316597598837596
+          ],
+          "continuous_posterior": [
+            0.27641889462377334,
+            0.3373187609326083,
+            0.21391778979043052,
+            0.17234455465318738
+          ],
+          "posterior_total_variation": 0.001189444481523444,
+          "max_pair_log_bayes_factor_discrepancy": 0.007670941967093725,
+          "max_branch_log_density_discrepancy": 0.015455424923224825,
+          "log_predictive_finite32_minus_continuous": 0.010700589339764477,
+          "finite32_winning_prototypes": [
+            1
+          ],
+          "continuous_winning_prototypes": [
+            1
+          ],
+          "winning_prototype_changed": false,
+          "continuous_relative_integral_error_bound_max": 1.9636796240355614e-11,
+          "continuous_split_log_integral_discrepancy_max": 4.440892098500626e-16,
+          "finite32_reduced_api_log_bayes_factor_error_max": 1.2434497875801753e-14,
+          "finite32_reduced_api_absolute_log_density_error_max": 8.526512829121202e-14,
+          "finite32_reduced_archived_posterior_error_max": 1.5543122344752192e-15,
+          "response_noise_eigenvalue_max": 2.094798037316496
+        },
+        {
+          "seed": 2026111970,
+          "speed": 7.5,
+          "geometry": "bounded",
+          "finite32_posterior": [
+            0.27983879648897836,
+            0.21224525399804411,
+            0.30844859767790006,
+            0.199467351835078
+          ],
+          "continuous_posterior": [
+            0.27570660196299734,
+            0.21621299220049084,
+            0.303006486650193,
+            0.2050739191863193
+          ],
+          "posterior_total_variation": 0.009574305553688059,
+          "max_pair_log_bayes_factor_discrepancy": 0.04552091848013262,
+          "max_branch_log_density_discrepancy": 0.04626347352387228,
+          "log_predictive_finite32_minus_continuous": 0.02846247759665843,
+          "finite32_winning_prototypes": [
+            2
+          ],
+          "continuous_winning_prototypes": [
+            2
+          ],
+          "winning_prototype_changed": false,
+          "continuous_relative_integral_error_bound_max": 1.692472542474436e-11,
+          "continuous_split_log_integral_discrepancy_max": 1.3322676295501878e-15,
+          "finite32_reduced_api_log_bayes_factor_error_max": 3.197442310920451e-14,
+          "finite32_reduced_api_absolute_log_density_error_max": 5.684341886080802e-14,
+          "finite32_reduced_archived_posterior_error_max": 4.496403249731884e-15,
+          "response_noise_eigenvalue_max": 0.6768771377187827
+        },
+        {
+          "seed": 2026111970,
+          "speed": 7.5,
+          "geometry": "original",
+          "finite32_posterior": [
+            0.2873665032075701,
+            0.23531081182969543,
+            0.2803703576479469,
+            0.19695232731478768
+          ],
+          "continuous_posterior": [
+            0.2868872409054026,
+            0.23523695018233023,
+            0.28165002906976105,
+            0.1962257798425065
+          ],
+          "posterior_total_variation": 0.001279671421814052,
+          "max_pair_log_bayes_factor_discrepancy": 0.008249605399015536,
+          "max_branch_log_density_discrepancy": 0.06157477606260642,
+          "log_predictive_finite32_minus_continuous": 0.05787900416670766,
+          "finite32_winning_prototypes": [
+            0
+          ],
+          "continuous_winning_prototypes": [
+            0
+          ],
+          "winning_prototype_changed": false,
+          "continuous_relative_integral_error_bound_max": 9.789449169318674e-12,
+          "continuous_split_log_integral_discrepancy_max": 6.661338147750939e-16,
+          "finite32_reduced_api_log_bayes_factor_error_max": 1.0658141036401503e-14,
+          "finite32_reduced_api_absolute_log_density_error_max": 4.263256414560601e-14,
+          "finite32_reduced_archived_posterior_error_max": 3.608224830031759e-15,
+          "response_noise_eigenvalue_max": 2.094798037316496
+        },
+        {
+          "seed": 2026111971,
+          "speed": 2.5,
+          "geometry": "bounded",
+          "finite32_posterior": [
+            0.17292313360432982,
+            0.10941904819287554,
+            0.49667158537064154,
+            0.2209862328321542
+          ],
+          "continuous_posterior": [
+            0.22288150887246527,
+            0.1975968414698631,
+            0.33234366073512916,
+            0.24717798892254123
+          ],
+          "posterior_total_variation": 0.1643279246355112,
+          "max_pair_log_bayes_factor_discrepancy": 0.9928032681922012,
+          "max_branch_log_density_discrepancy": 2.4977337910023607,
+          "log_predictive_finite32_minus_continuous": -1.906689980220758,
+          "finite32_winning_prototypes": [
+            2
+          ],
+          "continuous_winning_prototypes": [
+            2
+          ],
+          "winning_prototype_changed": false,
+          "continuous_relative_integral_error_bound_max": 1.9773147361835186e-11,
+          "continuous_split_log_integral_discrepancy_max": 1.3322676295501878e-15,
+          "finite32_reduced_api_log_bayes_factor_error_max": 3.339550858072471e-13,
+          "finite32_reduced_api_absolute_log_density_error_max": 1.2079226507921703e-13,
+          "finite32_reduced_archived_posterior_error_max": 2.3703261575747092e-14,
+          "response_noise_eigenvalue_max": 0.9753296402286217
+        },
+        {
+          "seed": 2026111971,
+          "speed": 2.5,
+          "geometry": "original",
+          "finite32_posterior": [
+            0.19390656315982213,
+            0.2591485438356925,
+            0.2960417421730146,
+            0.25090315083147247
+          ],
+          "continuous_posterior": [
+            0.2064626685058978,
+            0.2572176883316798,
+            0.28547522887215926,
+            0.25084441429026405
+          ],
+          "posterior_total_variation": 0.012556105346076082,
+          "max_pair_log_bayes_factor_discrepancy": 0.09908840808520836,
+          "max_branch_log_density_discrepancy": 0.2767312336255152,
+          "log_predictive_finite32_minus_continuous": -0.21398802946524853,
+          "finite32_winning_prototypes": [
+            2
+          ],
+          "continuous_winning_prototypes": [
+            2
+          ],
+          "winning_prototype_changed": false,
+          "continuous_relative_integral_error_bound_max": 1.9349017073132464e-11,
+          "continuous_split_log_integral_discrepancy_max": 7.771561172376096e-16,
+          "finite32_reduced_api_log_bayes_factor_error_max": 8.881784197001252e-14,
+          "finite32_reduced_api_absolute_log_density_error_max": 2.4868995751603507e-13,
+          "finite32_reduced_archived_posterior_error_max": 4.324318680914985e-14,
+          "response_noise_eigenvalue_max": 39.53447170073955
+        },
+        {
+          "seed": 2026111971,
+          "speed": 7.5,
+          "geometry": "bounded",
+          "finite32_posterior": [
+            0.152425514446194,
+            0.6578030471818662,
+            0.10627091856365413,
+            0.08350051980828636
+          ],
+          "continuous_posterior": [
+            0.237913153791939,
+            0.30676228580364,
+            0.23189494477407527,
+            0.22342961563034472
+          ],
+          "posterior_total_variation": 0.3510407613782253,
+          "max_pair_log_bayes_factor_discrepancy": 1.7470760203091373,
+          "max_branch_log_density_discrepancy": 8.523932013763744,
+          "log_predictive_finite32_minus_continuous": -7.539688425273745,
+          "finite32_winning_prototypes": [
+            1
+          ],
+          "continuous_winning_prototypes": [
+            1
+          ],
+          "winning_prototype_changed": false,
+          "continuous_relative_integral_error_bound_max": 1.6531192848310108e-11,
+          "continuous_split_log_integral_discrepancy_max": 8.881784197001252e-16,
+          "finite32_reduced_api_log_bayes_factor_error_max": 2.7000623958883807e-13,
+          "finite32_reduced_api_absolute_log_density_error_max": 2.1316282072803006e-13,
+          "finite32_reduced_archived_posterior_error_max": 1.1268763699945339e-14,
+          "response_noise_eigenvalue_max": 0.9753296402286217
+        },
+        {
+          "seed": 2026111971,
+          "speed": 7.5,
+          "geometry": "original",
+          "finite32_posterior": [
+            0.17524597087726124,
+            0.29826144190506665,
+            0.2633271084134682,
+            0.2631654788042028
+          ],
+          "continuous_posterior": [
+            0.22787553565295937,
+            0.26246690656280575,
+            0.25526007755173924,
+            0.25439748023249514
+          ],
+          "posterior_total_variation": 0.05262956477569783,
+          "max_pair_log_bayes_factor_discrepancy": 0.39045446856950505,
+          "max_branch_log_density_discrepancy": 4.5511814612818,
+          "log_predictive_finite32_minus_continuous": -4.2885724125777,
+          "finite32_winning_prototypes": [
+            1
+          ],
+          "continuous_winning_prototypes": [
+            1
+          ],
+          "winning_prototype_changed": false,
+          "continuous_relative_integral_error_bound_max": 6.8687620213970604e-12,
+          "continuous_split_log_integral_discrepancy_max": 4.440892098500626e-16,
+          "finite32_reduced_api_log_bayes_factor_error_max": 2.1316282072803006e-13,
+          "finite32_reduced_api_absolute_log_density_error_max": 3.339550858072471e-13,
+          "finite32_reduced_archived_posterior_error_max": 8.132383655379272e-14,
+          "response_noise_eigenvalue_max": 39.53447170073955
+        },
+        {
+          "seed": 2026111974,
+          "speed": 2.5,
+          "geometry": "bounded",
+          "finite32_posterior": [
+            0.21693173239530558,
+            0.4922646535779697,
+            0.1415038566551538,
+            0.14929975737157114
+          ],
+          "continuous_posterior": [
+            0.21871698075874188,
+            0.4639468538534106,
+            0.15545866714835543,
+            0.1618774982394937
+          ],
+          "posterior_total_variation": 0.028317799724559806,
+          "max_pair_log_bayes_factor_discrepancy": 0.1532993970291514,
+          "max_branch_log_density_discrepancy": 0.10175282553689158,
+          "log_predictive_finite32_minus_continuous": 0.04250634644909823,
+          "finite32_winning_prototypes": [
+            1
+          ],
+          "continuous_winning_prototypes": [
+            1
+          ],
+          "winning_prototype_changed": false,
+          "continuous_relative_integral_error_bound_max": 1.8509672575948503e-11,
+          "continuous_split_log_integral_discrepancy_max": 1.2212453270876722e-15,
+          "finite32_reduced_api_log_bayes_factor_error_max": 8.881784197001252e-14,
+          "finite32_reduced_api_absolute_log_density_error_max": 3.863576125695545e-14,
+          "finite32_reduced_archived_posterior_error_max": 1.0075273948473296e-14,
+          "response_noise_eigenvalue_max": 0.975876188636567
+        },
+        {
+          "seed": 2026111974,
+          "speed": 2.5,
+          "geometry": "original",
+          "finite32_posterior": [
+            0.17544349944909485,
+            0.4270335301737443,
+            0.1646659550660639,
+            0.23285701531109662
+          ],
+          "continuous_posterior": [
+            0.1752176804764624,
+            0.42766683646997306,
+            0.16433346922860492,
+            0.23278201382496005
+          ],
+          "posterior_total_variation": 0.0006333062962283753,
+          "max_pair_log_bayes_factor_discrepancy": 0.0035031325767853616,
+          "max_branch_log_density_discrepancy": 0.005724978165204675,
+          "log_predictive_finite32_minus_continuous": 0.0037037834390325486,
+          "finite32_winning_prototypes": [
+            1
+          ],
+          "continuous_winning_prototypes": [
+            1
+          ],
+          "winning_prototype_changed": false,
+          "continuous_relative_integral_error_bound_max": 1.9018020793102232e-11,
+          "continuous_split_log_integral_discrepancy_max": 1.3322676295501878e-15,
+          "finite32_reduced_api_log_bayes_factor_error_max": 8.881784197001252e-14,
+          "finite32_reduced_api_absolute_log_density_error_max": 6.750155989720952e-14,
+          "finite32_reduced_archived_posterior_error_max": 6.217248937900877e-15,
+          "response_noise_eigenvalue_max": 40.45281957874216
+        },
+        {
+          "seed": 2026111974,
+          "speed": 7.5,
+          "geometry": "bounded",
+          "finite32_posterior": [
+            0.13283412220781313,
+            0.0976554338940742,
+            0.6943976428355237,
+            0.0751128010625894
+          ],
+          "continuous_posterior": [
+            0.23734720720609503,
+            0.23271375479980838,
+            0.30585860844186913,
+            0.22408042955222698
+          ],
+          "posterior_total_variation": 0.3885390343936541,
+          "max_pair_log_bayes_factor_discrepancy": 1.912935887655408,
+          "max_branch_log_density_discrepancy": 10.937500102499762,
+          "log_predictive_finite32_minus_continuous": -9.844486052398143,
+          "finite32_winning_prototypes": [
+            2
+          ],
+          "continuous_winning_prototypes": [
+            2
+          ],
+          "winning_prototype_changed": false,
+          "continuous_relative_integral_error_bound_max": 1.118588752411023e-11,
+          "continuous_split_log_integral_discrepancy_max": 8.881784197001252e-16,
+          "finite32_reduced_api_log_bayes_factor_error_max": 4.121147867408581e-13,
+          "finite32_reduced_api_absolute_log_density_error_max": 1.9895196601282805e-13,
+          "finite32_reduced_archived_posterior_error_max": 2.983724378680108e-14,
+          "response_noise_eigenvalue_max": 0.975876188636567
+        },
+        {
+          "seed": 2026111974,
+          "speed": 7.5,
+          "geometry": "original",
+          "finite32_posterior": [
+            0.1790552072074494,
+            0.2647400610456918,
+            0.3022879996868048,
+            0.25391673206005405
+          ],
+          "continuous_posterior": [
+            0.2257674515467777,
+            0.2564791241353739,
+            0.2651309046541903,
+            0.2526225196636582
+          ],
+          "posterior_total_variation": 0.04671224433932829,
+          "max_pair_log_bayes_factor_discrepancy": 0.36296783606387706,
+          "max_branch_log_density_discrepancy": 3.4156228191747218,
+          "log_predictive_finite32_minus_continuous": -3.1838115035602392,
+          "finite32_winning_prototypes": [
+            2
+          ],
+          "continuous_winning_prototypes": [
+            2
+          ],
+          "winning_prototype_changed": false,
+          "continuous_relative_integral_error_bound_max": 1.771233317405047e-11,
+          "continuous_split_log_integral_discrepancy_max": 4.440892098500626e-16,
+          "finite32_reduced_api_log_bayes_factor_error_max": 1.4210854715202004e-13,
+          "finite32_reduced_api_absolute_log_density_error_max": 7.673861546209082e-13,
+          "finite32_reduced_archived_posterior_error_max": 3.3861802251067274e-14,
+          "response_noise_eigenvalue_max": 40.45281957874216
+        },
+        {
+          "seed": 2026111975,
+          "speed": 2.5,
+          "geometry": "bounded",
+          "finite32_posterior": [
+            0.18609612490188185,
+            0.17913484509065042,
+            0.3188530850213052,
+            0.3159159449861633
+          ],
+          "continuous_posterior": [
+            0.2191696214479511,
+            0.22423206549459698,
+            0.27933908368928595,
+            0.2772592293681647
+          ],
+          "posterior_total_variation": 0.07817071695001684,
+          "max_pair_log_bayes_factor_discrepancy": 0.35684672605510315,
+          "max_branch_log_density_discrepancy": 1.5749791562212359,
+          "log_predictive_finite32_minus_continuous": -1.3504364807414646,
+          "finite32_winning_prototypes": [
+            2
+          ],
+          "continuous_winning_prototypes": [
+            2
+          ],
+          "winning_prototype_changed": false,
+          "continuous_relative_integral_error_bound_max": 1.5476965737779795e-11,
+          "continuous_split_log_integral_discrepancy_max": 6.661338147750939e-16,
+          "finite32_reduced_api_log_bayes_factor_error_max": 5.3290705182007514e-14,
+          "finite32_reduced_api_absolute_log_density_error_max": 5.684341886080802e-14,
+          "finite32_reduced_archived_posterior_error_max": 7.882583474838611e-15,
+          "response_noise_eigenvalue_max": 0.8653827508784729
+        },
+        {
+          "seed": 2026111975,
+          "speed": 2.5,
+          "geometry": "original",
+          "finite32_posterior": [
+            0.1894570167165785,
+            0.2444810034277434,
+            0.2952283264583613,
+            0.2708336533973173
+          ],
+          "continuous_posterior": [
+            0.20731565094057602,
+            0.24818699766946972,
+            0.2803042839949656,
+            0.2641930673949877
+          ],
+          "posterior_total_variation": 0.02156462846572456,
+          "max_pair_log_bayes_factor_discrepancy": 0.14195364480168848,
+          "max_branch_log_density_discrepancy": 0.5505349852525434,
+          "log_predictive_finite32_minus_continuous": -0.4604546437502002,
+          "finite32_winning_prototypes": [
+            2
+          ],
+          "continuous_winning_prototypes": [
+            2
+          ],
+          "winning_prototype_changed": false,
+          "continuous_relative_integral_error_bound_max": 9.482908961795812e-12,
+          "continuous_split_log_integral_discrepancy_max": 8.881784197001252e-16,
+          "finite32_reduced_api_log_bayes_factor_error_max": 3.197442310920451e-14,
+          "finite32_reduced_api_absolute_log_density_error_max": 5.684341886080802e-14,
+          "finite32_reduced_archived_posterior_error_max": 7.716050021144838e-15,
+          "response_noise_eigenvalue_max": 6.4284685396983585
+        },
+        {
+          "seed": 2026111975,
+          "speed": 7.5,
+          "geometry": "bounded",
+          "finite32_posterior": [
+            0.2156274918641187,
+            0.3769959405669088,
+            0.14715994047342607,
+            0.2602166270955468
+          ],
+          "continuous_posterior": [
+            0.21496840861905006,
+            0.3807504740115292,
+            0.143966648534503,
+            0.26031446883491843
+          ],
+          "posterior_total_variation": 0.0038523751839918546,
+          "max_pair_log_bayes_factor_discrepancy": 0.03184817743563606,
+          "max_branch_log_density_discrepancy": 0.05509966742186023,
+          "log_predictive_finite32_minus_continuous": 0.033161307039353716,
+          "finite32_winning_prototypes": [
+            1
+          ],
+          "continuous_winning_prototypes": [
+            1
+          ],
+          "winning_prototype_changed": false,
+          "continuous_relative_integral_error_bound_max": 1.6499128142074253e-11,
+          "continuous_split_log_integral_discrepancy_max": 6.661338147750939e-16,
+          "finite32_reduced_api_log_bayes_factor_error_max": 1.7763568394002505e-14,
+          "finite32_reduced_api_absolute_log_density_error_max": 1.4210854715202004e-13,
+          "finite32_reduced_archived_posterior_error_max": 2.0539125955565396e-15,
+          "response_noise_eigenvalue_max": 0.8653827508784729
+        },
+        {
+          "seed": 2026111975,
+          "speed": 7.5,
+          "geometry": "original",
+          "finite32_posterior": [
+            0.20305224725261173,
+            0.35260114566662526,
+            0.14620267393392503,
+            0.29814393314683885
+          ],
+          "continuous_posterior": [
+            0.20299935993788043,
+            0.35273866459973546,
+            0.14605339698396924,
+            0.2982085784784145
+          ],
+          "posterior_total_variation": 0.00020216426468645798,
+          "max_pair_log_bayes_factor_discrepancy": 0.0014114857870826114,
+          "max_branch_log_density_discrepancy": 0.002383520363414604,
+          "log_predictive_finite32_minus_continuous": 0.00136197126458093,
+          "finite32_winning_prototypes": [
+            1
+          ],
+          "continuous_winning_prototypes": [
+            1
+          ],
+          "winning_prototype_changed": false,
+          "continuous_relative_integral_error_bound_max": 1.724257368180498e-11,
+          "continuous_split_log_integral_discrepancy_max": 5.551115123125783e-16,
+          "finite32_reduced_api_log_bayes_factor_error_max": 8.881784197001252e-15,
+          "finite32_reduced_api_absolute_log_density_error_max": 1.8474111129762605e-13,
+          "finite32_reduced_archived_posterior_error_max": 1.582067810090848e-15,
+          "response_noise_eigenvalue_max": 6.4284685396983585
+        },
+        {
+          "seed": 2026111978,
+          "speed": 2.5,
+          "geometry": "bounded",
+          "finite32_posterior": [
+            0.22328215859773798,
+            0.36508949986590106,
+            0.1903041238808386,
+            0.22132421765552154
+          ],
+          "continuous_posterior": [
+            0.22244097389499592,
+            0.37019944388932813,
+            0.18748648866011855,
+            0.2198730935555576
+          ],
+          "posterior_total_variation": 0.0051099440234265575,
+          "max_pair_log_bayes_factor_discrepancy": 0.028816031463986036,
+          "max_branch_log_density_discrepancy": 0.06179642338952185,
+          "log_predictive_finite32_minus_continuous": 0.046879761237294204,
+          "finite32_winning_prototypes": [
+            1
+          ],
+          "continuous_winning_prototypes": [
+            1
+          ],
+          "winning_prototype_changed": false,
+          "continuous_relative_integral_error_bound_max": 1.9177702706478292e-11,
+          "continuous_split_log_integral_discrepancy_max": 4.440892098500626e-16,
+          "finite32_reduced_api_log_bayes_factor_error_max": 8.881784197001252e-15,
+          "finite32_reduced_api_absolute_log_density_error_max": 4.263256414560601e-14,
+          "finite32_reduced_archived_posterior_error_max": 3.941291737419306e-15,
+          "response_noise_eigenvalue_max": 0.5567466465225955
+        },
+        {
+          "seed": 2026111978,
+          "speed": 2.5,
+          "geometry": "original",
+          "finite32_posterior": [
+            0.2181447862755435,
+            0.3709783419503003,
+            0.2002746385307416,
+            0.21060223324341465
+          ],
+          "continuous_posterior": [
+            0.21788667852947155,
+            0.3721021156307418,
+            0.1997905857917948,
+            0.2102206200479918
+          ],
+          "posterior_total_variation": 0.001123773680441545,
+          "max_pair_log_bayes_factor_discrepancy": 0.005444507866251058,
+          "max_branch_log_density_discrepancy": 0.01114023823289223,
+          "log_predictive_finite32_minus_continuous": 0.008720367943116258,
+          "finite32_winning_prototypes": [
+            1
+          ],
+          "continuous_winning_prototypes": [
+            1
+          ],
+          "winning_prototype_changed": false,
+          "continuous_relative_integral_error_bound_max": 1.647951678516151e-11,
+          "continuous_split_log_integral_discrepancy_max": 4.440892098500626e-16,
+          "finite32_reduced_api_log_bayes_factor_error_max": 1.9539925233402755e-14,
+          "finite32_reduced_api_absolute_log_density_error_max": 2.842170943040401e-14,
+          "finite32_reduced_archived_posterior_error_max": 3.1086244689504383e-15,
+          "response_noise_eigenvalue_max": 1.2560461012980841
+        },
+        {
+          "seed": 2026111978,
+          "speed": 7.5,
+          "geometry": "bounded",
+          "finite32_posterior": [
+            0.207628257387272,
+            0.199457347681484,
+            0.3937171197025237,
+            0.19919727522872094
+          ],
+          "continuous_posterior": [
+            0.20680840179790635,
+            0.19795639064486092,
+            0.39747774367664557,
+            0.19775746388058718
+          ],
+          "posterior_total_variation": 0.0037606239741221625,
+          "max_pair_log_bayes_factor_discrepancy": 0.017059920862372735,
+          "max_branch_log_density_discrepancy": 0.035050062979689045,
+          "log_predictive_finite32_minus_continuous": 0.02749640275792231,
+          "finite32_winning_prototypes": [
+            2
+          ],
+          "continuous_winning_prototypes": [
+            2
+          ],
+          "winning_prototype_changed": false,
+          "continuous_relative_integral_error_bound_max": 1.926019066365525e-11,
+          "continuous_split_log_integral_discrepancy_max": 4.440892098500626e-16,
+          "finite32_reduced_api_log_bayes_factor_error_max": 7.105427357601002e-15,
+          "finite32_reduced_api_absolute_log_density_error_max": 4.263256414560601e-14,
+          "finite32_reduced_archived_posterior_error_max": 2.1371793224034263e-15,
+          "response_noise_eigenvalue_max": 0.5567466465225955
+        },
+        {
+          "seed": 2026111978,
+          "speed": 7.5,
+          "geometry": "original",
+          "finite32_posterior": [
+            0.20158434780280138,
+            0.21187765295755193,
+            0.39524502963492397,
+            0.1912929696047221
+          ],
+          "continuous_posterior": [
+            0.2013325903237255,
+            0.21162227812846296,
+            0.39612864037242707,
+            0.1909164911753854
+          ],
+          "posterior_total_variation": 0.00088361073750233,
+          "max_pair_log_bayes_factor_discrepancy": 0.004203118841489939,
+          "max_branch_log_density_discrepancy": 0.008020698115842606,
+          "log_predictive_finite32_minus_continuous": 0.0060506864352003475,
+          "finite32_winning_prototypes": [
+            2
+          ],
+          "continuous_winning_prototypes": [
+            2
+          ],
+          "winning_prototype_changed": false,
+          "continuous_relative_integral_error_bound_max": 1.03693569771185e-11,
+          "continuous_split_log_integral_discrepancy_max": 3.3306690738754696e-16,
+          "finite32_reduced_api_log_bayes_factor_error_max": 1.0658141036401503e-14,
+          "finite32_reduced_api_absolute_log_density_error_max": 4.263256414560601e-14,
+          "finite32_reduced_archived_posterior_error_max": 1.3877787807814457e-15,
+          "response_noise_eigenvalue_max": 1.2560461012980841
+        },
+        {
+          "seed": 2026111979,
+          "speed": 2.5,
+          "geometry": "bounded",
+          "finite32_posterior": [
+            0.20053588585343915,
+            0.15541549163161947,
+            0.4257918569618132,
+            0.21825676555312853
+          ],
+          "continuous_posterior": [
+            0.2182984436254122,
+            0.1912119105038123,
+            0.35863975911866747,
+            0.2318498867521096
+          ],
+          "posterior_total_variation": 0.06715209784314635,
+          "max_pair_log_bayes_factor_discrepancy": 0.37891237038316916,
+          "max_branch_log_density_discrepancy": 0.56519774627073,
+          "log_predictive_finite32_minus_continuous": -0.35791757587771755,
+          "finite32_winning_prototypes": [
+            2
+          ],
+          "continuous_winning_prototypes": [
+            2
+          ],
+          "winning_prototype_changed": false,
+          "continuous_relative_integral_error_bound_max": 1.3491391572583162e-11,
+          "continuous_split_log_integral_discrepancy_max": 5.551115123125783e-16,
+          "finite32_reduced_api_log_bayes_factor_error_max": 1.0658141036401503e-13,
+          "finite32_reduced_api_absolute_log_density_error_max": 1.3500311979441904e-13,
+          "finite32_reduced_archived_posterior_error_max": 2.5590640717609858e-14,
+          "response_noise_eigenvalue_max": 0.9660392029750525
+        },
+        {
+          "seed": 2026111979,
+          "speed": 2.5,
+          "geometry": "original",
+          "finite32_posterior": [
+            0.18791366371308538,
+            0.23961685645416628,
+            0.33608191386133623,
+            0.23638756597141336
+          ],
+          "continuous_posterior": [
+            0.1883450887278424,
+            0.23870490813044173,
+            0.3371635118514067,
+            0.23578649129031068
+          ],
+          "posterior_total_variation": 0.001513023004827349,
+          "max_pair_log_bayes_factor_discrepancy": 0.007026210741429395,
+          "max_branch_log_density_discrepancy": 0.03395092654574583,
+          "log_predictive_finite32_minus_continuous": 0.03013780535321331,
+          "finite32_winning_prototypes": [
+            2
+          ],
+          "continuous_winning_prototypes": [
+            2
+          ],
+          "winning_prototype_changed": false,
+          "continuous_relative_integral_error_bound_max": 1.9896701172068436e-11,
+          "continuous_split_log_integral_discrepancy_max": 4.440892098500626e-16,
+          "finite32_reduced_api_log_bayes_factor_error_max": 8.881784197001252e-14,
+          "finite32_reduced_api_absolute_log_density_error_max": 1.1368683772161603e-13,
+          "finite32_reduced_archived_posterior_error_max": 7.16093850883226e-15,
+          "response_noise_eigenvalue_max": 28.44571646140704
+        },
+        {
+          "seed": 2026111979,
+          "speed": 7.5,
+          "geometry": "bounded",
+          "finite32_posterior": [
+            0.1660076355154894,
+            0.5928972741367546,
+            0.11854398987595352,
+            0.12255110047180129
+          ],
+          "continuous_posterior": [
+            0.23601295033360523,
+            0.30716126366937846,
+            0.22809009463214686,
+            0.22873569136487024
+          ],
+          "posterior_total_variation": 0.2857360104673772,
+          "max_pair_log_bayes_factor_discrepancy": 1.3121048432236861,
+          "max_branch_log_density_discrepancy": 6.706975744367359,
+          "log_predictive_finite32_minus_continuous": -6.052519155840503,
+          "finite32_winning_prototypes": [
+            1
+          ],
+          "continuous_winning_prototypes": [
+            1
+          ],
+          "winning_prototype_changed": false,
+          "continuous_relative_integral_error_bound_max": 9.711111644212159e-12,
+          "continuous_split_log_integral_discrepancy_max": 8.881784197001252e-16,
+          "finite32_reduced_api_log_bayes_factor_error_max": 6.785683126508957e-13,
+          "finite32_reduced_api_absolute_log_density_error_max": 3.019806626980426e-14,
+          "finite32_reduced_archived_posterior_error_max": 4.789224572476769e-14,
+          "response_noise_eigenvalue_max": 0.9660392029750525
+        },
+        {
+          "seed": 2026111979,
+          "speed": 7.5,
+          "geometry": "original",
+          "finite32_posterior": [
+            0.18184209045192448,
+            0.29806349780150204,
+            0.2570068458095994,
+            0.2630875659369743
+          ],
+          "continuous_posterior": [
+            0.2244734769244974,
+            0.2658594371359567,
+            0.25445304370907945,
+            0.2552140422304656
+          ],
+          "posterior_total_variation": 0.042631386472573446,
+          "max_pair_log_bayes_factor_discrepancy": 0.3249576881285776,
+          "max_branch_log_density_discrepancy": 2.8018463070449933,
+          "log_predictive_finite32_minus_continuous": -2.5912274253016534,
+          "finite32_winning_prototypes": [
+            1
+          ],
+          "continuous_winning_prototypes": [
+            1
+          ],
+          "winning_prototype_changed": false,
+          "continuous_relative_integral_error_bound_max": 1.3617577407629109e-11,
+          "continuous_split_log_integral_discrepancy_max": 6.661338147750939e-16,
+          "finite32_reduced_api_log_bayes_factor_error_max": 1.2434497875801753e-13,
+          "finite32_reduced_api_absolute_log_density_error_max": 7.780442956573097e-13,
+          "finite32_reduced_archived_posterior_error_max": 3.813616089587413e-14,
+          "response_noise_eigenvalue_max": 28.44571646140704
+        }
+      ]
+    },
+    "p3_bounded_d": {
+      "archive": "p3_bounded_d_evaluation_tensors.pt",
+      "matched_roots": 11,
+      "summary": {
+        "bounded": {
+          "unique_initial_sources": 22,
+          "posterior_total_variation_median": 0.20480914181860488,
+          "posterior_total_variation_max": 0.6987973991591047,
+          "max_pair_log_bayes_factor_discrepancy": 27.004667428695825,
+          "max_branch_log_density_discrepancy": 186.08560192498993,
+          "winning_prototype_changes": 0,
+          "continuous_relative_integral_error_bound_max": 1.907316594601055e-11,
+          "continuous_split_log_integral_discrepancy_max": 1.7763568394002505e-15,
+          "finite32_reference_api_or_archive_error_max": 8.01492205937393e-12
+        },
+        "original": {
+          "unique_initial_sources": 22,
+          "posterior_total_variation_median": 0.03618087716151869,
+          "posterior_total_variation_max": 0.19204745311588037,
+          "max_pair_log_bayes_factor_discrepancy": 1.8279631689585472,
+          "max_branch_log_density_discrepancy": 147.73922365297858,
+          "winning_prototype_changes": 0,
+          "continuous_relative_integral_error_bound_max": 1.9878926486260686e-11,
+          "continuous_split_log_integral_discrepancy_max": 2.220446049250313e-15,
+          "finite32_reference_api_or_archive_error_max": 8.421352504228707e-11
+        }
+      },
+      "rows": [
+        {
+          "seed": 2026111965,
+          "speed": 2.5,
+          "geometry": "bounded",
+          "finite32_posterior": [
+            0.06121968585656799,
+            0.07507630628015792,
+            0.06792204916740831,
+            0.7957819586958669
+          ],
+          "continuous_posterior": [
+            0.23861477155715546,
+            0.24444909225107062,
+            0.24326389274655147,
+            0.2736722434452236
+          ],
+          "posterior_total_variation": 0.5221097152506433,
+          "max_pair_log_bayes_factor_discrepancy": 2.427775643432369,
+          "max_branch_log_density_discrepancy": 38.607805277132414,
+          "log_predictive_finite32_minus_continuous": -37.24742366221095,
+          "finite32_winning_prototypes": [
+            3
+          ],
+          "continuous_winning_prototypes": [
+            3
+          ],
+          "winning_prototype_changed": false,
+          "continuous_relative_integral_error_bound_max": 1.3967641587578893e-11,
+          "continuous_split_log_integral_discrepancy_max": 8.881784197001252e-16,
+          "finite32_reduced_api_log_bayes_factor_error_max": 1.7053025658242404e-13,
+          "finite32_reduced_api_absolute_log_density_error_max": 1.7053025658242404e-13,
+          "finite32_reduced_archived_posterior_error_max": 2.3162027851242328e-14,
+          "response_noise_eigenvalue_max": 0.9673097900704758
+        },
+        {
+          "seed": 2026111965,
+          "speed": 2.5,
+          "geometry": "original",
+          "finite32_posterior": [
+            0.11825070299575635,
+            0.290991839210628,
+            0.2871571031111457,
+            0.30360035468246915
+          ],
+          "continuous_posterior": [
+            0.23792232235810748,
+            0.2539619690257523,
+            0.25373686731681644,
+            0.25437884129932387
+          ],
+          "posterior_total_variation": 0.11967161936235067,
+          "max_pair_log_bayes_factor_discrepancy": 0.8760248281649972,
+          "max_branch_log_density_discrepancy": 31.32253356939088,
+          "log_predictive_finite32_minus_continuous": -30.62339629798866,
+          "finite32_winning_prototypes": [
+            3
+          ],
+          "continuous_winning_prototypes": [
+            3
+          ],
+          "winning_prototype_changed": false,
+          "continuous_relative_integral_error_bound_max": 9.682919009664083e-12,
+          "continuous_split_log_integral_discrepancy_max": 1.7763568394002505e-15,
+          "finite32_reduced_api_log_bayes_factor_error_max": 3.623767952376511e-13,
+          "finite32_reduced_api_absolute_log_density_error_max": 1.6555645743210334e-12,
+          "finite32_reduced_archived_posterior_error_max": 7.982503547054876e-14,
+          "response_noise_eigenvalue_max": 29.590198171130375
+        },
+        {
+          "seed": 2026111965,
+          "speed": 7.5,
+          "geometry": "bounded",
+          "finite32_posterior": [
+            0.08631978445908599,
+            0.46128514648899,
+            0.42501987678824676,
+            0.02737519226367414
+          ],
+          "continuous_posterior": [
+            0.23950599363352207,
+            0.26661526581548994,
+            0.26534905465867015,
+            0.22852968589231837
+          ],
+          "posterior_total_variation": 0.3543407028030785,
+          "max_pair_log_bayes_factor_discrepancy": 2.670238630404338,
+          "max_branch_log_density_discrepancy": 34.15383725223875,
+          "log_predictive_finite32_minus_continuous": -32.0318083454077,
+          "finite32_winning_prototypes": [
+            1
+          ],
+          "continuous_winning_prototypes": [
+            1
+          ],
+          "winning_prototype_changed": false,
+          "continuous_relative_integral_error_bound_max": 1.2515292090941769e-11,
+          "continuous_split_log_integral_discrepancy_max": 8.881784197001252e-16,
+          "finite32_reduced_api_log_bayes_factor_error_max": 5.258016244624741e-13,
+          "finite32_reduced_api_absolute_log_density_error_max": 5.684341886080802e-14,
+          "finite32_reduced_archived_posterior_error_max": 5.895284260759581e-14,
+          "response_noise_eigenvalue_max": 0.9673097900704758
+        },
+        {
+          "seed": 2026111965,
+          "speed": 7.5,
+          "geometry": "original",
+          "finite32_posterior": [
+            0.12690074925259218,
+            0.3121123201306389,
+            0.2930200453913281,
+            0.26796688522543927
+          ],
+          "continuous_posterior": [
+            0.23689866361206854,
+            0.2556496166546236,
+            0.2545413676109614,
+            0.2529103521223462
+          ],
+          "posterior_total_variation": 0.1099979143594757,
+          "max_pair_log_bayes_factor_discrepancy": 0.8237824924339705,
+          "max_branch_log_density_discrepancy": 25.123236355844906,
+          "log_predictive_finite32_minus_continuous": -24.49900916482261,
+          "finite32_winning_prototypes": [
+            1
+          ],
+          "continuous_winning_prototypes": [
+            1
+          ],
+          "winning_prototype_changed": false,
+          "continuous_relative_integral_error_bound_max": 1.4492895043057173e-11,
+          "continuous_split_log_integral_discrepancy_max": 8.881784197001252e-16,
+          "finite32_reduced_api_log_bayes_factor_error_max": 4.547473508864641e-13,
+          "finite32_reduced_api_absolute_log_density_error_max": 4.263256414560601e-13,
+          "finite32_reduced_archived_posterior_error_max": 4.374278717023117e-14,
+          "response_noise_eigenvalue_max": 29.590198171130375
+        },
+        {
+          "seed": 2026111966,
+          "speed": 2.5,
+          "geometry": "bounded",
+          "finite32_posterior": [
+            2.0654122340828673e-07,
+            0.9999967870593766,
+            1.2186790026676755e-12,
+            3.006398178618631e-06
+          ],
+          "continuous_posterior": [
+            0.2402590549942365,
+            0.3082117119346751,
+            0.20077882646667378,
+            0.25075040660441544
+          ],
+          "posterior_total_variation": 0.6917850751247032,
+          "max_pair_log_bayes_factor_discrepancy": 27.004667428695825,
+          "max_branch_log_density_discrepancy": 186.08560192498993,
+          "log_predictive_finite32_minus_continuous": -160.25789963908056,
+          "finite32_winning_prototypes": [
+            1
+          ],
+          "continuous_winning_prototypes": [
+            1
+          ],
+          "winning_prototype_changed": false,
+          "continuous_relative_integral_error_bound_max": 1.6399646096271424e-11,
+          "continuous_split_log_integral_discrepancy_max": 4.440892098500626e-16,
+          "finite32_reduced_api_log_bayes_factor_error_max": 8.01492205937393e-12,
+          "finite32_reduced_api_absolute_log_density_error_max": 1.1368683772161603e-13,
+          "finite32_reduced_archived_posterior_error_max": 6.821210263296962e-13,
+          "response_noise_eigenvalue_max": 0.9965518639095655
+        },
+        {
+          "seed": 2026111966,
+          "speed": 2.5,
+          "geometry": "original",
+          "finite32_posterior": [
+            0.06464375010251568,
+            0.3274179400261373,
+            0.31280432026580135,
+            0.295133989605545
+          ],
+          "continuous_posterior": [
+            0.24096619097931965,
+            0.2533916935191184,
+            0.2530556791065473,
+            0.2525864363950177
+          ],
+          "posterior_total_variation": 0.1763224408768021,
+          "max_pair_log_bayes_factor_discrepancy": 1.572066181164132,
+          "max_branch_log_density_discrepancy": 83.96287638654815,
+          "log_predictive_finite32_minus_continuous": -82.64711117702123,
+          "finite32_winning_prototypes": [
+            1
+          ],
+          "continuous_winning_prototypes": [
+            1
+          ],
+          "winning_prototype_changed": false,
+          "continuous_relative_integral_error_bound_max": 8.196410844561762e-12,
+          "continuous_split_log_integral_discrepancy_max": 4.440892098500626e-16,
+          "finite32_reduced_api_log_bayes_factor_error_max": 1.1908696251339279e-11,
+          "finite32_reduced_api_absolute_log_density_error_max": 6.980371836107224e-11,
+          "finite32_reduced_archived_posterior_error_max": 1.5168422073941201e-12,
+          "response_noise_eigenvalue_max": 289.0117552709439
+        },
+        {
+          "seed": 2026111966,
+          "speed": 7.5,
+          "geometry": "bounded",
+          "finite32_posterior": [
+            7.4488818427273564e-06,
+            5.374211891768273e-10,
+            0.999985450599014,
+            7.099981729363416e-06
+          ],
+          "continuous_posterior": [
+            0.24323664963301125,
+            0.20281759527018922,
+            0.3106367918284936,
+            0.24330896326830476
+          ],
+          "posterior_total_variation": 0.6893486587705162,
+          "max_pair_log_bayes_factor_discrepancy": 20.917907113847164,
+          "max_branch_log_density_discrepancy": 142.4539758668787,
+          "log_predictive_finite32_minus_continuous": -122.70518512475556,
+          "finite32_winning_prototypes": [
+            2
+          ],
+          "continuous_winning_prototypes": [
+            2
+          ],
+          "winning_prototype_changed": false,
+          "continuous_relative_integral_error_bound_max": 7.623147820095726e-12,
+          "continuous_split_log_integral_discrepancy_max": 8.881784197001252e-16,
+          "finite32_reduced_api_log_bayes_factor_error_max": 4.803268893738277e-12,
+          "finite32_reduced_api_absolute_log_density_error_max": 1.7053025658242404e-13,
+          "finite32_reduced_archived_posterior_error_max": 5.684341886080802e-14,
+          "response_noise_eigenvalue_max": 0.9965518639095655
+        },
+        {
+          "seed": 2026111966,
+          "speed": 7.5,
+          "geometry": "original",
+          "finite32_posterior": [
+            0.0709906494423685,
+            0.2977916991175838,
+            0.33651732017150016,
+            0.29470033126855133
+          ],
+          "continuous_posterior": [
+            0.24038819285928978,
+            0.25287787289379415,
+            0.2539590459481941,
+            0.25277488829872446
+          ],
+          "posterior_total_variation": 0.16939754341692193,
+          "max_pair_log_bayes_factor_discrepancy": 1.5011835182202873,
+          "max_branch_log_density_discrepancy": 72.55833224230587,
+          "log_predictive_finite32_minus_continuous": -71.33862532578655,
+          "finite32_winning_prototypes": [
+            2
+          ],
+          "continuous_winning_prototypes": [
+            2
+          ],
+          "winning_prototype_changed": false,
+          "continuous_relative_integral_error_bound_max": 1.1772403577827735e-11,
+          "continuous_split_log_integral_discrepancy_max": 2.220446049250313e-15,
+          "finite32_reduced_api_log_bayes_factor_error_max": 4.206412995699793e-12,
+          "finite32_reduced_api_absolute_log_density_error_max": 8.421352504228707e-11,
+          "finite32_reduced_archived_posterior_error_max": 1.7024714971114463e-12,
+          "response_noise_eigenvalue_max": 289.0117552709439
+        },
+        {
+          "seed": 2026111967,
+          "speed": 2.5,
+          "geometry": "bounded",
+          "finite32_posterior": [
+            0.2213656614676689,
+            0.1941454720394232,
+            0.4290100753467584,
+            0.15547879114614874
+          ],
+          "continuous_posterior": [
+            0.2204620755557045,
+            0.19167475779661886,
+            0.4362240151646441,
+            0.1516391514830318
+          ],
+          "posterior_total_variation": 0.007213939817885692,
+          "max_pair_log_bayes_factor_discrepancy": 0.04168113928389161,
+          "max_branch_log_density_discrepancy": 0.06550822454758176,
+          "log_predictive_finite32_minus_continuous": 0.04050258860479694,
+          "finite32_winning_prototypes": [
+            2
+          ],
+          "continuous_winning_prototypes": [
+            2
+          ],
+          "winning_prototype_changed": false,
+          "continuous_relative_integral_error_bound_max": 1.3533912233723765e-11,
+          "continuous_split_log_integral_discrepancy_max": 4.440892098500626e-16,
+          "finite32_reduced_api_log_bayes_factor_error_max": 7.105427357601002e-14,
+          "finite32_reduced_api_absolute_log_density_error_max": 9.947598300641403e-14,
+          "finite32_reduced_archived_posterior_error_max": 3.524958103184872e-15,
+          "response_noise_eigenvalue_max": 0.9461288758419085
+        },
+        {
+          "seed": 2026111967,
+          "speed": 2.5,
+          "geometry": "original",
+          "finite32_posterior": [
+            0.21719301369355706,
+            0.17042970570945817,
+            0.3724310459806241,
+            0.23994623461636078
+          ],
+          "continuous_posterior": [
+            0.21709759052315517,
+            0.17016049555453572,
+            0.37282837930695345,
+            0.23991353461535503
+          ],
+          "posterior_total_variation": 0.00039733332632972684,
+          "max_pair_log_bayes_factor_discrepancy": 0.0026471407505876954,
+          "max_branch_log_density_discrepancy": 0.004603189479778891,
+          "log_predictive_finite32_minus_continuous": 0.003022344170735991,
+          "finite32_winning_prototypes": [
+            2
+          ],
+          "continuous_winning_prototypes": [
+            2
+          ],
+          "winning_prototype_changed": false,
+          "continuous_relative_integral_error_bound_max": 1.7561227007087955e-11,
+          "continuous_split_log_integral_discrepancy_max": 4.440892098500626e-16,
+          "finite32_reduced_api_log_bayes_factor_error_max": 8.881784197001252e-15,
+          "finite32_reduced_api_absolute_log_density_error_max": 1.2789769243681803e-13,
+          "finite32_reduced_archived_posterior_error_max": 3.2751579226442118e-15,
+          "response_noise_eigenvalue_max": 17.56282035372745
+        },
+        {
+          "seed": 2026111967,
+          "speed": 7.5,
+          "geometry": "bounded",
+          "finite32_posterior": [
+            0.218288714656478,
+            0.4751579467157135,
+            0.14841613271425386,
+            0.15813720591355468
+          ],
+          "continuous_posterior": [
+            0.21813491745519384,
+            0.47668300413215625,
+            0.14769570759193051,
+            0.15748637082071917
+          ],
+          "posterior_total_variation": 0.0015250574164428904,
+          "max_pair_log_bayes_factor_discrepancy": 0.008070348625926371,
+          "max_branch_log_density_discrepancy": 0.011453481125474951,
+          "log_predictive_finite32_minus_continuous": 0.00658757273734345,
+          "finite32_winning_prototypes": [
+            1
+          ],
+          "continuous_winning_prototypes": [
+            1
+          ],
+          "winning_prototype_changed": false,
+          "continuous_relative_integral_error_bound_max": 1.78830437893376e-11,
+          "continuous_split_log_integral_discrepancy_max": 5.551115123125783e-16,
+          "finite32_reduced_api_log_bayes_factor_error_max": 5.329070518200751e-15,
+          "finite32_reduced_api_absolute_log_density_error_max": 2.842170943040401e-14,
+          "finite32_reduced_archived_posterior_error_max": 2.55351295663786e-15,
+          "response_noise_eigenvalue_max": 0.9461288758419085
+        },
+        {
+          "seed": 2026111967,
+          "speed": 7.5,
+          "geometry": "original",
+          "finite32_posterior": [
+            0.20192273633815946,
+            0.44280456065362916,
+            0.14665074445784587,
+            0.20862195855036528
+          ],
+          "continuous_posterior": [
+            0.20189079102860794,
+            0.4429440140151513,
+            0.1465737843039012,
+            0.2085914106523387
+          ],
+          "posterior_total_variation": 0.00013945336152247634,
+          "max_pair_log_bayes_factor_discrepancy": 0.0008398055410658856,
+          "max_branch_log_density_discrepancy": 0.0012318488963227736,
+          "log_predictive_finite32_minus_continuous": 0.0007069258550149726,
+          "finite32_winning_prototypes": [
+            1
+          ],
+          "continuous_winning_prototypes": [
+            1
+          ],
+          "winning_prototype_changed": false,
+          "continuous_relative_integral_error_bound_max": 1.722447545100794e-11,
+          "continuous_split_log_integral_discrepancy_max": 4.440892098500626e-16,
+          "finite32_reduced_api_log_bayes_factor_error_max": 3.552713678800501e-15,
+          "finite32_reduced_api_absolute_log_density_error_max": 4.263256414560601e-14,
+          "finite32_reduced_archived_posterior_error_max": 1.0547118733938987e-15,
+          "response_noise_eigenvalue_max": 17.56282035372745
+        },
+        {
+          "seed": 2026111968,
+          "speed": 2.5,
+          "geometry": "bounded",
+          "finite32_posterior": [
+            0.11615620032841747,
+            0.33375207328251494,
+            0.5046034392564493,
+            0.045488287132617995
+          ],
+          "continuous_posterior": [
+            0.239795242430537,
+            0.25984852488272797,
+            0.2654697782019712,
+            0.23488645448476314
+          ],
+          "posterior_total_variation": 0.3130372094542649,
+          "max_pair_log_bayes_factor_discrepancy": 2.2839192053490684,
+          "max_branch_log_density_discrepancy": 26.630557717995128,
+          "log_predictive_finite32_minus_continuous": -24.988910360182118,
+          "finite32_winning_prototypes": [
+            2
+          ],
+          "continuous_winning_prototypes": [
+            2
+          ],
+          "winning_prototype_changed": false,
+          "continuous_relative_integral_error_bound_max": 7.24968348207826e-12,
+          "continuous_split_log_integral_discrepancy_max": 8.881784197001252e-16,
+          "finite32_reduced_api_log_bayes_factor_error_max": 9.947598300641403e-14,
+          "finite32_reduced_api_absolute_log_density_error_max": 1.8829382497642655e-13,
+          "finite32_reduced_archived_posterior_error_max": 3.319566843629218e-14,
+          "response_noise_eigenvalue_max": 0.9668552963171941
+        },
+        {
+          "seed": 2026111968,
+          "speed": 2.5,
+          "geometry": "original",
+          "finite32_posterior": [
+            0.14861726973590625,
+            0.2988617869531529,
+            0.2900921994602299,
+            0.2624287438507116
+          ],
+          "continuous_posterior": [
+            0.23771827761046235,
+            0.2549309416210422,
+            0.2545354139142582,
+            0.2528153668542366
+          ],
+          "posterior_total_variation": 0.08910100787455674,
+          "max_pair_log_bayes_factor_discrepancy": 0.628700447446974,
+          "max_branch_log_density_discrepancy": 19.801627985012487,
+          "log_predictive_finite32_minus_continuous": -19.331916061784025,
+          "finite32_winning_prototypes": [
+            1
+          ],
+          "continuous_winning_prototypes": [
+            1
+          ],
+          "winning_prototype_changed": false,
+          "continuous_relative_integral_error_bound_max": 4.808534030096658e-12,
+          "continuous_split_log_integral_discrepancy_max": 1.7763568394002505e-15,
+          "finite32_reduced_api_log_bayes_factor_error_max": 2.7000623958883807e-13,
+          "finite32_reduced_api_absolute_log_density_error_max": 6.821210263296962e-13,
+          "finite32_reduced_archived_posterior_error_max": 3.9190872769268026e-14,
+          "response_noise_eigenvalue_max": 29.170732843774363
+        },
+        {
+          "seed": 2026111968,
+          "speed": 7.5,
+          "geometry": "bounded",
+          "finite32_posterior": [
+            0.043730958011240106,
+            0.08296471811417759,
+            0.0384667942786769,
+            0.8348375295959025
+          ],
+          "continuous_posterior": [
+            0.24341744686861844,
+            0.2500460384445066,
+            0.24697040560730874,
+            0.2595661090795647
+          ],
+          "posterior_total_variation": 0.5752714205163385,
+          "max_pair_log_bayes_factor_discrepancy": 3.027698836042063,
+          "max_branch_log_density_discrepancy": 90.0419516120555,
+          "log_predictive_finite32_minus_continuous": -88.18247848083129,
+          "finite32_winning_prototypes": [
+            3
+          ],
+          "continuous_winning_prototypes": [
+            3
+          ],
+          "winning_prototype_changed": false,
+          "continuous_relative_integral_error_bound_max": 7.688663656059664e-12,
+          "continuous_split_log_integral_discrepancy_max": 1.3322676295501878e-15,
+          "finite32_reduced_api_log_bayes_factor_error_max": 7.105427357601002e-14,
+          "finite32_reduced_api_absolute_log_density_error_max": 2.2737367544323206e-13,
+          "finite32_reduced_archived_posterior_error_max": 4.7406523151494184e-14,
+          "response_noise_eigenvalue_max": 0.9668552963171941
+        },
+        {
+          "seed": 2026111968,
+          "speed": 7.5,
+          "geometry": "original",
+          "finite32_posterior": [
+            0.09665840169160429,
+            0.2871518200857758,
+            0.2980401074780608,
+            0.31814967074456596
+          ],
+          "continuous_posterior": [
+            0.2431364764120518,
+            0.2521165770462413,
+            0.25230446231777887,
+            0.2524424842239295
+          ],
+          "posterior_total_variation": 0.14647807472045019,
+          "max_pair_log_bayes_factor_discrepancy": 1.1537782833502774,
+          "max_branch_log_density_discrepancy": 79.64083047308982,
+          "log_predictive_finite32_minus_continuous": -78.71839068699488,
+          "finite32_winning_prototypes": [
+            3
+          ],
+          "continuous_winning_prototypes": [
+            3
+          ],
+          "winning_prototype_changed": false,
+          "continuous_relative_integral_error_bound_max": 1.552980679135194e-11,
+          "continuous_split_log_integral_discrepancy_max": 8.881784197001252e-16,
+          "finite32_reduced_api_log_bayes_factor_error_max": 9.947598300641403e-14,
+          "finite32_reduced_api_absolute_log_density_error_max": 2.0747847884194925e-12,
+          "finite32_reduced_archived_posterior_error_max": 1.305622276959184e-13,
+          "response_noise_eigenvalue_max": 29.170732843774363
+        },
+        {
+          "seed": 2026111969,
+          "speed": 2.5,
+          "geometry": "bounded",
+          "finite32_posterior": [
+            0.010247804869404452,
+            0.00396231117847607,
+            0.008466717525101105,
+            0.9773231664270147
+          ],
+          "continuous_posterior": [
+            0.2414385990298781,
+            0.2374275995392395,
+            0.24260803416297036,
+            0.2785257672679117
+          ],
+          "posterior_total_variation": 0.6987973991591047,
+          "max_pair_log_bayes_factor_discrepancy": 5.348342041894284,
+          "max_branch_log_density_discrepancy": 72.77208678963501,
+          "log_predictive_finite32_minus_continuous": -68.6790515426284,
+          "finite32_winning_prototypes": [
+            3
+          ],
+          "continuous_winning_prototypes": [
+            3
+          ],
+          "winning_prototype_changed": false,
+          "continuous_relative_integral_error_bound_max": 4.790943474631485e-12,
+          "continuous_split_log_integral_discrepancy_max": 8.881784197001252e-16,
+          "finite32_reduced_api_log_bayes_factor_error_max": 3.694822225952521e-13,
+          "finite32_reduced_api_absolute_log_density_error_max": 8.526512829121202e-14,
+          "finite32_reduced_archived_posterior_error_max": 4.163336342344337e-14,
+          "response_noise_eigenvalue_max": 0.985127655618985
+        },
+        {
+          "seed": 2026111969,
+          "speed": 2.5,
+          "geometry": "original",
+          "finite32_posterior": [
+            0.09324580822449212,
+            0.2870375790380698,
+            0.3048983698949562,
+            0.31481824284247784
+          ],
+          "continuous_posterior": [
+            0.24038445879334538,
+            0.2527669860560092,
+            0.25330958542992427,
+            0.2535389697207195
+          ],
+          "posterior_total_variation": 0.1471386505688521,
+          "max_pair_log_bayes_factor_discrepancy": 1.1634783753100777,
+          "max_branch_log_density_discrepancy": 56.18207462886971,
+          "log_predictive_finite32_minus_continuous": -55.23507418107802,
+          "finite32_winning_prototypes": [
+            3
+          ],
+          "continuous_winning_prototypes": [
+            3
+          ],
+          "winning_prototype_changed": false,
+          "continuous_relative_integral_error_bound_max": 1.3577882636857472e-11,
+          "continuous_split_log_integral_discrepancy_max": 1.7763568394002505e-15,
+          "finite32_reduced_api_log_bayes_factor_error_max": 2.3021584638627246e-12,
+          "finite32_reduced_api_absolute_log_density_error_max": 1.3102408047416247e-11,
+          "finite32_reduced_archived_posterior_error_max": 2.9465319073551655e-13,
+          "response_noise_eigenvalue_max": 66.23889484945812
+        },
+        {
+          "seed": 2026111969,
+          "speed": 7.5,
+          "geometry": "bounded",
+          "finite32_posterior": [
+            0.016271486252740004,
+            0.4600245829684497,
+            0.5210207778889082,
+            0.002683152889908486
+          ],
+          "continuous_posterior": [
+            0.24442208044802238,
+            0.2573145859799347,
+            0.2577520042502828,
+            0.24051132932176167
+          ],
+          "posterior_total_variation": 0.46597877062713805,
+          "max_pair_log_bayes_factor_discrepancy": 5.199566664228257,
+          "max_branch_log_density_discrepancy": 165.8617276291195,
+          "log_predictive_finite32_minus_continuous": -161.36595298782063,
+          "finite32_winning_prototypes": [
+            2
+          ],
+          "continuous_winning_prototypes": [
+            2
+          ],
+          "winning_prototype_changed": false,
+          "continuous_relative_integral_error_bound_max": 1.8219094578621824e-11,
+          "continuous_split_log_integral_discrepancy_max": 8.881784197001252e-16,
+          "finite32_reduced_api_log_bayes_factor_error_max": 1.0800249583553523e-12,
+          "finite32_reduced_api_absolute_log_density_error_max": 4.547473508864641e-13,
+          "finite32_reduced_archived_posterior_error_max": 8.881784197001252e-14,
+          "response_noise_eigenvalue_max": 0.985127655618985
+        },
+        {
+          "seed": 2026111969,
+          "speed": 7.5,
+          "geometry": "original",
+          "finite32_posterior": [
+            0.05171023458861268,
+            0.32018018541201737,
+            0.33295621265413994,
+            0.29515336734522163
+          ],
+          "continuous_posterior": [
+            0.2437576877044974,
+            0.25213454314489614,
+            0.25228685270223195,
+            0.25182091644837484
+          ],
+          "posterior_total_variation": 0.19204745311588037,
+          "max_pair_log_bayes_factor_discrepancy": 1.8279631689585472,
+          "max_branch_log_density_discrepancy": 147.73922365297858,
+          "log_predictive_finite32_minus_continuous": -146.18870472731518,
+          "finite32_winning_prototypes": [
+            2
+          ],
+          "continuous_winning_prototypes": [
+            2
+          ],
+          "winning_prototype_changed": false,
+          "continuous_relative_integral_error_bound_max": 1.977515333805054e-11,
+          "continuous_split_log_integral_discrepancy_max": 1.1102230246251565e-15,
+          "finite32_reduced_api_log_bayes_factor_error_max": 1.7905676941154525e-12,
+          "finite32_reduced_api_absolute_log_density_error_max": 1.77351466845721e-11,
+          "finite32_reduced_archived_posterior_error_max": 4.914402218503255e-13,
+          "response_noise_eigenvalue_max": 66.23889484945812
+        },
+        {
+          "seed": 2026111970,
+          "speed": 2.5,
+          "geometry": "bounded",
+          "finite32_posterior": [
+            0.2506507054409348,
+            0.36889048196124663,
+            0.1861772568011892,
+            0.19428155579662928
+          ],
+          "continuous_posterior": [
+            0.2503304993817745,
+            0.3723019190974896,
+            0.18449959120021836,
+            0.1928679903205169
+          ],
+          "posterior_total_variation": 0.00341143713624327,
+          "max_pair_log_bayes_factor_discrepancy": 0.018257298134715327,
+          "max_branch_log_density_discrepancy": 0.0369388422243766,
+          "log_predictive_finite32_minus_continuous": 0.027886876527610127,
+          "finite32_winning_prototypes": [
+            1
+          ],
+          "continuous_winning_prototypes": [
+            1
+          ],
+          "winning_prototype_changed": false,
+          "continuous_relative_integral_error_bound_max": 1.822907386830894e-11,
+          "continuous_split_log_integral_discrepancy_max": 4.440892098500626e-16,
+          "finite32_reduced_api_log_bayes_factor_error_max": 8.881784197001252e-15,
+          "finite32_reduced_api_absolute_log_density_error_max": 3.552713678800501e-14,
+          "finite32_reduced_archived_posterior_error_max": 1.3322676295501878e-15,
+          "response_noise_eigenvalue_max": 0.7036962500109162
+        },
+        {
+          "seed": 2026111970,
+          "speed": 2.5,
+          "geometry": "original",
+          "finite32_posterior": [
+            0.2527358474236613,
+            0.3516365731241609,
+            0.219554969488426,
+            0.1760726099637513
+          ],
+          "continuous_posterior": [
+            0.2526832099172557,
+            0.35257613154009887,
+            0.21930857594554934,
+            0.1754320825970962
+          ],
+          "posterior_total_variation": 0.0009395584159376663,
+          "max_pair_log_bayes_factor_discrepancy": 0.006312887723794347,
+          "max_branch_log_density_discrepancy": 0.012223401071027595,
+          "log_predictive_finite32_minus_continuous": 0.008578908754508063,
+          "finite32_winning_prototypes": [
+            1
+          ],
+          "continuous_winning_prototypes": [
+            1
+          ],
+          "winning_prototype_changed": false,
+          "continuous_relative_integral_error_bound_max": 1.4355334253674003e-11,
+          "continuous_split_log_integral_discrepancy_max": 2.220446049250313e-16,
+          "finite32_reduced_api_log_bayes_factor_error_max": 1.7763568394002505e-15,
+          "finite32_reduced_api_absolute_log_density_error_max": 1.4210854715202004e-14,
+          "finite32_reduced_archived_posterior_error_max": 1.970645868709653e-15,
+          "response_noise_eigenvalue_max": 2.374915099916356
+        },
+        {
+          "seed": 2026111970,
+          "speed": 7.5,
+          "geometry": "bounded",
+          "finite32_posterior": [
+            0.2725335565494762,
+            0.206575755391395,
+            0.3274691182435501,
+            0.19342156981557881
+          ],
+          "continuous_posterior": [
+            0.2703455554201043,
+            0.20807018586405307,
+            0.3258549353716583,
+            0.19572932334418391
+          ],
+          "posterior_total_variation": 0.003802184001263406,
+          "max_pair_log_bayes_factor_discrepancy": 0.019921369292692503,
+          "max_branch_log_density_discrepancy": 0.03704283211487791,
+          "log_predictive_finite32_minus_continuous": 0.028982057889351154,
+          "finite32_winning_prototypes": [
+            2
+          ],
+          "continuous_winning_prototypes": [
+            2
+          ],
+          "winning_prototype_changed": false,
+          "continuous_relative_integral_error_bound_max": 1.6042162867546404e-11,
+          "continuous_split_log_integral_discrepancy_max": 4.440892098500626e-16,
+          "finite32_reduced_api_log_bayes_factor_error_max": 2.1316282072803006e-14,
+          "finite32_reduced_api_absolute_log_density_error_max": 9.947598300641403e-14,
+          "finite32_reduced_archived_posterior_error_max": 6.189493362285248e-15,
+          "response_noise_eigenvalue_max": 0.7036962500109162
+        },
+        {
+          "seed": 2026111970,
+          "speed": 7.5,
+          "geometry": "original",
+          "finite32_posterior": [
+            0.27717141409084867,
+            0.2312324730500427,
+            0.3090822642577249,
+            0.1825138486013843
+          ],
+          "continuous_posterior": [
+            0.27694811829162463,
+            0.23108949367569045,
+            0.3101427243197622,
+            0.18181966371292227
+          ],
+          "posterior_total_variation": 0.0010604600620378046,
+          "max_pair_log_bayes_factor_discrepancy": 0.00723583948117934,
+          "max_branch_log_density_discrepancy": 0.021589520332646828,
+          "log_predictive_finite32_minus_continuous": 0.01777880457330916,
+          "finite32_winning_prototypes": [
+            2
+          ],
+          "continuous_winning_prototypes": [
+            2
+          ],
+          "winning_prototype_changed": false,
+          "continuous_relative_integral_error_bound_max": 1.1896540951722541e-11,
+          "continuous_split_log_integral_discrepancy_max": 9.992007221626409e-16,
+          "finite32_reduced_api_log_bayes_factor_error_max": 1.4210854715202004e-14,
+          "finite32_reduced_api_absolute_log_density_error_max": 2.842170943040401e-14,
+          "finite32_reduced_archived_posterior_error_max": 1.942890293094024e-15,
+          "response_noise_eigenvalue_max": 2.374915099916356
+        },
+        {
+          "seed": 2026111971,
+          "speed": 2.5,
+          "geometry": "bounded",
+          "finite32_posterior": [
+            0.18752526508945397,
+            0.11215826516631519,
+            0.4728038677069474,
+            0.2275126020372831
+          ],
+          "continuous_posterior": [
+            0.22692078306411997,
+            0.19404586792530337,
+            0.33063912938819745,
+            0.24839421962237862
+          ],
+          "posterior_total_variation": 0.14216473831874982,
+          "max_pair_log_bayes_factor_discrepancy": 0.9058367174442097,
+          "max_branch_log_density_discrepancy": 2.2046971261368924,
+          "log_predictive_finite32_minus_continuous": -1.656513518091291,
+          "finite32_winning_prototypes": [
+            2
+          ],
+          "continuous_winning_prototypes": [
+            2
+          ],
+          "winning_prototype_changed": false,
+          "continuous_relative_integral_error_bound_max": 1.8072818137993944e-11,
+          "continuous_split_log_integral_discrepancy_max": 6.661338147750939e-16,
+          "finite32_reduced_api_log_bayes_factor_error_max": 5.684341886080802e-14,
+          "finite32_reduced_api_absolute_log_density_error_max": 8.526512829121202e-14,
+          "finite32_reduced_archived_posterior_error_max": 1.5529244556944377e-14,
+          "response_noise_eigenvalue_max": 0.9789181993268415
+        },
+        {
+          "seed": 2026111971,
+          "speed": 2.5,
+          "geometry": "original",
+          "finite32_posterior": [
+            0.1935637561809857,
+            0.24880296254086026,
+            0.2931969461213895,
+            0.2644363351567645
+          ],
+          "continuous_posterior": [
+            0.2026927929765673,
+            0.24870785878103877,
+            0.2865983808617034,
+            0.262000967380692
+          ],
+          "posterior_total_variation": 0.009129036795580858,
+          "max_pair_log_bayes_factor_discrepancy": 0.06884723856188657,
+          "max_branch_log_density_discrepancy": 0.14243541589573283,
+          "log_predictive_finite32_minus_continuous": -0.09635086570045459,
+          "finite32_winning_prototypes": [
+            2
+          ],
+          "continuous_winning_prototypes": [
+            2
+          ],
+          "winning_prototype_changed": false,
+          "continuous_relative_integral_error_bound_max": 4.5379225026192205e-12,
+          "continuous_split_log_integral_discrepancy_max": 7.771561172376096e-16,
+          "finite32_reduced_api_log_bayes_factor_error_max": 1.2434497875801753e-13,
+          "finite32_reduced_api_absolute_log_density_error_max": 6.750155989720952e-13,
+          "finite32_reduced_archived_posterior_error_max": 3.008704396734174e-14,
+          "response_noise_eigenvalue_max": 46.43427829071594
+        },
+        {
+          "seed": 2026111971,
+          "speed": 7.5,
+          "geometry": "bounded",
+          "finite32_posterior": [
+            0.1407460624602071,
+            0.6277118809825865,
+            0.14793816459869083,
+            0.0836038919585151
+          ],
+          "continuous_posterior": [
+            0.23386535412201231,
+            0.30271135490410783,
+            0.2414537427949496,
+            0.22196954817893047
+          ],
+          "posterior_total_variation": 0.32500052607847896,
+          "max_pair_log_bayes_factor_discrepancy": 1.7057516741162217,
+          "max_branch_log_density_discrepancy": 8.646269482238232,
+          "log_predictive_finite32_minus_continuous": -7.669819353674566,
+          "finite32_winning_prototypes": [
+            1
+          ],
+          "continuous_winning_prototypes": [
+            1
+          ],
+          "winning_prototype_changed": false,
+          "continuous_relative_integral_error_bound_max": 1.3620075181915189e-11,
+          "continuous_split_log_integral_discrepancy_max": 1.7763568394002505e-15,
+          "finite32_reduced_api_log_bayes_factor_error_max": 2.6290081223123707e-13,
+          "finite32_reduced_api_absolute_log_density_error_max": 4.263256414560601e-14,
+          "finite32_reduced_archived_posterior_error_max": 1.812439087700568e-14,
+          "response_noise_eigenvalue_max": 0.9789181993268415
+        },
+        {
+          "seed": 2026111971,
+          "speed": 7.5,
+          "geometry": "original",
+          "finite32_posterior": [
+            0.17255958605096333,
+            0.2931164923539626,
+            0.263816966393039,
+            0.27050695520203605
+          ],
+          "continuous_posterior": [
+            0.2274619985087552,
+            0.2609505486767612,
+            0.255172694878426,
+            0.25641475793605695
+          ],
+          "posterior_total_variation": 0.054902412457792676,
+          "max_pair_log_bayes_factor_discrepancy": 0.3924797758356924,
+          "max_branch_log_density_discrepancy": 4.709501285453676,
+          "log_predictive_finite32_minus_continuous": -4.433260703745134,
+          "finite32_winning_prototypes": [
+            1
+          ],
+          "continuous_winning_prototypes": [
+            1
+          ],
+          "winning_prototype_changed": false,
+          "continuous_relative_integral_error_bound_max": 5.4377270590982436e-12,
+          "continuous_split_log_integral_discrepancy_max": 8.881784197001252e-16,
+          "finite32_reduced_api_log_bayes_factor_error_max": 2.3092638912203256e-13,
+          "finite32_reduced_api_absolute_log_density_error_max": 1.4637180356658064e-12,
+          "finite32_reduced_archived_posterior_error_max": 5.0959236830294685e-14,
+          "response_noise_eigenvalue_max": 46.43427829071594
+        },
+        {
+          "seed": 2026111974,
+          "speed": 2.5,
+          "geometry": "bounded",
+          "finite32_posterior": [
+            0.20737762553889685,
+            0.48464795785174214,
+            0.15747764953151483,
+            0.15049676707784612
+          ],
+          "continuous_posterior": [
+            0.21339700669878317,
+            0.4450335541199419,
+            0.17359368139617637,
+            0.16797575778509935
+          ],
+          "posterior_total_variation": 0.03961440373180067,
+          "max_pair_log_bayes_factor_discrepancy": 0.19515115277872752,
+          "max_branch_log_density_discrepancy": 0.10584724941839241,
+          "log_predictive_finite32_minus_continuous": 0.004030817926679475,
+          "finite32_winning_prototypes": [
+            1
+          ],
+          "continuous_winning_prototypes": [
+            1
+          ],
+          "winning_prototype_changed": false,
+          "continuous_relative_integral_error_bound_max": 1.1169653408781878e-11,
+          "continuous_split_log_integral_discrepancy_max": 7.771561172376096e-16,
+          "finite32_reduced_api_log_bayes_factor_error_max": 6.394884621840902e-14,
+          "finite32_reduced_api_absolute_log_density_error_max": 4.707345624410664e-14,
+          "finite32_reduced_archived_posterior_error_max": 8.021361352916756e-15,
+          "response_noise_eigenvalue_max": 0.982735736948112
+        },
+        {
+          "seed": 2026111974,
+          "speed": 2.5,
+          "geometry": "original",
+          "finite32_posterior": [
+            0.1676003083641519,
+            0.40301400243111185,
+            0.19710759182885604,
+            0.23227809737588004
+          ],
+          "continuous_posterior": [
+            0.1669176980752175,
+            0.4045888075277225,
+            0.19647117626917016,
+            0.23202231812789098
+          ],
+          "posterior_total_variation": 0.0015748050966100102,
+          "max_pair_log_bayes_factor_discrepancy": 0.007981117352365175,
+          "max_branch_log_density_discrepancy": 0.015000102053026154,
+          "log_predictive_finite32_minus_continuous": 0.010918939166419506,
+          "finite32_winning_prototypes": [
+            1
+          ],
+          "continuous_winning_prototypes": [
+            1
+          ],
+          "winning_prototype_changed": false,
+          "continuous_relative_integral_error_bound_max": 1.2555634916083233e-11,
+          "continuous_split_log_integral_discrepancy_max": 8.881784197001252e-16,
+          "finite32_reduced_api_log_bayes_factor_error_max": 7.105427357601002e-15,
+          "finite32_reduced_api_absolute_log_density_error_max": 2.1316282072803006e-14,
+          "finite32_reduced_archived_posterior_error_max": 1.149080830487037e-14,
+          "response_noise_eigenvalue_max": 56.923121131465805
+        },
+        {
+          "seed": 2026111974,
+          "speed": 7.5,
+          "geometry": "bounded",
+          "finite32_posterior": [
+            0.12272653164766108,
+            0.07799740209755457,
+            0.7407505341222461,
+            0.05852553213253935
+          ],
+          "continuous_posterior": [
+            0.23613421805111512,
+            0.22331268811791744,
+            0.3271430271013907,
+            0.21341006672957702
+          ],
+          "posterior_total_variation": 0.41360750702085497,
+          "max_pair_log_bayes_factor_discrepancy": 2.1110188455683243,
+          "max_branch_log_density_discrepancy": 9.045157606407741,
+          "log_predictive_finite32_minus_continuous": -7.751405201332112,
+          "finite32_winning_prototypes": [
+            2
+          ],
+          "continuous_winning_prototypes": [
+            2
+          ],
+          "winning_prototype_changed": false,
+          "continuous_relative_integral_error_bound_max": 1.5278459642794154e-11,
+          "continuous_split_log_integral_discrepancy_max": 8.881784197001252e-16,
+          "finite32_reduced_api_log_bayes_factor_error_max": 4.618527782440651e-13,
+          "finite32_reduced_api_absolute_log_density_error_max": 1.4210854715202004e-13,
+          "finite32_reduced_archived_posterior_error_max": 4.9710235927591384e-14,
+          "response_noise_eigenvalue_max": 0.982735736948112
+        },
+        {
+          "seed": 2026111974,
+          "speed": 7.5,
+          "geometry": "original",
+          "finite32_posterior": [
+            0.18522937776628587,
+            0.25200938092747366,
+            0.2959247837181716,
+            0.2668364575880699
+          ],
+          "continuous_posterior": [
+            0.2211893088288525,
+            0.25257256644602893,
+            0.2683693103461106,
+            0.2578688143790094
+          ],
+          "posterior_total_variation": 0.0365231165811217,
+          "max_pair_log_bayes_factor_discrepancy": 0.27516525638566947,
+          "max_branch_log_density_discrepancy": 1.8244387050058144,
+          "log_predictive_finite32_minus_continuous": -1.6470147060056881,
+          "finite32_winning_prototypes": [
+            2
+          ],
+          "continuous_winning_prototypes": [
+            2
+          ],
+          "winning_prototype_changed": false,
+          "continuous_relative_integral_error_bound_max": 1.456083640579706e-11,
+          "continuous_split_log_integral_discrepancy_max": 8.881784197001252e-16,
+          "finite32_reduced_api_log_bayes_factor_error_max": 8.384404281969182e-13,
+          "finite32_reduced_api_absolute_log_density_error_max": 2.9700686354772188e-12,
+          "finite32_reduced_archived_posterior_error_max": 3.8913317013111737e-14,
+          "response_noise_eigenvalue_max": 56.923121131465805
+        },
+        {
+          "seed": 2026111975,
+          "speed": 2.5,
+          "geometry": "bounded",
+          "finite32_posterior": [
+            0.19336315440712723,
+            0.17888007874486114,
+            0.2923711265284042,
+            0.3353856403196062
+          ],
+          "continuous_posterior": [
+            0.226691063576393,
+            0.23250789663723767,
+            0.26527384849812913,
+            0.2755271912882412
+          ],
+          "posterior_total_variation": 0.08695572706164117,
+          "max_pair_log_bayes_factor_discrepancy": 0.45880327149670563,
+          "max_branch_log_density_discrepancy": 2.4950379315541724,
+          "log_predictive_finite32_minus_continuous": -2.2328293732495723,
+          "finite32_winning_prototypes": [
+            3
+          ],
+          "continuous_winning_prototypes": [
+            3
+          ],
+          "winning_prototype_changed": false,
+          "continuous_relative_integral_error_bound_max": 1.907316594601055e-11,
+          "continuous_split_log_integral_discrepancy_max": 6.661338147750939e-16,
+          "finite32_reduced_api_log_bayes_factor_error_max": 7.460698725481052e-14,
+          "finite32_reduced_api_absolute_log_density_error_max": 2.842170943040401e-14,
+          "finite32_reduced_archived_posterior_error_max": 1.3100631690576847e-14,
+          "response_noise_eigenvalue_max": 0.8819462899570114
+        },
+        {
+          "seed": 2026111975,
+          "speed": 2.5,
+          "geometry": "original",
+          "finite32_posterior": [
+            0.19188775868676763,
+            0.23819345119003285,
+            0.28849169498759686,
+            0.2814270951356025
+          ],
+          "continuous_posterior": [
+            0.21760677369048656,
+            0.24831307392822946,
+            0.2685816984973187,
+            0.2654984538839648
+          ],
+          "posterior_total_variation": 0.035838637741915674,
+          "max_pair_log_bayes_factor_discrepancy": 0.1972901862134009,
+          "max_branch_log_density_discrepancy": 1.1786909102788066,
+          "log_predictive_finite32_minus_continuous": -1.0529118776044477,
+          "finite32_winning_prototypes": [
+            2
+          ],
+          "continuous_winning_prototypes": [
+            2
+          ],
+          "winning_prototype_changed": false,
+          "continuous_relative_integral_error_bound_max": 1.678406558007301e-11,
+          "continuous_split_log_integral_discrepancy_max": 1.3322676295501878e-15,
+          "finite32_reduced_api_log_bayes_factor_error_max": 2.4868995751603507e-14,
+          "finite32_reduced_api_absolute_log_density_error_max": 3.552713678800501e-14,
+          "finite32_reduced_archived_posterior_error_max": 6.994405055138486e-15,
+          "response_noise_eigenvalue_max": 7.47072065448731
+        },
+        {
+          "seed": 2026111975,
+          "speed": 7.5,
+          "geometry": "bounded",
+          "finite32_posterior": [
+            0.2121180997141112,
+            0.3778931975516208,
+            0.14557000893994204,
+            0.26441869379432675
+          ],
+          "continuous_posterior": [
+            0.21163024078376158,
+            0.38105986996533675,
+            0.1428439801791632,
+            0.26446590907173845
+          ],
+          "posterior_total_variation": 0.0032138876911280423,
+          "max_pair_log_bayes_factor_discrepancy": 0.027249037316114055,
+          "max_branch_log_density_discrepancy": 0.04878187606147755,
+          "log_predictive_finite32_minus_continuous": 0.029877731007486474,
+          "finite32_winning_prototypes": [
+            1
+          ],
+          "continuous_winning_prototypes": [
+            1
+          ],
+          "winning_prototype_changed": false,
+          "continuous_relative_integral_error_bound_max": 1.6609968918968783e-11,
+          "continuous_split_log_integral_discrepancy_max": 8.881784197001252e-16,
+          "finite32_reduced_api_log_bayes_factor_error_max": 2.4868995751603507e-14,
+          "finite32_reduced_api_absolute_log_density_error_max": 2.842170943040401e-14,
+          "finite32_reduced_archived_posterior_error_max": 3.1086244689504383e-15,
+          "response_noise_eigenvalue_max": 0.8819462899570114
+        },
+        {
+          "seed": 2026111975,
+          "speed": 7.5,
+          "geometry": "original",
+          "finite32_posterior": [
+            0.2020338158177275,
+            0.3950236181195364,
+            0.1443211066740777,
+            0.25862145938865916
+          ],
+          "continuous_posterior": [
+            0.20199562810125699,
+            0.39519242468530746,
+            0.1441863109603758,
+            0.2586256362530602
+          ],
+          "posterior_total_variation": 0.0001729834301722466,
+          "max_pair_log_bayes_factor_discrepancy": 0.0013616766254571644,
+          "max_branch_log_density_discrepancy": 0.0021442555624240356,
+          "log_predictive_finite32_minus_continuous": 0.001209820499260772,
+          "finite32_winning_prototypes": [
+            1
+          ],
+          "continuous_winning_prototypes": [
+            1
+          ],
+          "winning_prototype_changed": false,
+          "continuous_relative_integral_error_bound_max": 1.5747430954840443e-11,
+          "continuous_split_log_integral_discrepancy_max": 6.661338147750939e-16,
+          "finite32_reduced_api_log_bayes_factor_error_max": 1.7763568394002505e-14,
+          "finite32_reduced_api_absolute_log_density_error_max": 5.684341886080802e-14,
+          "finite32_reduced_archived_posterior_error_max": 2.275957200481571e-15,
+          "response_noise_eigenvalue_max": 7.47072065448731
+        },
+        {
+          "seed": 2026111978,
+          "speed": 2.5,
+          "geometry": "bounded",
+          "finite32_posterior": [
+            0.2191310366123987,
+            0.357390865449378,
+            0.19716384561037945,
+            0.2263142523278445
+          ],
+          "continuous_posterior": [
+            0.21843085328624387,
+            0.36210010582826124,
+            0.1945672633622212,
+            0.22490177752327306
+          ],
+          "posterior_total_variation": 0.004709240378883886,
+          "max_pair_log_bayes_factor_discrepancy": 0.026347821316063502,
+          "max_branch_log_density_discrepancy": 0.0664735999145023,
+          "log_predictive_finite32_minus_continuous": 0.05321644357354849,
+          "finite32_winning_prototypes": [
+            1
+          ],
+          "continuous_winning_prototypes": [
+            1
+          ],
+          "winning_prototype_changed": false,
+          "continuous_relative_integral_error_bound_max": 1.7157308412110285e-11,
+          "continuous_split_log_integral_discrepancy_max": 4.440892098500626e-16,
+          "finite32_reduced_api_log_bayes_factor_error_max": 4.263256414560601e-14,
+          "finite32_reduced_api_absolute_log_density_error_max": 2.842170943040401e-14,
+          "finite32_reduced_archived_posterior_error_max": 3.913536161803677e-15,
+          "response_noise_eigenvalue_max": 0.5879771965094359
+        },
+        {
+          "seed": 2026111978,
+          "speed": 2.5,
+          "geometry": "original",
+          "finite32_posterior": [
+            0.21498152430359888,
+            0.3628015563994477,
+            0.20846254197954464,
+            0.21375437731740765
+          ],
+          "continuous_posterior": [
+            0.21466862694687647,
+            0.3643267923435602,
+            0.2078176382239144,
+            0.21318694248564862
+          ],
+          "posterior_total_variation": 0.001525235944112066,
+          "max_pair_log_bayes_factor_discrepancy": 0.007293652330842448,
+          "max_branch_log_density_discrepancy": 0.016875659063847692,
+          "log_predictive_finite32_minus_continuous": 0.013777244571727465,
+          "finite32_winning_prototypes": [
+            1
+          ],
+          "continuous_winning_prototypes": [
+            1
+          ],
+          "winning_prototype_changed": false,
+          "continuous_relative_integral_error_bound_max": 1.9878926486260686e-11,
+          "continuous_split_log_integral_discrepancy_max": 6.661338147750939e-16,
+          "finite32_reduced_api_log_bayes_factor_error_max": 1.4210854715202004e-14,
+          "finite32_reduced_api_absolute_log_density_error_max": 2.842170943040401e-14,
+          "finite32_reduced_archived_posterior_error_max": 1.887379141862766e-15,
+          "response_noise_eigenvalue_max": 1.4270501329737724
+        },
+        {
+          "seed": 2026111978,
+          "speed": 7.5,
+          "geometry": "bounded",
+          "finite32_posterior": [
+            0.2051896476621259,
+            0.1819161064075259,
+            0.41634345705540093,
+            0.1965507888749478
+          ],
+          "continuous_posterior": [
+            0.20471678594525985,
+            0.18058748286545692,
+            0.41923513079234664,
+            0.19546060039693575
+          ],
+          "posterior_total_variation": 0.002891673736946404,
+          "max_pair_log_bayes_factor_discrepancy": 0.014251693345451955,
+          "max_branch_log_density_discrepancy": 0.026298011868464144,
+          "log_predictive_finite32_minus_continuous": 0.018967714841609862,
+          "finite32_winning_prototypes": [
+            2
+          ],
+          "continuous_winning_prototypes": [
+            2
+          ],
+          "winning_prototype_changed": false,
+          "continuous_relative_integral_error_bound_max": 1.6576937534113454e-11,
+          "continuous_split_log_integral_discrepancy_max": 9.992007221626409e-16,
+          "finite32_reduced_api_log_bayes_factor_error_max": 1.7763568394002505e-14,
+          "finite32_reduced_api_absolute_log_density_error_max": 7.105427357601002e-14,
+          "finite32_reduced_archived_posterior_error_max": 3.1363800445660672e-15,
+          "response_noise_eigenvalue_max": 0.5879771965094359
+        },
+        {
+          "seed": 2026111978,
+          "speed": 7.5,
+          "geometry": "original",
+          "finite32_posterior": [
+            0.2006705772912708,
+            0.182216169366044,
+            0.42004978146983774,
+            0.197063471872847
+          ],
+          "continuous_posterior": [
+            0.20056664691105433,
+            0.1819918713303883,
+            0.42055758902044005,
+            0.19688389273811774
+          ],
+          "posterior_total_variation": 0.0005078075506018825,
+          "max_pair_log_bayes_factor_discrepancy": 0.0024398951253452594,
+          "max_branch_log_density_discrepancy": 0.004317941706428741,
+          "log_predictive_finite32_minus_continuous": 0.0030862387292867055,
+          "finite32_winning_prototypes": [
+            2
+          ],
+          "continuous_winning_prototypes": [
+            2
+          ],
+          "winning_prototype_changed": false,
+          "continuous_relative_integral_error_bound_max": 1.6494703825590752e-11,
+          "continuous_split_log_integral_discrepancy_max": 2.220446049250313e-16,
+          "finite32_reduced_api_log_bayes_factor_error_max": 7.105427357601002e-15,
+          "finite32_reduced_api_absolute_log_density_error_max": 8.526512829121202e-14,
+          "finite32_reduced_archived_posterior_error_max": 1.0824674490095276e-15,
+          "response_noise_eigenvalue_max": 1.4270501329737724
+        },
+        {
+          "seed": 2026111979,
+          "speed": 2.5,
+          "geometry": "bounded",
+          "finite32_posterior": [
+            0.20981054592223405,
+            0.15522083817300664,
+            0.41450975895194997,
+            0.2204588569528094
+          ],
+          "continuous_posterior": [
+            0.22296677089999056,
+            0.18792882924407436,
+            0.3570228837236296,
+            0.23208151613230418
+          ],
+          "posterior_total_variation": 0.05748687522831969,
+          "max_pair_log_bayes_factor_discrepancy": 0.3405110964092799,
+          "max_branch_log_density_discrepancy": 0.46955104748437293,
+          "log_predictive_finite32_minus_continuous": -0.27833658949480977,
+          "finite32_winning_prototypes": [
+            2
+          ],
+          "continuous_winning_prototypes": [
+            2
+          ],
+          "winning_prototype_changed": false,
+          "continuous_relative_integral_error_bound_max": 1.4964316825036838e-11,
+          "continuous_split_log_integral_discrepancy_max": 1.4432899320127035e-15,
+          "finite32_reduced_api_log_bayes_factor_error_max": 2.842170943040401e-14,
+          "finite32_reduced_api_absolute_log_density_error_max": 1.4210854715202004e-14,
+          "finite32_reduced_archived_posterior_error_max": 5.88418203051333e-15,
+          "response_noise_eigenvalue_max": 0.9720627802029655
+        },
+        {
+          "seed": 2026111979,
+          "speed": 2.5,
+          "geometry": "original",
+          "finite32_posterior": [
+            0.18553094754797642,
+            0.21951233721193303,
+            0.33821717466073825,
+            0.2567395405793518
+          ],
+          "continuous_posterior": [
+            0.18525836082139027,
+            0.21839595182621305,
+            0.3398940881871224,
+            0.2564515991652726
+          ],
+          "posterior_total_variation": 0.0016769135263847296,
+          "max_pair_log_bayes_factor_discrepancy": 0.010044574826320485,
+          "max_branch_log_density_discrepancy": 0.035321545490567985,
+          "log_predictive_finite32_minus_continuous": 0.030222816682623943,
+          "finite32_winning_prototypes": [
+            2
+          ],
+          "continuous_winning_prototypes": [
+            2
+          ],
+          "winning_prototype_changed": false,
+          "continuous_relative_integral_error_bound_max": 1.4301847222232595e-11,
+          "continuous_split_log_integral_discrepancy_max": 6.661338147750939e-16,
+          "finite32_reduced_api_log_bayes_factor_error_max": 3.552713678800501e-14,
+          "finite32_reduced_api_absolute_log_density_error_max": 4.263256414560601e-14,
+          "finite32_reduced_archived_posterior_error_max": 4.6074255521944e-15,
+          "response_noise_eigenvalue_max": 34.794542451434225
+        },
+        {
+          "seed": 2026111979,
+          "speed": 7.5,
+          "geometry": "bounded",
+          "finite32_posterior": [
+            0.15602883967747574,
+            0.5686370967009825,
+            0.15040492844567416,
+            0.12492913517586822
+          ],
+          "continuous_posterior": [
+            0.2325816430683426,
+            0.30118355138252223,
+            0.2368986563131308,
+            0.22933614923600426
+          ],
+          "posterior_total_variation": 0.26745354531845994,
+          "max_pair_log_bayes_factor_discrepancy": 1.2429647249985365,
+          "max_branch_log_density_discrepancy": 6.913236484728465,
+          "log_predictive_finite32_minus_continuous": -6.305794314843386,
+          "finite32_winning_prototypes": [
+            1
+          ],
+          "continuous_winning_prototypes": [
+            1
+          ],
+          "winning_prototype_changed": false,
+          "continuous_relative_integral_error_bound_max": 9.46714016704244e-12,
+          "continuous_split_log_integral_discrepancy_max": 8.881784197001252e-16,
+          "finite32_reduced_api_log_bayes_factor_error_max": 2.3803181647963356e-13,
+          "finite32_reduced_api_absolute_log_density_error_max": 4.973799150320701e-14,
+          "finite32_reduced_archived_posterior_error_max": 4.221623051137158e-14,
+          "response_noise_eigenvalue_max": 0.9720627802029655
+        },
+        {
+          "seed": 2026111979,
+          "speed": 7.5,
+          "geometry": "original",
+          "finite32_posterior": [
+            0.17967530279380453,
+            0.29394694045456876,
+            0.258090409100266,
+            0.26828734765136214
+          ],
+          "continuous_posterior": [
+            0.224690247535295,
+            0.2636821831816836,
+            0.2545824391190388,
+            0.2570451301639836
+          ],
+          "posterior_total_variation": 0.045014944741490676,
+          "max_pair_log_bayes_factor_discrepancy": 0.3322261775650688,
+          "max_branch_log_density_discrepancy": 3.0639177571794853,
+          "log_predictive_finite32_minus_continuous": -2.84034632967089,
+          "finite32_winning_prototypes": [
+            1
+          ],
+          "continuous_winning_prototypes": [
+            1
+          ],
+          "winning_prototype_changed": false,
+          "continuous_relative_integral_error_bound_max": 1.1625569982928843e-11,
+          "continuous_split_log_integral_discrepancy_max": 8.881784197001252e-16,
+          "finite32_reduced_api_log_bayes_factor_error_max": 2.0961010704922955e-13,
+          "finite32_reduced_api_absolute_log_density_error_max": 1.2398970739013748e-12,
+          "finite32_reduced_archived_posterior_error_max": 2.481348460037225e-14,
+          "response_noise_eigenvalue_max": 34.794542451434225
+        }
+      ]
+    }
+  }
+}

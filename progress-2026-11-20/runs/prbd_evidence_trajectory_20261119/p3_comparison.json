@@ -1,0 +1,2882 @@
+{
+  "training_episode_ids": [
+    2026111932,
+    2026111933,
+    2026111934,
+    2026111935,
+    2026111936,
+    2026111938,
+    2026111939,
+    2026111940,
+    2026111941,
+    2026111942,
+    2026111943,
+    2026111944,
+    2026111945,
+    2026111946,
+    2026111947,
+    2026111948,
+    2026111949,
+    2026111950,
+    2026111951,
+    2026111952,
+    2026111953,
+    2026111954,
+    2026111955,
+    2026111956,
+    2026111957,
+    2026111958,
+    2026111959,
+    2026111960,
+    2026111962,
+    2026111963
+  ],
+  "matched_raw_roots": 11,
+  "matched_physical_nonzero_roots": 9,
+  "physical_zero_roots_included": 2,
+  "all_complete_held_roots": 15,
+  "total_held_seeds": 16,
+  "horizon_policy": "All 418 original roots; H_t=min(4, remaining), 1492 overlapping target steps for D",
+  "normalization": "Per episode: sum conditional suffix joint NLL / total scored target steps",
+  "controls": [
+    {
+      "control": "original_h1",
+      "evaluation_geometry": "original",
+      "updates": 30,
+      "factual_roots": 418,
+      "scored_target_steps": 418,
+      "source_signed_recovery": 0.0046092816392113685,
+      "source_between_speed_support_TV_mean": 0.10777428744045477,
+      "horizons": {
+        "1": {
+          "source_only_signed_recovery": -0.0008238538574796165,
+          "source_only_relative_squared_error_gain_vs_zero": -0.0016636147594869572,
+          "source_only_sign_counts": {
+            "positive": 1,
+            "negative": 8,
+            "zero": 2
+          },
+          "directional_oracle_signed_recovery_cap": 0.06217752052681379,
+          "all_arrivals_signed_recovery": 0.00017796464742985324,
+          "skip_source_signed_recovery": 0.0008800300754348213,
+          "actual_source_increment_signed_recovery": -0.000702065428004972,
+          "actual_source_increment_interaction_squared_error_gain_sum": -1.5029500468716104,
+          "actual_source_increment_sign_counts": {
+            "positive": 3,
+            "negative": 6,
+            "zero": 2
+          },
+          "endpoints": {
+            "movement": {
+              "uniform_mse": 0.20880828075576507,
+              "source_only_mse": 0.20896586663276,
+              "all_arrivals_mse": 0.20774934755628294,
+              "skip_source_mse": 0.2075970180893175,
+              "source_only_predicted_displacement_l2_rms": 10.568936326756049
+            },
+            "stop": {
+              "uniform_mse": 0.05615830504549277,
+              "source_only_mse": 0.05607644259952393,
+              "all_arrivals_mse": 0.054619314823894365,
+              "skip_source_mse": 0.05468794204407854,
+              "source_only_predicted_displacement_l2_rms": 3.281261492034519
+            }
+          }
+        },
+        "2": {
+          "source_only_signed_recovery": -0.0016281689795138072,
+          "source_only_relative_squared_error_gain_vs_zero": -0.0033164361456436485,
+          "source_only_sign_counts": {
+            "positive": 1,
+            "negative": 8,
+            "zero": 2
+          },
+          "directional_oracle_signed_recovery_cap": 0.11679271608604659,
+          "all_arrivals_signed_recovery": 0.000331239842377241,
+          "skip_source_signed_recovery": 0.0016471088946671132,
+          "actual_source_increment_signed_recovery": -0.0013158690522898754,
+          "actual_source_increment_interaction_squared_error_gain_sum": -2.7742006515028734,
+          "actual_source_increment_sign_counts": {
+            "positive": 3,
+            "negative": 6,
+            "zero": 2
+          },
+          "endpoints": {
+            "movement": {
+              "uniform_mse": 0.22070393683326436,
+              "source_only_mse": 0.22086121645671272,
+              "all_arrivals_mse": 0.21814496200038194,
+              "skip_source_mse": 0.21787453165956275,
+              "source_only_predicted_displacement_l2_rms": 10.691574089166581
+            },
+            "stop": {
+              "uniform_mse": 0.07172583693245828,
+              "source_only_mse": 0.07137948313720763,
+              "all_arrivals_mse": 0.06708329456688093,
+              "skip_source_mse": 0.06728515885883096,
+              "source_only_predicted_displacement_l2_rms": 3.702007666435047
+            }
+          }
+        },
+        "3": {
+          "source_only_signed_recovery": -0.002455058229573773,
+          "source_only_relative_squared_error_gain_vs_zero": -0.0050446034823496905,
+          "source_only_sign_counts": {
+            "positive": 1,
+            "negative": 8,
+            "zero": 2
+          },
+          "directional_oracle_signed_recovery_cap": 0.16502029697609985,
+          "all_arrivals_signed_recovery": 0.0004911095312181897,
+          "skip_source_signed_recovery": 0.002239289853342551,
+          "actual_source_increment_signed_recovery": -0.0017481803221243675,
+          "actual_source_increment_interaction_squared_error_gain_sum": -3.6088451864395417,
+          "actual_source_increment_sign_counts": {
+            "positive": 3,
+            "negative": 6,
+            "zero": 2
+          },
+          "endpoints": {
+            "movement": {
+              "uniform_mse": 0.23025471907472247,
+              "source_only_mse": 0.23025802244181356,
+              "all_arrivals_mse": 0.22594144080028397,
+              "skip_source_mse": 0.22562144477506355,
+              "source_only_predicted_displacement_l2_rms": 10.808647319889802
+            },
+            "stop": {
+              "uniform_mse": 0.08453853685134806,
+              "source_only_mse": 0.08376773177616025,
+              "all_arrivals_mse": 0.07569767821244049,
+              "skip_source_mse": 0.0760868848217361,
+              "source_only_predicted_displacement_l2_rms": 4.0104120113802235
+            }
+          }
+        },
+        "4": {
+          "source_only_signed_recovery": -0.0032813793806099256,
+          "source_only_relative_squared_error_gain_vs_zero": -0.0068046292857694615,
+          "source_only_sign_counts": {
+            "positive": 1,
+            "negative": 8,
+            "zero": 2
+          },
+          "directional_oracle_signed_recovery_cap": 0.20611074636132756,
+          "all_arrivals_signed_recovery": 0.0006509401776717309,
+          "skip_source_signed_recovery": 0.0026252710397530886,
+          "actual_source_increment_signed_recovery": -0.001974330862081366,
+          "actual_source_increment_interaction_squared_error_gain_sum": -3.9501007118688145,
+          "actual_source_increment_sign_counts": {
+            "positive": 3,
+            "negative": 6,
+            "zero": 2
+          },
+          "endpoints": {
+            "movement": {
+              "uniform_mse": 0.23996974519747957,
+              "source_only_mse": 0.23966367868408955,
+              "all_arrivals_mse": 0.23371466857545542,
+              "skip_source_mse": 0.23342053515215255,
+              "source_only_predicted_displacement_l2_rms": 10.907823842447623
+            },
+            "stop": {
+              "uniform_mse": 0.09879659345242536,
+              "source_only_mse": 0.0974633909587804,
+              "all_arrivals_mse": 0.08471530215716892,
+              "skip_source_mse": 0.08534422104976647,
+              "source_only_predicted_displacement_l2_rms": 4.325849172600201
+            }
+          }
+        }
+      }
+    },
+    {
+      "control": "bounded_h1",
+      "evaluation_geometry": "bounded",
+      "updates": 30,
+      "factual_roots": 418,
+      "scored_target_steps": 418,
+      "source_signed_recovery": 0.07257964922581385,
+      "source_between_speed_support_TV_mean": 0.5243103661244017,
+      "horizons": {
+        "1": {
+          "source_only_signed_recovery": -0.002501944903752544,
+          "source_only_relative_squared_error_gain_vs_zero": -0.008666849108283688,
+          "source_only_sign_counts": {
+            "positive": 3,
+            "negative": 6,
+            "zero": 2
+          },
+          "directional_oracle_signed_recovery_cap": 0.06537961968554815,
+          "all_arrivals_signed_recovery": -0.005002826970127707,
+          "skip_source_signed_recovery": -0.0023570311408080947,
+          "actual_source_increment_signed_recovery": -0.002645795829319622,
+          "actual_source_increment_interaction_squared_error_gain_sum": -4.937864059212056,
+          "actual_source_increment_sign_counts": {
+            "positive": 3,
+            "negative": 6,
+            "zero": 2
+          },
+          "endpoints": {
+            "movement": {
+              "uniform_mse": 0.20876294017518646,
+              "source_only_mse": 0.20967692442660704,
+              "all_arrivals_mse": 0.20927741616127876,
+              "skip_source_mse": 0.20884385799524108,
+              "source_only_predicted_displacement_l2_rms": 10.597183919623465
+            },
+            "stop": {
+              "uniform_mse": 0.05611553526540869,
+              "source_only_mse": 0.05649001275946936,
+              "all_arrivals_mse": 0.054761560428876706,
+              "skip_source_mse": 0.05493934421478706,
+              "source_only_predicted_displacement_l2_rms": 3.2933391033748887
+            }
+          }
+        },
+        "2": {
+          "source_only_signed_recovery": -0.0039042149781924698,
+          "source_only_relative_squared_error_gain_vs_zero": -0.02111345774868598,
+          "source_only_sign_counts": {
+            "positive": 3,
+            "negative": 6,
+            "zero": 2
+          },
+          "directional_oracle_signed_recovery_cap": 0.12278497638156594,
+          "all_arrivals_signed_recovery": -0.010268175973322106,
+          "skip_source_signed_recovery": -0.005504596375058944,
+          "actual_source_increment_signed_recovery": -0.004763579598263172,
+          "actual_source_increment_interaction_squared_error_gain_sum": -7.402802315894939,
+          "actual_source_increment_sign_counts": {
+            "positive": 2,
+            "negative": 7,
+            "zero": 2
+          },
+          "endpoints": {
+            "movement": {
+              "uniform_mse": 0.22050782263270827,
+              "source_only_mse": 0.2241293728622699,
+              "all_arrivals_mse": 0.22159017839114517,
+              "skip_source_mse": 0.22095529893035587,
+              "source_only_predicted_displacement_l2_rms": 10.760036052514254
+            },
+            "stop": {
+              "uniform_mse": 0.07153828399578771,
+              "source_only_mse": 0.07372141245518944,
+              "all_arrivals_mse": 0.06801395477518964,
+              "skip_source_mse": 0.06872942164477716,
+              "source_only_predicted_displacement_l2_rms": 3.762248156541029
+            }
+          }
+        },
+        "3": {
+          "source_only_signed_recovery": -0.00364345275565011,
+          "source_only_relative_squared_error_gain_vs_zero": -0.0356053589221685,
+          "source_only_sign_counts": {
+            "positive": 3,
+            "negative": 6,
+            "zero": 2
+          },
+          "directional_oracle_signed_recovery_cap": 0.17346558838932208,
+          "all_arrivals_signed_recovery": -0.016208011285735482,
+          "skip_source_signed_recovery": -0.00952955817819794,
+          "actual_source_increment_signed_recovery": -0.006678453107537549,
+          "actual_source_increment_interaction_squared_error_gain_sum": -8.223647617424186,
+          "actual_source_increment_sign_counts": {
+            "positive": 2,
+            "negative": 7,
+            "zero": 2
+          },
+          "endpoints": {
+            "movement": {
+              "uniform_mse": 0.22980907206535103,
+              "source_only_mse": 0.23770769150767893,
+              "all_arrivals_mse": 0.2318380647093477,
+              "skip_source_mse": 0.2312026225175231,
+              "source_only_predicted_displacement_l2_rms": 10.935749507313494
+            },
+            "stop": {
+              "uniform_mse": 0.08411005195527103,
+              "source_only_mse": 0.08942114930317556,
+              "all_arrivals_mse": 0.07802203022987131,
+              "skip_source_mse": 0.07958892594597176,
+              "source_only_predicted_displacement_l2_rms": 4.143532389907156
+            }
+          }
+        },
+        "4": {
+          "source_only_signed_recovery": -0.001818952314406546,
+          "source_only_relative_squared_error_gain_vs_zero": -0.05177501196015661,
+          "source_only_sign_counts": {
+            "positive": 3,
+            "negative": 6,
+            "zero": 2
+          },
+          "directional_oracle_signed_recovery_cap": 0.21662451508071764,
+          "all_arrivals_signed_recovery": -0.02269516610650877,
+          "skip_source_signed_recovery": -0.014357790156631642,
+          "actual_source_increment_signed_recovery": -0.008337375949877128,
+          "actual_source_increment_interaction_squared_error_gain_sum": -7.385623912753765,
+          "actual_source_increment_sign_counts": {
+            "positive": 2,
+            "negative": 7,
+            "zero": 2
+          },
+          "endpoints": {
+            "movement": {
+              "uniform_mse": 0.23917812919201048,
+              "source_only_mse": 0.2528613304417426,
+              "all_arrivals_mse": 0.24256120321108898,
+              "skip_source_mse": 0.24210592401119763,
+              "source_only_predicted_displacement_l2_rms": 11.109713816148854
+            },
+            "stop": {
+              "uniform_mse": 0.09802555477085724,
+              "source_only_mse": 0.10771711057335055,
+              "all_arrivals_mse": 0.08888758459058878,
+              "skip_source_mse": 0.09159336027658878,
+              "source_only_predicted_displacement_l2_rms": 4.547712087421905
+            }
+          }
+        }
+      }
+    },
+    {
+      "control": "original_d",
+      "evaluation_geometry": "original",
+      "updates": 30,
+      "factual_roots": 418,
+      "scored_target_steps": 1492,
+      "source_signed_recovery": 0.004573765149615585,
+      "source_between_speed_support_TV_mean": 0.11372545337304177,
+      "horizons": {
+        "1": {
+          "source_only_signed_recovery": -0.00029890834667510585,
+          "source_only_relative_squared_error_gain_vs_zero": -0.0006097322815041946,
+          "source_only_sign_counts": {
+            "positive": 4,
+            "negative": 5,
+            "zero": 2
+          },
+          "directional_oracle_signed_recovery_cap": 0.07703825503294628,
+          "all_arrivals_signed_recovery": -0.00041352975301041264,
+          "skip_source_signed_recovery": -0.0006316363408966334,
+          "actual_source_increment_signed_recovery": 0.0002181065878862207,
+          "actual_source_increment_interaction_squared_error_gain_sum": 0.4944928929048425,
+          "actual_source_increment_sign_counts": {
+            "positive": 4,
+            "negative": 5,
+            "zero": 2
+          },
+          "endpoints": {
+            "movement": {
+              "uniform_mse": 0.20859451918228025,
+              "source_only_mse": 0.2086278690433909,
+              "all_arrivals_mse": 0.20797778457574392,
+              "skip_source_mse": 0.2080555849142299,
+              "source_only_predicted_displacement_l2_rms": 10.557080234508767
+            },
+            "stop": {
+              "uniform_mse": 0.05590637686969027,
+              "source_only_mse": 0.05584509114436116,
+              "all_arrivals_mse": 0.054509046182225934,
+              "skip_source_mse": 0.0545771427234406,
+              "source_only_predicted_displacement_l2_rms": 3.2744858374586605
+            }
+          }
+        },
+        "2": {
+          "source_only_signed_recovery": -0.0005220041647570971,
+          "source_only_relative_squared_error_gain_vs_zero": -0.0010885568825892784,
+          "source_only_sign_counts": {
+            "positive": 4,
+            "negative": 5,
+            "zero": 2
+          },
+          "directional_oracle_signed_recovery_cap": 0.1449591123816924,
+          "all_arrivals_signed_recovery": -0.0007902837443888784,
+          "skip_source_signed_recovery": -0.0012646569601145962,
+          "actual_source_increment_signed_recovery": 0.0004743732157257141,
+          "actual_source_increment_interaction_squared_error_gain_sum": 1.1147681114962384,
+          "actual_source_increment_sign_counts": {
+            "positive": 4,
+            "negative": 5,
+            "zero": 2
+          },
+          "endpoints": {
+            "movement": {
+              "uniform_mse": 0.21967895483738956,
+              "source_only_mse": 0.2195781476321008,
+              "all_arrivals_mse": 0.21820745788387888,
+              "skip_source_mse": 0.21839439178985443,
+              "source_only_predicted_displacement_l2_rms": 10.662869930994498
+            },
+            "stop": {
+              "uniform_mse": 0.07065632534093759,
+              "source_only_mse": 0.07036200337644208,
+              "all_arrivals_mse": 0.06666687617137436,
+              "skip_source_mse": 0.06682256014358484,
+              "source_only_predicted_displacement_l2_rms": 3.6755278054011344
+            }
+          }
+        },
+        "3": {
+          "source_only_signed_recovery": -0.0006697758653621251,
+          "source_only_relative_squared_error_gain_vs_zero": -0.0014389058848322304,
+          "source_only_sign_counts": {
+            "positive": 4,
+            "negative": 5,
+            "zero": 2
+          },
+          "directional_oracle_signed_recovery_cap": 0.20529986937004005,
+          "all_arrivals_signed_recovery": -0.0010767168063768127,
+          "skip_source_signed_recovery": -0.0018318657313478462,
+          "actual_source_increment_signed_recovery": 0.0007551489249710237,
+          "actual_source_increment_interaction_squared_error_gain_sum": 1.8343149103424543,
+          "actual_source_increment_sign_counts": {
+            "positive": 4,
+            "negative": 5,
+            "zero": 2
+          },
+          "endpoints": {
+            "movement": {
+              "uniform_mse": 0.2278694092828329,
+              "source_only_mse": 0.22747078547033234,
+              "all_arrivals_mse": 0.22554437983410286,
+              "skip_source_mse": 0.22587452554265414,
+              "source_only_predicted_displacement_l2_rms": 10.758263882681133
+            },
+            "stop": {
+              "uniform_mse": 0.08210015529586125,
+              "source_only_mse": 0.08143959801792909,
+              "all_arrivals_mse": 0.07475473142397228,
+              "skip_source_mse": 0.07501282041959291,
+              "source_only_predicted_displacement_l2_rms": 3.9542891674032115
+            }
+          }
+        },
+        "4": {
+          "source_only_signed_recovery": -0.000727061203170059,
+          "source_only_relative_squared_error_gain_vs_zero": -0.0016329974827184025,
+          "source_only_sign_counts": {
+            "positive": 3,
+            "negative": 6,
+            "zero": 2
+          },
+          "directional_oracle_signed_recovery_cap": 0.25705974882513016,
+          "all_arrivals_signed_recovery": -0.0012702062584847408,
+          "skip_source_signed_recovery": -0.002329945347621001,
+          "actual_source_increment_signed_recovery": 0.0010597390891362544,
+          "actual_source_increment_interaction_squared_error_gain_sum": 2.6546340465062936,
+          "actual_source_increment_sign_counts": {
+            "positive": 4,
+            "negative": 5,
+            "zero": 2
+          },
+          "endpoints": {
+            "movement": {
+              "uniform_mse": 0.23572433988441474,
+              "source_only_mse": 0.2348836820526043,
+              "all_arrivals_mse": 0.23266515106085797,
+              "skip_source_mse": 0.23317215421103465,
+              "source_only_predicted_displacement_l2_rms": 10.83165662905566
+            },
+            "stop": {
+              "uniform_mse": 0.09443669492524033,
+              "source_only_mse": 0.09329737564985896,
+              "all_arrivals_mse": 0.08303676439578998,
+              "skip_source_mse": 0.08341267846992173,
+              "source_only_predicted_displacement_l2_rms": 4.232386575535477
+            }
+          }
+        }
+      }
+    },
+    {
+      "control": "bounded_d",
+      "evaluation_geometry": "bounded",
+      "updates": 30,
+      "factual_roots": 418,
+      "scored_target_steps": 1492,
+      "source_signed_recovery": 0.07553925273338599,
+      "source_between_speed_support_TV_mean": 0.5389480768584022,
+      "horizons": {
+        "1": {
+          "source_only_signed_recovery": 0.0063365282510716705,
+          "source_only_relative_squared_error_gain_vs_zero": 0.008873321816949373,
+          "source_only_sign_counts": {
+            "positive": 3,
+            "negative": 6,
+            "zero": 2
+          },
+          "directional_oracle_signed_recovery_cap": 0.07482612998811033,
+          "all_arrivals_signed_recovery": -0.013285955885977705,
+          "skip_source_signed_recovery": -0.00853696421124729,
+          "actual_source_increment_signed_recovery": -0.004748991674730412,
+          "actual_source_increment_interaction_squared_error_gain_sum": -9.718967727524289,
+          "actual_source_increment_sign_counts": {
+            "positive": 4,
+            "negative": 5,
+            "zero": 2
+          },
+          "endpoints": {
+            "movement": {
+              "uniform_mse": 0.20861290605824473,
+              "source_only_mse": 0.20795486467445998,
+              "all_arrivals_mse": 0.21131491327048477,
+              "skip_source_mse": 0.21013384883021147,
+              "source_only_predicted_displacement_l2_rms": 10.594227007105019
+            },
+            "stop": {
+              "uniform_mse": 0.055923338415280806,
+              "source_only_mse": 0.05622006075791664,
+              "all_arrivals_mse": 0.05477632733169347,
+              "skip_source_mse": 0.05498294794535945,
+              "source_only_predicted_displacement_l2_rms": 3.2854606473856904
+            }
+          }
+        },
+        "2": {
+          "source_only_signed_recovery": 0.013309295328078796,
+          "source_only_relative_squared_error_gain_vs_zero": 0.012750322159498425,
+          "source_only_sign_counts": {
+            "positive": 3,
+            "negative": 6,
+            "zero": 2
+          },
+          "directional_oracle_signed_recovery_cap": 0.140745392314064,
+          "all_arrivals_signed_recovery": -0.026160815185975978,
+          "skip_source_signed_recovery": -0.017447776172332865,
+          "actual_source_increment_signed_recovery": -0.00871303901364312,
+          "actual_source_increment_interaction_squared_error_gain_sum": -16.69485196043089,
+          "actual_source_increment_sign_counts": {
+            "positive": 4,
+            "negative": 5,
+            "zero": 2
+          },
+          "endpoints": {
+            "movement": {
+              "uniform_mse": 0.21975793196171753,
+              "source_only_mse": 0.22057436231517588,
+              "all_arrivals_mse": 0.22547568266123044,
+              "skip_source_mse": 0.22344883173363456,
+              "source_only_predicted_displacement_l2_rms": 10.75479377977991
+            },
+            "stop": {
+              "uniform_mse": 0.07072514532396597,
+              "source_only_mse": 0.07289978636061756,
+              "all_arrivals_mse": 0.06798626448972173,
+              "skip_source_mse": 0.06881909995655996,
+              "source_only_predicted_displacement_l2_rms": 3.741224262355649
+            }
+          }
+        },
+        "3": {
+          "source_only_signed_recovery": 0.021709252410584017,
+          "source_only_relative_squared_error_gain_vs_zero": 0.013540689588462806,
+          "source_only_sign_counts": {
+            "positive": 3,
+            "negative": 6,
+            "zero": 2
+          },
+          "directional_oracle_signed_recovery_cap": 0.1993191971510544,
+          "all_arrivals_signed_recovery": -0.03956898511077436,
+          "skip_source_signed_recovery": -0.027126742379838736,
+          "actual_source_increment_signed_recovery": -0.012442242730935612,
+          "actual_source_increment_interaction_squared_error_gain_sum": -22.091989376537718,
+          "actual_source_increment_sign_counts": {
+            "positive": 4,
+            "negative": 5,
+            "zero": 2
+          },
+          "endpoints": {
+            "movement": {
+              "uniform_mse": 0.22804946504680598,
+              "source_only_mse": 0.2322428147332172,
+              "all_arrivals_mse": 0.23761955816865077,
+              "skip_source_mse": 0.23501915200042092,
+              "source_only_predicted_displacement_l2_rms": 10.928359275824105
+            },
+            "stop": {
+              "uniform_mse": 0.08225364353900229,
+              "source_only_mse": 0.08781369660065586,
+              "all_arrivals_mse": 0.07788859911268173,
+              "skip_source_mse": 0.07968886637395871,
+              "source_only_predicted_displacement_l2_rms": 4.106121009824957
+            }
+          }
+        },
+        "4": {
+          "source_only_signed_recovery": 0.03131474906320762,
+          "source_only_relative_squared_error_gain_vs_zero": 0.01113422847024922,
+          "source_only_sign_counts": {
+            "positive": 3,
+            "negative": 6,
+            "zero": 2
+          },
+          "directional_oracle_signed_recovery_cap": 0.2495800147333066,
+          "all_arrivals_signed_recovery": -0.05320994889568902,
+          "skip_source_signed_recovery": -0.03737130612999963,
+          "actual_source_increment_signed_recovery": -0.015838642765689408,
+          "actual_source_increment_interaction_squared_error_gain_sum": -25.576636915622483,
+          "actual_source_increment_sign_counts": {
+            "positive": 4,
+            "negative": 5,
+            "zero": 2
+          },
+          "endpoints": {
+            "movement": {
+              "uniform_mse": 0.23603936710372428,
+              "source_only_mse": 0.24547299463439523,
+              "all_arrivals_mse": 0.2503276508330641,
+              "skip_source_mse": 0.24738611966792326,
+              "source_only_predicted_displacement_l2_rms": 11.100236992337997
+            },
+            "stop": {
+              "uniform_mse": 0.09470742704752323,
+              "source_only_mse": 0.1050955617322757,
+              "all_arrivals_mse": 0.08862035067841147,
+              "skip_source_mse": 0.09170079083841753,
+              "source_only_predicted_displacement_l2_rms": 4.4920315952358285
+            }
+          }
+        }
+      }
+    }
+  ],
+  "bounded_d_influence": {
+    "per_seed": [
+      {
+        "seed": 2026111965,
+        "truth_squared_norm": 17.476825078116857,
+        "physical_truth_zero": false,
+        "latent_truth_zero": false,
+        "source_only_numerator": -0.20161066868939403,
+        "actual_source_increment_numerator": -0.003764194429591796
+      },
+      {
+        "seed": 2026111966,
+        "truth_squared_norm": 246.65496888305762,
+        "physical_truth_zero": false,
+        "latent_truth_zero": false,
+        "source_only_numerator": 37.1136737154812,
+        "actual_source_increment_numerator": -19.18955295505819
+      },
+      {
+        "seed": 2026111967,
+        "truth_squared_norm": 171.33416263769107,
+        "physical_truth_zero": false,
+        "latent_truth_zero": false,
+        "source_only_numerator": 0.5061976359963787,
+        "actual_source_increment_numerator": 0.676109008279421
+      },
+      {
+        "seed": 2026111968,
+        "truth_squared_norm": 60.17760975899205,
+        "physical_truth_zero": false,
+        "latent_truth_zero": false,
+        "source_only_numerator": -2.6298981772175285,
+        "actual_source_increment_numerator": 1.614868572184978
+      },
+      {
+        "seed": 2026111969,
+        "truth_squared_norm": 60.915813216800316,
+        "physical_truth_zero": false,
+        "latent_truth_zero": false,
+        "source_only_numerator": -0.43484209212952063,
+        "actual_source_increment_numerator": -0.3614587182229132
+      },
+      {
+        "seed": 2026111970,
+        "truth_squared_norm": 0.0,
+        "physical_truth_zero": true,
+        "latent_truth_zero": true,
+        "source_only_numerator": 0.0,
+        "actual_source_increment_numerator": 0.0
+      },
+      {
+        "seed": 2026111971,
+        "truth_squared_norm": 217.22253495528565,
+        "physical_truth_zero": false,
+        "latent_truth_zero": false,
+        "source_only_numerator": -5.246809333976028,
+        "actual_source_increment_numerator": -0.07036835133920757
+      },
+      {
+        "seed": 2026111974,
+        "truth_squared_norm": 145.82412887164398,
+        "physical_truth_zero": false,
+        "latent_truth_zero": false,
+        "source_only_numerator": 8.450928748306737,
+        "actual_source_increment_numerator": 0.20115375858551285
+      },
+      {
+        "seed": 2026111975,
+        "truth_squared_norm": 34.56096872083899,
+        "physical_truth_zero": false,
+        "latent_truth_zero": false,
+        "source_only_numerator": -0.15217091774845598,
+        "actual_source_increment_numerator": 0.14888050364052335
+      },
+      {
+        "seed": 2026111978,
+        "truth_squared_norm": 0.0,
+        "physical_truth_zero": true,
+        "latent_truth_zero": true,
+        "source_only_numerator": 0.0,
+        "actual_source_increment_numerator": 0.0
+      },
+      {
+        "seed": 2026111979,
+        "truth_squared_norm": 130.70724499760396,
+        "physical_truth_zero": false,
+        "latent_truth_zero": false,
+        "source_only_numerator": -3.432903783175848,
+        "actual_source_increment_numerator": -0.1988034278573768
+      }
+    ],
+    "leave_one_seed_out": [
+      {
+        "omitted_seed": 2026111965,
+        "omitted_physical_truth_zero": false,
+        "source_only_signed_recovery": 0.03201635564193021,
+        "actual_source_increment_signed_recovery": -0.01609444719847581
+      },
+      {
+        "omitted_seed": 2026111966,
+        "omitted_physical_truth_zero": false,
+        "source_only_signed_recovery": -0.003747358993898067,
+        "actual_source_increment_signed_recovery": 0.002393904768120841
+      },
+      {
+        "omitted_seed": 2026111967,
+        "omitted_physical_truth_zero": false,
+        "source_only_signed_recovery": 0.036633715031210524,
+        "actual_source_increment_signed_recovery": -0.019549273119332713
+      },
+      {
+        "omitted_seed": 2026111968,
+        "omitted_physical_truth_zero": false,
+        "source_only_signed_recovery": 0.03572029185254928,
+        "actual_source_increment_signed_recovery": -0.018344750541355738
+      },
+      {
+        "omitted_seed": 2026111969,
+        "omitted_physical_truth_zero": false,
+        "source_only_signed_recovery": 0.03360234726696463,
+        "actual_source_increment_signed_recovery": -0.016427890395504813
+      },
+      {
+        "omitted_seed": 2026111970,
+        "omitted_physical_truth_zero": true,
+        "source_only_signed_recovery": 0.03131474906320762,
+        "actual_source_increment_signed_recovery": -0.015838642765689408
+      },
+      {
+        "omitted_seed": 2026111971,
+        "omitted_physical_truth_zero": false,
+        "source_only_signed_recovery": 0.045201747958239884,
+        "actual_source_increment_signed_recovery": -0.01972285309384587
+      },
+      {
+        "omitted_seed": 2026111974,
+        "omitted_physical_truth_zero": false,
+        "source_only_signed_recovery": 0.027178140560127927,
+        "actual_source_increment_signed_recovery": -0.018512419134885758
+      },
+      {
+        "omitted_seed": 2026111975,
+        "omitted_physical_truth_zero": false,
+        "source_only_signed_recovery": 0.03249005455944136,
+        "actual_source_increment_signed_recovery": -0.01650156815046415
+      },
+      {
+        "omitted_seed": 2026111978,
+        "omitted_physical_truth_zero": true,
+        "source_only_signed_recovery": 0.03131474906320762,
+        "actual_source_increment_signed_recovery": -0.015838642765689408
+      },
+      {
+        "omitted_seed": 2026111979,
+        "omitted_physical_truth_zero": false,
+        "source_only_signed_recovery": 0.03920222396582287,
+        "actual_source_increment_signed_recovery": -0.01779995761809074
+      }
+    ],
+    "ranges": {
+      "source_only_signed_recovery": {
+        "minimum": -0.003747358993898067,
+        "maximum": 0.045201747958239884
+      },
+      "actual_source_increment_signed_recovery": {
+        "minimum": -0.01972285309384587,
+        "maximum": 0.002393904768120841
+      }
+    },
+    "strongest_numerators": {
+      "source_only_numerator": {
+        "positive": [
+          {
+            "seed": 2026111966,
+            "truth_squared_norm": 246.65496888305762,
+            "physical_truth_zero": false,
+            "latent_truth_zero": false,
+            "source_only_numerator": 37.1136737154812,
+            "actual_source_increment_numerator": -19.18955295505819
+          },
+          {
+            "seed": 2026111974,
+            "truth_squared_norm": 145.82412887164398,
+            "physical_truth_zero": false,
+            "latent_truth_zero": false,
+            "source_only_numerator": 8.450928748306737,
+            "actual_source_increment_numerator": 0.20115375858551285
+          },
+          {
+            "seed": 2026111967,
+            "truth_squared_norm": 171.33416263769107,
+            "physical_truth_zero": false,
+            "latent_truth_zero": false,
+            "source_only_numerator": 0.5061976359963787,
+            "actual_source_increment_numerator": 0.676109008279421
+          }
+        ],
+        "negative": [
+          {
+            "seed": 2026111971,
+            "truth_squared_norm": 217.22253495528565,
+            "physical_truth_zero": false,
+            "latent_truth_zero": false,
+            "source_only_numerator": -5.246809333976028,
+            "actual_source_increment_numerator": -0.07036835133920757
+          },
+          {
+            "seed": 2026111979,
+            "truth_squared_norm": 130.70724499760396,
+            "physical_truth_zero": false,
+            "latent_truth_zero": false,
+            "source_only_numerator": -3.432903783175848,
+            "actual_source_increment_numerator": -0.1988034278573768
+          },
+          {
+            "seed": 2026111968,
+            "truth_squared_norm": 60.17760975899205,
+            "physical_truth_zero": false,
+            "latent_truth_zero": false,
+            "source_only_numerator": -2.6298981772175285,
+            "actual_source_increment_numerator": 1.614868572184978
+          }
+        ]
+      },
+      "actual_source_increment_numerator": {
+        "positive": [
+          {
+            "seed": 2026111968,
+            "truth_squared_norm": 60.17760975899205,
+            "physical_truth_zero": false,
+            "latent_truth_zero": false,
+            "source_only_numerator": -2.6298981772175285,
+            "actual_source_increment_numerator": 1.614868572184978
+          },
+          {
+            "seed": 2026111967,
+            "truth_squared_norm": 171.33416263769107,
+            "physical_truth_zero": false,
+            "latent_truth_zero": false,
+            "source_only_numerator": 0.5061976359963787,
+            "actual_source_increment_numerator": 0.676109008279421
+          },
+          {
+            "seed": 2026111974,
+            "truth_squared_norm": 145.82412887164398,
+            "physical_truth_zero": false,
+            "latent_truth_zero": false,
+            "source_only_numerator": 8.450928748306737,
+            "actual_source_increment_numerator": 0.20115375858551285
+          }
+        ],
+        "negative": [
+          {
+            "seed": 2026111966,
+            "truth_squared_norm": 246.65496888305762,
+            "physical_truth_zero": false,
+            "latent_truth_zero": false,
+            "source_only_numerator": 37.1136737154812,
+            "actual_source_increment_numerator": -19.18955295505819
+          },
+          {
+            "seed": 2026111969,
+            "truth_squared_norm": 60.915813216800316,
+            "physical_truth_zero": false,
+            "latent_truth_zero": false,
+            "source_only_numerator": -0.43484209212952063,
+            "actual_source_increment_numerator": -0.3614587182229132
+          },
+          {
+            "seed": 2026111979,
+            "truth_squared_norm": 130.70724499760396,
+            "physical_truth_zero": false,
+            "latent_truth_zero": false,
+            "source_only_numerator": -3.432903783175848,
+            "actual_source_increment_numerator": -0.1988034278573768
+          }
+        ]
+      }
+    }
+  },
+  "bounded_d_posterior_timelines": [
+    {
+      "seed": 2026111965,
+      "histories": [
+        {
+          "speed_index_for_scoring_only": 0,
+          "source_z3_support": [
+            0.06121968585656799,
+            0.07507630628017072,
+            0.06792204916743147,
+            0.7957819586958782
+          ],
+          "arrivals": [
+            {
+              "arrival": "retract_z4",
+              "raw_action_all_zero": false,
+              "physical_displacement_xy": [
+                -3.125,
+                0.0
+              ],
+              "physical_displacement_zero": false,
+              "latent_change_l2": 7.871412339050072,
+              "latent_change_exact_zero": false,
+              "all_write_support": [
+                0.05163763613739637,
+                0.3129255272187451,
+                0.2937054149847489,
+                0.3417314216591505
+              ],
+              "skip_source_support": [
+                0.08739942318659183,
+                0.42356508494655837,
+                0.4388603339699964,
+                0.050175157896798515
+              ],
+              "all_write_update_TV": 0.4636325867558956,
+              "retained_source_increment_TV": 0.29155626376230415
+            },
+            {
+              "arrival": "zero_z5",
+              "raw_action_all_zero": true,
+              "physical_displacement_xy": [
+                0.0,
+                0.0
+              ],
+              "physical_displacement_zero": true,
+              "latent_change_l2": 0.0,
+              "latent_change_exact_zero": true,
+              "all_write_support": [
+                0.008804286884937887,
+                0.5674158163738126,
+                0.42123400445635384,
+                0.0025458922848960197
+              ],
+              "skip_source_support": [
+                0.010740813944914808,
+                0.5444734646529031,
+                0.4445109661928135,
+                0.0002747552093683764
+              ],
+              "all_write_update_TV": 0.38201887862669265,
+              "retained_source_increment_TV": 0.02521348879643682
+            },
+            {
+              "arrival": "zero_z6",
+              "raw_action_all_zero": true,
+              "physical_displacement_xy": [
+                0.0,
+                0.0
+              ],
+              "physical_displacement_zero": true,
+              "latent_change_l2": 0.0,
+              "latent_change_exact_zero": true,
+              "all_write_support": [
+                0.0009545334829587906,
+                0.6780252364274264,
+                0.32101251668410424,
+                7.713405510453957e-06
+              ],
+              "skip_source_support": [
+                0.0011741052688657876,
+                0.6583427581866975,
+                0.3404822953823917,
+                8.411620448638259e-07
+              ],
+              "all_write_update_TV": 0.11060942005361406,
+              "retained_source_increment_TV": 0.019689350484194474
+            }
+          ]
+        },
+        {
+          "speed_index_for_scoring_only": 1,
+          "source_z3_support": [
+            0.08631978445908109,
+            0.46128514648904895,
+            0.42501987678821657,
+            0.02737519226366597
+          ],
+          "arrivals": [
+            {
+              "arrival": "retract_z4",
+              "raw_action_all_zero": false,
+              "physical_displacement_xy": [
+                -9.375,
+                0.0
+              ],
+              "physical_displacement_zero": false,
+              "latent_change_l2": 14.877297090555771,
+              "latent_change_exact_zero": false,
+              "all_write_support": [
+                0.0625904373193784,
+                0.3720085258539424,
+                0.19830626048163466,
+                0.36709477634502274
+              ],
+              "skip_source_support": [
+                0.048815224704798765,
+                0.059319270516343385,
+                0.033954573485127454,
+                0.8579109312936948
+              ],
+              "all_write_update_TV": 0.3397195840813739,
+              "retained_source_increment_TV": 0.4908161549486789
+            },
+            {
+              "arrival": "zero_z5",
+              "raw_action_all_zero": true,
+              "physical_displacement_xy": [
+                0.0,
+                0.0
+              ],
+              "physical_displacement_zero": true,
+              "latent_change_l2": 0.0,
+              "latent_change_exact_zero": true,
+              "all_write_support": [
+                0.020176081414130145,
+                0.7678888387285925,
+                0.21047611086135423,
+                0.0014589689959233266
+              ],
+              "skip_source_support": [
+                0.08927663585044585,
+                0.6902568180360915,
+                0.2006758400411344,
+                0.019790706072328114
+              ],
+              "all_write_update_TV": 0.4080501632543586,
+              "retained_source_increment_TV": 0.08743229151272064
+            },
+            {
+              "arrival": "zero_z6",
+              "raw_action_all_zero": true,
+              "physical_displacement_xy": [
+                0.0,
+                0.0
+              ],
+              "physical_displacement_zero": true,
+              "latent_change_l2": 0.0,
+              "latent_change_exact_zero": true,
+              "all_write_support": [
+                0.0022038022450511785,
+                0.8502892303513642,
+                0.1475034262277483,
+                3.541175836536186e-06
+              ],
+              "skip_source_support": [
+                0.010569502703715199,
+                0.8372414774651734,
+                0.15213684349356424,
+                5.217633754711645e-05
+              ],
+              "all_write_update_TV": 0.08240039162277168,
+              "retained_source_increment_TV": 0.013047752886190641
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seed": 2026111966,
+      "histories": [
+        {
+          "speed_index_for_scoring_only": 0,
+          "source_z3_support": [
+            2.0654122340889723e-07,
+            0.9999967870586944,
+            1.218679002663727e-12,
+            3.0063981786275177e-06
+          ],
+          "arrivals": [
+            {
+              "arrival": "retract_z4",
+              "raw_action_all_zero": false,
+              "physical_displacement_xy": [
+                0.0,
+                3.125
+              ],
+              "physical_displacement_zero": false,
+              "latent_change_l2": 12.917792333029073,
+              "latent_change_exact_zero": false,
+              "all_write_support": [
+                0.014098609547786719,
+                0.31580768455863584,
+                0.6475605845538719,
+                0.022533121340472865
+              ],
+              "skip_source_support": [
+                1.2880311021642843e-07,
+                7.967260466411182e-13,
+                0.9999998570892887,
+                1.4107233067784869e-08
+              ],
+              "all_write_update_TV": 0.6841891025007847,
+              "retained_source_increment_TV": 0.3524392725355861
+            },
+            {
+              "arrival": "zero_z5",
+              "raw_action_all_zero": true,
+              "physical_displacement_xy": [
+                0.0,
+                0.0
+              ],
+              "physical_displacement_zero": true,
+              "latent_change_l2": 0.0,
+              "latent_change_exact_zero": true,
+              "all_write_support": [
+                0.007229407759915649,
+                0.03704987549584041,
+                0.9527678772708525,
+                0.0029528394733882367
+              ],
+              "skip_source_support": [
+                4.621672793527294e-08,
+                6.846314180591781e-14,
+                0.9999999524617291,
+                1.3214751591142432e-09
+              ],
+              "all_write_update_TV": 0.30520729271736585,
+              "retained_source_increment_TV": 0.04723207519087466
+            },
+            {
+              "arrival": "zero_z6",
+              "raw_action_all_zero": true,
+              "physical_displacement_xy": [
+                0.0,
+                0.0
+              ],
+              "physical_displacement_zero": true,
+              "latent_change_l2": 0.0,
+              "latent_change_exact_zero": true,
+              "all_write_support": [
+                0.004711718373337055,
+                0.007427539414880261,
+                0.9873686793258547,
+                0.0004920628859294304
+              ],
+              "skip_source_support": [
+                2.9071767807784398e-08,
+                1.3286701598960269e-14,
+                0.9999999707154079,
+                2.1281154880430212e-10
+              ],
+              "all_write_update_TV": 0.03460080205499985,
+              "retained_source_increment_TV": 0.012631291389553658
+            }
+          ]
+        },
+        {
+          "speed_index_for_scoring_only": 1,
+          "source_z3_support": [
+            7.448881842712537e-06,
+            5.374211891788283e-10,
+            0.9999854505989572,
+            7.099981729361197e-06
+          ],
+          "arrivals": [
+            {
+              "arrival": "retract_z4",
+              "raw_action_all_zero": false,
+              "physical_displacement_xy": [
+                0.0,
+                9.375
+              ],
+              "physical_displacement_zero": false,
+              "latent_change_l2": 18.848247271225073,
+              "latent_change_exact_zero": false,
+              "all_write_support": [
+                0.013921605565971508,
+                0.4678767980397681,
+                0.004021897199774544,
+                0.5141796991945624
+              ],
+              "skip_source_support": [
+                2.1527518020727494e-06,
+                0.9999146628886428,
+                6.507523558038256e-12,
+                8.318435345567656e-05
+              ],
+              "all_write_update_TV": 0.9959635533992457,
+              "retained_source_increment_TV": 0.532037864848709
+            },
+            {
+              "arrival": "zero_z5",
+              "raw_action_all_zero": true,
+              "physical_displacement_xy": [
+                0.0,
+                0.0
+              ],
+              "physical_displacement_zero": true,
+              "latent_change_l2": 0.0,
+              "latent_change_exact_zero": true,
+              "all_write_support": [
+                0.03725890548300386,
+                0.6215132984248711,
+                0.007478585629751476,
+                0.3337492104623867
+              ],
+              "skip_source_support": [
+                4.357461486295789e-06,
+                0.9999530137560444,
+                9.175038664622312e-12,
+                4.262877329458782e-05
+              ],
+              "all_write_update_TV": 0.180430488732144,
+              "retained_source_increment_TV": 0.3784397153311797
+            },
+            {
+              "arrival": "zero_z6",
+              "raw_action_all_zero": true,
+              "physical_displacement_xy": [
+                0.0,
+                0.0
+              ],
+              "physical_displacement_zero": true,
+              "latent_change_l2": 0.0,
+              "latent_change_exact_zero": true,
+              "all_write_support": [
+                0.11258156743832308,
+                0.6013203613975362,
+                0.032431665278788394,
+                0.2536664058853636
+              ],
+              "skip_source_support": [
+                1.3586207550809857e-05,
+                0.9999521623480223,
+                4.0807660419813166e-11,
+                3.425140361139291e-05
+              ],
+              "all_write_update_TV": 0.1002757416043571,
+              "retained_source_increment_TV": 0.39863180095049566
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seed": 2026111967,
+      "histories": [
+        {
+          "speed_index_for_scoring_only": 0,
+          "source_z3_support": [
+            0.22136566146766537,
+            0.19414547203942284,
+            0.4290100753467599,
+            0.15547879114614846
+          ],
+          "arrivals": [
+            {
+              "arrival": "retract_z4",
+              "raw_action_all_zero": false,
+              "physical_displacement_xy": [
+                0.0,
+                -3.125
+              ],
+              "physical_displacement_zero": false,
+              "latent_change_l2": 2.3897985224005054,
+              "latent_change_exact_zero": false,
+              "all_write_support": [
+                0.1993839920848772,
+                0.3001284445868925,
+                0.3783206488240771,
+                0.12216691450415758
+              ],
+              "skip_source_support": [
+                0.21938326495241586,
+                0.3745305054276616,
+                0.21323994999382928,
+                0.19284627962608733
+              ],
+              "all_write_update_TV": 0.10598297254746572,
+              "retained_source_increment_TV": 0.16508069883024268
+            },
+            {
+              "arrival": "zero_z5",
+              "raw_action_all_zero": true,
+              "physical_displacement_xy": [
+                0.0,
+                0.0
+              ],
+              "physical_displacement_zero": true,
+              "latent_change_l2": 0.0,
+              "latent_change_exact_zero": true,
+              "all_write_support": [
+                0.04873994414973257,
+                0.5537834771709217,
+                0.3961561611957862,
+                0.0013204174835597076
+              ],
+              "skip_source_support": [
+                0.05527655585966892,
+                0.7096063630935395,
+                0.23299189015969968,
+                0.0021251908870919584
+              ],
+              "all_write_update_TV": 0.27149054495574043,
+              "retained_source_increment_TV": 0.1631642710360865
+            },
+            {
+              "arrival": "zero_z6",
+              "raw_action_all_zero": true,
+              "physical_displacement_xy": [
+                0.0,
+                0.0
+              ],
+              "physical_displacement_zero": true,
+              "latent_change_l2": 0.0,
+              "latent_change_exact_zero": true,
+              "all_write_support": [
+                0.008516281897136144,
+                0.631162351917071,
+                0.36031118310982796,
+                1.0183075964945974e-05
+              ],
+              "skip_source_support": [
+                0.00938219085294462,
+                0.7767832705081981,
+                0.2138190317848194,
+                1.5506854038133057e-05
+              ],
+              "all_write_update_TV": 0.0773788747461494,
+              "retained_source_increment_TV": 0.14649215132500862
+            }
+          ]
+        },
+        {
+          "speed_index_for_scoring_only": 1,
+          "source_z3_support": [
+            0.21828871465647914,
+            0.47515794671571093,
+            0.14841613271425413,
+            0.1581372059135541
+          ],
+          "arrivals": [
+            {
+              "arrival": "retract_z4",
+              "raw_action_all_zero": false,
+              "physical_displacement_xy": [
+                0.0,
+                -9.375
+              ],
+              "physical_displacement_zero": false,
+              "latent_change_l2": 6.704814236112485,
+              "latent_change_exact_zero": false,
+              "all_write_support": [
+                0.13677180484145526,
+                0.36902818061642706,
+                0.46292028317934397,
+                0.031279731362774725
+              ],
+              "skip_source_support": [
+                0.13492493886890375,
+                0.16183670866507932,
+                0.6593559469153427,
+                0.04388240555067511
+              ],
+              "all_write_update_TV": 0.31450415046508845,
+              "retained_source_increment_TV": 0.2090383379238992
+            },
+            {
+              "arrival": "zero_z5",
+              "raw_action_all_zero": true,
+              "physical_displacement_xy": [
+                0.0,
+                0.0
+              ],
+              "physical_displacement_zero": true,
+              "latent_change_l2": 0.0,
+              "latent_change_exact_zero": true,
+              "all_write_support": [
+                0.025822486830030102,
+                0.3824715929340251,
+                0.5914632079137854,
+                0.0002427123221594733
+              ],
+              "skip_source_support": [
+                0.024187523631921448,
+                0.16434667708879244,
+                0.8111493111274685,
+                0.0003164881518176785
+              ],
+              "all_write_update_TV": 0.14198633705203992,
+              "retained_source_increment_TV": 0.21975987904334132
+            },
+            {
+              "arrival": "zero_z6",
+              "raw_action_all_zero": true,
+              "physical_displacement_xy": [
+                0.0,
+                0.0
+              ],
+              "physical_displacement_zero": true,
+              "latent_change_l2": 0.0,
+              "latent_change_exact_zero": true,
+              "all_write_support": [
+                0.00448559998976378,
+                0.42368645770299185,
+                0.5718261013010217,
+                1.8410062226870828e-06
+              ],
+              "skip_source_support": [
+                0.00419666769565852,
+                0.18847635708009922,
+                0.8073246552156891,
+                2.320008553214002e-06
+              ],
+              "all_write_update_TV": 0.04121486476896674,
+              "retained_source_increment_TV": 0.2354990329169979
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seed": 2026111968,
+      "histories": [
+        {
+          "speed_index_for_scoring_only": 0,
+          "source_z3_support": [
+            0.11615620032842738,
+            0.33375207328254813,
+            0.5046034392564422,
+            0.045488287132617676
+          ],
+          "arrivals": [
+            {
+              "arrival": "retract_z4",
+              "raw_action_all_zero": false,
+              "physical_displacement_xy": [
+                3.125,
+                0.0
+              ],
+              "physical_displacement_zero": false,
+              "latent_change_l2": 5.1789056588013205,
+              "latent_change_exact_zero": false,
+              "all_write_support": [
+                0.13219115119124006,
+                0.38592943457542406,
+                0.29955668653590023,
+                0.1823227276974368
+              ],
+              "skip_source_support": [
+                0.16512386050472952,
+                0.16787922970814154,
+                0.08619558557280957,
+                0.5808013242143307
+              ],
+              "all_write_update_TV": 0.20504675272052486,
+              "retained_source_increment_TV": 0.43141130583037834
+            },
+            {
+              "arrival": "zero_z5",
+              "raw_action_all_zero": true,
+              "physical_displacement_xy": [
+                0.0,
+                0.0
+              ],
+              "physical_displacement_zero": true,
+              "latent_change_l2": 0.0,
+              "latent_change_exact_zero": true,
+              "all_write_support": [
+                0.07230689055904725,
+                0.5292481100756279,
+                0.011528067555020121,
+                0.38691693181030473
+              ],
+              "skip_source_support": [
+                0.0577731539374018,
+                0.14788870250031566,
+                0.002106443204044778,
+                0.7922317003582378
+              ],
+              "all_write_update_TV": 0.3479128796130724,
+              "retained_source_increment_TV": 0.405314768547933
+            },
+            {
+              "arrival": "zero_z6",
+              "raw_action_all_zero": true,
+              "physical_displacement_xy": [
+                0.0,
+                0.0
+              ],
+              "physical_displacement_zero": true,
+              "latent_change_l2": 0.0,
+              "latent_change_exact_zero": true,
+              "all_write_support": [
+                0.025998702804795184,
+                0.6776547221460476,
+                0.00024098844152253953,
+                0.2961055866076346
+              ],
+              "skip_source_support": [
+                0.02481287895630882,
+                0.23182763040856183,
+                5.304932494673554e-05,
+                0.7433064413101823
+              ],
+              "all_write_update_TV": 0.14840661207041975,
+              "retained_source_increment_TV": 0.4472008547025479
+            }
+          ]
+        },
+        {
+          "speed_index_for_scoring_only": 1,
+          "source_z3_support": [
+            0.043730958011240106,
+            0.08296471811417995,
+            0.03846679427867963,
+            0.8348375295958551
+          ],
+          "arrivals": [
+            {
+              "arrival": "retract_z4",
+              "raw_action_all_zero": false,
+              "physical_displacement_xy": [
+                9.375,
+                0.0
+              ],
+              "physical_displacement_zero": false,
+              "latent_change_l2": 14.491142923323363,
+              "latent_change_exact_zero": false,
+              "all_write_support": [
+                0.07345568608745631,
+                0.26957679613756946,
+                0.17064489473879133,
+                0.4863226230361272
+              ],
+              "skip_source_support": [
+                0.1689795027685796,
+                0.32653952237558037,
+                0.4454789582416298,
+                0.05900201661420322
+              ],
+              "all_write_update_TV": 0.3485149065597226,
+              "retained_source_increment_TV": 0.42732060642194836
+            },
+            {
+              "arrival": "zero_z5",
+              "raw_action_all_zero": true,
+              "physical_displacement_xy": [
+                0.0,
+                0.0
+              ],
+              "physical_displacement_zero": true,
+              "latent_change_l2": 0.0,
+              "latent_change_exact_zero": true,
+              "all_write_support": [
+                0.030739859174525493,
+                0.8777341497725566,
+                0.0036757785656670967,
+                0.087850212487251
+              ],
+              "skip_source_support": [
+                0.06101539316232132,
+                0.9216315710674249,
+                0.008394157983882593,
+                0.00895887778637163
+              ],
+              "all_write_update_TV": 0.6081573536349593,
+              "retained_source_increment_TV": 0.0788913347008795
+            },
+            {
+              "arrival": "zero_z6",
+              "raw_action_all_zero": true,
+              "physical_displacement_xy": [
+                0.0,
+                0.0
+              ],
+              "physical_displacement_zero": true,
+              "latent_change_l2": 0.0,
+              "latent_change_exact_zero": true,
+              "all_write_support": [
+                0.007378690979270698,
+                0.9635172694986248,
+                4.692468009736817e-05,
+                0.029057114842007115
+              ],
+              "skip_source_support": [
+                0.014257872913762923,
+                0.9827183103355919,
+                0.00010435869861111392,
+                0.0029194580520343683
+              ],
+              "all_write_update_TV": 0.08578311972606832,
+              "retained_source_increment_TV": 0.026137656789972884
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seed": 2026111969,
+      "histories": [
+        {
+          "speed_index_for_scoring_only": 0,
+          "source_z3_support": [
+            0.010247804869400228,
+            0.003962311178476239,
+            0.008466717525098578,
+            0.977323166426973
+          ],
+          "arrivals": [
+            {
+              "arrival": "retract_z4",
+              "raw_action_all_zero": false,
+              "physical_displacement_xy": [
+                -3.125,
+                0.0
+              ],
+              "physical_displacement_zero": false,
+              "latent_change_l2": 8.854077506964812,
+              "latent_change_exact_zero": false,
+              "all_write_support": [
+                0.028810868814842017,
+                0.12309409474385474,
+                0.36842463878770665,
+                0.4796703976535638
+              ],
+              "skip_source_support": [
+                0.03712918132999676,
+                0.3975983500862905,
+                0.5572937849695248,
+                0.007978683614200175
+              ],
+              "all_write_update_TV": 0.4976527687734188,
+              "retained_source_increment_TV": 0.47169171403938615
+            },
+            {
+              "arrival": "zero_z5",
+              "raw_action_all_zero": true,
+              "physical_displacement_xy": [
+                0.0,
+                0.0
+              ],
+              "physical_displacement_zero": true,
+              "latent_change_l2": 0.0,
+              "latent_change_exact_zero": true,
+              "all_write_support": [
+                0.010115483307306276,
+                0.012862312821651883,
+                0.9378747380504192,
+                0.039147465820623305
+              ],
+              "skip_source_support": [
+                0.00903826757799968,
+                0.028062620674929775,
+                0.9624219802387639,
+                0.0004771315083058261
+              ],
+              "all_write_update_TV": 0.5694500992626957,
+              "retained_source_increment_TV": 0.039747550041623336
+            },
+            {
+              "arrival": "zero_z6",
+              "raw_action_all_zero": true,
+              "physical_displacement_xy": [
+                0.0,
+                0.0
+              ],
+              "physical_displacement_zero": true,
+              "latent_change_l2": 0.0,
+              "latent_change_exact_zero": true,
+              "all_write_support": [
+                0.0023311791255904526,
+                0.0007137637224343036,
+                0.9942028285505845,
+                0.0027522286013906957
+              ],
+              "skip_source_support": [
+                0.002035139823269966,
+                0.0015191994487319868,
+                0.9964126960625642,
+                3.296466543406409e-05
+              ],
+              "all_write_update_TV": 0.056328090500165656,
+              "retained_source_increment_TV": 0.003015303238277257
+            }
+          ]
+        },
+        {
+          "speed_index_for_scoring_only": 1,
+          "source_z3_support": [
+            0.016271486252757116,
+            0.460024582968502,
+            0.5210207778888194,
+            0.0026831528899065797
+          ],
+          "arrivals": [
+            {
+              "arrival": "retract_z4",
+              "raw_action_all_zero": false,
+              "physical_displacement_xy": [
+                -9.375,
+                0.0
+              ],
+              "physical_displacement_zero": false,
+              "latent_change_l2": 18.876381654923662,
+              "latent_change_exact_zero": false,
+              "all_write_support": [
+                0.01437770157418952,
+                0.3123683336333792,
+                0.601677354845107,
+                0.07157660994734885
+              ],
+              "skip_source_support": [
+                0.03127364529325784,
+                0.02957538211349139,
+                0.05208812066777833,
+                0.8870628519253813
+              ],
+              "all_write_update_TV": 0.14955003401371014,
+              "retained_source_increment_TV": 0.8323821856971586
+            },
+            {
+              "arrival": "zero_z5",
+              "raw_action_all_zero": true,
+              "physical_displacement_xy": [
+                0.0,
+                0.0
+              ],
+              "physical_displacement_zero": true,
+              "latent_change_l2": 0.0,
+              "latent_change_exact_zero": true,
+              "all_write_support": [
+                0.009195999382574264,
+                0.03787167567219437,
+                0.9273403994710687,
+                0.02559192547416293
+              ],
+              "skip_source_support": [
+                0.048214599674290495,
+                0.008873746189459382,
+                0.20275177072795683,
+                0.7401598834082939
+              ],
+              "all_write_update_TV": 0.32566304462597384,
+              "retained_source_increment_TV": 0.753586558225847
+            },
+            {
+              "arrival": "zero_z6",
+              "raw_action_all_zero": true,
+              "physical_displacement_xy": [
+                0.0,
+                0.0
+              ],
+              "physical_displacement_zero": true,
+              "latent_change_l2": 0.0,
+              "latent_change_exact_zero": true,
+              "all_write_support": [
+                0.002637643543745533,
+                0.0024104005360541456,
+                0.9923048225816393,
+                0.002647133338560782
+              ],
+              "skip_source_support": [
+                0.042436956669130284,
+                0.0017921072678048532,
+                0.7267532758716942,
+                0.22901766019137212
+              ],
+              "all_write_update_TV": 0.06496442311057085,
+              "retained_source_increment_TV": 0.2661698399781952
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seed": 2026111970,
+      "histories": [
+        {
+          "speed_index_for_scoring_only": 0,
+          "source_z3_support": [
+            0.2506507054409344,
+            0.36889048196124796,
+            0.18617725680118855,
+            0.19428155579662962
+          ],
+          "arrivals": [
+            {
+              "arrival": "retract_z4",
+              "raw_action_all_zero": false,
+              "physical_displacement_xy": [
+                0.0,
+                3.125
+              ],
+              "physical_displacement_zero": false,
+              "latent_change_l2": 2.02184783755619,
+              "latent_change_exact_zero": false,
+              "all_write_support": [
+                0.2900254307596728,
+                0.3112743893553754,
+                0.24261250006112722,
+                0.15608767982381805
+              ],
+              "skip_source_support": [
+                0.281714302293109,
+                0.2051509084948368,
+                0.3174252646239074,
+                0.19570952458815116
+              ],
+              "all_write_update_TV": 0.09580996857868063,
+              "retained_source_increment_TV": 0.11443460932710783
+            },
+            {
+              "arrival": "zero_z5",
+              "raw_action_all_zero": true,
+              "physical_displacement_xy": [
+                0.0,
+                0.0
+              ],
+              "physical_displacement_zero": true,
+              "latent_change_l2": 0.0,
+              "latent_change_exact_zero": true,
+              "all_write_support": [
+                0.2955003111854342,
+                0.2302566697671762,
+                0.3861273364828424,
+                0.08811568256454753
+              ],
+              "skip_source_support": [
+                0.27293763015982375,
+                0.14587130239618876,
+                0.4765737493514595,
+                0.10461731809252887
+              ],
+              "all_write_update_TV": 0.14898971684747314,
+              "retained_source_increment_TV": 0.10694804839659816
+            },
+            {
+              "arrival": "zero_z6",
+              "raw_action_all_zero": true,
+              "physical_displacement_xy": [
+                0.0,
+                0.0
+              ],
+              "physical_displacement_zero": true,
+              "latent_change_l2": 0.0,
+              "latent_change_exact_zero": true,
+              "all_write_support": [
+                0.2648222731131259,
+                0.15019544802346488,
+                0.5417849114538602,
+                0.043197367409549416
+              ],
+              "skip_source_support": [
+                0.23204022297614632,
+                0.09174332085651848,
+                0.6280047231708249,
+                0.04821173299651025
+              ],
+              "all_write_update_TV": 0.15565757497101776,
+              "retained_source_increment_TV": 0.09123417730392575
+            }
+          ]
+        },
+        {
+          "speed_index_for_scoring_only": 1,
+          "source_z3_support": [
+            0.2725335565494762,
+            0.2065757553913994,
+            0.32746911824355124,
+            0.19342156981557262
+          ],
+          "arrivals": [
+            {
+              "arrival": "retract_z4",
+              "raw_action_all_zero": false,
+              "physical_displacement_xy": [
+                0.0,
+                9.375
+              ],
+              "physical_displacement_zero": false,
+              "latent_change_l2": 4.835178805520368,
+              "latent_change_exact_zero": false,
+              "all_write_support": [
+                0.29557522211559234,
+                0.2802317314615947,
+                0.27770567381057254,
+                0.14648737261223996
+              ],
+              "skip_source_support": [
+                0.2680857243602113,
+                0.3350204334473113,
+                0.20988643797239132,
+                0.1870074042200859
+              ],
+              "all_write_update_TV": 0.0966976416363114,
+              "retained_source_increment_TV": 0.09530873359356243
+            },
+            {
+              "arrival": "zero_z5",
+              "raw_action_all_zero": true,
+              "physical_displacement_xy": [
+                0.0,
+                0.0
+              ],
+              "physical_displacement_zero": true,
+              "latent_change_l2": 0.0,
+              "latent_change_exact_zero": true,
+              "all_write_support": [
+                0.28797345449868783,
+                0.20346354993213345,
+                0.43302381937957646,
+                0.07553917618960179
+              ],
+              "skip_source_support": [
+                0.280988947695512,
+                0.26208385183171085,
+                0.3535420435938433,
+                0.10338515687893399
+              ],
+              "all_write_update_TV": 0.15531814556900392,
+              "retained_source_increment_TV": 0.08646628258890929
+            },
+            {
+              "arrival": "zero_z6",
+              "raw_action_all_zero": true,
+              "physical_displacement_xy": [
+                0.0,
+                0.0
+              ],
+              "physical_displacement_zero": true,
+              "latent_change_l2": 0.0,
+              "latent_change_exact_zero": true,
+              "all_write_support": [
+                0.24775271668969928,
+                0.12868143795424666,
+                0.5886099347677975,
+                0.03495591058825625
+              ],
+              "skip_source_support": [
+                0.2571323894570531,
+                0.1747894099094765,
+                0.5170720009350166,
+                0.05100619969845313
+              ],
+              "all_write_update_TV": 0.155586115388221,
+              "retained_source_increment_TV": 0.07153793383278073
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seed": 2026111971,
+      "histories": [
+        {
+          "speed_index_for_scoring_only": 0,
+          "source_z3_support": [
+            0.18752526508944797,
+            0.11215826516633072,
+            0.47280386770695076,
+            0.22751260203728552
+          ],
+          "arrivals": [
+            {
+              "arrival": "retract_z4",
+              "raw_action_all_zero": false,
+              "physical_displacement_xy": [
+                0.0,
+                -3.125
+              ],
+              "physical_displacement_zero": false,
+              "latent_change_l2": 6.3639348093717025,
+              "latent_change_exact_zero": false,
+              "all_write_support": [
+                0.10241802645577955,
+                0.6747054809598149,
+                0.05967701421786097,
+                0.16319947836647425
+              ],
+              "skip_source_support": [
+                0.07385813415065363,
+                0.8120090952248168,
+                0.017118128651593074,
+                0.09701464197290259
+              ],
+              "all_write_update_TV": 0.5625472157935267,
+              "retained_source_increment_TV": 0.1373036142649837
+            },
+            {
+              "arrival": "zero_z5",
+              "raw_action_all_zero": true,
+              "physical_displacement_xy": [
+                0.0,
+                0.0
+              ],
+              "physical_displacement_zero": true,
+              "latent_change_l2": 0.0,
+              "latent_change_exact_zero": true,
+              "all_write_support": [
+                0.011887035529955427,
+                0.9784155091890729,
+                0.0034309783700987367,
+                0.006266476910873943
+              ],
+              "skip_source_support": [
+                0.007218192977106957,
+                0.9888231601570993,
+                0.0008271747867428798,
+                0.003131472079051072
+              ],
+              "all_write_update_TV": 0.30371002822922233,
+              "retained_source_increment_TV": 0.010407650968026757
+            },
+            {
+              "arrival": "zero_z6",
+              "raw_action_all_zero": true,
+              "physical_displacement_xy": [
+                0.0,
+                0.0
+              ],
+              "physical_displacement_zero": true,
+              "latent_change_l2": 0.0,
+              "latent_change_exact_zero": true,
+              "all_write_support": [
+                0.0007449325071252073,
+                0.9990431428473293,
+                0.00010208470409314057,
+                0.00010983994145165725
+              ],
+              "skip_source_support": [
+                0.000447955183687959,
+                0.9994733376419983,
+                2.4368493148345616e-05,
+                5.4338681164473175e-05
+              ],
+              "all_write_update_TV": 0.02062763365825724,
+              "retained_source_increment_TV": 0.0004301947946691097
+            }
+          ]
+        },
+        {
+          "speed_index_for_scoring_only": 1,
+          "source_z3_support": [
+            0.1407460624602006,
+            0.6277118809825976,
+            0.1479381645986903,
+            0.08360389195853322
+          ],
+          "arrivals": [
+            {
+              "arrival": "retract_z4",
+              "raw_action_all_zero": false,
+              "physical_displacement_xy": [
+                0.0,
+                -9.375
+              ],
+              "physical_displacement_zero": false,
+              "latent_change_l2": 16.57403700476542,
+              "latent_change_exact_zero": false,
+              "all_write_support": [
+                0.13830825962016977,
+                0.26135630381279756,
+                0.5323839052572856,
+                0.06795153130980063
+              ],
+              "skip_source_support": [
+                0.16917267892436058,
+                0.0717940066818098,
+                0.6192609276410784,
+                0.13977238675273515
+              ],
+              "all_write_update_TV": 0.3844457406585794,
+              "retained_source_increment_TV": 0.18956229713095296
+            },
+            {
+              "arrival": "zero_z5",
+              "raw_action_all_zero": true,
+              "physical_displacement_xy": [
+                0.0,
+                0.0
+              ],
+              "physical_displacement_zero": true,
+              "latent_change_l2": 0.0,
+              "latent_change_exact_zero": true,
+              "all_write_support": [
+                0.02058645116039265,
+                0.9382842685916271,
+                0.03889363992556807,
+                0.0022356403224131297
+              ],
+              "skip_source_support": [
+                0.0753059959487412,
+                0.7738092134851724,
+                0.13720925522769428,
+                0.013675535338391057
+              ],
+              "all_write_update_TV": 0.6769279647788558,
+              "retained_source_increment_TV": 0.1644750551064537
+            },
+            {
+              "arrival": "zero_z6",
+              "raw_action_all_zero": true,
+              "physical_displacement_xy": [
+                0.0,
+                0.0
+              ],
+              "physical_displacement_zero": true,
+              "latent_change_l2": 0.0,
+              "latent_change_exact_zero": true,
+              "all_write_support": [
+                0.0012205425638744975,
+                0.997652693879265,
+                0.0010919015116047316,
+                3.486204525598881e-05
+              ],
+              "skip_source_support": [
+                0.005335950433685106,
+                0.9898184269599487,
+                0.004588715232065541,
+                0.0002569073743020829
+              ],
+              "all_write_update_TV": 0.059368425287638305,
+              "retained_source_increment_TV": 0.007834266919316917
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seed": 2026111974,
+      "histories": [
+        {
+          "speed_index_for_scoring_only": 0,
+          "source_z3_support": [
+            0.20737762553889466,
+            0.484647957851737,
+            0.15747764953151708,
+            0.15049676707785414
+          ],
+          "arrivals": [
+            {
+              "arrival": "retract_z4",
+              "raw_action_all_zero": false,
+              "physical_displacement_xy": [
+                0.0,
+                3.125
+              ],
+              "physical_displacement_zero": false,
+              "latent_change_l2": 3.164710238434888,
+              "latent_change_exact_zero": false,
+              "all_write_support": [
+                0.22028246820675734,
+                0.33710691803594856,
+                0.34927643773985856,
+                0.09333417601744334
+              ],
+              "skip_source_support": [
+                0.23123255140522758,
+                0.14890822690844255,
+                0.48427227147013924,
+                0.135586950216182
+              ],
+              "all_write_update_TV": 0.2047036308762017,
+              "retained_source_increment_TV": 0.18819869112749776
+            },
+            {
+              "arrival": "zero_z5",
+              "raw_action_all_zero": true,
+              "physical_displacement_xy": [
+                0.0,
+                0.0
+              ],
+              "physical_displacement_zero": true,
+              "latent_change_l2": 0.0,
+              "latent_change_exact_zero": true,
+              "all_write_support": [
+                0.05069983909111975,
+                0.06985281316319297,
+                0.876934552771709,
+                0.0025127949739748795
+              ],
+              "skip_source_support": [
+                0.040850078111137146,
+                0.023963782505046737,
+                0.9324194977268282,
+                0.002766641656988067
+              ],
+              "all_write_update_TV": 0.527658115031856,
+              "retained_source_increment_TV": 0.055738791638130634
+            },
+            {
+              "arrival": "zero_z6",
+              "raw_action_all_zero": true,
+              "physical_displacement_xy": [
+                0.0,
+                0.0
+              ],
+              "physical_displacement_zero": true,
+              "latent_change_l2": 0.0,
+              "latent_change_exact_zero": true,
+              "all_write_support": [
+                0.0047168499308630546,
+                0.006259559776614954,
+                0.9890000695741965,
+                2.3520718327015673e-05
+              ],
+              "skip_source_support": [
+                0.0035948050896050334,
+                0.002041039340366262,
+                0.9943397525738152,
+                2.4402996214082637e-05
+              ],
+              "all_write_update_TV": 0.11206551680248505,
+              "retained_source_increment_TV": 0.005340565277506257
+            }
+          ]
+        },
+        {
+          "speed_index_for_scoring_only": 1,
+          "source_z3_support": [
+            0.12272653164771079,
+            0.0779974020975324,
+            0.7407505341222356,
+            0.05852553213255765
+          ],
+          "arrivals": [
+            {
+              "arrival": "retract_z4",
+              "raw_action_all_zero": false,
+              "physical_displacement_xy": [
+                0.0,
+                9.375
+              ],
+              "physical_displacement_zero": false,
+              "latent_change_l2": 9.803724686520663,
+              "latent_change_exact_zero": false,
+              "all_write_support": [
+                0.1563330244299833,
+                0.20680491450100985,
+                0.5676900383032484,
+                0.06917202276576064
+              ],
+              "skip_source_support": [
+                0.21712499223196138,
+                0.4519450221378026,
+                0.1290552618467002,
+                0.20187472378352062
+              ],
+              "all_write_update_TV": 0.17306049581897007,
+              "retained_source_increment_TV": 0.4386347764565395
+            },
+            {
+              "arrival": "zero_z5",
+              "raw_action_all_zero": true,
+              "physical_displacement_xy": [
+                0.0,
+                0.0
+              ],
+              "physical_displacement_zero": true,
+              "latent_change_l2": 0.0,
+              "latent_change_exact_zero": true,
+              "all_write_support": [
+                0.01530660465360966,
+                0.02236686401905741,
+                0.9618048399923469,
+                0.0005216913349849453
+              ],
+              "skip_source_support": [
+                0.07269465698959236,
+                0.16851037622031495,
+                0.7535291701919392,
+                0.005265796598150538
+              ],
+              "all_write_update_TV": 0.3941148016891001,
+              "retained_source_increment_TV": 0.20827566980040677
+            },
+            {
+              "arrival": "zero_z6",
+              "raw_action_all_zero": true,
+              "physical_displacement_xy": [
+                0.0,
+                0.0
+              ],
+              "physical_displacement_zero": true,
+              "latent_change_l2": 0.0,
+              "latent_change_exact_zero": true,
+              "all_write_support": [
+                0.0012120066875607037,
+                0.0017766768628126215,
+                0.9970074431190097,
+                3.873330616734148e-06
+              ],
+              "skip_source_support": [
+                0.007179436353033966,
+                0.016423677213606457,
+                0.9763472883296249,
+                4.959810373520275e-05
+              ],
+              "all_write_update_TV": 0.035202603126662374,
+              "retained_source_increment_TV": 0.02066015478938517
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seed": 2026111975,
+      "histories": [
+        {
+          "speed_index_for_scoring_only": 0,
+          "source_z3_support": [
+            0.19336315440712035,
+            0.17888007874486367,
+            0.29237112652839586,
+            0.3353856403196193
+          ],
+          "arrivals": [
+            {
+              "arrival": "retract_z4",
+              "raw_action_all_zero": false,
+              "physical_displacement_xy": [
+                0.0,
+                -3.125
+              ],
+              "physical_displacement_zero": false,
+              "latent_change_l2": 3.8712933311127276,
+              "latent_change_exact_zero": false,
+              "all_write_support": [
+                0.15873068255840123,
+                0.25851943157860935,
+                0.20317352977122344,
+                0.3795763560917633
+              ],
+              "skip_source_support": [
+                0.20039557288566207,
+                0.35247855671859357,
+                0.16982288365950088,
+                0.27730298673624865
+              ],
+              "all_write_update_TV": 0.12383006860589062,
+              "retained_source_increment_TV": 0.13562401546724115
+            },
+            {
+              "arrival": "zero_z5",
+              "raw_action_all_zero": true,
+              "physical_displacement_xy": [
+                0.0,
+                0.0
+              ],
+              "physical_displacement_zero": true,
+              "latent_change_l2": 0.0,
+              "latent_change_exact_zero": true,
+              "all_write_support": [
+                0.07607533646880545,
+                0.05297450616656046,
+                0.14605816484991666,
+                0.7248919925147157
+              ],
+              "skip_source_support": [
+                0.11585407508718468,
+                0.08677984602714786,
+                0.1461215502043285,
+                0.6512445286813381
+              ],
+              "all_write_update_TV": 0.34531563642295193,
+              "retained_source_increment_TV": 0.07364746383337804
+            },
+            {
+              "arrival": "zero_z6",
+              "raw_action_all_zero": true,
+              "physical_displacement_xy": [
+                0.0,
+                0.0
+              ],
+              "physical_displacement_zero": true,
+              "latent_change_l2": 0.0,
+              "latent_change_exact_zero": true,
+              "all_write_support": [
+                0.02864957781305757,
+                0.009303591905826187,
+                0.08914873101769782,
+                0.8728980992634175
+              ],
+              "skip_source_support": [
+                0.04621231326161069,
+                0.0160902405763221,
+                0.0940494622202784,
+                0.8436479839417883
+              ],
+              "all_write_update_TV": 0.1480061067487014,
+              "retained_source_increment_TV": 0.02925011532162942
+            }
+          ]
+        },
+        {
+          "speed_index_for_scoring_only": 1,
+          "source_z3_support": [
+            0.21211809971410892,
+            0.3778931975516188,
+            0.14557000893994515,
+            0.26441869379432814
+          ],
+          "arrivals": [
+            {
+              "arrival": "retract_z4",
+              "raw_action_all_zero": false,
+              "physical_displacement_xy": [
+                0.0,
+                -9.375
+              ],
+              "physical_displacement_zero": false,
+              "latent_change_l2": 10.737766159780266,
+              "latent_change_exact_zero": false,
+              "all_write_support": [
+                0.19040259955651057,
+                0.24553597872675345,
+                0.19016457443248697,
+                0.373896847284245
+              ],
+              "skip_source_support": [
+                0.21041572469343445,
+                0.1520413838355555,
+                0.30653048767041585,
+                0.33101240380060226
+              ],
+              "all_write_update_TV": 0.1540727189824612,
+              "retained_source_increment_TV": 0.13637903837484672
+            },
+            {
+              "arrival": "zero_z5",
+              "raw_action_all_zero": true,
+              "physical_displacement_xy": [
+                0.0,
+                0.0
+              ],
+              "physical_displacement_zero": true,
+              "latent_change_l2": 0.0,
+              "latent_change_exact_zero": true,
+              "all_write_support": [
+                0.11444561927508963,
+                0.0729605190791191,
+                0.18751469987418232,
+                0.6250791617716093
+              ],
+              "skip_source_support": [
+                0.12302187559674956,
+                0.044006512607591704,
+                0.29132823561895466,
+                0.5416433761767052
+              ],
+              "all_write_update_TV": 0.2511823144873621,
+              "retained_source_increment_TV": 0.11238979206643186
+            },
+            {
+              "arrival": "zero_z6",
+              "raw_action_all_zero": true,
+              "physical_displacement_xy": [
+                0.0,
+                0.0
+              ],
+              "physical_displacement_zero": true,
+              "latent_change_l2": 0.0,
+              "latent_change_exact_zero": true,
+              "all_write_support": [
+                0.048717958718838744,
+                0.014838462655502198,
+                0.1299790429482669,
+                0.8064645356773926
+              ],
+              "skip_source_support": [
+                0.054132005432063444,
+                0.009294799043989084,
+                0.20413798766296234,
+                0.7324352078609853
+              ],
+              "all_write_update_TV": 0.1813853739057833,
+              "retained_source_increment_TV": 0.07957299142792032
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seed": 2026111978,
+      "histories": [
+        {
+          "speed_index_for_scoring_only": 0,
+          "source_z3_support": [
+            0.21913103661239478,
+            0.3573908654493761,
+            0.19716384561038294,
+            0.2263142523278453
+          ],
+          "arrivals": [
+            {
+              "arrival": "retract_z4",
+              "raw_action_all_zero": false,
+              "physical_displacement_xy": [
+                0.0,
+                3.125
+              ],
+              "physical_displacement_zero": false,
+              "latent_change_l2": 1.720367776018148,
+              "latent_change_exact_zero": false,
+              "all_write_support": [
+                0.18590258232960985,
+                0.24588859878240943,
+                0.36136463436547944,
+                0.20684418452249972
+              ],
+              "skip_source_support": [
+                0.19842076191801208,
+                0.16047964853857463,
+                0.426545807255995,
+                0.21455378228741948
+              ],
+              "all_write_update_TV": 0.1642007887550968,
+              "retained_source_increment_TV": 0.08540895024383617
+            },
+            {
+              "arrival": "zero_z5",
+              "raw_action_all_zero": true,
+              "physical_displacement_xy": [
+                0.0,
+                0.0
+              ],
+              "physical_displacement_zero": true,
+              "latent_change_l2": 0.0,
+              "latent_change_exact_zero": true,
+              "all_write_support": [
+                0.1588573178498038,
+                0.4572953149403436,
+                0.2829085152645553,
+                0.10093885194529734
+              ],
+              "skip_source_support": [
+                0.18643737369665883,
+                0.3278610851573703,
+                0.3711689721925476,
+                0.1145325689534233
+              ],
+              "all_write_update_TV": 0.21140671615793338,
+              "retained_source_increment_TV": 0.12943422978297328
+            },
+            {
+              "arrival": "zero_z6",
+              "raw_action_all_zero": true,
+              "physical_displacement_xy": [
+                0.0,
+                0.0
+              ],
+              "physical_displacement_zero": true,
+              "latent_change_l2": 0.0,
+              "latent_change_exact_zero": true,
+              "all_write_support": [
+                0.10646875470824486,
+                0.6963973560548774,
+                0.1557984571257426,
+                0.04133543211113512
+              ],
+              "skip_source_support": [
+                0.1410115190617551,
+                0.5790109647093162,
+                0.227825708274302,
+                0.05215180795462683
+              ],
+              "all_write_update_TV": 0.23910204111453384,
+              "retained_source_increment_TV": 0.11738639134556125
+            }
+          ]
+        },
+        {
+          "speed_index_for_scoring_only": 1,
+          "source_z3_support": [
+            0.20518964766212627,
+            0.18191610640752717,
+            0.41634345705540315,
+            0.19655078887494468
+          ],
+          "arrivals": [
+            {
+              "arrival": "retract_z4",
+              "raw_action_all_zero": false,
+              "physical_displacement_xy": [
+                0.0,
+                9.375
+              ],
+              "physical_displacement_zero": false,
+              "latent_change_l2": 5.100608856656823,
+              "latent_change_exact_zero": false,
+              "all_write_support": [
+                0.1911876269717016,
+                0.25415326017356965,
+                0.3513781632115167,
+                0.20328094964320634
+              ],
+              "skip_source_support": [
+                0.22187959413184138,
+                0.3314487476620548,
+                0.19973700311382914,
+                0.24693465509227075
+              ],
+              "all_write_update_TV": 0.07896731453430762,
+              "retained_source_increment_TV": 0.15164116009768847
+            },
+            {
+              "arrival": "zero_z5",
+              "raw_action_all_zero": true,
+              "physical_displacement_xy": [
+                0.0,
+                0.0
+              ],
+              "physical_displacement_zero": true,
+              "latent_change_l2": 0.0,
+              "latent_change_exact_zero": true,
+              "all_write_support": [
+                0.14742778863583053,
+                0.5728797151292736,
+                0.17954011022255656,
+                0.10015238601233933
+              ],
+              "skip_source_support": [
+                0.1504178546566318,
+                0.6524015805563748,
+                0.09045538680280066,
+                0.10672517798419279
+              ],
+              "all_write_update_TV": 0.31872645495570107,
+              "retained_source_increment_TV": 0.08908472341975589
+            },
+            {
+              "arrival": "zero_z6",
+              "raw_action_all_zero": true,
+              "physical_displacement_xy": [
+                0.0,
+                0.0
+              ],
+              "physical_displacement_zero": true,
+              "latent_change_l2": 0.0,
+              "latent_change_exact_zero": true,
+              "all_write_support": [
+                0.08641161395707946,
+                0.7936836642849106,
+                0.08277740710795391,
+                0.03712731465005607
+              ],
+              "skip_source_support": [
+                0.08341004328154787,
+                0.8387107143594473,
+                0.04072956682176847,
+                0.03714967553723637
+              ],
+              "all_write_update_TV": 0.22080394915563697,
+              "retained_source_increment_TV": 0.04504941096171705
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "seed": 2026111979,
+      "histories": [
+        {
+          "speed_index_for_scoring_only": 0,
+          "source_z3_support": [
+            0.20981054592223702,
+            0.15522083817300444,
+            0.41450975895195585,
+            0.2204588569528094
+          ],
+          "arrivals": [
+            {
+              "arrival": "retract_z4",
+              "raw_action_all_zero": false,
+              "physical_displacement_xy": [
+                0.0,
+                -3.125
+              ],
+              "physical_displacement_zero": false,
+              "latent_change_l2": 4.804261078953729,
+              "latent_change_exact_zero": false,
+              "all_write_support": [
+                0.19840120330796984,
+                0.368529190425033,
+                0.2428786400701195,
+                0.19019096619685294
+              ],
+              "skip_source_support": [
+                0.1982870689207233,
+                0.49835513457458724,
+                0.1224302360504233,
+                0.18092756045425773
+              ],
+              "all_write_update_TV": 0.2133083522520443,
+              "retained_source_increment_TV": 0.1298259441495461
+            },
+            {
+              "arrival": "zero_z5",
+              "raw_action_all_zero": true,
+              "physical_displacement_xy": [
+                0.0,
+                0.0
+              ],
+              "physical_displacement_zero": true,
+              "latent_change_l2": 0.0,
+              "latent_change_exact_zero": true,
+              "all_write_support": [
+                0.015850089159568266,
+                0.9676470644468155,
+                0.015740787776178173,
+                0.0007620586174374536
+              ],
+              "skip_source_support": [
+                0.012033684501899572,
+                0.9812819383760963,
+                0.006138381800636046,
+                0.0005459953213678106
+              ],
+              "all_write_update_TV": 0.5991178740217704,
+              "retained_source_increment_TV": 0.013634873929280665
+            },
+            {
+              "arrival": "zero_z6",
+              "raw_action_all_zero": true,
+              "physical_displacement_xy": [
+                0.0,
+                0.0
+              ],
+              "physical_displacement_zero": true,
+              "latent_change_l2": 0.0,
+              "latent_change_exact_zero": true,
+              "all_write_support": [
+                0.0006640488262221626,
+                0.9986534742662799,
+                0.0006812584060771662,
+                1.218501420889936e-06
+              ],
+              "skip_source_support": [
+                0.0004976467525644049,
+                0.999238888217291,
+                0.00026260373938906905,
+                8.61290755332381e-07
+              ],
+              "all_write_update_TV": 0.031006409819464065,
+              "retained_source_increment_TV": 0.0005854139510112473
+            }
+          ]
+        },
+        {
+          "speed_index_for_scoring_only": 1,
+          "source_z3_support": [
+            0.15602883967747352,
+            0.5686370967009623,
+            0.15040492844571637,
+            0.12492913517586866
+          ],
+          "arrivals": [
+            {
+              "arrival": "retract_z4",
+              "raw_action_all_zero": false,
+              "physical_displacement_xy": [
+                0.0,
+                -9.375
+              ],
+              "physical_displacement_zero": false,
+              "latent_change_l2": 12.712244003823674,
+              "latent_change_exact_zero": false,
+              "all_write_support": [
+                0.15076412358558408,
+                0.323867258583553,
+                0.3819509062898559,
+                0.14341771154102745
+              ],
+              "skip_source_support": [
+                0.185031211354311,
+                0.10888257528234017,
+                0.4862724480894342,
+                0.2198137652739266
+              ],
+              "all_write_update_TV": 0.25003455420929854,
+              "retained_source_increment_TV": 0.21498468330120857
+            },
+            {
+              "arrival": "zero_z5",
+              "raw_action_all_zero": true,
+              "physical_displacement_xy": [
+                0.0,
+                0.0
+              ],
+              "physical_displacement_zero": true,
+              "latent_change_l2": 0.0,
+              "latent_change_exact_zero": true,
+              "all_write_support": [
+                0.040489319352351366,
+                0.6737501955747675,
+                0.28486055715193853,
+                0.0008999279209425898
+              ],
+              "skip_source_support": [
+                0.07638445088629417,
+                0.3537954785805348,
+                0.5677080604682307,
+                0.002112010064940373
+              ],
+              "all_write_update_TV": 0.3498829369912247,
+              "retained_source_increment_TV": 0.3199547169942327
+            },
+            {
+              "arrival": "zero_z6",
+              "raw_action_all_zero": true,
+              "physical_displacement_xy": [
+                0.0,
+                0.0
+              ],
+              "physical_displacement_zero": true,
+              "latent_change_l2": 0.0,
+              "latent_change_exact_zero": true,
+              "all_write_support": [
+                0.0027288159602640192,
+                0.9759154503914806,
+                0.02135363176825757,
+                2.1018799978259574e-06
+              ],
+              "skip_source_support": [
+                0.008819787021274483,
+                0.9200258209223663,
+                0.07114580562353318,
+                8.586432826191399e-06
+              ],
+              "all_write_update_TV": 0.30216525481671314,
+              "retained_source_increment_TV": 0.055889629469114396
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "bounded_d_held_filter_numerics": {
+    "minimum_posterior_mass": 1.3286701598960269e-14,
+    "zero_mass_count": 0,
+    "all_finite": true,
+    "scope": "All 15 complete held prefixes, original and bounded observation geometries; no nominal one-hot control"
+  }
+}

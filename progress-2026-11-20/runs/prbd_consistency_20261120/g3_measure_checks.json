@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "gain_identity": 5.551115123125783e-17,
+  "paired_bootstrap_uses_pooled_ratio": true,
+  "common_response_mixture_exact": true,
+  "perfect_transfer_scoring_and_gate_fixture": true,
+  "forecast_accepts_no_future_target": true
+}

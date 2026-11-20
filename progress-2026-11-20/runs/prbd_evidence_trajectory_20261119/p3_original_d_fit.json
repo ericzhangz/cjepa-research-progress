@@ -1,0 +1,574 @@
+{
+  "control": "original_d",
+  "geometry": "original",
+  "objective": "trajectory",
+  "horizon": 4,
+  "seed": 20261119,
+  "learning_rate": 0.001,
+  "optimizer": "Adam; only native prototype offsets; one update per episode",
+  "horizon_policy": "All original t>=2 roots; min(H, remaining actual blocks)",
+  "criterion": "Summed overlapping conditional suffix joint NLL / total target steps",
+  "joint_mixture": "One fixed-k mixture over the full suffix; all geometries issued ex ante",
+  "training_episode_ids": [
+    2026111932,
+    2026111933,
+    2026111934,
+    2026111935,
+    2026111936,
+    2026111938,
+    2026111939,
+    2026111940,
+    2026111941,
+    2026111942,
+    2026111943,
+    2026111944,
+    2026111945,
+    2026111946,
+    2026111947,
+    2026111948,
+    2026111949,
+    2026111950,
+    2026111951,
+    2026111952,
+    2026111953,
+    2026111954,
+    2026111955,
+    2026111956,
+    2026111957,
+    2026111958,
+    2026111959,
+    2026111960,
+    2026111962,
+    2026111963
+  ],
+  "updates": 30,
+  "factual_roots": 418,
+  "scored_target_steps": 1492,
+  "fit_seconds": 11.801986500009662,
+  "fixed_noise_source": "../../../progress-2026-11-19/runs/prbd_tworoom_speed_20261119/fitted.pt",
+  "nominal_anchor_exact_after_fit": true,
+  "offset_change_l2": [
+    0.33996903896331787,
+    0.37254998087882996,
+    0.3272481858730316
+  ],
+  "training": [
+    {
+      "episode": 2026111932,
+      "transitions": 14,
+      "scored_target_steps": 50,
+      "root_horizon_counts": {
+        "1": 1,
+        "2": 1,
+        "3": 1,
+        "4": 11
+      },
+      "nll": 273.47406793413194,
+      "gradient_norm_by_prototype": [
+        6346.15087890625,
+        5547.33837890625,
+        2317.18408203125
+      ]
+    },
+    {
+      "episode": 2026111933,
+      "transitions": 14,
+      "scored_target_steps": 50,
+      "root_horizon_counts": {
+        "1": 1,
+        "2": 1,
+        "3": 1,
+        "4": 11
+      },
+      "nll": 5557.6770851826595,
+      "gradient_norm_by_prototype": [
+        9587.3642578125,
+        5188.07861328125,
+        11084.5791015625
+      ]
+    },
+    {
+      "episode": 2026111934,
+      "transitions": 14,
+      "scored_target_steps": 50,
+      "root_horizon_counts": {
+        "1": 1,
+        "2": 1,
+        "3": 1,
+        "4": 11
+      },
+      "nll": 761.1481912864006,
+      "gradient_norm_by_prototype": [
+        4936.09375,
+        291.80291748046875,
+        5247.80126953125
+      ]
+    },
+    {
+      "episode": 2026111935,
+      "transitions": 14,
+      "scored_target_steps": 50,
+      "root_horizon_counts": {
+        "1": 1,
+        "2": 1,
+        "3": 1,
+        "4": 11
+      },
+      "nll": -38.78033526977404,
+      "gradient_norm_by_prototype": [
+        183.38299560546875,
+        210.30149841308594,
+        138.68508911132812
+      ]
+    },
+    {
+      "episode": 2026111936,
+      "transitions": 14,
+      "scored_target_steps": 50,
+      "root_horizon_counts": {
+        "1": 1,
+        "2": 1,
+        "3": 1,
+        "4": 11
+      },
+      "nll": 1131.0052519740757,
+      "gradient_norm_by_prototype": [
+        1312.0828857421875,
+        593.7853393554688,
+        275.34930419921875
+      ]
+    },
+    {
+      "episode": 2026111938,
+      "transitions": 14,
+      "scored_target_steps": 50,
+      "root_horizon_counts": {
+        "1": 1,
+        "2": 1,
+        "3": 1,
+        "4": 11
+      },
+      "nll": 4560.835780180162,
+      "gradient_norm_by_prototype": [
+        4962.63037109375,
+        8214.533203125,
+        6298.86865234375
+      ]
+    },
+    {
+      "episode": 2026111939,
+      "transitions": 14,
+      "scored_target_steps": 50,
+      "root_horizon_counts": {
+        "1": 1,
+        "2": 1,
+        "3": 1,
+        "4": 11
+      },
+      "nll": -51.73907024670447,
+      "gradient_norm_by_prototype": [
+        91.7317886352539,
+        112.80987548828125,
+        93.445556640625
+      ]
+    },
+    {
+      "episode": 2026111940,
+      "transitions": 14,
+      "scored_target_steps": 50,
+      "root_horizon_counts": {
+        "1": 1,
+        "2": 1,
+        "3": 1,
+        "4": 11
+      },
+      "nll": 143.570783693089,
+      "gradient_norm_by_prototype": [
+        603.7827758789062,
+        1337.178466796875,
+        1159.0299072265625
+      ]
+    },
+    {
+      "episode": 2026111941,
+      "transitions": 14,
+      "scored_target_steps": 50,
+      "root_horizon_counts": {
+        "1": 1,
+        "2": 1,
+        "3": 1,
+        "4": 11
+      },
+      "nll": 2511.6745421805304,
+      "gradient_norm_by_prototype": [
+        1357.804443359375,
+        3336.298583984375,
+        2639.292724609375
+      ]
+    },
+    {
+      "episode": 2026111942,
+      "transitions": 14,
+      "scored_target_steps": 50,
+      "root_horizon_counts": {
+        "1": 1,
+        "2": 1,
+        "3": 1,
+        "4": 11
+      },
+      "nll": 583.9886420991693,
+      "gradient_norm_by_prototype": [
+        962.15625,
+        1631.6343994140625,
+        605.8615112304688
+      ]
+    },
+    {
+      "episode": 2026111943,
+      "transitions": 14,
+      "scored_target_steps": 50,
+      "root_horizon_counts": {
+        "1": 1,
+        "2": 1,
+        "3": 1,
+        "4": 11
+      },
+      "nll": 721.0293811708475,
+      "gradient_norm_by_prototype": [
+        648.7169799804688,
+        1239.0411376953125,
+        1470.479736328125
+      ]
+    },
+    {
+      "episode": 2026111944,
+      "transitions": 14,
+      "scored_target_steps": 50,
+      "root_horizon_counts": {
+        "1": 1,
+        "2": 1,
+        "3": 1,
+        "4": 11
+      },
+      "nll": 934.6834361651739,
+      "gradient_norm_by_prototype": [
+        715.2896728515625,
+        644.4212646484375,
+        892.6650390625
+      ]
+    },
+    {
+      "episode": 2026111945,
+      "transitions": 14,
+      "scored_target_steps": 50,
+      "root_horizon_counts": {
+        "1": 1,
+        "2": 1,
+        "3": 1,
+        "4": 11
+      },
+      "nll": 3826.396801694764,
+      "gradient_norm_by_prototype": [
+        2218.373779296875,
+        2322.877685546875,
+        2676.271728515625
+      ]
+    },
+    {
+      "episode": 2026111946,
+      "transitions": 14,
+      "scored_target_steps": 50,
+      "root_horizon_counts": {
+        "1": 1,
+        "2": 1,
+        "3": 1,
+        "4": 11
+      },
+      "nll": 381.9594171733822,
+      "gradient_norm_by_prototype": [
+        1162.47998046875,
+        547.70361328125,
+        790.5371704101562
+      ]
+    },
+    {
+      "episode": 2026111947,
+      "transitions": 14,
+      "scored_target_steps": 50,
+      "root_horizon_counts": {
+        "1": 1,
+        "2": 1,
+        "3": 1,
+        "4": 11
+      },
+      "nll": 133.98923127655758,
+      "gradient_norm_by_prototype": [
+        242.89523315429688,
+        346.53692626953125,
+        281.9612731933594
+      ]
+    },
+    {
+      "episode": 2026111948,
+      "transitions": 14,
+      "scored_target_steps": 50,
+      "root_horizon_counts": {
+        "1": 1,
+        "2": 1,
+        "3": 1,
+        "4": 11
+      },
+      "nll": 1076.4319263542545,
+      "gradient_norm_by_prototype": [
+        664.0231323242188,
+        1483.894775390625,
+        1014.69677734375
+      ]
+    },
+    {
+      "episode": 2026111949,
+      "transitions": 12,
+      "scored_target_steps": 42,
+      "root_horizon_counts": {
+        "1": 1,
+        "2": 1,
+        "3": 1,
+        "4": 9
+      },
+      "nll": 2032.2126493873516,
+      "gradient_norm_by_prototype": [
+        1266.55419921875,
+        1309.2796630859375,
+        1470.3875732421875
+      ]
+    },
+    {
+      "episode": 2026111950,
+      "transitions": 14,
+      "scored_target_steps": 50,
+      "root_horizon_counts": {
+        "1": 1,
+        "2": 1,
+        "3": 1,
+        "4": 11
+      },
+      "nll": 549.5202444507846,
+      "gradient_norm_by_prototype": [
+        634.9586791992188,
+        773.386962890625,
+        669.95458984375
+      ]
+    },
+    {
+      "episode": 2026111951,
+      "transitions": 14,
+      "scored_target_steps": 50,
+      "root_horizon_counts": {
+        "1": 1,
+        "2": 1,
+        "3": 1,
+        "4": 11
+      },
+      "nll": 54.69549262191298,
+      "gradient_norm_by_prototype": [
+        90.28897857666016,
+        109.69851684570312,
+        193.12962341308594
+      ]
+    },
+    {
+      "episode": 2026111952,
+      "transitions": 14,
+      "scored_target_steps": 50,
+      "root_horizon_counts": {
+        "1": 1,
+        "2": 1,
+        "3": 1,
+        "4": 11
+      },
+      "nll": 3069.07456000729,
+      "gradient_norm_by_prototype": [
+        3194.2001953125,
+        4759.01904296875,
+        2127.951416015625
+      ]
+    },
+    {
+      "episode": 2026111953,
+      "transitions": 14,
+      "scored_target_steps": 50,
+      "root_horizon_counts": {
+        "1": 1,
+        "2": 1,
+        "3": 1,
+        "4": 11
+      },
+      "nll": 677.5868307437439,
+      "gradient_norm_by_prototype": [
+        482.3377380371094,
+        455.5695495605469,
+        918.5313720703125
+      ]
+    },
+    {
+      "episode": 2026111954,
+      "transitions": 14,
+      "scored_target_steps": 50,
+      "root_horizon_counts": {
+        "1": 1,
+        "2": 1,
+        "3": 1,
+        "4": 11
+      },
+      "nll": 1632.3866149967262,
+      "gradient_norm_by_prototype": [
+        414.54254150390625,
+        429.660888671875,
+        810.7327880859375
+      ]
+    },
+    {
+      "episode": 2026111955,
+      "transitions": 14,
+      "scored_target_steps": 50,
+      "root_horizon_counts": {
+        "1": 1,
+        "2": 1,
+        "3": 1,
+        "4": 11
+      },
+      "nll": 2139.7515108090493,
+      "gradient_norm_by_prototype": [
+        2694.412353515625,
+        2730.83740234375,
+        1591.2640380859375
+      ]
+    },
+    {
+      "episode": 2026111956,
+      "transitions": 14,
+      "scored_target_steps": 50,
+      "root_horizon_counts": {
+        "1": 1,
+        "2": 1,
+        "3": 1,
+        "4": 11
+      },
+      "nll": 2564.586445780674,
+      "gradient_norm_by_prototype": [
+        855.3447265625,
+        764.91455078125,
+        609.4649658203125
+      ]
+    },
+    {
+      "episode": 2026111957,
+      "transitions": 14,
+      "scored_target_steps": 50,
+      "root_horizon_counts": {
+        "1": 1,
+        "2": 1,
+        "3": 1,
+        "4": 11
+      },
+      "nll": 7329.880812682094,
+      "gradient_norm_by_prototype": [
+        3823.458740234375,
+        4357.41796875,
+        2415.218994140625
+      ]
+    },
+    {
+      "episode": 2026111958,
+      "transitions": 14,
+      "scored_target_steps": 50,
+      "root_horizon_counts": {
+        "1": 1,
+        "2": 1,
+        "3": 1,
+        "4": 11
+      },
+      "nll": 372.37391617123853,
+      "gradient_norm_by_prototype": [
+        261.0715637207031,
+        501.1763000488281,
+        213.17575073242188
+      ]
+    },
+    {
+      "episode": 2026111959,
+      "transitions": 14,
+      "scored_target_steps": 50,
+      "root_horizon_counts": {
+        "1": 1,
+        "2": 1,
+        "3": 1,
+        "4": 11
+      },
+      "nll": 2595.750069101596,
+      "gradient_norm_by_prototype": [
+        1153.80712890625,
+        1148.4346923828125,
+        1456.292724609375
+      ]
+    },
+    {
+      "episode": 2026111960,
+      "transitions": 14,
+      "scored_target_steps": 50,
+      "root_horizon_counts": {
+        "1": 1,
+        "2": 1,
+        "3": 1,
+        "4": 11
+      },
+      "nll": -35.607124871933735,
+      "gradient_norm_by_prototype": [
+        119.139404296875,
+        36.73588943481445,
+        103.03377532958984
+      ]
+    },
+    {
+      "episode": 2026111962,
+      "transitions": 14,
+      "scored_target_steps": 50,
+      "root_horizon_counts": {
+        "1": 1,
+        "2": 1,
+        "3": 1,
+        "4": 11
+      },
+      "nll": 155.93312245815605,
+      "gradient_norm_by_prototype": [
+        145.68719482421875,
+        329.58575439453125,
+        171.50186157226562
+      ]
+    },
+    {
+      "episode": 2026111963,
+      "transitions": 14,
+      "scored_target_steps": 50,
+      "root_horizon_counts": {
+        "1": 1,
+        "2": 1,
+        "3": 1,
+        "4": 11
+      },
+      "nll": 772.8527576837322,
+      "gradient_norm_by_prototype": [
+        1066.47705078125,
+        995.3366088867188,
+        784.2066040039062
+      ]
+    }
+  ],
+  "checkpoint": "p3_original_d.pt",
+  "runtime": {
+    "python": "3.10.15",
+    "torch": "2.1.1+cu121",
+    "device": "cpu",
+    "torch_threads": 2
+  }
+}

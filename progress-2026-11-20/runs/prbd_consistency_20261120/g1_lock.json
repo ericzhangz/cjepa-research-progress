@@ -1,0 +1,19 @@
+{
+  "nu": 3.0,
+  "geometry": "bounded rho=lambda=1",
+  "reference": "fixed uniform branch mean",
+  "log_xi_range": [
+    -6.0,
+    40.0
+  ],
+  "log_xi_step": 0.25,
+  "nodes": 185,
+  "max_pair_log_bayes_factor_error_nat": 0.0001,
+  "posterior_total_variation": 1e-05,
+  "gradient_l2_error": "1e-4*(1+reference_gradient_l2), every tested pair and absolute branch",
+  "max_absolute_branch_log_density_error_nat": 0.0001,
+  "signed_h1_h4": "same signs as independent continuous reference, aggregated and per seed",
+  "native_gradient_scope": "all six logBF pairs and all four absolute branches, full learnable offset gradients, 22 initial sources per archived checkpoint",
+  "native_directional_controls": "three deterministic full-parameter directions for all pairs and absolute branches; reference gradient directional contraction",
+  "selection_or_tuning": false
+}

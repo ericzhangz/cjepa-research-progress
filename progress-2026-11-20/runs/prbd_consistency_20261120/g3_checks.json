@@ -1,0 +1,177 @@
+{
+  "passed": true,
+  "continuous_integration_nodes": 185,
+  "h1_episode_vs_sequential_nll_abs_error": 1.1102230246251565e-16,
+  "h1_episode_vs_sequential_gradient_max_error": 1.3877787807814457e-16,
+  "h4_joint_vs_independent_scalar_density_abs_error": 0.0,
+  "h4_joint_minus_per_block_remix_log_density": 0.004387675542110614,
+  "dual_gradient_max_finite_difference_error": 3.692518513176424e-12,
+  "future_target_changes_historical_response_gradient_l2": 0.21619224227199846,
+  "free_vs_teacher_forced_path_l2": 1.0719379367220578,
+  "terminal_block_lengths_by_actual_T": {
+    "3": [
+      1
+    ],
+    "4": [
+      2
+    ],
+    "5": [
+      3
+    ],
+    "6": [
+      4
+    ],
+    "7": [
+      4,
+      1
+    ],
+    "8": [
+      4,
+      2
+    ],
+    "9": [
+      4,
+      3
+    ]
+  },
+  "every_target_exactly_once_per_partition": true,
+  "future_targets_leave_issued_block_paths_unchanged": true,
+  "later_block_refresh_uses_actual_root": true,
+  "future_targets_leave_public_first_write_unchanged": true,
+  "h1_counts": {
+    "transitions": 7,
+    "scored_target_steps": 7,
+    "density_factor_evaluations": 7,
+    "public_belief_writes_in_objective": 0,
+    "partitions": {
+      "H1": {
+        "roots": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "block_lengths": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "target_indices": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "scored_target_steps": 7,
+        "prototype_episode_log_likelihood": [
+          -6.23500526330913,
+          -6.853912134893601,
+          -6.219621048769234
+        ]
+      }
+    }
+  },
+  "h4_counts": {
+    "roots": [
+      2,
+      6
+    ],
+    "block_lengths": [
+      4,
+      3
+    ],
+    "target_indices": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "scored_target_steps": 7,
+    "prototype_episode_log_likelihood": [
+      -5.594954885654985,
+      -6.005277369519899,
+      -5.479732340611583
+    ]
+  },
+  "dual_counts": {
+    "transitions": 7,
+    "scored_target_steps": 7,
+    "density_factor_evaluations": 14,
+    "public_belief_writes_in_objective": 0,
+    "partitions": {
+      "H1": {
+        "roots": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "block_lengths": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "target_indices": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "scored_target_steps": 7,
+        "prototype_episode_log_likelihood": [
+          -6.23500526330913,
+          -6.853912134893601,
+          -6.219621048769234
+        ]
+      },
+      "H4": {
+        "roots": [
+          2,
+          6
+        ],
+        "block_lengths": [
+          4,
+          3
+        ],
+        "target_indices": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "scored_target_steps": 7,
+        "prototype_episode_log_likelihood": [
+          -5.594954885654985,
+          -6.005277369519899,
+          -5.479732340611583
+        ]
+      }
+    }
+  }
+}

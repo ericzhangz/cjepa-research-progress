@@ -1,0 +1,32 @@
+{
+  "rows": [
+    {
+      "input_sum": 1.0,
+      "supplied_prior_preserved_bitwise": true,
+      "posterior_preserved_bitwise": true,
+      "normalized_derivative_error_max": 0.0,
+      "ordinary_response_derivative_norm": 0.17304306235107036,
+      "legacy_normalization_unchanged": true,
+      "nonidentity_transport_preserved": true
+    },
+    {
+      "input_sum": 0.9999999999999998,
+      "supplied_prior_preserved_bitwise": true,
+      "posterior_preserved_bitwise": true,
+      "normalized_derivative_error_max": 3.3306690738754696e-16,
+      "ordinary_response_derivative_norm": 0.17304306235107042,
+      "legacy_normalization_unchanged": true,
+      "nonidentity_transport_preserved": true
+    },
+    {
+      "input_sum": 1.0000000000000002,
+      "supplied_prior_preserved_bitwise": true,
+      "posterior_preserved_bitwise": true,
+      "normalized_derivative_error_max": 2.220446049250313e-16,
+      "ordinary_response_derivative_norm": 0.17304306235107036,
+      "legacy_normalization_unchanged": true,
+      "nonidentity_transport_preserved": true
+    }
+  ],
+  "passed": true
+}

@@ -1,5 +1,7 @@
 # CJepa 研究进展与代码交接
 
+**2026-11-20 · PRBD 单轨学习与跨动作预测**　TwoRoom 的 39 个非零同窗开发起点上，多时域主方案首次写入的 H1/H4 有向恢复为 +0.0574%/+0.0518%，完整写入为 −0.0650%/−0.0284%。G1、G2 通过，G3 主方案未通过。[本版代码和数据](progress-2026-11-20/) · [完整技术报告](progress-2026-11-20/runs/prbd_consistency_20261120/REPORT.md) · [逐起点结果](progress-2026-11-20/runs/prbd_consistency_20261120/paired_reset_results.csv)
+
 **2026-11-19 · PRBD**　[技术报告及数据入口](progress-2026-11-19/) · [核心实现](progress-2026-11-19/research/p1a/prbd.py) · [TwoRoom 分组结果 CSV](progress-2026-11-19/runs/prbd_tworoom_speed_20261119/interaction_summary.csv)。在 11 个跨速度同窗起点上，一次真实探测对随后动作差的有向恢复率为 H1 −0.0824%、H4 −0.3281%。报告同时给出未训练对照、绝对端点误差及 PushT、PushObj 的已测范围。
 
 **2026-11-18 交接** · [本版索引](progress-2026-11-18/) · [PushT 全视野结果](progress-2026-11-18/runs/fullview_pusht_base_20261115/REPORT.md) · [FourRoom H5 归因](progress-2026-11-18/runs/native_topology_objective_trace_20261116/REPORT.md) · [历轮方法与结果](progress-2026-11-18/METHOD_ITERATIONS.md)

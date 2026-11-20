@@ -1,0 +1,4484 @@
+{
+  "objective": "episode_h1",
+  "optimization_steps": 62,
+  "fit_seconds": 19.030464299954474,
+  "checkpoint": "g3_episode_h1.pt",
+  "nominal_anchor_exact_after_fit": true,
+  "postfit_noop": {
+    "native_h1_h4_all_prototypes_exact_equal": true,
+    "observation_basis_exact_zero": true,
+    "branch_density_exact_equal": true,
+    "nonuniform_posterior_exactly_preserved": true
+  },
+  "offset_change_l2": [
+    0.24695970118045807,
+    0.2210206240415573,
+    0.31878548860549927
+  ],
+  "training_records": [
+    {
+      "episode": 2026112000,
+      "transitions": 14,
+      "scored_target_steps": 14,
+      "density_factor_evaluations": 14,
+      "public_belief_writes_in_objective": 0,
+      "partitions": {
+        "H1": {
+          "roots": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "block_lengths": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "target_indices": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "scored_target_steps": 14,
+          "prototype_episode_log_likelihood": [
+            1374.958483896785,
+            1375.132837012678,
+            1375.0330275387244,
+            1375.6133395225625
+          ]
+        }
+      },
+      "nll": -98.22996068930975,
+      "gradient_norm_by_prototype": [
+        12.70029354095459,
+        33.350791931152344,
+        36.284584045410156
+      ]
+    },
+    {
+      "episode": 2026112001,
+      "transitions": 14,
+      "scored_target_steps": 14,
+      "density_factor_evaluations": 14,
+      "public_belief_writes_in_objective": 0,
+      "partitions": {
+        "H1": {
+          "roots": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "block_lengths": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "target_indices": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "scored_target_steps": 14,
+          "prototype_episode_log_likelihood": [
+            1089.7217121589808,
+            1089.638839895032,
+            1089.4320111443647,
+            1089.2251967964485
+          ]
+        }
+      },
+      "nll": -77.8230378887282,
+      "gradient_norm_by_prototype": [
+        267.74359130859375,
+        122.61666107177734,
+        452.8870544433594
+      ]
+    },
+    {
+      "episode": 2026112002,
+      "transitions": 14,
+      "scored_target_steps": 14,
+      "density_factor_evaluations": 14,
+      "public_belief_writes_in_objective": 0,
+      "partitions": {
+        "H1": {
+          "roots": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "block_lengths": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "target_indices": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "scored_target_steps": 14,
+          "prototype_episode_log_likelihood": [
+            -2212.2075878812634,
+            -2212.145972300053,
+            -2212.245203278332,
+            -2212.2212258526215
+          ]
+        }
+      },
+      "nll": 158.0145943143963,
+      "gradient_norm_by_prototype": [
+        276.4814758300781,
+        227.5404815673828,
+        310.16314697265625
+      ]
+    },
+    {
+      "episode": 2026112003,
+      "transitions": 14,
+      "scored_target_steps": 14,
+      "density_factor_evaluations": 14,
+      "public_belief_writes_in_objective": 0,
+      "partitions": {
+        "H1": {
+          "roots": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "block_lengths": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "target_indices": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "scored_target_steps": 14,
+          "prototype_episode_log_likelihood": [
+            1134.938113469965,
+            1134.1338526825875,
+            1134.3295557544911,
+            1135.3071836622407
+          ]
+        }
+      },
+      "nll": -81.05619231206127,
+      "gradient_norm_by_prototype": [
+        0.32019180059432983,
+        1.7548866271972656,
+        4.168318748474121
+      ]
+    },
+    {
+      "episode": 2026112004,
+      "transitions": 14,
+      "scored_target_steps": 14,
+      "density_factor_evaluations": 14,
+      "public_belief_writes_in_objective": 0,
+      "partitions": {
+        "H1": {
+          "roots": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "block_lengths": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "target_indices": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "scored_target_steps": 14,
+          "prototype_episode_log_likelihood": [
+            -235.10933075198363,
+            -234.48370305124013,
+            -234.95184823862667,
+            -235.46814669519824
+          ]
+        }
+      },
+      "nll": 16.781422016856897,
+      "gradient_norm_by_prototype": [
+        684.0186767578125,
+        1559.4444580078125,
+        1715.5892333984375
+      ]
+    },
+    {
+      "episode": 2026112005,
+      "transitions": 14,
+      "scored_target_steps": 14,
+      "density_factor_evaluations": 14,
+      "public_belief_writes_in_objective": 0,
+      "partitions": {
+        "H1": {
+          "roots": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "block_lengths": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "target_indices": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "scored_target_steps": 14,
+          "prototype_episode_log_likelihood": [
+            662.4640131745653,
+            662.8177351325758,
+            662.5413729987629,
+            661.9309652763952
+          ]
+        }
+      },
+      "nll": -47.32047541258271,
+      "gradient_norm_by_prototype": [
+        92.3174819946289,
+        165.31765747070312,
+        203.8793182373047
+      ]
+    },
+    {
+      "episode": 2026112006,
+      "transitions": 14,
+      "scored_target_steps": 14,
+      "density_factor_evaluations": 14,
+      "public_belief_writes_in_objective": 0,
+      "partitions": {
+        "H1": {
+          "roots": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "block_lengths": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "target_indices": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "scored_target_steps": 14,
+          "prototype_episode_log_likelihood": [
+            -457.45804038091387,
+            -457.7588905053882,
+            -457.7557626155042,
+            -457.57884301369097
+          ]
+        }
+      },
+      "nll": 32.68783906749699,
+      "gradient_norm_by_prototype": [
+        1159.336181640625,
+        1764.3038330078125,
+        233.73828125
+      ]
+    },
+    {
+      "episode": 2026112007,
+      "transitions": 14,
+      "scored_target_steps": 14,
+      "density_factor_evaluations": 14,
+      "public_belief_writes_in_objective": 0,
+      "partitions": {
+        "H1": {
+          "roots": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "block_lengths": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "target_indices": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "scored_target_steps": 14,
+          "prototype_episode_log_likelihood": [
+            445.6387098576961,
+            446.0623362992532,
+            445.3188210334498,
+            445.19205090453914
+          ]
+        }
+      },
+      "nll": -31.82940853945042,
+      "gradient_norm_by_prototype": [
+        93.95834350585938,
+        92.7470703125,
+        101.12688446044922
+      ]
+    },
+    {
+      "episode": 2026112008,
+      "transitions": 14,
+      "scored_target_steps": 14,
+      "density_factor_evaluations": 14,
+      "public_belief_writes_in_objective": 0,
+      "partitions": {
+        "H1": {
+          "roots": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "block_lengths": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "target_indices": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "scored_target_steps": 14,
+          "prototype_episode_log_likelihood": [
+            627.3775746797453,
+            627.0787698213192,
+            627.0895681685901,
+            627.442236889263
+          ]
+        }
+      },
+      "nll": -44.80432513042848,
+      "gradient_norm_by_prototype": [
+        310.4547424316406,
+        292.951416015625,
+        350.9151916503906
+      ]
+    },
+    {
+      "episode": 2026112010,
+      "transitions": 14,
+      "scored_target_steps": 14,
+      "density_factor_evaluations": 14,
+      "public_belief_writes_in_objective": 0,
+      "partitions": {
+        "H1": {
+          "roots": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "block_lengths": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "target_indices": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "scored_target_steps": 14,
+          "prototype_episode_log_likelihood": [
+            808.569409726216,
+            808.880604592099,
+            808.6974383196386,
+            808.252772703032
+          ]
+        }
+      },
+      "nll": -57.758955222691064,
+      "gradient_norm_by_prototype": [
+        81.59137725830078,
+        67.85646057128906,
+        98.36441040039062
+      ]
+    },
+    {
+      "episode": 2026112011,
+      "transitions": 14,
+      "scored_target_steps": 14,
+      "density_factor_evaluations": 14,
+      "public_belief_writes_in_objective": 0,
+      "partitions": {
+        "H1": {
+          "roots": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "block_lengths": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "target_indices": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "scored_target_steps": 14,
+          "prototype_episode_log_likelihood": [
+            931.6449442336685,
+            931.3433325153678,
+            931.4193975093079,
+            931.8787629775543
+          ]
+        }
+      },
+      "nll": -66.54242469615927,
+      "gradient_norm_by_prototype": [
+        112.30925750732422,
+        95.00054168701172,
+        145.8562469482422
+      ]
+    },
+    {
+      "episode": 2026112012,
+      "transitions": 14,
+      "scored_target_steps": 14,
+      "density_factor_evaluations": 14,
+      "public_belief_writes_in_objective": 0,
+      "partitions": {
+        "H1": {
+          "roots": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "block_lengths": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "target_indices": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "scored_target_steps": 14,
+          "prototype_episode_log_likelihood": [
+            664.7286557919612,
+            664.96898470978,
+            664.7076423332888,
+            664.3849071482346
+          ]
+        }
+      },
+      "nll": -47.47990003411943,
+      "gradient_norm_by_prototype": [
+        111.34333038330078,
+        118.06281280517578,
+        119.65023803710938
+      ]
+    },
+    {
+      "episode": 2026112013,
+      "transitions": 14,
+      "scored_target_steps": 14,
+      "density_factor_evaluations": 14,
+      "public_belief_writes_in_objective": 0,
+      "partitions": {
+        "H1": {
+          "roots": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "block_lengths": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "target_indices": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "scored_target_steps": 14,
+          "prototype_episode_log_likelihood": [
+            766.5333877201003,
+            766.3127527669909,
+            766.442714691429,
+            766.9539991079987
+          ]
+        }
+      },
+      "nll": -54.75651687611749,
+      "gradient_norm_by_prototype": [
+        67.84598541259766,
+        23.39466094970703,
+        108.74050903320312
+      ]
+    },
+    {
+      "episode": 2026112014,
+      "transitions": 14,
+      "scored_target_steps": 14,
+      "density_factor_evaluations": 14,
+      "public_belief_writes_in_objective": 0,
+      "partitions": {
+        "H1": {
+          "roots": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "block_lengths": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "target_indices": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "scored_target_steps": 14,
+          "prototype_episode_log_likelihood": [
+            585.6803513345745,
+            584.9248992834366,
+            585.284852611481,
+            585.0522538225775
+          ]
+        }
+      },
+      "nll": -41.80561855213437,
+      "gradient_norm_by_prototype": [
+        72.81129455566406,
+        43.08124542236328,
+        53.09972381591797
+      ]
+    },
+    {
+      "episode": 2026112015,
+      "transitions": 14,
+      "scored_target_steps": 14,
+      "density_factor_evaluations": 14,
+      "public_belief_writes_in_objective": 0,
+      "partitions": {
+        "H1": {
+          "roots": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "block_lengths": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "target_indices": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "scored_target_steps": 14,
+          "prototype_episode_log_likelihood": [
+            785.4522820549191,
+            785.4467521214169,
+            785.719270895523,
+            786.0735568353782
+          ]
+        }
+      },
+      "nll": -56.12194821997425,
+      "gradient_norm_by_prototype": [
+        104.32359313964844,
+        16.414148330688477,
+        167.5905303955078
+      ]
+    },
+    {
+      "episode": 2026112016,
+      "transitions": 14,
+      "scored_target_steps": 14,
+      "density_factor_evaluations": 14,
+      "public_belief_writes_in_objective": 0,
+      "partitions": {
+        "H1": {
+          "roots": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "block_lengths": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "target_indices": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "scored_target_steps": 14,
+          "prototype_episode_log_likelihood": [
+            755.1299322025216,
+            755.2136369017868,
+            755.391281525873,
+            755.7648048208548
+          ]
+        }
+      },
+      "nll": -53.95758527379979,
+      "gradient_norm_by_prototype": [
+        91.39147186279297,
+        35.256431579589844,
+        239.20762634277344
+      ]
+    },
+    {
+      "episode": 2026112017,
+      "transitions": 14,
+      "scored_target_steps": 14,
+      "density_factor_evaluations": 14,
+      "public_belief_writes_in_objective": 0,
+      "partitions": {
+        "H1": {
+          "roots": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "block_lengths": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "target_indices": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "scored_target_steps": 14,
+          "prototype_episode_log_likelihood": [
+            667.3606431679466,
+            667.4183569620917,
+            667.1146625986895,
+            666.8172167557273
+          ]
+        }
+      },
+      "nll": -47.65747174292955,
+      "gradient_norm_by_prototype": [
+        99.72364044189453,
+        180.04173278808594,
+        61.500911712646484
+      ]
+    },
+    {
+      "episode": 2026112018,
+      "transitions": 14,
+      "scored_target_steps": 14,
+      "density_factor_evaluations": 14,
+      "public_belief_writes_in_objective": 0,
+      "partitions": {
+        "H1": {
+          "roots": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "block_lengths": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "target_indices": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "scored_target_steps": 14,
+          "prototype_episode_log_likelihood": [
+            -1704.047083061522,
+            -1704.0048171050692,
+            -1704.3155873977146,
+            -1704.8145005197089
+          ]
+        }
+      },
+      "nll": 121.73200037404021,
+      "gradient_norm_by_prototype": [
+        254.9724884033203,
+        271.62701416015625,
+        677.6635131835938
+      ]
+    },
+    {
+      "episode": 2026112019,
+      "transitions": 14,
+      "scored_target_steps": 14,
+      "density_factor_evaluations": 14,
+      "public_belief_writes_in_objective": 0,
+      "partitions": {
+        "H1": {
+          "roots": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "block_lengths": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "target_indices": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "scored_target_steps": 14,
+          "prototype_episode_log_likelihood": [
+            936.0173735839408,
+            935.9871133284598,
+            936.179062971878,
+            936.6204730753798
+          ]
+        }
+      },
+      "nll": -66.87394254677255,
+      "gradient_norm_by_prototype": [
+        231.067626953125,
+        37.25080108642578,
+        433.80810546875
+      ]
+    },
+    {
+      "episode": 2026112020,
+      "transitions": 14,
+      "scored_target_steps": 14,
+      "density_factor_evaluations": 14,
+      "public_belief_writes_in_objective": 0,
+      "partitions": {
+        "H1": {
+          "roots": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "block_lengths": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "target_indices": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "scored_target_steps": 14,
+          "prototype_episode_log_likelihood": [
+            1162.8253241988511,
+            1162.6711817319083,
+            1162.892876343074,
+            1163.2854804069643
+          ]
+        }
+      },
+      "nll": -83.06754485142743,
+      "gradient_norm_by_prototype": [
+        62.485694885253906,
+        74.94615936279297,
+        125.30361938476562
+      ]
+    },
+    {
+      "episode": 2026112021,
+      "transitions": 14,
+      "scored_target_steps": 14,
+      "density_factor_evaluations": 14,
+      "public_belief_writes_in_objective": 0,
+      "partitions": {
+        "H1": {
+          "roots": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "block_lengths": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "target_indices": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "scored_target_steps": 14,
+          "prototype_episode_log_likelihood": [
+            -2559.44694236785,
+            -2559.5218376289654,
+            -2559.557129704278,
+            -2558.7689390823307
+          ]
+        }
+      },
+      "nll": 182.80471334798634,
+      "gradient_norm_by_prototype": [
+        841.2846069335938,
+        356.7381896972656,
+        930.126708984375
+      ]
+    },
+    {
+      "episode": 2026112022,
+      "transitions": 14,
+      "scored_target_steps": 14,
+      "density_factor_evaluations": 14,
+      "public_belief_writes_in_objective": 0,
+      "partitions": {
+        "H1": {
+          "roots": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "block_lengths": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "target_indices": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "scored_target_steps": 14,
+          "prototype_episode_log_likelihood": [
+            762.3705200016444,
+            762.8118526818097,
+            762.297553796886,
+            761.1302543748709
+          ]
+        }
+      },
+      "nll": -54.45087758725491,
+      "gradient_norm_by_prototype": [
+        182.64271545410156,
+        133.62237548828125,
+        144.90777587890625
+      ]
+    },
+    {
+      "episode": 2026112023,
+      "transitions": 14,
+      "scored_target_steps": 14,
+      "density_factor_evaluations": 14,
+      "public_belief_writes_in_objective": 0,
+      "partitions": {
+        "H1": {
+          "roots": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "block_lengths": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "target_indices": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "scored_target_steps": 14,
+          "prototype_episode_log_likelihood": [
+            1139.7298138875976,
+            1140.2261964804804,
+            1140.2173570440996,
+            1139.4725982230239
+          ]
+        }
+      },
+      "nll": -81.4258410351487,
+      "gradient_norm_by_prototype": [
+        130.35166931152344,
+        128.11105346679688,
+        149.86573791503906
+      ]
+    },
+    {
+      "episode": 2026112024,
+      "transitions": 14,
+      "scored_target_steps": 14,
+      "density_factor_evaluations": 14,
+      "public_belief_writes_in_objective": 0,
+      "partitions": {
+        "H1": {
+          "roots": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "block_lengths": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "target_indices": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "scored_target_steps": 14,
+          "prototype_episode_log_likelihood": [
+            850.2404685225133,
+            850.7227577710253,
+            850.2297228484509,
+            849.1683739807803
+          ]
+        }
+      },
+      "nll": -60.73058851983675,
+      "gradient_norm_by_prototype": [
+        85.54793548583984,
+        68.93888092041016,
+        76.66891479492188
+      ]
+    },
+    {
+      "episode": 2026112025,
+      "transitions": 14,
+      "scored_target_steps": 14,
+      "density_factor_evaluations": 14,
+      "public_belief_writes_in_objective": 0,
+      "partitions": {
+        "H1": {
+          "roots": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "block_lengths": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "target_indices": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "scored_target_steps": 14,
+          "prototype_episode_log_likelihood": [
+            800.2111601356476,
+            800.4860623754037,
+            800.3186067739107,
+            799.9041711081287
+          ]
+        }
+      },
+      "nll": -57.16083572807374,
+      "gradient_norm_by_prototype": [
+        85.56727600097656,
+        70.1229248046875,
+        73.42765045166016
+      ]
+    },
+    {
+      "episode": 2026112026,
+      "transitions": 14,
+      "scored_target_steps": 14,
+      "density_factor_evaluations": 14,
+      "public_belief_writes_in_objective": 0,
+      "partitions": {
+        "H1": {
+          "roots": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "block_lengths": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "target_indices": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "scored_target_steps": 14,
+          "prototype_episode_log_likelihood": [
+            681.3307675012502,
+            681.8305586798785,
+            681.6822099722581,
+            680.9162982440076
+          ]
+        }
+      },
+      "nll": -48.678459800807694,
+      "gradient_norm_by_prototype": [
+        74.97718048095703,
+        40.61935043334961,
+        95.66194915771484
+      ]
+    },
+    {
+      "episode": 2026112027,
+      "transitions": 14,
+      "scored_target_steps": 14,
+      "density_factor_evaluations": 14,
+      "public_belief_writes_in_objective": 0,
+      "partitions": {
+        "H1": {
+          "roots": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "block_lengths": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "target_indices": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "scored_target_steps": 14,
+          "prototype_episode_log_likelihood": [
+            -11346.097065564882,
+            -11345.648326769007,
+            -11345.819734934903,
+            -11346.529551961534
+          ]
+        }
+      },
+      "nll": 810.4265408531074,
+      "gradient_norm_by_prototype": [
+        663.2518920898438,
+        658.2017822265625,
+        828.8377075195312
+      ]
+    },
+    {
+      "episode": 2026112028,
+      "transitions": 14,
+      "scored_target_steps": 14,
+      "density_factor_evaluations": 14,
+      "public_belief_writes_in_objective": 0,
+      "partitions": {
+        "H1": {
+          "roots": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "block_lengths": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "target_indices": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "scored_target_steps": 14,
+          "prototype_episode_log_likelihood": [
+            257.9060598763495,
+            258.58793865018004,
+            258.34147949420384,
+            257.48816887018756
+          ]
+        }
+      },
+      "nll": -18.440349013639086,
+      "gradient_norm_by_prototype": [
+        87.75623321533203,
+        71.44136810302734,
+        102.81130981445312
+      ]
+    },
+    {
+      "episode": 2026112029,
+      "transitions": 14,
+      "scored_target_steps": 14,
+      "density_factor_evaluations": 14,
+      "public_belief_writes_in_objective": 0,
+      "partitions": {
+        "H1": {
+          "roots": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "block_lengths": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "target_indices": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "scored_target_steps": 14,
+          "prototype_episode_log_likelihood": [
+            1265.758144491502,
+            1265.3148369491046,
+            1265.580012872556,
+            1266.3380471521957
+          ]
+        }
+      },
+      "nll": -90.41587143380757,
+      "gradient_norm_by_prototype": [
+        68.50728607177734,
+        20.182275772094727,
+        101.21705627441406
+      ]
+    },
+    {
+      "episode": 2026112031,
+      "transitions": 14,
+      "scored_target_steps": 14,
+      "density_factor_evaluations": 14,
+      "public_belief_writes_in_objective": 0,
+      "partitions": {
+        "H1": {
+          "roots": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "block_lengths": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "target_indices": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "scored_target_steps": 14,
+          "prototype_episode_log_likelihood": [
+            1186.9119035790854,
+            1187.3898637342081,
+            1187.3476893828533,
+            1186.3211671341392
+          ]
+        }
+      },
+      "nll": -84.79113628424166,
+      "gradient_norm_by_prototype": [
+        90.88549041748047,
+        95.95502471923828,
+        129.28895568847656
+      ]
+    },
+    {
+      "episode": 2026112032,
+      "transitions": 14,
+      "scored_target_steps": 14,
+      "density_factor_evaluations": 14,
+      "public_belief_writes_in_objective": 0,
+      "partitions": {
+        "H1": {
+          "roots": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "block_lengths": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "target_indices": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "scored_target_steps": 14,
+          "prototype_episode_log_likelihood": [
+            999.1721861787221,
+            998.7595809933227,
+            999.1426897725299,
+            999.8828084089266
+          ]
+        }
+      },
+      "nll": -71.38047480072034,
+      "gradient_norm_by_prototype": [
+        101.73314666748047,
+        35.262027740478516,
+        129.40818786621094
+      ]
+    },
+    {
+      "episode": 2026112033,
+      "transitions": 14,
+      "scored_target_steps": 14,
+      "density_factor_evaluations": 14,
+      "public_belief_writes_in_objective": 0,
+      "partitions": {
+        "H1": {
+          "roots": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "block_lengths": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "target_indices": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "scored_target_steps": 14,
+          "prototype_episode_log_likelihood": [
+            1040.2947370103584,
+            1039.9589575236278,
+            1040.0356047753412,
+            1040.2402882466595
+          ]
+        }
+      },
+      "nll": -74.29585895237248,
+      "gradient_norm_by_prototype": [
+        47.13206481933594,
+        30.341215133666992,
+        82.36441802978516
+      ]
+    },
+    {
+      "episode": 2026112034,
+      "transitions": 14,
+      "scored_target_steps": 14,
+      "density_factor_evaluations": 14,
+      "public_belief_writes_in_objective": 0,
+      "partitions": {
+        "H1": {
+          "roots": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "block_lengths": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "target_indices": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "scored_target_steps": 14,
+          "prototype_episode_log_likelihood": [
+            966.7065559508037,
+            966.6113131535283,
+            966.4447070134903,
+            965.9462364485337
+          ]
+        }
+      },
+      "nll": -69.03332054490609,
+      "gradient_norm_by_prototype": [
+        23.888620376586914,
+        9.977812767028809,
+        49.48805618286133
+      ]
+    },
+    {
+      "episode": 2026112035,
+      "transitions": 14,
+      "scored_target_steps": 14,
+      "density_factor_evaluations": 14,
+      "public_belief_writes_in_objective": 0,
+      "partitions": {
+        "H1": {
+          "roots": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "block_lengths": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "target_indices": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "scored_target_steps": 14,
+          "prototype_episode_log_likelihood": [
+            108.04360787116161,
+            108.29101340355868,
+            107.86895197808741,
+            108.66909290905062
+          ]
+        }
+      },
+      "nll": -7.733190613247138,
+      "gradient_norm_by_prototype": [
+        40.39311981201172,
+        19.689754486083984,
+        74.6299057006836
+      ]
+    },
+    {
+      "episode": 2026112036,
+      "transitions": 14,
+      "scored_target_steps": 14,
+      "density_factor_evaluations": 14,
+      "public_belief_writes_in_objective": 0,
+      "partitions": {
+        "H1": {
+          "roots": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "block_lengths": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "target_indices": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "scored_target_steps": 14,
+          "prototype_episode_log_likelihood": [
+            473.0749317953616,
+            473.1872256410997,
+            472.75753985289845,
+            472.38019213802886
+          ]
+        }
+      },
+      "nll": -33.77831645208922,
+      "gradient_norm_by_prototype": [
+        54.61918640136719,
+        27.837839126586914,
+        62.279232025146484
+      ]
+    },
+    {
+      "episode": 2026112037,
+      "transitions": 14,
+      "scored_target_steps": 14,
+      "density_factor_evaluations": 14,
+      "public_belief_writes_in_objective": 0,
+      "partitions": {
+        "H1": {
+          "roots": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "block_lengths": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "target_indices": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "scored_target_steps": 14,
+          "prototype_episode_log_likelihood": [
+            -140.0541036903902,
+            -140.27329337092038,
+            -140.26688064715893,
+            -141.46026663326217
+          ]
+        }
+      },
+      "nll": 10.02791216218741,
+      "gradient_norm_by_prototype": [
+        24.05035400390625,
+        31.41455841064453,
+        131.55032348632812
+      ]
+    },
+    {
+      "episode": 2026112038,
+      "transitions": 14,
+      "scored_target_steps": 14,
+      "density_factor_evaluations": 14,
+      "public_belief_writes_in_objective": 0,
+      "partitions": {
+        "H1": {
+          "roots": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "block_lengths": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "target_indices": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "scored_target_steps": 14,
+          "prototype_episode_log_likelihood": [
+            928.6361120483247,
+            928.7199209047367,
+            928.9727510090681,
+            929.6200749662235
+          ]
+        }
+      },
+      "nll": -66.36202365471019,
+      "gradient_norm_by_prototype": [
+        45.534976959228516,
+        25.651887893676758,
+        103.0684814453125
+      ]
+    },
+    {
+      "episode": 2026112039,
+      "transitions": 14,
+      "scored_target_steps": 14,
+      "density_factor_evaluations": 14,
+      "public_belief_writes_in_objective": 0,
+      "partitions": {
+        "H1": {
+          "roots": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "block_lengths": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "target_indices": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "scored_target_steps": 14,
+          "prototype_episode_log_likelihood": [
+            1261.1488097236452,
+            1261.8620992318135,
+            1261.9696519018046,
+            1260.0030166525307
+          ]
+        }
+      },
+      "nll": -90.10648687015409,
+      "gradient_norm_by_prototype": [
+        6.385817527770996,
+        14.388073921203613,
+        19.111894607543945
+      ]
+    },
+    {
+      "episode": 2026112040,
+      "transitions": 14,
+      "scored_target_steps": 14,
+      "density_factor_evaluations": 14,
+      "public_belief_writes_in_objective": 0,
+      "partitions": {
+        "H1": {
+          "roots": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "block_lengths": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "target_indices": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "scored_target_steps": 14,
+          "prototype_episode_log_likelihood": [
+            469.09808177885355,
+            469.3115738717007,
+            469.06781007042395,
+            467.8355879859826
+          ]
+        }
+      },
+      "nll": -33.497286494071965,
+      "gradient_norm_by_prototype": [
+        35.12970733642578,
+        38.272640228271484,
+        85.26232147216797
+      ]
+    },
+    {
+      "episode": 2026112041,
+      "transitions": 14,
+      "scored_target_steps": 14,
+      "density_factor_evaluations": 14,
+      "public_belief_writes_in_objective": 0,
+      "partitions": {
+        "H1": {
+          "roots": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "block_lengths": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "target_indices": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "scored_target_steps": 14,
+          "prototype_episode_log_likelihood": [
+            813.7928198406184,
+            814.3609288876069,
+            813.7620743520489,
+            812.937824492545
+          ]
+        }
+      },
+      "nll": -58.13085890660488,
+      "gradient_norm_by_prototype": [
+        29.899961471557617,
+        23.3383846282959,
+        54.193458557128906
+      ]
+    },
+    {
+      "episode": 2026112042,
+      "transitions": 14,
+      "scored_target_steps": 14,
+      "density_factor_evaluations": 14,
+      "public_belief_writes_in_objective": 0,
+      "partitions": {
+        "H1": {
+          "roots": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "block_lengths": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "target_indices": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "scored_target_steps": 14,
+          "prototype_episode_log_likelihood": [
+            1307.800621336633,
+            1307.7644314786176,
+            1307.9989267298758,
+            1308.8261932669805
+          ]
+        }
+      },
+      "nll": -93.44296353799216,
+      "gradient_norm_by_prototype": [
+        24.888935089111328,
+        21.65474510192871,
+        42.19444274902344
+      ]
+    },
+    {
+      "episode": 2026112043,
+      "transitions": 14,
+      "scored_target_steps": 14,
+      "density_factor_evaluations": 14,
+      "public_belief_writes_in_objective": 0,
+      "partitions": {
+        "H1": {
+          "roots": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "block_lengths": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "target_indices": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "scored_target_steps": 14,
+          "prototype_episode_log_likelihood": [
+            -3790.9771759429595,
+            -3791.4531220617337,
+            -3790.839797019945,
+            -3790.254236628678
+          ]
+        }
+      },
+      "nll": 270.77063017980254,
+      "gradient_norm_by_prototype": [
+        1561.9744873046875,
+        578.1917114257812,
+        2356.015380859375
+      ]
+    },
+    {
+      "episode": 2026112044,
+      "transitions": 14,
+      "scored_target_steps": 14,
+      "density_factor_evaluations": 14,
+      "public_belief_writes_in_objective": 0,
+      "partitions": {
+        "H1": {
+          "roots": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "block_lengths": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "target_indices": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "scored_target_steps": 14,
+          "prototype_episode_log_likelihood": [
+            -428.4797779493755,
+            -427.8057413414741,
+            -428.9865190066718,
+            -428.8344124279864
+          ]
+        }
+      },
+      "nll": 30.601099235257465,
+      "gradient_norm_by_prototype": [
+        146.84471130371094,
+        173.71859741210938,
+        306.8024597167969
+      ]
+    },
+    {
+      "episode": 2026112045,
+      "transitions": 14,
+      "scored_target_steps": 14,
+      "density_factor_evaluations": 14,
+      "public_belief_writes_in_objective": 0,
+      "partitions": {
+        "H1": {
+          "roots": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "block_lengths": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "target_indices": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "scored_target_steps": 14,
+          "prototype_episode_log_likelihood": [
+            289.617638336129,
+            289.80520818961287,
+            290.0685839840801,
+            290.71542166925343
+          ]
+        }
+      },
+      "nll": -20.724598593933937,
+      "gradient_norm_by_prototype": [
+        34.3036994934082,
+        46.52106475830078,
+        126.83837127685547
+      ]
+    },
+    {
+      "episode": 2026112046,
+      "transitions": 14,
+      "scored_target_steps": 14,
+      "density_factor_evaluations": 14,
+      "public_belief_writes_in_objective": 0,
+      "partitions": {
+        "H1": {
+          "roots": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "block_lengths": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "target_indices": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "scored_target_steps": 14,
+          "prototype_episode_log_likelihood": [
+            865.0130281079236,
+            864.7277463844475,
+            864.3281132741638,
+            863.7174446524921
+          ]
+        }
+      },
+      "nll": -61.7539160046586,
+      "gradient_norm_by_prototype": [
+        26.89463996887207,
+        20.55095672607422,
+        72.82038879394531
+      ]
+    },
+    {
+      "episode": 2026112047,
+      "transitions": 14,
+      "scored_target_steps": 14,
+      "density_factor_evaluations": 14,
+      "public_belief_writes_in_objective": 0,
+      "partitions": {
+        "H1": {
+          "roots": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "block_lengths": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "target_indices": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "scored_target_steps": 14,
+          "prototype_episode_log_likelihood": [
+            880.4816641837551,
+            880.7260180426915,
+            880.7947555451735,
+            881.6643547403221
+          ]
+        }
+      },
+      "nll": -62.93057070344861,
+      "gradient_norm_by_prototype": [
+        36.36552810668945,
+        24.09765625,
+        138.7318115234375
+      ]
+    },
+    {
+      "episode": 2026112048,
+      "transitions": 14,
+      "scored_target_steps": 14,
+      "density_factor_evaluations": 14,
+      "public_belief_writes_in_objective": 0,
+      "partitions": {
+        "H1": {
+          "roots": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "block_lengths": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "target_indices": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "scored_target_steps": 14,
+          "prototype_episode_log_likelihood": [
+            -643.7614630428981,
+            -643.5611236719296,
+            -643.1566992467876,
+            -643.3418891860767
+          ]
+        }
+      },
+      "nll": 45.95926095821377,
+      "gradient_norm_by_prototype": [
+        41.47218322753906,
+        49.916133880615234,
+        112.8011245727539
+      ]
+    },
+    {
+      "episode": 2026112049,
+      "transitions": 14,
+      "scored_target_steps": 14,
+      "density_factor_evaluations": 14,
+      "public_belief_writes_in_objective": 0,
+      "partitions": {
+        "H1": {
+          "roots": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "block_lengths": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "target_indices": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "scored_target_steps": 14,
+          "prototype_episode_log_likelihood": [
+            1291.2436088068496,
+            1291.6098260503716,
+            1291.5913233844726,
+            1291.8002008211415
+          ]
+        }
+      },
+      "nll": -92.25575594567213,
+      "gradient_norm_by_prototype": [
+        50.100223541259766,
+        10.116996765136719,
+        73.1259536743164
+      ]
+    },
+    {
+      "episode": 2026112050,
+      "transitions": 14,
+      "scored_target_steps": 14,
+      "density_factor_evaluations": 14,
+      "public_belief_writes_in_objective": 0,
+      "partitions": {
+        "H1": {
+          "roots": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "block_lengths": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "target_indices": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "scored_target_steps": 14,
+          "prototype_episode_log_likelihood": [
+            -5534.7736710721165,
+            -5535.230588734503,
+            -5535.129436783516,
+            -5535.9951510850005
+          ]
+        }
+      },
+      "nll": 395.3709635833615,
+      "gradient_norm_by_prototype": [
+        127.06338500976562,
+        143.2585906982422,
+        603.6776123046875
+      ]
+    },
+    {
+      "episode": 2026112051,
+      "transitions": 14,
+      "scored_target_steps": 14,
+      "density_factor_evaluations": 14,
+      "public_belief_writes_in_objective": 0,
+      "partitions": {
+        "H1": {
+          "roots": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "block_lengths": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "target_indices": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "scored_target_steps": 14,
+          "prototype_episode_log_likelihood": [
+            1056.5137939879978,
+            1056.6932639267961,
+            1056.991146020413,
+            1057.233647146812
+          ]
+        }
+      },
+      "nll": -75.49257702573605,
+      "gradient_norm_by_prototype": [
+        40.25991439819336,
+        60.240142822265625,
+        111.71665954589844
+      ]
+    },
+    {
+      "episode": 2026112052,
+      "transitions": 14,
+      "scored_target_steps": 14,
+      "density_factor_evaluations": 14,
+      "public_belief_writes_in_objective": 0,
+      "partitions": {
+        "H1": {
+          "roots": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "block_lengths": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "target_indices": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "scored_target_steps": 14,
+          "prototype_episode_log_likelihood": [
+            960.4203103466482,
+            960.2391307284543,
+            959.9360241039732,
+            959.2746342414847
+          ]
+        }
+      },
+      "nll": -68.57516405504107,
+      "gradient_norm_by_prototype": [
+        40.15155029296875,
+        62.945404052734375,
+        116.76512908935547
+      ]
+    },
+    {
+      "episode": 2026112053,
+      "transitions": 14,
+      "scored_target_steps": 14,
+      "density_factor_evaluations": 14,
+      "public_belief_writes_in_objective": 0,
+      "partitions": {
+        "H1": {
+          "roots": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "block_lengths": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "target_indices": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "scored_target_steps": 14,
+          "prototype_episode_log_likelihood": [
+            -2839.1120214746616,
+            -2838.3482421616272,
+            -2838.036661470819,
+            -2839.970797678552
+          ]
+        }
+      },
+      "nll": 202.7590245932715,
+      "gradient_norm_by_prototype": [
+        162.5430908203125,
+        1867.510009765625,
+        592.5130615234375
+      ]
+    },
+    {
+      "episode": 2026112054,
+      "transitions": 14,
+      "scored_target_steps": 14,
+      "density_factor_evaluations": 14,
+      "public_belief_writes_in_objective": 0,
+      "partitions": {
+        "H1": {
+          "roots": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "block_lengths": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "target_indices": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "scored_target_steps": 14,
+          "prototype_episode_log_likelihood": [
+            806.9823729775833,
+            807.3261522240678,
+            807.6359467811308,
+            808.3927826837764
+          ]
+        }
+      },
+      "nll": -57.694850784005375,
+      "gradient_norm_by_prototype": [
+        40.30964279174805,
+        17.286680221557617,
+        58.066410064697266
+      ]
+    },
+    {
+      "episode": 2026112055,
+      "transitions": 14,
+      "scored_target_steps": 14,
+      "density_factor_evaluations": 14,
+      "public_belief_writes_in_objective": 0,
+      "partitions": {
+        "H1": {
+          "roots": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "block_lengths": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "target_indices": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "scored_target_steps": 14,
+          "prototype_episode_log_likelihood": [
+            699.4759828324184,
+            699.6737396229865,
+            699.9711568593216,
+            700.1516897533434
+          ]
+        }
+      },
+      "nll": -49.98941610202325,
+      "gradient_norm_by_prototype": [
+        36.66645050048828,
+        67.89959716796875,
+        108.30375671386719
+      ]
+    },
+    {
+      "episode": 2026112056,
+      "transitions": 14,
+      "scored_target_steps": 14,
+      "density_factor_evaluations": 14,
+      "public_belief_writes_in_objective": 0,
+      "partitions": {
+        "H1": {
+          "roots": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "block_lengths": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "target_indices": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "scored_target_steps": 14,
+          "prototype_episode_log_likelihood": [
+            757.0971611488336,
+            756.7592900021523,
+            756.509366611556,
+            756.1814159383882
+          ]
+        }
+      },
+      "nll": -54.049470848565406,
+      "gradient_norm_by_prototype": [
+        97.74381256103516,
+        147.35711669921875,
+        120.12028503417969
+      ]
+    },
+    {
+      "episode": 2026112057,
+      "transitions": 14,
+      "scored_target_steps": 14,
+      "density_factor_evaluations": 14,
+      "public_belief_writes_in_objective": 0,
+      "partitions": {
+        "H1": {
+          "roots": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "block_lengths": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "target_indices": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "scored_target_steps": 14,
+          "prototype_episode_log_likelihood": [
+            695.2232133581572,
+            695.5332230345441,
+            695.7321806864848,
+            696.07990471016
+          ]
+        }
+      },
+      "nll": -49.69217555600199,
+      "gradient_norm_by_prototype": [
+        32.62379837036133,
+        65.87068176269531,
+        233.1444854736328
+      ]
+    },
+    {
+      "episode": 2026112058,
+      "transitions": 14,
+      "scored_target_steps": 14,
+      "density_factor_evaluations": 14,
+      "public_belief_writes_in_objective": 0,
+      "partitions": {
+        "H1": {
+          "roots": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "block_lengths": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "target_indices": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "scored_target_steps": 14,
+          "prototype_episode_log_likelihood": [
+            562.7971737100609,
+            562.9959065440596,
+            563.235238129899,
+            563.3800229988647
+          ]
+        }
+      },
+      "nll": -40.2233287512806,
+      "gradient_norm_by_prototype": [
+        275.1211242675781,
+        673.3474731445312,
+        602.1669921875
+      ]
+    },
+    {
+      "episode": 2026112059,
+      "transitions": 14,
+      "scored_target_steps": 14,
+      "density_factor_evaluations": 14,
+      "public_belief_writes_in_objective": 0,
+      "partitions": {
+        "H1": {
+          "roots": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "block_lengths": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "target_indices": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "scored_target_steps": 14,
+          "prototype_episode_log_likelihood": [
+            -658.4575912052803,
+            -658.2276000749051,
+            -657.6288624300057,
+            -658.0816781342953
+          ]
+        }
+      },
+      "nll": 47.003660051047575,
+      "gradient_norm_by_prototype": [
+        22.717239379882812,
+        63.662635803222656,
+        93.7154541015625
+      ]
+    },
+    {
+      "episode": 2026112060,
+      "transitions": 14,
+      "scored_target_steps": 14,
+      "density_factor_evaluations": 14,
+      "public_belief_writes_in_objective": 0,
+      "partitions": {
+        "H1": {
+          "roots": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "block_lengths": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "target_indices": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "scored_target_steps": 14,
+          "prototype_episode_log_likelihood": [
+            739.3111826249327,
+            739.5554637305343,
+            739.2354286336672,
+            738.1349018836198
+          ]
+        }
+      },
+      "nll": -52.79865161884236,
+      "gradient_norm_by_prototype": [
+        35.28033447265625,
+        87.40412902832031,
+        68.13928985595703
+      ]
+    },
+    {
+      "episode": 2026112061,
+      "transitions": 14,
+      "scored_target_steps": 14,
+      "density_factor_evaluations": 14,
+      "public_belief_writes_in_objective": 0,
+      "partitions": {
+        "H1": {
+          "roots": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "block_lengths": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "target_indices": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "scored_target_steps": 14,
+          "prototype_episode_log_likelihood": [
+            1320.4525597524398,
+            1320.7101999110907,
+            1320.995982548602,
+            1321.2974017494234
+          ]
+        }
+      },
+      "nll": -94.35097686688712,
+      "gradient_norm_by_prototype": [
+        33.517333984375,
+        34.59144592285156,
+        108.36270904541016
+      ]
+    },
+    {
+      "episode": 2026112062,
+      "transitions": 14,
+      "scored_target_steps": 14,
+      "density_factor_evaluations": 14,
+      "public_belief_writes_in_objective": 0,
+      "partitions": {
+        "H1": {
+          "roots": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "block_lengths": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "target_indices": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "scored_target_steps": 14,
+          "prototype_episode_log_likelihood": [
+            620.5654122801268,
+            620.5705550588724,
+            621.0908394751783,
+            621.5060966347121
+          ]
+        }
+      },
+      "nll": -44.358070709394745,
+      "gradient_norm_by_prototype": [
+        51.01188659667969,
+        46.362247467041016,
+        114.27839660644531
+      ]
+    },
+    {
+      "episode": 2026112063,
+      "transitions": 14,
+      "scored_target_steps": 14,
+      "density_factor_evaluations": 14,
+      "public_belief_writes_in_objective": 0,
+      "partitions": {
+        "H1": {
+          "roots": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "block_lengths": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "target_indices": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "scored_target_steps": 14,
+          "prototype_episode_log_likelihood": [
+            503.46354286766467,
+            503.8323061456661,
+            503.0843610314464,
+            502.37372473801463
+          ]
+        }
+      },
+      "nll": -35.95145967902174,
+      "gradient_norm_by_prototype": [
+        98.3423080444336,
+        186.8658905029297,
+        117.35954284667969
+      ]
+    }
+  ]
+}

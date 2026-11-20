@@ -1,0 +1,28 @@
+{
+  "probability_law": "bounded continuous nu3, 185 fixed log-xi nodes, uniform response reference",
+  "tolerances": {
+    "max_pair_logBF_error": 0.0001,
+    "posterior_TV": 1e-05,
+    "absolute_log_density_error": 0.0001,
+    "gradient_error": "1e-4*(1+reference norm)"
+  },
+  "range_coverage": "all factual H1 and all disjoint free H<=4 target factors in each supplied split",
+  "selection_per_split_and_factor_family": [
+    "first",
+    "middle",
+    "last",
+    "largest whitened residual",
+    "smallest response deviation",
+    "largest response deviation",
+    "smallest prior entropy",
+    "largest logBF span",
+    "largest posterior TV update",
+    "first native-null action",
+    "first full H4 endpoint"
+  ],
+  "gradient_coverage": "all pairs and absolute branches in response space for every selected factor",
+  "native_gradient_coverage": "all pairs and absolute branches in full native offsets for selections caused by largest residual, largest response, smallest entropy, native-null action, or full H4 endpoint",
+  "posterior_priors": "actual causal nonuniform prefixes, uniform initialization; H4 factors inherit only factual prefix available at their root",
+  "reference": "independent adaptive SciPy continuous density and Gaussian score integral",
+  "task_score_or_checkpoint_selection": false
+}

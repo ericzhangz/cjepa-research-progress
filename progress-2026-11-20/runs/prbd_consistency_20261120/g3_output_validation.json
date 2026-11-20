@@ -1,0 +1,70 @@
+{
+  "passed": true,
+  "usable_episodes": 62,
+  "usable_targets_per_partition": 868,
+  "skipped": [
+    {
+      "seed": 2026112009,
+      "actual_length": 0,
+      "reason": "No actual successor after a three-state window"
+    },
+    {
+      "seed": 2026112030,
+      "actual_length": 0,
+      "reason": "No actual successor after a three-state window"
+    }
+  ],
+  "total_seconds": 93.40573929995298,
+  "arms": {
+    "episode_h1": {
+      "fit_seconds": 19.030464299954474,
+      "optimization_steps": 62,
+      "density_factor_evaluations": 868,
+      "offset_shape": [
+        3,
+        6,
+        192
+      ],
+      "offset_change_l2": [
+        0.24695970118045807,
+        0.2210206240415573,
+        0.31878548860549927
+      ],
+      "checkpoint_finite": true,
+      "nominal_anchor_exact": true,
+      "postfit_noop": {
+        "native_h1_h4_all_prototypes_exact_equal": true,
+        "observation_basis_exact_zero": true,
+        "branch_density_exact_equal": true,
+        "nonuniform_posterior_exactly_preserved": true
+      },
+      "training_mean_nll": -9.465183398804056
+    },
+    "episode_dual": {
+      "fit_seconds": 71.82386619999306,
+      "optimization_steps": 62,
+      "density_factor_evaluations": 1736,
+      "offset_shape": [
+        3,
+        6,
+        192
+      ],
+      "offset_change_l2": [
+        0.28080934286117554,
+        0.25480780005455017,
+        0.3040962219238281
+      ],
+      "checkpoint_finite": true,
+      "nominal_anchor_exact": true,
+      "postfit_noop": {
+        "native_h1_h4_all_prototypes_exact_equal": true,
+        "observation_basis_exact_zero": true,
+        "branch_density_exact_equal": true,
+        "nonuniform_posterior_exactly_preserved": true
+      },
+      "training_mean_nll": 24.72767554313904
+    }
+  },
+  "identical_initial_offsets_noise_reference_and_law": true,
+  "final_arm_offsets_l2_difference": 0.5186201930046082
+}
