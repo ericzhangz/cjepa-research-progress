@@ -1,0 +1,65 @@
+{
+  "passed": true,
+  "evaluations": [
+    {
+      "evaluation": "A_update_000062_dev",
+      "matched": 42,
+      "physical_nonzero": 39,
+      "max_recomputed_endpoint_MSE_error": 0.0,
+      "max_recomputed_interaction_dot_error": 0.0,
+      "same_native_root_and_family_exact": true,
+      "nominal_matches_saved_frozen": true,
+      "pooled_and_frozen_interaction_exact_zero": true
+    },
+    {
+      "evaluation": "A_update_000062_fresh",
+      "matched": 45,
+      "physical_nonzero": 44,
+      "max_recomputed_endpoint_MSE_error": 0.0,
+      "max_recomputed_interaction_dot_error": 0.0,
+      "same_native_root_and_family_exact": true,
+      "nominal_matches_saved_frozen": true,
+      "pooled_and_frozen_interaction_exact_zero": true
+    },
+    {
+      "evaluation": "A_final_dev",
+      "matched": 42,
+      "physical_nonzero": 39,
+      "max_recomputed_endpoint_MSE_error": 0.0,
+      "max_recomputed_interaction_dot_error": 0.0,
+      "same_native_root_and_family_exact": true,
+      "nominal_matches_saved_frozen": true,
+      "pooled_and_frozen_interaction_exact_zero": true
+    },
+    {
+      "evaluation": "A_final_fresh",
+      "matched": 45,
+      "physical_nonzero": 44,
+      "max_recomputed_endpoint_MSE_error": 0.0,
+      "max_recomputed_interaction_dot_error": 0.0,
+      "same_native_root_and_family_exact": true,
+      "nominal_matches_saved_frozen": true,
+      "pooled_and_frozen_interaction_exact_zero": true
+    },
+    {
+      "evaluation": "B_final_dev",
+      "matched": 42,
+      "physical_nonzero": 39,
+      "max_recomputed_endpoint_MSE_error": 0.0,
+      "max_recomputed_interaction_dot_error": 0.0,
+      "same_native_root_and_family_exact": true,
+      "nominal_matches_saved_frozen": true,
+      "pooled_and_frozen_interaction_exact_zero": true
+    },
+    {
+      "evaluation": "B_final_fresh",
+      "matched": 45,
+      "physical_nonzero": 44,
+      "max_recomputed_endpoint_MSE_error": 0.0,
+      "max_recomputed_interaction_dot_error": 0.0,
+      "same_native_root_and_family_exact": true,
+      "nominal_matches_saved_frozen": true,
+      "pooled_and_frozen_interaction_exact_zero": true
+    }
+  ]
+}

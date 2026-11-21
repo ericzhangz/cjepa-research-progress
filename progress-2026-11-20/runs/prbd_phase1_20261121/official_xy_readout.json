@@ -1,0 +1,9 @@
+{
+  "fit_episodes": 2048,
+  "check_episodes": 256,
+  "frames_per_episode": 4,
+  "rank": 193,
+  "fit_coordinate_rmse": 4.318836809420522,
+  "check_coordinate_rmse": 4.580546625871354,
+  "labels": "proprio; four fixed time quartiles; unchanged OLS + intercept; no capacity labels or dev/fresh positions used"
+}

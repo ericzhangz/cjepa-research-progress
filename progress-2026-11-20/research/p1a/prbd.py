@@ -282,6 +282,49 @@ def assimilate_continuous(issued, observation, scales=None, masses=None):
         relative_log_likelihood=relative, common_log_density=common)
 
 
+def assimilate_shared_student_t_nu3(issued, observation):
+    """Candidate full-dimensional t_3 law with fixed shared scale R=L L.T.
+
+    This changes the observation law, not the issued native response family.
+    The scale is R and the covariance is 3R; no covariance matching is applied.
+    All D whitened coordinates share one inverse-Gamma radial scale, so a
+    response-orthogonal residual generally changes branch likelihood ratios.
+    The historical bounded continuous law and its defaults remain unchanged.
+    """
+    if issued.reference != "uniform":
+        raise ValueError("Shared Student-t candidate requires reference='uniform'")
+    observation = _tensor(observation, issued.prior.device)
+    d, _ = issued.basis.shape
+    if observation.shape != (d,):
+        raise ValueError("observation must have shape [D]")
+    x = torch.linalg.solve_triangular(
+        issued.noise_cholesky, (observation-issued.center)[:, None], upper=False)[:, 0]
+    residual = x[:, None]-issued.basis
+    squared = residual.square().sum(0)
+    exponent = (d+3)/2
+    normalizer = (math.lgamma(exponent)-math.lgamma(1.5)
+                  -.5*d*math.log(3*math.pi)+issued.log_jacobian)
+    absolute = normalizer-exponent*torch.log1p(squared/3)
+    # Compute the small change in squared distance directly, before adding a
+    # potentially enormous common orthogonal residual. For a large reduction
+    # use separate positive logs to avoid log1p rounding its argument to -1.
+    delta = ((issued.basis[:, :1]-issued.basis)
+             * (2*x[:, None]-issued.basis[:, :1]-issued.basis)).sum(0)
+    fraction = delta/(3+squared[0])
+    small = fraction > -.5
+    safe_fraction = torch.where(small, fraction, torch.zeros_like(fraction))
+    log_ratio = torch.where(small, torch.log1p(safe_fraction),
+                            torch.log(3+squared)-torch.log(3+squared[0]))
+    relative = -exponent*log_ratio
+    posterior = (_log_mass(issued.prior)+relative).softmax(0)
+    if torch.equal(relative, relative[0].expand_as(relative)):
+        posterior = issued.prior.detach()+(posterior-posterior.detach())
+    return PRBDResult(
+        posterior=posterior, log_likelihood=absolute,
+        log_predictive=torch.logsumexp(_log_mass(issued.prior)+absolute, 0),
+        relative_log_likelihood=relative, common_log_density=absolute[0])
+
+
 def _bounded_components(issued, x, scales):
     """Use P=D(D.T D+I)^-1 D.T without changing the branch mean offsets.
 

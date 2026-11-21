@@ -10,17 +10,24 @@ import sys
 import numpy as np
 
 
+def environment_class():
+    source = os.environ.get("PRBD_ENV_SOURCE")
+    if source and source != sys.path[0]:
+        sys.path.insert(0, source)
+    from stable_worldmodel.envs.two_room.env import TwoRoomEnv
+    return TwoRoomEnv
+
+
 def rollout(seed, speed, commands):
     """Execute every stored transition through actual env.step, stopping at done."""
-    if os.environ.get("PRBD_ENV_SOURCE"):
-        sys.path.insert(0, os.environ["PRBD_ENV_SOURCE"])
-    from stable_worldmodel.envs.two_room.env import TwoRoomEnv
-
     blocks = len(commands)
-    env = TwoRoomEnv(render_mode="rgb_array", render_target=False)
+    speeds = np.broadcast_to(np.asarray(speed, dtype=np.float32), (blocks,))
+    if not np.isfinite(speeds).all() or np.any((speeds < 1.75) | (speeds > 10.5)):
+        raise ValueError("Speed schedule must lie in the native public variation range")
+    env = environment_class()(render_mode="rgb_array", render_target=False)
     obs, info = env.reset(seed=int(seed), options={"variation_values": {
-        "agent.speed": np.array([speed], dtype=np.float32)}})
-    if float(env.variation_space["agent"]["speed"].value.item()) != speed:
+        "agent.speed": np.array([speeds[0]], dtype=np.float32)}})
+    if float(env.variation_space["agent"]["speed"].value.item()) != speeds[0]:
         raise ValueError("Native public speed variation was not applied")
     rgb = np.zeros((blocks+1, 224, 224, 3), dtype=np.uint8)
     rgb[0] = env.render()
@@ -37,13 +44,16 @@ def rollout(seed, speed, commands):
     count = 0
     done = False
     for block, actions in enumerate(commands):
+        env.variation_space["agent"]["speed"].set_value(np.array([speeds[block]], dtype=np.float32))
+        if float(env.variation_space["agent"]["speed"].value.item()) != speeds[block]:
+            raise ValueError("Native public speed schedule was not applied")
         for primitive, action in enumerate(actions):
             before = positions[count].copy()
             obs, reward, term, trunc, info = env.step(action)
             count += 1
             actual = np.asarray(info["state"], dtype=np.float32).copy()
             positions[count] = actual
-            expected = before + np.clip(action, -1, 1) * np.float32(speed)
+            expected = before + np.clip(action, -1, 1) * speeds[block]
             collision[block, primitive] = np.max(np.abs(actual - expected)) > 1e-5
             primitive_valid[block, primitive] = True
             terminated[block, primitive] = term
@@ -66,7 +76,6 @@ def rollout(seed, speed, commands):
         "terminated": terminated, "truncated": truncated,
         "primitive_count": np.array(count, dtype=np.int64),
         "seed": np.array(seed, dtype=np.int64), "speed": np.array(speed, dtype=np.float32)}
-
 
 
 def stack_records(records):

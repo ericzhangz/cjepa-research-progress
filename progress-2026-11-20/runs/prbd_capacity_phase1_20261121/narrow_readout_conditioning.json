@@ -1,0 +1,7 @@
+{
+  "valid_frames": 1056,
+  "bitwise_distinct_encoded_frames": 276,
+  "OLS_condition_number": 3027.836019553364,
+  "OLS_singular_value_min": 0.05161100434800892,
+  "OLS_coefficient_spectral_norm": 183.87887999796214
+}

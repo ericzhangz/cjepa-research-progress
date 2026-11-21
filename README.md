@@ -1,5 +1,7 @@
 # CJepa 研究进展与代码交接
 
+**2026-11-21 · PRBD Phase 1–2**　新增内容收在 11 月 20 日目录。Phase 1 给定真速度时，Arm A 在 44 个独立起点的 H4 latent 有向恢复率为 31.98%。Phase 2 用真实单轨无标签训练后，在另一批 34 个非零交互起点上，完整写入相对均匀支持的 H4 有向恢复率为 −0.0733%。156 次真实静止到达中，68 次写入 TV≤0.01，5 次超过 0.5。Phase 3 尚未启动。[Phase 2 技术报告](progress-2026-11-20/runs/prbd_phase2_20261121/REPORT.md) · [Phase 1 容量对照](progress-2026-11-20/runs/prbd_phase1_20261121/REPORT.md) · [代码和数据入口](progress-2026-11-20/)
+
 **2026-11-20 · PRBD 单轨学习与跨动作预测**　TwoRoom 的 39 个非零同窗开发起点上，多时域主方案首次写入的 H1/H4 有向恢复为 +0.0574%/+0.0518%，完整写入为 −0.0650%/−0.0284%。G1、G2 通过，G3 主方案未通过。[本版代码和数据](progress-2026-11-20/) · [完整技术报告](progress-2026-11-20/runs/prbd_consistency_20261120/REPORT.md) · [逐起点结果](progress-2026-11-20/runs/prbd_consistency_20261120/paired_reset_results.csv)
 
 **2026-11-19 · PRBD**　[技术报告及数据入口](progress-2026-11-19/) · [核心实现](progress-2026-11-19/research/p1a/prbd.py) · [TwoRoom 分组结果 CSV](progress-2026-11-19/runs/prbd_tworoom_speed_20261119/interaction_summary.csv)。在 11 个跨速度同窗起点上，一次真实探测对随后动作差的有向恢复率为 H1 −0.0824%、H4 −0.3281%。报告同时给出未训练对照、绝对端点误差及 PushT、PushObj 的已测范围。

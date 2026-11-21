@@ -1,0 +1,9 @@
+{
+  "batched_vs_original_max_absolute_value_error": 3.552713678800501e-15,
+  "batched_vs_original_max_first_gradient_error": 2.842170943040401e-14,
+  "independent_finite_difference_gradcheck": true,
+  "repeated_zero_weak_responses_finite": true,
+  "zero_separation_returns_transported_prior_bitwise": true,
+  "zero_separation_does_not_restore_previous_belief": true,
+  "quadrature_nodes": 185
+}

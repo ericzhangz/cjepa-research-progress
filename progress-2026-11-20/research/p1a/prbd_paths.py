@@ -29,3 +29,7 @@ def output_path(path):
         result = OUTPUT / relative
     result.parent.mkdir(parents=True, exist_ok=True)
     return result
+
+
+# A working copy of the archived run can also be selected for end-to-end replay.
+PHASE2 = Path(os.environ.get("PRBD_PHASE2_RUN_DIR", str(ROOT / "runs/prbd_phase2_20261121"))).expanduser().resolve()

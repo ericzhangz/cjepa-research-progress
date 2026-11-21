@@ -1,0 +1,7 @@
+{
+  "objective": 0.07427338801339972,
+  "nll_per_dimension": 0.07427337738032419,
+  "min_deviation_per_dimension": 1.0633075034806959e-05,
+  "weighted_min_deviation": 1.0633075514461505e-08,
+  "read_roots": 5522
+}

@@ -1,0 +1,29 @@
+{
+  "z_shape": [
+    48,
+    2,
+    2,
+    11,
+    192
+  ],
+  "a_shape": [
+    48,
+    2,
+    2,
+    10,
+    192
+  ],
+  "finite": true,
+  "keys": [
+    "a",
+    "lengths",
+    "matched_rgb",
+    "seed",
+    "z"
+  ],
+  "encoder_device": "cuda",
+  "dtype": "torch.float32",
+  "equal_adjacent_rgb_pairs": 1356,
+  "equal_adjacent_rgb_latents_bitwise": true,
+  "matched_root_latents_bitwise": true
+}

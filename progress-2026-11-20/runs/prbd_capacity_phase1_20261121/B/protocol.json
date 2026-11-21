@@ -1,0 +1,4192 @@
+{
+  "training_seeds": [
+    2026112000,
+    2026112001,
+    2026112002,
+    2026112003,
+    2026112004,
+    2026112005,
+    2026112006,
+    2026112007,
+    2026112008,
+    2026112010,
+    2026112011,
+    2026112012,
+    2026112013,
+    2026112014,
+    2026112015,
+    2026112016,
+    2026112017,
+    2026112018,
+    2026112019,
+    2026112020,
+    2026112021,
+    2026112022,
+    2026112023,
+    2026112024,
+    2026112025,
+    2026112026,
+    2026112027,
+    2026112028,
+    2026112029,
+    2026112031,
+    2026112032,
+    2026112033,
+    2026112034,
+    2026112035,
+    2026112036,
+    2026112037,
+    2026112038,
+    2026112039,
+    2026112040,
+    2026112041,
+    2026112042,
+    2026112043,
+    2026112044,
+    2026112045,
+    2026112046,
+    2026112047,
+    2026112048,
+    2026112049,
+    2026112050,
+    2026112051,
+    2026112052,
+    2026112053,
+    2026112054,
+    2026112055,
+    2026112056,
+    2026112057,
+    2026112058,
+    2026112059,
+    2026112060,
+    2026112061,
+    2026112062,
+    2026112063
+  ],
+  "skipped_seeds": [
+    2026112009,
+    2026112030
+  ],
+  "roots": [
+    {
+      "seed": 2026112000,
+      "root": 2,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112000,
+      "root": 3,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112000,
+      "root": 4,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112000,
+      "root": 5,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112000,
+      "root": 6,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112000,
+      "root": 7,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112000,
+      "root": 8,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112000,
+      "root": 9,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112000,
+      "root": 10,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112000,
+      "root": 11,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112000,
+      "root": 12,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112001,
+      "root": 2,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112001,
+      "root": 3,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112001,
+      "root": 4,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112001,
+      "root": 5,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112001,
+      "root": 6,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112001,
+      "root": 7,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112001,
+      "root": 8,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112001,
+      "root": 9,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112001,
+      "root": 10,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112001,
+      "root": 11,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112001,
+      "root": 12,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112002,
+      "root": 2,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112002,
+      "root": 3,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112002,
+      "root": 4,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112002,
+      "root": 5,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112002,
+      "root": 6,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112002,
+      "root": 7,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112002,
+      "root": 8,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112002,
+      "root": 9,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112002,
+      "root": 10,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112002,
+      "root": 11,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112002,
+      "root": 12,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112003,
+      "root": 2,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112003,
+      "root": 3,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112003,
+      "root": 4,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112003,
+      "root": 5,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112003,
+      "root": 6,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112003,
+      "root": 7,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112003,
+      "root": 8,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112003,
+      "root": 9,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112003,
+      "root": 10,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112003,
+      "root": 11,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112003,
+      "root": 12,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112004,
+      "root": 2,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112004,
+      "root": 3,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112004,
+      "root": 4,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112004,
+      "root": 5,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112004,
+      "root": 6,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112004,
+      "root": 7,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112004,
+      "root": 8,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112004,
+      "root": 9,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112004,
+      "root": 10,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112004,
+      "root": 11,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112004,
+      "root": 12,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112005,
+      "root": 2,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112005,
+      "root": 3,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112005,
+      "root": 4,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112005,
+      "root": 5,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112005,
+      "root": 6,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112005,
+      "root": 7,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112005,
+      "root": 8,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112005,
+      "root": 9,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112005,
+      "root": 10,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112005,
+      "root": 11,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112005,
+      "root": 12,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112006,
+      "root": 2,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112006,
+      "root": 3,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112006,
+      "root": 4,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112006,
+      "root": 5,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112006,
+      "root": 6,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112006,
+      "root": 7,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112006,
+      "root": 8,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112006,
+      "root": 9,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112006,
+      "root": 10,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112006,
+      "root": 11,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112006,
+      "root": 12,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112007,
+      "root": 2,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112007,
+      "root": 3,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112007,
+      "root": 4,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112007,
+      "root": 5,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112007,
+      "root": 6,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112007,
+      "root": 7,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112007,
+      "root": 8,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112007,
+      "root": 9,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112007,
+      "root": 10,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112007,
+      "root": 11,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112007,
+      "root": 12,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112008,
+      "root": 2,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112008,
+      "root": 3,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112008,
+      "root": 4,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112008,
+      "root": 5,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112008,
+      "root": 6,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112008,
+      "root": 7,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112008,
+      "root": 8,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112008,
+      "root": 9,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112008,
+      "root": 10,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112008,
+      "root": 11,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112008,
+      "root": 12,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112010,
+      "root": 2,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112010,
+      "root": 3,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112010,
+      "root": 4,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112010,
+      "root": 5,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112010,
+      "root": 6,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112010,
+      "root": 7,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112010,
+      "root": 8,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112010,
+      "root": 9,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112010,
+      "root": 10,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112010,
+      "root": 11,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112010,
+      "root": 12,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112011,
+      "root": 2,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112011,
+      "root": 3,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112011,
+      "root": 4,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112011,
+      "root": 5,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112011,
+      "root": 6,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112011,
+      "root": 7,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112011,
+      "root": 8,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112011,
+      "root": 9,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112011,
+      "root": 10,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112011,
+      "root": 11,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112011,
+      "root": 12,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112012,
+      "root": 2,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112012,
+      "root": 3,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112012,
+      "root": 4,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112012,
+      "root": 5,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112012,
+      "root": 6,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112012,
+      "root": 7,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112012,
+      "root": 8,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112012,
+      "root": 9,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112012,
+      "root": 10,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112012,
+      "root": 11,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112012,
+      "root": 12,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112013,
+      "root": 2,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112013,
+      "root": 3,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112013,
+      "root": 4,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112013,
+      "root": 5,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112013,
+      "root": 6,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112013,
+      "root": 7,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112013,
+      "root": 8,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112013,
+      "root": 9,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112013,
+      "root": 10,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112013,
+      "root": 11,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112013,
+      "root": 12,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112014,
+      "root": 2,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112014,
+      "root": 3,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112014,
+      "root": 4,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112014,
+      "root": 5,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112014,
+      "root": 6,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112014,
+      "root": 7,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112014,
+      "root": 8,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112014,
+      "root": 9,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112014,
+      "root": 10,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112014,
+      "root": 11,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112014,
+      "root": 12,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112015,
+      "root": 2,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112015,
+      "root": 3,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112015,
+      "root": 4,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112015,
+      "root": 5,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112015,
+      "root": 6,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112015,
+      "root": 7,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112015,
+      "root": 8,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112015,
+      "root": 9,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112015,
+      "root": 10,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112015,
+      "root": 11,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112015,
+      "root": 12,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112016,
+      "root": 2,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112016,
+      "root": 3,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112016,
+      "root": 4,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112016,
+      "root": 5,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112016,
+      "root": 6,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112016,
+      "root": 7,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112016,
+      "root": 8,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112016,
+      "root": 9,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112016,
+      "root": 10,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112016,
+      "root": 11,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112016,
+      "root": 12,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112017,
+      "root": 2,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112017,
+      "root": 3,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112017,
+      "root": 4,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112017,
+      "root": 5,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112017,
+      "root": 6,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112017,
+      "root": 7,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112017,
+      "root": 8,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112017,
+      "root": 9,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112017,
+      "root": 10,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112017,
+      "root": 11,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112017,
+      "root": 12,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112018,
+      "root": 2,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112018,
+      "root": 3,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112018,
+      "root": 4,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112018,
+      "root": 5,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112018,
+      "root": 6,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112018,
+      "root": 7,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112018,
+      "root": 8,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112018,
+      "root": 9,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112018,
+      "root": 10,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112018,
+      "root": 11,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112018,
+      "root": 12,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112019,
+      "root": 2,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112019,
+      "root": 3,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112019,
+      "root": 4,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112019,
+      "root": 5,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112019,
+      "root": 6,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112019,
+      "root": 7,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112019,
+      "root": 8,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112019,
+      "root": 9,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112019,
+      "root": 10,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112019,
+      "root": 11,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112019,
+      "root": 12,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112020,
+      "root": 2,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112020,
+      "root": 3,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112020,
+      "root": 4,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112020,
+      "root": 5,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112020,
+      "root": 6,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112020,
+      "root": 7,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112020,
+      "root": 8,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112020,
+      "root": 9,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112020,
+      "root": 10,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112020,
+      "root": 11,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112020,
+      "root": 12,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112021,
+      "root": 2,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112021,
+      "root": 3,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112021,
+      "root": 4,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112021,
+      "root": 5,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112021,
+      "root": 6,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112021,
+      "root": 7,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112021,
+      "root": 8,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112021,
+      "root": 9,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112021,
+      "root": 10,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112021,
+      "root": 11,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112021,
+      "root": 12,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112022,
+      "root": 2,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112022,
+      "root": 3,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112022,
+      "root": 4,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112022,
+      "root": 5,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112022,
+      "root": 6,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112022,
+      "root": 7,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112022,
+      "root": 8,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112022,
+      "root": 9,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112022,
+      "root": 10,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112022,
+      "root": 11,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112022,
+      "root": 12,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112023,
+      "root": 2,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112023,
+      "root": 3,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112023,
+      "root": 4,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112023,
+      "root": 5,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112023,
+      "root": 6,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112023,
+      "root": 7,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112023,
+      "root": 8,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112023,
+      "root": 9,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112023,
+      "root": 10,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112023,
+      "root": 11,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112023,
+      "root": 12,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112024,
+      "root": 2,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112024,
+      "root": 3,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112024,
+      "root": 4,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112024,
+      "root": 5,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112024,
+      "root": 6,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112024,
+      "root": 7,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112024,
+      "root": 8,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112024,
+      "root": 9,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112024,
+      "root": 10,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112024,
+      "root": 11,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112024,
+      "root": 12,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112025,
+      "root": 2,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112025,
+      "root": 3,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112025,
+      "root": 4,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112025,
+      "root": 5,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112025,
+      "root": 6,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112025,
+      "root": 7,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112025,
+      "root": 8,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112025,
+      "root": 9,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112025,
+      "root": 10,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112025,
+      "root": 11,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112025,
+      "root": 12,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112026,
+      "root": 2,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112026,
+      "root": 3,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112026,
+      "root": 4,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112026,
+      "root": 5,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112026,
+      "root": 6,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112026,
+      "root": 7,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112026,
+      "root": 8,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112026,
+      "root": 9,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112026,
+      "root": 10,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112026,
+      "root": 11,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112026,
+      "root": 12,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112027,
+      "root": 2,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112027,
+      "root": 3,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112027,
+      "root": 4,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112027,
+      "root": 5,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112027,
+      "root": 6,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112027,
+      "root": 7,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112027,
+      "root": 8,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112027,
+      "root": 9,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112027,
+      "root": 10,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112027,
+      "root": 11,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112027,
+      "root": 12,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112028,
+      "root": 2,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112028,
+      "root": 3,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112028,
+      "root": 4,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112028,
+      "root": 5,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112028,
+      "root": 6,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112028,
+      "root": 7,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112028,
+      "root": 8,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112028,
+      "root": 9,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112028,
+      "root": 10,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112028,
+      "root": 11,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112028,
+      "root": 12,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112029,
+      "root": 2,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112029,
+      "root": 3,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112029,
+      "root": 4,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112029,
+      "root": 5,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112029,
+      "root": 6,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112029,
+      "root": 7,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112029,
+      "root": 8,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112029,
+      "root": 9,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112029,
+      "root": 10,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112029,
+      "root": 11,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112029,
+      "root": 12,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112031,
+      "root": 2,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112031,
+      "root": 3,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112031,
+      "root": 4,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112031,
+      "root": 5,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112031,
+      "root": 6,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112031,
+      "root": 7,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112031,
+      "root": 8,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112031,
+      "root": 9,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112031,
+      "root": 10,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112031,
+      "root": 11,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112031,
+      "root": 12,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112032,
+      "root": 2,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112032,
+      "root": 3,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112032,
+      "root": 4,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112032,
+      "root": 5,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112032,
+      "root": 6,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112032,
+      "root": 7,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112032,
+      "root": 8,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112032,
+      "root": 9,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112032,
+      "root": 10,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112032,
+      "root": 11,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112032,
+      "root": 12,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112033,
+      "root": 2,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112033,
+      "root": 3,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112033,
+      "root": 4,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112033,
+      "root": 5,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112033,
+      "root": 6,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112033,
+      "root": 7,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112033,
+      "root": 8,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112033,
+      "root": 9,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112033,
+      "root": 10,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112033,
+      "root": 11,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112033,
+      "root": 12,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112034,
+      "root": 2,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112034,
+      "root": 3,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112034,
+      "root": 4,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112034,
+      "root": 5,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112034,
+      "root": 6,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112034,
+      "root": 7,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112034,
+      "root": 8,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112034,
+      "root": 9,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112034,
+      "root": 10,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112034,
+      "root": 11,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112034,
+      "root": 12,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112035,
+      "root": 2,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112035,
+      "root": 3,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112035,
+      "root": 4,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112035,
+      "root": 5,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112035,
+      "root": 6,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112035,
+      "root": 7,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112035,
+      "root": 8,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112035,
+      "root": 9,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112035,
+      "root": 10,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112035,
+      "root": 11,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112035,
+      "root": 12,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112036,
+      "root": 2,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112036,
+      "root": 3,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112036,
+      "root": 4,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112036,
+      "root": 5,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112036,
+      "root": 6,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112036,
+      "root": 7,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112036,
+      "root": 8,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112036,
+      "root": 9,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112036,
+      "root": 10,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112036,
+      "root": 11,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112036,
+      "root": 12,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112037,
+      "root": 2,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112037,
+      "root": 3,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112037,
+      "root": 4,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112037,
+      "root": 5,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112037,
+      "root": 6,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112037,
+      "root": 7,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112037,
+      "root": 8,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112037,
+      "root": 9,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112037,
+      "root": 10,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112037,
+      "root": 11,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112037,
+      "root": 12,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112038,
+      "root": 2,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112038,
+      "root": 3,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112038,
+      "root": 4,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112038,
+      "root": 5,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112038,
+      "root": 6,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112038,
+      "root": 7,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112038,
+      "root": 8,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112038,
+      "root": 9,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112038,
+      "root": 10,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112038,
+      "root": 11,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112038,
+      "root": 12,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112039,
+      "root": 2,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112039,
+      "root": 3,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112039,
+      "root": 4,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112039,
+      "root": 5,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112039,
+      "root": 6,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112039,
+      "root": 7,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112039,
+      "root": 8,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112039,
+      "root": 9,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112039,
+      "root": 10,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112039,
+      "root": 11,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112039,
+      "root": 12,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112040,
+      "root": 2,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112040,
+      "root": 3,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112040,
+      "root": 4,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112040,
+      "root": 5,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112040,
+      "root": 6,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112040,
+      "root": 7,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112040,
+      "root": 8,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112040,
+      "root": 9,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112040,
+      "root": 10,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112040,
+      "root": 11,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112040,
+      "root": 12,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112041,
+      "root": 2,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112041,
+      "root": 3,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112041,
+      "root": 4,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112041,
+      "root": 5,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112041,
+      "root": 6,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112041,
+      "root": 7,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112041,
+      "root": 8,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112041,
+      "root": 9,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112041,
+      "root": 10,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112041,
+      "root": 11,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112041,
+      "root": 12,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112042,
+      "root": 2,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112042,
+      "root": 3,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112042,
+      "root": 4,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112042,
+      "root": 5,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112042,
+      "root": 6,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112042,
+      "root": 7,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112042,
+      "root": 8,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112042,
+      "root": 9,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112042,
+      "root": 10,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112042,
+      "root": 11,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112042,
+      "root": 12,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112043,
+      "root": 2,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112043,
+      "root": 3,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112043,
+      "root": 4,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112043,
+      "root": 5,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112043,
+      "root": 6,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112043,
+      "root": 7,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112043,
+      "root": 8,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112043,
+      "root": 9,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112043,
+      "root": 10,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112043,
+      "root": 11,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112043,
+      "root": 12,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112044,
+      "root": 2,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112044,
+      "root": 3,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112044,
+      "root": 4,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112044,
+      "root": 5,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112044,
+      "root": 6,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112044,
+      "root": 7,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112044,
+      "root": 8,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112044,
+      "root": 9,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112044,
+      "root": 10,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112044,
+      "root": 11,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112044,
+      "root": 12,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112045,
+      "root": 2,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112045,
+      "root": 3,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112045,
+      "root": 4,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112045,
+      "root": 5,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112045,
+      "root": 6,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112045,
+      "root": 7,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112045,
+      "root": 8,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112045,
+      "root": 9,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112045,
+      "root": 10,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112045,
+      "root": 11,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112045,
+      "root": 12,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112046,
+      "root": 2,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112046,
+      "root": 3,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112046,
+      "root": 4,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112046,
+      "root": 5,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112046,
+      "root": 6,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112046,
+      "root": 7,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112046,
+      "root": 8,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112046,
+      "root": 9,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112046,
+      "root": 10,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112046,
+      "root": 11,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112046,
+      "root": 12,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112047,
+      "root": 2,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112047,
+      "root": 3,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112047,
+      "root": 4,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112047,
+      "root": 5,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112047,
+      "root": 6,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112047,
+      "root": 7,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112047,
+      "root": 8,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112047,
+      "root": 9,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112047,
+      "root": 10,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112047,
+      "root": 11,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112047,
+      "root": 12,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112048,
+      "root": 2,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112048,
+      "root": 3,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112048,
+      "root": 4,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112048,
+      "root": 5,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112048,
+      "root": 6,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112048,
+      "root": 7,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112048,
+      "root": 8,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112048,
+      "root": 9,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112048,
+      "root": 10,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112048,
+      "root": 11,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112048,
+      "root": 12,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112049,
+      "root": 2,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112049,
+      "root": 3,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112049,
+      "root": 4,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112049,
+      "root": 5,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112049,
+      "root": 6,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112049,
+      "root": 7,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112049,
+      "root": 8,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112049,
+      "root": 9,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112049,
+      "root": 10,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112049,
+      "root": 11,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112049,
+      "root": 12,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112050,
+      "root": 2,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112050,
+      "root": 3,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112050,
+      "root": 4,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112050,
+      "root": 5,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112050,
+      "root": 6,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112050,
+      "root": 7,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112050,
+      "root": 8,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112050,
+      "root": 9,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112050,
+      "root": 10,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112050,
+      "root": 11,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112050,
+      "root": 12,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112051,
+      "root": 2,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112051,
+      "root": 3,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112051,
+      "root": 4,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112051,
+      "root": 5,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112051,
+      "root": 6,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112051,
+      "root": 7,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112051,
+      "root": 8,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112051,
+      "root": 9,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112051,
+      "root": 10,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112051,
+      "root": 11,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112051,
+      "root": 12,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112052,
+      "root": 2,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112052,
+      "root": 3,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112052,
+      "root": 4,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112052,
+      "root": 5,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112052,
+      "root": 6,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112052,
+      "root": 7,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112052,
+      "root": 8,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112052,
+      "root": 9,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112052,
+      "root": 10,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112052,
+      "root": 11,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112052,
+      "root": 12,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112053,
+      "root": 2,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112053,
+      "root": 3,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112053,
+      "root": 4,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112053,
+      "root": 5,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112053,
+      "root": 6,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112053,
+      "root": 7,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112053,
+      "root": 8,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112053,
+      "root": 9,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112053,
+      "root": 10,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112053,
+      "root": 11,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112053,
+      "root": 12,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112054,
+      "root": 2,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112054,
+      "root": 3,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112054,
+      "root": 4,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112054,
+      "root": 5,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112054,
+      "root": 6,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112054,
+      "root": 7,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112054,
+      "root": 8,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112054,
+      "root": 9,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112054,
+      "root": 10,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112054,
+      "root": 11,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112054,
+      "root": 12,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112055,
+      "root": 2,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112055,
+      "root": 3,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112055,
+      "root": 4,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112055,
+      "root": 5,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112055,
+      "root": 6,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112055,
+      "root": 7,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112055,
+      "root": 8,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112055,
+      "root": 9,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112055,
+      "root": 10,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112055,
+      "root": 11,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112055,
+      "root": 12,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112056,
+      "root": 2,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112056,
+      "root": 3,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112056,
+      "root": 4,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112056,
+      "root": 5,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112056,
+      "root": 6,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112056,
+      "root": 7,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112056,
+      "root": 8,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112056,
+      "root": 9,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112056,
+      "root": 10,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112056,
+      "root": 11,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112056,
+      "root": 12,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112057,
+      "root": 2,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112057,
+      "root": 3,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112057,
+      "root": 4,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112057,
+      "root": 5,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112057,
+      "root": 6,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112057,
+      "root": 7,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112057,
+      "root": 8,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112057,
+      "root": 9,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112057,
+      "root": 10,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112057,
+      "root": 11,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112057,
+      "root": 12,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112058,
+      "root": 2,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112058,
+      "root": 3,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112058,
+      "root": 4,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112058,
+      "root": 5,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112058,
+      "root": 6,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112058,
+      "root": 7,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112058,
+      "root": 8,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112058,
+      "root": 9,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112058,
+      "root": 10,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112058,
+      "root": 11,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112058,
+      "root": 12,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112059,
+      "root": 2,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112059,
+      "root": 3,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112059,
+      "root": 4,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112059,
+      "root": 5,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112059,
+      "root": 6,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112059,
+      "root": 7,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112059,
+      "root": 8,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112059,
+      "root": 9,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112059,
+      "root": 10,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112059,
+      "root": 11,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112059,
+      "root": 12,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112060,
+      "root": 2,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112060,
+      "root": 3,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112060,
+      "root": 4,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112060,
+      "root": 5,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112060,
+      "root": 6,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112060,
+      "root": 7,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112060,
+      "root": 8,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112060,
+      "root": 9,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112060,
+      "root": 10,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112060,
+      "root": 11,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112060,
+      "root": 12,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112061,
+      "root": 2,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112061,
+      "root": 3,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112061,
+      "root": 4,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112061,
+      "root": 5,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112061,
+      "root": 6,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112061,
+      "root": 7,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112061,
+      "root": 8,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112061,
+      "root": 9,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112061,
+      "root": 10,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112061,
+      "root": 11,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112061,
+      "root": 12,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112062,
+      "root": 2,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112062,
+      "root": 3,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112062,
+      "root": 4,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112062,
+      "root": 5,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112062,
+      "root": 6,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112062,
+      "root": 7,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112062,
+      "root": 8,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112062,
+      "root": 9,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112062,
+      "root": 10,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112062,
+      "root": 11,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112062,
+      "root": 12,
+      "physical_speed": 2.5,
+      "oracle_branch": 1
+    },
+    {
+      "seed": 2026112063,
+      "root": 2,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112063,
+      "root": 3,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112063,
+      "root": 4,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112063,
+      "root": 5,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112063,
+      "root": 6,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112063,
+      "root": 7,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112063,
+      "root": 8,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112063,
+      "root": 9,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112063,
+      "root": 10,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112063,
+      "root": 11,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    },
+    {
+      "seed": 2026112063,
+      "root": 12,
+      "physical_speed": 7.5,
+      "oracle_branch": 2
+    }
+  ],
+  "condition_indices": {
+    "slow_2.5": 1,
+    "fast_7.5": 2
+  },
+  "speed_assignment_source": "prbd_consistency_data.collect: RNG20261120 permutation of tile([2.5,7.5],32)",
+  "arm": "B",
+  "device": "cuda",
+  "batch_size": 16,
+  "optimizer": "Adam",
+  "learning_rate": 0.0003,
+  "schedule": {
+    "2048": 3e-05,
+    "3072": 3e-06
+  },
+  "max_updates": 4096,
+  "minimum_updates": 3072,
+  "objective_interval": 128,
+  "convergence": "After >=3072 updates: relative full-training-objective decrease over previous 512 updates <=0.001, nonnegative; no development access",
+  "selection": "Final training state only; no development selection",
+  "normalization": "Equal roots; H1 and H4 endpoint latent MSE each weight0.5; selected true branch and pooled branch3 each weight0.5",
+  "root_definition": "Every actual root with full H4 suffix, t=2..length-4",
+  "bilinear_rank": 4,
+  "bilinear_stress_check": "Finite gradient through action_up and free H4; zero branch remains bitwise F0",
+  "data_source": "runs\\prbd_consistency_20261120\\train.pt",
+  "trajectory_count": 62,
+  "root_count": 682,
+  "null_control_used": false,
+  "development_used": false
+}

@@ -94,4 +94,42 @@ Encoding reads the saved RGB/commands and uses the fixed pointwise action shape.
 
 `prbd.py` is copied unchanged. The retained `encode_native_controls`, `native_conditioned`, `NativePrototypes` and every retained shared-fit definition match the executed source directly. Release changes concern module extraction, explicit external paths and separate output destinations. The strict loader contains the original model-construction/load body; unrelated acquisition helpers and historical environment drivers are omitted. The P3b rollout and stack operations retain the executed native environment operations with an import performed only when collection is requested.
 
-The release contains 27 Python files, including two package markers, a path module and a strict loader. Release preparation checked source-definition equality, all module imports, the structural/numerical invariants and saved-checkpoint predictions against the archived numerical records. Verification outputs were written outside this snapshot; no archived result or checkpoint was changed.
+The original 20 November release contained 27 Python files, including two package markers, a path module and a strict loader. Release preparation checked source-definition equality, all module imports, the structural/numerical invariants and saved-checkpoint predictions against the archived numerical records. Verification outputs were written outside this snapshot; no archived result or checkpoint was changed.
+
+## Phase 2 · 21 November update
+
+Run these commands from this snapshot. The first checks the G1 probability law. The second recomputes the independent scores from saved predictions of all five methods and the corresponding actual outcomes. The third renders the report from the saved numerical results.
+
+```bash
+python -m research.p1a.prbd_phase2_fit check
+python -m research.p1a.prbd_phase2_score
+python -m research.p1a.prbd_phase2_report
+```
+
+These commands need PyTorch and NumPy. The CPU check uses the original 185 nodes, analytic gradients and a finite-difference check. Scoring also uses the supplied Phase 1 fixed XY readout for a secondary coordinate panel. The archived reference for each command is in `runs/prbd_phase2_20261121/`. Default output goes under `reproduce-output/prbd_phase2_20261121/`; each command reads the published inputs. The report command reads the saved scores when run with defaults.
+
+To re-issue all PRBD forecasts directly from the trained offsets, configure the external LeWM source and TwoRoom host above, then run:
+
+```bash
+python -m research.p1a.prbd_phase2_measure runs/prbd_phase2_20261121/A/final.pt --device cuda
+```
+
+With the original CUDA FP32 host, release verification reproduced the 67 tensor fields in `pred_static_prbd.pt`, `pred_switch_prbd.pt` and `initial_static_writes.pt` with exact values and validity masks. The independent scorer reproduced the archived static and switching panels, per-root / per-event records and admission decisions. Timing metadata describes the hardware and load of each execution.
+
+### Chaining fresh outputs in a separate directory
+
+For a chained replay, copy the published Phase 2 run to a new location **outside the packaged runs directory**, then point `PRBD_PHASE2_RUN_DIR` to that copy. Every Phase 2 stage will read its inputs and write its outputs there, including the newly computed scores consumed by the report renderer. The Phase 1 readout and historical Ledoit–Wolf scale still come from their distributed snapshot paths. For example, from a clean snapshot on PowerShell:
+
+```powershell
+$phase2Replay = Join-Path $PWD 'reproduce-output/full-phase2'
+New-Item -ItemType Directory -Force (Split-Path $phase2Replay) | Out-Null
+Copy-Item -LiteralPath 'runs/prbd_phase2_20261121' -Destination $phase2Replay -Recurse
+$env:PRBD_PHASE2_RUN_DIR = $phase2Replay
+python -m research.p1a.prbd_phase2_measure "$phase2Replay/A/final.pt" --device cuda
+python -m research.p1a.prbd_phase2_score
+python -m research.p1a.prbd_phase2_report
+```
+
+The same working directory supports optional regeneration. With the external host in place, `python -m research.p1a.prbd_phase2_fit train` uses the supplied `train.pt` and fixed scale from the preceding speed snapshot, then performs the complete 2,048-update fit. `python -m research.p1a.prbd_phase2_training_diagnostics "$phase2Replay/A/final.pt"` checks its gradients, budget and causal input boundary. The fit regenerates the final and initial checkpoints, which the forecast command consumes. Rerunning `prbd_phase2_baselines` with `fit_gru`, then `gru`, reproduces the recurrent control. The `frozen --shadow-frozen`, `adajepa`, and `optta` stages require the stable-worldmodel planner and environment dependencies. The released runner pairs the random seeds across initial speeds. The historical Frozen shadow timer used separate stream seeds; its shadow plans do not enter frozen forecasts.
+
+Both online controls use the [upstream author implementation](https://github.com/akshaymete/optta/tree/main/lewm/code/lewm_optta). The two executed upstream modules and their MIT license are included in `research/p1a/lewm_optta/`. The Stage A dependency contains the executed recurrent model, captured-plan structure and capture function. Fresh simulation and CEM use the author's stable-worldmodel package. Install it with its environment dependencies or set `PRBD_ENV_SOURCE` to its source directory. Optional `python -m research.p1a.prbd_phase2_data collect train` and `encode train` regenerate a split in the working copy. Use `static` or `switch` for the two independent split names. Actual RGB, commands, encoded trajectories, counterfactual evaluation records and the public reset goals already accompany the archived Phase 2 run.

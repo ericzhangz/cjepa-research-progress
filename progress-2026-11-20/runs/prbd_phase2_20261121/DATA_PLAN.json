@@ -1,0 +1,63 @@
+{
+  "scope": "Phase2 fixed data, ordinary actual single-trajectory training; no model-score selection",
+  "native_path": "prbd_tworoom_speed_data.rollout -> unmodified official TwoRoomEnv reset/step/render",
+  "splits": {
+    "train": {
+      "first_seed": 2026113000,
+      "roots": 192
+    },
+    "static": {
+      "first_seed": 2026114000,
+      "roots": 48
+    },
+    "switch": {
+      "first_seed": 2026114100,
+      "roots": 48
+    }
+  },
+  "train": {
+    "blocks": 32,
+    "starting_speeds": "balanced96/96, independent permutation RNG2026113101",
+    "switches": "RNG2026113100; cut1 integer8..13,cut2 integer20..25; speed changes before that action block",
+    "commands": "fixed seed2026113200+index, eight-block directional/return/zero/free motif; no state feedback",
+    "model_keys": [
+      "z",
+      "a",
+      "lengths",
+      "seed"
+    ]
+  },
+  "static": {
+    "axes": [
+      "root",
+      "speed slow2.5/fast7.5",
+      "candidate orthogonal/stop"
+    ],
+    "program": "existing consistency_data.program(dev,index,candidate)",
+    "source_root": 2,
+    "matched_query_root": 6,
+    "horizons": [
+      1,
+      4
+    ]
+  },
+  "switch": {
+    "axes": [
+      "root",
+      "initial-speed slow2.5/fast7.5"
+    ],
+    "blocks": 32,
+    "switches": [
+      10,
+      20
+    ],
+    "commands": "same32-block program in both arms, fixed balanced motion/return/zero",
+    "post_switch_observation": "12 blocks after last change; all fixed cases retained; validity separately reported",
+    "counterfactual": "each actual block root independently re-rendered/replayed at slow and fast; diagnostic only"
+  },
+  "goal": "official reset publicly supplies goal_state; native reset-computed _target_img renders that public target in the same layout",
+  "encoding": "CUDA float32, TF32 disabled, fixed image batch32 padded; canonical native CPU float32 action shape[1,1,10]",
+  "termination": "stop at first native terminated/truncated, retain every fixed root, lengths counts complete five-primitive blocks",
+  "diagnostic_boundary": "diag_*.npz and switch_counterfactual.pt forbidden training/method inputs",
+  "no_hash_checks": true
+}

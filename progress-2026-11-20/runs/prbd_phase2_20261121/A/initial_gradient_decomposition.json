@@ -1,0 +1,55 @@
+{
+  "checkpoint": "runs\\prbd_phase2_20261121\\A\\initial.pt",
+  "device": "cpu",
+  "sampling": "first four usable actual episodes, no updates",
+  "seeds": [
+    2026113000,
+    2026113001,
+    2026113002,
+    2026113003
+  ],
+  "read_roots": 120,
+  "losses": {
+    "nll_per_dimension": -0.33847477838687423,
+    "min_deviation_per_dimension": 7.956028639455326e-06,
+    "weighted_min_deviation": 7.956028724720454e-09
+  },
+  "gradient_L2": {
+    "NLL": 4.142003536224365,
+    "weighted_min_dev": 6.71733118906559e-07,
+    "total": 4.142003059387207
+  },
+  "per_prototype_gradient_L2": {
+    "NLL": [
+      1.8145004510879517,
+      3.3024098873138428,
+      1.7198460102081299
+    ],
+    "weighted_min_dev": [
+      4.903548642687383e-07,
+      1.478567810409004e-07,
+      4.3464456211950164e-07
+    ],
+    "total": [
+      1.814500331878662,
+      3.3024098873138428,
+      1.7198458909988403
+    ]
+  },
+  "gradient_sum_verified": true,
+  "optimizer_updates": 0,
+  "blindness_and_causality": {
+    "contradictory_fake_labels_cuts_null_and_phase1_offsets_ignored": true,
+    "only_z_a_seed_lengths_reach_training": true,
+    "future_actual_latent_perturbation_cannot_change_earlier_issuance_or_write": true,
+    "perturbed_from_actual_index": 6,
+    "unchanged_filter_roots": [
+      2,
+      3,
+      4
+    ],
+    "zero_condition_FP32_batch_roundoff_covered_by_fixed_deadzone": true,
+    "zero_condition_maximum_whitened_pair_separation": 3.791350349280069e-05,
+    "zero_condition_no_write_returns_transported_prior_bitwise": true
+  }
+}

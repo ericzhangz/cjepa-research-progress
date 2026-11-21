@@ -1,0 +1,11 @@
+{
+  "updates": 2048,
+  "sampled_episodes": 8192,
+  "sampled_read_roots": 243039,
+  "sampled_suffix_target_steps": 923004,
+  "exact_frozen_rng_episode_order_verified": true,
+  "all_legal_root_and_suffix_counts_verified": true,
+  "all_logged_loss_recompositions_verified": true,
+  "all_native_gradients_finite": true,
+  "independent_evaluation_used_for_selection": false
+}

@@ -1,0 +1,17 @@
+{
+  "A_exactly_original_unanchored_3456_offsets": true,
+  "A_parameters": 3456,
+  "B_initially_contains_A_to_fp32_roundoff": true,
+  "B_parameters": 3614848,
+  "B_changed_shared_blocks_zero_condition_H1_H4_bitwise_F0": true,
+  "B_zero_residual_selected_step_bitwise_same_batch_F0": true,
+  "null_control_used": false,
+  "speed_assignment_matches_stored_physics": true,
+  "trajectories": 62,
+  "root_count": 682,
+  "pooled_branch_nonzero_gradient_by_true_condition": {
+    "1": 0.02710430510342121,
+    "2": 0.011956404894590378
+  },
+  "initial_B_A_max_abs_roundoff": 0.0
+}

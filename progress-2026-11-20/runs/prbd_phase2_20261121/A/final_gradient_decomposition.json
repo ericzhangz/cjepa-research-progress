@@ -1,0 +1,66 @@
+{
+  "checkpoint": "runs\\prbd_phase2_20261121\\A\\final.pt",
+  "device": "cpu",
+  "sampling": "first four usable actual episodes, no updates",
+  "seeds": [
+    2026113000,
+    2026113001,
+    2026113002,
+    2026113003
+  ],
+  "read_roots": 120,
+  "losses": {
+    "nll_per_dimension": -0.47979405121826396,
+    "min_deviation_per_dimension": 0.0014051126781851053,
+    "weighted_min_deviation": 1.4051126981939888e-06
+  },
+  "gradient_L2": {
+    "NLL": 1.5683460235595703,
+    "weighted_min_dev": 9.427376426174305e-06,
+    "total": 1.568346619606018
+  },
+  "per_prototype_gradient_L2": {
+    "NLL": [
+      0.5504615306854248,
+      0.4311918020248413,
+      1.4038429260253906
+    ],
+    "weighted_min_dev": [
+      6.696535365335876e-06,
+      5.272875114314957e-06,
+      4.028478088002885e-06
+    ],
+    "total": [
+      0.5504636764526367,
+      0.4311930239200592,
+      1.4038422107696533
+    ]
+  },
+  "gradient_sum_verified": true,
+  "optimizer_updates": 0,
+  "blindness_and_causality": {
+    "contradictory_fake_labels_cuts_null_and_phase1_offsets_ignored": true,
+    "only_z_a_seed_lengths_reach_training": true,
+    "future_actual_latent_perturbation_cannot_change_earlier_issuance_or_write": true,
+    "perturbed_from_actual_index": 6,
+    "unchanged_filter_roots": [
+      2,
+      3,
+      4
+    ],
+    "zero_condition_FP32_batch_roundoff_covered_by_fixed_deadzone": true,
+    "zero_condition_maximum_whitened_pair_separation": 3.791350349280069e-05,
+    "zero_condition_no_write_returns_transported_prior_bitwise": true
+  },
+  "budget": {
+    "updates": 2048,
+    "sampled_episodes": 8192,
+    "sampled_read_roots": 243039,
+    "sampled_suffix_target_steps": 923004,
+    "exact_frozen_rng_episode_order_verified": true,
+    "all_legal_root_and_suffix_counts_verified": true,
+    "all_logged_loss_recompositions_verified": true,
+    "all_native_gradients_finite": true,
+    "independent_evaluation_used_for_selection": false
+  }
+}

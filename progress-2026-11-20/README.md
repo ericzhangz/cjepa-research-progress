@@ -1,4 +1,16 @@
-# PRBD 单轨学习与跨动作预测 · 2026-11-20
+# PRBD 单轨学习与跨动作预测 · 2026-11-20 至 11-21
+
+## 11 月 21 日更新
+
+| 阶段 | 实际测量 | 报告与数据 |
+|---|---|---|
+| Phase 1 · 给定真速度的表达容量 | 44 个独立有效根，A / B 的 H4 latent 有向恢复率为 31.98% / 45.17%，同一冻结坐标读出的物理恢复率为 27.38% / 24.39%。 | [容量与观测核报告](runs/prbd_phase1_20261121/REPORT.md) |
+| Phase 2 · 无标签静止与跨动作预测 | 单轨训练 2,048 次更新。156 次真实静止到达精确保持 0 次，写入 TV≤0.01 共 68 次。34 个独立非零交互根上，完整写入相对均匀支持的 H4 latent 有向恢复率为 −0.0733%，交互 SSE 增加 0.185%。 | [完整技术报告](runs/prbd_phase2_20261121/REPORT.md) · [逐根结果](runs/prbd_phase2_20261121/static_physical_nonzero_roots.json) |
+| Phase 2 · 回合内速度反转 | 另 48 个独立重置，两向各 96 次反转。PRBD 在慢→快 / 快→慢分别恢复 67 / 56 次，同响应均匀对照为 68 / 55 次。恢复指连续两个可辨动作均预报正确。 | [全部方法结果](runs/prbd_phase2_20261121/switch_results.json) · [逐反转事件](runs/prbd_phase2_20261121/switch_full_events.json) · [四种基线](runs/prbd_phase2_20261121/baselines/REPORT.md) |
+
+Phase 2 的公开材料包括官方模拟器轨迹及编码、原型权重、每步训练记录、各方法签发的预测、静态逐根误差和双向切换事件。归档预测可直接用于复算；重新训练及签发需要官方 LeWM 宿主。此次独立测试停在 Phase 2。[机制定义](research/PRBD_PHASE1_PHASE2_MECHANISM.md) · [核心实现](research/p1a/prbd_phase2.py) · [实验协议](runs/prbd_phase2_20261121/PROTOCOL.md) · [训练过程](runs/prbd_phase2_20261121/A/updates.jsonl) · [复算说明](research/CODE_REPRODUCTION.md)
+
+## 11 月 20 日记录
 
 [PRBD 单文件技术交接报告](PRBD_TECHNICAL_HANDOFF.md)收录 P0–P3、G 系列前置核验及 G1–G3 的完整信息流、发布版核心代码片段、实验中间量和逐动作结果分解。
 

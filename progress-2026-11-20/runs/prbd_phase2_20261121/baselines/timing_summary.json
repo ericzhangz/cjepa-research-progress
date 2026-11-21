@@ -1,0 +1,46 @@
+{
+  "GPU_load_shared_and_time_varying": true,
+  "offline_GRU_training_seconds": 68.36473749997094,
+  "methods": {
+    "frozen": {
+      "shadow_seconds": 224.12022979854373,
+      "prediction_seconds": 20.028731700382195,
+      "adaptation_seconds": 0.0,
+      "state_seconds": 0.0,
+      "state_updates": 0,
+      "shadow_solves": 3240,
+      "updates": 0,
+      "positive_optimism_steps": 0
+    },
+    "gru": {
+      "shadow_seconds": 0.0,
+      "prediction_seconds": 2.022219798702281,
+      "adaptation_seconds": 0.0,
+      "state_seconds": 1.7429847013554536,
+      "state_updates": 3620,
+      "shadow_solves": 0,
+      "updates": 0,
+      "positive_optimism_steps": 0
+    },
+    "adajepa": {
+      "shadow_seconds": 280.4570191986277,
+      "prediction_seconds": 25.163834600476548,
+      "adaptation_seconds": 247.65882849966874,
+      "state_seconds": 0.0,
+      "state_updates": 0,
+      "shadow_solves": 3240,
+      "updates": 3240,
+      "positive_optimism_steps": 0
+    },
+    "optta": {
+      "shadow_seconds": 233.5430759001756,
+      "prediction_seconds": 21.813143698964268,
+      "adaptation_seconds": 359.7360757011338,
+      "state_seconds": 0.0,
+      "state_updates": 0,
+      "shadow_solves": 3240,
+      "updates": 3240,
+      "positive_optimism_steps": 3054
+    }
+  }
+}

@@ -1,0 +1,29 @@
+[
+  {
+    "update": 0,
+    "seconds": 13.570387299987487,
+    "objective": 0.07427338801339972,
+    "nll_per_dimension": 0.07427337738032419,
+    "min_deviation_per_dimension": 1.0633075034806959e-05,
+    "weighted_min_deviation": 1.0633075514461505e-08,
+    "read_roots": 5522
+  },
+  {
+    "update": 1024,
+    "seconds": 627.012648999982,
+    "objective": -0.26485531112814265,
+    "nll_per_dimension": -0.2648574664693272,
+    "min_deviation_per_dimension": 0.0021553410771703446,
+    "weighted_min_deviation": 2.1553411845347275e-06,
+    "read_roots": 5522
+  },
+  {
+    "update": 2048,
+    "seconds": 1240.179346400022,
+    "objective": -0.2698367712246286,
+    "nll_per_dimension": -0.2698387699348323,
+    "min_deviation_per_dimension": 0.001998710109331515,
+    "weighted_min_deviation": 1.9987102037184837e-06,
+    "read_roots": 5522
+  }
+]

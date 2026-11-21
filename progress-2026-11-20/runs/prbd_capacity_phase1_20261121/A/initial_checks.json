@@ -1,0 +1,11 @@
+{
+  "nominal_H1_H4_bitwise_equal": true,
+  "selected_branch_API_agrees": true,
+  "finite_native_gradients": true,
+  "trainable_parameters": 3456,
+  "native_offset_parameters": 3456,
+  "null_control": null,
+  "gradient_norms": [
+    0.041512876749038696
+  ]
+}

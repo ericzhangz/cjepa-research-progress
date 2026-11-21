@@ -1,0 +1,449 @@
+{
+  "rows": [
+    {
+      "seed": 2026112400,
+      "raw_matched": true,
+      "cpu_root_error": 0.0,
+      "cpu_prefix_replay_error": 0.0,
+      "cuda_root_error": 0.0,
+      "cuda_prefix_replay_error": 0.0,
+      "cpu_cuda_max_abs_difference": 1.0728836059570312e-05
+    },
+    {
+      "seed": 2026112401,
+      "raw_matched": true,
+      "cpu_root_error": 0.0,
+      "cpu_prefix_replay_error": 0.0,
+      "cuda_root_error": 0.0,
+      "cuda_prefix_replay_error": 0.0,
+      "cpu_cuda_max_abs_difference": 1.6927719116210938e-05
+    },
+    {
+      "seed": 2026112402,
+      "raw_matched": true,
+      "cpu_root_error": 1.9073486328125e-06,
+      "cpu_prefix_replay_error": 1.9073486328125e-06,
+      "cuda_root_error": 0.0,
+      "cuda_prefix_replay_error": 0.0,
+      "cpu_cuda_max_abs_difference": 1.30385160446167e-05
+    },
+    {
+      "seed": 2026112403,
+      "raw_matched": true,
+      "cpu_root_error": 1.9073486328125e-06,
+      "cpu_prefix_replay_error": 1.9073486328125e-06,
+      "cuda_root_error": 0.0,
+      "cuda_prefix_replay_error": 0.0,
+      "cpu_cuda_max_abs_difference": 1.3321638107299805e-05
+    },
+    {
+      "seed": 2026112404,
+      "raw_matched": true,
+      "cpu_root_error": 1.9073486328125e-06,
+      "cpu_prefix_replay_error": 2.2649765014648438e-06,
+      "cuda_root_error": 0.0,
+      "cuda_prefix_replay_error": 0.0,
+      "cpu_cuda_max_abs_difference": 1.1086463928222656e-05
+    },
+    {
+      "seed": 2026112405,
+      "raw_matched": true,
+      "cpu_root_error": 0.0,
+      "cpu_prefix_replay_error": 1.9073486328125e-06,
+      "cuda_root_error": 0.0,
+      "cuda_prefix_replay_error": 0.0,
+      "cpu_cuda_max_abs_difference": 1.1324882507324219e-05
+    },
+    {
+      "seed": 2026112406,
+      "raw_matched": true,
+      "cpu_root_error": 0.0,
+      "cpu_prefix_replay_error": 1.9073486328125e-06,
+      "cuda_root_error": 0.0,
+      "cuda_prefix_replay_error": 0.0,
+      "cpu_cuda_max_abs_difference": 2.2649765014648438e-05
+    },
+    {
+      "seed": 2026112407,
+      "raw_matched": true,
+      "cpu_root_error": 0.0,
+      "cpu_prefix_replay_error": 1.7881393432617188e-06,
+      "cuda_root_error": 0.0,
+      "cuda_prefix_replay_error": 0.0,
+      "cpu_cuda_max_abs_difference": 7.987022399902344e-06
+    },
+    {
+      "seed": 2026112408,
+      "raw_matched": true,
+      "cpu_root_error": 0.0,
+      "cpu_prefix_replay_error": 0.0,
+      "cuda_root_error": 0.0,
+      "cuda_prefix_replay_error": 0.0,
+      "cpu_cuda_max_abs_difference": 1.9311904907226562e-05
+    },
+    {
+      "seed": 2026112409,
+      "raw_matched": true,
+      "cpu_root_error": 0.0,
+      "cpu_prefix_replay_error": 0.0,
+      "cuda_root_error": 0.0,
+      "cuda_prefix_replay_error": 0.0,
+      "cpu_cuda_max_abs_difference": 1.3023614883422852e-05
+    },
+    {
+      "seed": 2026112410,
+      "raw_matched": true,
+      "cpu_root_error": 2.3543834686279297e-06,
+      "cpu_prefix_replay_error": 2.3543834686279297e-06,
+      "cuda_root_error": 0.0,
+      "cuda_prefix_replay_error": 0.0,
+      "cpu_cuda_max_abs_difference": 9.655952453613281e-06
+    },
+    {
+      "seed": 2026112411,
+      "raw_matched": true,
+      "cpu_root_error": 1.6689300537109375e-06,
+      "cpu_prefix_replay_error": 1.6689300537109375e-06,
+      "cuda_root_error": 0.0,
+      "cuda_prefix_replay_error": 0.0,
+      "cpu_cuda_max_abs_difference": 1.2993812561035156e-05
+    },
+    {
+      "seed": 2026112412,
+      "raw_matched": true,
+      "cpu_root_error": 1.9073486328125e-06,
+      "cpu_prefix_replay_error": 2.0638108253479004e-06,
+      "cuda_root_error": 0.0,
+      "cuda_prefix_replay_error": 0.0,
+      "cpu_cuda_max_abs_difference": 1.1444091796875e-05
+    },
+    {
+      "seed": 2026112413,
+      "raw_matched": true,
+      "cpu_root_error": 0.0,
+      "cpu_prefix_replay_error": 2.1457672119140625e-06,
+      "cuda_root_error": 0.0,
+      "cuda_prefix_replay_error": 0.0,
+      "cpu_cuda_max_abs_difference": 1.570582389831543e-05
+    },
+    {
+      "seed": 2026112414,
+      "raw_matched": true,
+      "cpu_root_error": 0.0,
+      "cpu_prefix_replay_error": 1.9073486328125e-06,
+      "cuda_root_error": 0.0,
+      "cuda_prefix_replay_error": 0.0,
+      "cpu_cuda_max_abs_difference": 1.2755393981933594e-05
+    },
+    {
+      "seed": 2026112415,
+      "raw_matched": true,
+      "cpu_root_error": 0.0,
+      "cpu_prefix_replay_error": 1.6689300537109375e-06,
+      "cuda_root_error": 0.0,
+      "cuda_prefix_replay_error": 0.0,
+      "cpu_cuda_max_abs_difference": 3.4809112548828125e-05
+    },
+    {
+      "seed": 2026112416,
+      "raw_matched": true,
+      "cpu_root_error": 0.0,
+      "cpu_prefix_replay_error": 0.0,
+      "cuda_root_error": 0.0,
+      "cuda_prefix_replay_error": 0.0,
+      "cpu_cuda_max_abs_difference": 4.363059997558594e-05
+    },
+    {
+      "seed": 2026112417,
+      "raw_matched": false,
+      "cpu_root_error": 0.0,
+      "cpu_prefix_replay_error": 0.0,
+      "cuda_root_error": 0.0,
+      "cuda_prefix_replay_error": 0.0,
+      "cpu_cuda_max_abs_difference": 1.0073184967041016e-05
+    },
+    {
+      "seed": 2026112418,
+      "raw_matched": true,
+      "cpu_root_error": 2.7418136596679688e-06,
+      "cpu_prefix_replay_error": 2.7418136596679688e-06,
+      "cuda_root_error": 0.0,
+      "cuda_prefix_replay_error": 0.0,
+      "cpu_cuda_max_abs_difference": 2.6464462280273438e-05
+    },
+    {
+      "seed": 2026112419,
+      "raw_matched": true,
+      "cpu_root_error": 0.0,
+      "cpu_prefix_replay_error": 1.7285346984863281e-06,
+      "cuda_root_error": 0.0,
+      "cuda_prefix_replay_error": 0.0,
+      "cpu_cuda_max_abs_difference": 2.5160610675811768e-05
+    },
+    {
+      "seed": 2026112420,
+      "raw_matched": true,
+      "cpu_root_error": 0.0,
+      "cpu_prefix_replay_error": 1.6093254089355469e-06,
+      "cuda_root_error": 0.0,
+      "cuda_prefix_replay_error": 0.0,
+      "cpu_cuda_max_abs_difference": 9.655952453613281e-06
+    },
+    {
+      "seed": 2026112421,
+      "raw_matched": true,
+      "cpu_root_error": 0.0,
+      "cpu_prefix_replay_error": 1.9371509552001953e-06,
+      "cuda_root_error": 0.0,
+      "cuda_prefix_replay_error": 0.0,
+      "cpu_cuda_max_abs_difference": 3.62396240234375e-05
+    },
+    {
+      "seed": 2026112422,
+      "raw_matched": true,
+      "cpu_root_error": 0.0,
+      "cpu_prefix_replay_error": 0.0,
+      "cuda_root_error": 0.0,
+      "cuda_prefix_replay_error": 0.0,
+      "cpu_cuda_max_abs_difference": 2.1159648895263672e-05
+    },
+    {
+      "seed": 2026112423,
+      "raw_matched": true,
+      "cpu_root_error": 0.0,
+      "cpu_prefix_replay_error": 0.0,
+      "cuda_root_error": 0.0,
+      "cuda_prefix_replay_error": 0.0,
+      "cpu_cuda_max_abs_difference": 1.7881393432617188e-05
+    },
+    {
+      "seed": 2026112424,
+      "raw_matched": true,
+      "cpu_root_error": 1.8477439880371094e-06,
+      "cpu_prefix_replay_error": 1.8477439880371094e-06,
+      "cuda_root_error": 0.0,
+      "cuda_prefix_replay_error": 0.0,
+      "cpu_cuda_max_abs_difference": 1.8835067749023438e-05
+    },
+    {
+      "seed": 2026112425,
+      "raw_matched": false,
+      "cpu_root_error": 4.055003643035889,
+      "cpu_prefix_replay_error": 2.1457672119140625e-06,
+      "cuda_root_error": 4.0549774169921875,
+      "cuda_prefix_replay_error": 0.0,
+      "cpu_cuda_max_abs_difference": 2.6226043701171875e-05
+    },
+    {
+      "seed": 2026112426,
+      "raw_matched": true,
+      "cpu_root_error": 0.0,
+      "cpu_prefix_replay_error": 0.0,
+      "cuda_root_error": 0.0,
+      "cuda_prefix_replay_error": 0.0,
+      "cpu_cuda_max_abs_difference": 1.5020370483398438e-05
+    },
+    {
+      "seed": 2026112427,
+      "raw_matched": true,
+      "cpu_root_error": 0.0,
+      "cpu_prefix_replay_error": 0.0,
+      "cuda_root_error": 0.0,
+      "cuda_prefix_replay_error": 0.0,
+      "cpu_cuda_max_abs_difference": 1.990795135498047e-05
+    },
+    {
+      "seed": 2026112428,
+      "raw_matched": true,
+      "cpu_root_error": 1.9818544387817383e-06,
+      "cpu_prefix_replay_error": 1.9818544387817383e-06,
+      "cuda_root_error": 0.0,
+      "cuda_prefix_replay_error": 0.0,
+      "cpu_cuda_max_abs_difference": 1.1444091796875e-05
+    },
+    {
+      "seed": 2026112429,
+      "raw_matched": false,
+      "cpu_root_error": 0.273946613073349,
+      "cpu_prefix_replay_error": 1.6093254089355469e-06,
+      "cuda_root_error": 0.273945689201355,
+      "cuda_prefix_replay_error": 0.0,
+      "cpu_cuda_max_abs_difference": 1.71661376953125e-05
+    },
+    {
+      "seed": 2026112430,
+      "raw_matched": true,
+      "cpu_root_error": 1.7881393432617188e-06,
+      "cpu_prefix_replay_error": 2.384185791015625e-06,
+      "cuda_root_error": 0.0,
+      "cuda_prefix_replay_error": 0.0,
+      "cpu_cuda_max_abs_difference": 2.396106719970703e-05
+    },
+    {
+      "seed": 2026112431,
+      "raw_matched": true,
+      "cpu_root_error": 0.0,
+      "cpu_prefix_replay_error": 2.384185791015625e-06,
+      "cuda_root_error": 0.0,
+      "cuda_prefix_replay_error": 0.0,
+      "cpu_cuda_max_abs_difference": 1.259148120880127e-05
+    },
+    {
+      "seed": 2026112432,
+      "raw_matched": true,
+      "cpu_root_error": 0.0,
+      "cpu_prefix_replay_error": 1.9073486328125e-06,
+      "cuda_root_error": 0.0,
+      "cuda_prefix_replay_error": 0.0,
+      "cpu_cuda_max_abs_difference": 1.7881393432617188e-05
+    },
+    {
+      "seed": 2026112433,
+      "raw_matched": true,
+      "cpu_root_error": 0.0,
+      "cpu_prefix_replay_error": 2.0265579223632812e-06,
+      "cuda_root_error": 0.0,
+      "cuda_prefix_replay_error": 0.0,
+      "cpu_cuda_max_abs_difference": 1.5735626220703125e-05
+    },
+    {
+      "seed": 2026112434,
+      "raw_matched": true,
+      "cpu_root_error": 0.0,
+      "cpu_prefix_replay_error": 0.0,
+      "cuda_root_error": 0.0,
+      "cuda_prefix_replay_error": 0.0,
+      "cpu_cuda_max_abs_difference": 2.9802322387695312e-05
+    },
+    {
+      "seed": 2026112435,
+      "raw_matched": true,
+      "cpu_root_error": 0.0,
+      "cpu_prefix_replay_error": 0.0,
+      "cuda_root_error": 0.0,
+      "cuda_prefix_replay_error": 0.0,
+      "cpu_cuda_max_abs_difference": 1.6927719116210938e-05
+    },
+    {
+      "seed": 2026112436,
+      "raw_matched": true,
+      "cpu_root_error": 2.0265579223632812e-06,
+      "cpu_prefix_replay_error": 2.0265579223632812e-06,
+      "cuda_root_error": 0.0,
+      "cuda_prefix_replay_error": 0.0,
+      "cpu_cuda_max_abs_difference": 1.2606382369995117e-05
+    },
+    {
+      "seed": 2026112437,
+      "raw_matched": true,
+      "cpu_root_error": 1.5497207641601562e-06,
+      "cpu_prefix_replay_error": 1.5497207641601562e-06,
+      "cuda_root_error": 0.0,
+      "cuda_prefix_replay_error": 0.0,
+      "cpu_cuda_max_abs_difference": 1.895427703857422e-05
+    },
+    {
+      "seed": 2026112438,
+      "raw_matched": true,
+      "cpu_root_error": 2.6226043701171875e-06,
+      "cpu_prefix_replay_error": 2.6226043701171875e-06,
+      "cuda_root_error": 0.0,
+      "cuda_prefix_replay_error": 0.0,
+      "cpu_cuda_max_abs_difference": 1.6629695892333984e-05
+    },
+    {
+      "seed": 2026112439,
+      "raw_matched": true,
+      "cpu_root_error": 0.0,
+      "cpu_prefix_replay_error": 2.0265579223632812e-06,
+      "cuda_root_error": 0.0,
+      "cuda_prefix_replay_error": 0.0,
+      "cpu_cuda_max_abs_difference": 1.5020370483398438e-05
+    },
+    {
+      "seed": 2026112440,
+      "raw_matched": true,
+      "cpu_root_error": 0.0,
+      "cpu_prefix_replay_error": 1.6987323760986328e-06,
+      "cuda_root_error": 0.0,
+      "cuda_prefix_replay_error": 0.0,
+      "cpu_cuda_max_abs_difference": 3.838539123535156e-05
+    },
+    {
+      "seed": 2026112441,
+      "raw_matched": true,
+      "cpu_root_error": 0.0,
+      "cpu_prefix_replay_error": 1.5497207641601562e-06,
+      "cuda_root_error": 0.0,
+      "cuda_prefix_replay_error": 0.0,
+      "cpu_cuda_max_abs_difference": 1.4603137969970703e-05
+    },
+    {
+      "seed": 2026112442,
+      "raw_matched": true,
+      "cpu_root_error": 0.0,
+      "cpu_prefix_replay_error": 0.0,
+      "cuda_root_error": 0.0,
+      "cuda_prefix_replay_error": 0.0,
+      "cpu_cuda_max_abs_difference": 1.895427703857422e-05
+    },
+    {
+      "seed": 2026112443,
+      "raw_matched": true,
+      "cpu_root_error": 0.0,
+      "cpu_prefix_replay_error": 0.0,
+      "cuda_root_error": 0.0,
+      "cuda_prefix_replay_error": 0.0,
+      "cpu_cuda_max_abs_difference": 3.147125244140625e-05
+    },
+    {
+      "seed": 2026112444,
+      "raw_matched": true,
+      "cpu_root_error": 2.652406692504883e-06,
+      "cpu_prefix_replay_error": 2.652406692504883e-06,
+      "cuda_root_error": 0.0,
+      "cuda_prefix_replay_error": 0.0,
+      "cpu_cuda_max_abs_difference": 1.5273690223693848e-05
+    },
+    {
+      "seed": 2026112445,
+      "raw_matched": true,
+      "cpu_root_error": 2.0265579223632812e-06,
+      "cpu_prefix_replay_error": 2.0265579223632812e-06,
+      "cuda_root_error": 0.0,
+      "cuda_prefix_replay_error": 0.0,
+      "cpu_cuda_max_abs_difference": 1.5795230865478516e-05
+    },
+    {
+      "seed": 2026112446,
+      "raw_matched": true,
+      "cpu_root_error": 1.5497207641601562e-06,
+      "cpu_prefix_replay_error": 2.1457672119140625e-06,
+      "cuda_root_error": 0.0,
+      "cuda_prefix_replay_error": 0.0,
+      "cpu_cuda_max_abs_difference": 1.6927719116210938e-05
+    },
+    {
+      "seed": 2026112447,
+      "raw_matched": true,
+      "cpu_root_error": 0.0,
+      "cpu_prefix_replay_error": 1.9073486328125e-06,
+      "cuda_root_error": 0.0,
+      "cuda_prefix_replay_error": 0.0,
+      "cpu_cuda_max_abs_difference": 9.5367431640625e-06
+    }
+  ],
+  "cpu_exact_raw_matched_roots": 13,
+  "cuda_exact_raw_matched_roots": 45,
+  "max_cpu_equal_root_error": 2.7418136596679688e-06,
+  "max_cpu_equal_prefix_replay_error": 2.7418136596679688e-06,
+  "max_cuda_equal_root_error": 0.0,
+  "max_cpu_cuda_difference": 4.363059997558594e-05,
+  "same_single_RGB_repeated_at_all32_batch_rows_max_abs_difference": {
+    "cpu": 1.9073486328125e-06,
+    "cuda": 0.0
+  },
+  "repeated_fixture_seed": 2026112402,
+  "encoding": "FP32 fixed32 batches, TF32 disabled; CUDA matches the original train/dev encoder execution device",
+  "qualification_unchanged": "Exact same-frame/root rules; neither tolerances nor seed replacement introduced"
+}

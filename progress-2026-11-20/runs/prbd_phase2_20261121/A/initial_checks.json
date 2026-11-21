@@ -1,0 +1,17 @@
+{
+  "nominal_H1_H4_bitwise_equal_F0": true,
+  "nominal_offset_gradient_exact_zero": true,
+  "trainable_native_offset_parameters": 3456,
+  "null_control_used": false,
+  "frozen_host_parameters": 18034478,
+  "full_prefix_source_to_later_suffix_gradient_L2": 6.080055037175761e-05,
+  "later_suffix_to_each_offset_gradient_L2": [
+    1.8120052814483643,
+    4.150447845458984,
+    0.7922962307929993
+  ],
+  "physical_labels_loaded_by_training": false,
+  "phase1_weights_loaded": false,
+  "deadzone": 0.0004007460497140442,
+  "switch_inside_H1_H4": "constant-k approximation"
+}

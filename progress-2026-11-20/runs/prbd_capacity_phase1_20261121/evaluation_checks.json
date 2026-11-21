@@ -1,0 +1,6 @@
+{
+  "perfect_latent_and_physical_recovery": true,
+  "zero_frozen_recovery": true,
+  "exact_physical_displacement_fixture": true,
+  "forecast_boundary_accepts_no_future": true
+}
