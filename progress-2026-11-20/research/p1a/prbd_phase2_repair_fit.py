@@ -12,7 +12,7 @@ from time import perf_counter
 import torch
 
 from .prbd import continuous_quadrature
-from .prbd_paths import REPAIR
+from .prbd_paths import REPAIR, output_path
 from .prbd_phase2 import (BUDGET, OUT, _BatchedBoundedDensity, filter_episode, fixed_transition,
                          load_episodes, load_phase2_checkpoint, repair_batch_objective,
                          response_density)
@@ -285,7 +285,7 @@ def main():
     torch.manual_seed(BUDGET["seed"])
     torch.backends.cuda.matmul.allow_tf32 = False
     torch.backends.cudnn.allow_tf32 = False
-    args.output.mkdir(parents=True, exist_ok=True)
+    args.output = output_path(args.output / "protocol.json").parent
     if args.stage == "check":
         checks = {"original_default_regression": probability_checks(), "repair_derivative": derivative_checks()}
         write_json(args.output / "probability_checks.json", checks)
