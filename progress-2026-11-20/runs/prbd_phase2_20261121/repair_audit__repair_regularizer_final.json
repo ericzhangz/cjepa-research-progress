@@ -1,0 +1,2797 @@
+{
+  "checkpoint": "reproduce-output/prbd_phase2_repair_20261121/unlabeled/final.pt",
+  "update": 2048,
+  "device": "cpu",
+  "scope": "First four original usable actual training tracks; independently restored checkpoint; no optimization or benchmark access",
+  "seeds": [
+    2026113000,
+    2026113001,
+    2026113002,
+    2026113003
+  ],
+  "read_roots": 120,
+  "suffix_targets": 456,
+  "full_actual_prefix_gradient": true,
+  "values": {
+    "total": 0.7181838287353071,
+    "squared_predictive_mixture_energy_per_dimension": 0.4486386467919056,
+    "unit_white_regularizer": 0.26954518194340144
+  },
+  "gradient_groups": {
+    "offsets": {
+      "parameter_count": 3456,
+      "predictive_L2": 0.07518202181757497,
+      "regularizer_L2": 0.15745814097661404,
+      "sum_L2": 0.10530282847603041,
+      "dot_predictive_regularizer": -0.00967835843966865,
+      "cosine": -0.8175655475359159,
+      "regularizer_to_predictive_norm_ratio": 2.0943589593623533,
+      "signed_projection_fraction_of_combined_gradient": {
+        "predictive": -0.3630747727404225,
+        "regularizer": 1.3630747727404227
+      },
+      "negative_predictive_gradient_backprop_linearization": {
+        "predictive": -0.005652336404578318,
+        "regularizer": 0.00967835843966865
+      },
+      "negative_regularizer_gradient_backprop_linearization": {
+        "predictive": 0.00967835843966865,
+        "regularizer": -0.024793066159811264
+      },
+      "negative_combined_gradient_backprop_linearization": {
+        "predictive": 0.004026022035090332,
+        "regularizer": -0.015114707720142614
+      }
+    },
+    "shared_suffix": {
+      "parameter_count": 2591552,
+      "predictive_L2": 7.3234146694950315,
+      "regularizer_L2": 6.406480298658732,
+      "sum_L2": 3.090541789343621,
+      "dot_predictive_regularizer": -42.56197184339911,
+      "cosine": -0.9071698742185956,
+      "regularizer_to_predictive_norm_ratio": 0.8747941483286887,
+      "signed_projection_fraction_of_combined_gradient": {
+        "predictive": 1.1590315875207833,
+        "regularizer": -0.15903158752078253
+      },
+      "negative_predictive_gradient_backprop_linearization": {
+        "predictive": -53.63240242137502,
+        "regularizer": 42.56197184339911
+      },
+      "negative_regularizer_gradient_backprop_linearization": {
+        "predictive": 42.56197184339911,
+        "regularizer": -41.04298981710247
+      },
+      "negative_combined_gradient_backprop_linearization": {
+        "predictive": -11.070430577975912,
+        "regularizer": 1.5189820262966336
+      }
+    },
+    "all_learned": {
+      "parameter_count": 2595008,
+      "predictive_L2": 7.323800567859532,
+      "regularizer_L2": 6.4084150055425,
+      "sum_L2": 3.092335240132338,
+      "dot_predictive_regularizer": -42.57165020183878,
+      "cosine": -0.9070544257717368,
+      "regularizer_to_predictive_norm_ratio": 0.8750122216142536,
+      "signed_projection_fraction_of_combined_gradient": {
+        "predictive": 1.157266558157843,
+        "regularizer": -0.1572665581578423
+      },
+      "negative_predictive_gradient_backprop_linearization": {
+        "predictive": -53.6380547577796,
+        "regularizer": 42.57165020183878
+      },
+      "negative_regularizer_gradient_backprop_linearization": {
+        "predictive": 42.57165020183878,
+        "regularizer": -41.06778288326229
+      },
+      "negative_combined_gradient_backprop_linearization": {
+        "predictive": -11.06640455594082,
+        "regularizer": 1.5038673185764893
+      }
+    }
+  },
+  "gradient_sum_max_absolute_error": 3.3527612686157227e-08,
+  "H1_resident_deviation": {
+    "all_roots": {
+      "roots": 120,
+      "regularizer_H1": {
+        "count": 120,
+        "mean": 0.26954518194340144,
+        "median": 0.25038349015991845,
+        "p95": 0.35694533275324297,
+        "maximum": 0.49509730305289246
+      },
+      "white_branch_L2": {
+        "count": 360,
+        "mean": 10.078597790599407,
+        "median": 9.497557371947947,
+        "p95": 12.745732708428307,
+        "maximum": 17.073007217863893
+      },
+      "raw_branch_L2": {
+        "count": 360,
+        "mean": 2.058411430653709,
+        "median": 1.8293478241138106,
+        "p95": 3.033370278116201,
+        "maximum": 3.2060225591316267
+      },
+      "response_separation": {
+        "count": 120,
+        "mean": 11.821304699096903,
+        "median": 11.4072644464654,
+        "p95": 15.648303563133892,
+        "maximum": 17.073007245420673
+      }
+    },
+    "zero_executed_command": {
+      "roots": 28,
+      "regularizer_H1": {
+        "count": 28,
+        "mean": 0.2560308260342996,
+        "median": 0.24644840140383695,
+        "p95": 0.30383171934801767,
+        "maximum": 0.30619991586625706
+      },
+      "white_branch_L2": {
+        "count": 84,
+        "mean": 9.853721798044571,
+        "median": 9.255524467927076,
+        "p95": 12.536178593929275,
+        "maximum": 12.747249483360745
+      },
+      "raw_branch_L2": {
+        "count": 84,
+        "mean": 2.0008782278105004,
+        "median": 1.7589115135834323,
+        "p95": 3.006613738791098,
+        "maximum": 3.034279538449114
+      },
+      "response_separation": {
+        "count": 28,
+        "mean": 11.72211489239389,
+        "median": 11.003327372537331,
+        "p95": 15.087030635805991,
+        "maximum": 15.098525707287035
+      }
+    },
+    "active_executed_command": {
+      "roots": 92,
+      "regularizer_H1": {
+        "count": 92,
+        "mean": 0.273658246785302,
+        "median": 0.25451754605116894,
+        "p95": 0.37557508030320746,
+        "maximum": 0.49509730305289246
+      },
+      "white_branch_L2": {
+        "count": 276,
+        "mean": 10.147038310072618,
+        "median": 9.590015055289523,
+        "p95": 12.951682185533956,
+        "maximum": 17.073007217863893
+      },
+      "raw_branch_L2": {
+        "count": 276,
+        "mean": 2.0759215358668603,
+        "median": 1.8484784869901016,
+        "p95": 3.0576422252666142,
+        "maximum": 3.2060225591316267
+      },
+      "response_separation": {
+        "count": 92,
+        "mean": 11.85149290113695,
+        "median": 11.4072644464654,
+        "p95": 15.89755230480222,
+        "maximum": 17.073007245420673
+      }
+    }
+  },
+  "H1_per_root": [
+    {
+      "seed": 2026113000,
+      "root": 2,
+      "zero_executed_command": false,
+      "regularizer_H1": 0.27001296612446507,
+      "white_branch_L2": [
+        10.017510027195812,
+        8.435849096634152,
+        11.8127422662662
+      ],
+      "raw_branch_L2": [
+        2.058016399167776,
+        1.8044004720461733,
+        2.188900342659833
+      ],
+      "response_separation": 11.81274227130274
+    },
+    {
+      "seed": 2026113000,
+      "root": 3,
+      "zero_executed_command": false,
+      "regularizer_H1": 0.30068839453004503,
+      "white_branch_L2": [
+        10.650603882821692,
+        8.64379871746255,
+        12.579443992555003
+      ],
+      "raw_branch_L2": [
+        1.9567492095191201,
+        1.666874895801952,
+        2.10362872870629
+      ],
+      "response_separation": 12.579443962865442
+    },
+    {
+      "seed": 2026113000,
+      "root": 4,
+      "zero_executed_command": false,
+      "regularizer_H1": 0.29857536863822387,
+      "white_branch_L2": [
+        9.827296349438901,
+        9.399634025330764,
+        12.610707804139421
+      ],
+      "raw_branch_L2": [
+        1.9404350156691919,
+        1.8595293104847521,
+        2.1375647073176665
+      ],
+      "response_separation": 12.61070779929816
+    },
+    {
+      "seed": 2026113000,
+      "root": 5,
+      "zero_executed_command": false,
+      "regularizer_H1": 0.2603206152944679,
+      "white_branch_L2": [
+        9.43470769789834,
+        8.98609798631823,
+        11.407264459752495
+      ],
+      "raw_branch_L2": [
+        1.8390926488701194,
+        1.6937902609058995,
+        1.9825488466583774
+      ],
+      "response_separation": 11.4072644464654
+    },
+    {
+      "seed": 2026113000,
+      "root": 6,
+      "zero_executed_command": false,
+      "regularizer_H1": 0.2663129883527232,
+      "white_branch_L2": [
+        9.541927423252947,
+        8.97779002078833,
+        11.625122363843918
+      ],
+      "raw_branch_L2": [
+        1.8484784869901016,
+        1.6893246814165779,
+        2.0052857016441528
+      ],
+      "response_separation": 11.625122365337504
+    },
+    {
+      "seed": 2026113000,
+      "root": 7,
+      "zero_executed_command": true,
+      "regularizer_H1": 0.2602882959305383,
+      "white_branch_L2": [
+        9.446982283570001,
+        8.700216450479267,
+        11.615200229040592
+      ],
+      "raw_branch_L2": [
+        1.8435648851200073,
+        1.6740575333233694,
+        1.9991809769972022
+      ],
+      "response_separation": 11.615200213421605
+    },
+    {
+      "seed": 2026113000,
+      "root": 8,
+      "zero_executed_command": true,
+      "regularizer_H1": 0.25916348933362243,
+      "white_branch_L2": [
+        9.421545754061281,
+        8.712592045461587,
+        11.570719734131593
+      ],
+      "raw_branch_L2": [
+        1.8407493241319894,
+        1.6743663626541312,
+        1.9945369471920784
+      ],
+      "response_separation": 11.570719750331719
+    },
+    {
+      "seed": 2026113000,
+      "root": 9,
+      "zero_executed_command": false,
+      "regularizer_H1": 0.2530587938640739,
+      "white_branch_L2": [
+        9.267142955791726,
+        8.71626634989766,
+        11.387295240133833
+      ],
+      "raw_branch_L2": [
+        1.9219262988495702,
+        1.7594547364965631,
+        2.0710433563089365
+      ],
+      "response_separation": 11.387295245756617
+    },
+    {
+      "seed": 2026113000,
+      "root": 10,
+      "zero_executed_command": false,
+      "regularizer_H1": 0.26466763768277457,
+      "white_branch_L2": [
+        9.06795301381238,
+        9.382549835835052,
+        11.603323029542826
+      ],
+      "raw_branch_L2": [
+        1.87865458275324,
+        1.9214800223372637,
+        1.9888812832847835
+      ],
+      "response_separation": 11.603323088268981
+    },
+    {
+      "seed": 2026113000,
+      "root": 11,
+      "zero_executed_command": false,
+      "regularizer_H1": 0.27656186389285126,
+      "white_branch_L2": [
+        9.59812595498976,
+        11.484709970924332,
+        9.72505435668448
+      ],
+      "raw_branch_L2": [
+        1.836714105663061,
+        1.9509857066452514,
+        1.7848880241513339
+      ],
+      "response_separation": 11.93705159827433
+    },
+    {
+      "seed": 2026113000,
+      "root": 12,
+      "zero_executed_command": false,
+      "regularizer_H1": 0.26109204198237046,
+      "white_branch_L2": [
+        9.36354773381996,
+        8.871918783847418,
+        11.592715958436195
+      ],
+      "raw_branch_L2": [
+        1.8185565342870595,
+        1.6638940976591852,
+        1.982649504212391
+      ],
+      "response_separation": 11.592715947863867
+    },
+    {
+      "seed": 2026113000,
+      "root": 13,
+      "zero_executed_command": false,
+      "regularizer_H1": 0.26802808451218757,
+      "white_branch_L2": [
+        9.8580696646199,
+        8.946517685450008,
+        11.46937823726601
+      ],
+      "raw_branch_L2": [
+        1.868001097543273,
+        1.689220477492711,
+        1.972943080266997
+      ],
+      "response_separation": 11.469378230480137
+    },
+    {
+      "seed": 2026113000,
+      "root": 14,
+      "zero_executed_command": false,
+      "regularizer_H1": 0.27510531969473667,
+      "white_branch_L2": [
+        9.839919632757141,
+        8.359439955955876,
+        12.256307499895133
+      ],
+      "raw_branch_L2": [
+        1.9323948455017346,
+        1.696546858244985,
+        2.1165289922260992
+      ],
+      "response_separation": 12.256307483076363
+    },
+    {
+      "seed": 2026113000,
+      "root": 15,
+      "zero_executed_command": true,
+      "regularizer_H1": 0.260200259198335,
+      "white_branch_L2": [
+        9.449542706709444,
+        8.694836027310025,
+        11.612780359963237
+      ],
+      "raw_branch_L2": [
+        1.8443685676471786,
+        1.674032096346828,
+        1.999361312922867
+      ],
+      "response_separation": 11.612780346096912
+    },
+    {
+      "seed": 2026113000,
+      "root": 16,
+      "zero_executed_command": true,
+      "regularizer_H1": 0.2585453932016042,
+      "white_branch_L2": [
+        9.407829538974353,
+        8.73136757883458,
+        11.53690844798233
+      ],
+      "raw_branch_L2": [
+        1.8394119530518256,
+        1.675401414355012,
+        1.9914452764802875
+      ],
+      "response_separation": 11.536908460887474
+    },
+    {
+      "seed": 2026113000,
+      "root": 17,
+      "zero_executed_command": false,
+      "regularizer_H1": 0.3098235388848962,
+      "white_branch_L2": [
+        11.0759560510115,
+        9.726002559191398,
+        11.81713961033145
+      ],
+      "raw_branch_L2": [
+        1.99373441970653,
+        1.7903445010610133,
+        2.0128981166615914
+      ],
+      "response_separation": 11.817139618802582
+    },
+    {
+      "seed": 2026113000,
+      "root": 18,
+      "zero_executed_command": false,
+      "regularizer_H1": 0.2765716287468711,
+      "white_branch_L2": [
+        10.254205535369607,
+        8.506422998180211,
+        11.878659559513506
+      ],
+      "raw_branch_L2": [
+        2.0986806674888006,
+        1.8325539440389564,
+        2.2167040405012526
+      ],
+      "response_separation": 11.878659550498453
+    },
+    {
+      "seed": 2026113000,
+      "root": 19,
+      "zero_executed_command": false,
+      "regularizer_H1": 0.3043021260018477,
+      "white_branch_L2": [
+        10.75513712650848,
+        8.407857402757385,
+        12.81370393130048
+      ],
+      "raw_branch_L2": [
+        2.054137278077645,
+        1.73953809041672,
+        2.2118027374948617
+      ],
+      "response_separation": 12.813703936265327
+    },
+    {
+      "seed": 2026113000,
+      "root": 20,
+      "zero_executed_command": false,
+      "regularizer_H1": 0.3139809840791112,
+      "white_branch_L2": [
+        10.115001355510456,
+        9.40388181637307,
+        13.075161491195647
+      ],
+      "raw_branch_L2": [
+        1.9933815331994946,
+        1.8701168621879973,
+        2.2219910803881713
+      ],
+      "response_separation": 13.07516145985258
+    },
+    {
+      "seed": 2026113000,
+      "root": 21,
+      "zero_executed_command": false,
+      "regularizer_H1": 0.23745660257766524,
+      "white_branch_L2": [
+        8.730852058610102,
+        9.590015055289523,
+        10.264201855938644
+      ],
+      "raw_branch_L2": [
+        1.721297396604885,
+        1.7786730436846012,
+        1.7458004277875632
+      ],
+      "response_separation": 11.467814771543875
+    },
+    {
+      "seed": 2026113000,
+      "root": 22,
+      "zero_executed_command": false,
+      "regularizer_H1": 0.25038349015991845,
+      "white_branch_L2": [
+        9.122448159631226,
+        10.609855778638124,
+        9.625678188863684
+      ],
+      "raw_branch_L2": [
+        1.7174388195153996,
+        1.8169395967513025,
+        1.6651322428892885
+      ],
+      "response_separation": 11.821557032629455
+    },
+    {
+      "seed": 2026113000,
+      "root": 23,
+      "zero_executed_command": true,
+      "regularizer_H1": 0.2500690122160439,
+      "white_branch_L2": [
+        8.992238332698703,
+        10.172598578373997,
+        10.185155374567927
+      ],
+      "raw_branch_L2": [
+        1.7212776454551941,
+        1.7757468650404524,
+        1.7465275203434318
+      ],
+      "response_separation": 11.857166147350751
+    },
+    {
+      "seed": 2026113000,
+      "root": 24,
+      "zero_executed_command": true,
+      "regularizer_H1": 0.2500963997365014,
+      "white_branch_L2": [
+        8.974733113295802,
+        10.071415690076503,
+        10.302029122422546
+      ],
+      "raw_branch_L2": [
+        1.7212276856488815,
+        1.766502612138435,
+        1.7589115135834323
+      ],
+      "response_separation": 11.862154366737627
+    },
+    {
+      "seed": 2026113000,
+      "root": 25,
+      "zero_executed_command": false,
+      "regularizer_H1": 0.2456618271447396,
+      "white_branch_L2": [
+        8.793567929913419,
+        10.06273572069857,
+        10.218460634954527
+      ],
+      "raw_branch_L2": [
+        1.783164187906131,
+        1.8293478241138106,
+        1.8254856573791287
+      ],
+      "response_separation": 12.214463842952144
+    },
+    {
+      "seed": 2026113000,
+      "root": 26,
+      "zero_executed_command": false,
+      "regularizer_H1": 0.2747014771780331,
+      "white_branch_L2": [
+        9.344706107634932,
+        10.987334865445156,
+        10.412062332967361
+      ],
+      "raw_branch_L2": [
+        1.880006991457519,
+        2.2039857386940613,
+        1.7326667415602766
+      ],
+      "response_separation": 11.380611986987974
+    },
+    {
+      "seed": 2026113000,
+      "root": 27,
+      "zero_executed_command": false,
+      "regularizer_H1": 0.29421627094703373,
+      "white_branch_L2": [
+        10.054119068560682,
+        11.699228068802288,
+        10.04887538385943
+      ],
+      "raw_branch_L2": [
+        1.8558267907351662,
+        1.961193279092027,
+        1.790347501549873
+      ],
+      "response_separation": 11.699228023771882
+    },
+    {
+      "seed": 2026113000,
+      "root": 28,
+      "zero_executed_command": false,
+      "regularizer_H1": 0.2608338618833787,
+      "white_branch_L2": [
+        9.291454827756779,
+        10.423289289262813,
+        10.271539147846665
+      ],
+      "raw_branch_L2": [
+        1.69013934801042,
+        1.7436420714878476,
+        1.7071124438281942
+      ],
+      "response_separation": 11.624477456908759
+    },
+    {
+      "seed": 2026113000,
+      "root": 29,
+      "zero_executed_command": false,
+      "regularizer_H1": 0.25204166484850915,
+      "white_branch_L2": [
+        9.013688656808451,
+        10.076013063836937,
+        10.372047793998668
+      ],
+      "raw_branch_L2": [
+        1.7359608688427999,
+        1.7702289477118214,
+        1.7812183046130519
+      ],
+      "response_separation": 11.715957189904241
+    },
+    {
+      "seed": 2026113000,
+      "root": 30,
+      "zero_executed_command": false,
+      "regularizer_H1": 0.24362220323971234,
+      "white_branch_L2": [
+        8.92635548939712,
+        9.587090404397443,
+        10.443210875347152
+      ],
+      "raw_branch_L2": [
+        1.7174791016521136,
+        1.7371078790112668,
+        1.758450989887925
+      ],
+      "response_separation": 11.192852963126725
+    },
+    {
+      "seed": 2026113000,
+      "root": 31,
+      "zero_executed_command": true,
+      "regularizer_H1": 0.2497583283989825,
+      "white_branch_L2": [
+        8.970102109685925,
+        10.051812587390499,
+        10.306305165548604
+      ],
+      "raw_branch_L2": [
+        1.719674128225472,
+        1.7637903698260624,
+        1.7584805254707518
+      ],
+      "response_separation": 11.838474362279946
+    },
+    {
+      "seed": 2026113001,
+      "root": 2,
+      "zero_executed_command": false,
+      "regularizer_H1": 0.21667774433196282,
+      "white_branch_L2": [
+        9.130501190983905,
+        9.094800044544845,
+        9.139547123441604
+      ],
+      "raw_branch_L2": [
+        2.9090463087862446,
+        2.975786240393421,
+        2.924789720097138
+      ],
+      "response_separation": 9.139547174096286
+    },
+    {
+      "seed": 2026113001,
+      "root": 3,
+      "zero_executed_command": false,
+      "regularizer_H1": 0.22969576770368721,
+      "white_branch_L2": [
+        9.393200369190014,
+        9.422346010524368,
+        9.359311239447687
+      ],
+      "raw_branch_L2": [
+        2.9274915224805897,
+        3.0040111528808033,
+        2.934025804742009
+      ],
+      "response_separation": 9.422346037877533
+    },
+    {
+      "seed": 2026113001,
+      "root": 4,
+      "zero_executed_command": false,
+      "regularizer_H1": 0.21414343662481702,
+      "white_branch_L2": [
+        9.120360882876192,
+        8.942687433624146,
+        9.140054585307016
+      ],
+      "raw_branch_L2": [
+        2.8804796509654507,
+        2.9053722470831334,
+        2.900598269388026
+      ],
+      "response_separation": 9.14005464397853
+    },
+    {
+      "seed": 2026113001,
+      "root": 5,
+      "zero_executed_command": false,
+      "regularizer_H1": 0.2297754253342024,
+      "white_branch_L2": [
+        9.371723825597325,
+        9.294353915925395,
+        9.512469069976254
+      ],
+      "raw_branch_L2": [
+        2.93851733053477,
+        2.9768094161640195,
+        2.989877626412881
+      ],
+      "response_separation": 9.512469043919655
+    },
+    {
+      "seed": 2026113001,
+      "root": 6,
+      "zero_executed_command": false,
+      "regularizer_H1": 0.22626257212737377,
+      "white_branch_L2": [
+        9.334768968218446,
+        9.177568896553543,
+        9.449275133560956
+      ],
+      "raw_branch_L2": [
+        2.9304055432127387,
+        2.966436386054554,
+        2.977398161149339
+      ],
+      "response_separation": 9.449275172809946
+    },
+    {
+      "seed": 2026113001,
+      "root": 7,
+      "zero_executed_command": true,
+      "regularizer_H1": 0.2249719323464791,
+      "white_branch_L2": [
+        9.272276583335826,
+        9.196702016926999,
+        9.41345978039514
+      ],
+      "raw_branch_L2": [
+        2.930275791015269,
+        2.9729947449594083,
+        2.974652592010581
+      ],
+      "response_separation": 9.413459746410362
+    },
+    {
+      "seed": 2026113001,
+      "root": 8,
+      "zero_executed_command": true,
+      "regularizer_H1": 0.2211604308348407,
+      "white_branch_L2": [
+        9.212119567666676,
+        9.105537363578375,
+        9.32753229494422
+      ],
+      "raw_branch_L2": [
+        2.923179547139114,
+        2.9609718484946166,
+        2.963217086602591
+      ],
+      "response_separation": 9.327532299981746
+    },
+    {
+      "seed": 2026113001,
+      "root": 9,
+      "zero_executed_command": false,
+      "regularizer_H1": 0.2253340320531597,
+      "white_branch_L2": [
+        9.313597669450955,
+        9.164983574954956,
+        9.42575086916918
+      ],
+      "raw_branch_L2": [
+        2.9870433487664068,
+        3.0179258446614035,
+        3.0395918528838357
+      ],
+      "response_separation": 9.42575084640276
+    },
+    {
+      "seed": 2026113001,
+      "root": 10,
+      "zero_executed_command": false,
+      "regularizer_H1": 0.23433033276300794,
+      "white_branch_L2": [
+        9.497557371947947,
+        9.285585124174013,
+        9.670721597236716
+      ],
+      "raw_branch_L2": [
+        3.0696239836794157,
+        3.0743681859180265,
+        3.1432140197778526
+      ],
+      "response_separation": 9.670721608303184
+    },
+    {
+      "seed": 2026113001,
+      "root": 11,
+      "zero_executed_command": false,
+      "regularizer_H1": 0.24331842309193397,
+      "white_branch_L2": [
+        9.707405690101291,
+        9.611082274280891,
+        9.679679523966724
+      ],
+      "raw_branch_L2": [
+        3.045053811081489,
+        3.088482900500772,
+        3.0788651479700224
+      ],
+      "response_separation": 9.707405629536922
+    },
+    {
+      "seed": 2026113001,
+      "root": 12,
+      "zero_executed_command": false,
+      "regularizer_H1": 0.23119965976284254,
+      "white_branch_L2": [
+        9.441287793323047,
+        9.415782335967538,
+        9.409948769899097
+      ],
+      "raw_branch_L2": [
+        2.9299431981642954,
+        2.9985236092491707,
+        2.941153058019797
+      ],
+      "response_separation": 9.441287792840601
+    },
+    {
+      "seed": 2026113001,
+      "root": 13,
+      "zero_executed_command": false,
+      "regularizer_H1": 0.23010534862789894,
+      "white_branch_L2": [
+        9.424536833499506,
+        9.469127807298682,
+        9.305648051715343
+      ],
+      "raw_branch_L2": [
+        2.923186914825935,
+        3.0152948382413918,
+        2.9117549043706203
+      ],
+      "response_separation": 9.469127798017086
+    },
+    {
+      "seed": 2026113001,
+      "root": 14,
+      "zero_executed_command": false,
+      "regularizer_H1": 0.22369130195186748,
+      "white_branch_L2": [
+        9.265440114869625,
+        9.275302332655157,
+        9.263518012297377
+      ],
+      "raw_branch_L2": [
+        2.936264956531087,
+        2.999050827589734,
+        2.956490297683912
+      ],
+      "response_separation": 9.275302328526024
+    },
+    {
+      "seed": 2026113001,
+      "root": 15,
+      "zero_executed_command": true,
+      "regularizer_H1": 0.22187381476273652,
+      "white_branch_L2": [
+        9.253779199136035,
+        9.248479100168012,
+        9.188679963632707
+      ],
+      "raw_branch_L2": [
+        2.9394222935173295,
+        3.008345396123097,
+        2.94766464542804
+      ],
+      "response_separation": 9.253779156987807
+    },
+    {
+      "seed": 2026113001,
+      "root": 16,
+      "zero_executed_command": true,
+      "regularizer_H1": 0.21932892233218457,
+      "white_branch_L2": [
+        9.22953399353976,
+        9.135801264113134,
+        9.16622910751196
+      ],
+      "raw_branch_L2": [
+        2.9283641545497257,
+        2.9842760788933766,
+        2.9377570246412352
+      ],
+      "response_separation": 9.229533945295477
+    },
+    {
+      "seed": 2026113001,
+      "root": 17,
+      "zero_executed_command": false,
+      "regularizer_H1": 0.23414954381384076,
+      "white_branch_L2": [
+        9.544137665213706,
+        9.519861250430036,
+        9.382001517456404
+      ],
+      "raw_branch_L2": [
+        2.9366285014543143,
+        3.0299729295739386,
+        2.932551072373728
+      ],
+      "response_separation": 9.544137671310066
+    },
+    {
+      "seed": 2026113001,
+      "root": 18,
+      "zero_executed_command": false,
+      "regularizer_H1": 0.22733623829269872,
+      "white_branch_L2": [
+        9.413842968670757,
+        9.353843434224993,
+        9.261561427880455
+      ],
+      "raw_branch_L2": [
+        2.977696596201189,
+        3.0333224223092055,
+        2.9762579648957725
+      ],
+      "response_separation": 9.413842910962137
+    },
+    {
+      "seed": 2026113001,
+      "root": 19,
+      "zero_executed_command": false,
+      "regularizer_H1": 0.22879737650608142,
+      "white_branch_L2": [
+        9.40597826454943,
+        9.470302495907323,
+        9.242051788311999
+      ],
+      "raw_branch_L2": [
+        2.9352099814769637,
+        3.023605484289765,
+        2.917837493020868
+      ],
+      "response_separation": 9.470302594629565
+    },
+    {
+      "seed": 2026113001,
+      "root": 20,
+      "zero_executed_command": false,
+      "regularizer_H1": 0.2192639957437616,
+      "white_branch_L2": [
+        9.22700434128505,
+        9.125548397329348,
+        9.174904927612053
+      ],
+      "raw_branch_L2": [
+        2.9254186224901626,
+        2.9606905723965777,
+        2.9422611231790317
+      ],
+      "response_separation": 9.227004372063842
+    },
+    {
+      "seed": 2026113001,
+      "root": 21,
+      "zero_executed_command": false,
+      "regularizer_H1": 0.2303721998955529,
+      "white_branch_L2": [
+        9.377764131461056,
+        9.397046917964285,
+        9.441494764916058
+      ],
+      "raw_branch_L2": [
+        2.9569058875834404,
+        3.028377393715987,
+        2.9908741918884068
+      ],
+      "response_separation": 9.441494810836634
+    },
+    {
+      "seed": 2026113001,
+      "root": 22,
+      "zero_executed_command": false,
+      "regularizer_H1": 0.22005606239733277,
+      "white_branch_L2": [
+        9.21415381220893,
+        9.072663143475985,
+        9.289280752119371
+      ],
+      "raw_branch_L2": [
+        2.920084389546421,
+        2.962160516169759,
+        2.956335394052271
+      ],
+      "response_separation": 9.289280832166803
+    },
+    {
+      "seed": 2026113001,
+      "root": 23,
+      "zero_executed_command": true,
+      "regularizer_H1": 0.22643845200432958,
+      "white_branch_L2": [
+        9.304869000607843,
+        9.249632698729235,
+        9.419172178547
+      ],
+      "raw_branch_L2": [
+        2.9842498722809703,
+        3.0276022549965114,
+        3.034279538449114
+      ],
+      "response_separation": 9.41917210322156
+    },
+    {
+      "seed": 2026113001,
+      "root": 24,
+      "zero_executed_command": true,
+      "regularizer_H1": 0.221361596887657,
+      "white_branch_L2": [
+        9.242862944689898,
+        9.089753371616707,
+        9.3249358090789
+      ],
+      "raw_branch_L2": [
+        2.9730183843754006,
+        3.001133808853448,
+        3.019326671162899
+      ],
+      "response_separation": 9.324935763026055
+    },
+    {
+      "seed": 2026113001,
+      "root": 25,
+      "zero_executed_command": false,
+      "regularizer_H1": 0.22830076063026183,
+      "white_branch_L2": [
+        9.401962849335481,
+        9.233019683447665,
+        9.452878839319007
+      ],
+      "raw_branch_L2": [
+        3.05521490339386,
+        3.071614192843855,
+        3.1010096412049206
+      ],
+      "response_separation": 9.452878842078638
+    },
+    {
+      "seed": 2026113001,
+      "root": 26,
+      "zero_executed_command": false,
+      "regularizer_H1": 0.24412687203943267,
+      "white_branch_L2": [
+        9.716916509490133,
+        9.49275591942247,
+        9.8337823441082
+      ],
+      "raw_branch_L2": [
+        3.138706449169865,
+        3.1358778582652147,
+        3.2051129167364545
+      ],
+      "response_separation": 9.833782337093881
+    },
+    {
+      "seed": 2026113001,
+      "root": 27,
+      "zero_executed_command": false,
+      "regularizer_H1": 0.2698541623545672,
+      "white_branch_L2": [
+        10.244034974537987,
+        10.138384858005887,
+        10.156027517876312
+      ],
+      "raw_branch_L2": [
+        3.172567002626907,
+        3.2060225591316267,
+        3.2020504943363446
+      ],
+      "response_separation": 10.244034957353762
+    },
+    {
+      "seed": 2026113001,
+      "root": 28,
+      "zero_executed_command": false,
+      "regularizer_H1": 0.24014372134031448,
+      "white_branch_L2": [
+        9.62528708519029,
+        9.615498657887105,
+        9.567737510607328
+      ],
+      "raw_branch_L2": [
+        3.00360268548671,
+        3.0649241908848768,
+        3.0263127600941133
+      ],
+      "response_separation": 9.625287148245716
+    },
+    {
+      "seed": 2026113001,
+      "root": 29,
+      "zero_executed_command": false,
+      "regularizer_H1": 0.22777293065229445,
+      "white_branch_L2": [
+        9.390929126372296,
+        9.414298222633724,
+        9.250721876167892
+      ],
+      "raw_branch_L2": [
+        2.944926190512329,
+        3.0274257284474655,
+        2.934263394820753
+      ],
+      "response_separation": 9.414298166240632
+    },
+    {
+      "seed": 2026113001,
+      "root": 30,
+      "zero_executed_command": false,
+      "regularizer_H1": 0.21891881018079679,
+      "white_branch_L2": [
+        9.200503912236957,
+        9.195900230374695,
+        9.109369684132101
+      ],
+      "raw_branch_L2": [
+        2.9173320855297913,
+        2.987132718003861,
+        2.9162729670987826
+      ],
+      "response_separation": 9.200503842942743
+    },
+    {
+      "seed": 2026113001,
+      "root": 31,
+      "zero_executed_command": true,
+      "regularizer_H1": 0.22261088577892466,
+      "white_branch_L2": [
+        9.27314638544002,
+        9.255524467927076,
+        9.208244314478472
+      ],
+      "raw_branch_L2": [
+        2.939808333896929,
+        3.007580785250683,
+        2.9483662437512668
+      ],
+      "response_separation": 9.273146390847039
+    },
+    {
+      "seed": 2026113002,
+      "root": 2,
+      "zero_executed_command": false,
+      "regularizer_H1": 0.4429967077277244,
+      "white_branch_L2": [
+        11.576802471204822,
+        16.351767496537505,
+        10.436932096369322
+      ],
+      "raw_branch_L2": [
+        2.0577476626603883,
+        2.8371131207851694,
+        1.6639211358026997
+      ],
+      "response_separation": 16.351767473615144
+    },
+    {
+      "seed": 2026113002,
+      "root": 3,
+      "zero_executed_command": false,
+      "regularizer_H1": 0.331252950115566,
+      "white_branch_L2": [
+        9.838909580802204,
+        13.04145329006314,
+        10.710730734970044
+      ],
+      "raw_branch_L2": [
+        1.6164799454827936,
+        2.1661463562355365,
+        1.5481826562486474
+      ],
+      "response_separation": 14.426756597368177
+    },
+    {
+      "seed": 2026113002,
+      "root": 4,
+      "zero_executed_command": false,
+      "regularizer_H1": 0.3125913128777913,
+      "white_branch_L2": [
+        9.306443243006985,
+        12.880712508333103,
+        10.372200917721193
+      ],
+      "raw_branch_L2": [
+        1.5829517501022512,
+        2.220956761601986,
+        1.522991929009471
+      ],
+      "response_separation": 15.163291022670265
+    },
+    {
+      "seed": 2026113002,
+      "root": 5,
+      "zero_executed_command": false,
+      "regularizer_H1": 0.2966311805649985,
+      "white_branch_L2": [
+        9.154426881519147,
+        12.29223842920725,
+        10.3352050236712
+      ],
+      "raw_branch_L2": [
+        1.5717919261288749,
+        2.1237318968086942,
+        1.5121140118700116
+      ],
+      "response_separation": 14.499789625978371
+    },
+    {
+      "seed": 2026113002,
+      "root": 6,
+      "zero_executed_command": false,
+      "regularizer_H1": 0.3124545369451568,
+      "white_branch_L2": [
+        9.107088651417467,
+        12.965739109603168,
+        10.435428702154534
+      ],
+      "raw_branch_L2": [
+        1.5989394804693056,
+        2.2596223071199617,
+        1.5095451045975339
+      ],
+      "response_separation": 15.604379470119714
+    },
+    {
+      "seed": 2026113002,
+      "root": 7,
+      "zero_executed_command": true,
+      "regularizer_H1": 0.3013183567109448,
+      "white_branch_L2": [
+        9.056052387668382,
+        12.543512655993059,
+        10.38108627898623
+      ],
+      "raw_branch_L2": [
+        1.5653367253493593,
+        2.1800496583300344,
+        1.5005525714792274
+      ],
+      "response_separation": 15.045273211332184
+    },
+    {
+      "seed": 2026113002,
+      "root": 8,
+      "zero_executed_command": true,
+      "regularizer_H1": 0.30619991586625706,
+      "white_branch_L2": [
+        9.171709788114494,
+        12.747249483360745,
+        10.301925705881018
+      ],
+      "raw_branch_L2": [
+        1.580318782813171,
+        2.206652436737126,
+        1.4947277634933467
+      ],
+      "response_separation": 15.09607557676502
+    },
+    {
+      "seed": 2026113002,
+      "root": 9,
+      "zero_executed_command": false,
+      "regularizer_H1": 0.43087985755799063,
+      "white_branch_L2": [
+        11.419319376649382,
+        16.260440113178806,
+        10.078235371661588
+      ],
+      "raw_branch_L2": [
+        2.053159887532101,
+        2.8459555371783014,
+        1.6390706451589303
+      ],
+      "response_separation": 16.260440166349778
+    },
+    {
+      "seed": 2026113002,
+      "root": 10,
+      "zero_executed_command": false,
+      "regularizer_H1": 0.3560202147036684,
+      "white_branch_L2": [
+        10.56887931528883,
+        13.884989666414093,
+        10.2781875503933
+      ],
+      "raw_branch_L2": [
+        1.8439772555031646,
+        2.432666601682312,
+        1.6630859112626817
+      ],
+      "response_separation": 13.884989614682103
+    },
+    {
+      "seed": 2026113002,
+      "root": 11,
+      "zero_executed_command": false,
+      "regularizer_H1": 0.310181262476662,
+      "white_branch_L2": [
+        9.5665242479233,
+        13.023149252734948,
+        9.80856828125284
+      ],
+      "raw_branch_L2": [
+        1.7957384320602707,
+        2.3611834865421466,
+        1.6341079530105336
+      ],
+      "response_separation": 13.02314924135459
+    },
+    {
+      "seed": 2026113002,
+      "root": 12,
+      "zero_executed_command": false,
+      "regularizer_H1": 0.3279405605014573,
+      "white_branch_L2": [
+        8.742199038416336,
+        10.61091254905303,
+        13.739360121444532
+      ],
+      "raw_branch_L2": [
+        1.4630169603145657,
+        1.8802919289433306,
+        1.951901898078494
+      ],
+      "response_separation": 15.71609688069093
+    },
+    {
+      "seed": 2026113002,
+      "root": 13,
+      "zero_executed_command": false,
+      "regularizer_H1": 0.3110264115667904,
+      "white_branch_L2": [
+        9.37280224593295,
+        12.946996544177551,
+        10.140428229055782
+      ],
+      "raw_branch_L2": [
+        1.6128605186771259,
+        2.238892262049288,
+        1.5081254207326935
+      ],
+      "response_separation": 15.044768793103751
+    },
+    {
+      "seed": 2026113002,
+      "root": 14,
+      "zero_executed_command": false,
+      "regularizer_H1": 0.2941428664904953,
+      "white_branch_L2": [
+        8.875242321373307,
+        12.30777240438127,
+        10.421199277237992
+      ],
+      "raw_branch_L2": [
+        1.5763591655671463,
+        2.181362021683812,
+        1.5337218756709075
+      ],
+      "response_separation": 15.02678423360025
+    },
+    {
+      "seed": 2026113002,
+      "root": 15,
+      "zero_executed_command": true,
+      "regularizer_H1": 0.3004982970207764,
+      "white_branch_L2": [
+        9.047598390214915,
+        12.494618908901176,
+        10.401898858316406
+      ],
+      "raw_branch_L2": [
+        1.561085378066093,
+        2.170224518376346,
+        1.503188977594676
+      ],
+      "response_separation": 15.021822995127916
+    },
+    {
+      "seed": 2026113002,
+      "root": 16,
+      "zero_executed_command": true,
+      "regularizer_H1": 0.3020569587065043,
+      "white_branch_L2": [
+        9.07533480127074,
+        12.564421692866755,
+        10.379943265671368
+      ],
+      "raw_branch_L2": [
+        1.565763178979988,
+        2.1804704750920467,
+        1.5008158822859317
+      ],
+      "response_separation": 15.03097731206149
+    },
+    {
+      "seed": 2026113002,
+      "root": 17,
+      "zero_executed_command": false,
+      "regularizer_H1": 0.3245360314342135,
+      "white_branch_L2": [
+        9.170684739826733,
+        12.745652878168704,
+        11.283278881785778
+      ],
+      "raw_branch_L2": [
+        1.5538592858254652,
+        2.1797031091331673,
+        1.554196884083225
+      ],
+      "response_separation": 15.644735493788785
+    },
+    {
+      "seed": 2026113002,
+      "root": 18,
+      "zero_executed_command": false,
+      "regularizer_H1": 0.49509730305289246,
+      "white_branch_L2": [
+        12.384744410243075,
+        17.073007217863893,
+        11.201902675378516
+      ],
+      "raw_branch_L2": [
+        2.1577540605356833,
+        2.9111593013048522,
+        1.749999029536292
+      ],
+      "response_separation": 17.073007245420673
+    },
+    {
+      "seed": 2026113002,
+      "root": 19,
+      "zero_executed_command": false,
+      "regularizer_H1": 0.37452257569516095,
+      "white_branch_L2": [
+        9.683807140441075,
+        11.47379878349941,
+        14.353599825247164
+      ],
+      "raw_branch_L2": [
+        1.5120840764012267,
+        1.9181806460164854,
+        1.9306624442110691
+      ],
+      "response_separation": 15.586951200452171
+    },
+    {
+      "seed": 2026113002,
+      "root": 20,
+      "zero_executed_command": false,
+      "regularizer_H1": 0.3768614748241532,
+      "white_branch_L2": [
+        10.487274514472256,
+        14.465525022887546,
+        10.719611843147097
+      ],
+      "raw_branch_L2": [
+        1.6703829911568278,
+        2.3785257198350447,
+        1.4957995264577406
+      ],
+      "response_separation": 16.119331156493793
+    },
+    {
+      "seed": 2026113002,
+      "root": 21,
+      "zero_executed_command": false,
+      "regularizer_H1": 0.307451362948556,
+      "white_branch_L2": [
+        9.206064946921678,
+        12.736994357998622,
+        10.353806692908059
+      ],
+      "raw_branch_L2": [
+        1.5779378104071586,
+        2.211733225284595,
+        1.51733146946625
+      ],
+      "response_separation": 15.126489646137918
+    },
+    {
+      "seed": 2026113002,
+      "root": 22,
+      "zero_executed_command": false,
+      "regularizer_H1": 0.2907676931308928,
+      "white_branch_L2": [
+        8.825407406588585,
+        12.049198993948611,
+        10.577966260049598
+      ],
+      "raw_branch_L2": [
+        1.5319130906905878,
+        2.1162703376143366,
+        1.5365731282966246
+      ],
+      "response_separation": 14.842221869917253
+    },
+    {
+      "seed": 2026113002,
+      "root": 23,
+      "zero_executed_command": true,
+      "regularizer_H1": 0.30422035952485305,
+      "white_branch_L2": [
+        9.119108607766458,
+        12.622150690654976,
+        10.391584302443418
+      ],
+      "raw_branch_L2": [
+        1.568451928697231,
+        2.186048546522028,
+        1.5022317036639727
+      ],
+      "response_separation": 15.098525707287035
+    },
+    {
+      "seed": 2026113002,
+      "root": 24,
+      "zero_executed_command": true,
+      "regularizer_H1": 0.3031099590196092,
+      "white_branch_L2": [
+        9.091679124005116,
+        12.575100300158383,
+        10.41109484817403
+      ],
+      "raw_branch_L2": [
+        1.5638536404004342,
+        2.17911735895551,
+        1.503103226760499
+      ],
+      "response_separation": 15.070232888310652
+    },
+    {
+      "seed": 2026113002,
+      "root": 25,
+      "zero_executed_command": false,
+      "regularizer_H1": 0.43087985755799063,
+      "white_branch_L2": [
+        11.419319376649382,
+        16.260440113178806,
+        10.078235371661588
+      ],
+      "raw_branch_L2": [
+        2.053159887532101,
+        2.8459555371783014,
+        1.6390706451589303
+      ],
+      "response_separation": 16.260440166349778
+    },
+    {
+      "seed": 2026113002,
+      "root": 26,
+      "zero_executed_command": false,
+      "regularizer_H1": 0.30674300807080285,
+      "white_branch_L2": [
+        9.390547020440389,
+        12.720811761594241,
+        10.166932678076934
+      ],
+      "raw_branch_L2": [
+        1.6544838645688367,
+        2.253863432020002,
+        1.5741009507926038
+      ],
+      "response_separation": 14.037717747331634
+    },
+    {
+      "seed": 2026113002,
+      "root": 27,
+      "zero_executed_command": false,
+      "regularizer_H1": 0.3078479753891692,
+      "white_branch_L2": [
+        8.837746152396713,
+        12.53436879813289,
+        10.928161301267135
+      ],
+      "raw_branch_L2": [
+        1.5796167064902833,
+        2.206970658476344,
+        1.5988057958526534
+      ],
+      "response_separation": 15.293476984904771
+    },
+    {
+      "seed": 2026113002,
+      "root": 28,
+      "zero_executed_command": false,
+      "regularizer_H1": 0.31520476428294525,
+      "white_branch_L2": [
+        9.60568946079764,
+        12.494183264997746,
+        10.711769367257881
+      ],
+      "raw_branch_L2": [
+        1.5996900016087583,
+        2.1008220027644695,
+        1.5623128648899554
+      ],
+      "response_separation": 14.092098368928635
+    },
+    {
+      "seed": 2026113002,
+      "root": 29,
+      "zero_executed_command": false,
+      "regularizer_H1": 0.31017148131550915,
+      "white_branch_L2": [
+        9.563312307679166,
+        12.505121091103671,
+        10.463390974158086
+      ],
+      "raw_branch_L2": [
+        1.5968431634870672,
+        2.0994719084278817,
+        1.5331745519416529
+      ],
+      "response_separation": 14.137154879903376
+    },
+    {
+      "seed": 2026113002,
+      "root": 30,
+      "zero_executed_command": false,
+      "regularizer_H1": 0.3128416401732265,
+      "white_branch_L2": [
+        9.082297335727214,
+        12.736505308389733,
+        10.755783426341358
+      ],
+      "raw_branch_L2": [
+        1.5832667100146165,
+        2.2303502316211308,
+        1.5609638523409082
+      ],
+      "response_separation": 15.578010811946186
+    },
+    {
+      "seed": 2026113002,
+      "root": 31,
+      "zero_executed_command": true,
+      "regularizer_H1": 0.29900792796544134,
+      "white_branch_L2": [
+        8.985268980633796,
+        12.421818300511125,
+        10.460425635266258
+      ],
+      "raw_branch_L2": [
+        1.555806177473594,
+        2.165474787282475,
+        1.507849286224678
+      ],
+      "response_separation": 15.010534286596172
+    },
+    {
+      "seed": 2026113003,
+      "root": 2,
+      "zero_executed_command": false,
+      "regularizer_H1": 0.2303650516762807,
+      "white_branch_L2": [
+        8.926658316052354,
+        9.961127323190297,
+        9.29899205778349
+      ],
+      "raw_branch_L2": [
+        1.4482137036563318,
+        1.7268976639511844,
+        1.4684207811272258
+      ],
+      "response_separation": 9.961127323686425
+    },
+    {
+      "seed": 2026113003,
+      "root": 3,
+      "zero_executed_command": false,
+      "regularizer_H1": 0.3450232638123592,
+      "white_branch_L2": [
+        11.090767027647852,
+        13.244594252212927,
+        9.952005312725934
+      ],
+      "raw_branch_L2": [
+        1.728828024998963,
+        2.1950836846191613,
+        1.446309767840181
+      ],
+      "response_separation": 13.24459422439367
+    },
+    {
+      "seed": 2026113003,
+      "root": 4,
+      "zero_executed_command": false,
+      "regularizer_H1": 0.24787905973166544,
+      "white_branch_L2": [
+        9.182575082301948,
+        10.671871641575681,
+        9.346023075859526
+      ],
+      "raw_branch_L2": [
+        1.3447182805266997,
+        1.6770547394916913,
+        1.3436611491883803
+      ],
+      "response_separation": 10.671871645640547
+    },
+    {
+      "seed": 2026113003,
+      "root": 5,
+      "zero_executed_command": false,
+      "regularizer_H1": 0.2482210139951455,
+      "white_branch_L2": [
+        9.143347707314001,
+        10.80906925119411,
+        9.247368422878665
+      ],
+      "raw_branch_L2": [
+        1.32149066731709,
+        1.6643641630726607,
+        1.30924076566001
+      ],
+      "response_separation": 10.809069285371883
+    },
+    {
+      "seed": 2026113003,
+      "root": 6,
+      "zero_executed_command": false,
+      "regularizer_H1": 0.23511227053447412,
+      "white_branch_L2": [
+        8.955693114343132,
+        10.295423531388062,
+        9.200497313013148
+      ],
+      "raw_branch_L2": [
+        1.2842245807508805,
+        1.5829110078583264,
+        1.3114508472965927
+      ],
+      "response_separation": 10.295423525836634
+    },
+    {
+      "seed": 2026113003,
+      "root": 7,
+      "zero_executed_command": true,
+      "regularizer_H1": 0.24598301041678353,
+      "white_branch_L2": [
+        9.2188229514173,
+        10.89524271787404,
+        8.926332814161082
+      ],
+      "raw_branch_L2": [
+        1.3906948947211335,
+        1.7452020554209076,
+        1.3048699880846062
+      ],
+      "response_separation": 10.895242710546706
+    },
+    {
+      "seed": 2026113003,
+      "root": 8,
+      "zero_executed_command": true,
+      "regularizer_H1": 0.24263679111944755,
+      "white_branch_L2": [
+        9.137610797499757,
+        10.70127140049948,
+        9.027981097447608
+      ],
+      "raw_branch_L2": [
+        1.3712456728623794,
+        1.7088942609985651,
+        1.3208905936067985
+      ],
+      "response_separation": 10.701271386950323
+    },
+    {
+      "seed": 2026113003,
+      "root": 9,
+      "zero_executed_command": false,
+      "regularizer_H1": 0.21111953672566613,
+      "white_branch_L2": [
+        8.420221395395629,
+        9.758014130466064,
+        8.780133153324824
+      ],
+      "raw_branch_L2": [
+        1.4983136186130308,
+        1.8002501720799033,
+        1.4813527483007016
+      ],
+      "response_separation": 9.758014106073553
+    },
+    {
+      "seed": 2026113003,
+      "root": 10,
+      "zero_executed_command": false,
+      "regularizer_H1": 0.23710563097439044,
+      "white_branch_L2": [
+        8.956457641846153,
+        10.97916628116013,
+        8.507964572266967
+      ],
+      "raw_branch_L2": [
+        1.5804913814526331,
+        1.9622398923541242,
+        1.4091781810708741
+      ],
+      "response_separation": 10.97916629732708
+    },
+    {
+      "seed": 2026113003,
+      "root": 11,
+      "zero_executed_command": false,
+      "regularizer_H1": 0.2501952109201523,
+      "white_branch_L2": [
+        9.291855553947077,
+        10.698065664618282,
+        9.350812498393587
+      ],
+      "raw_branch_L2": [
+        1.436428509844648,
+        1.7835285178906226,
+        1.4170611466800553
+      ],
+      "response_separation": 10.69806567674294
+    },
+    {
+      "seed": 2026113003,
+      "root": 12,
+      "zero_executed_command": false,
+      "regularizer_H1": 0.27992719549015654,
+      "white_branch_L2": [
+        9.748251898312052,
+        11.626107610177991,
+        9.60631750299131
+      ],
+      "raw_branch_L2": [
+        1.4029459767136612,
+        1.7758568863613944,
+        1.3483691856778919
+      ],
+      "response_separation": 11.626107639069396
+    },
+    {
+      "seed": 2026113003,
+      "root": 13,
+      "zero_executed_command": false,
+      "regularizer_H1": 0.24195009886282826,
+      "white_branch_L2": [
+        9.066310244408548,
+        10.822348660286343,
+        8.9109652629392
+      ],
+      "raw_branch_L2": [
+        1.385299866469514,
+        1.7385315266013541,
+        1.3078256883594075
+      ],
+      "response_separation": 10.822348667946324
+    },
+    {
+      "seed": 2026113003,
+      "root": 14,
+      "zero_executed_command": false,
+      "regularizer_H1": 0.25451754605116894,
+      "white_branch_L2": [
+        9.413213100573392,
+        11.100580860064646,
+        9.020683829029068
+      ],
+      "raw_branch_L2": [
+        1.3905532432482832,
+        1.7656376825901763,
+        1.2966610317263034
+      ],
+      "response_separation": 11.100580841906497
+    },
+    {
+      "seed": 2026113003,
+      "root": 15,
+      "zero_executed_command": true,
+      "regularizer_H1": 0.24210490728778788,
+      "white_branch_L2": [
+        9.107384061357932,
+        10.703467317282202,
+        9.0219840468894
+      ],
+      "raw_branch_L2": [
+        1.3634165445802404,
+        1.710289557777424,
+        1.3178174660338537
+      ],
+      "response_separation": 10.703467315650888
+    },
+    {
+      "seed": 2026113003,
+      "root": 16,
+      "zero_executed_command": true,
+      "regularizer_H1": 0.24286033595340356,
+      "white_branch_L2": [
+        9.127817071406401,
+        10.678402148361757,
+        9.079085311149235
+      ],
+      "raw_branch_L2": [
+        1.3623733864498702,
+        1.7004135389910595,
+        1.321120369657532
+      ],
+      "response_separation": 10.67840216083387
+    },
+    {
+      "seed": 2026113003,
+      "root": 17,
+      "zero_executed_command": false,
+      "regularizer_H1": 0.258949392855128,
+      "white_branch_L2": [
+        9.506985134972332,
+        10.805157527048708,
+        9.548586546090748
+      ],
+      "raw_branch_L2": [
+        1.3405356573930531,
+        1.6672545478092287,
+        1.3509209832682347
+      ],
+      "response_separation": 10.805157518924794
+    },
+    {
+      "seed": 2026113003,
+      "root": 18,
+      "zero_executed_command": false,
+      "regularizer_H1": 0.21652335743295292,
+      "white_branch_L2": [
+        8.578170852970418,
+        9.773601840876248,
+        8.962510788614479
+      ],
+      "raw_branch_L2": [
+        1.4777676638903987,
+        1.766663723042896,
+        1.4763834832097895
+      ],
+      "response_separation": 9.773601829851101
+    },
+    {
+      "seed": 2026113003,
+      "root": 19,
+      "zero_executed_command": false,
+      "regularizer_H1": 0.2797310710935633,
+      "white_branch_L2": [
+        9.805166464567687,
+        11.561963190906877,
+        9.614047621788478
+      ],
+      "raw_branch_L2": [
+        1.3973573375364559,
+        1.755620644356748,
+        1.3364461383763053
+      ],
+      "response_separation": 11.561963199599298
+    },
+    {
+      "seed": 2026113003,
+      "root": 20,
+      "zero_executed_command": false,
+      "regularizer_H1": 0.2359001578054557,
+      "white_branch_L2": [
+        8.922007529843627,
+        10.629110693019483,
+        8.898132911169482
+      ],
+      "raw_branch_L2": [
+        1.3718295809772618,
+        1.7138096343245344,
+        1.3217372412747892
+      ],
+      "response_separation": 10.629110705432863
+    },
+    {
+      "seed": 2026113003,
+      "root": 21,
+      "zero_executed_command": false,
+      "regularizer_H1": 0.25015813436006734,
+      "white_branch_L2": [
+        9.308725733685788,
+        11.272823173361926,
+        8.62862988544113
+      ],
+      "raw_branch_L2": [
+        1.4762218665566846,
+        1.8729788304313457,
+        1.2989486419086005
+      ],
+      "response_separation": 11.272823170148001
+    },
+    {
+      "seed": 2026113003,
+      "root": 22,
+      "zero_executed_command": false,
+      "regularizer_H1": 0.2416415306390189,
+      "white_branch_L2": [
+        9.066369673375391,
+        10.971783259869499,
+        8.705857587871293
+      ],
+      "raw_branch_L2": [
+        1.4378214453156435,
+        1.8186269856586874,
+        1.3206825268254407
+      ],
+      "response_separation": 10.971783253517051
+    },
+    {
+      "seed": 2026113003,
+      "root": 23,
+      "zero_executed_command": true,
+      "regularizer_H1": 0.24270848048376514,
+      "white_branch_L2": [
+        9.072773658382715,
+        10.828450497070016,
+        8.945926866097125
+      ],
+      "raw_branch_L2": [
+        1.399941053092806,
+        1.7606824638857477,
+        1.3289416279145276
+      ],
+      "response_separation": 10.828450521315757
+    },
+    {
+      "seed": 2026113003,
+      "root": 24,
+      "zero_executed_command": true,
+      "regularizer_H1": 0.2438422145181992,
+      "white_branch_L2": [
+        9.099172025497491,
+        10.900650494111037,
+        8.90433143928314
+      ],
+      "raw_branch_L2": [
+        1.4069276451863364,
+        1.7749215391962923,
+        1.322840552077286
+      ],
+      "response_separation": 10.900650488837496
+    },
+    {
+      "seed": 2026113003,
+      "root": 25,
+      "zero_executed_command": false,
+      "regularizer_H1": 0.21126124878479413,
+      "white_branch_L2": [
+        8.325210610321099,
+        9.814113043399585,
+        8.817426612411015
+      ],
+      "raw_branch_L2": [
+        1.5395510877423249,
+        1.8516905265390982,
+        1.5251925548952918
+      ],
+      "response_separation": 9.814113048224511
+    },
+    {
+      "seed": 2026113003,
+      "root": 26,
+      "zero_executed_command": false,
+      "regularizer_H1": 0.21846561191597885,
+      "white_branch_L2": [
+        8.356913380623167,
+        10.309695699811833,
+        8.691637259645073
+      ],
+      "raw_branch_L2": [
+        1.7193743542492517,
+        2.076396223645768,
+        1.5700492031878404
+      ],
+      "response_separation": 10.309695712293818
+    },
+    {
+      "seed": 2026113003,
+      "root": 27,
+      "zero_executed_command": false,
+      "regularizer_H1": 0.22905819190452834,
+      "white_branch_L2": [
+        8.657986160351914,
+        10.394990964206556,
+        8.992134094598198
+      ],
+      "raw_branch_L2": [
+        1.634003420826034,
+        1.991214164633314,
+        1.5481623983650474
+      ],
+      "response_separation": 10.39499094785854
+    },
+    {
+      "seed": 2026113003,
+      "root": 28,
+      "zero_executed_command": false,
+      "regularizer_H1": 0.3379921686892929,
+      "white_branch_L2": [
+        10.748879847568233,
+        13.779814210712404,
+        9.162165719460408
+      ],
+      "raw_branch_L2": [
+        1.8340824025086768,
+        2.414415322832141,
+        1.4489910437344857
+      ],
+      "response_separation": 13.779814215832388
+    },
+    {
+      "seed": 2026113003,
+      "root": 29,
+      "zero_executed_command": false,
+      "regularizer_H1": 0.24524161172068806,
+      "white_branch_L2": [
+        9.017768098382174,
+        10.80639336720888,
+        9.188038834222313
+      ],
+      "raw_branch_L2": [
+        1.339646391648443,
+        1.716704919977107,
+        1.3267419040821877
+      ],
+      "response_separation": 10.806393323062357
+    },
+    {
+      "seed": 2026113003,
+      "root": 30,
+      "zero_executed_command": false,
+      "regularizer_H1": 0.23953085038788943,
+      "white_branch_L2": [
+        8.986297126015243,
+        10.664565222625388,
+        9.025134471141572
+      ],
+      "raw_branch_L2": [
+        1.352301866832674,
+        1.704998529597457,
+        1.3137737271782375
+      ],
+      "response_separation": 10.664565220285247
+    },
+    {
+      "seed": 2026113003,
+      "root": 31,
+      "zero_executed_command": true,
+      "regularizer_H1": 0.24644840140383695,
+      "white_branch_L2": [
+        9.172616076841623,
+        11.003327337773657,
+        8.871215261839248
+      ],
+      "raw_branch_L2": [
+        1.4217599827632417,
+        1.7914758992878852,
+        1.318826426569272
+      ],
+      "response_separation": 11.003327372537331
+    }
+  ],
+  "regularizer_resident_recomposition_absolute_error": 0.0,
+  "per_parameter": {
+    "offsets": {
+      "parameter_count": 3456,
+      "predictive_L2": 0.07518202181757497,
+      "regularizer_L2": 0.15745814097661404,
+      "sum_L2": 0.10530282847603041,
+      "dot_predictive_regularizer": -0.00967835843966865,
+      "cosine": -0.8175655475359159,
+      "regularizer_to_predictive_norm_ratio": 2.0943589593623533,
+      "signed_projection_fraction_of_combined_gradient": {
+        "predictive": -0.3630747727404225,
+        "regularizer": 1.3630747727404227
+      },
+      "negative_predictive_gradient_backprop_linearization": {
+        "predictive": -0.005652336404578318,
+        "regularizer": 0.00967835843966865
+      },
+      "negative_regularizer_gradient_backprop_linearization": {
+        "predictive": 0.00967835843966865,
+        "regularizer": -0.024793066159811264
+      },
+      "negative_combined_gradient_backprop_linearization": {
+        "predictive": 0.004026022035090332,
+        "regularizer": -0.015114707720142614
+      }
+    },
+    "final_block.attn.norm.weight": {
+      "parameter_count": 192,
+      "predictive_L2": 0.01706928383276886,
+      "regularizer_L2": 0.01645278180441827,
+      "sum_L2": 0.009554542463323998,
+      "dot_predictive_regularizer": -0.0002353825989919799,
+      "cosine": -0.8381460751340054,
+      "regularizer_to_predictive_norm_ratio": 0.9638823728991458,
+      "signed_projection_fraction_of_combined_gradient": {
+        "predictive": 0.6131919381920792,
+        "regularizer": 0.3868080618079214
+      },
+      "negative_predictive_gradient_backprop_linearization": {
+        "predictive": -0.0002913604505636243,
+        "regularizer": 0.0002353825989919799
+      },
+      "negative_regularizer_gradient_backprop_linearization": {
+        "predictive": 0.0002353825989919799,
+        "regularizer": -0.000270694029103797
+      },
+      "negative_combined_gradient_backprop_linearization": {
+        "predictive": -5.597785157164439e-05,
+        "regularizer": -3.5311430111817095e-05
+      }
+    },
+    "final_block.attn.norm.bias": {
+      "parameter_count": 192,
+      "predictive_L2": 0.01816258459569337,
+      "regularizer_L2": 0.02088144483533709,
+      "sum_L2": 0.00940992015402858,
+      "dot_predictive_regularizer": -0.0003386838101508754,
+      "cosine": -0.8930098342223581,
+      "regularizer_to_predictive_norm_ratio": 1.1496956683295176,
+      "signed_projection_fraction_of_combined_gradient": {
+        "predictive": -0.09943161254194245,
+        "regularizer": 1.0994316125419419
+      },
+      "negative_predictive_gradient_backprop_linearization": {
+        "predictive": -0.00032987947919571804,
+        "regularizer": 0.0003386838101508754
+      },
+      "negative_regularizer_gradient_backprop_linearization": {
+        "predictive": 0.0003386838101508754,
+        "regularizer": -0.000436034738411226
+      },
+      "negative_combined_gradient_backprop_linearization": {
+        "predictive": 8.804330955157382e-06,
+        "regularizer": -9.735092826035059e-05
+      }
+    },
+    "final_block.attn.to_qkv.weight": {
+      "parameter_count": 589824,
+      "predictive_L2": 0.13119938564830136,
+      "regularizer_L2": 0.1321303102315599,
+      "sum_L2": 0.07182668691822426,
+      "dot_predictive_regularizer": -0.014756312361365683,
+      "cosine": -0.8512234585676033,
+      "regularizer_to_predictive_norm_ratio": 1.007095494987713,
+      "signed_projection_fraction_of_combined_gradient": {
+        "predictive": 0.47624184716915163,
+        "regularizer": 0.5237581528308484
+      },
+      "negative_predictive_gradient_backprop_linearization": {
+        "predictive": -0.017213278794491707,
+        "regularizer": 0.014756312361365683
+      },
+      "negative_regularizer_gradient_backprop_linearization": {
+        "predictive": 0.014756312361365683,
+        "regularizer": -0.017458418881888267
+      },
+      "negative_combined_gradient_backprop_linearization": {
+        "predictive": -0.0024569664331260243,
+        "regularizer": -0.0027021065205225844
+      }
+    },
+    "final_block.attn.to_out.0.weight": {
+      "parameter_count": 196608,
+      "predictive_L2": 0.17606489128279984,
+      "regularizer_L2": 0.1722031417780788,
+      "sum_L2": 0.08168514909651588,
+      "dot_predictive_regularizer": -0.026990152198872602,
+      "cosine": -0.8902080146502711,
+      "regularizer_to_predictive_norm_ratio": 0.9780663284054842,
+      "signed_projection_fraction_of_combined_gradient": {
+        "predictive": 0.600781659387825,
+        "regularizer": 0.39921834061217504
+      },
+      "negative_predictive_gradient_backprop_linearization": {
+        "predictive": -0.03099884594242413,
+        "regularizer": 0.026990152198872602
+      },
+      "negative_regularizer_gradient_backprop_linearization": {
+        "predictive": 0.026990152198872602,
+        "regularizer": -0.029653922038241104
+      },
+      "negative_combined_gradient_backprop_linearization": {
+        "predictive": -0.004008693743551527,
+        "regularizer": -0.0026637698393685016
+      }
+    },
+    "final_block.attn.to_out.0.bias": {
+      "parameter_count": 192,
+      "predictive_L2": 0.014031265904483559,
+      "regularizer_L2": 0.014334592465211939,
+      "sum_L2": 0.005568232259446732,
+      "dot_predictive_regularizer": -0.0001856758767654452,
+      "cosine": -0.923152134052564,
+      "regularizer_to_predictive_norm_ratio": 1.0216179041002604,
+      "signed_projection_fraction_of_combined_gradient": {
+        "predictive": 0.3612472206448039,
+        "regularizer": 0.6387527793551969
+      },
+      "negative_predictive_gradient_backprop_linearization": {
+        "predictive": -0.00019687642288232282,
+        "regularizer": 0.0001856758767654452
+      },
+      "negative_regularizer_gradient_backprop_linearization": {
+        "predictive": 0.0001856758767654452,
+        "regularizer": -0.0002054805411437109
+      },
+      "negative_combined_gradient_backprop_linearization": {
+        "predictive": -1.1200546116877605e-05,
+        "regularizer": -1.9804664378265675e-05
+      }
+    },
+    "final_block.mlp.net.0.weight": {
+      "parameter_count": 192,
+      "predictive_L2": 0.044978090117884895,
+      "regularizer_L2": 0.04045240782902413,
+      "sum_L2": 0.012846034896521995,
+      "dot_predictive_regularizer": -0.0017472026386278034,
+      "cosine": -0.9602800128766723,
+      "regularizer_to_predictive_norm_ratio": 0.8993802921155784,
+      "signed_projection_fraction_of_combined_gradient": {
+        "predictive": 1.6714636295513468,
+        "regularizer": -0.6714636295513468
+      },
+      "negative_predictive_gradient_backprop_linearization": {
+        "predictive": -0.002023028590652575,
+        "regularizer": 0.0017472026386278034
+      },
+      "negative_regularizer_gradient_backprop_linearization": {
+        "predictive": 0.0017472026386278034,
+        "regularizer": -0.0016363972991656926
+      },
+      "negative_combined_gradient_backprop_linearization": {
+        "predictive": -0.0002758259520247717,
+        "regularizer": 0.00011080533946211083
+      }
+    },
+    "final_block.mlp.net.0.bias": {
+      "parameter_count": 192,
+      "predictive_L2": 0.03866168542691098,
+      "regularizer_L2": 0.03559034690468384,
+      "sum_L2": 0.013413692962999716,
+      "dot_predictive_regularizer": -0.0012907357769697658,
+      "cosine": -0.9380464497628577,
+      "regularizer_to_predictive_norm_ratio": 0.9205585972698103,
+      "signed_projection_fraction_of_combined_gradient": {
+        "predictive": 1.1337373652781795,
+        "regularizer": -0.13373736527818073
+      },
+      "negative_predictive_gradient_backprop_linearization": {
+        "predictive": -0.001494725920049421,
+        "regularizer": 0.0012907357769697658
+      },
+      "negative_regularizer_gradient_backprop_linearization": {
+        "predictive": 0.0012907357769697658,
+        "regularizer": -0.0012666727927957385
+      },
+      "negative_combined_gradient_backprop_linearization": {
+        "predictive": -0.00020399014307965514,
+        "regularizer": 2.4062984174027255e-05
+      }
+    },
+    "final_block.mlp.net.1.weight": {
+      "parameter_count": 393216,
+      "predictive_L2": 0.5098176992194103,
+      "regularizer_L2": 0.46678180450751183,
+      "sum_L2": 0.20533802579608673,
+      "dot_predictive_regularizer": -0.2178178173094139,
+      "cosine": -0.9153023439034582,
+      "regularizer_to_predictive_norm_ratio": 0.9155857186249292,
+      "signed_projection_fraction_of_combined_gradient": {
+        "predictive": 0.9984006218112362,
+        "regularizer": 0.0015993781887638165
+      },
+      "negative_predictive_gradient_backprop_linearization": {
+        "predictive": -0.2599140864373732,
+        "regularizer": 0.2178178173094139
+      },
+      "negative_regularizer_gradient_backprop_linearization": {
+        "predictive": 0.2178178173094139,
+        "regularizer": -0.21788525301928902
+      },
+      "negative_combined_gradient_backprop_linearization": {
+        "predictive": -0.042096269127959274,
+        "regularizer": -6.743570987510772e-05
+      }
+    },
+    "final_block.mlp.net.1.bias": {
+      "parameter_count": 2048,
+      "predictive_L2": 0.03415943899010477,
+      "regularizer_L2": 0.03165977723377752,
+      "sum_L2": 0.013052169599638884,
+      "dot_predictive_regularizer": -0.000999424817676685,
+      "cosine": -0.9241267579458861,
+      "regularizer_to_predictive_norm_ratio": 0.9268236882622297,
+      "signed_projection_fraction_of_combined_gradient": {
+        "predictive": 0.9828792457780272,
+        "regularizer": 0.017120754221971516
+      },
+      "negative_predictive_gradient_backprop_linearization": {
+        "predictive": -0.00116686727211869,
+        "regularizer": 0.000999424817676685
+      },
+      "negative_regularizer_gradient_backprop_linearization": {
+        "predictive": 0.000999424817676685,
+        "regularizer": -0.0010023414944924174
+      },
+      "negative_combined_gradient_backprop_linearization": {
+        "predictive": -0.00016744245444200493,
+        "regularizer": -2.916676815732308e-06
+      }
+    },
+    "final_block.mlp.net.4.weight": {
+      "parameter_count": 393216,
+      "predictive_L2": 0.5374514739921311,
+      "regularizer_L2": 0.5189945781247305,
+      "sum_L2": 0.2202125441941627,
+      "dot_predictive_regularizer": -0.2548579471993576,
+      "cosine": -0.9136841719028641,
+      "regularizer_to_predictive_norm_ratio": 0.9656584886998173,
+      "signed_projection_fraction_of_combined_gradient": {
+        "predictive": 0.7010443542978719,
+        "regularizer": 0.2989556457021293
+      },
+      "negative_predictive_gradient_backprop_linearization": {
+        "predictive": -0.28885408689631437,
+        "regularizer": 0.2548579471993576
+      },
+      "negative_regularizer_gradient_backprop_linearization": {
+        "predictive": 0.2548579471993576,
+        "regularizer": -0.269355372122867
+      },
+      "negative_combined_gradient_backprop_linearization": {
+        "predictive": -0.03399613969695675,
+        "regularizer": -0.014497424923509361
+      }
+    },
+    "final_block.mlp.net.4.bias": {
+      "parameter_count": 192,
+      "predictive_L2": 0.11127860067166001,
+      "regularizer_L2": 0.1082861065708408,
+      "sum_L2": 0.04052228222808264,
+      "dot_predictive_regularizer": -0.01123337624337094,
+      "cosine": -0.9322360867496292,
+      "regularizer_to_predictive_norm_ratio": 0.97310809012014,
+      "signed_projection_fraction_of_combined_gradient": {
+        "predictive": 0.700068191483733,
+        "regularizer": 0.299931808516267
+      },
+      "negative_predictive_gradient_backprop_linearization": {
+        "predictive": -0.01238292696744277,
+        "regularizer": 0.01123337624337094
+      },
+      "negative_regularizer_gradient_backprop_linearization": {
+        "predictive": 0.01123337624337094,
+        "regularizer": -0.01172588087627149
+      },
+      "negative_combined_gradient_backprop_linearization": {
+        "predictive": -0.0011495507240718312,
+        "regularizer": -0.0004925046329005509
+      }
+    },
+    "final_block.adaLN_modulation.1.weight": {
+      "parameter_count": 221184,
+      "predictive_L2": 0.41661003030043514,
+      "regularizer_L2": 0.4247221634416254,
+      "sum_L2": 0.17890126893826996,
+      "dot_predictive_regularizer": -0.16097358471887052,
+      "cosine": -0.9097456111462353,
+      "regularizer_to_predictive_norm_ratio": 1.019471766283064,
+      "signed_projection_fraction_of_combined_gradient": {
+        "predictive": 0.3933782663328979,
+        "regularizer": 0.6066217336671013
+      },
+      "negative_predictive_gradient_backprop_linearization": {
+        "predictive": -0.17356391734692947,
+        "regularizer": 0.16097358471887052
+      },
+      "negative_regularizer_gradient_backprop_linearization": {
+        "predictive": 0.16097358471887052,
+        "regularizer": -0.18038891611853475
+      },
+      "negative_combined_gradient_backprop_linearization": {
+        "predictive": -0.012590332628058948,
+        "regularizer": -0.019415331399664226
+      }
+    },
+    "final_block.adaLN_modulation.1.bias": {
+      "parameter_count": 1152,
+      "predictive_L2": 0.06965963768610477,
+      "regularizer_L2": 0.07115947845120688,
+      "sum_L2": 0.029667705930624833,
+      "dot_predictive_regularizer": -0.0045179818604105665,
+      "cosine": -0.9114451016845805,
+      "regularizer_to_predictive_norm_ratio": 1.0215309871673548,
+      "signed_projection_fraction_of_combined_gradient": {
+        "predictive": 0.38002000468388253,
+        "regularizer": 0.6199799953161175
+      },
+      "negative_predictive_gradient_backprop_linearization": {
+        "predictive": -0.004852465122559388,
+        "regularizer": 0.0045179818604105665
+      },
+      "negative_regularizer_gradient_backprop_linearization": {
+        "predictive": 0.0045179818604105665,
+        "regularizer": -0.005063671373447777
+      },
+      "negative_combined_gradient_backprop_linearization": {
+        "predictive": -0.00033448326214882175,
+        "regularizer": -0.0005456895130372102
+      }
+    },
+    "final_norm.weight": {
+      "parameter_count": 192,
+      "predictive_L2": 0.17257272966018322,
+      "regularizer_L2": 0.16561562943126265,
+      "sum_L2": 0.06841185041282968,
+      "dot_predictive_regularizer": -0.026264851228686308,
+      "cosine": -0.9189702605409693,
+      "regularizer_to_predictive_norm_ratio": 0.9596859814258026,
+      "signed_projection_fraction_of_combined_gradient": {
+        "predictive": 0.751358886680569,
+        "regularizer": 0.24864111331943023
+      },
+      "negative_predictive_gradient_backprop_linearization": {
+        "predictive": -0.029781347022366685,
+        "regularizer": 0.026264851228686308
+      },
+      "negative_regularizer_gradient_backprop_linearization": {
+        "predictive": 0.026264851228686308,
+        "regularizer": -0.027428536711913313
+      },
+      "negative_combined_gradient_backprop_linearization": {
+        "predictive": -0.0035164957936803763,
+        "regularizer": -0.0011636854832270047
+      }
+    },
+    "final_norm.bias": {
+      "parameter_count": 192,
+      "predictive_L2": 0.1900904096521684,
+      "regularizer_L2": 0.18361888001726462,
+      "sum_L2": 0.06949818956667174,
+      "dot_predictive_regularizer": -0.03251012929373938,
+      "cosine": -0.9314105568013041,
+      "regularizer_to_predictive_norm_ratio": 0.9659555174469584,
+      "signed_projection_fraction_of_combined_gradient": {
+        "predictive": 0.7503593755275167,
+        "regularizer": 0.2496406244724847
+      },
+      "negative_predictive_gradient_backprop_linearization": {
+        "predictive": -0.03613436384172919,
+        "regularizer": 0.03251012929373938
+      },
+      "negative_regularizer_gradient_backprop_linearization": {
+        "predictive": 0.03251012929373938,
+        "regularizer": -0.033715893098794615
+      },
+      "negative_combined_gradient_backprop_linearization": {
+        "predictive": -0.0036242345479898103,
+        "regularizer": -0.0012057638050552363
+      }
+    },
+    "pred_proj.net.0.weight": {
+      "parameter_count": 393216,
+      "predictive_L2": 2.3117302388562084,
+      "regularizer_L2": 2.11978906967322,
+      "sum_L2": 0.8473012665778974,
+      "dot_predictive_regularizer": -4.5598414804018645,
+      "cosine": -0.9305076386436772,
+      "regularizer_to_predictive_norm_ratio": 0.9169707754145411,
+      "signed_projection_fraction_of_combined_gradient": {
+        "predictive": 1.0924000342344502,
+        "regularizer": -0.09240003423445013
+      },
+      "negative_predictive_gradient_backprop_linearization": {
+        "predictive": -5.3440966972421835,
+        "regularizer": 4.5598414804018645
+      },
+      "negative_regularizer_gradient_backprop_linearization": {
+        "predictive": 4.5598414804018645,
+        "regularizer": -4.493505699906055
+      },
+      "negative_combined_gradient_backprop_linearization": {
+        "predictive": -0.784255216840319,
+        "regularizer": 0.06633578049580979
+      }
+    },
+    "pred_proj.net.0.bias": {
+      "parameter_count": 2048,
+      "predictive_L2": 0.19081698179275017,
+      "regularizer_L2": 0.17742363285744944,
+      "sum_L2": 0.061007922377130465,
+      "dot_predictive_regularizer": -0.032084149722027895,
+      "cosine": -0.9476807187385761,
+      "regularizer_to_predictive_norm_ratio": 0.9298104979469413,
+      "signed_projection_fraction_of_combined_gradient": {
+        "predictive": 1.1625496120431227,
+        "regularizer": -0.16254961204312465
+      },
+      "negative_predictive_gradient_backprop_linearization": {
+        "predictive": -0.036411120540494744,
+        "regularizer": 0.032084149722027895
+      },
+      "negative_regularizer_gradient_backprop_linearization": {
+        "predictive": 0.032084149722027895,
+        "regularizer": -0.031479145496335015
+      },
+      "negative_combined_gradient_backprop_linearization": {
+        "predictive": -0.004326970818466849,
+        "regularizer": 0.0006050042256928803
+      }
+    },
+    "pred_proj.net.1.weight": {
+      "parameter_count": 2048,
+      "predictive_L2": 0.16894861829333338,
+      "regularizer_L2": 0.16196679959246713,
+      "sum_L2": 0.06490659729349375,
+      "dot_predictive_regularizer": -0.025282006710616547,
+      "cosine": -0.923912615406077,
+      "regularizer_to_predictive_norm_ratio": 0.9586748990823694,
+      "signed_projection_fraction_of_combined_gradient": {
+        "predictive": 0.774206591055807,
+        "regularizer": 0.225793408944193
+      },
+      "negative_predictive_gradient_backprop_linearization": {
+        "predictive": -0.02854363562322646,
+        "regularizer": 0.025282006710616547
+      },
+      "negative_regularizer_gradient_backprop_linearization": {
+        "predictive": 0.025282006710616547,
+        "regularizer": -0.026233244170226405
+      },
+      "negative_combined_gradient_backprop_linearization": {
+        "predictive": -0.0032616289126099138,
+        "regularizer": -0.0009512374596098577
+      }
+    },
+    "pred_proj.net.1.bias": {
+      "parameter_count": 2048,
+      "predictive_L2": 0.20410521600962805,
+      "regularizer_L2": 0.18996669826876555,
+      "sum_L2": 0.06562366858082593,
+      "dot_predictive_regularizer": -0.036719909887733534,
+      "cosine": -0.947043720518496,
+      "regularizer_to_predictive_norm_ratio": 0.9307292678880115,
+      "signed_projection_fraction_of_combined_gradient": {
+        "predictive": 1.1468869032094124,
+        "regularizer": -0.14688690320941247
+      },
+      "negative_predictive_gradient_backprop_linearization": {
+        "predictive": -0.04165893920233693,
+        "regularizer": 0.036719909887733534
+      },
+      "negative_regularizer_gradient_backprop_linearization": {
+        "predictive": 0.036719909887733534,
+        "regularizer": -0.03608734645113622
+      },
+      "negative_combined_gradient_backprop_linearization": {
+        "predictive": -0.0049390293146033964,
+        "regularizer": 0.0006325634365973165
+      }
+    },
+    "pred_proj.net.3.weight": {
+      "parameter_count": 393216,
+      "predictive_L2": 6.854577476572941,
+      "regularizer_L2": 5.948120465239089,
+      "sum_L2": 2.9398456848099825,
+      "dot_predictive_regularizer": -36.861338400420635,
+      "cosine": -0.9040878958851651,
+      "regularizer_to_predictive_norm_ratio": 0.8677588787300352,
+      "signed_projection_fraction_of_combined_gradient": {
+        "predictive": 1.1713819282165001,
+        "regularizer": -0.17138192821650017
+      },
+      "negative_predictive_gradient_backprop_linearization": {
+        "predictive": -46.98523238234107,
+        "regularizer": 36.861338400420635
+      },
+      "negative_regularizer_gradient_backprop_linearization": {
+        "predictive": 36.861338400420635,
+        "regularizer": -35.38013706899608
+      },
+      "negative_combined_gradient_backprop_linearization": {
+        "predictive": -10.123893981920432,
+        "regularizer": 1.4812013314245576
+      }
+    },
+    "pred_proj.net.3.bias": {
+      "parameter_count": 192,
+      "predictive_L2": 0.5807422749538875,
+      "regularizer_L2": 0.5273080948992567,
+      "sum_L2": 0.1770371153712858,
+      "dot_predictive_regularizer": -0.29198663832295707,
+      "cosine": -0.9534877068323709,
+      "regularizer_to_predictive_norm_ratio": 0.9079898565006763,
+      "signed_projection_fraction_of_combined_gradient": {
+        "predictive": 1.4445392458627833,
+        "regularizer": -0.44453924586278326
+      },
+      "negative_predictive_gradient_backprop_linearization": {
+        "predictive": -0.33726158991861666,
+        "regularizer": 0.29198663832295707
+      },
+      "negative_regularizer_gradient_backprop_linearization": {
+        "predictive": 0.29198663832295707,
+        "regularizer": -0.27805382694628344
+      },
+      "negative_combined_gradient_backprop_linearization": {
+        "predictive": -0.045274951595659585,
+        "regularizer": 0.013932811376673626
+      }
+    }
+  },
+  "limitations": [
+    "Checkpoint-local terms and gradients do not identify the cause of the training trajectory or evaluation behavior.",
+    "The predictive backward includes the configured frozen-eigenvalue G1 prefix surrogate. Its dot products describe that backpropagation rule, not exact finite differences of the unmodified forward objective.",
+    "Reported negative-gradient directions are Euclidean unit-time backprop linearizations, not the actual preconditioned Adam step.",
+    "Zero executed command is an offline action classification; it does not assert exact physical stillness or introduce a training gate.",
+    "Subgroup summaries weight resident roots equally; training values weight episodes and then each episode's roots equally."
+  ],
+  "optimizer_updates": 0,
+  "seconds": 10.754901500011329
+}

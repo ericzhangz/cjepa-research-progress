@@ -1,0 +1,18 @@
+{
+  "objective": 2.5792432508466985,
+  "nll_per_dimension": 2.579143127078466,
+  "min_deviation_per_dimension": 0.00010012376823206202,
+  "weighted_min_deviation": 0.00010012376823206202,
+  "read_roots": 5522,
+  "suffix_target_steps": 20972,
+  "early_first_four_actual_roots": {
+    "fixed_energy_loss_per_dimension": 2.8181519374022304,
+    "mean_response_separation": 0.22477808418341716,
+    "posterior_entropy": 1.382663175226532
+  },
+  "late_last_four_actual_roots": {
+    "fixed_energy_loss_per_dimension": 1.8161763858312556,
+    "mean_response_separation": 0.2196974922123644,
+    "posterior_entropy": 1.3106356213178423
+  }
+}

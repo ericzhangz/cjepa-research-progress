@@ -1,0 +1,15 @@
+{
+  "nominal_H1_H4_bitwise_F0": true,
+  "max_abs_by_H": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "trainable_parameters": 2595008,
+  "frozen_host": true,
+  "independent_suffix_storage": true,
+  "null_control": null,
+  "slow_fast_offset_L2": 4.949026584625244,
+  "unused_branch3_offset_matches_initial": true
+}

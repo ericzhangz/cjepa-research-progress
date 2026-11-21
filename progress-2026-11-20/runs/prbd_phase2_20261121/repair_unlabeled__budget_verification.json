@@ -1,0 +1,11 @@
+{
+  "updates": 2048,
+  "sampled_episodes": 8192,
+  "sampled_read_roots": 243039,
+  "sampled_suffix_target_steps": 923004,
+  "original_episode_order_exactly_reused": true,
+  "learning_rate_schedule_exactly_reused": true,
+  "all_loss_recompositions_and_root_counts_verified": true,
+  "fixed_beta_1_lambda_1": true,
+  "all_native_gradients_finite": true
+}

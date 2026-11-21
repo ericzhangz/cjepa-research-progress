@@ -1,6 +1,21 @@
 # PRBD 单轨学习与跨动作预测 · 2026-11-20 至 11-21
 
-## 11 月 21 日更新
+## 11 月 21 日 · Phase 2 修订复验
+
+在同一 TwoRoom 面板上分别测量了两件事：给定真速度时分支能预测到什么程度，以及只从实际观察形成支持时，后续跨动作预测获得多少收益。两组训练各完成 2,048 次更新。无标签模型的原型 0 在 H1–H4 与冻结宿主逐值相等。[完整技术报告](runs/prbd_phase2_20261121/repair_REPORT.md) · [训练与验收协议](runs/prbd_phase2_20261121/repair_PROTOCOL.md)
+
+| 方法 | 慢→快后 MSE | 快→慢后 MSE | H4 跨动作交互 SSE |
+|---|---:|---:|---:|
+| 给定真速度训练并选分支的容量对照 | 0.02494 | 0.02688 | 29.17 |
+| 无标签修订，同响应均匀支持 | 0.06449 | 0.06242 | 71.60 |
+| 无标签修订，真实写入 | 0.06410 | 0.06231 | 72.46 |
+| AdaJEPA | 0.04986 | 0.03528 | 62.39 |
+
+34 个同窗根上，完整写入的 H4 有向恢复为 +1.37%，16 个根的交互 SSE 改善。156 次静止到达中，写入 TV≤0.01 有 0 次，TV>0.5 有 11 次。Phase 2 的五项预定验收中两项通过，Phase 3 尚未启动。[逐根评分](runs/prbd_phase2_20261121/repair_static_physical_nonzero_roots.json) · [逐次反转](runs/prbd_phase2_20261121/repair_switch_full_events.json) · [验收结果](runs/prbd_phase2_20261121/repair_admission.json)
+
+修订的机制、两次梯度审计和复算入口见[机制 §52](research/PRBD_PHASE1_PHASE2_MECHANISM.md) · [旧检查点审计](runs/prbd_phase2_20261121/repair_audit__ORIGINAL_CHECKPOINT_AUDIT.md) · [正则量级审计](runs/prbd_phase2_20261121/repair_audit__REPAIR_REGULARIZER_AUDIT.md) · [代码与复算说明](research/CODE_REPRODUCTION.md#phase-2-repair).
+
+## 11 月 21 日 · 原 Phase 1 与 Phase 2
 
 | 阶段 | 实际测量 | 报告与数据 |
 |---|---|---|

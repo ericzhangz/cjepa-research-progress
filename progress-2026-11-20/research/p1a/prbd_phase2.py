@@ -40,7 +40,7 @@ class _BatchedBoundedDensity(torch.autograd.Function):
     """
 
     @staticmethod
-    def forward(ctx, basis, x, scales, masses):
+    def forward(ctx, basis, x, scales, masses, freeze_covariance_eigenvalues=False):
         n, d, k = basis.shape
         # A tall 192x4 CUDA SVD dispatches one solver per item. QR followed by
         # the exact 4x4 SVD uses the batched small-matrix solver, with no rank
@@ -83,6 +83,19 @@ class _BatchedBoundedDensity(torch.autograd.Function):
             weight = responsibility * scales[None, :, None]
             coordinate_score = torch.einsum("nqj,nqrj,nqjl->njrl", weight, u_projected, residual_m)
             coordinate_score -= torch.einsum("nqj,nqrl->njrl", weight, u_inverse_m_coordinates)
+            if freeze_covariance_eigenvalues:
+                # C=BB', P=C(I+C)^-1.  For distinct eigenvalues lambda_i,
+                # lambda_j the orientation-only Loewner coefficient is
+                # (p_i-p_j)/(lambda_i-lambda_j)=1/((1+lambda_i)(1+lambda_j)),
+                # exactly the full derivative's off-diagonal coefficient.
+                # Freezing spectral values therefore removes only equal-value
+                # blocks.  At exact degeneracy the whole block is zero: no
+                # choice of eigenvectors within that eigenspace is observable.
+                # The existing ambient-complement term below is unchanged;
+                # its positive/zero coefficient is 1/(1+lambda_i).
+                eigenframe_score = coordinate_score @ right.transpose(1, 2)[:, None]
+                distinct = raw[:, :, None] != raw[:, None, :]
+                coordinate_score = (eigenframe_score * distinct[:, None]) @ right[:, None]
             score_basis = vectors[:, None] @ coordinate_score
             score_basis += orthogonal[:, None, :, None] * torch.einsum(
                 "nqj,nqjl->njl", weight, residual_m)[:, :, None]
@@ -102,16 +115,19 @@ class _BatchedBoundedDensity(torch.autograd.Function):
         coefficients = coefficients.clone()
         coefficients[:, 0] -= relative_gradient.sum(-1)
         return ((coefficients[:, :, None, None] * score_basis).sum(1),
-                (coefficients[:, :, None] * score_x).sum(1), None, None)
+                (coefficients[:, :, None] * score_x).sum(1), None, None, None)
 
 
 def response_density(responses, observations, noise_cholesky, *, scales=None, masses=None,
-                     chunk_size=64):
+                     chunk_size=64, freeze_covariance_eigenvalues=False):
     """Return absolute/relative G1 logs and separation for [...,K,D] means.
 
     observations is [...,D], L is [D,D]. Everything probabilistic is FP64;
     gradients return to FP32 native predictions. Separation is max pairwise
     whitened Euclidean distance and never reads the observed target.
+    The optional training derivative freezes only covariance spectral values;
+    it preserves mean and covariance-orientation gradients and the exact G1
+    forward. QR/SVD are evaluated inside a custom analytic autograd function.
     """
     if responses.shape[:-2] != observations.shape[:-1] or responses.size(-1) != observations.size(-1):
         raise ValueError("Expected aligned responses [...,K,D] and observations [...,D]")
@@ -127,7 +143,8 @@ def response_density(responses, observations, noise_cholesky, *, scales=None, ma
     center = r[:, 0] + center_difference
     basis = torch.linalg.solve_triangular(lower, (difference - center_difference[:, None]).transpose(1, 2), upper=False)
     x = torch.linalg.solve_triangular(lower, (y - center)[:, :, None], upper=False)[:, :, 0]
-    outputs = [_BatchedBoundedDensity.apply(basis[i:i + chunk_size], x[i:i + chunk_size], scales, masses)
+    outputs = [_BatchedBoundedDensity.apply(basis[i:i + chunk_size], x[i:i + chunk_size], scales, masses,
+                                            freeze_covariance_eigenvalues)
                for i in range(0, len(r), chunk_size)]
     absolute, relative = (torch.cat([item[j] for item in outputs]) for j in (0, 1))
     absolute = absolute - lower.diagonal().log().sum()
@@ -209,13 +226,15 @@ def episode_paths(model, episodes):
 
 
 def batch_objective(model, episodes, noise, *, transition=None, deadzone=0., min_dev=MIN_DEV_COEFFICIENT,
-                    return_trace=False):
+                    return_trace=False, repair=False):
     """Equal episodes; equal roots; equal legal H1..4 prefix scores / (H*D).
 
     Every root's single k owns its whole imagined suffix. The weights are
     transported for the first action and carry the full actual-prefix gradient.
     Future targets score an issued suffix but never update the public belief.
     Min-dev is 1e-3 mean_root sum_{k>0,d}(f_k-f0)^2 / D, raw latent units.
+    ``repair`` selects the explicitly scoped fixed-white Gaussian suffix law,
+    orientation-only G1 prefix derivative, and white per-nonnominal min-dev.
     """
     paths = episode_paths(model, episodes)
     if transition is None:
@@ -223,10 +242,31 @@ def batch_objective(model, episodes, noise, *, transition=None, deadzone=0., min
     keys = list(paths)
     all_means = torch.cat([paths[key][0].transpose(0, 1) for key in keys])
     all_targets = torch.cat([paths[key][1] for key in keys])
-    absolute, relative, separation = response_density(all_means, all_targets, noise)
+    if repair:
+        actual_means = torch.stack([paths[key][0][:, 0] for key in keys])
+        actual_targets = torch.stack([paths[key][1][0] for key in keys])
+        absolute, relative, separation = response_density(
+            actual_means, actual_targets, noise, freeze_covariance_eigenvalues=True)
+        # One batched RHS per scientific metric, rather than one triangular
+        # solve for every factual root. Each issued branch keeps its own suffix.
+        residual = all_targets[:, None].double() - all_means.double()
+        whitened = torch.linalg.solve_triangular(
+            noise, residual.flatten(0, 1).T, upper=False).T.reshape_as(all_means)
+        difference = (actual_means[:, 1:] - actual_means[:, :1]).double()
+        white_difference = torch.linalg.solve_triangular(
+            noise, difference.flatten(0, 1).T, upper=False).T.reshape_as(difference)
+        min_deviations = .5 * white_difference.square().mean((1, 2))
+        suffix_energy, root_deviation, start = {}, {}, 0
+        for index, key in enumerate(keys):
+            h = paths[key][0].size(1)
+            suffix_energy[key] = .5 * whitened[start:start + h].square().sum(-1).cumsum(0)
+            root_deviation[key] = min_deviations[index]
+            start += h
+    else:
+        absolute, relative, separation = response_density(all_means, all_targets, noise)
     density, cursor = {}, 0
     for key in keys:
-        h = paths[key][0].size(1)
+        h = 1 if repair else paths[key][0].size(1)
         density[key] = (absolute[cursor:cursor + h], relative[cursor:cursor + h], separation[cursor:cursor + h])
         cursor += h
     nlls, penalties, traces = [], [], []
@@ -234,14 +274,20 @@ def batch_objective(model, episodes, noise, *, transition=None, deadzone=0., min
         belief = noise.new_full((4,), .25)
         root_nll, root_penalty, trace = [], [], []
         for root in range(2, len(a)):
-            path, _ = paths[e, root]
+            path, target = paths[e, root]
             logs, rel, sep = density[e, root]
             prior = belief @ transition
             prior = prior / prior.sum()
-            joint = logs.cumsum(0) + prior.log()[None]
-            nll = -torch.logsumexp(joint, -1) / (torch.arange(1, len(logs) + 1, device=logs.device) * z.size(-1))
+            if repair:
+                joint = -suffix_energy[e, root] + prior.log()[None]
+            else:
+                joint = logs.cumsum(0) + prior.log()[None]
+            nll = -torch.logsumexp(joint, -1) / (torch.arange(1, len(target) + 1, device=logs.device) * z.size(-1))
             root_nll.append(nll.mean())
-            root_penalty.append((path[1:, 0] - path[:1, 0]).square().sum() / z.size(-1))
+            if repair:
+                root_penalty.append(root_deviation[e, root])
+            else:
+                root_penalty.append((path[1:, 0] - path[:1, 0]).square().sum() / z.size(-1))
             arrival_relative = rel[0]
             updated = (prior.log() + arrival_relative).softmax(0)
             silent = sep[0] <= deadzone
@@ -263,13 +309,34 @@ def batch_objective(model, episodes, noise, *, transition=None, deadzone=0., min
     return nll + min_dev * penalty, result
 
 
+def repair_batch_objective(model, episodes, noise, *, transition=None, deadzone=0., return_trace=False):
+    """Fixed energy beta=1; lambda=1 in the same fixed white coordinates.
+
+    One suffix's branch energy is .5 sum_{j<=H,d} white_error^2. Mixing uses
+    the pre-action belief, then divides the mixture loss by H*D. Every legal
+    H, root, and episode receives equal weight. The prior is .5 mean_{k>0,d}
+    white(f_k-f_0)^2 per factual root: one fixed white observation on average
+    per nonnominal branch, with unit unnormalized per-branch curvature.
+    """
+    return batch_objective(model, episodes, noise, transition=transition, deadzone=deadzone,
+                           min_dev=1., return_trace=return_trace, repair=True)
+
+
 def load_phase2_checkpoint(path, device="cpu"):
     checkpoint = torch.load(path, map_location="cpu", weights_only=True)
-    model = NativePrototypes(load_host(device), k=4, null_control=None).eval()
-    with torch.no_grad():
-        model.offsets.copy_(checkpoint["offsets"].to(model.offsets))
+    kind = checkpoint.get("response_operator", "native_offsets")
+    if kind == "shared_native_suffix_copy":
+        from .prbd_phase2_response import load_response_state, make_response_model
+        model = make_response_model(device)
+        load_response_state(model, checkpoint["response_state"])
+    elif kind == "native_offsets":
+        model = NativePrototypes(load_host(device), k=4, null_control=None).eval()
+        with torch.no_grad():
+            model.offsets.copy_(checkpoint["offsets"].to(model.offsets))
+    else:
+        raise ValueError(f"Unknown Phase2 response operator: {kind}")
     if model.offsets.numel() != 3456 or model.null_control is not None:
-        raise ValueError("Phase2 requires original null-free 3456-parameter operator")
+        raise ValueError("Phase2 requires 3456 native offsets and no null control")
     calibration = {"noise_cholesky": checkpoint["noise_cholesky"].to(device),
                    "transition": checkpoint["transition"].to(device),
                    "deadzone": float(checkpoint["deadzone"])}

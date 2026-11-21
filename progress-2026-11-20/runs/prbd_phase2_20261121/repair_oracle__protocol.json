@@ -1,0 +1,43 @@
+{
+  "question": "Can the native response family, with author-comparable offline capacity, express the actual speed-dependent futures?",
+  "budget": {
+    "updates": 2048,
+    "batch_episodes": 4,
+    "learning_rate": 0.0003,
+    "decay_updates": [
+      1024,
+      1536
+    ],
+    "seed": 20261121,
+    "horizon": 4
+  },
+  "parameters": {
+    "shared_final_block": 1798400,
+    "shared_final_norm": 384,
+    "shared_pred_proj": 792768,
+    "prototype_offsets": 3456,
+    "total": 2595008,
+    "author_AdaJEPA": 2591552
+  },
+  "architecture": "existing NativePrototypes; literal F0 nominal; shared independently copied native final block/norm/pred_proj for k>0",
+  "initialization": "released host suffix copied exactly; original deterministic seed20261119 std0.01 offsets",
+  "module_semantics": "eval dropout and frozen BatchNorm running moments; offline gradient updates only",
+  "train_data": "runs/prbd_phase2_20261121/train.pt",
+  "train_labels": "runs/prbd_phase2_20261121/diag_train.npz",
+  "train_label_use": "actual speed of each executed action selects slow branch1 or fast branch2 during free H1..4 rollout; no coordinates or counterfactuals",
+  "branch3": "retained native fourth prototype; no labelled assignment; offsets remain at initialization, shared suffix is trained",
+  "objective": "equal episodes; equal all legal roots t>=2; equal legal H1..4; each H averages raw unwhitened squared latent error over its full prefix and 192 dimensions",
+  "fixed_scale": 1.0,
+  "objective_difference_from_method": "supervised raw latent squared error; no G1 likelihood, belief, whitening or min-deviation penalty",
+  "selection": "single predeclared parameterization; final update2048 only; no test-dependent tuning or early stopping",
+  "independent_test_access": "only after final checkpoint; exact original48 static and48 paired switch roots, all valid transitions retained",
+  "test_oracle": "true speed at the first issued action selects one branch fixed over the whole candidate; no future speed or cut point selects later rollout branches",
+  "test_inputs": "same public actual three-frame window and same embedded controls as every Phase2 arm",
+  "switch_metrics": "original cut10/20 windows and both directions; paired bootstrap samples original48 reset IDs, keeping arms/cuts together",
+  "uncertainty": "4000 paired root bootstrap draws, seed20261121;95% percentile intervals",
+  "units": "exact raw latent endpoint MSE mean192, and unscaled latent interaction SSE sum192",
+  "deployment_updates": 0,
+  "test_labels_are_privileged_diagnostic_only": true,
+  "no_null_input": true,
+  "no_parameter_sweep": true
+}

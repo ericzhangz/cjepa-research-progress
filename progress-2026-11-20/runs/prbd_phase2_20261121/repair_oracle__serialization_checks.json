@@ -1,0 +1,6 @@
+{
+  "learned_only_checkpoint_roundtrip_bitwise": true,
+  "nominal_gradient_to_every_learned_parameter_zero": true,
+  "learned_tensor_count": 25,
+  "host_keys_serialized": false
+}

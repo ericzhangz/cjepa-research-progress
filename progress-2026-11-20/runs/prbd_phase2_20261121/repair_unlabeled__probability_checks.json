@@ -1,0 +1,48 @@
+{
+  "original_default_regression": {
+    "batched_vs_original_max_absolute_value_error": 3.552713678800501e-15,
+    "batched_vs_original_max_first_gradient_error": 2.842170943040401e-14,
+    "independent_finite_difference_gradcheck": true,
+    "repeated_zero_weak_responses_finite": true,
+    "zero_separation_returns_transported_prior_bitwise": true,
+    "zero_separation_does_not_restore_previous_belief": true,
+    "quadrature_nodes": 185
+  },
+  "repair_derivative": {
+    "G1_forward_bitwise_unchanged": true,
+    "distinct_positive_spectrum_dense_orientation_gradient_max_error": 1.3322676295501878e-15,
+    "covariance_radial_gradient_max_error": 1.3461454173580023e-15,
+    "each_principal_covariance_radial_gradient_max_error": 6.661338147750939e-16,
+    "repeated_positive_eigenspace_covariance_gradient_max_error": 5.551115123125783e-17,
+    "rotation_including_ambient_complement_finite_difference_max_error": 8.344203106247505e-11,
+    "retained_covariance_rotation_directional_derivative": [
+      0.488747484618852,
+      0.17012527364443547,
+      0.0
+    ],
+    "common_mean_gradient_max_error": 4.440892098500626e-16,
+    "complete_observation_gradient_max_error": 0.0,
+    "finite_singular_value_cases": [
+      [
+        2.0,
+        1.0,
+        0.5,
+        0.0
+      ],
+      [
+        1.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "exact_degeneracy_convention": "zero derivative within each equal-eigenvalue block",
+    "production_QR_or_SVD_differentiated": false
+  }
+}

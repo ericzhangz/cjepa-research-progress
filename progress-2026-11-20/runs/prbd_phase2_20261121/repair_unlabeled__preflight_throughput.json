@@ -1,0 +1,12 @@
+{
+  "objective_bitwise_equal_to_per_root_solve": true,
+  "all_loss_and_prefix_trace_max_tolerance": 1e-13,
+  "all_parameter_gradients_max_absolute_error": 2.9802322387695312e-08,
+  "optimizer_updates": 0,
+  "batch4_forward_backward_seconds": [
+    0.6879210000042804,
+    0.7027247000369243,
+    0.7260279000038281
+  ],
+  "peak_cuda_bytes": 1498006528
+}

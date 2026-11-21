@@ -133,3 +133,28 @@ python -m research.p1a.prbd_phase2_report
 The same working directory supports optional regeneration. With the external host in place, `python -m research.p1a.prbd_phase2_fit train` uses the supplied `train.pt` and fixed scale from the preceding speed snapshot, then performs the complete 2,048-update fit. `python -m research.p1a.prbd_phase2_training_diagnostics "$phase2Replay/A/final.pt"` checks its gradients, budget and causal input boundary. The fit regenerates the final and initial checkpoints, which the forecast command consumes. Rerunning `prbd_phase2_baselines` with `fit_gru`, then `gru`, reproduces the recurrent control. The `frozen --shadow-frozen`, `adajepa`, and `optta` stages require the stable-worldmodel planner and environment dependencies. The released runner pairs the random seeds across initial speeds. The historical Frozen shadow timer used separate stream seeds; its shadow plans do not enter frozen forecasts.
 
 Both online controls use the [upstream author implementation](https://github.com/akshaymete/optta/tree/main/lewm/code/lewm_optta). The two executed upstream modules and their MIT license are included in `research/p1a/lewm_optta/`. The Stage A dependency contains the executed recurrent model, captured-plan structure and capture function. Fresh simulation and CEM use the author's stable-worldmodel package. Install it with its environment dependencies or set `PRBD_ENV_SOURCE` to its source directory. Optional `python -m research.p1a.prbd_phase2_data collect train` and `encode train` regenerate a split in the working copy. Use `static` or `switch` for the two independent split names. Actual RGB, commands, encoded trajectories, counterfactual evaluation records and the public reset goals already accompany the archived Phase 2 run.
+
+## Phase 2 repair
+
+The fixed-panel repair, the true-speed capacity fit and the gradient audits are stored alongside the original Phase 2 files in `runs/prbd_phase2_20261121/`. The repair files carry the prefix `repair_`; the Oracle, unlabeled and audit families have the additional prefixes `oracle__`, `unlabeled__` and `audit__`. The existing seed-matched actual trajectories, four baseline prediction archives and the frozen Phase 1 coordinate readout are reused.
+
+From the root of this snapshot, replay the two sets of saved forecasts on CPU:
+
+```bash
+python runs/prbd_phase2_20261121/materialize_repair.py
+python -m research.p1a.prbd_phase2_oracle score
+python -m research.p1a.prbd_phase2_repair_evaluate
+python -m research.p1a.prbd_phase2_repair_report
+```
+
+The materializer copies the repair inputs into the local `reproduce-output/prbd_phase2_repair_20261121/` tree and extracts the complete Oracle switch tensor from its lossless ZIP. For a different workspace, pass `--output` to the materializer and set `PRBD_REPAIR_RUN_DIR` to the same absolute path before running the three modules. The original reference scores remain in the packaged run. The Oracle receives the current speed in its separate capacity diagnostic. Unlabeled forecasting uses only the observed prefix and action sequence.
+
+The [response operator](p1a/prbd_phase2_response.py), [G1 derivative and energy objective](p1a/prbd_phase2.py), [unlabeled fit](p1a/prbd_phase2_repair_fit.py), [Oracle fit and scoring](p1a/prbd_phase2_oracle.py) and [cross-action decomposition](p1a/prbd_phase2_repair_evaluate.py) accompany both training logs and final learned weights. The [fixed-checkpoint density audit](p1a/prbd_phase2_forensic_audit.py) and [regularizer audit](p1a/prbd_phase2_repair_regularizer_audit.py) operate on the original and repaired checkpoints, respectively. To issue fresh predictions from the repaired unlabeled checkpoint, provide the released host and source described above and run the following from the snapshot using the default materialized tree:
+
+```bash
+python -m research.p1a.prbd_phase2_measure reproduce-output/prbd_phase2_repair_20261121/unlabeled/final.pt --output reproduce-output/prbd_phase2_repair_20261121/unlabeled --retain-static-family
+```
+
+The retained branch paths and actual read weights are inputs to the geometric decomposition. The Oracle checkpoint stores only learned response tensors, while the unlabeled checkpoint also records calibration and the transition prior. The two checkpoints have separate loaders. The original and repaired Phase 2 scores use the same published evaluation roots.
+
+Release verification materialized all 67 repair files in a temporary workspace. Starting from the saved forecasts, the two scoring commands regenerated 24 JSON results for the repaired unlabeled and Oracle panels. Their parsed contents matched the published references, including the per-root scores, switch events, response geometry and admission decisions. The report renderer also ran on the regenerated outputs.

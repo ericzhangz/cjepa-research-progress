@@ -33,3 +33,4 @@ def output_path(path):
 
 # A working copy of the archived run can also be selected for end-to-end replay.
 PHASE2 = Path(os.environ.get("PRBD_PHASE2_RUN_DIR", str(ROOT / "runs/prbd_phase2_20261121"))).expanduser().resolve()
+REPAIR = Path(os.environ.get("PRBD_REPAIR_RUN_DIR", str(ROOT / "reproduce-output/prbd_phase2_repair_20261121"))).expanduser().resolve()

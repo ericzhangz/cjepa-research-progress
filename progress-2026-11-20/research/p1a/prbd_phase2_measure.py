@@ -26,7 +26,7 @@ def settings(cal):
 
 
 @torch.no_grad()
-def static_forecast(model, cal, batch):
+def static_forecast(model, cal, batch, retain_family=False):
     device = model.offsets.device
     # Forecast function has no access to any true future token after the read root.
     z = batch["z"][..., :7, :].to(device)
@@ -58,11 +58,17 @@ def static_forecast(model, cal, batch):
             else:
                 states[name] = prior
     forecasts = {}
+    read_priors = {}
     for name, state in states.items():
         weights = transport(state, cal["transition"]).reshape(n, 2, 2, 4)
         forecasts[name] = (weights[..., None, None] * paths).sum(3).cpu()
+        if retain_family:
+            read_priors[name] = weights.cpu()
     forecasts["nominal"] = paths[:, :, :, 0].cpu()
-    return {"seed":batch["seed"], "predictions":forecasts, "records":records}
+    result = {"seed":batch["seed"], "predictions":forecasts, "records":records}
+    if retain_family:
+        result.update(family=paths.cpu(), read_priors=read_priors)
+    return result
 
 
 @torch.no_grad()
@@ -95,6 +101,8 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("checkpoint", type=Path)
     parser.add_argument("--device", default="cuda")
+    parser.add_argument("--output", type=Path, default=OUT)
+    parser.add_argument("--retain-static-family", action="store_true")
     args = parser.parse_args()
     torch.set_num_threads(3)
     torch.backends.cuda.matmul.allow_tf32 = False
@@ -103,15 +111,15 @@ def main():
     for name, fn in (("static", static_forecast), ("switch", switch_forecast)):
         batch = torch.load(OUT / f"{name}.pt", map_location="cpu", weights_only=True)
         start = perf_counter()
-        result = fn(model, cal, batch)
+        result = fn(model, cal, batch, retain_family=args.retain_static_family) if name == "static" else fn(model, cal, batch)
         result["elapsed_seconds"] = perf_counter()-start
-        torch.save(result, output_path(OUT / f"pred_{name}_prbd.pt"))
+        torch.save(result, output_path(args.output / f"pred_{name}_prbd.pt"))
         if name == "static":
             initial, initial_cal = load_phase2_checkpoint(args.checkpoint.parent / "initial.pt", args.device)
             if initial_cal["deadzone"] != cal["deadzone"] or not torch.equal(initial_cal["noise_cholesky"], cal["noise_cholesky"]):
                 raise ValueError("Calibration differs between initialization and final weights")
             result = fn(initial, initial_cal, batch)
-            torch.save(dict(seed=result["seed"], records=result["records"]), output_path(OUT / "initial_static_writes.pt"))
+            torch.save(dict(seed=result["seed"], records=result["records"]), output_path(args.output / "initial_static_writes.pt"))
 
 
 if __name__ == "__main__":

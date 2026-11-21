@@ -1,0 +1,6 @@
+{
+  "objective_bitwise_equal_to_per_root_solve": true,
+  "all_loss_and_prefix_trace_max_tolerance": 1e-13,
+  "all_parameter_gradients_max_absolute_error": 2.9802322387695312e-08,
+  "optimizer_updates": 0
+}

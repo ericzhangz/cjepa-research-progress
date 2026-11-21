@@ -1,0 +1,8 @@
+{
+  "new_learned_only_checkpoint_H1_H4_reload_bitwise_equal": true,
+  "original_final_checkpoint_supported": true,
+  "new_operator_discriminator": "shared_native_suffix_copy",
+  "new_checkpoint_does_not_duplicate_host": true,
+  "oracle_weights_loaded": false,
+  "training_updates": 0
+}

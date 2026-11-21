@@ -1,0 +1,18 @@
+{
+  "final_checkpoint_loaded_by_public_forecast_loader": true,
+  "final_reloaded_nominal_H1_H4_bitwise_equal_F0": true,
+  "all_reloaded_responses_finite": true,
+  "device": "cpu",
+  "optimizer_updates_after2048": 0,
+  "blindness_and_causality": {
+    "contradictory_metadata_and_fake_oracle_weights_cannot_cross_training_boundary": true,
+    "training_boundary": [
+      "z",
+      "a",
+      "seed",
+      "lengths"
+    ],
+    "future_actual_perturbation_from_index6_preserves_filter_roots_2_3_4_bitwise": true,
+    "optimizer_updates": 0
+  }
+}

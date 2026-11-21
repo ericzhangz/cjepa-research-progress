@@ -1,0 +1,1378 @@
+{
+  "scope": "Fixed archived original checkpoints, CPU, no optimizer updates or parameter search",
+  "seeds": [
+    2026113000,
+    2026113001,
+    2026113002,
+    2026113003
+  ],
+  "checkpoints": {
+    "initial": {
+      "nll_per_dimension": -0.33847477838687423,
+      "same_means_frozen_P_zero_nll_per_dimension": -0.02027619143535941,
+      "density_value_max_abs_error_vs_archived": 2.2737367544323206e-13,
+      "native_gradient_recomposition_max_abs_error": 5.960464477539063e-08,
+      "repair_endpoint_gradient_check": {
+        "freeze_eigenvalue_gradient_L2": 3.967517375946045,
+        "mean_plus_covariance_orientation_L2": 3.967517375946045,
+        "max_absolute_error": 5.960464477539063e-08
+      },
+      "native_gradients": {
+        "mean": {
+          "L2": 0.031504400074481964,
+          "per_prototype_L2": [
+            0.011619147844612598,
+            0.026821495965123177,
+            0.011752872727811337
+          ],
+          "dot_total": 0.04657540980958135,
+          "signed_fraction_total_squared_norm": 0.002714786775167817
+        },
+        "covariance": {
+          "L2": 4.130863189697266,
+          "per_prototype_L2": [
+            1.8246371746063232,
+            3.277092218399048,
+            1.7307226657867432
+          ],
+          "dot_total": 17.1096189893248,
+          "signed_fraction_total_squared_norm": 0.9972852101630628
+        },
+        "covariance_common_scale": {
+          "L2": 0.588297426700592,
+          "per_prototype_L2": [
+            0.4419257640838623,
+            0.2709117531776428,
+            0.27821290493011475
+          ],
+          "dot_total": 1.4706625657610097,
+          "signed_fraction_total_squared_norm": 0.08572195715690786
+        },
+        "covariance_shape_orientation_after_common_scale": {
+          "L2": 3.803863286972046,
+          "per_prototype_L2": [
+            1.5362675189971924,
+            3.1076102256774902,
+            1.5658926963806152
+          ],
+          "dot_total": 15.638957695088013,
+          "signed_fraction_total_squared_norm": 0.9115633271207394
+        },
+        "covariance_singular_amplitude": {
+          "L2": 0.3772784471511841,
+          "per_prototype_L2": [
+            0.24527868628501892,
+            0.25490665435791016,
+            0.13114871084690094
+          ],
+          "dot_total": 0.7786702570368127,
+          "signed_fraction_total_squared_norm": 0.045387120041726264
+        },
+        "covariance_orientation": {
+          "L2": 3.955885171890259,
+          "per_prototype_L2": [
+            1.6528706550598145,
+            3.1826348304748535,
+            1.6696950197219849
+          ],
+          "dot_total": 16.33094983618379,
+          "signed_fraction_total_squared_norm": 0.9518981544651983
+        },
+        "direct_suffix_mean": {
+          "L2": 0.0316021554172039,
+          "per_prototype_L2": [
+            0.012962126173079014,
+            0.02561117894947529,
+            0.013219197280704975
+          ],
+          "dot_total": 0.03709478885468915,
+          "signed_fraction_total_squared_norm": 0.0021621804858416084
+        },
+        "direct_suffix_covariance": {
+          "L2": 4.134034156799316,
+          "per_prototype_L2": [
+            1.8252081871032715,
+            3.279536247253418,
+            1.733059048652649
+          ],
+          "dot_total": 17.12273968765554,
+          "signed_fraction_total_squared_norm": 0.998049989226841
+        },
+        "historical_prefix_mean": {
+          "L2": 0.002892958465963602,
+          "per_prototype_L2": [
+            0.002029144437983632,
+            0.0013409923994913697,
+            0.001566371414810419
+          ],
+          "dot_total": 0.009480620953538119,
+          "signed_fraction_total_squared_norm": 0.0005526062892472815
+        },
+        "historical_prefix_covariance": {
+          "L2": 0.003762072417885065,
+          "per_prototype_L2": [
+            0.0012276358902454376,
+            0.0025021242909133434,
+            0.0025269496254622936
+          ],
+          "dot_total": -0.013120698330737555,
+          "signed_fraction_total_squared_norm": -0.0007647790637780958
+        },
+        "total": {
+          "L2": 4.142003536224365,
+          "per_prototype_L2": [
+            1.8145004510879517,
+            3.3024098873138428,
+            1.7198460102081299
+          ],
+          "dot_total": 17.156194451662692,
+          "signed_fraction_total_squared_norm": 1.0
+        }
+      },
+      "singular_values": [
+        {
+          "mean": 0.31077361491047345,
+          "minimum": 0.050142406123297054,
+          "median": 0.24484168996608932,
+          "p95": 0.7277375683575485,
+          "maximum": 0.9258367159942007,
+          "positive": 456,
+          "count": 456
+        },
+        {
+          "mean": 0.05792068136706311,
+          "minimum": 0.02024064753597746,
+          "median": 0.0558287701458953,
+          "p95": 0.09593666333314212,
+          "maximum": 0.10555753539846531,
+          "positive": 456,
+          "count": 456
+        },
+        {
+          "mean": 0.023321523596661148,
+          "minimum": 0.014276578894898263,
+          "median": 0.023690992972125107,
+          "p95": 0.03327520301765852,
+          "maximum": 0.04089362788279167,
+          "positive": 456,
+          "count": 456
+        },
+        {
+          "mean": 1.21215093937777e-16,
+          "minimum": 2.867987226778499e-17,
+          "median": 1.0256883803452885e-16,
+          "p95": 2.729425332264032e-16,
+          "maximum": 3.82129903731265e-16,
+          "positive": 456,
+          "count": 456
+        }
+      ],
+      "nominal_log_density_G1_minus_P_zero": {
+        "mean": 80.08992469179043,
+        "minimum": -0.09448216431059109,
+        "median": 22.76015501923962,
+        "p95": 365.6817565490093,
+        "maximum": 963.98301306544,
+        "positive": 446,
+        "count": 456
+      },
+      "actual_H1_nominal_log_density_G1_minus_P_zero": {
+        "mean": 43.63689664658713,
+        "minimum": -0.03841938230470987,
+        "median": 8.443109338581507,
+        "p95": 225.55353752057192,
+        "maximum": 402.29699373815697,
+        "positive": 117,
+        "count": 120
+      },
+      "all_branch_log_density_G1_minus_P_zero": {
+        "mean": 81.03848303281089,
+        "minimum": -0.14401924817417466,
+        "median": 24.249022600786418,
+        "p95": 365.2349581837407,
+        "maximum": 965.3521845210356,
+        "positive": 1792,
+        "count": 1824
+      },
+      "read_roots": 120,
+      "suffix_targets": 456,
+      "static_roots": [
+        {
+          "root": 2,
+          "kind": "source_action",
+          "scopes": {
+            "all_valid": {
+              "nominal_log_G1_minus_P_zero": {
+                "mean": 271.00141989456966,
+                "minimum": 0.006776165359895003,
+                "median": 37.39087717606628,
+                "p95": 1341.5257787680293,
+                "maximum": 2062.681806111689,
+                "positive": 90,
+                "count": 90
+              },
+              "response_separation": {
+                "mean": 0.18434100101118883,
+                "minimum": 0.07164950222624085,
+                "median": 0.12219757246098777,
+                "p95": 0.4553310615961845,
+                "maximum": 0.709742187638317,
+                "positive": 90,
+                "count": 90
+              },
+              "log_likelihood_spread": {
+                "mean": 0.08065823458797151,
+                "minimum": 0.011306358163210461,
+                "median": 0.035120018277893905,
+                "p95": 0.27492277054817577,
+                "maximum": 0.3634086380164945,
+                "positive": 90,
+                "count": 90
+              },
+              "G1_nominal_log_density": {
+                "mean": -14.99976821360507,
+                "minimum": -979.3103329270832,
+                "median": 33.93990210503904,
+                "p95": 79.73436271884907,
+                "maximum": 90.61795681364896,
+                "positive": 62,
+                "count": 90
+              },
+              "P_zero_nominal_log_density": {
+                "mean": -286.0011881081747,
+                "minimum": -2546.437049913305,
+                "median": -18.83299035487363,
+                "p95": 78.85855381606233,
+                "maximum": 86.1133876133095,
+                "positive": 43,
+                "count": 90
+              }
+            },
+            "strict_matched": {
+              "nominal_log_G1_minus_P_zero": {
+                "mean": 310.57164818048864,
+                "minimum": 0.006776165359895003,
+                "median": 53.26883847741698,
+                "p95": 1358.1580911795807,
+                "maximum": 2062.681806111689,
+                "positive": 78,
+                "count": 78
+              },
+              "response_separation": {
+                "mean": 0.1938403914778433,
+                "minimum": 0.07423936115926366,
+                "median": 0.12157218915709643,
+                "p95": 0.4705266718311371,
+                "maximum": 0.709742187638317,
+                "positive": 78,
+                "count": 78
+              },
+              "log_likelihood_spread": {
+                "mean": 0.06740762714384757,
+                "minimum": 0.011306358163210461,
+                "median": 0.03243331544354078,
+                "p95": 0.24691415323467233,
+                "maximum": 0.3046012423754405,
+                "positive": 78,
+                "count": 78
+              },
+              "G1_nominal_log_density": {
+                "mean": -24.11216034084585,
+                "minimum": -979.3103329270832,
+                "median": 33.022475013168105,
+                "p95": 79.03976664080743,
+                "maximum": 86.15026771318583,
+                "positive": 51,
+                "count": 78
+              },
+              "P_zero_nominal_log_density": {
+                "mean": -334.68380852133447,
+                "minimum": -2546.437049913305,
+                "median": -38.20521904187075,
+                "p95": 78.70523590249157,
+                "maximum": 86.1133876133095,
+                "positive": 33,
+                "count": 78
+              }
+            }
+          }
+        },
+        {
+          "root": 3,
+          "kind": "source_action",
+          "scopes": {
+            "all_valid": {
+              "nominal_log_G1_minus_P_zero": {
+                "mean": 336.17821505313725,
+                "minimum": -0.00966837557149347,
+                "median": 69.95235666546523,
+                "p95": 1769.0805087142005,
+                "maximum": 3329.6195217779523,
+                "positive": 88,
+                "count": 90
+              },
+              "response_separation": {
+                "mean": 0.18872571326589577,
+                "minimum": 0.06340937450722055,
+                "median": 0.1321217151988304,
+                "p95": 0.5071808981497218,
+                "maximum": 0.7512519008982342,
+                "positive": 90,
+                "count": 90
+              },
+              "log_likelihood_spread": {
+                "mean": 0.06461818684607579,
+                "minimum": 0.008127895564712162,
+                "median": 0.031645098730564314,
+                "p95": 0.23327026116496932,
+                "maximum": 0.4108362912666621,
+                "positive": 90,
+                "count": 90
+              },
+              "G1_nominal_log_density": {
+                "mean": -10.359362547210369,
+                "minimum": -749.4495555425538,
+                "median": 29.696032563515644,
+                "p95": 80.12024113248079,
+                "maximum": 86.08065187347603,
+                "positive": 63,
+                "count": 90
+              },
+              "P_zero_nominal_log_density": {
+                "mean": -346.5375776003476,
+                "minimum": -3914.6244007248006,
+                "median": -46.47498254650924,
+                "p95": 79.51396044541886,
+                "maximum": 86.06560964554745,
+                "positive": 36,
+                "count": 90
+              }
+            },
+            "strict_matched": {
+              "nominal_log_G1_minus_P_zero": {
+                "mean": 349.1193370402092,
+                "minimum": -0.00966837557149347,
+                "median": 68.71223289801043,
+                "p95": 1836.2842873164839,
+                "maximum": 3329.6195217779523,
+                "positive": 76,
+                "count": 78
+              },
+              "response_separation": {
+                "mean": 0.19347265448517148,
+                "minimum": 0.06340937450722055,
+                "median": 0.12832331231358174,
+                "p95": 0.5210465457150126,
+                "maximum": 0.7512519008982342,
+                "positive": 78,
+                "count": 78
+              },
+              "log_likelihood_spread": {
+                "mean": 0.06439204105019587,
+                "minimum": 0.008127895564712162,
+                "median": 0.03196924678877622,
+                "p95": 0.22642217098896522,
+                "maximum": 0.4108362912666621,
+                "positive": 78,
+                "count": 78
+              },
+              "G1_nominal_log_density": {
+                "mean": -8.439654041974995,
+                "minimum": -749.4495555425538,
+                "median": 34.23084966448232,
+                "p95": 81.34634521573683,
+                "maximum": 86.08065187347603,
+                "positive": 57,
+                "count": 78
+              },
+              "P_zero_nominal_log_density": {
+                "mean": -357.5589910821842,
+                "minimum": -3914.6244007248006,
+                "median": -40.25632410194959,
+                "p95": 80.89321610883758,
+                "maximum": 86.06560964554745,
+                "positive": 33,
+                "count": 78
+              }
+            }
+          }
+        },
+        {
+          "root": 4,
+          "kind": "stationary_arrival",
+          "scopes": {
+            "all_valid": {
+              "nominal_log_G1_minus_P_zero": {
+                "mean": 8.686292098410453,
+                "minimum": -0.03180985575744444,
+                "median": 0.17462858189787767,
+                "p95": 34.833449778376796,
+                "maximum": 122.03793878255124,
+                "positive": 78,
+                "count": 90
+              },
+              "response_separation": {
+                "mean": 0.18604863500952112,
+                "minimum": 0.0689014405311039,
+                "median": 0.13569865198072026,
+                "p95": 0.5294295453264167,
+                "maximum": 0.5495541146193395,
+                "positive": 90,
+                "count": 90
+              },
+              "log_likelihood_spread": {
+                "mean": 0.24613522123525008,
+                "minimum": 0.029689615400286584,
+                "median": 0.20673393130789464,
+                "p95": 0.5715523585867912,
+                "maximum": 0.8370411038345082,
+                "positive": 90,
+                "count": 90
+              },
+              "G1_nominal_log_density": {
+                "mean": 67.08132827575513,
+                "minimum": -11.202078857602089,
+                "median": 73.88745622392548,
+                "p95": 93.08178150171129,
+                "maximum": 95.25243841260595,
+                "positive": 88,
+                "count": 90
+              },
+              "P_zero_nominal_log_density": {
+                "mean": 58.395036177344664,
+                "minimum": -78.77997000544036,
+                "median": 73.06710284866887,
+                "p95": 92.44798330672377,
+                "maximum": 95.26243487151584,
+                "positive": 85,
+                "count": 90
+              }
+            },
+            "strict_matched": {
+              "nominal_log_G1_minus_P_zero": {
+                "mean": 9.148001688415752,
+                "minimum": -0.03180985575744444,
+                "median": 0.15740003065877772,
+                "p95": 36.81075148361922,
+                "maximum": 122.03793878255124,
+                "positive": 66,
+                "count": 78
+              },
+              "response_separation": {
+                "mean": 0.18876389526404733,
+                "minimum": 0.0689014405311039,
+                "median": 0.12853167761255835,
+                "p95": 0.5300533785236718,
+                "maximum": 0.5495541146193395,
+                "positive": 78,
+                "count": 78
+              },
+              "log_likelihood_spread": {
+                "mean": 0.2446944132505156,
+                "minimum": 0.029689615400286584,
+                "median": 0.20673393130789464,
+                "p95": 0.6007776811180686,
+                "maximum": 0.8370411038345082,
+                "positive": 78,
+                "count": 78
+              },
+              "G1_nominal_log_density": {
+                "mean": 68.99597674948444,
+                "minimum": 26.630361193269266,
+                "median": 73.97384848965766,
+                "p95": 92.86992241881593,
+                "maximum": 95.25243841260595,
+                "positive": 78,
+                "count": 78
+              },
+              "P_zero_nominal_log_density": {
+                "mean": 59.8479750610687,
+                "minimum": -78.77997000544036,
+                "median": 73.7128276420276,
+                "p95": 92.53025940785301,
+                "maximum": 95.26243487151584,
+                "positive": 75,
+                "count": 78
+              }
+            }
+          }
+        },
+        {
+          "root": 5,
+          "kind": "stationary_arrival",
+          "scopes": {
+            "all_valid": {
+              "nominal_log_G1_minus_P_zero": {
+                "mean": 8.743411228955566,
+                "minimum": -0.04034264829658696,
+                "median": 0.15886261169492855,
+                "p95": 35.61775331341986,
+                "maximum": 115.95380070845403,
+                "positive": 73,
+                "count": 90
+              },
+              "response_separation": {
+                "mean": 0.18589744500458114,
+                "minimum": 0.06899887337572892,
+                "median": 0.13634123582952734,
+                "p95": 0.529737957538599,
+                "maximum": 0.5461968905616137,
+                "positive": 90,
+                "count": 90
+              },
+              "log_likelihood_spread": {
+                "mean": 0.2349227567194526,
+                "minimum": 0.032729827121670496,
+                "median": 0.20315237467673342,
+                "p95": 0.547915017055584,
+                "maximum": 0.7019285266990778,
+                "positive": 90,
+                "count": 90
+              },
+              "G1_nominal_log_density": {
+                "mean": 67.08967259041297,
+                "minimum": -5.818974043499395,
+                "median": 73.95469930129542,
+                "p95": 92.515670932043,
+                "maximum": 95.74765209213217,
+                "positive": 88,
+                "count": 90
+              },
+              "P_zero_nominal_log_density": {
+                "mean": 58.346261361457415,
+                "minimum": -71.96975505421761,
+                "median": 73.07466554304636,
+                "p95": 92.51881105369254,
+                "maximum": 94.80302325501367,
+                "positive": 85,
+                "count": 90
+              }
+            },
+            "strict_matched": {
+              "nominal_log_G1_minus_P_zero": {
+                "mean": 9.064650539809117,
+                "minimum": -0.04034264829658696,
+                "median": 0.15623937589930392,
+                "p95": 38.57514304392788,
+                "maximum": 115.95380070845403,
+                "positive": 62,
+                "count": 78
+              },
+              "response_separation": {
+                "mean": 0.18872190797749516,
+                "minimum": 0.06899887337572892,
+                "median": 0.12996449688932726,
+                "p95": 0.5302707703501074,
+                "maximum": 0.5461968905616137,
+                "positive": 78,
+                "count": 78
+              },
+              "log_likelihood_spread": {
+                "mean": 0.23133668580550704,
+                "minimum": 0.032729827121670496,
+                "median": 0.20315237467673342,
+                "p95": 0.5629925289951017,
+                "maximum": 0.7019285266990778,
+                "positive": 78,
+                "count": 78
+              },
+              "G1_nominal_log_density": {
+                "mean": 68.91918460683436,
+                "minimum": 24.948494253614342,
+                "median": 74.857821828292,
+                "p95": 92.47569654411745,
+                "maximum": 94.79338262747802,
+                "positive": 78,
+                "count": 78
+              },
+              "P_zero_nominal_log_density": {
+                "mean": 59.85453406702525,
+                "minimum": -71.96975505421761,
+                "median": 73.71856842039728,
+                "p95": 92.47867743826518,
+                "maximum": 94.80302325501367,
+                "positive": 75,
+                "count": 78
+              }
+            }
+          }
+        }
+      ]
+    },
+    "final": {
+      "nll_per_dimension": -0.47979405121826396,
+      "same_means_frozen_P_zero_nll_per_dimension": -0.063725284592289,
+      "density_value_max_abs_error_vs_archived": 2.2737367544323206e-13,
+      "native_gradient_recomposition_max_abs_error": 3.818422555923462e-08,
+      "repair_endpoint_gradient_check": {
+        "freeze_eigenvalue_gradient_L2": 1.7955207824707031,
+        "mean_plus_covariance_orientation_L2": 1.7955207824707031,
+        "max_absolute_error": 2.9802322387695312e-08
+      },
+      "native_gradients": {
+        "mean": {
+          "L2": 0.006827357225120068,
+          "per_prototype_L2": [
+            0.006279104854911566,
+            0.0022906435187906027,
+            0.0013923435471951962
+          ],
+          "dot_total": 0.0022804251828084003,
+          "signed_fraction_total_squared_norm": 0.000927111713628957
+        },
+        "covariance": {
+          "L2": 1.5669060945510864,
+          "per_prototype_L2": [
+            0.544756293296814,
+            0.42898374795913696,
+            1.4051364660263062
+          ],
+          "dot_total": 2.457428683270795,
+          "signed_fraction_total_squared_norm": 0.9990728636237657
+        },
+        "covariance_common_scale": {
+          "L2": 0.05431939288973808,
+          "per_prototype_L2": [
+            0.048804767429828644,
+            0.023794304579496384,
+            0.0015879872953519225
+          ],
+          "dot_total": -0.01055647363377163,
+          "signed_fraction_total_squared_norm": -0.004291756833009512
+        },
+        "covariance_shape_orientation_after_common_scale": {
+          "L2": 1.5745022296905518,
+          "per_prototype_L2": [
+            0.5646641254425049,
+            0.431713342666626,
+            1.4049326181411743
+          ],
+          "dot_total": 2.467985139675708,
+          "signed_fraction_total_squared_norm": 1.0033646134523462
+        },
+        "covariance_singular_amplitude": {
+          "L2": 0.36965012550354004,
+          "per_prototype_L2": [
+            0.11129019409418106,
+            0.12261798232793808,
+            0.3304852545261383
+          ],
+          "dot_total": -0.3137722927619687,
+          "signed_fraction_total_squared_norm": -0.12756479371692545
+        },
+        "covariance_orientation": {
+          "L2": 1.7941049337387085,
+          "per_prototype_L2": [
+            0.6128905415534973,
+            0.5046985149383545,
+            1.6088685989379883
+          ],
+          "dot_total": 2.771201060098107,
+          "signed_fraction_total_squared_norm": 1.1266376915176355
+        },
+        "direct_suffix_mean": {
+          "L2": 0.007593945134431124,
+          "per_prototype_L2": [
+            0.006635601632297039,
+            0.0029267077334225178,
+            0.002251925878226757
+          ],
+          "dot_total": 0.0014424126346722563,
+          "signed_fraction_total_squared_norm": 0.0005864159278596299
+        },
+        "direct_suffix_covariance": {
+          "L2": 1.5706751346588135,
+          "per_prototype_L2": [
+            0.5457156896591187,
+            0.42909419536590576,
+            1.408933162689209
+          ],
+          "dot_total": 2.4633282483525125,
+          "signed_fraction_total_squared_norm": 1.001471344369291
+        },
+        "historical_prefix_mean": {
+          "L2": 0.001454474520869553,
+          "per_prototype_L2": [
+            0.0004673284711316228,
+            0.000905433320440352,
+            0.0010379260638728738
+          ],
+          "dot_total": 0.0008380125480209198,
+          "signed_fraction_total_squared_norm": 0.00034069578572248243
+        },
+        "historical_prefix_covariance": {
+          "L2": 0.005568521097302437,
+          "per_prototype_L2": [
+            0.001481755985878408,
+            0.000614547694567591,
+            0.00533246248960495
+          ],
+          "dot_total": -0.005899565081717935,
+          "signed_fraction_total_squared_norm": -0.002398480745525349
+        },
+        "total": {
+          "L2": 1.5683460235595703,
+          "per_prototype_L2": [
+            0.5504615306854248,
+            0.4311918020248413,
+            1.4038429260253906
+          ],
+          "dot_total": 2.4597091691164397,
+          "signed_fraction_total_squared_norm": 1.0
+        }
+      },
+      "singular_values": [
+        {
+          "mean": 3.79105869398185,
+          "minimum": 0.5311860741976745,
+          "median": 2.9484298220432703,
+          "p95": 9.424526353472459,
+          "maximum": 12.177965364413815,
+          "positive": 456,
+          "count": 456
+        },
+        {
+          "mean": 0.8990416318638199,
+          "minimum": 0.14626595835275272,
+          "median": 0.7242018127875381,
+          "p95": 2.3135827678100807,
+          "maximum": 2.7541832968115814,
+          "positive": 456,
+          "count": 456
+        },
+        {
+          "mean": 0.09194002594209069,
+          "minimum": 0.030703288661795565,
+          "median": 0.05763451336494681,
+          "p95": 0.2454992984199211,
+          "maximum": 0.37269656495563747,
+          "positive": 456,
+          "count": 456
+        },
+        {
+          "mean": 1.525784611249033e-15,
+          "minimum": 2.7995230456816455e-16,
+          "median": 1.2949050234034614e-15,
+          "p95": 3.4695488372566936e-15,
+          "maximum": 5.165482425457205e-15,
+          "positive": 456,
+          "count": 456
+        }
+      ],
+      "nominal_log_density_G1_minus_P_zero": {
+        "mean": 114.96266649403161,
+        "minimum": -0.2193044672945348,
+        "median": 45.726132257795086,
+        "p95": 463.74996139981414,
+        "maximum": 1080.90433489125,
+        "positive": 455,
+        "count": 456
+      },
+      "actual_H1_nominal_log_density_G1_minus_P_zero": {
+        "mean": 62.68245702575533,
+        "minimum": -0.2193044672945348,
+        "median": 25.3098407512972,
+        "p95": 274.5784922299949,
+        "maximum": 428.8688407071846,
+        "positive": 119,
+        "count": 120
+      },
+      "all_branch_log_density_G1_minus_P_zero": {
+        "mean": 139.03381960923306,
+        "minimum": -0.5483954540964646,
+        "median": 52.91756578349566,
+        "p95": 581.1780835368514,
+        "maximum": 1745.0816067487228,
+        "positive": 1818,
+        "count": 1824
+      },
+      "read_roots": 120,
+      "suffix_targets": 456,
+      "static_roots": [
+        {
+          "root": 2,
+          "kind": "source_action",
+          "scopes": {
+            "all_valid": {
+              "nominal_log_G1_minus_P_zero": {
+                "mean": 343.1161758161744,
+                "minimum": 0.0016373812751453443,
+                "median": 86.0065375409896,
+                "p95": 1605.9727713137604,
+                "maximum": 2233.3208965572144,
+                "positive": 90,
+                "count": 90
+              },
+              "response_separation": {
+                "mean": 2.1733204145264677,
+                "minimum": 0.3189950864875796,
+                "median": 1.4981476915739045,
+                "p95": 5.530931015177795,
+                "maximum": 6.88963845607798,
+                "positive": 90,
+                "count": 90
+              },
+              "log_likelihood_spread": {
+                "mean": 0.12125175008067243,
+                "minimum": 0.01190381403171159,
+                "median": 0.04270874091952237,
+                "p95": 0.4271944640841439,
+                "maximum": 2.065111089551408,
+                "positive": 90,
+                "count": 90
+              },
+              "G1_nominal_log_density": {
+                "mean": 57.114987707999674,
+                "minimum": -313.1161533560907,
+                "median": 74.81897589956799,
+                "p95": 104.46602146586928,
+                "maximum": 114.67364653123286,
+                "positive": 82,
+                "count": 90
+              },
+              "P_zero_nominal_log_density": {
+                "mean": -286.0011881081747,
+                "minimum": -2546.437049913305,
+                "median": -18.83299035487363,
+                "p95": 78.85855381606233,
+                "maximum": 86.1133876133095,
+                "positive": 43,
+                "count": 90
+              }
+            },
+            "strict_matched": {
+              "nominal_log_G1_minus_P_zero": {
+                "mean": 389.69116803805144,
+                "minimum": 0.0016373812751453443,
+                "median": 102.120933866001,
+                "p95": 1640.8295290987057,
+                "maximum": 2233.3208965572144,
+                "positive": 78,
+                "count": 78
+              },
+              "response_separation": {
+                "mean": 2.3596221895663074,
+                "minimum": 0.694186709159024,
+                "median": 1.5454740947449501,
+                "p95": 5.730205760865599,
+                "maximum": 6.88963845607798,
+                "positive": 78,
+                "count": 78
+              },
+              "log_likelihood_spread": {
+                "mean": 0.12479077030262176,
+                "minimum": 0.01190381403171159,
+                "median": 0.039975835178665875,
+                "p95": 0.47671198799537884,
+                "maximum": 2.065111089551408,
+                "positive": 78,
+                "count": 78
+              },
+              "G1_nominal_log_density": {
+                "mean": 55.00735951671706,
+                "minimum": -313.1161533560907,
+                "median": 74.81897589956799,
+                "p95": 105.98908050464064,
+                "maximum": 114.67364653123286,
+                "positive": 70,
+                "count": 78
+              },
+              "P_zero_nominal_log_density": {
+                "mean": -334.68380852133447,
+                "minimum": -2546.437049913305,
+                "median": -38.20521904187075,
+                "p95": 78.70523590249157,
+                "maximum": 86.1133876133095,
+                "positive": 33,
+                "count": 78
+              }
+            }
+          }
+        },
+        {
+          "root": 3,
+          "kind": "source_action",
+          "scopes": {
+            "all_valid": {
+              "nominal_log_G1_minus_P_zero": {
+                "mean": 399.8745768433598,
+                "minimum": 0.8896937884657063,
+                "median": 122.24321408457251,
+                "p95": 2042.7971115647154,
+                "maximum": 3599.0634342559943,
+                "positive": 90,
+                "count": 90
+              },
+              "response_separation": {
+                "mean": 2.353145997711408,
+                "minimum": 0.7848668098031302,
+                "median": 1.5302150324713566,
+                "p95": 6.47182404044553,
+                "maximum": 7.455877666786018,
+                "positive": 90,
+                "count": 90
+              },
+              "log_likelihood_spread": {
+                "mean": 0.10924081510619758,
+                "minimum": 0.012463162360404567,
+                "median": 0.036845021423687285,
+                "p95": 0.5524879269782981,
+                "maximum": 1.3920625501637005,
+                "positive": 90,
+                "count": 90
+              },
+              "G1_nominal_log_density": {
+                "mean": 53.33699924301219,
+                "minimum": -315.5609664688065,
+                "median": 72.47204702083326,
+                "p95": 103.55681318277797,
+                "maximum": 111.19984140821805,
+                "positive": 81,
+                "count": 90
+              },
+              "P_zero_nominal_log_density": {
+                "mean": -346.5375776003476,
+                "minimum": -3914.6244007248006,
+                "median": -46.47498254650924,
+                "p95": 79.51396044541886,
+                "maximum": 86.06560964554745,
+                "positive": 36,
+                "count": 90
+              }
+            },
+            "strict_matched": {
+              "nominal_log_G1_minus_P_zero": {
+                "mean": 412.9830620359183,
+                "minimum": 0.8896937884657063,
+                "median": 116.19978193020472,
+                "p95": 2074.0857539625385,
+                "maximum": 3599.0634342559943,
+                "positive": 78,
+                "count": 78
+              },
+              "response_separation": {
+                "mean": 2.3987226952127636,
+                "minimum": 0.7848668098031302,
+                "median": 1.4897559931060822,
+                "p95": 6.512417486529133,
+                "maximum": 7.455877666786018,
+                "positive": 78,
+                "count": 78
+              },
+              "log_likelihood_spread": {
+                "mean": 0.12072240662701371,
+                "minimum": 0.012463162360404567,
+                "median": 0.03777959757218241,
+                "p95": 0.6545460497357298,
+                "maximum": 1.3920625501637005,
+                "positive": 78,
+                "count": 78
+              },
+              "G1_nominal_log_density": {
+                "mean": 55.42407095373406,
+                "minimum": -315.5609664688065,
+                "median": 73.1082292418211,
+                "p95": 105.20077490070162,
+                "maximum": 111.19984140821805,
+                "positive": 71,
+                "count": 78
+              },
+              "P_zero_nominal_log_density": {
+                "mean": -357.5589910821842,
+                "minimum": -3914.6244007248006,
+                "median": -40.25632410194959,
+                "p95": 80.89321610883758,
+                "maximum": 86.06560964554745,
+                "positive": 33,
+                "count": 78
+              }
+            }
+          }
+        },
+        {
+          "root": 4,
+          "kind": "stationary_arrival",
+          "scopes": {
+            "all_valid": {
+              "nominal_log_G1_minus_P_zero": {
+                "mean": 24.960135854748952,
+                "minimum": -0.5300140029486329,
+                "median": 15.993868128244628,
+                "p95": 81.01965046661311,
+                "maximum": 124.86266376252115,
+                "positive": 85,
+                "count": 90
+              },
+              "response_separation": {
+                "mean": 2.3166243121523276,
+                "minimum": 0.8034793668755444,
+                "median": 1.6158576402820282,
+                "p95": 5.802794545056771,
+                "maximum": 6.696305203125479,
+                "positive": 90,
+                "count": 90
+              },
+              "log_likelihood_spread": {
+                "mean": 0.7906663588164924,
+                "minimum": 0.017850283828011015,
+                "median": 0.07044856245778419,
+                "p95": 2.849726232759599,
+                "maximum": 4.62486071544248,
+                "positive": 90,
+                "count": 90
+              },
+              "G1_nominal_log_density": {
+                "mean": 83.35517203209362,
+                "minimum": 34.33300565729343,
+                "median": 86.03117216085087,
+                "p95": 107.17455101597672,
+                "maximum": 110.01851201887541,
+                "positive": 90,
+                "count": 90
+              },
+              "P_zero_nominal_log_density": {
+                "mean": 58.395036177344664,
+                "minimum": -78.77997000544036,
+                "median": 73.06710284866887,
+                "p95": 92.44798330672377,
+                "maximum": 95.26243487151584,
+                "positive": 85,
+                "count": 90
+              }
+            },
+            "strict_matched": {
+              "nominal_log_G1_minus_P_zero": {
+                "mean": 23.58742216304017,
+                "minimum": -0.5300140029486329,
+                "median": 12.579752736497824,
+                "p95": 80.49238076602639,
+                "maximum": 124.86266376252115,
+                "positive": 73,
+                "count": 78
+              },
+              "response_separation": {
+                "mean": 2.3514971156333737,
+                "minimum": 0.8034793668755444,
+                "median": 1.581459249130228,
+                "p95": 5.871246619955815,
+                "maximum": 6.696305203125479,
+                "positive": 78,
+                "count": 78
+              },
+              "log_likelihood_spread": {
+                "mean": 0.8596557678295894,
+                "minimum": 0.017850283828011015,
+                "median": 0.08259441273264656,
+                "p95": 2.9041562389600593,
+                "maximum": 4.62486071544248,
+                "positive": 78,
+                "count": 78
+              },
+              "G1_nominal_log_density": {
+                "mean": 83.43539722410885,
+                "minimum": 40.707106487511794,
+                "median": 86.03117216085087,
+                "p95": 106.8234743364249,
+                "maximum": 109.98459601648415,
+                "positive": 78,
+                "count": 78
+              },
+              "P_zero_nominal_log_density": {
+                "mean": 59.8479750610687,
+                "minimum": -78.77997000544036,
+                "median": 73.7128276420276,
+                "p95": 92.53025940785301,
+                "maximum": 95.26243487151584,
+                "positive": 75,
+                "count": 78
+              }
+            }
+          }
+        },
+        {
+          "root": 5,
+          "kind": "stationary_arrival",
+          "scopes": {
+            "all_valid": {
+              "nominal_log_G1_minus_P_zero": {
+                "mean": 24.955423055270295,
+                "minimum": -0.6989237735486427,
+                "median": 13.882844177902712,
+                "p95": 78.69909013655908,
+                "maximum": 118.61448776116532,
+                "positive": 85,
+                "count": 90
+              },
+              "response_separation": {
+                "mean": 2.31497533301766,
+                "minimum": 0.8079169762355106,
+                "median": 1.6266222533934238,
+                "p95": 5.794307659879654,
+                "maximum": 6.667713086286883,
+                "positive": 90,
+                "count": 90
+              },
+              "log_likelihood_spread": {
+                "mean": 0.7491403254039217,
+                "minimum": 0.017929529274908873,
+                "median": 0.07016424066824811,
+                "p95": 2.7812366412400906,
+                "maximum": 4.029068086512154,
+                "positive": 90,
+                "count": 90
+              },
+              "G1_nominal_log_density": {
+                "mean": 83.30168441672771,
+                "minimum": 33.68457471610134,
+                "median": 85.65476346567942,
+                "p95": 107.09183796785373,
+                "maximum": 110.31574901364547,
+                "positive": 90,
+                "count": 90
+              },
+              "P_zero_nominal_log_density": {
+                "mean": 58.346261361457415,
+                "minimum": -71.96975505421761,
+                "median": 73.07466554304636,
+                "p95": 92.51881105369254,
+                "maximum": 94.80302325501367,
+                "positive": 85,
+                "count": 90
+              }
+            },
+            "strict_matched": {
+              "nominal_log_G1_minus_P_zero": {
+                "mean": 23.529063489871046,
+                "minimum": -0.6989237735486427,
+                "median": 12.580097922633058,
+                "p95": 77.38100817777888,
+                "maximum": 118.61448776116532,
+                "positive": 73,
+                "count": 78
+              },
+              "response_separation": {
+                "mean": 2.350844080878451,
+                "minimum": 0.8079169762355106,
+                "median": 1.5872587109311613,
+                "p95": 5.859077711535568,
+                "maximum": 6.667713086286883,
+                "positive": 78,
+                "count": 78
+              },
+              "log_likelihood_spread": {
+                "mean": 0.8096973881045033,
+                "minimum": 0.017929529274908873,
+                "median": 0.09233288982926524,
+                "p95": 2.8237980152581694,
+                "maximum": 4.029068086512154,
+                "positive": 78,
+                "count": 78
+              },
+              "G1_nominal_log_density": {
+                "mean": 83.38359755689629,
+                "minimum": 41.5747777717155,
+                "median": 85.65476346567942,
+                "p95": 106.64387291624566,
+                "maximum": 108.36446292063198,
+                "positive": 78,
+                "count": 78
+              },
+              "P_zero_nominal_log_density": {
+                "mean": 59.85453406702525,
+                "minimum": -71.96975505421761,
+                "median": 73.71856842039728,
+                "p95": 92.47867743826518,
+                "maximum": 94.80302325501367,
+                "positive": 75,
+                "count": 78
+              }
+            }
+          }
+        }
+      ]
+    }
+  },
+  "independent_dense_validation": {
+    "reference": "Dense D-dimensional covariance solve and slogdet, ordinary autograd",
+    "cases": [
+      "random",
+      "repeated",
+      "zero"
+    ],
+    "max_log_density_error": 1.7763568394002505e-15,
+    "max_first_derivative_error": 1.1102230246251565e-15
+  },
+  "nominal_initial_final_mean_max_abs_difference": 0.0,
+  "same_frozen_means_covariance_swap": {
+    "initial": {
+      "initial": {
+        "nominal_log_density": {
+          "mean": 51.113512455273074,
+          "minimum": -193.31803852223817,
+          "median": 70.54665194971818,
+          "p95": 100.70754810519558,
+          "maximum": 117.40242343998216,
+          "positive": 401,
+          "count": 456
+        },
+        "all_branch_log_density": {
+          "mean": 51.106461980950456,
+          "minimum": -193.33003315462253,
+          "median": 70.5680778175423,
+          "p95": 100.6727249409541,
+          "maximum": 117.51559716973429,
+          "positive": 1604,
+          "count": 1824
+        },
+        "mixture_prefix_nll_per_dimension": -0.3384747783868742
+      },
+      "final": {
+        "nominal_log_density": {
+          "mean": 85.98625425751426,
+          "minimum": 27.975321041773782,
+          "median": 88.12135346270492,
+          "p95": 113.78562389560376,
+          "maximum": 124.0044676288511,
+          "positive": 456,
+          "count": 456
+        },
+        "all_branch_log_density": {
+          "mean": 85.94829470906544,
+          "minimum": 27.873431727278444,
+          "median": 88.0106896577409,
+          "p95": 113.78882903524982,
+          "maximum": 124.01374402497015,
+          "positive": 1824,
+          "count": 1824
+        },
+        "mixture_prefix_nll_per_dimension": -0.4796337751003706
+      },
+      "P_zero": {
+        "nominal_log_density": {
+          "mean": -28.97641223651735,
+          "minimum": -1003.0040052787047,
+          "median": 34.52010388073319,
+          "p95": 98.37298349067456,
+          "maximum": 117.39913006326742,
+          "positive": 300,
+          "count": 456
+        },
+        "all_branch_log_density": {
+          "mean": -29.93202105186043,
+          "minimum": -1004.3507563814269,
+          "median": 32.59096363743441,
+          "p95": 98.55929388534797,
+          "maximum": 117.51288839103944,
+          "positive": 1204,
+          "count": 1824
+        },
+        "mixture_prefix_nll_per_dimension": -0.02027619143535941
+      }
+    },
+    "final": {
+      "initial": {
+        "nominal_log_density": {
+          "mean": 51.113512455273074,
+          "minimum": -193.31803852223817,
+          "median": 70.54665194971818,
+          "p95": 100.70754810519558,
+          "maximum": 117.40242343998216,
+          "positive": 401,
+          "count": 456
+        },
+        "all_branch_log_density": {
+          "mean": 49.33883610964338,
+          "minimum": -214.97924840081583,
+          "median": 68.9661894383737,
+          "p95": 100.58414673830207,
+          "maximum": 117.67056133813941,
+          "positive": 1585,
+          "count": 1824
+        },
+        "mixture_prefix_nll_per_dimension": -0.3400782123533824
+      },
+      "final": {
+        "nominal_log_density": {
+          "mean": 85.98625425751426,
+          "minimum": 27.975321041773782,
+          "median": 88.12135346270492,
+          "p95": 113.78562389560376,
+          "maximum": 124.0044676288511,
+          "positive": 456,
+          "count": 456
+        },
+        "all_branch_log_density": {
+          "mean": 85.83059732478371,
+          "minimum": 27.72869318483731,
+          "median": 88.07585929441848,
+          "p95": 113.78953805414386,
+          "maximum": 124.01162899346622,
+          "positive": 1824,
+          "count": 1824
+        },
+        "mixture_prefix_nll_per_dimension": -0.47979405121826396
+      },
+      "P_zero": {
+        "nominal_log_density": {
+          "mean": -28.97641223651735,
+          "minimum": -1003.0040052787047,
+          "median": 34.52010388073319,
+          "p95": 98.37298349067456,
+          "maximum": 117.39913006326742,
+          "positive": 300,
+          "count": 456
+        },
+        "all_branch_log_density": {
+          "mean": -53.20322228444936,
+          "minimum": -1656.882963945862,
+          "median": 29.55427964196457,
+          "p95": 98.34219946707931,
+          "maximum": 117.66997140375287,
+          "positive": 1078,
+          "count": 1824
+        },
+        "mixture_prefix_nll_per_dimension": -0.063725284592289
+      }
+    }
+  },
+  "archived_full_training_composite_nll": {
+    "initial": 0.07427337738032419,
+    "final": -0.2698387699348323,
+    "change": -0.3441121473151565,
+    "meaning": "Equal episode/root/H normalized fixed-k suffix mixture, recursively fitted actual-prefix belief; covariance, branch means and prefix all contribute"
+  },
+  "archived_static_strongest_write_scope": {
+    "strongest_TV_event": {
+      "seed": 2026114037,
+      "speed": 7.5,
+      "transition": 4,
+      "prior": [
+        0.24889953289944464,
+        0.2584909030748031,
+        0.25365841543914724,
+        0.23895114858660502
+      ],
+      "posterior": [
+        0.9282556048649885,
+        0.009451216605780736,
+        0.0203138210525524,
+        0.04197935747667833
+      ],
+      "tv": 0.6793560719655438,
+      "separation": 5.219243861794799
+    },
+    "matched_stationary_response_separation": {
+      "mean": 2.351171701472961,
+      "p95": 5.911220710970192,
+      "maximum": 6.696302585701442
+    },
+    "interpretation": "5.21924 is response separation at the largest-TV event; the response-separation maximum is 6.69630"
+  },
+  "seconds": 33.24656599998707,
+  "limitations": [
+    "Local derivatives and fixed-checkpoint swaps do not identify training causes.",
+    "Mean/covariance parameter gradients share the same offsets and can cancel; L2 norms are not additive contributions.",
+    "Singular-amplitude/orientation split uses the fixed local SVD; a repeated nonzero singular value would make this split nonunique.",
+    "Common-scale radial/rest split is well defined without a spectral gap."
+  ]
+}

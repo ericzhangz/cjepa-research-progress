@@ -1,0 +1,62 @@
+[
+  {
+    "update": 0,
+    "seconds": 8.055741199990734,
+    "objective": 2.5792432508466985,
+    "nll_per_dimension": 2.579143127078466,
+    "min_deviation_per_dimension": 0.00010012376823206202,
+    "weighted_min_deviation": 0.00010012376823206202,
+    "read_roots": 5522,
+    "suffix_target_steps": 20972,
+    "early_first_four_actual_roots": {
+      "fixed_energy_loss_per_dimension": 2.8181519374022304,
+      "mean_response_separation": 0.22477808418341716,
+      "posterior_entropy": 1.382663175226532
+    },
+    "late_last_four_actual_roots": {
+      "fixed_energy_loss_per_dimension": 1.8161763858312556,
+      "mean_response_separation": 0.2196974922123644,
+      "posterior_entropy": 1.3106356213178423
+    }
+  },
+  {
+    "update": 1024,
+    "seconds": 431.1943013999844,
+    "objective": 2.228423926673749,
+    "nll_per_dimension": 1.4260244710352254,
+    "min_deviation_per_dimension": 0.8023994556385236,
+    "weighted_min_deviation": 0.8023994556385236,
+    "read_roots": 5522,
+    "suffix_target_steps": 20972,
+    "early_first_four_actual_roots": {
+      "fixed_energy_loss_per_dimension": 1.5859786691457358,
+      "mean_response_separation": 18.072743187667367,
+      "posterior_entropy": 0.7805776941835136
+    },
+    "late_last_four_actual_roots": {
+      "fixed_energy_loss_per_dimension": 1.0482142464159334,
+      "mean_response_separation": 17.415958589054796,
+      "posterior_entropy": 0.4585480701010981
+    }
+  },
+  {
+    "update": 2048,
+    "seconds": 862.0460802000016,
+    "objective": 1.3382008744627152,
+    "nll_per_dimension": 0.9154573373810896,
+    "min_deviation_per_dimension": 0.4227435370816262,
+    "weighted_min_deviation": 0.4227435370816262,
+    "read_roots": 5522,
+    "suffix_target_steps": 20972,
+    "early_first_four_actual_roots": {
+      "fixed_energy_loss_per_dimension": 1.0834797836776964,
+      "mean_response_separation": 13.749213943091764,
+      "posterior_entropy": 0.8997314780849573
+    },
+    "late_last_four_actual_roots": {
+      "fixed_energy_loss_per_dimension": 0.602568525752721,
+      "mean_response_separation": 12.758906194825633,
+      "posterior_entropy": 0.6962803554514511
+    }
+  }
+]

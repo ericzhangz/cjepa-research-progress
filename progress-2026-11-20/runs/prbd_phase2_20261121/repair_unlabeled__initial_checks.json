@@ -1,0 +1,19 @@
+{
+  "nominal_H1_H4_bitwise_equal_F0": true,
+  "nominal_all_learned_gradients_zero_or_absent": true,
+  "trainable_parameters": 2595008,
+  "offset_parameters": 3456,
+  "shared_native_suffix_parameters": 2591552,
+  "full_prefix_earliest_actual_write_to_last_root_gradient_L2": 0.000640833625145215,
+  "last_root_each_offset_gradient_L2": [
+    0.18759380280971527,
+    0.04031188413500786,
+    0.2141229212284088
+  ],
+  "last_root_shared_native_gradient_L2": 43.28109359741211,
+  "fixed_energy_beta_1_direct_arithmetic_verified": true,
+  "all_native_gradients_finite": true,
+  "optimizer_updates": 0,
+  "truth_or_oracle_weights_loaded": false,
+  "deadzone": 0.0004007460497140442
+}

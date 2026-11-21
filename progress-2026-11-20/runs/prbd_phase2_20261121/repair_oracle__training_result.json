@@ -1,0 +1,6 @@
+{
+  "updates": 2048,
+  "training_seconds": 347.76402099995175,
+  "final_batch_raw_predictive_prefix_MSE": 0.008968023583292961,
+  "selection": "final2048 only"
+}

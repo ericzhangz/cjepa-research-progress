@@ -1,0 +1,7 @@
+{
+  "quiet": false,
+  "cross_action": false,
+  "both_switches": true,
+  "fast_lag": true,
+  "matched_controls": false
+}

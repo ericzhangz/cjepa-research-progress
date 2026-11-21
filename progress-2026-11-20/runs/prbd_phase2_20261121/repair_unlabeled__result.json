@@ -1,0 +1,57 @@
+{
+  "updates": 2048,
+  "seconds": 870.445399899967,
+  "initial": {
+    "update": 0,
+    "seconds": 8.055741199990734,
+    "objective": 2.5792432508466985,
+    "nll_per_dimension": 2.579143127078466,
+    "min_deviation_per_dimension": 0.00010012376823206202,
+    "weighted_min_deviation": 0.00010012376823206202,
+    "read_roots": 5522,
+    "suffix_target_steps": 20972,
+    "early_first_four_actual_roots": {
+      "fixed_energy_loss_per_dimension": 2.8181519374022304,
+      "mean_response_separation": 0.22477808418341716,
+      "posterior_entropy": 1.382663175226532
+    },
+    "late_last_four_actual_roots": {
+      "fixed_energy_loss_per_dimension": 1.8161763858312556,
+      "mean_response_separation": 0.2196974922123644,
+      "posterior_entropy": 1.3106356213178423
+    }
+  },
+  "final": {
+    "update": 2048,
+    "seconds": 862.0460802000016,
+    "objective": 1.3382008744627152,
+    "nll_per_dimension": 0.9154573373810896,
+    "min_deviation_per_dimension": 0.4227435370816262,
+    "weighted_min_deviation": 0.4227435370816262,
+    "read_roots": 5522,
+    "suffix_target_steps": 20972,
+    "early_first_four_actual_roots": {
+      "fixed_energy_loss_per_dimension": 1.0834797836776964,
+      "mean_response_separation": 13.749213943091764,
+      "posterior_entropy": 0.8997314780849573
+    },
+    "late_last_four_actual_roots": {
+      "fixed_energy_loss_per_dimension": 0.602568525752721,
+      "mean_response_separation": 12.758906194825633,
+      "posterior_entropy": 0.6962803554514511
+    }
+  },
+  "checkpoint": "reproduce-output/prbd_phase2_repair_20261121/unlabeled/final.pt",
+  "termination": "one frozen budget completed; final selected without development",
+  "budget": {
+    "updates": 2048,
+    "sampled_episodes": 8192,
+    "sampled_read_roots": 243039,
+    "sampled_suffix_target_steps": 923004,
+    "original_episode_order_exactly_reused": true,
+    "learning_rate_schedule_exactly_reused": true,
+    "all_loss_recompositions_and_root_counts_verified": true,
+    "fixed_beta_1_lambda_1": true,
+    "all_native_gradients_finite": true
+  }
+}

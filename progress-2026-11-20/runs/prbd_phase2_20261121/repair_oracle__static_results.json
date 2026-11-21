@@ -1,0 +1,1607 @@
+{
+  "complete": {
+    "n": 45,
+    "horizon": {
+      "1": {
+        "oracle": {
+          "endpoint_raw_latent_mse": 0.026965471567389456,
+          "endpoint_mse_move_stop": [
+            0.040857334079625045,
+            0.013073609055153873
+          ],
+          "interaction_SSE": 19.29223406874547,
+          "oracle_SSE_gain_over_arm": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "positive_roots": 0,
+            "roots": 45
+          },
+          "directed_recovery_percent_from_uniform": 43.477143970220574,
+          "interaction_SSE_gain_percent_from_uniform": 65.80859201820718
+        },
+        "uniform": {
+          "endpoint_raw_latent_mse": 0.05111216032042459,
+          "endpoint_mse_move_stop": [
+            0.09012677642576766,
+            0.012097544215081506
+          ],
+          "interaction_SSE": 56.42421651374733,
+          "oracle_SSE_gain_over_arm": {
+            "mean": 37.13198244500186,
+            "ci95": [
+              25.28173419178917,
+              50.4224037241855
+            ],
+            "positive_roots": 40,
+            "roots": 45
+          }
+        },
+        "nominal": {
+          "endpoint_raw_latent_mse": 0.09913135232403696,
+          "endpoint_mse_move_stop": [
+            0.14149263451828276,
+            0.056770070129791066
+          ],
+          "interaction_SSE": 56.44914116389403,
+          "oracle_SSE_gain_over_arm": {
+            "mean": 37.15690709514855,
+            "ci95": [
+              25.294428350767117,
+              50.476360001694204
+            ],
+            "positive_roots": 40,
+            "roots": 45
+          }
+        },
+        "frozen": {
+          "endpoint_raw_latent_mse": 0.09913135005726872,
+          "endpoint_mse_move_stop": [
+            0.14149263067696954,
+            0.05677006943756792
+          ],
+          "interaction_SSE": 56.44914176746488,
+          "oracle_SSE_gain_over_arm": {
+            "mean": 37.15690769871941,
+            "ci95": [
+              25.29442850566482,
+              50.476360837342206
+            ],
+            "positive_roots": 40,
+            "roots": 45
+          }
+        },
+        "gru": {
+          "endpoint_raw_latent_mse": 0.1560476162220873,
+          "endpoint_mse_move_stop": [
+            0.308787929765183,
+            0.0033073026789917
+          ],
+          "interaction_SSE": 56.939254083238886,
+          "oracle_SSE_gain_over_arm": {
+            "mean": 37.64702001449342,
+            "ci95": [
+              25.73894315914915,
+              51.110473019977015
+            ],
+            "positive_roots": 40,
+            "roots": 45
+          }
+        },
+        "adajepa": {
+          "endpoint_raw_latent_mse": 0.05221551937993591,
+          "endpoint_mse_move_stop": [
+            0.09427337199509042,
+            0.010157666764781473
+          ],
+          "interaction_SSE": 54.39591245640742,
+          "oracle_SSE_gain_over_arm": {
+            "mean": 35.10367838766196,
+            "ci95": [
+              23.689448442191257,
+              47.990167060798534
+            ],
+            "positive_roots": 40,
+            "roots": 45
+          }
+        },
+        "optta": {
+          "endpoint_raw_latent_mse": 0.05221685646786579,
+          "endpoint_mse_move_stop": [
+            0.09425593529670027,
+            0.010177777639031271
+          ],
+          "interaction_SSE": 54.48934788310116,
+          "oracle_SSE_gain_over_arm": {
+            "mean": 35.197113814355696,
+            "ci95": [
+              23.78464009065338,
+              48.09725205058489
+            ],
+            "positive_roots": 40,
+            "roots": 45
+          }
+        }
+      },
+      "2": {
+        "oracle": {
+          "endpoint_raw_latent_mse": 0.0283362075509146,
+          "endpoint_mse_move_stop": [
+            0.037982979487638416,
+            0.01868943561419077
+          ],
+          "interaction_SSE": 14.841974993207367,
+          "oracle_SSE_gain_over_arm": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "positive_roots": 0,
+            "roots": 45
+          },
+          "directed_recovery_percent_from_uniform": 52.13933901860086,
+          "interaction_SSE_gain_percent_from_uniform": 73.70924729424084
+        },
+        "uniform": {
+          "endpoint_raw_latent_mse": 0.05433078556327256,
+          "endpoint_mse_move_stop": [
+            0.0923738560050282,
+            0.016287715121516947
+          ],
+          "interaction_SSE": 56.45321440323821,
+          "oracle_SSE_gain_over_arm": {
+            "mean": 41.61123941003085,
+            "ci95": [
+              28.309737572132214,
+              56.82082206550866
+            ],
+            "positive_roots": 40,
+            "roots": 45
+          }
+        },
+        "nominal": {
+          "endpoint_raw_latent_mse": 0.11399671925944417,
+          "endpoint_mse_move_stop": [
+            0.155758394269455,
+            0.07223504424943336
+          ],
+          "interaction_SSE": 56.46132228037871,
+          "oracle_SSE_gain_over_arm": {
+            "mean": 41.61934728717134,
+            "ci95": [
+              28.335592163801728,
+              56.80156686080437
+            ],
+            "positive_roots": 40,
+            "roots": 45
+          }
+        },
+        "frozen": {
+          "endpoint_raw_latent_mse": 0.11399672084201076,
+          "endpoint_mse_move_stop": [
+            0.15575839474805522,
+            0.07223504693596627
+          ],
+          "interaction_SSE": 56.46132374996827,
+          "oracle_SSE_gain_over_arm": {
+            "mean": 41.6193487567609,
+            "ci95": [
+              28.33559376667474,
+              56.80156866236247
+            ],
+            "positive_roots": 40,
+            "roots": 45
+          }
+        },
+        "gru": {
+          "endpoint_raw_latent_mse": 0.16082722355000162,
+          "endpoint_mse_move_stop": [
+            0.3098198474316238,
+            0.011834599668379584
+          ],
+          "interaction_SSE": 56.9384539980573,
+          "oracle_SSE_gain_over_arm": {
+            "mean": 42.09647900484994,
+            "ci95": [
+              28.68034546833599,
+              57.27033925793182
+            ],
+            "positive_roots": 40,
+            "roots": 45
+          }
+        },
+        "adajepa": {
+          "endpoint_raw_latent_mse": 0.05782439944058649,
+          "endpoint_mse_move_stop": [
+            0.09765050407262506,
+            0.017998294808547914
+          ],
+          "interaction_SSE": 51.848950980162506,
+          "oracle_SSE_gain_over_arm": {
+            "mean": 37.00697598695513,
+            "ci95": [
+              24.808712692723805,
+              50.882928222233836
+            ],
+            "positive_roots": 40,
+            "roots": 45
+          }
+        },
+        "optta": {
+          "endpoint_raw_latent_mse": 0.05805785442863281,
+          "endpoint_mse_move_stop": [
+            0.09807934786892669,
+            0.018036360988338964
+          ],
+          "interaction_SSE": 52.05035453287558,
+          "oracle_SSE_gain_over_arm": {
+            "mean": 37.208379539668215,
+            "ci95": [
+              24.983394080383945,
+              51.06101933397252
+            ],
+            "positive_roots": 40,
+            "roots": 45
+          }
+        }
+      },
+      "3": {
+        "oracle": {
+          "endpoint_raw_latent_mse": 0.04134037068815116,
+          "endpoint_mse_move_stop": [
+            0.0563040044402409,
+            0.026376736936061428
+          ],
+          "interaction_SSE": 21.404658756571493,
+          "oracle_SSE_gain_over_arm": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "positive_roots": 0,
+            "roots": 45
+          },
+          "directed_recovery_percent_from_uniform": 42.41655104377995,
+          "interaction_SSE_gain_percent_from_uniform": 62.101876132413764
+        },
+        "uniform": {
+          "endpoint_raw_latent_mse": 0.05999428251964397,
+          "endpoint_mse_move_stop": [
+            0.0989748572161423,
+            0.021013707823145666
+          ],
+          "interaction_SSE": 56.4794680374102,
+          "oracle_SSE_gain_over_arm": {
+            "mean": 35.07480928083871,
+            "ci95": [
+              22.896807864716493,
+              49.02286926794006
+            ],
+            "positive_roots": 39,
+            "roots": 45
+          }
+        },
+        "nominal": {
+          "endpoint_raw_latent_mse": 0.12396595199288761,
+          "endpoint_mse_move_stop": [
+            0.16542241962624954,
+            0.08250948435952568
+          ],
+          "interaction_SSE": 56.458486319865976,
+          "oracle_SSE_gain_over_arm": {
+            "mean": 35.05382756329448,
+            "ci95": [
+              22.94980114304821,
+              49.02162707420424
+            ],
+            "positive_roots": 39,
+            "roots": 45
+          }
+        },
+        "frozen": {
+          "endpoint_raw_latent_mse": 0.12396595452882687,
+          "endpoint_mse_move_stop": [
+            0.16542242076997568,
+            0.08250948828767805
+          ],
+          "interaction_SSE": 56.45848699201217,
+          "oracle_SSE_gain_over_arm": {
+            "mean": 35.053828235440676,
+            "ci95": [
+              22.949802680636523,
+              49.02162801581407
+            ],
+            "positive_roots": 39,
+            "roots": 45
+          }
+        },
+        "gru": {
+          "endpoint_raw_latent_mse": 0.16940687817326425,
+          "endpoint_mse_move_stop": [
+            0.31504161239898393,
+            0.023772143947544566
+          ],
+          "interaction_SSE": 56.93823216539794,
+          "oracle_SSE_gain_over_arm": {
+            "mean": 35.53357340882643,
+            "ci95": [
+              23.36386960491152,
+              49.4728883036919
+            ],
+            "positive_roots": 39,
+            "roots": 45
+          }
+        },
+        "adajepa": {
+          "endpoint_raw_latent_mse": 0.06660609611814094,
+          "endpoint_mse_move_stop": [
+            0.10445260803021401,
+            0.028759584206067883
+          ],
+          "interaction_SSE": 50.32727572325118,
+          "oracle_SSE_gain_over_arm": {
+            "mean": 28.922616966679694,
+            "ci95": [
+              18.351704873676965,
+              40.94431714226686
+            ],
+            "positive_roots": 39,
+            "roots": 45
+          }
+        },
+        "optta": {
+          "endpoint_raw_latent_mse": 0.06797453963958078,
+          "endpoint_mse_move_stop": [
+            0.10646565298203646,
+            0.029483426297125092
+          ],
+          "interaction_SSE": 50.54904031312981,
+          "oracle_SSE_gain_over_arm": {
+            "mean": 29.144381556558322,
+            "ci95": [
+              18.43876931655405,
+              41.22151127030988
+            ],
+            "positive_roots": 38,
+            "roots": 45
+          }
+        }
+      },
+      "4": {
+        "oracle": {
+          "endpoint_raw_latent_mse": 0.05282220615306143,
+          "endpoint_mse_move_stop": [
+            0.06815688426722574,
+            0.037487528038897135
+          ],
+          "interaction_SSE": 22.826334870559354,
+          "oracle_SSE_gain_over_arm": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "positive_roots": 0,
+            "roots": 45
+          },
+          "directed_recovery_percent_from_uniform": 42.41446215864545,
+          "interaction_SSE_gain_percent_from_uniform": 59.61644179970977
+        },
+        "uniform": {
+          "endpoint_raw_latent_mse": 0.06631982848966447,
+          "endpoint_mse_move_stop": [
+            0.10550583492542732,
+            0.027133822053901663
+          ],
+          "interaction_SSE": 56.5238326879163,
+          "oracle_SSE_gain_over_arm": {
+            "mean": 33.697497817356926,
+            "ci95": [
+              21.391383153280827,
+              47.74854290767341
+            ],
+            "positive_roots": 38,
+            "roots": 45
+          }
+        },
+        "nominal": {
+          "endpoint_raw_latent_mse": 0.13291243579398998,
+          "endpoint_mse_move_stop": [
+            0.17405291118632527,
+            0.09177196040165478
+          ],
+          "interaction_SSE": 56.459199836874966,
+          "oracle_SSE_gain_over_arm": {
+            "mean": 33.63286496631561,
+            "ci95": [
+              21.34760349518473,
+              47.729648286308304
+            ],
+            "positive_roots": 38,
+            "roots": 45
+          }
+        },
+        "frozen": {
+          "endpoint_raw_latent_mse": 0.1329124375750133,
+          "endpoint_mse_move_stop": [
+            0.1740529147137006,
+            0.09177196043632599
+          ],
+          "interaction_SSE": 56.459199524217375,
+          "oracle_SSE_gain_over_arm": {
+            "mean": 33.63286465365801,
+            "ci95": [
+              21.347603121501503,
+              47.729647906371895
+            ],
+            "positive_roots": 38,
+            "roots": 45
+          }
+        },
+        "gru": {
+          "endpoint_raw_latent_mse": 0.18045196202111133,
+          "endpoint_mse_move_stop": [
+            0.3230819643091541,
+            0.03782195973306858
+          ],
+          "interaction_SSE": 56.93818916024809,
+          "oracle_SSE_gain_over_arm": {
+            "mean": 34.11185428968875,
+            "ci95": [
+              21.899772914471185,
+              48.24028254367651
+            ],
+            "positive_roots": 38,
+            "roots": 45
+          }
+        },
+        "adajepa": {
+          "endpoint_raw_latent_mse": 0.07855223487539434,
+          "endpoint_mse_move_stop": [
+            0.1144213746651951,
+            0.04268309508559356
+          ],
+          "interaction_SSE": 49.56392263502731,
+          "oracle_SSE_gain_over_arm": {
+            "mean": 26.73758776446796,
+            "ci95": [
+              16.192343985953517,
+              38.801286521321046
+            ],
+            "positive_roots": 39,
+            "roots": 45
+          }
+        },
+        "optta": {
+          "endpoint_raw_latent_mse": 0.08224029895023748,
+          "endpoint_mse_move_stop": [
+            0.11958764185524699,
+            0.04489295604522797
+          ],
+          "interaction_SSE": 49.72644924824771,
+          "oracle_SSE_gain_over_arm": {
+            "mean": 26.900114377688357,
+            "ci95": [
+              16.547087639783847,
+              38.97728905222312
+            ],
+            "positive_roots": 38,
+            "roots": 45
+          }
+        }
+      }
+    }
+  },
+  "matched": {
+    "n": 39,
+    "horizon": {
+      "1": {
+        "oracle": {
+          "endpoint_raw_latent_mse": 0.0294589789737962,
+          "endpoint_mse_move_stop": [
+            0.04486983573233766,
+            0.01404812221525475
+          ],
+          "interaction_SSE": 21.464589984630827,
+          "oracle_SSE_gain_over_arm": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "positive_roots": 0,
+            "roots": 39
+          },
+          "directed_recovery_percent_from_uniform": 43.37095250300767,
+          "interaction_SSE_gain_percent_from_uniform": 65.61137639020879
+        },
+        "uniform": {
+          "endpoint_raw_latent_mse": 0.05573476817713022,
+          "endpoint_mse_move_stop": [
+            0.09891139314868491,
+            0.012558143205575514
+          ],
+          "interaction_SSE": 62.41770600705104,
+          "oracle_SSE_gain_over_arm": {
+            "mean": 40.953116022420204,
+            "ci95": [
+              27.778631221477628,
+              55.64758957607185
+            ],
+            "positive_roots": 34,
+            "roots": 39
+          }
+        },
+        "nominal": {
+          "endpoint_raw_latent_mse": 0.103842521574135,
+          "endpoint_mse_move_stop": [
+            0.15090055270666664,
+            0.05678449044160328
+          ],
+          "interaction_SSE": 62.41770600705104,
+          "oracle_SSE_gain_over_arm": {
+            "mean": 40.953116022420204,
+            "ci95": [
+              27.778631221477628,
+              55.64758957607185
+            ],
+            "positive_roots": 34,
+            "roots": 39
+          }
+        },
+        "frozen": {
+          "endpoint_raw_latent_mse": 0.10384251898348278,
+          "endpoint_mse_move_stop": [
+            0.15090054820792798,
+            0.05678448975903757
+          ],
+          "interaction_SSE": 62.41770600705104,
+          "oracle_SSE_gain_over_arm": {
+            "mean": 40.953116022420204,
+            "ci95": [
+              27.778631221477628,
+              55.64758957607185
+            ],
+            "positive_roots": 34,
+            "roots": 39
+          }
+        },
+        "gru": {
+          "endpoint_raw_latent_mse": 0.1717360666049122,
+          "endpoint_mse_move_stop": [
+            0.33987634729242167,
+            0.003595785917402773
+          ],
+          "interaction_SSE": 62.416695552746674,
+          "oracle_SSE_gain_over_arm": {
+            "mean": 40.95210556811583,
+            "ci95": [
+              27.778392594167684,
+              55.646101015242174
+            ],
+            "positive_roots": 34,
+            "roots": 39
+          }
+        },
+        "adajepa": {
+          "endpoint_raw_latent_mse": 0.05621470881449148,
+          "endpoint_mse_move_stop": [
+            0.10263659953384315,
+            0.009792818095139872
+          ],
+          "interaction_SSE": 60.16263908945366,
+          "oracle_SSE_gain_over_arm": {
+            "mean": 38.69804910482282,
+            "ci95": [
+              25.95897905945589,
+              52.880415224423174
+            ],
+            "positive_roots": 34,
+            "roots": 39
+          }
+        },
+        "optta": {
+          "endpoint_raw_latent_mse": 0.05620503987000334,
+          "endpoint_mse_move_stop": [
+            0.1026239514153412,
+            0.009786128324665466
+          ],
+          "interaction_SSE": 60.26616843450745,
+          "oracle_SSE_gain_over_arm": {
+            "mean": 38.80157844987663,
+            "ci95": [
+              26.02250005505214,
+              53.00305056043915
+            ],
+            "positive_roots": 34,
+            "roots": 39
+          }
+        }
+      },
+      "2": {
+        "oracle": {
+          "endpoint_raw_latent_mse": 0.030865772124679603,
+          "endpoint_mse_move_stop": [
+            0.041650757091183245,
+            0.020080787158175965
+          ],
+          "interaction_SSE": 16.497620094354353,
+          "oracle_SSE_gain_over_arm": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "positive_roots": 0,
+            "roots": 39
+          },
+          "directed_recovery_percent_from_uniform": 52.25081234226795,
+          "interaction_SSE_gain_percent_from_uniform": 73.56900605656558
+        },
+        "uniform": {
+          "endpoint_raw_latent_mse": 0.059113252539463104,
+          "endpoint_mse_move_stop": [
+            0.1013013820042896,
+            0.016925123074636585
+          ],
+          "interaction_SSE": 62.41770600705104,
+          "oracle_SSE_gain_over_arm": {
+            "mean": 45.92008591269668,
+            "ci95": [
+              31.071075647758715,
+              62.16659904869688
+            ],
+            "positive_roots": 34,
+            "roots": 39
+          }
+        },
+        "nominal": {
+          "endpoint_raw_latent_mse": 0.11904319488212263,
+          "endpoint_mse_move_stop": [
+            0.16546174195139815,
+            0.07262464781284711
+          ],
+          "interaction_SSE": 62.41770600705104,
+          "oracle_SSE_gain_over_arm": {
+            "mean": 45.92008591269668,
+            "ci95": [
+              31.071075647758715,
+              62.16659904869688
+            ],
+            "positive_roots": 34,
+            "roots": 39
+          }
+        },
+        "frozen": {
+          "endpoint_raw_latent_mse": 0.1190431957758541,
+          "endpoint_mse_move_stop": [
+            0.16546174193964447,
+            0.07262464961206373
+          ],
+          "interaction_SSE": 62.41770600705104,
+          "oracle_SSE_gain_over_arm": {
+            "mean": 45.92008591269668,
+            "ci95": [
+              31.071075647758715,
+              62.16659904869688
+            ],
+            "positive_roots": 34,
+            "roots": 39
+          }
+        },
+        "gru": {
+          "endpoint_raw_latent_mse": 0.1767292974571662,
+          "endpoint_mse_move_stop": [
+            0.34059126633369696,
+            0.0128673285806356
+          ],
+          "interaction_SSE": 62.41664435171762,
+          "oracle_SSE_gain_over_arm": {
+            "mean": 45.91902425736327,
+            "ci95": [
+              31.070552334218085,
+              62.16537849569108
+            ],
+            "positive_roots": 34,
+            "roots": 39
+          }
+        },
+        "adajepa": {
+          "endpoint_raw_latent_mse": 0.0610490043097473,
+          "endpoint_mse_move_stop": [
+            0.1050308930489208,
+            0.01706711557057378
+          ],
+          "interaction_SSE": 57.17514723554507,
+          "oracle_SSE_gain_over_arm": {
+            "mean": 40.67752714119071,
+            "ci95": [
+              27.128230552751806,
+              55.70938979745888
+            ],
+            "positive_roots": 34,
+            "roots": 39
+          }
+        },
+        "optta": {
+          "endpoint_raw_latent_mse": 0.06117428005764483,
+          "endpoint_mse_move_stop": [
+            0.10544320410604807,
+            0.016905356009241642
+          ],
+          "interaction_SSE": 57.40578870130794,
+          "oracle_SSE_gain_over_arm": {
+            "mean": 40.9081686069536,
+            "ci95": [
+              27.350228207259256,
+              55.863499513700624
+            ],
+            "positive_roots": 34,
+            "roots": 39
+          }
+        }
+      },
+      "3": {
+        "oracle": {
+          "endpoint_raw_latent_mse": 0.04522893678534499,
+          "endpoint_mse_move_stop": [
+            0.06203551924846823,
+            0.02842235432222175
+          ],
+          "interaction_SSE": 23.832533002043792,
+          "oracle_SSE_gain_over_arm": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "positive_roots": 0,
+            "roots": 39
+          },
+          "directed_recovery_percent_from_uniform": 42.387550017741695,
+          "interaction_SSE_gain_percent_from_uniform": 61.817672377527714
+        },
+        "uniform": {
+          "endpoint_raw_latent_mse": 0.06522056393778972,
+          "endpoint_mse_move_stop": [
+            0.1085293003886914,
+            0.02191182748688807
+          ],
+          "interaction_SSE": 62.41770600705104,
+          "oracle_SSE_gain_over_arm": {
+            "mean": 38.58517300500724,
+            "ci95": [
+              25.198391015001484,
+              53.416147209404386
+            ],
+            "positive_roots": 33,
+            "roots": 39
+          }
+        },
+        "nominal": {
+          "endpoint_raw_latent_mse": 0.1291081522822226,
+          "endpoint_mse_move_stop": [
+            0.17519867818290344,
+            0.08301762638154181
+          ],
+          "interaction_SSE": 62.41770600705104,
+          "oracle_SSE_gain_over_arm": {
+            "mean": 38.58517300500724,
+            "ci95": [
+              25.198391015001484,
+              53.416147209404386
+            ],
+            "positive_roots": 33,
+            "roots": 39
+          }
+        },
+        "frozen": {
+          "endpoint_raw_latent_mse": 0.12910815559642,
+          "endpoint_mse_move_stop": [
+            0.17519868115912,
+            0.0830176300337199
+          ],
+          "interaction_SSE": 62.41770600705104,
+          "oracle_SSE_gain_over_arm": {
+            "mean": 38.58517300500724,
+            "ci95": [
+              25.198391015001484,
+              53.416147209404386
+            ],
+            "positive_roots": 33,
+            "roots": 39
+          }
+        },
+        "gru": {
+          "endpoint_raw_latent_mse": 0.18586045481532415,
+          "endpoint_mse_move_stop": [
+            0.34588586109455305,
+            0.02583504853609524
+          ],
+          "interaction_SSE": 62.41657807831216,
+          "oracle_SSE_gain_over_arm": {
+            "mean": 38.58404507626837,
+            "ci95": [
+              25.19750433504273,
+              53.41530738438505
+            ],
+            "positive_roots": 33,
+            "roots": 39
+          }
+        },
+        "adajepa": {
+          "endpoint_raw_latent_mse": 0.06932454202917494,
+          "endpoint_mse_move_stop": [
+            0.11110780076113617,
+            0.027541283297213677
+          ],
+          "interaction_SSE": 55.35294540659582,
+          "oracle_SSE_gain_over_arm": {
+            "mean": 31.520412404552033,
+            "ci95": [
+              19.955482460340026,
+              44.61176245419159
+            ],
+            "positive_roots": 33,
+            "roots": 39
+          }
+        },
+        "optta": {
+          "endpoint_raw_latent_mse": 0.07032063145732063,
+          "endpoint_mse_move_stop": [
+            0.11286140966772093,
+            0.027779853246920352
+          ],
+          "interaction_SSE": 55.59544769333794,
+          "oracle_SSE_gain_over_arm": {
+            "mean": 31.762914691294164,
+            "ci95": [
+              20.234241698774486,
+              45.10946601717764
+            ],
+            "positive_roots": 32,
+            "roots": 39
+          }
+        }
+      },
+      "4": {
+        "oracle": {
+          "endpoint_raw_latent_mse": 0.05786632594324503,
+          "endpoint_mse_move_stop": [
+            0.07526628801983032,
+            0.04046636386665975
+          ],
+          "interaction_SSE": 25.44528898083182,
+          "oracle_SSE_gain_over_arm": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "positive_roots": 0,
+            "roots": 39
+          },
+          "directed_recovery_percent_from_uniform": 42.35190544213498,
+          "interaction_SSE_gain_percent_from_uniform": 59.23386069658282
+        },
+        "uniform": {
+          "endpoint_raw_latent_mse": 0.07209048580197004,
+          "endpoint_mse_move_stop": [
+            0.11572558912874088,
+            0.028455382475199298
+          ],
+          "interaction_SSE": 62.41770600705104,
+          "oracle_SSE_gain_over_arm": {
+            "mean": 36.97241702621921,
+            "ci95": [
+              23.574136133764057,
+              51.98444654813347
+            ],
+            "positive_roots": 32,
+            "roots": 39
+          }
+        },
+        "nominal": {
+          "endpoint_raw_latent_mse": 0.13808729850707163,
+          "endpoint_mse_move_stop": [
+            0.18381188847368857,
+            0.09236270854045472
+          ],
+          "interaction_SSE": 62.41770600705104,
+          "oracle_SSE_gain_over_arm": {
+            "mean": 36.97241702621921,
+            "ci95": [
+              23.574136133764057,
+              51.98444654813347
+            ],
+            "positive_roots": 32,
+            "roots": 39
+          }
+        },
+        "frozen": {
+          "endpoint_raw_latent_mse": 0.13808730002174374,
+          "endpoint_mse_move_stop": [
+            0.18381189287679445,
+            0.09236270716669293
+          ],
+          "interaction_SSE": 62.41770600705104,
+          "oracle_SSE_gain_over_arm": {
+            "mean": 36.97241702621921,
+            "ci95": [
+              23.574136133764057,
+              51.98444654813347
+            ],
+            "positive_roots": 32,
+            "roots": 39
+          }
+        },
+        "gru": {
+          "endpoint_raw_latent_mse": 0.19766778155745052,
+          "endpoint_mse_move_stop": [
+            0.35426153104886643,
+            0.04107403206603476
+          ],
+          "interaction_SSE": 62.41652923280139,
+          "oracle_SSE_gain_over_arm": {
+            "mean": 36.97124025196957,
+            "ci95": [
+              23.571868286746806,
+              51.98286172403955
+            ],
+            "positive_roots": 32,
+            "roots": 39
+          }
+        },
+        "adajepa": {
+          "endpoint_raw_latent_mse": 0.08117461256014387,
+          "endpoint_mse_move_stop": [
+            0.12073755146051302,
+            0.04161167365977473
+          ],
+          "interaction_SSE": 54.39318464738954,
+          "oracle_SSE_gain_over_arm": {
+            "mean": 28.94789566655773,
+            "ci95": [
+              17.42154722497693,
+              42.31502451883793
+            ],
+            "positive_roots": 33,
+            "roots": 39
+          }
+        },
+        "optta": {
+          "endpoint_raw_latent_mse": 0.08411256355975817,
+          "endpoint_mse_move_stop": [
+            0.12523915389197346,
+            0.04298597322754294
+          ],
+          "interaction_SSE": 54.537301371423915,
+          "oracle_SSE_gain_over_arm": {
+            "mean": 29.0920123905921,
+            "ci95": [
+              17.716430125848525,
+              42.312448070844816
+            ],
+            "positive_roots": 32,
+            "roots": 39
+          }
+        }
+      }
+    }
+  },
+  "physical_nonzero": {
+    "n": 34,
+    "horizon": {
+      "1": {
+        "oracle": {
+          "endpoint_raw_latent_mse": 0.032199051980593446,
+          "endpoint_mse_move_stop": [
+            0.0497586014606351,
+            0.014639502500551802
+          ],
+          "interaction_SSE": 24.53481636769127,
+          "oracle_SSE_gain_over_arm": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "positive_roots": 0,
+            "roots": 34
+          },
+          "directed_recovery_percent_from_uniform": 43.37095250300768,
+          "interaction_SSE_gain_percent_from_uniform": 65.73195578933023
+        },
+        "uniform": {
+          "endpoint_raw_latent_mse": 0.06220177545777105,
+          "endpoint_mse_move_stop": [
+            0.11187980791911524,
+            0.012523742996426881
+          ],
+          "interaction_SSE": 71.59678041985266,
+          "oracle_SSE_gain_over_arm": {
+            "mean": 47.06196405216138,
+            "ci95": [
+              32.83724534314954,
+              62.942174834680394
+            ],
+            "positive_roots": 34,
+            "roots": 34
+          }
+        },
+        "nominal": {
+          "endpoint_raw_latent_mse": 0.11028161290675327,
+          "endpoint_mse_move_stop": [
+            0.16466705753128782,
+            0.05589616828221873
+          ],
+          "interaction_SSE": 71.59678041985266,
+          "oracle_SSE_gain_over_arm": {
+            "mean": 47.06196405216138,
+            "ci95": [
+              32.83724534314954,
+              62.942174834680394
+            ],
+            "positive_roots": 34,
+            "roots": 34
+          }
+        },
+        "frozen": {
+          "endpoint_raw_latent_mse": 0.1102816104444712,
+          "endpoint_mse_move_stop": [
+            0.1646670530453441,
+            0.0558961678435983
+          ],
+          "interaction_SSE": 71.59678041985266,
+          "oracle_SSE_gain_over_arm": {
+            "mean": 47.06196405216138,
+            "ci95": [
+              32.83724534314954,
+              62.942174834680394
+            ],
+            "positive_roots": 34,
+            "roots": 34
+          }
+        },
+        "gru": {
+          "endpoint_raw_latent_mse": 0.1965329369909169,
+          "endpoint_mse_move_stop": [
+            0.3890546819743152,
+            0.004011192007518599
+          ],
+          "interaction_SSE": 71.59562134740857,
+          "oracle_SSE_gain_over_arm": {
+            "mean": 47.060804979717275,
+            "ci95": [
+              32.83706360481395,
+              62.94142091831216
+            ],
+            "positive_roots": 34,
+            "roots": 34
+          }
+        },
+        "adajepa": {
+          "endpoint_raw_latent_mse": 0.06328369563683911,
+          "endpoint_mse_move_stop": [
+            0.11627996383937665,
+            0.010287427434301612
+          ],
+          "interaction_SSE": 69.00847910019245,
+          "oracle_SSE_gain_over_arm": {
+            "mean": 44.47366273250116,
+            "ci95": [
+              30.957080973899583,
+              59.930153935431626
+            ],
+            "positive_roots": 34,
+            "roots": 34
+          }
+        },
+        "optta": {
+          "endpoint_raw_latent_mse": 0.0632823403897786,
+          "endpoint_mse_move_stop": [
+            0.11630544986489656,
+            0.010259230914660666
+          ],
+          "interaction_SSE": 69.12741585912927,
+          "oracle_SSE_gain_over_arm": {
+            "mean": 44.59259949143801,
+            "ci95": [
+              31.05985867598257,
+              60.01356528708439
+            ],
+            "positive_roots": 34,
+            "roots": 34
+          }
+        }
+      },
+      "2": {
+        "oracle": {
+          "endpoint_raw_latent_mse": 0.033391526395993784,
+          "endpoint_mse_move_stop": [
+            0.045810430811038944,
+            0.02097262198094862
+          ],
+          "interaction_SSE": 18.900215694607862,
+          "oracle_SSE_gain_over_arm": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "positive_roots": 0,
+            "roots": 34
+          },
+          "directed_recovery_percent_from_uniform": 52.25081234226795,
+          "interaction_SSE_gain_percent_from_uniform": 73.60186368189382
+        },
+        "uniform": {
+          "endpoint_raw_latent_mse": 0.06522907605485573,
+          "endpoint_mse_move_stop": [
+            0.11371599111386177,
+            0.016742160995849655
+          ],
+          "interaction_SSE": 71.59678041985266,
+          "oracle_SSE_gain_over_arm": {
+            "mean": 52.6965647252448,
+            "ci95": [
+              36.69986772446631,
+              70.68459134812018
+            ],
+            "positive_roots": 34,
+            "roots": 34
+          }
+        },
+        "nominal": {
+          "endpoint_raw_latent_mse": 0.12354257703672589,
+          "endpoint_mse_move_stop": [
+            0.1765770496177782,
+            0.0705081044556736
+          ],
+          "interaction_SSE": 71.59678041985266,
+          "oracle_SSE_gain_over_arm": {
+            "mean": 52.6965647252448,
+            "ci95": [
+              36.69986772446631,
+              70.68459134812018
+            ],
+            "positive_roots": 34,
+            "roots": 34
+          }
+        },
+        "frozen": {
+          "endpoint_raw_latent_mse": 0.12354257811398314,
+          "endpoint_mse_move_stop": [
+            0.17657704936674645,
+            0.07050810686121978
+          ],
+          "interaction_SSE": 71.59678041985266,
+          "oracle_SSE_gain_over_arm": {
+            "mean": 52.6965647252448,
+            "ci95": [
+              36.69986772446631,
+              70.68459134812018
+            ],
+            "positive_roots": 34,
+            "roots": 34
+          }
+        },
+        "gru": {
+          "endpoint_raw_latent_mse": 0.20198865467415839,
+          "endpoint_mse_move_stop": [
+            0.3896270829640819,
+            0.014350226384235023
+          ],
+          "interaction_SSE": 71.59556259915882,
+          "oracle_SSE_gain_over_arm": {
+            "mean": 52.695346904550945,
+            "ci95": [
+              36.69911094773017,
+              70.6839246905212
+            ],
+            "positive_roots": 34,
+            "roots": 34
+          }
+        },
+        "adajepa": {
+          "endpoint_raw_latent_mse": 0.06831367436649083,
+          "endpoint_mse_move_stop": [
+            0.1185718314704363,
+            0.018055517262545312
+          ],
+          "interaction_SSE": 65.58095075498454,
+          "oracle_SSE_gain_over_arm": {
+            "mean": 46.68073506037666,
+            "ci95": [
+              31.948662093075946,
+              63.346573545723714
+            ],
+            "positive_roots": 34,
+            "roots": 34
+          }
+        },
+        "optta": {
+          "endpoint_raw_latent_mse": 0.06831692957904083,
+          "endpoint_mse_move_stop": [
+            0.11899625302802974,
+            0.017637606130051955
+          ],
+          "interaction_SSE": 65.8460576626186,
+          "oracle_SSE_gain_over_arm": {
+            "mean": 46.94584196801074,
+            "ci95": [
+              32.208925705511,
+              63.75994582889146
+            ],
+            "positive_roots": 34,
+            "roots": 34
+          }
+        }
+      },
+      "3": {
+        "oracle": {
+          "endpoint_raw_latent_mse": 0.04934156115744747,
+          "endpoint_mse_move_stop": [
+            0.06861016399202213,
+            0.0300729583228728
+          ],
+          "interaction_SSE": 27.31579567445088,
+          "oracle_SSE_gain_over_arm": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "positive_roots": 0,
+            "roots": 34
+          },
+          "directed_recovery_percent_from_uniform": 42.387550017741695,
+          "interaction_SSE_gain_percent_from_uniform": 61.84773181940925
+        },
+        "uniform": {
+          "endpoint_raw_latent_mse": 0.07160238167277799,
+          "endpoint_mse_move_stop": [
+            0.12126506771010934,
+            0.021939695635446694
+          ],
+          "interaction_SSE": 71.59678041985266,
+          "oracle_SSE_gain_over_arm": {
+            "mean": 44.28098474540178,
+            "ci95": [
+              29.384953488124847,
+              60.913554951393806
+            ],
+            "positive_roots": 33,
+            "roots": 34
+          }
+        },
+        "nominal": {
+          "endpoint_raw_latent_mse": 0.13225232594121805,
+          "endpoint_mse_move_stop": [
+            0.18446450502287065,
+            0.08004014685956547
+          ],
+          "interaction_SSE": 71.59678041985266,
+          "oracle_SSE_gain_over_arm": {
+            "mean": 44.28098474540178,
+            "ci95": [
+              29.384953488124847,
+              60.913554951393806
+            ],
+            "positive_roots": 33,
+            "roots": 34
+          }
+        },
+        "frozen": {
+          "endpoint_raw_latent_mse": 0.13225232960423636,
+          "endpoint_mse_move_stop": [
+            0.18446450819446228,
+            0.08004015101401031
+          ],
+          "interaction_SSE": 71.59678041985266,
+          "oracle_SSE_gain_over_arm": {
+            "mean": 44.28098474540178,
+            "ci95": [
+              29.384953488124847,
+              60.913554951393806
+            ],
+            "positive_roots": 33,
+            "roots": 34
+          }
+        },
+        "gru": {
+          "endpoint_raw_latent_mse": 0.21206344903362476,
+          "endpoint_mse_move_stop": [
+            0.39532763027739903,
+            0.0287992677898504
+          ],
+          "interaction_SSE": 71.59548656681403,
+          "oracle_SSE_gain_over_arm": {
+            "mean": 44.279690892363135,
+            "ci95": [
+              29.38415626921777,
+              60.91290747463152
+            ],
+            "positive_roots": 33,
+            "roots": 34
+          }
+        },
+        "adajepa": {
+          "endpoint_raw_latent_mse": 0.07690948334566769,
+          "endpoint_mse_move_stop": [
+            0.12458472152044127,
+            0.02923424517089411
+          ],
+          "interaction_SSE": 63.48949680729997,
+          "oracle_SSE_gain_over_arm": {
+            "mean": 36.173701132849104,
+            "ci95": [
+              23.228819754207038,
+              50.75499952368502
+            ],
+            "positive_roots": 33,
+            "roots": 34
+          }
+        },
+        "optta": {
+          "endpoint_raw_latent_mse": 0.07751559345428227,
+          "endpoint_mse_move_stop": [
+            0.12621065673296053,
+            0.028820530175603994
+          ],
+          "interaction_SSE": 63.76871424919182,
+          "oracle_SSE_gain_over_arm": {
+            "mean": 36.45291857474094,
+            "ci95": [
+              23.375443389554807,
+              51.052707915671995
+            ],
+            "positive_roots": 32,
+            "roots": 34
+          }
+        }
+      },
+      "4": {
+        "oracle": {
+          "endpoint_raw_latent_mse": 0.06314062626769554,
+          "endpoint_mse_move_stop": [
+            0.08290337764388508,
+            0.043377874891506
+          ],
+          "interaction_SSE": 29.170808198520294,
+          "oracle_SSE_gain_over_arm": {
+            "mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "positive_roots": 0,
+            "roots": 34
+          },
+          "directed_recovery_percent_from_uniform": 42.35190544213498,
+          "interaction_SSE_gain_percent_from_uniform": 59.25681570112657
+        },
+        "uniform": {
+          "endpoint_raw_latent_mse": 0.07881533657844077,
+          "endpoint_mse_move_stop": [
+            0.12863937077812593,
+            0.028991302378755662
+          ],
+          "interaction_SSE": 71.59678041985266,
+          "oracle_SSE_gain_over_arm": {
+            "mean": 42.42597222133236,
+            "ci95": [
+              27.549421824237555,
+              59.08202171516943
+            ],
+            "positive_roots": 32,
+            "roots": 34
+          }
+        },
+        "nominal": {
+          "endpoint_raw_latent_mse": 0.140353329715421,
+          "endpoint_mse_move_stop": [
+            0.19185808930813691,
+            0.08884857012270515
+          ],
+          "interaction_SSE": 71.59678041985266,
+          "oracle_SSE_gain_over_arm": {
+            "mean": 42.42597222133236,
+            "ci95": [
+              27.549421824237555,
+              59.08202171516943
+            ],
+            "positive_roots": 32,
+            "roots": 34
+          }
+        },
+        "frozen": {
+          "endpoint_raw_latent_mse": 0.1403533309353588,
+          "endpoint_mse_move_stop": [
+            0.19185809225661457,
+            0.0888485696141029
+          ],
+          "interaction_SSE": 71.59678041985266,
+          "oracle_SSE_gain_over_arm": {
+            "mean": 42.42597222133236,
+            "ci95": [
+              27.549421824237555,
+              59.08202171516943
+            ],
+            "positive_roots": 32,
+            "roots": 34
+          }
+        },
+        "gru": {
+          "endpoint_raw_latent_mse": 0.22511037767070152,
+          "endpoint_mse_move_stop": [
+            0.404459466917508,
+            0.04576128842389492
+          ],
+          "interaction_SSE": 71.59543052911289,
+          "oracle_SSE_gain_over_arm": {
+            "mean": 42.424622330592584,
+            "ci95": [
+              27.54665823456277,
+              59.0787165124245
+            ],
+            "positive_roots": 32,
+            "roots": 34
+          }
+        },
+        "adajepa": {
+          "endpoint_raw_latent_mse": 0.08928493185694993,
+          "endpoint_mse_move_stop": [
+            0.13440289218838639,
+            0.04416697152551348
+          ],
+          "interaction_SSE": 62.386663746107764,
+          "oracle_SSE_gain_over_arm": {
+            "mean": 33.21585554758746,
+            "ci95": [
+              20.426503642370022,
+              47.89650563852352
+            ],
+            "positive_roots": 32,
+            "roots": 34
+          }
+        },
+        "optta": {
+          "endpoint_raw_latent_mse": 0.09146744603565507,
+          "endpoint_mse_move_stop": [
+            0.1385705191042317,
+            0.044364372967078465
+          ],
+          "interaction_SSE": 62.55357325543626,
+          "oracle_SSE_gain_over_arm": {
+            "mean": 33.38276505691596,
+            "ci95": [
+              20.65007718565716,
+              48.047223729793885
+            ],
+            "positive_roots": 32,
+            "roots": 34
+          }
+        }
+      }
+    }
+  },
+  "heads": {
+    "matched_roots": 39,
+    "slow_fast_output_rms_by_H": [
+      0.19098469323461692,
+      0.2312518232983808,
+      0.2061377144938134,
+      0.22224987913907196
+    ]
+  },
+  "offered": 48,
+  "exclusions": [
+    [
+      2026114000,
+      [
+        "physical_interaction_zero"
+      ]
+    ],
+    [
+      2026114002,
+      [
+        "complete",
+        "rgb",
+        "physical_root"
+      ]
+    ],
+    [
+      2026114008,
+      [
+        "rgb",
+        "window",
+        "physical_root"
+      ]
+    ],
+    [
+      2026114009,
+      [
+        "rgb",
+        "window",
+        "physical_root"
+      ]
+    ],
+    [
+      2026114011,
+      [
+        "physical_interaction_zero"
+      ]
+    ],
+    [
+      2026114016,
+      [
+        "rgb",
+        "window",
+        "physical_root"
+      ]
+    ],
+    [
+      2026114024,
+      [
+        "rgb",
+        "window",
+        "physical_root"
+      ]
+    ],
+    [
+      2026114027,
+      [
+        "physical_interaction_zero"
+      ]
+    ],
+    [
+      2026114029,
+      [
+        "complete",
+        "rgb",
+        "physical_root"
+      ]
+    ],
+    [
+      2026114032,
+      [
+        "complete",
+        "rgb",
+        "physical_root"
+      ]
+    ],
+    [
+      2026114038,
+      [
+        "rgb",
+        "window",
+        "physical_root"
+      ]
+    ],
+    [
+      2026114041,
+      [
+        "rgb",
+        "window",
+        "physical_root"
+      ]
+    ],
+    [
+      2026114042,
+      [
+        "physical_interaction_zero"
+      ]
+    ],
+    [
+      2026114046,
+      [
+        "physical_interaction_zero"
+      ]
+    ]
+  ]
+}
